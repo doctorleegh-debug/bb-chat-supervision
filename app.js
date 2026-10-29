@@ -207,7 +207,7 @@
   const title = text(meta.title, '상담 품질 감독'); $('dashboard-title').textContent = title; document.title = `${title} | Daily Review`;
   $('updated-at').textContent = timestamp(meta.updatedAt);
   const scheduleTime = (value, fallback) => typeof value === 'string' && /^([01]\d|2[0-3]):[0-5]\d$/.test(value) ? value : fallback;
-  $('schedule-text').textContent = `평일 ${scheduleTime(meta.schedule?.weekday, '18:00')} · 주말 ${scheduleTime(meta.schedule?.weekend, '16:00')} KST`;
+
   try {
     const url = new URL(text(meta.sheetUrl));
     if (url.protocol === 'https:' && url.hostname === 'docs.google.com' && /^\/spreadsheets\/d\/[A-Za-z0-9_-]+(?:\/|$)/.test(url.pathname) && !url.username && !url.password && !url.port) {
