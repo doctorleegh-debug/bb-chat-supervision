@@ -132,3 +132,7 @@ node --check data.js
 - 상단 실무자 코멘트는 meta.staffMemos와 meta.staffMemoUrl로 연결합니다. 입력한 글은 복사 후 원장의 새 행에 붙여넣어야 공유 저장됩니다. 정적 사이트가 익명으로 Google 원장에 직접 쓰거나 로컬 입력만으로 저장완료를 가장하지 않습니다.
 - 새 메모는 화면표시 N으로 생성됩니다. 점검자가 먼저 읽고 피드백을 반영하며 개인정보/공개 표시 승인을 검토한 메모만 공개 목록에 넣습니다. 원장은 로그인 권한이 필요하고 공유권한을 이 코드가 변경하지 않습니다.
 - 2026-10-29 재검토: 세부 활성14건(누락5/확인3/충돌6), 확정오류0. 원장에 패스 이력을 유지하며 과거 집계와 구분합니다.
+
+
+## 2026-10-30 update
+Same-page statistics uses the same dated daily records. A missing answer means no staff response at all, not an incomplete reply. Five former missing labels were withdrawn, not resolved. Follow-up status and evidence remain distinct. The canonical report address is unchanged.

@@ -69,7 +69,7 @@
       ['검토 대상 상담방', day.eligibleRooms, '개', '읽지 않음·대기 등 제외 기준 적용', ''],
       ['전체 메시지', day.messageCount, '건', '제공된 메시지 분류 전체 범위', 'teal'],
       ['확정 오류 상담', day.verdicts?.confirmedError, '개', '자료충돌·확인필요는 제외', 'red'],
-      ['후속 확인 상담', verificationCount(day.verdicts), '개', '의심·부분답변누락·자료충돌·확인필요', 'amber']
+      ['후속 확인 상담', verificationCount(day.verdicts), '개', '의심·답변누락·자료충돌·확인필요', 'amber']
     ];
     replace('kpi-grid', ...items.map(([label, value, unit, note, color]) => {
       const card = node('article', `kpi ${color}`); const figure = node('div', 'kpi-value', fmt(value));
@@ -180,7 +180,7 @@
     const item = filtered[selectedCaseIndex]; const article = node('article', 'case-review');
     const heading = node('div', 'case-review-heading'); const label = caseVerdicts.find(([key]) => key === item.verdict)[1];
     const country = countryDefinitions.find(([key]) => key === item.country)?.[1] || '미확인';
-    heading.append(node('span', 'case-verdict', label), node('span', 'case-country', country), node('h3', '', text(item.title, '상담 내용 확인')));
+    heading.append(node('span', 'case-country', country), node('span', 'case-verdict', label), node('h3', '', text(item.title, '상담 내용 확인')));
     const grid = node('div', 'case-bento');
     const quoteCard = (title, original, summary, kind) => {
       const card = node('div', 'case-cell case-' + kind); card.append(node('h4', '', title));
@@ -228,6 +228,98 @@
     if (notes.length) { const ul = node('ul', 'coverage-note'); notes.forEach(note => ul.append(node('li', '', note))); children.push(ul); }
     replace('coverage-content', ...children);
   }
+
+  // Statistics use the same selected day. Missing values are not silently zeroed.
+  const suppliedNumber = value => typeof value === 'number' && Number.isFinite(value) && value >= 0;
+  const statValue = (value, unit) => suppliedNumber(value) ? fmt(value) + unit : '집계중';
+  const statsCaseInfo = day => {
+    const rows = Array.isArray(day?.cases) ? day.cases : [];
+    const valid = rows.filter(item => item && caseVerdicts.some(([key]) => key === item.verdict));
+    const complete = day?.status === 'completed' && day?.casesComplete === true && Array.isArray(day?.cases) && rows.length === valid.length;
+    const count = key => valid.filter(item => item.verdict === key).length;
+    return { count, label: key => complete ? fmt(count(key)) + '건' : count(key) ? '집계중 · 확인 ' + fmt(count(key)) + '건' : '집계중', complete };
+  };
+  let statsCountryMetric = 'rooms';
+  function statBar(label, value, max, unit, kind = '') {
+    const row = node('div', 'stats-bar-row');
+    const track = node('div', 'mini-track'); track.setAttribute('aria-hidden', 'true');
+    const fill = node('div', 'mini-fill ' + kind); fill.style.width = (suppliedNumber(value) ? number(value) / Math.max(max, 1) * 100 : 0) + '%'; track.append(fill);
+    row.append(node('span', '', label), track, node('strong', '', statValue(value, unit))); return row;
+  }
+  function renderStatsCountries(day) {
+    ['rooms', 'messages'].forEach(key => { const tab = $('stats-country-' + key); const active = statsCountryMetric === key; tab.setAttribute('aria-selected', String(active)); tab.tabIndex = active ? 0 : -1; });
+    $('stats-country-panel').setAttribute('aria-labelledby', 'stats-country-' + statsCountryMetric);
+    if (!Array.isArray(day?.countries) || !day.countries.length) { replace('stats-country-panel', empty('국가별 집계중')); return; }
+    const groups = new Map();
+    day.countries.filter(item => item && typeof item === 'object').forEach(item => {
+      const code = text(item.code, 'ZZ');
+      const label = countryDefinitions.find(([key]) => key === code)?.[1] || text(item.name, '미분류');
+      const old = groups.get(code) || { label, value: 0, known: true };
+      old.known = old.known && suppliedNumber(item[statsCountryMetric]); old.value += number(item[statsCountryMetric]); groups.set(code, old);
+    });
+    const rows = [...groups.values()]; const max = Math.max(1, rows.reduce((sum, item) => sum + item.value, 0));
+    const unit = statsCountryMetric === 'rooms' ? '개' : '건';
+    const list = node('div', 'stats-bars');
+    rows.forEach(item => list.append(statBar(item.label, item.known ? item.value : undefined, max, unit, statsCountryMetric === 'messages' ? 'stats-teal' : '')));
+    const total = rows.reduce((sum, item) => sum + item.value, 0);
+    const expected = day[statsCountryMetric === 'rooms' ? 'eligibleRooms' : 'messageCount'];
+    const allKnown = rows.length > 0 && rows.every(item => item.known);
+    const matches = allKnown && suppliedNumber(expected) && total === number(expected);
+    replace('stats-country-panel', list, node('p', 'helper bottom-note', '국가 합계 ' + (allKnown ? fmt(total) + unit : '집계중') + ' / 일일 전체 ' + statValue(expected, unit) + (matches ? ' · 합계 일치' : ' · 누락·집계 범위 확인 필요')));
+  }
+  function renderFollowUps(day, target) {
+    const summary = day?.followUpSummary;
+    const keys = [['carried','이월'],['resolved','해결'],['unresolved','미해결'],['deferred','확인보류'],['unchecked','미확인'],['withdrawn','판정철회']];
+    const rows = Array.isArray(day?.followUps) ? day.followUps.filter(item => item && typeof item === 'object') : [];
+    if (!summary && !rows.length) { replace(target, empty('처리현황 미등록', '누락된 기록을 해결로 간주하지 않습니다.')); return; }
+    const box = node('div', 'followup-counts'); keys.forEach(([key, label]) => box.append(node('span', '', label + ' ' + (suppliedNumber(summary?.[key]) ? fmt(summary[key]) + '건' : '미등록'))));
+    const completeSummary = keys.every(([key]) => suppliedNumber(summary?.[key]));
+    const none = completeSummary && keys.every(([key]) => summary[key] === 0) && Array.isArray(day?.followUps) && !rows.length;
+    const children = [box];
+    if (dateValid(day?.followUpAsOf)) children.unshift(node('p','helper','처리 기준일 '+day.followUpAsOf+' · 판정 정정은 해결 건수와 별도 기록'));
+    if (none) children.push(node('p', 'helper', '이전 지적사항 없음'));
+    else if (!rows.length) children.push(node('p', 'helper', '세부 처리 기록 미등록 · 해결 여부는 개별 근거를 확인해 주세요.'));
+    else {
+      const list = node('ul', 'followup-list');
+      rows.forEach(item => {
+        const li = node('li'); const state = ['해결','미해결','확인보류','미확인','판정철회'].includes(item.status) ? item.status : '미확인';
+        li.append(node('strong', '', text(item.title, '지적사항')), node('span', 'followup-state', state), node('p', 'helper', '최초 보고 ' + (dateValid(item.firstReportedDate) ? item.firstReportedDate + ' KST' : '미등록') + ' · 마지막 확인 ' + (text(item.checkedAt) ? timestamp(item.checkedAt) : '미등록')));
+        li.append(node('p', '', '처리 내용: ' + text(item.update, '미등록')), node('p', 'helper', '확인 근거: ' + text(item.evidence, '미등록'))); list.append(li);
+      }); children.push(list);
+    }
+    replace(target, ...children);
+  }
+  function renderStats(day) {
+    $('stats-date').textContent = selectedDate ? selectedDate + ' · KST · ' + (day ? statusLabel(day) : '미게시') : '조회일 없음';
+    const cases = statsCaseInfo(day);
+    const items = [['검토 상담방', statValue(day?.eligibleRooms, '개'), '일일 검토 대상 상담방 · eligibleRooms', ''], ['병원답변', statValue(day?.staffMessages, '건'), '메시지 수 · 개별 담당자 미확인', 'teal'], ['확정 오답', cases.label('confirmedError'), '세부 사례 · 의심·자료충돌 제외', 'red'], ['답변누락', cases.label('missingAnswer'), '담당자 답변이 전혀 없는 사례만', 'red'], ['확인필요', cases.label('needsVerification'), '세부 사례 · 확정 오류 아님', 'amber'], ['자료충돌', cases.label('sourceConflict'), '세부 사례 · 확정 오류 아님', '']];
+    replace('stats-kpis', ...items.map(([label, value, note, color]) => { const card = node('article', 'kpi ' + color); card.append(node('h3', 'kpi-label', label), node('div', 'kpi-value stats-value', value), node('p', 'kpi-note', note)); return card; }));
+    $('stats-case-note').textContent = '오안내의심 ' + cases.label('suspectedError') + ' · 한 상담방에 여러 사례가 있을 수 있습니다. ' + (cases.complete ? '사례 집계 완료.' : '사례 집계중 · 현재 확인된 사례만 표시하며 오류 0건으로 확정하지 않습니다.');
+    renderFollowUps(day, 'stats-followups');
+    if (!days.length) replace('stats-trend', empty('게시된 일별 집계 없음'));
+    else {
+      const ordered = [...days].reverse(); const max = Math.max(1, ...ordered.map(item => number(item.eligibleRooms)));
+      const chart = node('ol', 'stats-trend'); chart.setAttribute('aria-label', '게시일별 검토 상담방 수 · 실제 날짜만 표시');
+      ordered.forEach(item => { const li = node('li', item.date === selectedDate ? 'selected' : '');
+        const mark = node('div', 'stats-point-track'); mark.setAttribute('aria-hidden', 'true');
+        if (suppliedNumber(item.eligibleRooms)) { const point = node('span', 'stats-point'); point.style.left = number(item.eligibleRooms) / max * 100 + '%'; mark.append(point); }
+        const date = node('button', 'date-link', item.date); date.type = 'button'; date.setAttribute('aria-label', item.date + ' KST 조회'); if (item.date === selectedDate) date.setAttribute('aria-current', 'date');
+        date.addEventListener('click', () => { selectedDate = item.date; render(); });
+        li.append(date, mark, node('strong', '', statValue(item.eligibleRooms, '개')), node('small', '', statusLabel(item))); chart.append(li);
+      }); replace('stats-trend', chart, node('p', 'helper', 'KST · 가로 위치는 상담방 수이며, 날짜 사이의 미게시 일자는 보간하지 않습니다.'));
+    }
+    renderStatsCountries(day);
+    if (!day?.verdicts) replace('stats-verdicts', empty('대표판정 집계중'));
+    else { const max = Math.max(1, ...verdicts.map(([key]) => number(day.verdicts[key]))); const list = node('div', 'stats-bars'); verdicts.forEach(([key, label]) => list.append(statBar(label, day.verdicts[key], max, '개', 'verdict-' + key))); replace('stats-verdicts', list); }
+    const {wrap, body} = table([['담당자 그룹',false],['병원답변',true],['확정 오답 사례',true],['누락 사례',true],['확인필요 사례',true],['자료충돌 사례',true]], (selectedDate || '미선택') + ' KST · 병원답변과 세부 사례는 다른 단위');
+    const tr = node('tr'); tr.append(node('td', '', '담당자 미확인'), node('td', 'number', statValue(day?.staffMessages, '건')), ...['confirmedError','missingAnswer','needsVerification','sourceConflict'].map(key => node('td', 'number', cases.label(key)))); body.append(tr); replace('stats-staff', wrap);
+  }
+  function setView(hash) {
+    const active = hash === '#stats'; $('report-view').hidden = active; $('stats').hidden = !active;
+    $('nav-stats').setAttribute('aria-current', active ? 'page' : 'false');
+    $('nav-overview').setAttribute('aria-current', active ? 'false' : 'page');
+  }
+
   function render() {
     const day = days.find(item => item.date === selectedDate);
     dateInput.value = selectedDate;
@@ -245,7 +337,7 @@
     else notice.textContent = `${day.date} KST · 점검 완료.`;
     if (skippedDays) notice.textContent += ' 날짜가 유효하지 않거나 중복된 기록은 표시에서 제외했습니다.';
     $('overview-title').textContent = selectedDate ? `${selectedDate} 검토 요약` : '일일 검토 요약';
-    renderKpis(day); renderVerdicts(day); renderMessages(day); renderCases(day); renderCountry(day); renderIssues(day); renderHistory(); renderCoverage(day);
+    renderKpis(day); renderVerdicts(day); renderMessages(day); renderCases(day); renderCountry(day); renderIssues(day); renderHistory(); renderCoverage(day); renderFollowUps(day, 'report-followups'); renderStats(day);
   }
   let memoSheetUrl = '';
   try { const u = new URL(text(meta.staffMemoUrl)); const gid=u.searchParams.get('gid')||u.hash.match(/gid=(\d+)/)?.[1]; if(u.protocol==='https:'&&u.hostname==='docs.google.com'&&/^\/spreadsheets\/d\/[A-Za-z0-9_-]+\/edit$/.test(u.pathname)&&/^\d+$/.test(gid||'')) memoSheetUrl=u.origin+u.pathname+'?gid='+gid+'#gid='+gid; } catch {}
@@ -298,5 +390,18 @@
   });
   $('case-previous').addEventListener('click', () => { if(selectedCaseIndex>0)selectedCaseIndex--;renderCases(days.find(day=>day.date===selectedDate)); });
   $('case-next').addEventListener('click', () => { selectedCaseIndex++;renderCases(days.find(day=>day.date===selectedDate)); });
+  ['rooms', 'messages'].forEach((key, index) => {
+    const activate = metric => { statsCountryMetric = metric; renderStatsCountries(days.find(day => day.date === selectedDate)); };
+    $('stats-country-' + key).addEventListener('click', () => activate(key));
+    $('stats-country-' + key).addEventListener('keydown', event => { let next;
+      if (event.key === 'ArrowRight' || event.key === 'ArrowLeft') next = 1 - index;
+      else if (event.key === 'Home') next = 0; else if (event.key === 'End') next = 1;
+      if (next === undefined) return; event.preventDefault(); const metric = ['rooms','messages'][next]; activate(metric); $('stats-country-' + metric).focus();
+    });
+  });
+  $('nav-stats').addEventListener('click', () => setView('#stats'));
+  ['home','overview','suspect-cases','countries','issues','history','coverage'].forEach(id => $('nav-' + id).addEventListener('click', () => setView('')));
+  window.addEventListener?.('hashchange', () => setView(window.location?.hash || ''));
+  setView(window.location?.hash || '');
   render();
 })();

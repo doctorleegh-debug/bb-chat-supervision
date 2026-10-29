@@ -6,6 +6,7 @@
   <meta name="color-scheme" content="light">
   <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'none'; font-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'">
   <meta name="referrer" content="no-referrer">
+  <link rel="canonical" href="https://doctorleegh-debug.github.io/bb-chat-supervision/">
   <meta name="description" content="비식별 상담 발췌와 판단 근거를 날짜별로 확인하는 상담 품질 감독 대시보드">
   <title>상담 품질 감독 | Daily Review</title>
   <link rel="stylesheet" href="./styles.css">
@@ -15,15 +16,16 @@
 <body>
   <a class="skip-link" href="#main">본문으로 이동</a>
   <aside class="sidebar" aria-label="대시보드 안내">
-    <a class="brand" href="#main" aria-label="상담 품질 감독 홈"><span class="brand-mark" aria-hidden="true">S<span></span></span><span>SUPERVISION<small>상담 품질 감독</small></span></a>
+    <a id="nav-home" class="brand" href="#main" aria-label="상담 품질 감독 홈"><span class="brand-mark" aria-hidden="true">S<span></span></span><span>SUPERVISION<small>상담 품질 감독</small></span></a>
     <div class="workspace-label">CLINIC OPERATIONS</div>
     <nav aria-label="주요 메뉴">
-      <a href="#overview"><span class="nav-icon" aria-hidden="true">01</span>일일 현황</a>
-      <a href="#suspect-cases"><span class="nav-icon" aria-hidden="true">02</span>오상담의심</a>
-      <a href="#countries"><span class="nav-icon" aria-hidden="true">03</span>국가별 집계</a>
-      <a href="#issues"><span class="nav-icon" aria-hidden="true">04</span>이슈 분류</a>
-      <a href="#history"><span class="nav-icon" aria-hidden="true">05</span>일별 기록</a>
-      <a href="#coverage"><span class="nav-icon" aria-hidden="true">06</span>검토 범위</a>
+      <a id="nav-overview" href="#overview"><span class="nav-icon" aria-hidden="true">01</span>일일 현황</a>
+      <a id="nav-suspect-cases" href="#suspect-cases"><span class="nav-icon" aria-hidden="true">02</span>오상담의심</a>
+      <a id="nav-countries" href="#countries"><span class="nav-icon" aria-hidden="true">03</span>국가별 집계</a>
+      <a id="nav-issues" href="#issues"><span class="nav-icon" aria-hidden="true">04</span>이슈 분류</a>
+      <a id="nav-history" href="#history"><span class="nav-icon" aria-hidden="true">05</span>일별 기록</a>
+      <a id="nav-coverage" href="#coverage"><span class="nav-icon" aria-hidden="true">06</span>검토 범위</a>
+      <a id="nav-stats" href="#stats" aria-controls="stats"><span class="nav-icon" aria-hidden="true">07</span>통계 대시보드</a>
     </nav>
     <div class="sidebar-note"><span class="eyebrow">PRIVACY FIRST</span><p>개인정보를 가린 검토 화면</p><small>이름·연락처·예약정보를 제외한<br>채팅 발췌와 판단 근거를 표시합니다.</small></div>
     <div class="sidebar-footer">운영 검토용 · KST 기준</div>
@@ -46,6 +48,7 @@
     </section>
     <div id="data-notice" class="notice" role="status" aria-live="polite">집계 데이터를 확인하고 있습니다. 표시는 모두 KST 기준입니다.</div>
     <noscript><div class="notice warning">JavaScript를 허용해야 일일 집계를 표시할 수 있습니다. 이 상태에서는 결과를 확인할 수 없습니다.</div></noscript>
+    <div id="report-view">
     <section id="overview" class="section" aria-labelledby="overview-title">
       <div class="section-heading"><div><span class="eyebrow">OVERVIEW</span><h2 id="overview-title">오늘의 검토 요약</h2></div><span class="section-caption">선택한 조회일 · KST</span></div>
       <div id="kpi-grid" class="kpi-grid"><div class="empty-state">데이터 확인 중. 아직 집계 결과가 아닙니다.</div></div>
@@ -53,10 +56,11 @@
         <article class="card verdict-card"><div class="card-heading"><h3>판정 분포</h3><span class="pill">상담별 대표판정</span></div><p class="helper">상담별 대표판정입니다.</p><div id="verdict-chart"></div></article>
         <article class="card message-card"><div class="card-heading"><h3>메시지 구성</h3><span class="pill teal">자동안내추정 별도</span></div><div id="message-breakdown"></div><p class="helper bottom-note">병원답변은 개별 담당자를 확인한 수치가 아닙니다. 자동안내추정은 문구 패턴 기반 분류이며 실제 봇 응답으로 확정하지 않습니다. 시스템·삭제 메시지는 제공된 경우 별도로 표시합니다.</p></article>
       </div>
+      <article class="card followup-card" aria-labelledby="report-followup-title"><h3 id="report-followup-title">이전 지적사항 처리현황</h3><div id="report-followups"></div></article>
     </section>
     <section id="suspect-cases" class="section suspect-section" aria-labelledby="cases-title">
       <div class="section-heading"><div><span class="eyebrow">CONSULTATION REVIEW</span><h2 id="cases-title">오상담의심</h2></div><span id="cases-date" class="section-caption">선택한 날짜의 실제 상담</span></div>
-      <p class="case-intro">고객 문의와 담당자 답변을 자료와 대조한 내용입니다.</p>
+      <p class="case-intro">고객 문의와 담당자 답변을 자료와 대조한 내용입니다. 답변누락은 담당자 답변(이미지·링크 포함)이 전혀 없는 경우만 해당합니다.</p>
       <div id="case-tabs" class="case-tabs" role="tablist" aria-label="오상담의심 판정"></div>
       <div class="case-pagination"><p id="case-count" class="helper" aria-live="polite"></p><div class="case-page-controls"><button id="case-previous" type="button" aria-label="이전 상담 사례">이전</button><span id="case-position"></span><button id="case-next" type="button" aria-label="다음 상담 사례">다음</button></div></div>
       <div id="case-panel" class="case-panel" role="tabpanel" tabindex="0" aria-live="polite"></div>
@@ -76,6 +80,20 @@
     <section id="coverage" class="section" aria-labelledby="coverage-title">
       <div class="section-heading"><div><span class="eyebrow">REVIEW SCOPE</span><h2 id="coverage-title">검토 범위</h2></div><span class="section-caption">누락 없이, 과장 없이</span></div>
       <div class="coverage-grid"><article class="card"><h3>포함 · 제외 현황</h3><div id="coverage-content"></div><p class="helper bottom-note">제외 항목은 서로 겹칠 수 있어 단순 합산하지 않습니다. 미열람 첨부는 내용 검증에 포함되지 않습니다.</p></article></div>
+    </section>
+    </div>
+    <section id="stats" class="section stats-view" aria-labelledby="stats-title" hidden>
+      <div class="section-heading"><div><span class="eyebrow">MANAGEMENT STATISTICS</span><h2 id="stats-title">통계 대시보드</h2></div><span id="stats-date" class="section-caption" aria-live="polite"></span></div>
+      <p class="helper stats-intro">위 조회일은 보고서와 함께 적용됩니다. 상담방 대표판정과 세부 사례 건수는 서로 다른 집계입니다.</p>
+      <div id="stats-kpis" class="kpi-grid stats-kpis"></div>
+      <p id="stats-case-note" class="helper stats-intro"></p>
+      <article class="card followup-card" aria-labelledby="stats-followup-title"><h3 id="stats-followup-title">이전 지적사항 처리현황</h3><div id="stats-followups"></div></article>
+      <article class="card stats-trend-card" aria-labelledby="stats-trend-title"><div class="card-heading"><h3 id="stats-trend-title">일별 검토 추이</h3><span class="pill">상담방 수</span></div><p class="helper">게시된 실제 날짜만 표시합니다. 하루당 한 점이며, 부분 집계는 해당 시점의 값입니다.</p><div id="stats-trend"></div></article>
+      <div class="overview-grid">
+        <article class="card" aria-labelledby="stats-country-title"><div class="card-heading"><h3 id="stats-country-title">국가별 분포</h3></div><div class="country-tabs" role="tablist" aria-label="국가 분포 단위"><button id="stats-country-rooms" type="button" role="tab" aria-controls="stats-country-panel">상담방</button><button id="stats-country-messages" type="button" role="tab" aria-controls="stats-country-panel">메시지</button></div><div id="stats-country-panel" role="tabpanel" tabindex="0"></div><p class="helper bottom-note">운영 국가 탭 기준이며 국적을 추정하지 않습니다. 분포 비율은 제공된 국가 행 합계 기준입니다.</p></article>
+        <article class="card" aria-labelledby="stats-verdict-title"><div class="card-heading"><h3 id="stats-verdict-title">상담방 대표판정 분포</h3><span class="pill">사례 건수 아님</span></div><div id="stats-verdicts"></div><p class="helper bottom-note">한 상담방당 한 대표판정입니다. 확인필요·의심·자료충돌을 확정 오류에 합산하지 않습니다.</p></article>
+      </div>
+      <article class="card stats-staff-card" aria-labelledby="stats-staff-title"><h3 id="stats-staff-title">병원답변 집계</h3><p class="helper">담당자 식별정보가 없어 단일 그룹으로 표시합니다. 사례는 하루 전체 기준이며 개인별 성과·응답시간을 뜻하지 않습니다.</p><div id="stats-staff"></div></article>
     </section>
     <footer class="page-footer"><span>SUPERVISION / 집계 기반 운영 검토</span><span>모든 날짜·시각: Asia/Seoul · KST (UTC+09:00)</span></footer>
   </main>
