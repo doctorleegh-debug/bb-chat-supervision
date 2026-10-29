@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'none'; font-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'">
+  <meta name="referrer" content="no-referrer">
+  <meta name="description" content="개인식별정보 없는 일일 상담 품질 감독 집계 대시보드">
+  <title>상담 품질 감독 | Daily Review</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script defer src="./data.js"></script>
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 이동</a>
+  <aside class="sidebar" aria-label="대시보드 안내">
+    <a class="brand" href="#main" aria-label="상담 품질 감독 홈"><span class="brand-mark" aria-hidden="true">S<span></span></span><span>SUPERVISION<small>상담 품질 감독</small></span></a>
+    <div class="workspace-label">CLINIC OPERATIONS</div>
+    <nav aria-label="주요 메뉴">
+      <a href="#overview"><span class="nav-icon" aria-hidden="true">01</span>일일 현황</a>
+      <a href="#countries"><span class="nav-icon" aria-hidden="true">02</span>국가별 집계</a>
+      <a href="#issues"><span class="nav-icon" aria-hidden="true">03</span>이슈 분류</a>
+      <a href="#history"><span class="nav-icon" aria-hidden="true">04</span>일별 기록</a>
+      <a href="#coverage"><span class="nav-icon" aria-hidden="true">05</span>검토 범위 · 기준</a>
+    </nav>
+    <div class="sidebar-note"><span class="eyebrow">PRIVACY FIRST</span><p>개인정보 없는 집계 전용 화면</p><small>상담 원문과 고객 식별정보는<br>이 페이지에 표시하지 않습니다.</small></div>
+    <div class="sidebar-footer">운영 검토용 · KST 기준</div>
+  </aside>
+  <main id="main" tabindex="-1">
+    <header class="page-header">
+      <div><div class="eyebrow">DAILY QUALITY REVIEW</div><h1 id="dashboard-title">상담 품질 감독</h1><p class="page-subtitle">매일의 상담을 살피고, 필요한 조치를 명확하게.</p></div>
+      <a id="sheet-link" class="button button-secondary" hidden target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">제한된 원본 시트 열기 <span aria-hidden="true">↗</span><span class="sr-only">, 새 탭</span></a>
+      <span id="sheet-unavailable" class="muted small">원본 시트 링크 미설정</span>
+    </header>
+    <section class="date-toolbar" aria-label="조회 기준">
+      <div class="date-controls"><label for="review-date">조회일</label><button id="previous-day" class="icon-button" type="button" aria-label="이전 집계일" disabled>‹</button><input id="review-date" type="date" aria-describedby="date-hint" disabled><button id="next-day" class="icon-button" type="button" aria-label="다음 집계일" disabled>›</button><span id="day-status" class="badge neutral">집계 대기</span></div>
+      <div class="update-meta"><span>마지막 갱신 <strong id="updated-at">미제공</strong></span><span>조회일 마감 <strong id="cutoff-at">미제공</strong></span></div>
+      <p id="date-hint" class="sr-only">모든 날짜와 시각은 한국 표준시 KST입니다. 날짜를 선택하면 해당 일자 집계가 표시됩니다.</p>
+    </section>
+    <div id="data-notice" class="notice" role="status" aria-live="polite">집계 데이터를 확인하고 있습니다. 표시는 모두 KST 기준입니다.</div>
+    <noscript><div class="notice warning">JavaScript를 허용해야 일일 집계를 표시할 수 있습니다. 이 상태에서는 결과를 확인할 수 없습니다.</div></noscript>
+    <section id="overview" class="section" aria-labelledby="overview-title">
+      <div class="section-heading"><div><span class="eyebrow">OVERVIEW</span><h2 id="overview-title">오늘의 검토 요약</h2></div><span class="section-caption">선택한 조회일 · KST</span></div>
+      <div id="kpi-grid" class="kpi-grid"><div class="empty-state">데이터 확인 중. 아직 집계 결과가 아닙니다.</div></div>
+      <div class="overview-grid">
+        <article class="card verdict-card"><div class="card-heading"><h3>판정 분포</h3><span class="pill">메시지·스레드 발견 건수</span></div><p class="helper">판정 유형별 발견 건수를 표시합니다. 사람 수나 고유 상담 수가 아니며 유형 간 중복될 수 있습니다.</p><div id="verdict-chart"></div></article>
+        <article class="card message-card"><div class="card-heading"><h3>메시지 구성</h3><span class="pill teal">자동응답 별도</span></div><div id="message-breakdown"></div><p class="helper bottom-note">자동응답은 직원 응답으로 계산하지 않습니다. 제공된 분류 합계와 전체 메시지 수가 다를 수 있습니다.</p></article>
+      </div>
+    </section>
+    <section id="countries" class="section" aria-labelledby="countries-title">
+      <div class="section-heading"><div><span class="eyebrow">BY COUNTRY</span><h2 id="countries-title">국가별 검토 현황</h2></div><span class="section-caption">워크북의 국가 탭 기준</span></div>
+      <div class="card country-card"><p class="helper">국가 분류는 운영 탭 기준이며 고객의 국적을 의미하지 않습니다. 기타·미확인은 국적을 추정하지 않습니다.</p><div id="country-tabs" class="country-tabs" role="tablist" aria-label="국가 탭"></div><div id="country-panel" class="country-panel" role="tabpanel" tabindex="0"></div></div>
+    </section>
+    <section id="issues" class="section" aria-labelledby="issues-title">
+      <div class="section-heading"><div><span class="eyebrow">ACTION ITEMS</span><h2 id="issues-title">이슈 분류별 집계</h2></div><span class="section-caption">비식별 분류 · 건수만 표시</span></div>
+      <div class="card table-card"><p class="table-intro helper">자료충돌·확인필요는 확정 오류가 아닙니다. 자유서술 요약과 원문은 이 화면에 표시하지 않습니다.</p><div id="issues-content"></div></div>
+    </section>
+    <section id="history" class="section" aria-labelledby="history-title">
+      <div class="section-heading"><div><span class="eyebrow">DAILY ARCHIVE</span><h2 id="history-title">일별 집계 기록</h2></div><span class="section-caption">행의 날짜를 선택해 상세 조회</span></div>
+      <div id="history-content" class="card table-card"></div>
+    </section>
+    <section id="coverage" class="section" aria-labelledby="coverage-title">
+      <div class="section-heading"><div><span class="eyebrow">SCOPE & POLICY</span><h2 id="coverage-title">검토 범위와 해석 기준</h2></div><span class="section-caption">누락 없이, 과장 없이</span></div>
+      <div class="coverage-grid"><article class="card"><h3>포함 · 제외 현황</h3><div id="coverage-content"></div><p class="helper bottom-note">제외 항목은 서로 겹칠 수 있어 단순 합산하지 않습니다. 미열람 첨부는 내용 검증에 포함되지 않습니다.</p></article><article class="card policy-card"><h3>운영 · 출처 정책</h3><dl class="policy-list"><div><dt>정기 마감</dt><dd id="schedule-text">평일 18:00 · 주말 16:00 KST</dd></div><div><dt>부분 집계</dt><dd>미검토·누락이 있는 결과는 부분 집계로 표시합니다. 완료로 해석하지 않습니다.</dd></div><div><dt>판정의 경계</dt><dd>확정 오류, 의심 오류, 미답변, 자료충돌, 확인필요를 각각 구분합니다. 적절 판정도 전체 상담의 안전성을 보증하지 않습니다.</dd></div><div><dt>출처 우선</dt><dd>출처 식별자·문서 버전·시트 탭과 셀 등 최소 참조만 사용합니다. 상충하거나 확인할 수 없는 근거는 오류로 단정하지 않습니다.</dd></div><div><dt>열람 권한</dt><dd>원본은 권한이 제한된 단일 Google 워크북에서 관리합니다. 이 페이지 링크는 원본 접근 권한을 부여하지 않습니다.</dd></div><div><dt>공개 범위</dt><dd>고객명, 연락처, 환자정보, 상담 원문, 첨부파일, 원문 로그 및 비밀값을 포함하지 않습니다.</dd></div></dl></article></div>
+    </section>
+    <footer class="page-footer"><span>SUPERVISION / 집계 기반 운영 검토</span><span>모든 날짜·시각: Asia/Seoul · KST (UTC+09:00)</span></footer>
+  </main>
+</body>
+</html>
