@@ -39,19 +39,24 @@
       <div class="update-meta"><span>마지막 갱신 <strong id="updated-at">미제공</strong></span><span>조회일 마감 <strong id="cutoff-at">미제공</strong></span></div>
       <p id="date-hint" class="sr-only">모든 날짜와 시각은 한국 표준시 KST입니다. 날짜를 선택하면 해당 일자 집계가 표시됩니다.</p>
     </section>
+    <section id="staff-memo" class="staff-memo" aria-labelledby="staff-memo-title">
+      <div class="memo-heading"><h2 id="staff-memo-title">실무자 코멘트</h2><a id="staff-memo-link" class="memo-link" target="_blank" rel="noopener noreferrer" hidden>공유 메모 원장</a></div>
+      <div id="staff-memo-list"></div>
+      <details class="memo-compose" open><summary>전달 메모 작성</summary><label for="staff-memo-author">작성자</label><input id="staff-memo-author" type="text" placeholder="실무자" maxlength="40"><label for="staff-memo-input">전달 내용</label><textarea id="staff-memo-input" rows="3" placeholder="수정사항이나 다음 점검 때 전달할 내용을 적어 주세요."></textarea><button id="staff-memo-copy" type="button">복사 후 원장 열기</button><p class="memo-help">열린 원장의 새 행에 붙여넣으면 공유 저장됩니다. 저장한 메모는 다음 점검 때 읽고 반영합니다.</p><p id="staff-memo-status" role="status" aria-live="polite"></p></details>
+    </section>
     <div id="data-notice" class="notice" role="status" aria-live="polite">집계 데이터를 확인하고 있습니다. 표시는 모두 KST 기준입니다.</div>
     <noscript><div class="notice warning">JavaScript를 허용해야 일일 집계를 표시할 수 있습니다. 이 상태에서는 결과를 확인할 수 없습니다.</div></noscript>
     <section id="overview" class="section" aria-labelledby="overview-title">
       <div class="section-heading"><div><span class="eyebrow">OVERVIEW</span><h2 id="overview-title">오늘의 검토 요약</h2></div><span class="section-caption">선택한 조회일 · KST</span></div>
       <div id="kpi-grid" class="kpi-grid"><div class="empty-state">데이터 확인 중. 아직 집계 결과가 아닙니다.</div></div>
       <div class="overview-grid">
-        <article class="card verdict-card"><div class="card-heading"><h3>판정 분포</h3><span class="pill">상담별 대표판정</span></div><p class="helper">상담방마다 한 가지 대표판정을 집계합니다. 세부 검토 이슈 수와 다르며 직원별 정확도를 뜻하지 않습니다.</p><div id="verdict-chart"></div></article>
+        <article class="card verdict-card"><div class="card-heading"><h3>판정 분포</h3><span class="pill">상담별 대표판정</span></div><p class="helper">상담별 대표판정입니다.</p><div id="verdict-chart"></div></article>
         <article class="card message-card"><div class="card-heading"><h3>메시지 구성</h3><span class="pill teal">자동안내추정 별도</span></div><div id="message-breakdown"></div><p class="helper bottom-note">병원답변은 개별 담당자를 확인한 수치가 아닙니다. 자동안내추정은 문구 패턴 기반 분류이며 실제 봇 응답으로 확정하지 않습니다. 시스템·삭제 메시지는 제공된 경우 별도로 표시합니다.</p></article>
       </div>
     </section>
     <section id="suspect-cases" class="section suspect-section" aria-labelledby="cases-title">
       <div class="section-heading"><div><span class="eyebrow">CONSULTATION REVIEW</span><h2 id="cases-title">오상담의심</h2></div><span id="cases-date" class="section-caption">선택한 날짜의 실제 상담</span></div>
-      <p class="case-intro">고객이 남긴 글, 담당자가 답한 글, 내가 판단한 근거를 함께 확인합니다.</p>
+      <p class="case-intro">고객 문의와 담당자 답변을 자료와 대조한 내용입니다.</p>
       <div id="case-tabs" class="case-tabs" role="tablist" aria-label="오상담의심 판정"></div>
       <div class="case-pagination"><p id="case-count" class="helper" aria-live="polite"></p><div class="case-page-controls"><button id="case-previous" type="button" aria-label="이전 상담 사례">이전</button><span id="case-position"></span><button id="case-next" type="button" aria-label="다음 상담 사례">다음</button></div></div>
       <div id="case-panel" class="case-panel" role="tabpanel" tabindex="0" aria-live="polite"></div>
@@ -62,7 +67,7 @@
     </section>
     <section id="issues" class="section" aria-labelledby="issues-title">
       <div class="section-heading"><div><span class="eyebrow">ACTION ITEMS</span><h2 id="issues-title">이슈 분류별 집계</h2></div><span class="section-caption">비식별 분류 · 건수만 표시</span></div>
-      <div class="card table-card"><p class="table-intro helper">자료충돌·확인필요는 확정 오류가 아닙니다. 구체적인 상담 내용은 위 오상담의심 카드에서 확인합니다.</p><div id="issues-content"></div></div>
+      <div class="card table-card"><p class="table-intro helper">구체적인 상담 내용은 위 오상담의심 카드에서 확인합니다.</p><div id="issues-content"></div></div>
     </section>
     <section id="history" class="section" aria-labelledby="history-title">
       <div class="section-heading"><div><span class="eyebrow">DAILY ARCHIVE</span><h2 id="history-title">일별 집계 기록</h2></div><span class="section-caption">행의 날짜를 선택해 상세 조회</span></div>

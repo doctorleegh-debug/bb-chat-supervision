@@ -90,7 +90,7 @@
       const item = node('div'); const name = node('div', 'legend-label'); const swatch = node('span', `swatch verdict-${key}`); swatch.setAttribute('aria-hidden', 'true');
       name.append(swatch, node('span', '', label)); const value = node('div', 'legend-value', fmt(values[key])); value.append(node('small', '', '개')); item.append(name, value); legend.append(item);
     });
-    replace('verdict-chart', chart, legend, node('p', 'finding-total', total ? `상담 ${fmt(total)}개 대표판정 · 메시지 비율·직원 정확도 아님` : '등록된 상담 대표판정 0개 · 검토 완료 또는 오류 없음의 보증이 아닙니다.'));
+    replace('verdict-chart', chart, legend, node('p', 'finding-total', total ? `상담 ${fmt(total)}개 대표판정` : '등록된 상담 대표판정 0개 · 검토 완료 또는 오류 없음의 보증이 아닙니다.'));
   }
   function renderMessages(day) {
     if (!day) { replace('message-breakdown', empty('메시지 집계 대기')); return; }
@@ -174,7 +174,7 @@
     $('case-position').textContent = filtered.length ? (selectedCaseIndex + 1) + ' / ' + fmt(filtered.length) : '';
     if (!filtered.length) {
       const title = !day ? '점검 기록 없음' : complete ? '없음' : '검토 중';
-      const detail = !day ? '이 날짜의 점검 결과가 아직 등록되지 않았습니다.' : complete ? '선택한 날짜에 이 판정에 해당하는 상담은 없습니다.' : '점검이 끝나지 않아 해당 사례가 없는 것으로 확정하지 않습니다.';
+      const detail = !day ? '이 날짜의 점검 결과가 아직 등록되지 않았습니다.' : complete ? '해당 상담이 없습니다.' : '아직 점검이 끝나지 않았습니다.';
       replace('case-panel', empty(title, detail)); return;
     }
     const item = filtered[selectedCaseIndex]; const article = node('article', 'case-review');
@@ -184,15 +184,14 @@
     const grid = node('div', 'case-bento');
     const quoteCard = (title, original, summary, kind) => {
       const card = node('div', 'case-cell case-' + kind); card.append(node('h4', '', title));
-      card.append(node('blockquote', 'case-original', text(original, '확인 가능한 텍스트가 없습니다.')));
-      if (text(summary)) { const ko = node('div', 'case-ko'); ko.append(node('strong', '', '한국어로 보면'), node('p', '', summary)); card.append(ko); }
+      card.append(node('blockquote', 'case-original', text(summary, text(original, '텍스트 답변 없음'))));
+      if (text(original) && original !== summary) { const originalBox = node('details', 'case-source'); originalBox.append(node('summary', '', '원문'), node('blockquote', '', original)); card.append(originalBox); }
       return card;
     };
     grid.append(quoteCard('고객이 남긴 글', item.customerText, item.customerKo, 'customer'), quoteCard('담당자가 답한 글', item.staffText, item.staffKo, 'staff'));
-    const basis = node('div', 'case-cell case-basis'); basis.append(node('h4', '', '내가 이렇게 판단한 근거'), node('p', 'case-rationale', text(item.rationale, '판단 근거 확인 필요')));
-    if (text(item.evidence)) { const evidence = node('div', 'case-evidence'); evidence.append(node('strong', '', '대조한 근거 원문'), node('blockquote', '', item.evidence)); basis.append(evidence); }
-    if (text(item.limit)) basis.append(node('p', 'case-limit', item.limit));
-    grid.append(basis); article.append(heading, node('p', 'case-excerpt-label', '실제 채팅 발췌 · 개인정보와 예약 식별정보 생략'), grid); replace('case-panel', article);
+    const basis = node('div', 'case-cell case-basis'); basis.append(node('h4', '', '판정 근거'), node('p', 'case-rationale', text(item.rationale, '판단 근거 확인 필요')));
+    if (text(item.evidence)) { const evidence = node('details', 'case-evidence'); evidence.append(node('summary', '', '대조자료 원문'), node('blockquote', '', item.evidence)); basis.append(evidence); }
+    grid.append(basis); article.append(heading, node('p', 'case-excerpt-label', '개인정보 생략'), grid); replace('case-panel', article);
   }
   function renderIssues(day) {
     if (!day) { replace('issues-content', empty('이슈 집계 대기')); return; }
@@ -243,12 +242,21 @@
     else if (!day) notice.textContent = selectedDate ? `${selectedDate} KST에 게시된 집계가 없습니다. 다른 날짜를 선택해 주세요.` : '아직 게시된 집계가 없습니다. 검토 결과가 게시되면 표시됩니다. 모든 시각은 KST입니다.';
     else if (day.status === 'partial') notice.textContent = `${day.date} KST · 부분 집계입니다. 미검토·누락 범위가 있을 수 있으며 전체 검토 완료 또는 오류 없음으로 해석하지 않습니다.`;
     else if (day.status !== 'completed') notice.textContent = `${day.date} KST · 집계 상태를 확인할 수 없습니다. 완료로 간주하지 않습니다.`;
-    else notice.textContent = `${day.date} KST · 게시 상태는 집계 완료입니다. 표시된 검토 범위와 마감 이전 결과에 한정되며 전체 상담의 적절함을 보증하지 않습니다.`;
-    if (day) notice.textContent += ' 누락된 숫자 항목은 0으로 표시합니다.';
+    else notice.textContent = `${day.date} KST · 점검 완료.`;
     if (skippedDays) notice.textContent += ' 날짜가 유효하지 않거나 중복된 기록은 표시에서 제외했습니다.';
     $('overview-title').textContent = selectedDate ? `${selectedDate} 검토 요약` : '일일 검토 요약';
     renderKpis(day); renderVerdicts(day); renderMessages(day); renderCases(day); renderCountry(day); renderIssues(day); renderHistory(); renderCoverage(day);
   }
+  let memoSheetUrl = '';
+  try { const u = new URL(text(meta.staffMemoUrl)); const gid=u.searchParams.get('gid')||u.hash.match(/gid=(\d+)/)?.[1]; if(u.protocol==='https:'&&u.hostname==='docs.google.com'&&/^\/spreadsheets\/d\/[A-Za-z0-9_-]+\/edit$/.test(u.pathname)&&/^\d+$/.test(gid||'')) memoSheetUrl=u.origin+u.pathname+'?gid='+gid+'#gid='+gid; } catch {}
+  if(memoSheetUrl){$('staff-memo-link').href=memoSheetUrl;$('staff-memo-link').hidden=false;}
+  const memos=Array.isArray(meta.staffMemos)?meta.staffMemos.filter(m=>m&&text(m.text)):[];
+  if(memos.length){const list=node('ul','memo-list');memos.forEach(m=>{const li=node('li');li.append(node('span','memo-date',text(m.date)),node('p','',m.text),node('span','memo-state',text(m.status,'미반영')));list.append(li);});replace('staff-memo-list',list);}else replace('staff-memo-list',node('p','memo-empty','등록된 메모 없음'));
+  $('staff-memo-copy').addEventListener('click',async()=>{
+    const content=text($('staff-memo-input').value);const status=$('staff-memo-status');if(!content){status.textContent='전달 내용을 입력해 주세요.';return;}if(!memoSheetUrl){status.textContent='공유 메모 원장 연결이 필요합니다.';return;}
+    const date=new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Seoul',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());const values=['memo-'+Date.now().toString(36),date,text($('staff-memo-author').value,'실무자'),content,'미반영','','','N'];const tsv=values.map(v=>'"'+(/^[=+@-]/.test(v)?"'"+v:v).replaceAll('"','""')+'"').join('\t');
+    try{await navigator.clipboard.writeText(tsv);window.open(memoSheetUrl,'_blank','noopener,noreferrer');status.textContent='복사했습니다. 원장의 새 행에 붙여넣으면 공유 저장됩니다.';}catch{status.textContent='자동 복사가 되지 않았습니다. 공유 메모 원장을 열어 전달 내용을 직접 입력해 주세요.';}
+  });
   const title = text(meta.title, '상담 품질 감독'); $('dashboard-title').textContent = title; document.title = `${title} | Daily Review`;
   $('updated-at').textContent = timestamp(meta.updatedAt);
   const scheduleTime = (value, fallback) => typeof value === 'string' && /^([01]\d|2[0-3]):[0-5]\d$/.test(value) ? value : fallback;

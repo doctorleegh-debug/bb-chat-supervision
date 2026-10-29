@@ -1,13 +1,31 @@
 window.SUPERVISION_DATA = {
   "meta": {
     "title": "뷰티블라썸 상담 품질 감독",
-    "updatedAt": "2026-10-29T10:28:45.675Z",
+    "updatedAt": "2026-10-29T11:08:19.107Z",
     "timeZone": "Asia/Seoul",
     "sheetUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit",
     "schedule": {
       "weekday": "18:00",
       "weekend": "16:00"
-    }
+    },
+    "staffMemoUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit?gid=1239856870#gid=1239856870",
+    "staffMemos": [
+      {
+        "date": "2026-10-29",
+        "text": "지도 단축 URL은 목적지가 같으면 패스.",
+        "status": "반영"
+      },
+      {
+        "date": "2026-10-29",
+        "text": "가격은 수가표와 직접 대조하고, 일치하는 항목은 패스.",
+        "status": "반영"
+      },
+      {
+        "date": "2026-10-29",
+        "text": "한국어 본문과 구체적인 자료 차이·누락만 표시.",
+        "status": "반영"
+      }
+    ]
   },
   "days": [
     {
@@ -22,12 +40,12 @@ window.SUPERVISION_DATA = {
       "systemMessages": 21,
       "deletedMessages": 3,
       "verdicts": {
-        "appropriate": 3,
-        "confirmedError": 1,
-        "suspectedError": 1,
-        "missingAnswer": 4,
-        "sourceConflict": 4,
-        "needsVerification": 10
+        "appropriate": 13,
+        "needsVerification": 2,
+        "sourceConflict": 3,
+        "missingAnswer": 5,
+        "suspectedError": 0,
+        "confirmedError": 0
       },
       "countries": [
         {
@@ -37,11 +55,11 @@ window.SUPERVISION_DATA = {
           "messages": 0,
           "verdicts": {
             "appropriate": 0,
-            "confirmedError": 0,
-            "suspectedError": 0,
-            "missingAnswer": 0,
+            "needsVerification": 0,
             "sourceConflict": 0,
-            "needsVerification": 0
+            "missingAnswer": 0,
+            "suspectedError": 0,
+            "confirmedError": 0
           }
         },
         {
@@ -50,12 +68,12 @@ window.SUPERVISION_DATA = {
           "rooms": 7,
           "messages": 32,
           "verdicts": {
-            "appropriate": 1,
-            "confirmedError": 0,
-            "suspectedError": 0,
-            "missingAnswer": 0,
+            "appropriate": 6,
+            "needsVerification": 0,
             "sourceConflict": 1,
-            "needsVerification": 5
+            "missingAnswer": 0,
+            "suspectedError": 0,
+            "confirmedError": 0
           }
         },
         {
@@ -65,11 +83,11 @@ window.SUPERVISION_DATA = {
           "messages": 25,
           "verdicts": {
             "appropriate": 1,
-            "confirmedError": 0,
-            "suspectedError": 0,
-            "missingAnswer": 1,
+            "needsVerification": 0,
             "sourceConflict": 1,
-            "needsVerification": 0
+            "missingAnswer": 1,
+            "suspectedError": 0,
+            "confirmedError": 0
           }
         },
         {
@@ -79,11 +97,11 @@ window.SUPERVISION_DATA = {
           "messages": 4,
           "verdicts": {
             "appropriate": 0,
-            "confirmedError": 0,
-            "suspectedError": 1,
-            "missingAnswer": 0,
+            "needsVerification": 1,
             "sourceConflict": 0,
-            "needsVerification": 0
+            "missingAnswer": 0,
+            "suspectedError": 0,
+            "confirmedError": 0
           }
         },
         {
@@ -92,12 +110,12 @@ window.SUPERVISION_DATA = {
           "rooms": 8,
           "messages": 29,
           "verdicts": {
-            "appropriate": 0,
-            "confirmedError": 0,
-            "suspectedError": 0,
+            "appropriate": 4,
+            "needsVerification": 1,
+            "sourceConflict": 1,
             "missingAnswer": 2,
-            "sourceConflict": 2,
-            "needsVerification": 4
+            "suspectedError": 0,
+            "confirmedError": 0
           }
         },
         {
@@ -106,12 +124,12 @@ window.SUPERVISION_DATA = {
           "rooms": 4,
           "messages": 31,
           "verdicts": {
-            "appropriate": 1,
-            "confirmedError": 1,
-            "suspectedError": 0,
-            "missingAnswer": 1,
+            "appropriate": 2,
+            "needsVerification": 0,
             "sourceConflict": 0,
-            "needsVerification": 1
+            "missingAnswer": 2,
+            "suspectedError": 0,
+            "confirmedError": 0
           }
         }
       ],
@@ -121,31 +139,24 @@ window.SUPERVISION_DATA = {
           "severity": "보통",
           "status": "확인 필요",
           "summary": "",
-          "count": 15
-        },
-        {
-          "category": "시술 안내·자료 대조",
-          "severity": "보통",
-          "status": "확인 필요",
-          "summary": "",
-          "count": 15
+          "count": 5
         },
         {
           "category": "응답 완결성",
           "severity": "보통",
           "status": "확인 필요",
           "summary": "",
-          "count": 6
+          "count": 4
         },
         {
-          "category": "예약·운영 확인",
+          "category": "시술 안내·자료 대조",
           "severity": "보통",
           "status": "확인 필요",
           "summary": "",
-          "count": 8
+          "count": 4
         },
         {
-          "category": "안내 링크 품질",
+          "category": "예약·운영 확인",
           "severity": "보통",
           "status": "확인 필요",
           "summary": "",
@@ -167,123 +178,34 @@ window.SUPERVISION_DATA = {
           "제외 읽지않음과 대기는 같은 대상일 수 있어 합산하지 않음."
         ]
       },
+      "casesComplete": true,
+      "casesUpdatedAt": "2026-10-29T10:56:34.560Z",
       "cases": [
-        {
-          "id": "case-20261029-01",
-          "verdict": "needsVerification",
-          "country": "JP",
-          "title": "가격·VAT·상품 범위",
-          "customerText": "価格について知りたいです\n\n初めまして。\n額のフィラー溶解を検討していますが価格は表示通りですか？",
-          "customerKo": "가격을 알고 싶으며 이마 필러 용해에 표시된 가격이 그대로 적용되는지 질문했다.",
-          "staffText": "ご連絡ありがとうございます[표정 문자 생략]\n当院はカンナムオンニに表記の価格（税込表記）でご提供しております！",
-          "staffKo": "강남언니에 표시된 세금 포함 가격으로 제공한다고 답함.",
-          "rationale": "표시가격과 VAT 질문에는 답했지만 실제 금액·용량·이마 적용 조건이 없어 표시가격이 이마 용해에도 그대로 적용되는지 확인할 수 없다. 잘못된 가격이라는 근거는 없다.",
-          "evidence": "raw/04.md L799–807\n- 국산·수입 브랜드, 부위·용량·횟수, 첫 방문 조건을 확인합니다.\n\nraw/04.md L799–807\n- VAT·팁·마취·관리·지정비·추가 옵션의 포함 여부를 확인합니다.",
-          "limit": "이마 적용 범위·용량·현행 금액·VAT 미확인."
-        },
-        {
-          "id": "case-20261029-02",
-          "verdict": "needsVerification",
-          "country": "TW",
-          "title": "시술권 사용기한·일괄 확답",
-          "customerText": "[개인정보 생략]\n請問買的課程有效期嗎？",
-          "customerKo": "구매한 시술권에 유효기간이 있는지 질문했다.",
-          "staffText": "您好，我們療程沒有有效期限，都會幫您們保留至下次來施作喔！",
-          "staffKo": "시술에는 유효기간이 없고 다음 방문 시까지 보관한다고 답변.",
-          "rationale": "FAQ 235는 사용기한이 별도로 없다고 하므로 무기한 안내 자체를 오안내로 확정할 수 없다. 다만 피부 상태·기기 세대 변경을 고려한 빠른 소진 권고가 빠졌고, 특정 구매권을 확인하지 않은 채 모든 시술을 보관한다고 넓게 확답했다. 현재 약정·구매채널·잔여회차는 대화에서 없다.",
-          "evidence": "raw/06.md L1433–1437\n시술권의 사용기한은 별도로 정해져 있지 않지만, 피부 상태나 기기 세대 변경 등을 고려해 가능한 빠른 시일 내에 소진하시는 것을 권장합니다.",
-          "limit": "해당 구매권의 약정·채널·잔여 회차 미확인."
-        },
-        {
-          "id": "case-20261029-03",
-          "verdict": "needsVerification",
-          "country": "ZZ",
-          "title": "개별 의료 적합성과 서비스 가능 구분",
-          "customerText": "I wanted to get Botox on three areas. Forehead since I have visible horizontal wrinkles, also when I smile I show my gums a lot so I was wondering if it was possible to get botox for that too. And finally, to define my jaw a little bit",
-          "customerKo": "이마 가로주름, 웃을 때 잇몸 노출, 턱선 개선을 위한 세 부위 보톡스가 가능한지 질문했다.",
-          "staffText": "Yes, absolutely! [표정 문자 생략] We can help you with all three areas: forehead Botox, gummy smile Botox, and jawline Botox.\n[…]\n[표정 문자 생략] Please note: The required dosage for jaw Botox may vary depending on the size of your masseter muscles. We will assess your muscle size and recommend the appropriate dosage during your consultation.",
-          "staffKo": "이마·거미스마일·턱선 보톡스가 가능하다고 답했다. 교근 크기에 따라 용량이 달라지며 상담 때 적정 용량을 평가한다고 덧붙였다.",
-          "rationale": "세 부위의 서비스 제공 가능 안내로 볼 수 있으나 턱선 개선 희망을 교근 보톡스로 구체화한 부분은 근육·피부 상태에 대한 의료진 평가가 필요하다. 교근 크기에 따라 용량을 상담한다는 후속 조건은 적절하다.",
-          "evidence": "raw/06.md L47–57\n사각턱 보톡스는 50유닛을 기준으로 하며, 추가 시술을 원하면 25유닛 구성을 상담할 수 있습니다. 추가 비용은 동일하게 발생합니다. 필요한 용량은 진료 때 확인합니다.\n\nraw/06.md L47–57\n기존 자료의 ‘15~20ml’ 표기는 제품과 단위 확인이 필요합니다. 보톡스 용량은 부위와 근육 상태에 따라 의료진이 정하며, cc와 유닛을 같은 단위로 안내하지 않습니다.",
-          "limit": "개별 진료 전 적합성 확정 불가."
-        },
-        {
-          "id": "case-20261029-04",
-          "verdict": "needsVerification",
-          "country": "ZZ",
-          "title": "가격표 대조·현행성",
-          "customerText": "I wanted to get Botox on three areas. Forehead since I have visible horizontal wrinkles, also when I smile I show my gums a lot so I was wondering if it was possible to get botox for that too. And finally, to define my jaw a little bit",
-          "customerKo": "세 부위 보톡스 가능 여부를 질문했고 병원이 브랜드별 이마·거미스마일·교근 가격을 먼저 안내했다. 세 부위 합계와 패키지 적용 질문은 이후 별도로 이어졌다.",
-          "staffText": "[표정 문자 생략] Botox Price List\n\n1. Wrinkle Botox (Forehead)\n- Domestic: ₩32,900\n- Coretox: ₩42,900\n- Xeomin: ₩77,000\n- Allergan: ₩99,000\n\n2. Gummy Smile Botox\n- Domestic: ₩46,900\n- Coretox: ₩60,000\n- Xeomin: ₩110,000\n- Allergan: ₩143,000\n\n3. Jaw Botox (Masseter Botox)\n- Domestic: ₩43,500\n- Coretox: ₩73,700\n- Xeomin: ₩143,000\n- Allergan: ₩197,000\n\n[표정 문자 생략] Please note: The required dosage for jaw Botox may vary depending on the size of your masseter muscles. We will assess your muscle size and recommend the appropriate dosage during your consultation.",
-          "staffKo": "네 브랜드별 이마·거미스마일·교근 가격을 제시하고 교근 크기에 따른 용량은 상담 때 평가한다고 한다.",
-          "rationale": "안내한 브랜드별 이마·거미스마일·교근 가격은 수가자료의 정가와 일치한다. 가격 오기는 확인되지 않았지만 현행 이벤트·추가 용량·VAT·최종 결제액은 확인되지 않았다.",
-          "evidence": "raw/10.md L9–24\n| list-A10 | 보톡스 정가 | 주름 보톡스 | 1부위 · 국산 | 1부위 | 금액: 32,900원 | (이마, 미간, 눈가, 눈밑, 콧등, 자갈턱) | 확인 필요 |\n\nraw/10.md L9–24\n| list-A24 | 보톡스 정가 | 주름B / 특수부위 | 국산 |  | 금액: 46,900원 | (콧볼, 입꼬리, 인중, 립플럼핑, 거미스마일, 측두근, 관자) | 확인 필요 |\n\nraw/10.md L9–24\n| list-A30 | 보톡스 정가 | 사각턱 보톡스 | 국산 |  | 금액: 43,500원 |  | 담당팀 확인 |",
-          "limit": "정가 일치만으로 현행 최종금액을 보증하지 않음."
-        },
         {
           "id": "case-20261029-05",
           "verdict": "missingAnswer",
           "country": "ZZ",
           "title": "3부위 패키지·합계 문의 충족 여부",
           "customerText": "I wanted to get Botox on three areas. Forehead since I have visible horizontal wrinkles, also when I smile I show my gums a lot so I was wondering if it was possible to get botox for that too. And finally, to define my jaw a little bit\n\nWhat about the price for all 3 areas?\n\nor it just applied to wrinkle botox?",
-          "customerKo": "이마·거미스마일·턱선의 세 부위 전체 비용과 3부위 가격이 주름보톡스에만 적용되는지 질문했다. 병원은 주름보톡스 이미지와 부위 설명으로 답했다.",
+          "customerKo": "보톡스를 세 부위에 받고 싶어요. 이마에 가로주름이 뚜렷하고, 웃을 때 잇몸이 많이 보여서 그 부분도 보톡스가 가능한지 궁금해요. 마지막으로 턱선도 조금 더 또렷하게 만들고 싶어요.\n\n세 부위를 모두 하면 가격이 어떻게 되나요?\n\n아니면 주름 보톡스에만 적용되는 건가요?",
           "staffText": "For wrinkle Botox, we can only inject it into the specific areas where wrinkles appear. It’s different from chin Botox, as each treatment targets different concerns and muscle groups. Wrinkle Botox including (Forehead, Gabella, Crows Feet, Under the Eyes, Bunny Line, Chin). These are the part that wrinkle botox can choose.",
-          "staffKo": "주름 보톡스 가격표 이미지를 보내고 주름 부위에만 주사할 수 있다고 설명했다. chin Botox와 다르다고 한 뒤 선택 부위에 Chin을 다시 포함했다. 세 부위 전체 합계는 제시하지 않았다.",
-          "rationale": "영어 주름보톡스 표와 후속 부위 설명을 보냈지만 거미스마일·교근까지 포함한 세 부위 전체 합계가 명시되지 않아 질문에 부분 대응했다. 이후 실제 선택 조합은 이마·거미스마일 코어톡스로 바뀌었다.",
-          "evidence": "raw/05.md L2303–2349\n부위가 세 곳이라 3부위 상품으로 생각하실 수 있어요. 다만 미간 주름과 사각턱·측두근은 상품 분류와 필요한 용량이 다를 수 있습니다. 원하시는 세 부위를 기준으로 제품과 총비용을 나눠 확인해 드릴게요.\n\nraw/05.md L2303–2349\n- 주름·근육·특수부위·스킨보톡스의 상품 분류와 포함 범위를 확인합니다.\n\nraw/05.md L2303–2349\n부위가 세 곳이라 3부위 상품으로 생각하실 수 있어요. 다만 미간 주름과 사각턱·측두근은 상품 분류와 필요한 용량이 다를 수 있습니다. 원하시는 세 부위를 기준으로 제품과 총비용을 나눠 확인해 드릴게요.",
-          "limit": "변경된 실제 선택 조합의 총액·VAT 및 결제 여부 미확인."
+          "staffKo": "주름 보톡스는 주름이 나타나는 특정 부위에만 주사할 수 있어요. 각각 다른 고민과 근육군을 대상으로 하므로 턱끝 보톡스와는 달라요. 주름 보톡스로 선택할 수 있는 부위는 이마, 미간, 눈가, 눈밑, 콧등, 턱끝입니다.",
+          "rationale": "첨부 14개 행의 정가·행사가는 표와 모두 일치한다. 다만 주름3부위 코어 88,000원(세전)=96,800원(세후)은 이마+거미스마일+교근 상품이 아니다. 세 항목 코어 개별가 합계는 42,900+60,000+73,700=176,600원, 변경 선택 이마+거미스마일은 102,900원인데 답변에 합계가 없다.",
+          "evidence": "raw/10.md L10 list-A11\n| list-A11 | 보톡스 정가 | 주름 보톡스 | 1부위 · 코어 | 1부위 | 금액: 42,900원 | (이마, 미간, 눈가, 눈밑, 콧등, 자갈턱) | 확인 필요 |\n\nraw/10.md L18 list-A25\n| list-A25 | 보톡스 정가 | 주름B / 특수부위 | 코어 |  | 금액: 60,000원 | (콧볼, 입꼬리, 인중, 립플럼핑, 거미스마일, 측두근, 관자) | 확인 필요 |\n\nraw/10.md L22 list-A31\n| list-A31 | 보톡스 정가 | 사각턱 보톡스 | 코어 |  | 금액: 73,700원 |  | 확인 필요 |\n\nraw/17.md L97–L182 sheet-1068799666!B6:G21; G5=VAT후\nC5 | 상세내용 |  |\nD5 | 정상 |  |\nE5 | 정가 |  |\nF5 | VAT 전 |  |\nG5 | VAT 후 |  |\nH5 | 비고 |  |\nB6 | 주름B/국산/1부위 |  |\nD6 | 54,833 | =G6/$G$4 |\nE6 | 54,800 | =ROUND(D6, -2) |\nF6 | 29,909 | =IF(G6=\"\",\"-\", G6/1.1) |\nG6 | 32,900 |  |\nB7 | 주름B/국산/3부위 |  |\nD7 | 124833.3333 | =G7/$G$4 |\nE7 | 124,800 | =ROUND(D7, -2) |\nF7 | 68,091 | =IF(G7=\"\",\"-\", G7/1.1) |\nG7 | 74,900 |  |\nB8 | 주름B/코어/1부위 |  |\nD8 | 71500 | =G8/$G$4 |\nE8 | 71,500 | =ROUND(D8, -2) |\nF8 | 39,000 | =IF(G8=\"\",\"-\", G8/1.1) |\nG8 | 42,900 |  |\nB9 | 주름B/코어/3부위 |  |\nD9 | 161333.3333 | =G9/$G$4 |\nE9 | 161,300 | =ROUND(D9, -2) |\nF9 | 88,000 | =IF(G9=\"\",\"-\", G9/1.1) |\nG9 | 96,800 |  |\nB10 | 주름B/제오민/1부위 |  |\nD10 | 128333.3333 | =G10/$G$4 |\nE10 | 128,300 | =ROUND(D10, -2) |\nF10 | 70,000 | =IF(G10=\"\",\"-\", G10/1.1) |\nG10 | 77,000 |  |\nB11 | 주름B/제오민3부위 |  |\nD11 | 311666.6667 | =G11/$G$4 |\nE11 | 311,700 | =ROUND(D11, -2) |\nF11 | 170,000 | =IF(G11=\"\",\"-\", G11/1.1) |\nG11 | 187,000 |  |\nB12 | 주름B/앨러간/1부위 |  |\nD12 | 165000 | =G12/$G$4 |\nE12 | 165,000 | =ROUND(D12, -2) |\nF12 | 90,000 | =IF(G12=\"\",\"-\", G12/1.1) |\nG12 | 99,000 |  |\nB13 | 주름B/앨러간/3부위 |  |\nD13 | 440000 | =G13/$G$4 |\nE13 | 440,000 | =ROUND(D13, -2) |\nF13 | 240,000 | =IF(G13=\"\",\"-\", G13/1.1) |\nG13 | 264,000 |  |\nB14 | 특수부위B/국산 (콧볼,입꼬리,인중,립플립,거미스마일,측광대,관자) |  |\nD14 | 78166.66667 | =G14/$G$4 |\nE14 | 78,200 | =ROUND(D14, -2) |\nF14 | 42,636 | =IF(G14=\"\",\"-\", G14/1.1) |\nG14 | 46,900 |  |\nB15 | 특수부위B/코어  (콧볼,입꼬리,인중,립플립,거미스마일,측광대,관자) |  |\nD15 | 100000 | =G15/$G$4 |\nE15 | 100,000 | =ROUND(D15, -2) |\nF15 | 54,545 | =IF(G15=\"\",\"-\", G15/1.1) |\nG15 | 60,000 |  |\nB16 | 특수부위B/제오민  (콧볼,입꼬리,인중,립플립,거미스마일,측광대,관자) |  |\nD16 | 183333.3333 | =G16/$G$4 |\nE16 | 183,300 | =ROUND(D16, -2) |\nF16 | 100,000 | =IF(G16=\"\",\"-\", G16/1.1) |\nG16 | 110,000 |  |\nB17 | 특수부위B/앨러간  (콧볼,입꼬리,인중,립플립,거미스마일,측광대,관자) |  |\nD17 | 238333.3333 | =G17/$G$4 |\nE17 | 238,300 | =ROUND(D17, -2) |\nF17 | 130,000 | =IF(G17=\"\",\"-\", G17/1.1) |\nG17 | 143,000 |  |\nB18 | 사각턱B/국산/50u |  |\nD18 | 72500 | =G18/$G$4 |\nE18 | 72,500 | =ROUND(D18, -2) |\nF18 | 39,545 | =IF(G18=\"\",\"-\", G18/1.1) |\nG18 | 43,500 |  |\nB19 | 사각턱B/코어/50u |  |\nD19 | 122833.3333 | =G19/$G$4 |\nE19 | 122,800 | =ROUND(D19, -2) |\nF19 | 67,000 | =IF(G19=\"\",\"-\", G19/1.1) |\nG19 | 73,700 |  |\nB20 | 사각턱B/제오민/50u |  |\nD20 | 238333.3333 | =G20/$G$4 |\nE20 | 238,300 | =ROUND(D20, -2) |\nF20 | 130,000 | =IF(G20=\"\",\"-\", G20/1.1) |\nG20 | 143,000 |  |\nB21 | 사각턱B/앨러간/50u |  |\nD21 | 328333.3333 | =G21/$G$4 |\nE21 | 328,300 | =ROUND(D21, -2) |\nF21 | 179,091 | =IF(G21=\"\",\"-\", G21/1.1) |\nG21 | 197,000 |  |\n\nraw/10.md L874 event-2026-09-11-R129\n| event-2026-09-11-R129 | 보톡스 | 주름보톡스 3부위 | 국산 |  | 정가: 120,000원 / VAT 전: 68,000원 / VAT 후 (최종): 74,800원 |  | 확인 필요 |\n\nraw/10.md L875 event-2026-09-11-R130\n| event-2026-09-11-R130 | 보톡스 | 주름보톡스 3부위 | 내성적은 코어톡스 |  | 정가: 160,000원 / VAT 전: 88,000원 / VAT 후 (최종): 96,800원 |  | 확인 필요 |\n\nraw/10.md L876 event-2026-09-11-R131\n| event-2026-09-11-R131 | 보톡스 | 주름보톡스 3부위 | 제오민 |  | 정가: 220,000원 / VAT 전: 119,000원 / VAT 후 (최종): 130,900원 |  | 확인 필요 |\n\nraw/10.md L877 event-2026-09-11-R132\n| event-2026-09-11-R132 | 보톡스 | 스킨보톡스1부위 (이마/팔자/턱라인/목주름) | 국산 |  | 정가: 110,000원 / VAT 전: 59,000원 / VAT 후 (최종): 64,900원 |  | 확인 필요 |\n\nraw/10.md L878 event-2026-09-11-R133\n| event-2026-09-11-R133 | 보톡스 | 스킨보톡스1부위 (이마/팔자/턱라인/목주름) | 코어 |  | 정가: 140,000원 / VAT 전: 79,000원 / VAT 후 (최종): 86,900원 |  | 확인 필요 |\n\nraw/10.md L879 event-2026-09-11-R134\n| event-2026-09-11-R134 | 보톡스 | 스킨보톡스1부위 (이마/팔자/턱라인/목주름) | 제오민 |  | 정가: 220,000원 / VAT 전: 119,000원 / VAT 후 (최종): 130,900원 |  | 확인 필요 |\n\nraw/10.md L880 event-2026-09-11-R135\n| event-2026-09-11-R135 | 보톡스 | 내성 적은 풀페이스 스킨보톡스 (국산/독일산) | 코어톡스 |  | 정가: 250,000원 / VAT 전: 139,000원 / VAT 후 (최종): 152,900원 |  | 확인 필요 |\n\nraw/10.md L881 event-2026-09-11-R136\n| event-2026-09-11-R136 | 보톡스 | 내성 적은 풀페이스 스킨보톡스 (국산/독일산) | 얼굴+목 2배 용량 |  | 정가: 360,000원 / VAT 전: 199,000원 / VAT 후 (최종): 218,900원 |  | 확인 필요 |\n\nraw/10.md L882 event-2026-09-11-R137\n| event-2026-09-11-R137 | 보톡스 | 내성 적은 풀페이스 스킨보톡스 (국산/독일산) | 제오민 |  | 정가: 330,000원 / VAT 전: 179,000원 / VAT 후 (최종): 196,900원 |  | 확인 필요 |\n\nraw/10.md L883 event-2026-09-11-R138\n| event-2026-09-11-R138 | 보톡스 | 내성 적은 풀페이스 스킨보톡스 (국산/독일산) | 제오민 2배 용량 |  | 정가: 540,000원 / VAT 전: 299,000원 / VAT 후 (최종): 328,900원 |  | 확인 필요 |\n\nraw/10.md L884 event-2026-09-11-R139\n| event-2026-09-11-R139 | 보톡스 | 내성 적은 풀페이스 스킨보톡스 (국산/독일산) | 앨러간 |  | 정가: 540,000원 / VAT 전: 299,000원 / VAT 후 (최종): 328,900원 |  | 확인 필요 |\n\nraw/10.md L885 event-2026-09-11-R140\n| event-2026-09-11-R140 | 보톡스 | 내성 적은 풀페이스 스킨보톡스 (국산/독일산) | 앨러간 2배용량 |  | 정가: 730,000원 / VAT 전: 399,000원 / VAT 후 (최종): 438,900원 |  | 확인 필요 |\n\nraw/10.md L886 event-2026-09-11-R141\n| event-2026-09-11-R141 | 보톡스 | 탄력/볼륨 콜라겐 소생 스컬트라 | • 스컬트라 1 vial |  | 정가: 1,440,000원 / VAT 전: 790,000원 / VAT 후 (최종): 869,000원 |  | 확인 필요 |\n\nraw/10.md L887 event-2026-09-11-R142\n| event-2026-09-11-R142 | 보톡스 | 탄력/볼륨 콜라겐 소생 스컬트라 | • 바디 스컬트라 5 vial |  | 정가: 5,820,000원 / VAT 전: 3,200,000원 / VAT 후 (최종): 3,520,000원 |  | 확인 필요 |",
+          "limit": ""
         },
         {
           "id": "case-20261029-06",
-          "verdict": "suspectedError",
+          "verdict": "needsVerification",
           "country": "ZZ",
           "title": "chin·jawline·masseter 용어 혼동",
           "customerText": "I wanted to get Botox on three areas. Forehead since I have visible horizontal wrinkles, also when I smile I show my gums a lot so I was wondering if it was possible to get botox for that too. And finally, to define my jaw a little bit\n\nWhat about the price for all 3 areas?\n\nor it just applied to wrinkle botox?",
-          "customerKo": "턱선 개선을 포함한 세 부위 보톡스를 원하며 전체 비용과 주름보톡스 패키지 적용 범위를 물었다. 병원이 이어서 턱끝·교근과 주름보톡스를 설명한 부분이다.",
+          "customerKo": "보톡스를 세 부위에 받고 싶어요. 이마에 가로주름이 뚜렷하고, 웃을 때 잇몸이 많이 보여서 그 부분도 보톡스가 가능한지 궁금해요. 마지막으로 턱선도 조금 더 또렷하게 만들고 싶어요.\n\n세 부위를 모두 하면 가격이 어떻게 되나요?\n\n아니면 주름 보톡스에만 적용되는 건가요?",
           "staffText": "For wrinkle Botox, we can only inject it into the specific areas where wrinkles appear. It’s different from chin Botox, as each treatment targets different concerns and muscle groups. Wrinkle Botox including (Forehead, Gabella, Crows Feet, Under the Eyes, Bunny Line, Chin). These are the part that wrinkle botox can choose.",
-          "staffKo": "주름 보톡스 가격표 이미지를 보내고 주름 부위에만 주사할 수 있다고 설명했다. chin Botox와 다르다고 한 뒤 선택 부위에 Chin을 다시 포함했다. 세 부위 전체 합계는 제시하지 않았다.",
-          "rationale": "직전에는 턱선·교근 보톡스를 설명했는데 여기서는 chin Botox와 다르다고 한 뒤 주름보톡스 목록에 Chin을 다시 넣었다. 가이드의 주름 부위는 자갈턱이고 사각턱은 별도 상품이므로 턱끝과 교근을 혼동하게 할 수 있는 표현이다. 주름보톡스에 턱 부위가 일절 불가하다는 의학적 오류로 단정하지 않는다.",
-          "evidence": "raw/10.md L9–24\n| list-A10 | 보톡스 정가 | 주름 보톡스 | 1부위 · 국산 | 1부위 | 금액: 32,900원 | (이마, 미간, 눈가, 눈밑, 콧등, 자갈턱) | 확인 필요 |\n\nraw/10.md L9–24\n| list-A30 | 보톡스 정가 | 사각턱 보톡스 | 국산 |  | 금액: 43,500원 |  | 담당팀 확인 |\n\nraw/05.md L2321–2329\n부위가 세 곳이라 3부위 상품으로 생각하실 수 있어요. 다만 미간 주름과 사각턱·측두근은 상품 분류와 필요한 용량이 다를 수 있습니다. 원하시는 세 부위를 기준으로 제품과 총비용을 나눠 확인해 드릴게요.",
-          "limit": "턱끝·교근 용어 혼동 의심이며 의학적 오류 확정 아님."
-        },
-        {
-          "id": "case-20261029-07",
-          "verdict": "needsVerification",
-          "country": "ZZ",
-          "title": "진료시간과 예약 접수 가능시간 구분",
-          "customerText": "Understood! Then for now I'll get the coretox for the forehead and gummy smile\n[개인정보 생략]",
-          "customerKo": "코어톡스로 이마·거미스마일 시술을 선택하고 예약을 요청했다. 영어 상담을 희망했다.",
-          "staffText": "Thank you for providing your details! [표정 문자 생략][표정 문자 생략]\n\nOur appointment hours are from 10:00 AM to 6:00 PM on weekdays, and from 10:00 AM to 3:00 PM on weekends.\n\n[개인정보 생략]",
-          "staffKo": "평일 예약시간은 10~18시, 주말은 10~15시라고 안내하고 방문 일정을 제안했다.",
-          "rationale": "가이드의 평일 20시·주말 16시30분은 진료시간이고 답변의 시간은 예약 접수시간이다. 마지막 예약·외국어 상담 접수가 별도일 수 있어 시간 차이만으로 오류라고 할 수 없다. 요청 일정에 대한 제안과 동의도 이어졌다.",
-          "evidence": "raw/07.md L21–27\n- 평일 10:00–20:00, 주말·대체공휴일 10:00–16:30입니다. 점심시간 없이 진료합니다.\n\nraw/07.md L184–192\n같은 시간대의 예약 정원, 룸 배정, 시술별 소요시간은 이 자료만으로 확정할 수 없습니다. 담당자에게 확인한 뒤 예약합니다.",
-          "limit": "진료시간과 예약 접수시간 차이일 수 있음."
-        },
-        {
-          "id": "case-20261029-08",
-          "verdict": "needsVerification",
-          "country": "ZZ",
-          "title": "예약 확정 증거 범위·삭제 메시지",
-          "customerText": "Understood! Then for now I'll get the coretox for the forehead and gummy smile\n[개인정보 생략]\nYes, it would be okay, thank you! [표정 문자 생략]",
-          "customerKo": "코어톡스로 이마·거미스마일 시술을 선택하고 예약을 요청했다. 병원이 제안한 일정에 동의했다.",
-          "staffText": "Of course! [표정 문자 생략] We'd be happy to schedule your appointment for [개인정보 생략]. We look forward to seeing you then! [표정 문자 생략]\n\nYour reservation has been scheduled for the following date and time:\n[개인정보 생략]\n[…]",
-          "staffKo": "예약을 잡겠다고 답한 뒤 예약이 확정됐다는 방문 안내를 보냈다.",
-          "rationale": "고객의 동의, 병원의 확정 답변, 플랫폼 확정과 방문 안내가 서로 일치한다. 다만 실제 CRM의 부위·언어·중복 여부까지 확인된 것은 아니다. 삭제된 메시지가 정정이나 오안내였는지는 알 수 없다.",
-          "evidence": "raw/07.md L282–310\n- CRM에 예약이 등록되어 있고 날짜·시간이 고객과 합의한 내용과 같은지 확인합니다.\n\nraw/07.md L282–310\n- 위치, 일정 변경 방법, 해당되는 준비사항까지 확인하고 발송합니다.",
-          "limit": "실제 CRM 등록과 삭제 메시지 원문 미확인."
-        },
-        {
-          "id": "case-20261029-09",
-          "verdict": "confirmedError",
-          "country": "ZZ",
-          "title": "지도 링크 문자열 손상",
-          "customerText": "Understood! Then for now I'll get the coretox for the forehead and gummy smile\n[개인정보 생략]\nYes, it would be okay, thank you! [표정 문자 생략]",
-          "customerKo": "코어톡스로 이마·거미스마일 시술을 선택하고 예약을 요청했다. 병원이 제안한 일정에 동의했다.",
-          "staffText": "Link for lo*ation \n* Naver Map : https://naver.me/*ap1E0ph",
-          "staffKo": "예약 안내에 별표가 포함된 네이버 지도 링크를 보냈다.",
-          "rationale": "실제 안내한 네이버 링크에는 별표가 들어가 가이드의 https://naver.me/5ap1E0ph 와 다르다. 링크 문자열 손상은 확인되지만 접속 실패까지 확인한 것은 아니다. 나머지 위치 안내 전체가 잘못됐다는 뜻은 아니다.",
-          "evidence": "raw/08.md L224–234\n* Naver Map : https://naver.me/5ap1E0ph",
-          "limit": "문자열 손상만 확인. 실제 접속 실패는 미검증."
+          "staffKo": "주름 보톡스는 주름이 나타나는 특정 부위에만 주사할 수 있어요. 각각 다른 고민과 근육군을 대상으로 하므로 턱끝 보톡스와는 달라요. 주름 보톡스로 선택할 수 있는 부위는 이마, 미간, 눈가, 눈밑, 콧등, 턱끝입니다.",
+          "rationale": "주름 1부위 코어 42,900원은 자갈턱을 포함하지만 교근 코어 73,700원은 별도 사각턱 상품이다. chin을 주름 목록에 넣으면서 chin Botox와 다르다고 한 표현은 자갈턱과 교근 구분을 흐린다.",
+          "evidence": "raw/10.md L10 list-A11\n| list-A11 | 보톡스 정가 | 주름 보톡스 | 1부위 · 코어 | 1부위 | 금액: 42,900원 | (이마, 미간, 눈가, 눈밑, 콧등, 자갈턱) | 확인 필요 |\n\nraw/10.md L22 list-A31\n| list-A31 | 보톡스 정가 | 사각턱 보톡스 | 코어 |  | 금액: 73,700원 |  | 확인 필요 |",
+          "limit": ""
         },
         {
           "id": "case-20261029-10",
@@ -291,90 +213,12 @@ window.SUPERVISION_DATA = {
           "country": "TH",
           "title": "지정비 최소금액·적용상품 조건 누락",
           "customerText": "เดือนตุลาคม ยังมีคิวอยู่ไหมคะ\n[…]\nโบท็อกกราม\n[개인정보 생략]",
-          "customerKo": "예약 가능한 자리가 있는지 물었고, 사각턱 보톡스 예약 정보를 회신했다.",
+          "customerKo": "10월에 아직 예약 가능한 시간이 있나요?\n\n사각턱 보톡스요.\n[개인정보 생략]",
           "staffText": "[…]\n＊กรณีเข้ารับคำปรึกษาเท่านั้นโดยไม่ทำหัตถการในวันนัด\nจะมีค่าปรึกษา 10,000 วอน\n＊หากประสงค์จะระบุให้แพทย์ผู้อำนวยการคลินิกเป็นผู้ทำหัตถการ\nจะมีค่าใช้จ่ายเพิ่มเติม 20% ของราคาหัตถการ\n*หากประสงค์จะระบุให้แพทย์ท่านใดโดยเฉพาะเป็นผู้ทำหัตถการ\nจะมีค่าใช้จ่ายเพิ่มเติม 10% ของราคาหัตถการ",
-          "staffKo": "상담만 받으면 상담료 10,000원, 대표원장 지정은 시술비의 20%, 특정 의사 지정은 10%가 추가된다고 안내했다.",
-          "rationale": "태국어는 대표원장 지정 시 시술비 20%, 특정 의사 지정 시 10% 추가라고 안내한다. 최신 운영 원문은 일반 최소 3만원·대표 최소 5만원이며, 강남언니 등 앱 이벤트는 지정불가이고 원내 월이벤트 결제 시에만 가능하다고 한다. 이 상담은 앱 이벤트 유입인데 확정문자에는 해당 조건이 없어서 비율만 내면 앱 이벤트에도 지정 가능한 것으로 읽힐 수 있다. 20%/10% 숫자 자체를 오안내로 보거나 고객이 실제 지정·결제한 것으로 추정하지 않는다. 가이드의 일부 태국어 빠른문구가 대표 10%로 남아 있는 자료 충돌은 직원 개인 오류와 구별한다.",
-          "evidence": "raw/07.md L312–314\n원장님 지정은 원내 월 이벤트 결제 시 가능합니다. 일반 원장님은 10%(최소 30,000원), 대표원장님은 20%(최소 50,000원)이며, 결제 전에 안내합니다.\n\nraw/08.md L19–23\n강남언니, 여신티켓, 바비톡 어플 이벤트 시술은 원장님 지정이 불가합니다.",
-          "limit": "실제 의사 지정·결제는 확인되지 않았고 구 태국어 자료와 비율 충돌도 있음."
-        },
-        {
-          "id": "case-20261029-11",
-          "verdict": "needsVerification",
-          "country": "TH",
-          "title": "예약 시각의 태국어 통역 배치 확인",
-          "customerText": "ต้องการล่ามตอนเข้าคลินิก\nติดต่อแอดมิน\nเดือนตุลาคม ยังมีคิวอยู่ไหมคะ\n[…]\nโบท็อกกราม\n[개인정보 생략]",
-          "customerKo": "내원 시 통역과 상담직원 연결을 요청했다. 예약 가능한 자리를 물은 뒤 사각턱 보톡스 예약 정보를 회신했다.",
-          "staffText": "ได้เลยค่ะ [표정 문자 생략][표정 문자 생략]\n\nทางคลินิกมีเจ้าหน้าที่ที่สามารถสื่อสารภาษาไทยคอยช่วยแปลและดูแลคุณลูกค้าระหว่างการปรึกษาและเข้ารับบริการค่ะ ไม่ต้องกังวลเรื่องการสื่อสารนะคะ [표정 문자 생략]\n[…]\nทางคลินิกขอยืนยันการนัดหมายของคุณตามวันและเวลาดังต่อไปนี้ค่ะ [표정 문자 생략]\n[개인정보 생략]",
-          "staffKo": "상담과 시술 중 태국어 직원이 통역을 도와준다고 답했다. 이후 예약 확정 안내를 보냈다.",
-          "rationale": "통역 요청에는 상담과 시술 중 태국어 직원이 번역을 도와준다고 답했고 예약도 확정했다. 그러나 확정한 예약 시간의 통역 담당·배치가 확인됐다는 근거는 없다. 요청 무시나 통역 불가가 확인된 것은 아니다.",
-          "evidence": "raw/07.md L182–194\n같은 시간대의 예약 정원, 룸 배정, 시술별 소요시간은 이 자료만으로 확정할 수 없습니다. 담당자에게 확인한 뒤 예약합니다.\n\nraw/05.md L3181–3185\n- 고객이 편한 언어와 통역 가능한 시간을 확인합니다.",
-          "limit": "예약 시간의 통역 담당·배치 미확인."
-        },
-        {
-          "id": "case-20261029-12",
-          "verdict": "needsVerification",
-          "country": "JP",
-          "title": "상품 현행·범위",
-          "customerText": "직접 입력한 문의 없음 · 상품페이지 유입\nホンデ ビューティーブロッサム ビューティーフィット シュリンクユニバース",
-          "customerKo": "슈링크 유니버스 이벤트 유입 표시만 있으며 고객이 직접 입력한 질문은 없다. 병원이 보낸 이벤트 링크와 가격표 이미지의 상품 범위를 검토한 건이다.",
-          "staffText": "[문장형 답변 없음: 상품 안내 링크와 가격표 이미지를 보냄]",
-          "staffKo": "일본어 병원 이벤트 페이지 링크와 가격표 이미지를 전송했다.",
-          "rationale": "슈링크 관련 이벤트에 슈링크300/600샷이 포함돼 주제 대응은 된다. 다만 V슬림69,000원과 관련 가이드 10 event-R78은 삭제가능여부 확인 필요 상태이고, 이미지에는 그 조건이 없다. 판매중단 확정은 아니다.",
-          "evidence": "raw/10.md L836\n| event-2026-09-11-R78 | 리프팅 타이밍 | V 슬림 솔루션 | • 국산)사각턱 보톡스 + v핏 주사 6cc (뷰티핏or블라썸핏) |  | 정가: 130,000원 / VAT 전: 69,000원 / VAT 후 (최종): 75,900원 | 삭제가능여부 확인 필요 | 확인 필요 |",
-          "limit": "판매중단 확정 아님. 현행 상품 범위 미확인. 원답변은 링크·가격표 첨부이며 공개 가능한 별도 설명 문장 없음."
-        },
-        {
-          "id": "case-20261029-13",
-          "verdict": "needsVerification",
-          "country": "ZZ",
-          "title": "취소 후 CRM·플랫폼 반영 및 삭제 내용",
-          "customerText": "Can I please cancel it? I put the wrong treatment",
-          "customerKo": "잘못된 시술을 선택했다며 예약 취소를 요청했다.",
-          "staffText": "Sure I will help you to cancel the reservation, which treatment you are interested in?",
-          "staffKo": "예약 취소를 도와주겠다고 하고 관심 있는 시술을 물었다.",
-          "rationale": "취소 요청에 돕겠다는 답은 있지만 취소 완료 표시나 처리 결과 안내는 확인되지 않는다. 삭제된 메시지에 완료 안내가 있었는지 알 수 없어 실제 취소 미처리나 답변 누락으로 확정하지 않는다.",
-          "evidence": "raw/07.md L425–447\n- 변경·취소 요청과 사유를 기록합니다. 새 일정은 가능한 시간인지 다시 확인합니다.\n\nraw/07.md L425–447\n- 고객에게 변경 결과를 안내합니다. 플랫폼을 통해 들어온 예약은 해당 플랫폼에도 변경 내용이 반영됐는지 확인합니다.",
-          "limit": "삭제 메시지 원문과 실제 취소 반영 미확인."
-        },
-        {
-          "id": "case-20261029-14",
-          "verdict": "needsVerification",
-          "country": "TW",
-          "title": "브랜드·채널·시점별 견적",
-          "customerText": "직접 입력한 문의 없음 · 상품페이지 유입\n弘大_Beauty Blossom 麗朵 V-Line 咀嚼肌肉毒",
-          "customerKo": "사각턱 보톡스 이벤트 유입 표시만 있으며 고객이 직접 입력한 가격 질문은 없다. 병원이 가격표 이미지와 브랜드별 50단위 가격을 먼저 안내했다.",
-          "staffText": "您好～[표정 문자 생략] 這是我們的價格表，您可以先參考一下～[표정 문자 생략]\n如果您需要提前預約，也可以隨時告訴我們，我們可以馬上幫您安排喔～[표정 문자 생략]\n\n咀嚼肌肉毒 50u ，稅後的價格也一起給您參考喔！\n\n韓國產 43,500\n韓國CORE 73,700\n德國天使 143,000\n美國保妥適 197,000",
-          "staffKo": "가격표 이미지 1개를 보내고 사전 예약을 제안.\n사각턱 보톡스 50U 세후 가격으로 국산 43,500원, 코어 73,700원, 독일 제품 143,000원, 미국 제품 197,000원을 안내.",
-          "rationale": "143,000·197,000원은 일반수가의 제오민·앨러간 사각턱 가격과 같다. 다만 중국어 별칭의 실제 제품, 해당 플랫폼 상품 구성·현행 적용·VAT는 확인되지 않아 세후 견적이나 가격 오류를 확정할 수 없다.",
-          "evidence": "raw/10.md L21–24\n| list-A32 | 보톡스 정가 | 사각턱 보톡스 | 제오민 |  | 금액: 143,000원 |  | 확인 필요 |\n\nraw/10.md L21–24\n| list-A33 | 보톡스 정가 | 사각턱 보톡스 | 앨러간 |  | 금액: 197,000원 |  | 확인 필요 |",
-          "limit": "중국어 제품 별칭·현행 판매조건·VAT 미확인."
-        },
-        {
-          "id": "case-20261029-15",
-          "verdict": "needsVerification",
-          "country": "TW",
-          "title": "광고·내성·효과",
-          "customerText": "직접 입력한 문의 없음 · 상품페이지 유입\n弘大_Beauty Blossom 麗朵 V-Line 咀嚼肌肉毒",
-          "customerKo": "사각턱 보톡스 이벤트 유입 표시만 있으며 고객이 직접 입력한 질문은 없다. 병원이 먼저 보낸 가격표 이미지의 내성·효과 문구를 검토한 건이다.",
-          "staffText": "您好～[표정 문자 생략] 這是我們的價格表，您可以先參考一下～[표정 문자 생략]\n如果您需要提前預約，也可以隨時告訴我們，我們可以馬上幫您安排喔～[표정 문자 생략]",
-          "staffKo": "가격표 이미지 1개를 보내고 사전 예약을 제안.",
-          "rationale": "저내성/효과UP/필터 없는 도자기피부 및 자체 콜라겐 생성 표현이 있다. 개인별 결과·내성발생 없음의 보장으로 확대하면 안 되며 이미지 자체의 규정 위반은 본 검토로 확정하지 않는다.",
-          "evidence": "직접 대조 가능한 가이드 인용·줄번호 없음. 첨부의 표현·조건 자체를 검토한 건.",
-          "limit": "이미지 문구의 제품 허가사항·공식 효과 근거 개별 대조 없음."
-        },
-        {
-          "id": "case-20261029-16",
-          "verdict": "needsVerification",
-          "country": "TW",
-          "title": "광고·내성·효과",
-          "customerText": "직접 입력한 문의 없음 · 상품페이지 유입\n[2人起,再享9折]弘大_童顏秘訣_Beauty Blossom 麗朵除皺肉毒",
-          "customerKo": "2인 이상 추가할인 주름보톡스 이벤트 유입 표시만 있으며 고객이 직접 입력한 질문은 없다. 병원이 보낸 행사 이미지의 내성·효과 문구를 검토한 건이다.",
-          "staffText": "您好，這邊發除皺肉毒相關優惠活動給您參考，有什麼問題可以再咨詢哦~",
-          "staffKo": "주름 보톡스 행사 이미지 1개를 보내고 추가 질문을 받겠다고 답변.",
-          "rationale": "저내성/효과UP/필터 없는 도자기피부 및 자체 콜라겐 생성 표현이 있다. 개인별 결과·내성발생 없음의 보장으로 확대하면 안 되며 이미지 자체의 규정 위반은 본 검토로 확정하지 않는다.",
-          "evidence": "직접 대조 가능한 가이드 인용·줄번호 없음. 첨부의 표현·조건 자체를 검토한 건.",
-          "limit": "이미지 문구의 공식 효과 근거·규정 위반 여부 미확정."
+          "staffKo": "＊예약일에 시술 없이 상담만 받으시면 상담료 10,000원이 있습니다.\n＊대표원장을 시술 의사로 지정하시면 시술비의 20%가 추가됩니다.\n＊특정 의사를 시술 의사로 지정하시면 시술비의 10%가 추가됩니다.",
+          "rationale": "상담만 10,000원은 표와 같고, 일반원장 10%·대표 20%도 운영기준과 같다. 빠진 조건은 일반 최소 30,000원·대표 최소 50,000원 및 앱 이벤트 지정불가다. 예를 들어 원내 시술비 100,000원이면 10%인 10,000원이 아니라 최소 30,000원, 대표는 20,000원이 아니라 최소 50,000원이다.",
+          "evidence": "raw/07.md L312–L314 본문\n**확인 필요 사항**\n\n원장님 지정은 원내 월 이벤트 결제 시 가능합니다. 일반 원장님은 10%(최소 30,000원), 대표원장님은 20%(최소 50,000원)이며, 결제 전에 안내합니다.\n\nraw/08.md L13 본문\n[표정 문자 생략]상담만 진행하실 경우 상담비 10,000원이 발생합니다.\n\nraw/08.md L19–L23 본문\n[표정 문자 생략]원장님 지정 원하실경우 비용 안내드립니다.\n강남언니, 여신티켓, 바비톡 어플 이벤트 시술은 원장님 지정이 불가합니다.\n원내가 결제 시 지정 가능합니다.\n· 원장님 지정: 시술 금액의 10% (최소 30,000원)\n· 대표원장님 지정: 시술 금액의 20% (최소 50,000원)\n\nraw/08.md L92–L93 본문\n* หากเข้ามาปรึกษาอย่างเดียว โดยไม่ได้ทำหัตถการในวันนั้น จะมีค่าปรึกษา 10,000 วอน\n* หากต้องการระบุให้ผู้อำนวยการแพทย์เป็นผู้ทำหัตถการ จะมีค่าธรรมเนียมเพิ่มเติม 10% ของค่าหัตถการ",
+          "limit": ""
         },
         {
           "id": "case-20261029-17",
@@ -382,64 +226,38 @@ window.SUPERVISION_DATA = {
           "country": "TW",
           "title": "동반 할인 조건",
           "customerText": "직접 입력한 문의 없음 · 상품페이지 유입\n[2人起,再享9折]弘大_童顏秘訣_Beauty Blossom 麗朵除皺肉毒",
-          "customerKo": "2인 이상 10퍼센트 추가할인 이벤트로 유입됐으나 고객이 직접 입력한 할인 질문은 없다. 이벤트 표시와 병원의 행사 이미지 사이 적용조건을 검토한 건이다.",
+          "customerKo": "직접 입력한 문의 없음 · 상품페이지 유입\n[2인 이상, 추가 10% 할인] 홍대_동안 비결_Beauty Blossom 麗朵 주름 보톡스",
           "staffText": "您好，這邊發除皺肉毒相關優惠活動給您參考，有什麼問題可以再咨詢哦~",
-          "staffKo": "주름 보톡스 행사 이미지 1개를 보내고 추가 질문을 받겠다고 답변.",
-          "rationale": "연결 이벤트에는 2인 이상 추가9折(10% 추가할인)이 있으나 첨부에는 최대49%와 표 가격만 있고 동반 적용조건/중복할인은 없다. 할인 누락·미적용 자체는 확인하지 못했다.",
-          "evidence": "직접 대조 가능한 가이드 인용·줄번호 없음. 첨부의 표현·조건 자체를 검토한 건.",
-          "limit": "동반 할인 중복 조건·실제 미적용 여부 미확인."
+          "staffKo": "주름 보톡스 관련 할인행사를 보내 드리니 참고해 주세요. 궁금한 점은 다시 문의해 주세요.",
+          "rationale": "첨부14개 상품의 정가·행사가는 표와 일치한다. 연결 이벤트의 2인 이상 9折은 10% 추가할인인데 첨부에는 최대49%와 표 금액만 있다. 예컨대 국산 주름3부위68,000원에 추가9折이 적용되면 세전61,200원·세후67,320원이지만 동반·중복할인 적용을 답변에서 정하지 않았다.",
+          "evidence": "raw/10.md L874 event-2026-09-11-R129\n| event-2026-09-11-R129 | 보톡스 | 주름보톡스 3부위 | 국산 |  | 정가: 120,000원 / VAT 전: 68,000원 / VAT 후 (최종): 74,800원 |  | 확인 필요 |\n\nraw/10.md L875 event-2026-09-11-R130\n| event-2026-09-11-R130 | 보톡스 | 주름보톡스 3부위 | 내성적은 코어톡스 |  | 정가: 160,000원 / VAT 전: 88,000원 / VAT 후 (최종): 96,800원 |  | 확인 필요 |\n\nraw/10.md L876 event-2026-09-11-R131\n| event-2026-09-11-R131 | 보톡스 | 주름보톡스 3부위 | 제오민 |  | 정가: 220,000원 / VAT 전: 119,000원 / VAT 후 (최종): 130,900원 |  | 확인 필요 |\n\nraw/10.md L877 event-2026-09-11-R132\n| event-2026-09-11-R132 | 보톡스 | 스킨보톡스1부위 (이마/팔자/턱라인/목주름) | 국산 |  | 정가: 110,000원 / VAT 전: 59,000원 / VAT 후 (최종): 64,900원 |  | 확인 필요 |\n\nraw/10.md L878 event-2026-09-11-R133\n| event-2026-09-11-R133 | 보톡스 | 스킨보톡스1부위 (이마/팔자/턱라인/목주름) | 코어 |  | 정가: 140,000원 / VAT 전: 79,000원 / VAT 후 (최종): 86,900원 |  | 확인 필요 |\n\nraw/10.md L879 event-2026-09-11-R134\n| event-2026-09-11-R134 | 보톡스 | 스킨보톡스1부위 (이마/팔자/턱라인/목주름) | 제오민 |  | 정가: 220,000원 / VAT 전: 119,000원 / VAT 후 (최종): 130,900원 |  | 확인 필요 |\n\nraw/10.md L880 event-2026-09-11-R135\n| event-2026-09-11-R135 | 보톡스 | 내성 적은 풀페이스 스킨보톡스 (국산/독일산) | 코어톡스 |  | 정가: 250,000원 / VAT 전: 139,000원 / VAT 후 (최종): 152,900원 |  | 확인 필요 |\n\nraw/10.md L881 event-2026-09-11-R136\n| event-2026-09-11-R136 | 보톡스 | 내성 적은 풀페이스 스킨보톡스 (국산/독일산) | 얼굴+목 2배 용량 |  | 정가: 360,000원 / VAT 전: 199,000원 / VAT 후 (최종): 218,900원 |  | 확인 필요 |\n\nraw/10.md L882 event-2026-09-11-R137\n| event-2026-09-11-R137 | 보톡스 | 내성 적은 풀페이스 스킨보톡스 (국산/독일산) | 제오민 |  | 정가: 330,000원 / VAT 전: 179,000원 / VAT 후 (최종): 196,900원 |  | 확인 필요 |\n\nraw/10.md L883 event-2026-09-11-R138\n| event-2026-09-11-R138 | 보톡스 | 내성 적은 풀페이스 스킨보톡스 (국산/독일산) | 제오민 2배 용량 |  | 정가: 540,000원 / VAT 전: 299,000원 / VAT 후 (최종): 328,900원 |  | 확인 필요 |\n\nraw/10.md L884 event-2026-09-11-R139\n| event-2026-09-11-R139 | 보톡스 | 내성 적은 풀페이스 스킨보톡스 (국산/독일산) | 앨러간 |  | 정가: 540,000원 / VAT 전: 299,000원 / VAT 후 (최종): 328,900원 |  | 확인 필요 |\n\nraw/10.md L885 event-2026-09-11-R140\n| event-2026-09-11-R140 | 보톡스 | 내성 적은 풀페이스 스킨보톡스 (국산/독일산) | 앨러간 2배용량 |  | 정가: 730,000원 / VAT 전: 399,000원 / VAT 후 (최종): 438,900원 |  | 확인 필요 |\n\nraw/10.md L886 event-2026-09-11-R141\n| event-2026-09-11-R141 | 보톡스 | 탄력/볼륨 콜라겐 소생 스컬트라 | • 스컬트라 1 vial |  | 정가: 1,440,000원 / VAT 전: 790,000원 / VAT 후 (최종): 869,000원 |  | 확인 필요 |\n\nraw/10.md L887 event-2026-09-11-R142\n| event-2026-09-11-R142 | 보톡스 | 탄력/볼륨 콜라겐 소생 스컬트라 | • 바디 스컬트라 5 vial |  | 정가: 5,820,000원 / VAT 전: 3,200,000원 / VAT 후 (최종): 3,520,000원 |  | 확인 필요 |",
+          "limit": ""
         },
         {
           "id": "case-20261029-18",
-          "verdict": "needsVerification",
+          "verdict": "sourceConflict",
           "country": "JP",
           "title": "무제한 용량·브랜드 대응",
           "customerText": "직접 입력한 문의 없음 · 상품페이지 유입\nホンデ デザインスリムライン 肩フィラー、直角肩フィラー、スワンショルダーフィラー",
-          "customerKo": "어깨 필러 이벤트 유입 표시만 있으며 고객이 직접 입력한 질문은 없다. 병원이 전송한 필러 가격표의 무제한 조건과 브랜드별 가격 대응을 검토한 건이다.",
+          "customerKo": "직접 입력한 문의 없음 · 상품페이지 유입\n홍대 디자인 슬림라인 어깨 필러·직각 어깨 필러·스완 숄더 필러",
           "staffText": "[문장형 답변 없음: 상품 안내 링크와 가격표 이미지를 보냄]",
-          "staffKo": "일본어 병원 이벤트 페이지 링크와 가격표 이미지를 전송했다.",
-          "rationale": "어깨 문의에24cc 가격이 있어 대응한다. 풀페이스의 특수부위 포함 무제한 문구는 최대용량·제외부위·의사판단 조건이 없다. 눈밑은4개 브랜드 표기에3개 가격이므로 정확한 제품군별 대응 확인이 필요하다.",
-          "evidence": "직접 대조 가능한 가이드 인용·줄번호 없음. 첨부의 표현·조건 자체를 검토한 건.",
-          "limit": "첨부의 다른 상품을 고객이 선택·질문한 것은 아님. 용량·가격 대응 미확인. 원답변은 링크·가격표 첨부이며 공개 가능한 별도 설명 문장 없음."
-        },
-        {
-          "id": "case-20261029-19",
-          "verdict": "needsVerification",
-          "country": "JP",
-          "title": "예약접수시간·진료시간 구분·예약 가능 시간",
-          "customerText": "[개인정보 생략]で予約はできますか？\n[…]\n上記脱毛+ピコトーニング",
-          "customerKo": "예약 가능 여부를 묻고 제모와 피코토닝을 희망한다고 회신했다.",
-          "staffText": "こんにちは[표정 문자 생략][표정 문자 생략]\n\n当院のご予約受付時間は、平日 10:00〜18:00となっております[표정 문자 생략]\n[…]\nご連絡ありがとうございます[표정 문자 생략]\n[개인정보 생략]ですと、10：00～18：00まで３０分毎の枠でご予約可能です！\nご都合のよろしい時間はございますか？",
-          "staffKo": "평일 예약 접수는 10~18시이며 요청일에는 10~18시 사이 30분 간격으로 예약할 수 있다고 안내했다.",
-          "rationale": "평일 예약 접수 10~18시와 요청일 30분 단위 예약 가능 안내는 가이드의 평일 진료 10~20시와 다르지만 접수업무·언어별 예약 범위는 별도일 수 있다. 실제 슬롯과 제모·피코토닝 소요시간이 확인되지 않아 오안내로 확정하지 않는다.",
-          "evidence": "raw/07.md L21–23\n- 평일 10:00–20:00, 주말·대체공휴일 10:00–16:30입니다. 점심시간 없이 진료합니다.\n\nraw/07.md L182–192\n같은 시간대의 예약 정원, 룸 배정, 시술별 소요시간은 이 자료만으로 확정할 수 없습니다. 담당자에게 확인한 뒤 예약합니다.",
-          "limit": "접수시간과 진료시간을 동일시할 수 없음. 실제 슬롯 미확인."
-        },
-        {
-          "id": "case-20261029-20",
-          "verdict": "needsVerification",
-          "country": "JP",
-          "title": "결제 수단·WOWPASS",
-          "customerText": "[개인정보 생략]\nこんにちは。\nお支払い方法についてお伺いしたいです。クレジットカードかwowpassでのお支払いは可能ですか？",
-          "customerKo": "신용카드 또는 와우패스로 결제할 수 있는지 질문했다.",
-          "staffText": "クレジットカードとWOWPASSのどちらもご利用いただけますので、ご安心くださいませ[표정 문자 생략]",
-          "staffKo": "신용카드와 WOWPASS 모두 사용할 수 있다고 답함.",
-          "rationale": "신용카드와 WOWPASS 모두에 답해 누락은 아니다. 가이드의 카드 단말기·신용승인 절차만으로 WOWPASS나 모든 해외카드 지원을 보증할 수 없다. WOWPASS 이용 불가 근거도 없어 오류는 미확정이다.",
-          "evidence": "raw/07.md L1401–1416\n승인 > 신용승인 > 결제금액입력 (과세/비과세)\n\nraw/07.md L1428–1445\n승인 > 신용승인 > 카드번호입력+cvc 입력 > 금액 입력 (과세/비과세)",
-          "limit": "WOWPASS 현행 지원 여부의 직접 근거 없음."
+          "staffKo": "링크·가격표 이미지 첨부만 있음. 별도 입력한 설명 문장 없음.",
+          "rationale": "어깨24cc 벨라스트1,090,000·아띠에르1,390,000·리쥬비엘1,690,000원 및 눈밑1cc 아띠에르250,000·리쥬비엘300,000·벨로테로소프트/레스틸렌아이라이트 공통360,000원은 원본 G열과 일치한다. 눈밑은 4브랜드3가격의 오류가 아니라 두 수입제품이 한 가격군이다. 다만 시즌표 입술 B31/C31의18만원 대 G31의20만원, 리쥬비엘20만원 대 G32의22만원, 풀페이스 B56의129·149만원 대 G56/G57의155·175만원이 충돌한다. 첨부는 G열을 따랐다. 코 수입제품은 첨부 벨로테로소프트 대 원본 C42 레스틸렌소프트이며, 취소선 코 리쥬비엘550,000원 대 F41 560,000원(-10,000원), 어깨 아띠에르2,550,000원 대 F54 2,530,000원(+20,000원) 차이가 있다.",
+          "evidence": "raw/17.md L7896–L7904 sheet-1248865534!F6:J6\nB6 | 시즌 이벤트 |  |\nC6 | 상세내용 |  |\nD6 | 수식어 |  |\nE6 | 정상 |  |\nF6 | 정가 |  |\nG6 | VAT 전 |  |\nH6 | VAT 후 (최종) |  |\nI6 | 표기정가 |  |\nJ6 | 표기엔드가(VAT 전) |  |\n\nraw/17.md L8033 sheet-1248865534!B31\nB31 | 스윗 입술필러 1cc (아띠에르 18, 리쥬비엘 20, 스웨덴 레스틸렌 키스 33) |  |\n\nraw/17.md L8056 sheet-1248865534!B34\nB34 | 내츄럴 애교필러 1cc (아띠에르 20, 리쥬비엘 22, 독일 벨로테로 소프트 33) |  |\n\nraw/17.md L8222 sheet-1248865534!B56\nB56 | 디자인 풀페이스 필러 (아띠에르 129, 리쥬비엘 149) [벨라스트 삭제] |  |\n\nraw/17.md L8231 sheet-1248865534!B57\nB57 | ㄴ(특수부위 포함 무제한 풀페이스 필러) |  |\n\nraw/17.md L8034 sheet-1248865534!C31\nC31 | 아띠에르 18 |  |\n\nraw/17.md L8037 sheet-1248865534!F31\nF31 | 360,000 | =ROUND(E31, -4) |\n\nraw/17.md L8038 sheet-1248865534!G31\nG31 | 200,000 |  |\n\nraw/17.md L8039 sheet-1248865534!H31\nH31 | 220,000 | =G31+(G31*10%) |\n\nraw/17.md L8042 sheet-1248865534!C32\nC32 | 리쥬비엘 20 |  |\n\nraw/17.md L8044 sheet-1248865534!F32\nF32 | 400,000 | =ROUND(E32, -4) |\n\nraw/17.md L8045 sheet-1248865534!G32\nG32 | 220,000 |  |\n\nraw/17.md L8046 sheet-1248865534!H32\nH32 | 242,000 | =G32+(G32*10%) |\n\nraw/17.md L8049 sheet-1248865534!C33\nC33 | 스웨덴 레스틸렌 키스 33 |  |\n\nraw/17.md L8051 sheet-1248865534!F33\nF33 | 640,000 | =ROUND(E33, -4) |\n\nraw/17.md L8052 sheet-1248865534!G33\nG33 | 350,000 |  |\n\nraw/17.md L8053 sheet-1248865534!H33\nH33 | 385,000 | =G33+(G33*10%) |\n\nraw/17.md L8057 sheet-1248865534!C34\nC34 | 아띠에르 20 |  |\n\nraw/17.md L8060 sheet-1248865534!F34\nF34 | 450,000 | =ROUND(E34, -4) |\n\nraw/17.md L8061 sheet-1248865534!G34\nG34 | 250,000 |  |\n\nraw/17.md L8062 sheet-1248865534!H34\nH34 | 275,000 | =G34+(G34*10%) |\n\nraw/17.md L8065 sheet-1248865534!C35\nC35 | 리쥬비엘 22 |  |\n\nraw/17.md L8067 sheet-1248865534!F35\nF35 | 490,000 | =ROUND(E35, -4) |\n\nraw/17.md L8068 sheet-1248865534!G35\nG35 | 270,000 |  |\n\nraw/17.md L8069 sheet-1248865534!H35\nH35 | 297,000 | =G35+(G35*10%) |\n\nraw/17.md L8072 sheet-1248865534!C36\nC36 | 스위스 벨로테로 소프트 33 |  |\n\nraw/17.md L8074 sheet-1248865534!F36\nF36 | 710,000 | =ROUND(E36, -4) |\n\nraw/17.md L8075 sheet-1248865534!G36\nG36 | 390,000 |  |\n\nraw/17.md L8076 sheet-1248865534!H36\nH36 | 429,000 | =G36+(G36*10%) |\n\nraw/17.md L8080 sheet-1248865534!C37\nC37 | 아띠에르  |  |\n\nraw/17.md L8082 sheet-1248865534!F37\nF37 | 450,000 | =ROUND(E37, -4) |\n\nraw/17.md L8083 sheet-1248865534!G37\nG37 | 250,000 |  |\n\nraw/17.md L8084 sheet-1248865534!H37\nH37 | 275,000 | =G37+(G37*10%) |\n\nraw/17.md L8087 sheet-1248865534!C38\nC38 | 리쥬비엘  |  |\n\nraw/17.md L8089 sheet-1248865534!F38\nF38 | 550,000 | =ROUND(E38, -4) |\n\nraw/17.md L8090 sheet-1248865534!G38\nG38 | 300,000 |  |\n\nraw/17.md L8091 sheet-1248865534!H38\nH38 | 330,000 | =G38+(G38*10%) |\n\nraw/17.md L8094 sheet-1248865534!C39\nC39 | 스위스 벨로테로 소프트 / 레스틸렌 아이라이트 |  |\n\nraw/17.md L8096 sheet-1248865534!F39\nF39 | 650,000 | =ROUND(E39, -4) |\n\nraw/17.md L8097 sheet-1248865534!G39\nG39 | 360,000 |  |\n\nraw/17.md L8098 sheet-1248865534!H39\nH39 | 396,000 | =G39+(G39*10%) |\n\nraw/17.md L8102 sheet-1248865534!C40\nC40 | 아띠에르  |  |\n\nraw/17.md L8104 sheet-1248865534!F40\nF40 | 490,000 | =ROUND(E40, -4) |\n\nraw/17.md L8105 sheet-1248865534!G40\nG40 | 270,000 |  |\n\nraw/17.md L8106 sheet-1248865534!H40\nH40 | 297,000 | =G40+(G40*10%) |\n\nraw/17.md L8109 sheet-1248865534!C41\nC41 | 리쥬비엘  |  |\n\nraw/17.md L8111 sheet-1248865534!F41\nF41 | 560,000 | =ROUND(E41, -4) |\n\nraw/17.md L8112 sheet-1248865534!G41\nG41 | 310,000 |  |\n\nraw/17.md L8113 sheet-1248865534!H41\nH41 | 341,000 | =G41+(G41*10%) |\n\nraw/17.md L8116 sheet-1248865534!C42\nC42 | 스웨덴 레스틸렌 소프트 |  |\n\nraw/17.md L8118 sheet-1248865534!F42\nF42 | 710,000 | =ROUND(E42, -4) |\n\nraw/17.md L8119 sheet-1248865534!G42\nG42 | 390,000 |  |\n\nraw/17.md L8120 sheet-1248865534!H42\nH42 | 429,000 | =G42+(G42*10%) |\n\nraw/17.md L8123 sheet-1248865534!C43\nC43 | 미쥬코 1줄 추가 |  |\n\nraw/17.md L8125 sheet-1248865534!F43\nF43 | 180,000 | =ROUND(E43, -4) |\n\nraw/17.md L8126 sheet-1248865534!G43\nG43 | 100,000 |  |\n\nraw/17.md L8127 sheet-1248865534!H43\nH43 | 110,000 | =G43+(G43*10%) |\n\nraw/17.md L8131 sheet-1248865534!C44\nC44 | 아띠에르 39 |  |\n\nraw/17.md L8134 sheet-1248865534!F44\nF44 | 710,000 | =ROUND(E44, -4) |\n\nraw/17.md L8135 sheet-1248865534!G44\nG44 | 390,000 |  |\n\nraw/17.md L8136 sheet-1248865534!H44\nH44 | 429,000 | =G44+(G44*10%) |\n\nraw/17.md L8139 sheet-1248865534!C45\nC45 | 리쥬비엘 45 |  |\n\nraw/17.md L8141 sheet-1248865534!F45\nF45 | 820,000 | =ROUND(E45, -4) |\n\nraw/17.md L8142 sheet-1248865534!G45\nG45 | 450,000 |  |\n\nraw/17.md L8143 sheet-1248865534!H45\nH45 | 495,000 | =G45+(G45*10%) |\n\nraw/17.md L8146 sheet-1248865534!C46\nC46 | 수입 99 |  |\n\nraw/17.md L8148 sheet-1248865534!F46\nF46 | 1,800,000 | =ROUND(E46, -4) |\n\nraw/17.md L8149 sheet-1248865534!G46\nG46 | 990,000 |  |\n\nraw/17.md L8150 sheet-1248865534!H46\nH46 | 1,089,000 | =G46+(G46*10%) |\n\nraw/17.md L8154 sheet-1248865534!C47\nC47 | 아띠에르 |  |\n\nraw/17.md L8157 sheet-1248865534!F47\nF47 | 1,070,000 | =ROUND(E47, -4) |\n\nraw/17.md L8158 sheet-1248865534!G47\nG47 | 590,000 |  |\n\nraw/17.md L8159 sheet-1248865534!H47\nH47 | 649,000 | =G47+(G47*10%) |\n\nraw/17.md L8162 sheet-1248865534!C48\nC48 | 리쥬비엘  |  |\n\nraw/17.md L8164 sheet-1248865534!F48\nF48 | 1,180,000 | =ROUND(E48, -4) |\n\nraw/17.md L8165 sheet-1248865534!G48\nG48 | 650,000 |  |\n\nraw/17.md L8166 sheet-1248865534!H48\nH48 | 715,000 | =G48+(G48*10%) |\n\nraw/17.md L8169 sheet-1248865534!C49\nC49 | 수입 |  |\n\nraw/17.md L8171 sheet-1248865534!F49\nF49 | 1,800,000 | =ROUND(E49, -4) |\n\nraw/17.md L8172 sheet-1248865534!G49\nG49 | 990,000 |  |\n\nraw/17.md L8173 sheet-1248865534!H49\nH49 | 1,089,000 | =G49+(G49*10%) |\n\nraw/17.md L8177 sheet-1248865534!C50\nC50 | 아띠에르  |  |\n\nraw/17.md L8180 sheet-1248865534!F50\nF50 | 760,000 | =ROUND(E50, -4) |\n\nraw/17.md L8181 sheet-1248865534!G50\nG50 | 420,000 |  |\n\nraw/17.md L8182 sheet-1248865534!H50\nH50 | 462,000 | =G50+(G50*10%) |\n\nraw/17.md L8185 sheet-1248865534!C51\nC51 | 리쥬비엘 |  |\n\nraw/17.md L8187 sheet-1248865534!F51\nF51 | 840,000 | =ROUND(E51, -4) |\n\nraw/17.md L8188 sheet-1248865534!G51\nG51 | 460,000 |  |\n\nraw/17.md L8189 sheet-1248865534!H51\nH51 | 506,000 | =G51+(G51*10%) |\n\nraw/17.md L8192 sheet-1248865534!C52\nC52 | 스위스 벨로테로 소프트 |  |\n\nraw/17.md L8194 sheet-1248865534!F52\nF52 | 1,360,000 | =ROUND(E52, -4) |\n\nraw/17.md L8195 sheet-1248865534!G52\nG52 | 750,000 |  |\n\nraw/17.md L8196 sheet-1248865534!H52\nH52 | 825,000 | =G52+(G52*10%) |\n\nraw/17.md L8200 sheet-1248865534!C53\nC53 | 벨라스트 109 |  |\n\nraw/17.md L8203 sheet-1248865534!F53\nF53 | 1,980,000 | =ROUND(E53, -4) |\n\nraw/17.md L8204 sheet-1248865534!G53\nG53 | 1,090,000 |  |\n\nraw/17.md L8205 sheet-1248865534!H53\nH53 | 1,199,000 | =G53+(G53*10%) |\n\nraw/17.md L8208 sheet-1248865534!C54\nC54 | 아띠에르 139 |  |\n\nraw/17.md L8210 sheet-1248865534!F54\nF54 | 2,530,000 | =ROUND(E54, -4) |\n\nraw/17.md L8211 sheet-1248865534!G54\nG54 | 1,390,000 |  |\n\nraw/17.md L8212 sheet-1248865534!H54\nH54 | 1,529,000 | =G54+(G54*10%) |\n\nraw/17.md L8215 sheet-1248865534!C55\nC55 | 리쥬비엘 169 |  |\n\nraw/17.md L8217 sheet-1248865534!F55\nF55 | 3,070,000 | =ROUND(E55, -4) |\n\nraw/17.md L8218 sheet-1248865534!G55\nG55 | 1,690,000 |  |\n\nraw/17.md L8219 sheet-1248865534!H55\nH55 | 1,859,000 | =G55+(G55*10%) |\n\nraw/17.md L8223 sheet-1248865534!C56\nC56 | 아띠에르  |  |\n\nraw/17.md L8226 sheet-1248865534!F56\nF56 | 2,820,000 | =ROUND(E56, -4) |\n\nraw/17.md L8227 sheet-1248865534!G56\nG56 | 1,550,000 |  |\n\nraw/17.md L8228 sheet-1248865534!H56\nH56 | 1,705,000 | =G56+(G56*10%) |\n\nraw/17.md L8232 sheet-1248865534!C57\nC57 | 리쥬비엘  |  |\n\nraw/17.md L8234 sheet-1248865534!F57\nF57 | 3,180,000 | =ROUND(E57, -4) |\n\nraw/17.md L8235 sheet-1248865534!G57\nG57 | 1,750,000 |  |\n\nraw/17.md L8236 sheet-1248865534!H57\nH57 | 1,925,000 | =G57+(G57*10%) |\n\nraw/17.md L8239 sheet-1248865534!C58\nC58 | 수입필러 |  |\n\nraw/17.md L8241 sheet-1248865534!F58\nF58 | 6,180,000 | =ROUND(E58, -4) |\n\nraw/17.md L8242 sheet-1248865534!G58\nG58 | 3,400,000 |  |\n\nraw/17.md L8243 sheet-1248865534!H58\nH58 | 3,740,000 | =G58+(G58*10%) |",
+          "limit": ""
         },
         {
           "id": "case-20261029-21",
-          "verdict": "suspectedError",
+          "verdict": "needsVerification",
           "country": "CN",
           "title": "통화 단위",
           "customerText": "肉毒",
-          "customerKo": "보톡스라고 짧게 문의했다. 통화 단위를 직접 질문한 것은 아니며 병원이 보낸 할인 가격표의 단위 표시를 검토한 건이다.",
+          "customerKo": "보톡스",
           "staffText": "您好，这边发肉毒相关优惠活动给您参考~[…]",
-          "staffKo": "보톡스 관련 할인 행사 가격표를 참고하라고 보냈다.",
-          "rationale": "중국어 간체 가격이 韓元/원화 없이 元로 표시되어 중국 위안으로 오인할 가능성이 있다. 실제 위안 가격이라고 확정한 것은 아니다.",
-          "evidence": "raw/10.md L874\n| event-2026-09-11-R129 | 보톡스 | 주름보톡스 3부위 | 국산 |  | 정가: 120,000원 / VAT 전: 68,000원 / VAT 후 (최종): 74,800원 |  | 확인 필요 |",
-          "limit": "元 표기의 오인 가능성만 지적. 실제 위안화 가격 확정 아님."
+          "staffKo": "보톡스 관련 할인행사를 보내 드리니 참고해 주세요.",
+          "rationale": "첨부 14개 항목의 금액 숫자는 수가표와 일치한다. 수가표는 KRW인데 중국어 이미지에는 元으로만 표기되어 있다. 예: 주름 3부위 68,000 KRW / 이미지 68,000元.",
+          "evidence": "raw/10.md L874 event-2026-09-11-R129\n| event-2026-09-11-R129 | 보톡스 | 주름보톡스 3부위 | 국산 |  | 정가: 120,000원 / VAT 전: 68,000원 / VAT 후 (최종): 74,800원 |  | 확인 필요 |\n\nraw/10.md L875 event-2026-09-11-R130\n| event-2026-09-11-R130 | 보톡스 | 주름보톡스 3부위 | 내성적은 코어톡스 |  | 정가: 160,000원 / VAT 전: 88,000원 / VAT 후 (최종): 96,800원 |  | 확인 필요 |\n\nraw/10.md L876 event-2026-09-11-R131\n| event-2026-09-11-R131 | 보톡스 | 주름보톡스 3부위 | 제오민 |  | 정가: 220,000원 / VAT 전: 119,000원 / VAT 후 (최종): 130,900원 |  | 확인 필요 |\n\nraw/10.md L877 event-2026-09-11-R132\n| event-2026-09-11-R132 | 보톡스 | 스킨보톡스1부위 (이마/팔자/턱라인/목주름) | 국산 |  | 정가: 110,000원 / VAT 전: 59,000원 / VAT 후 (최종): 64,900원 |  | 확인 필요 |\n\nraw/10.md L878 event-2026-09-11-R133\n| event-2026-09-11-R133 | 보톡스 | 스킨보톡스1부위 (이마/팔자/턱라인/목주름) | 코어 |  | 정가: 140,000원 / VAT 전: 79,000원 / VAT 후 (최종): 86,900원 |  | 확인 필요 |\n\nraw/10.md L879 event-2026-09-11-R134\n| event-2026-09-11-R134 | 보톡스 | 스킨보톡스1부위 (이마/팔자/턱라인/목주름) | 제오민 |  | 정가: 220,000원 / VAT 전: 119,000원 / VAT 후 (최종): 130,900원 |  | 확인 필요 |\n\nraw/10.md L880 event-2026-09-11-R135\n| event-2026-09-11-R135 | 보톡스 | 내성 적은 풀페이스 스킨보톡스 (국산/독일산) | 코어톡스 |  | 정가: 250,000원 / VAT 전: 139,000원 / VAT 후 (최종): 152,900원 |  | 확인 필요 |\n\nraw/10.md L881 event-2026-09-11-R136\n| event-2026-09-11-R136 | 보톡스 | 내성 적은 풀페이스 스킨보톡스 (국산/독일산) | 얼굴+목 2배 용량 |  | 정가: 360,000원 / VAT 전: 199,000원 / VAT 후 (최종): 218,900원 |  | 확인 필요 |\n\nraw/10.md L882 event-2026-09-11-R137\n| event-2026-09-11-R137 | 보톡스 | 내성 적은 풀페이스 스킨보톡스 (국산/독일산) | 제오민 |  | 정가: 330,000원 / VAT 전: 179,000원 / VAT 후 (최종): 196,900원 |  | 확인 필요 |\n\nraw/10.md L883 event-2026-09-11-R138\n| event-2026-09-11-R138 | 보톡스 | 내성 적은 풀페이스 스킨보톡스 (국산/독일산) | 제오민 2배 용량 |  | 정가: 540,000원 / VAT 전: 299,000원 / VAT 후 (최종): 328,900원 |  | 확인 필요 |\n\nraw/10.md L884 event-2026-09-11-R139\n| event-2026-09-11-R139 | 보톡스 | 내성 적은 풀페이스 스킨보톡스 (국산/독일산) | 앨러간 |  | 정가: 540,000원 / VAT 전: 299,000원 / VAT 후 (최종): 328,900원 |  | 확인 필요 |\n\nraw/10.md L885 event-2026-09-11-R140\n| event-2026-09-11-R140 | 보톡스 | 내성 적은 풀페이스 스킨보톡스 (국산/독일산) | 앨러간 2배용량 |  | 정가: 730,000원 / VAT 전: 399,000원 / VAT 후 (최종): 438,900원 |  | 확인 필요 |\n\nraw/10.md L886 event-2026-09-11-R141\n| event-2026-09-11-R141 | 보톡스 | 탄력/볼륨 콜라겐 소생 스컬트라 | • 스컬트라 1 vial |  | 정가: 1,440,000원 / VAT 전: 790,000원 / VAT 후 (최종): 869,000원 |  | 확인 필요 |\n\nraw/10.md L887 event-2026-09-11-R142\n| event-2026-09-11-R142 | 보톡스 | 탄력/볼륨 콜라겐 소생 스컬트라 | • 바디 스컬트라 5 vial |  | 정가: 5,820,000원 / VAT 전: 3,200,000원 / VAT 후 (최종): 3,520,000원 |  | 확인 필요 |",
+          "limit": ""
         },
         {
           "id": "case-20261029-22",
@@ -447,77 +265,25 @@ window.SUPERVISION_DATA = {
           "country": "TW",
           "title": "포텐자 화장 시점 원문 충돌",
           "customerText": "請問施打後還能化妝嗎？",
-          "customerKo": "포텐자 이벤트 상담 중 시술 후 화장이 가능한지 질문했다.",
+          "customerKo": "시술 후에도 화장할 수 있나요?",
           "staffText": "視乎你要進行什麽項目呢~ \n要是黃金微針的話 會有兩三天的恢復期 建議明天再化妝會比較好哦",
-          "staffKo": "시술에 따라 다르며 포텐자는 2~3일 회복기가 있고 다음 날 화장을 권한다고 답변.",
-          "rationale": "다음 날 화장 권고는 포텐자 주의사항의 한국어·번체 문구와 일치하지만 다른 시술설명에는 당일 가벼운 화장이 가능하다고 적혀 있다. 직원의 다음 날 권고를 오안내로 확정하거나 더 이른 화장으로 바꿀 근거는 없다.",
+          "staffKo": "어떤 시술을 받으시는지에 따라 달라요. 골드 마이크로니들 시술이라면 회복기간이 2~3일 정도 있으니, 화장은 내일부터 하시는 것이 좋겠어요.",
+          "rationale": "포텐자 주의사항은 다음 날부터 화장 가능, 시술 설명은 당일 가벼운 화장 가능으로 적혀 있다. 답변의 다음 날 권고는 주의사항과 일치하지만 두 자료의 화장 시점이 다르다.",
           "evidence": "raw/09.md L4331–4337\n• 시술 4시간 후부터 가볍게 세안 및 샤워가 가능하며, 다음 날부터 화장하셔도 됩니다. 당분간 스크럽, 각질 제거 및 자극적인 스킨케어 제품은 피해 주세요.\n\nraw/02.md L2413–2417\n- 시술 당일 가벼운 세안 및 화장, 샤워는 가능합니다.",
-          "limit": "상충하는 가이드의 현행 우선순위 미확정."
-        },
-        {
-          "id": "case-20261029-23",
-          "verdict": "needsVerification",
-          "country": "TW",
-          "title": "회복기간 단정·개인차",
-          "customerText": "請問施打後還能化妝嗎？",
-          "customerKo": "시술 후 화장이 가능한지 질문했고 병원이 포텐자 회복기간과 다음 날 화장을 안내했다.",
-          "staffText": "視乎你要進行什麽項目呢~ \n要是黃金微針的話 會有兩三天的恢復期 建議明天再化妝會比較好哦",
-          "staffKo": "시술에 따라 다르며 포텐자는 2~3일 회복기가 있고 다음 날 화장을 권한다고 답변.",
-          "rationale": "2~3일 회복기는 대략적 예상으로 읽을 수 있으나 이 문장에는 개인차·더 오래 지속 가능성이 없다. 가이드 09는 반응이 점차 완화된다고만 하고, 가이드 02는 3~4일 후 각질·트러블도 가능하다고 하므로 2~3일이면 모든 회복이 끝난다는 보장으로 사용하면 부정확하다. 현재 문장만으로 실제 위해나 확정 오안내까지 판단하지 않는다.",
-          "evidence": "raw/09.md L4333–4337\n• 시술 후 따끔거림, 붉어짐, 부기, 당기는 느낌, 멍 또는 가벼운 각질·딱지가 생길 수 있으며, 대부분 시간이 지나면서 점차 완화됩니다. 딱지는 억지로 떼어내지 마세요.\n\nraw/02.md L2399–2411\n- 다운타임: 시술 직후 붉은기와 화끈거림이 있을 수 있으며, 3~4일 후에는 각질이나 트러블이 올라올 수 있으나 시술 당일부터 일상생활이 가능합니다.\n\nraw/02.md L2399–2411\n- 3~4일 후 피부가 재생되는 과정에서 미세한 각질이나 가벼운 트러블이 생길 수 있으며, 이는 수일 내로 자연스럽게 좋아지므로 손대지 않는 것이 좋습니다.\n\nraw/02.md L2425–2425\n- 시술 후 약 3~4일 후에는 각질이나 트러블이 올라올 수 있으며, 손대지 않는 것이 좋습니다. 시술 부위에 물집 등의 화상으로 의심되는 이상이 발견될 경우 병원으로 연락 주시기 바랍니다.",
-          "limit": "개인차·완전 회복 시점과 실제 위해 미확정."
-        },
-        {
-          "id": "case-20261029-24",
-          "verdict": "needsVerification",
-          "country": "TW",
-          "title": "통역·당일 예약 운영 확인",
-          "customerText": "到院時需要中文翻譯服務\n\n您好請問今天還可以預約嗎",
-          "customerKo": "내원 시 중국어 통역을 요청하고 당일에도 예약 가능한지 질문했다.",
-          "staffText": "您好~我們院内都有中文翻譯的 這個不用擔心~\n\n今天的話下午六點前都可以哦 請問你方便什麽時候過來呢？",
-          "staffKo": "원내 중국어 통역 인력이 있다고 답변.\n오늘 오후 6시 전 가능하다고 하며 방문 가능한 시간을 질문.",
-          "rationale": "중국어 통역 요청과 당일 예약 질문에 각각 답하고 희망시간도 물었다. 다만 오후 6시 전 모두 가능하다는 안내의 예약 정원·룸·통역 인력이 실제 확인됐다는 근거는 없다. 예약 완료를 뜻하는 메시지는 아니다.",
-          "evidence": "raw/04.md L929–1004\n예약 시간보다 오래 기다리게 해드려 죄송합니다. 뒤에 예정된 일정이 있으실 텐데, 가능하신 시간을 알려주시면 진행 순서를 확인해 드릴게요. 지금 예상되는 대기 시간을 먼저 말씀드리고, 기다리기 어려우시면 가능한 다른 일정도 함께 찾아보겠습니다.\n\nraw/04.md L929–1004\n- 시술 후 불편한 증상으로 다시 방문한 고객에게는 대기 순서만 안내하지 말고 의료진에게 증상을 먼저 알립니다.\n\nraw/04.md L929–1004\n안내한 시간이 지나기 전에 진행 상황을 다시 전합니다. 변경을 원하면 실제 가능한 일정을 제시하고 확정 여부를 확인합니다. 연락 누락이 있었던 고객은 담당자를 정해 다시 설명하는 부담을 줄입니다.\n\nraw/04.md L929–1004\n대기 문의에는 현재 순서와 예상 시간을, 예약 변경 문의에는 가능한 날짜와 적용 조건을 먼저 안내합니다. 예약 문의 전체를 노쇼나 책임 문제로 시작하지 않습니다. 확인하지 않은 시간을 확정적으로 약속하지 않고 지연 시 먼저 알립니다.",
-          "limit": "예약 정원·룸·통역 배치 미확인. 예약 완료 안내 아님."
+          "limit": ""
         },
         {
           "id": "case-20261029-25",
-          "verdict": "needsVerification",
+          "verdict": "sourceConflict",
           "country": "TW",
           "title": "관리시간 단위",
           "customerText": "請問施打後還能化妝嗎？",
-          "customerKo": "직전 고객 질문은 시술 후 화장 가능 여부였다. 관리시간 단위를 질문한 것은 아니며 병원이 이어 보낸 가격표 이미지의 관리시간 표기를 검토한 건이다.",
+          "customerKo": "시술 후에도 화장할 수 있나요?",
           "staffText": "這是價格表，您可以先參考一下～",
-          "staffKo": "가격표 이미지 1개를 전달.",
-          "rationale": "이미지 Cryo5분과 가이드 10 event-R40의 5\" 표기가 다르다. 해당 행의 초/분을 고객에게 자동 확정하지 않는다. 나머지 이미지의 5'는 분 표기다.",
-          "evidence": "raw/10.md L804\n| event-2026-09-11-R40 | 포텐자 에디션 | 모공, 보습 올인원 포텐자 | 포텐자 레이저 (모공) + 엑소힐러5cc 크라이오 5\"+시트팩 |  | 정가: 530,000원 / VAT 전: 290,000원 / VAT 후 (최종): 319,000원 | 자가세안 | 확인 필요 |\n\nraw/10.md L805\n| event-2026-09-11-R41 | 포텐자 에디션 | 모공, 보습 올인원 포텐자 | 포텐자 레이저 (모공) +필로가(샤넬주사)3cc 도포+크라이오5'+ 시트팩 |  | 정가: 560,000원 / VAT 전: 310,000원 / VAT 후 (최종): 341,000원 |  | 확인 필요 |",
-          "limit": "크라이오 초·분 단위 미확정."
-        },
-        {
-          "id": "case-20261029-26",
-          "verdict": "needsVerification",
-          "country": "TW",
-          "title": "광고 최상급·효과",
-          "customerText": "請問施打後還能化妝嗎？",
-          "customerKo": "직전 고객 질문은 시술 후 화장 가능 여부였다. 순위·만족도·효과를 질문한 것은 아니며 병원이 이어 보낸 가격표 이미지의 광고 문구를 검토한 건이다.",
-          "staffText": "這是價格表，您可以先參考一下～",
-          "staffKo": "가격표 이미지 1개를 전달.",
-          "rationale": "재시술No.1·고객만족도·모공긴축·회복 최적조합 광고가 있다. 순위/효과 근거는 본 이미지로 확인되지 않으며 의료효과 보장으로 사용하지 않는다.",
-          "evidence": "직접 대조 가능한 가이드 인용·줄번호 없음. 첨부의 표현·조건 자체를 검토한 건.",
-          "limit": "순위·만족도·효과의 공식 입증 근거 미확인."
-        },
-        {
-          "id": "case-20261029-27",
-          "verdict": "needsVerification",
-          "country": "TW",
-          "title": "현행 판매가격·제품명·세금",
-          "customerText": "직접 입력한 문의 없음 · 상품페이지 유입\n弘大_Beauty Blossom 麗朵 V-Line 咀嚼肌肉毒",
-          "customerKo": "오늘은 사각턱 보톡스 이벤트 유입 표시만 있고 고객이 직접 입력한 질문은 없다. 병원이 브랜드별 가격을 먼저 안내했다. 이전 문맥의 명동 지점 질문은 오늘 가격 안내의 질문으로 연결하지 않았다.",
-          "staffText": "您好，咀嚼肌肉毒 50u ，稅後的價格給您參考～\n若有其他問題都可以向我們詢問喔！\n\n韓國產 43,500\n韓國CORE 73,700\n德國天使 143,000\n美國保妥適 197,000",
-          "staffKo": "사각턱 보톡스 50U 세후 가격으로 국산 43,500원, 코어 73,700원, 독일 제품 143,000원, 미국 제품 197,000원을 안내하고 추가 질문을 받겠다고 답변.",
-          "rationale": "수입 제품 두 금액은 일반수가의 제오민·앨러간 사각턱 가격과 같지만 별칭의 실제 제품과 해당 채널 판매조건은 미확인이다. 기준일이 있는 수가자료만으로 현행 가격·VAT 포함을 보증할 수 없어 가격 오류로 확정하지 않는다.",
-          "evidence": "raw/10.md L21–24\n| list-A32 | 보톡스 정가 | 사각턱 보톡스 | 제오민 |  | 금액: 143,000원 |  | 확인 필요 |\n\nraw/10.md L21–24\n| list-A33 | 보톡스 정가 | 사각턱 보톡스 | 앨러간 |  | 금액: 197,000원 |  | 확인 필요 |",
-          "limit": "제품 별칭·현행 채널 조건·VAT 미확인."
+          "staffKo": "가격표이니 먼저 참고해 주세요.",
+          "rationale": "포텐자9개 정가·세전가는 표와 일치한다. 엑소힐러5cc 조합은290,000원(세전)=319,000원(세후)이나 이미지 Cryo5분 대 표 R40의5초기호(5\")가 충돌한다. 5분=300초로 문자 그대로는295초 차이다. 바로 옆 필로가3cc 조합310,000원(세전)=341,000원(세후)은 원문5분기호(5')와 이미지5분이 일치한다.",
+          "evidence": "raw/17.md L5360–L5367 sheet-332689118!C40:C41\nC40 | 포텐자 레이저 (모공) + 엑소힐러5cc 크라이오 5\"+시트팩 |  |\nD40 | 527,273 | =F40/$G$5 |\nE40 | 530,000 | =ROUND(D40, -4) |\nF40 | 290,000 |  |\nG40 | 319,000 | =F40+(F40*10%) |\nH40 | 53만원 | =INT(E40/10000)&\"만\"&IF(INT(MOD(E40,10000)/1000)=0,\"\",INT(MOD(E40,10000)/1000)&\"천\")&\"원\" |\nI40 | 29만원 | =INT(F40/10000)&\"만\"&IF(INT(MOD(F40,10000)/1000)=0,\"\",INT(MOD(F40,10000)/1000)&\"천\")&\"원\" |\nC41 | 포텐자 레이저 (모공) +필로가(샤넬주사)3cc 도포+크라이오5'+ 시트팩 |  |\n\nraw/10.md L802 event-2026-09-11-R38\n| event-2026-09-11-R38 | 포텐자 에디션 | 모공, 보습 올인원 포텐자 | 포텐자 레이저 (모공) + pdrn(연어주사)2cc 도포+시트팩 |  | 정가: 490,000원 / VAT 전: 270,000원 / VAT 후 (최종): 297,000원 |  | 확인 필요 |\n\nraw/10.md L803 event-2026-09-11-R39\n| event-2026-09-11-R39 | 포텐자 에디션 | 모공, 보습 올인원 포텐자 | 포텐자 레이저 (모공) +트라블랑(미백+항노화+콜라겐)2cc 도포+시트팩 |  | 정가: 510,000원 / VAT 전: 280,000원 / VAT 후 (최종): 308,000원 |  | 확인 필요 |\n\nraw/10.md L804 event-2026-09-11-R40\n| event-2026-09-11-R40 | 포텐자 에디션 | 모공, 보습 올인원 포텐자 | 포텐자 레이저 (모공) + 엑소힐러5cc 크라이오 5\"+시트팩 |  | 정가: 530,000원 / VAT 전: 290,000원 / VAT 후 (최종): 319,000원 | 자가세안 | 확인 필요 |\n\nraw/10.md L805 event-2026-09-11-R41\n| event-2026-09-11-R41 | 포텐자 에디션 | 모공, 보습 올인원 포텐자 | 포텐자 레이저 (모공) +필로가(샤넬주사)3cc 도포+크라이오5'+ 시트팩 |  | 정가: 560,000원 / VAT 전: 310,000원 / VAT 후 (최종): 341,000원 |  | 확인 필요 |\n\nraw/10.md L806 event-2026-09-11-R42\n| event-2026-09-11-R42 | 포텐자 에디션 | 포텐자 펌핑 | 포텐자(펌핑) + 쥬베룩 스킨 반병 4cc |  | 정가: 690,000원 / VAT 전: 380,000원 / VAT 후 (최종): 418,000원 |  | 확인 필요 |\n\nraw/10.md L807 event-2026-09-11-R43\n| event-2026-09-11-R43 | 포텐자 에디션 | 포텐자 펌핑 | 포텐자(펌핑) + 울트라콜100 반병 4cc |  | 정가: 690,000원 / VAT 전: 380,000원 / VAT 후 (최종): 418,000원 |  | 확인 필요 |\n\nraw/10.md L808 event-2026-09-11-R44\n| event-2026-09-11-R44 | 포텐자 에디션 | 포텐자 펌핑 | 포텐자(펌핑) + 리즈네 2cc |  | 정가: 600,000원 / VAT 전: 330,000원 / VAT 후 (최종): 363,000원 | \"깐달걀 피부 관리\" | 확인 필요 |\n\nraw/10.md L809 event-2026-09-11-R45\n| event-2026-09-11-R45 | 포텐자 에디션 | 포텐자 펌핑 +리쥬란 세트 | 포텐자 펌핑 + 리쥬란2cc |  | 정가: 750,000원 / VAT 전: 410,000원 / VAT 후 (최종): 451,000원 |  | 확인 필요 |\n\nraw/10.md L810 event-2026-09-11-R46\n| event-2026-09-11-R46 | 포텐자 에디션 | 포텐자 펌핑 +리쥬란 세트 | 포텐자 모공 + 리쥬란2cc도포 + 크라이오5'+시트팩 |  | 정가: 670,000원 / VAT 전: 369,000원 / VAT 후 (최종): 405,900원 |  | 확인 필요 |",
+          "limit": ""
         },
         {
           "id": "case-20261029-28",
@@ -525,51 +291,12 @@ window.SUPERVISION_DATA = {
           "country": "TW",
           "title": "색소성 병변 진료 선행 안내",
           "customerText": "你好，我要幫媽媽諮詢，他有手背、小手臂跟小腿的除斑需求，斑點是遺傳的老人斑性質，請問有適合的療程嗎？",
-          "customerKo": "가족의 손등·팔·종아리에 있는 유전적 노인성 반점으로 표현한 색소를 개선할 적절한 시술이 있는지 전날 질문했다. 병원은 오늘 바디 피코토닝과 이미지를 안내했다.",
+          "customerKo": "엄마 대신 상담하고 싶어요. 손등, 아래팔, 종아리의 잡티를 제거하고 싶어 하세요. 유전성 노인성 반점 같은 성격의 반점인데, 적합한 시술이 있을까요?",
           "staffText": "您好，若是身上的色斑的話，我們可以考慮身體淨膚皮秒雷射，但一般會建議施作至少3~5次後，改善效果會相對較明顯喔！",
-          "staffKo": "전날 신체 색소성 병변 상담에 바디 피코토닝을 고려할 수 있으며 일반적으로 최소 3~5회 후 개선이 더 뚜렷하다고 답하고 이미지 1개를 전달.",
-          "rationale": "조건부로 고려할 수 있다는 제안이라 병명을 확진하거나 특정 시술이 반드시 맞는다고 단정한 문장은 아니다. 다만 이전 고객이 표현한 노인성 병변의 실제 종류를 온라인에서 확정할 수 없고, 진료로 병변 구분 후 레이저 적합성을 결정한다는 핵심 조건이 해당 상담의 텍스트에서 빠졌다. 실제 오진·금기 시술 결정이 이루어졌다고 확정할 근거는 없다.",
+          "staffKo": "몸의 색소 반점이라면 바디 피코 토닝 레이저를 고려해 볼 수 있어요. 보통은 최소 3~5회 정도 시술받으신 후에 개선 효과가 비교적 더 뚜렷해진다고 안내드려요!",
+          "rationale": "자료는 점처럼 보이는 병변도 먼저 진료로 종류를 확인한 뒤 적합한 레이저·횟수를 안내하도록 한다. 고객은 손등·아래팔·종아리의 노인성 반점에 적합한 시술을 물었지만, 답변은 바디 피코와 3~5회만 제안하고 선행 진료 조건을 안내하지 않았다.",
           "evidence": "raw/01.md L1049–1057\n기미·잡티·문신 등은 원인과 깊이가 달라 진단이 먼저입니다. 모공·흉터가 주된 목표라면 해당 모드를 별도로 확인합니다.\n\nraw/01.md L1049–1057\n피코슈어는 색소나 피부결 고민에 따라 사용하는 모드가 달라요. 점처럼 보이는 병변도 종류가 다를 수 있어 먼저 진료로 확인하고 횟수와 회복 과정을 안내합니다.",
-          "limit": "온라인에서 병변 종류 확정 불가. 실제 오진·금기 시술 결정 확인 아님."
-        },
-        {
-          "id": "case-20261029-29",
-          "verdict": "needsVerification",
-          "country": "TW",
-          "title": "3~5회 일반 권고와 효과보장 구분",
-          "customerText": "你好，我要幫媽媽諮詢，他有手背、小手臂跟小腿的除斑需求，斑點是遺傳的老人斑性質，請問有適合的療程嗎？",
-          "customerKo": "가족의 손등·팔·종아리 색소 개선에 적절한 시술이 있는지 전날 질문했다. 병원은 오늘 바디 피코토닝과 일반적인 권장 횟수를 안내했다.",
-          "staffText": "您好，若是身上的色斑的話，我們可以考慮身體淨膚皮秒雷射，但一般會建議施作至少3~5次後，改善效果會相對較明顯喔！",
-          "staffKo": "전날 신체 색소성 병변 상담에 바디 피코토닝을 고려할 수 있으며 일반적으로 최소 3~5회 후 개선이 더 뚜렷하다고 답하고 이미지 1개를 전달.",
-          "rationale": "일반적으로 권장한다는 전제와 상대적으로 더 뚜렷하다는 표현이다. 반드시 없어진다·모든 병변이 개선된다·정해진 회차로 완치된다는 보장과 구분해야 하며 숫자 3~5회만으로 무조건 효과보장 판정하지 않는다. 다만 해당 신체 병변에 3~5회가 적합하다는 직접 근거와 개인차·진료 후 횟수 결정 조건은 대화에서 확인되지 않는다.",
-          "evidence": "raw/01.md L1057–1057\n피코슈어는 색소나 피부결 고민에 따라 사용하는 모드가 달라요. 점처럼 보이는 병변도 종류가 다를 수 있어 먼저 진료로 확인하고 횟수와 회복 과정을 안내합니다.\n\nraw/01.md L1093–1093\n기미·주근깨·잡티·염증 후 색소침착은 생긴 배경과 깊이가 다릅니다. 사진만으로 색소 종류를 확정하거나 모두 같은 회차로 없앨 수 있다고 말하지 않습니다.",
-          "limit": "개별 병변의 적정 회차·개인차 미확인."
-        },
-        {
-          "id": "case-20261029-30",
-          "verdict": "needsVerification",
-          "country": "TW",
-          "title": "바디 피코 가격·크기·현행성",
-          "customerText": "你好，我要幫媽媽諮詢，他有手背、小手臂跟小腿的除斑需求，斑點是遺傳的老人斑性質，請問有適合的療程嗎？",
-          "customerKo": "가족의 여러 신체부위 색소에 적절한 시술을 전날 질문했고 병원은 오늘 손바닥 크기 1회 가격을 안내했다. 별도의 가격 질문은 보이지 않는다.",
-          "staffText": "一個手掌大的部位 一次為 84,150韓元喔！",
-          "staffKo": "손바닥 크기 부위 1회 가격을 84,150원으로 안내.",
-          "rationale": "손바닥 크기 1회 84,150원은 패키지 수가의 금액·단위와 일치하지만 현행 플랫폼 판매·VAT·해당 병변 적용은 미확인이다. 다른 채널·횟수·시점의 5회 275,000원을 나눠 1회 가격 오류라고 확정할 수 없다.",
-          "evidence": "raw/10.md L917–918\n| event-2026-09-11-R179 | 3D 피부진단 + 맞춤형 색소치료 | 착색 피코슈어토닝 손바닥크기 | 5회 |  | 정가: 450,000원 / VAT 전: 250,000원 / VAT 후 (최종): 275,000원 |  | 확인 필요 |\n\nraw/10.md L971–979\n| package-H44 | 뷰티블라썸 BODY 패키지 | 바디피코슈어토닝(손바닥크기) | 1회 |  | 금액: 84,150원 |  | 확인 필요 |\n\nraw/10.md L917\n| event-2026-09-11-R179 | 3D 피부진단 + 맞춤형 색소치료 | 착색 피코슈어토닝 손바닥크기 | 5회 |  | 정가: 450,000원 / VAT 전: 250,000원 / VAT 후 (최종): 275,000원 |  | 확인 필요 |",
-          "limit": "현행 채널·VAT·병변 적용 미확인. 다른 채널 가격과 단순 비교 불가."
-        },
-        {
-          "id": "case-20261029-31",
-          "verdict": "needsVerification",
-          "country": "TW",
-          "title": "부위·진단·견적범위",
-          "customerText": "你好，我要幫媽媽諮詢，他有手背、小手臂跟小腿的除斑需求，斑點是遺傳的老人斑性質，請問有適合的療程嗎？",
-          "customerKo": "가족의 손등·팔·종아리 색소 개선에 적절한 시술이 있는지 전날 질문했다. 병원이 오늘 보낸 바디 피코토닝 이미지와 손바닥 크기 가격의 적용 범위를 검토한 건이다.",
-          "staffText": "您好，若是身上的色斑的話，我們可以考慮身體淨膚皮秒雷射，但一般會建議施作至少3~5次後，改善效果會相對較明顯喔！\n\n一個手掌大的部位 一次為 84,150韓元喔！",
-          "staffKo": "전날 신체 색소성 병변 상담에 바디 피코토닝을 고려할 수 있으며 일반적으로 최소 3~5회 후 개선이 더 뚜렷하다고 답하고 이미지 1개를 전달.\n손바닥 크기 부위 1회 가격을 84,150원으로 안내.",
-          "rationale": "여러 신체부위의 색소 문의에 바디피코 손바닥크기5/10회 가격은 대응한다. 병변 종류·총 면적은 확인되지 않았고 텍스트는3~5회 고려이나 표는5/10회만 있어3회 패키지나 해당 부위 전부 포함가격으로 확정 불가.",
-          "evidence": "직접 대조 가능한 가이드 인용·줄번호 없음. 첨부의 표현·조건 자체를 검토한 건.",
-          "limit": "병변 종류·총면적·전체 부위 포함 견적 미확인."
+          "limit": ""
         },
         {
           "id": "case-20261029-32",
@@ -577,12 +304,12 @@ window.SUPERVISION_DATA = {
           "country": "ZZ",
           "title": "피부진단비 무료 구간 누락",
           "customerText": "[개인정보 생략]\nDo you guys offer checking the skin?",
-          "customerKo": "병원에서 피부 상태 검사를 제공하는지 질문했다.",
+          "customerKo": "[개인정보 생략]\n피부 상태를 검사해 주시나요?",
           "staffText": "Hi~ we offer a 3D Skin Analysis (Eve-V Muse) to assess your skin condition in detail.[표정 문자 생략]\n\nThe pricing is as follows:\n* Basic: ₩55,000\n* ₩27,500 if your treatment exceeds ₩300,000\n* ₩11,000 if your treatment exceeds ₩500,000\n[…]",
-          "staffKo": "3D 피부분석을 제공하며 기본 55,000원, 시술비 300,000원 초과 시 27,500원, 500,000원 초과 시 11,000원이라고 안내했다.",
-          "rationale": "피부검사 가능 여부에는 답했으나 제시한 비용표에 가이드 영어 확정문자의 100만원 초과 무료 구간이 빠졌다. 구간 누락은 확인되지만 현행 요금 오류나 실제 과금이 확인된 것은 아니다.",
-          "evidence": "raw/08.md L235–239\n• If you would like to have an Eve-V Muse 3D skin analysis, the standard fee is KRW 55,000. However, discounts are available based on your total treatment amount:\n\nraw/08.md L235–239\n[표정 문자 생략] Over KRW 1,000,000: Free of charge",
-          "limit": "무료 구간 누락만 확인. 현행 요금과 실제 과금은 미확인."
+          "staffKo": "피부 상태를 자세히 살펴보는 3D 피부 분석(Eve-V Muse)을 제공하고 있어요.\n\n비용은 다음과 같아요.\n• 기본: 55,000원\n• 시술금액 300,000원 초과 시: 27,500원\n• 시술금액 500,000원 초과 시: 11,000원",
+          "rationale": "피부진단 기본55,000원·시술30만원 초과27,500원·50만원 초과11,000원은 영어표와 같지만100만원 초과 무료0원 구간이 답변에 없다. 100만원 초과에서도11,000원으로 읽히는 불완전한 요금표다.",
+          "evidence": "raw/08.md L236–L239 영어 피부진단 요금표\n• If you would like to have an Eve-V Muse 3D skin analysis, the standard fee is KRW 55,000. However, discounts are available based on your total treatment amount:\n[표정 문자 생략] Over KRW 300,000: KRW 27,500\n[표정 문자 생략] Over KRW 500,000: KRW 11,000\n[표정 문자 생략] Over KRW 1,000,000: Free of charge\n\nraw/07.md L494–L502 한국어 피부진단 요금표\n피부진단비용안내\n\n  **내용**\n\n100만원 이상 - 무료\n50만원 이상 - 11,000원\n30만원 이상 - 27,500원\n30만원 이하 – 55,000원\n※ 원문은 “30만원 이상”과 “30만원 이하”가 겹칩니다. 정확히 30만원인 경우의 진단비는 확인이 필요합니다.",
+          "limit": ""
         },
         {
           "id": "case-20261029-33",
@@ -590,51 +317,12 @@ window.SUPERVISION_DATA = {
           "country": "ZZ",
           "title": "이상·초과 및 정확한 경계금액",
           "customerText": "[개인정보 생략]\nDo you guys offer checking the skin?",
-          "customerKo": "피부 상태 검사를 제공하는지 질문했고 병원이 검사 가능 여부와 비용 구간을 함께 안내했다. 정확한 경계금액을 별도로 질문한 것은 아니다.",
+          "customerKo": "[개인정보 생략]\n피부 상태를 검사해 주시나요?",
           "staffText": "Hi~ we offer a 3D Skin Analysis (Eve-V Muse) to assess your skin condition in detail.[표정 문자 생략]\n\nThe pricing is as follows:\n* Basic: ₩55,000\n* ₩27,500 if your treatment exceeds ₩300,000\n* ₩11,000 if your treatment exceeds ₩500,000\n[…]",
-          "staffKo": "3D 피부분석을 제공하며 기본 55,000원, 시술비 300,000원 초과 시 27,500원, 500,000원 초과 시 11,000원이라고 안내했다.",
-          "rationale": "초과라는 영어 표현은 가이드 영어 양식과 같다. 다른 가이드 운영표는 이상을 사용하고 정확히 30만원에서는 이상·이하가 겹친다고 명시한다. 따라서 30만·50만·100만원 경계 적용을 현재 확정 오안내로 채점하지 않는다.",
-          "evidence": "raw/07.md L498–502\n100만원 이상 - 무료\n\nraw/07.md L498–502\n50만원 이상 - 11,000원\n\nraw/07.md L498–502\n30만원 이상 - 27,500원\n\nraw/07.md L498–502\n※ 원문은 “30만원 이상”과 “30만원 이하”가 겹칩니다. 정확히 30만원인 경우의 진단비는 확인이 필요합니다.",
-          "limit": "정확히 30만·50만·100만원일 때 기준 미확정."
-        },
-        {
-          "id": "case-20261029-34",
-          "verdict": "needsVerification",
-          "country": "ZZ",
-          "title": "피부관리 플랜·장비 기능과 실제 서비스 정책",
-          "customerText": "[개인정보 생략]\nDo you guys offer checking the skin?",
-          "customerKo": "피부 상태 검사를 제공하는지 질문했다. 일상 스킨케어 루틴을 만들어 달라고 요청한 것은 아니며 병원이 서비스 범위를 덧붙여 설명했다.",
-          "staffText": "Hi~ we offer a 3D Skin Analysis (Eve-V Muse) to assess your skin condition in detail.[표정 문자 생략]\n[…]\nJust to clarify, we are a treatment-focused dermatology clinic, so our consultations are designed to recommend the most suitable in-clinic treatments based on your skin condition, rather than creating a personalized daily skincare routine. The 3D Skin Analysis provides a detailed assessment of your skin, and based on the results, our consultants will recommend the most suitable treatments for concerns such as uneven skin tone, dryness, fine lines, and early signs of aging.  We can also recommend skincare products available at our clinic to complement your treatments, but we do not provide personalized daily skincare plans.[표정 문자 생략]",
-          "staffKo": "3D 피부분석과 시술 중심의 상담을 제공한다고 설명했다. 원내 제품을 추천할 수 있으나 개인별 일상 스킨케어 계획은 제공하지 않는다고 안내했다.",
-          "rationale": "고객의 직접 질문은 피부검사 제공 여부이며 일상 루틴 작성 요청이 아니다. 시술 중심 상담의 범위를 설명한 점을 답변 누락으로 보지 않는다. 다만 EVE 장비 가이드에는 스킨케어 플랜 보기와 화장품·의료기기 솔루션 추천 기능이 있다. 이것이 개인별 매일 관리표를 실제 제공한다는 뜻도, 비제공 정책이 틀렸다는 증거도 아니다. 장비 기능·원내 시술 계획·홈케어 루틴 서비스를 구분해 확인해야 한다.",
-          "evidence": "raw/12.md L395–417\n- 스킨케어는 백엔드 PC에서 설정이 가능합니다.\n\nraw/12.md L395–417\n- 원하시는 화장품이나, 의료기기를 설정해 솔루션을 추천할 수 있습니다.",
-          "limit": "장비 기능이 실제 개인별 일상 관리표 제공을 뜻하지 않음."
-        },
-        {
-          "id": "case-20261029-35",
-          "verdict": "needsVerification",
-          "country": "TH",
-          "title": "가격 문의 의도·최종견적 조건",
-          "customerText": "ราคาเพิ่มเติม",
-          "customerKo": "전날 추가 가격 또는 추가비용으로 읽힐 수 있는 짧은 가격 문의를 남겼다. 병원은 오늘 프로모션 이미지와 상담료 조건을 안내했다.",
-          "staffText": "สวัสดีครับ ตอนนี้ทางคลินิกมีโปรโมชั่นอยู่ตามภาพเลยนะครับ\nหากมีข้อสงสัยใดๆเพิ่มเติมสามารถแอดไลน์มาสอบถามได้เลยครับ มีแอดมินคนไทยและล่ามไทยให้บริการอยู่ตลอดนะครับ[표정 문자 생략][표정 문자 생략]\n\nสำหรับค่าใช้จ่ายเพิ่มเติม หากคุณลูกค้าเข้ามารับคำปรึกษาเพียงอย่างเดียว จะมีค่าปรึกษา 10,000 วอนครับ แต่หากรับบริการทำหัตถการด้วย จะไม่มีค่าปรึกษาเพิ่มเติมนะครับ[표정 문자 생략][표정 문자 생략]",
-          "staffKo": "현재 프로모션은 첨부 이미지와 같으며 태국인 관리자와 태국어 통역이 계속 제공된다고 안내했다. 상담만 받으면 10,000원이며 시술하면 별도 상담료는 없다고 덧붙였다.",
-          "rationale": "첨부 가격표와 상담료 조건은 안내했지만 이전의 짧은 표현이 상세 가격인지 추가금 문의인지 불명확하다. 선택상품·용량·VAT·선택 추가비가 확인되지 않아 가격 답변 누락으로 확정하지 않는다.",
-          "evidence": "raw/04.md L797–809\n- VAT·팁·마취·관리·지정비·추가 옵션의 포함 여부를 확인합니다.\n\nraw/06.md L1379–1383\n상담만 받는 경우 상담비는 1만원으로 안내합니다. 약 처방이나 염증주사는 별도 기준이므로 실제 받은 진료 내역을 확인한 뒤 비용을 설명합니다.",
-          "limit": "상세 가격 또는 추가금 중 문의 의도가 불명확함. 선택상품·VAT 미확인."
-        },
-        {
-          "id": "case-20261029-36",
-          "verdict": "needsVerification",
-          "country": "TH",
-          "title": "태국인 관리자·통역 상시 제공 표현",
-          "customerText": "ราคาเพิ่มเติม",
-          "customerKo": "전날 짧은 가격 문의를 남겼다. 통역을 직접 요청한 내용은 없으며 오늘 병원이 프로모션 이미지와 함께 태국어 지원을 안내했다.",
-          "staffText": "สวัสดีครับ ตอนนี้ทางคลินิกมีโปรโมชั่นอยู่ตามภาพเลยนะครับ\nหากมีข้อสงสัยใดๆเพิ่มเติมสามารถแอดไลน์มาสอบถามได้เลยครับ มีแอดมินคนไทยและล่ามไทยให้บริการอยู่ตลอดนะครับ[표정 문자 생략][표정 문자 생략]",
-          "staffKo": "현재 프로모션은 첨부 이미지와 같다고 안내하고, 태국인 관리자와 태국어 통역이 계속 제공된다고 설명했다.",
-          "rationale": "태국인 관리자와 태국어 통역을 계속 제공한다는 표현은 실제 지원시간을 한정하지 않는 운영상 확약이다. 해당 시점 인력표·운영시간이 없어 사실 여부를 확정할 수 없다. 번역 오류나 남성 정중체 문제는 아니다.",
-          "evidence": "raw/05.md L3181–3185\n- 고객이 편한 언어와 통역 가능한 시간을 확인합니다.",
-          "limit": "태국어 관리자·통역 실제 지원시간과 인력 미확인."
+          "staffKo": "피부 상태를 자세히 살펴보는 3D 피부 분석(Eve-V Muse)을 제공하고 있어요.\n\n비용은 다음과 같아요.\n• 기본: 55,000원\n• 시술금액 300,000원 초과 시: 27,500원\n• 시술금액 500,000원 초과 시: 11,000원",
+          "rationale": "진단비55,000·27,500·11,000원은 일치한다. 영어표는30만·50만·100만원 초과, 한국어 운영표는이상이고 정확히30만원은이상/이하가 겹친다. 정확히50만원에서 영어 기준27,500원 대 한국어11,000원(16,500원 차), 정확히100만원에서 영어11,000원 대 한국어무료(11,000원 차)로 경계가 충돌한다.",
+          "evidence": "raw/08.md L236–L239 영어 피부진단 요금표\n• If you would like to have an Eve-V Muse 3D skin analysis, the standard fee is KRW 55,000. However, discounts are available based on your total treatment amount:\n[표정 문자 생략] Over KRW 300,000: KRW 27,500\n[표정 문자 생략] Over KRW 500,000: KRW 11,000\n[표정 문자 생략] Over KRW 1,000,000: Free of charge\n\nraw/07.md L494–L502 한국어 피부진단 요금표\n피부진단비용안내\n\n  **내용**\n\n100만원 이상 - 무료\n50만원 이상 - 11,000원\n30만원 이상 - 27,500원\n30만원 이하 – 55,000원\n※ 원문은 “30만원 이상”과 “30만원 이하”가 겹칩니다. 정확히 30만원인 경우의 진단비는 확인이 필요합니다.",
+          "limit": ""
         },
         {
           "id": "case-20261029-37",
@@ -642,51 +330,12 @@ window.SUPERVISION_DATA = {
           "country": "TH",
           "title": "상담만 1만원과 추후 시술예약 시 면제 경계",
           "customerText": "ราคาเพิ่มเติม",
-          "customerKo": "전날 추가 가격 또는 추가비용으로 읽힐 수 있는 짧은 문의를 남겼고 병원은 오늘 상담만 받는 경우와 시술하는 경우의 상담료 조건을 안내했다.",
+          "customerKo": "추가 가격이요.",
           "staffText": "สำหรับค่าใช้จ่ายเพิ่มเติม หากคุณลูกค้าเข้ามารับคำปรึกษาเพียงอย่างเดียว จะมีค่าปรึกษา 10,000 วอนครับ แต่หากรับบริการทำหัตถการด้วย จะไม่มีค่าปรึกษาเพิ่มเติมนะครับ[표정 문자 생략][표정 문자 생략]",
-          "staffKo": "추가비용 관련 안내: 상담만 받으면 상담료 10,000원이고, 시술도 받으면 별도 상담료는 없다고 설명한다. 다른 추가금이 모두 없다고 말한 것은 아니다.",
-          "rationale": "태국어는 상담만 받으면 1만원, 시술도 받으면 추가 상담료가 없다는 뜻으로 읽히며 원문 기준과 맞는다. 다만 운영 원문의 태국어 예약문은 당일 시술이 없으면 1만원이라고 하고, 다른 한국어 안내는 당일 시술 또는 시술 예약 시 무료라고 하여 예약만 한 경우의 경계가 다르다. 이 고객이 추후 시술만 예약한 사실은 없으므로 직원이 상담료를 잘못 고지했다고 단정하지 않는다.",
-          "evidence": "raw/08.md L90–93\n* หากเข้ามาปรึกษาอย่างเดียว โดยไม่ได้ทำหัตถการในวันนั้น จะมีค่าปรึกษา 10,000 วอน\n\nraw/11.md L134–142\n- 당일 시술 or 시술 예약 시: 상담비 무료",
-          "limit": "추후 시술만 예약한 경우의 상담료 면제 기준 미확정."
-        },
-        {
-          "id": "case-20261029-38",
-          "verdict": "needsVerification",
-          "country": "TH",
-          "title": "내성·효과 표현",
-          "customerText": "ราคาเพิ่มเติม",
-          "customerKo": "전날 짧은 가격 문의를 남겼다. 내성이나 효과를 질문한 것은 아니며 오늘 병원이 보낸 프로모션 이미지의 광고 문구를 검토한 건이다.",
-          "staffText": "สวัสดีครับ ตอนนี้ทางคลินิกมีโปรโมชั่นอยู่ตามภาพเลยนะครับ\nหากมีข้อสงสัยใดๆเพิ่มเติมสามารถแอดไลน์มาสอบถามได้เลยครับ มีแอดมินคนไทยและล่ามไทยให้บริการอยู่ตลอดนะครับ[표정 문자 생략][표정 문자 생략]",
-          "staffKo": "현재 프로모션은 첨부 이미지와 같다고 안내하고, 태국인 관리자와 태국어 통역이 계속 제공된다고 설명했다.",
-          "rationale": "Coretox의 내성발생 기회 감소 취지, 콜라겐 활성 및 필터 없는 피부 광고가 있다. 무내성·확실한 결과로 확대하지 않는다.",
-          "evidence": "직접 대조 가능한 가이드 인용·줄번호 없음. 첨부의 표현·조건 자체를 검토한 건.",
-          "limit": "내성 감소·효과의 공식 근거 개별 대조 없음."
-        },
-        {
-          "id": "case-20261029-39",
-          "verdict": "needsVerification",
-          "country": "JP",
-          "title": "무통 표현·제품 표기",
-          "customerText": "직접 입력한 문의 없음 · 상품페이지 유입\nホンデ 水分＆再生オールインワン_リジュラン、リリイド わがままスキンブースター",
-          "customerKo": "이전 문맥에 리쥬란·릴리이드 스킨부스터 이벤트 유입 표시만 있으며 고객이 직접 입력한 질문은 없다. 병원이 오늘 보낸 요금표의 무통 표현과 제품 표기를 검토한 건이다.",
-          "staffText": "こんにちは[표정 문자 생략][표정 문자 생략]\nこちらが当院の料金表でございますので、ぜひご参考になさってくださいね[표정 문자 생략]\nご予約をご希望の際は、いつでもお気軽にお声がけくださいませ[표정 문자 생략]\nご希望のお日にちやお時間に合わせて、心を込めてご案内させていただきます[표정 문자 생략]\nほかにも気になる施術やご不明な点などございましたら、いつでもお気軽にご相談くださいね[표정 문자 생략]",
-          "staffKo": "요금표 이미지를 보내 참고하라고 하고, 예약 희망 일정이나 궁금한 시술을 문의하라고 안내했다.",
-          "rationale": "HB를 無痛/無痛 HB로 표기한다. 통증 없음 보장으로 전달하지 말아야 한다. 셀르디엠의 영문 표기가 번체 Cellredm/설명 Celldiem, 일문 Celldiem 등으로 일관되지 않아 제품명을 확인해야 한다.",
-          "evidence": "raw/10.md L790\n| event-2026-09-11-R21 | 리쥬란&쥬베룩 등 | \"리쥬란 엑스퍼트 & S-VIP 병원 선정 스킨부스터 리쥬란 | 무통 HB 1cc |  | 정가: 270,000원 / VAT 전: 149,000원 / VAT 후 (최종): 163,900원 |  | 확인 필요 |\n\nraw/10.md L799\n| event-2026-09-11-R30 | 리쥬란&쥬베룩 등 | 셀르디엠 | 셀르디엠 1v + HA2cc + 진정관리 |  | 정가: 1,180,000원 / VAT 전: 650,000원 / VAT 후 (최종): 715,000원 |  | 확인 필요 |",
-          "limit": "통증 없음 보장 불가. 제품명 확인 필요."
-        },
-        {
-          "id": "case-20261029-40",
-          "verdict": "sourceConflict",
-          "country": "JP",
-          "title": "기준자료 HB 상태",
-          "customerText": "직접 입력한 문의 없음 · 상품페이지 유입\nホンデ 水分＆再生オールインワン_リジュラン、リリイド わがままスキンブースター",
-          "customerKo": "이전 문맥에 스킨부스터 이벤트 유입 표시만 있으며 고객이 직접 입력한 질문은 없다. 병원이 오늘 보낸 요금표 중 특정 제품의 가격·판매상태 자료 대응을 검토한 건이다.",
-          "staffText": "こんにちは[표정 문자 생략][표정 문자 생략]\nこちらが当院の料金表でございますので、ぜひご参考になさってくださいね[표정 문자 생략]\nご予約をご希望の際は、いつでもお気軽にお声がけくださいませ[표정 문자 생략]\nご希望のお日にちやお時間に合わせて、心を込めてご案内させていただきます[표정 문자 생략]\nほかにも気になる施術やご不明な点などございましたら、いつでもお気軽にご相談くださいね[표정 문자 생략]",
-          "staffKo": "요금표 이미지를 보내 참고하라고 하고, 예약 희망 일정이나 궁금한 시술을 문의하라고 안내했다.",
-          "rationale": "이미지의 HB1cc149,000원(VAT별도)은 가이드 10 event-R21과 일치하나 가이드 17 일반수가 B198/G198=180,000·J198=삭제 및 가이드 10 일반 list-E136=168,300과 다르다. 일반수가/이벤트의 범위 차이 또는 전사 시점 차이 가능, HB 전체 판매중단이나 이미지 오가격으로 단정할 수 없다.",
-          "evidence": "raw/17.md L934–944\nB198 | 리쥬란hb/1cc |  |\nG198 | 180,000 |  |\nJ198 | 삭제 |  |\n\nraw/10.md L96\n| list-E136 | 스킨부스터 | 리쥬란 HB | 1cc · 1회 | 1cc | 금액: 168,300원 |  | 확인 필요 |\n\nraw/10.md L790\n| event-2026-09-11-R21 | 리쥬란&쥬베룩 등 | \"리쥬란 엑스퍼트 & S-VIP 병원 선정 스킨부스터 리쥬란 | 무통 HB 1cc |  | 정가: 270,000원 / VAT 전: 149,000원 / VAT 후 (최종): 163,900원 |  | 확인 필요 |",
-          "limit": "채널·전사시점 차이 가능. 판매중단·오가격 확정 아님."
+          "staffKo": "추가 비용에 대해 말씀드리면, 상담만 받으러 오실 경우 상담료는 10,000원입니다. 시술도 받으시면 추가 상담료는 없습니다.",
+          "rationale": "직원의 상담만10,000원·시술동반0원 안내는 FAQ와 일치한다. 다만 당일시술 없이 추후시술 예약만 하면 한국어 빠른문구는무료0원, 태국어 확정문구는 당일미시술10,000원으로10,000원 차이가 난다.",
+          "evidence": "raw/06.md L1379–L1383 FAQ226\n### [질문:226] 오늘 염증주사 받고 상담 받았는데 왜 상담비 받나요? 피부진단은 무료 아닌가요 ?\n\n분류: 기타 문의사항\n\n상담만 받는 경우 상담비는 1만원으로 안내합니다. 약 처방이나 염증주사는 별도 기준이므로 실제 받은 진료 내역을 확인한 뒤 비용을 설명합니다.\n\nraw/11.md L134–L140 본문\n상담비 안내\n\n  **문구**\n\n    - 상담만 진행 시: 상담비 10,000원 발생\n\n    - 당일 시술 or 시술 예약 시: 상담비 무료\n\nraw/08.md L92 본문\n* หากเข้ามาปรึกษาอย่างเดียว โดยไม่ได้ทำหัตถการในวันนั้น จะมีค่าปรึกษา 10,000 วอน",
+          "limit": ""
         },
         {
           "id": "case-20261029-41",
@@ -694,68 +343,27 @@ window.SUPERVISION_DATA = {
           "country": "TW",
           "title": "시술상세 설명 부분 누락",
           "customerText": "想更詳細了解施術／手術內容",
-          "customerKo": "포텐자 이벤트의 시술 또는 수술 내용을 더 자세히 알고 싶다고 요청했다. 병원은 가격표 이미지와 사전 예약 안내로 답했다.",
+          "customerKo": "시술／수술 내용을 더 자세히 알고 싶어요.",
           "staffText": "您好～[표정 문자 생략] 這是我們的價格表，您可以先參考一下～[표정 문자 생략]\n如果您需要提前預約，也可以隨時告訴我們，我們可以馬上幫您安排喔～[표정 문자 생략]",
-          "staffKo": "가격표 이미지 1개를 보내고 사전 예약을 제안했으나 텍스트 시술 상세 설명은 없음.",
-          "rationale": "보낸 이미지에는 가격 외 약제·용량·도포/펌핑과 일부 관리 구성도 있다. 그러나 고객이 요청한 실제 절차·마취·팁/샷수·회복·주의사항 설명이나 추가 확인질문이 없어 시술 상세 문의에 부분 대응했다.",
-          "evidence": "raw/02.md L2389–2411\n**시술 후 반응**\n\nraw/02.md L2389–2411\n- 시술 후 열감, 붉음증, 부종, 일시적인 통증, 가벼운 모낭염이 발생할 수 있으며, 시간이 지나면서 서서히 사라집니다.",
-          "limit": "이미지의 일부 설명은 인정하되 상세 문의에는 부분 대응."
+          "staffKo": "저희 가격표를 보내 드리니 먼저 참고해 주세요.\n미리 예약하고 싶으시면 언제든 말씀해 주세요. 바로 도와드릴게요!",
+          "rationale": "첨부한 가격·약제 구성은 수가표와 일치한다. 고객은 시술 상세 설명을 요청했지만 시술 방법·마취·회복 설명이 빠졌다.",
+          "evidence": "raw/10.md L802 event-2026-09-11-R38\n| event-2026-09-11-R38 | 포텐자 에디션 | 모공, 보습 올인원 포텐자 | 포텐자 레이저 (모공) + pdrn(연어주사)2cc 도포+시트팩 |  | 정가: 490,000원 / VAT 전: 270,000원 / VAT 후 (최종): 297,000원 |  | 확인 필요 |\n\nraw/10.md L803 event-2026-09-11-R39\n| event-2026-09-11-R39 | 포텐자 에디션 | 모공, 보습 올인원 포텐자 | 포텐자 레이저 (모공) +트라블랑(미백+항노화+콜라겐)2cc 도포+시트팩 |  | 정가: 510,000원 / VAT 전: 280,000원 / VAT 후 (최종): 308,000원 |  | 확인 필요 |\n\nraw/10.md L804 event-2026-09-11-R40\n| event-2026-09-11-R40 | 포텐자 에디션 | 모공, 보습 올인원 포텐자 | 포텐자 레이저 (모공) + 엑소힐러5cc 크라이오 5\"+시트팩 |  | 정가: 530,000원 / VAT 전: 290,000원 / VAT 후 (최종): 319,000원 | 자가세안 | 확인 필요 |\n\nraw/10.md L805 event-2026-09-11-R41\n| event-2026-09-11-R41 | 포텐자 에디션 | 모공, 보습 올인원 포텐자 | 포텐자 레이저 (모공) +필로가(샤넬주사)3cc 도포+크라이오5'+ 시트팩 |  | 정가: 560,000원 / VAT 전: 310,000원 / VAT 후 (최종): 341,000원 |  | 확인 필요 |\n\nraw/10.md L806 event-2026-09-11-R42\n| event-2026-09-11-R42 | 포텐자 에디션 | 포텐자 펌핑 | 포텐자(펌핑) + 쥬베룩 스킨 반병 4cc |  | 정가: 690,000원 / VAT 전: 380,000원 / VAT 후 (최종): 418,000원 |  | 확인 필요 |\n\nraw/10.md L807 event-2026-09-11-R43\n| event-2026-09-11-R43 | 포텐자 에디션 | 포텐자 펌핑 | 포텐자(펌핑) + 울트라콜100 반병 4cc |  | 정가: 690,000원 / VAT 전: 380,000원 / VAT 후 (최종): 418,000원 |  | 확인 필요 |\n\nraw/10.md L808 event-2026-09-11-R44\n| event-2026-09-11-R44 | 포텐자 에디션 | 포텐자 펌핑 | 포텐자(펌핑) + 리즈네 2cc |  | 정가: 600,000원 / VAT 전: 330,000원 / VAT 후 (최종): 363,000원 | \"깐달걀 피부 관리\" | 확인 필요 |\n\nraw/10.md L809 event-2026-09-11-R45\n| event-2026-09-11-R45 | 포텐자 에디션 | 포텐자 펌핑 +리쥬란 세트 | 포텐자 펌핑 + 리쥬란2cc |  | 정가: 750,000원 / VAT 전: 410,000원 / VAT 후 (최종): 451,000원 |  | 확인 필요 |\n\nraw/10.md L810 event-2026-09-11-R46\n| event-2026-09-11-R46 | 포텐자 에디션 | 포텐자 펌핑 +리쥬란 세트 | 포텐자 모공 + 리쥬란2cc도포 + 크라이오5'+시트팩 |  | 정가: 670,000원 / VAT 전: 369,000원 / VAT 후 (최종): 405,900원 |  | 확인 필요 |",
+          "limit": ""
         },
         {
           "id": "case-20261029-42",
-          "verdict": "needsVerification",
+          "verdict": "sourceConflict",
           "country": "TW",
           "title": "관리시간 단위",
           "customerText": "想更詳細了解施術／手術內容",
-          "customerKo": "포텐자 시술 내용을 자세히 알고 싶다고 요청했다. 관리시간 단위를 직접 질문한 것은 아니며 병원이 보낸 가격표 이미지의 시간 표기를 검토한 건이다.",
+          "customerKo": "시술／수술 내용을 더 자세히 알고 싶어요.",
           "staffText": "您好～[표정 문자 생략] 這是我們的價格表，您可以先參考一下～[표정 문자 생략]\n如果您需要提前預約，也可以隨時告訴我們，我們可以馬上幫您安排喔～[표정 문자 생략]",
-          "staffKo": "가격표 이미지 1개를 보내고 사전 예약을 제안했으나 텍스트 시술 상세 설명은 없음.",
-          "rationale": "이미지 Cryo5분과 가이드 10 event-R40의 5\" 표기가 다르다. 해당 행의 초/분을 고객에게 자동 확정하지 않는다. 나머지 이미지의 5'는 분 표기다.",
-          "evidence": "raw/10.md L804\n| event-2026-09-11-R40 | 포텐자 에디션 | 모공, 보습 올인원 포텐자 | 포텐자 레이저 (모공) + 엑소힐러5cc 크라이오 5\"+시트팩 |  | 정가: 530,000원 / VAT 전: 290,000원 / VAT 후 (최종): 319,000원 | 자가세안 | 확인 필요 |\n\nraw/10.md L805\n| event-2026-09-11-R41 | 포텐자 에디션 | 모공, 보습 올인원 포텐자 | 포텐자 레이저 (모공) +필로가(샤넬주사)3cc 도포+크라이오5'+ 시트팩 |  | 정가: 560,000원 / VAT 전: 310,000원 / VAT 후 (최종): 341,000원 |  | 확인 필요 |",
-          "limit": "크라이오 초·분 단위 미확정."
-        },
-        {
-          "id": "case-20261029-43",
-          "verdict": "needsVerification",
-          "country": "TW",
-          "title": "무통 표현·제품 표기",
-          "customerText": "那肉毒跟麗珠藍的價錢呢？",
-          "customerKo": "전날 보톡스와 리쥬란 가격을 물었고 병원은 오늘 가격표 이미지 두 개를 보냈다. 무통 표현이나 다른 스킨부스터 제품을 별도로 질문한 것은 아니다.",
-          "staffText": "價格表，您可以先參考一下～",
-          "staffKo": "보톡스·리쥬란 가격 문의에 가격표 이미지 두 개를 보내 참고하라고 답했다.",
-          "rationale": "HB를 無痛/無痛 HB로 표기한다. 통증 없음 보장으로 전달하지 말아야 한다. 셀르디엠의 영문 표기가 번체 Cellredm/설명 Celldiem, 일문 Celldiem 등으로 일관되지 않아 제품명을 확인해야 한다.",
-          "evidence": "raw/10.md L790\n| event-2026-09-11-R21 | 리쥬란&쥬베룩 등 | \"리쥬란 엑스퍼트 & S-VIP 병원 선정 스킨부스터 리쥬란 | 무통 HB 1cc |  | 정가: 270,000원 / VAT 전: 149,000원 / VAT 후 (최종): 163,900원 |  | 확인 필요 |\n\nraw/10.md L799\n| event-2026-09-11-R30 | 리쥬란&쥬베룩 등 | 셀르디엠 | 셀르디엠 1v + HA2cc + 진정관리 |  | 정가: 1,180,000원 / VAT 전: 650,000원 / VAT 후 (최종): 715,000원 |  | 확인 필요 |",
-          "limit": "고객이 다른 제품을 선택한 것은 아님. 무통·제품명 확인 필요."
-        },
-        {
-          "id": "case-20261029-44",
-          "verdict": "sourceConflict",
-          "country": "TW",
-          "title": "기준자료 HB 상태",
-          "customerText": "那肉毒跟麗珠藍的價錢呢？",
-          "customerKo": "전날 보톡스와 리쥬란 가격을 물었다. 병원이 오늘 보낸 가격표 중 다른 특정 제품의 가격·판매상태 자료 대응을 검토한 건이다.",
-          "staffText": "價格表，您可以先參考一下～",
-          "staffKo": "보톡스·리쥬란 가격 문의에 가격표 이미지 두 개를 보내 참고하라고 답했다.",
-          "rationale": "이미지의 HB1cc149,000원(VAT별도)은 가이드 10 event-R21과 일치하나 가이드 17 일반수가 B198/G198=180,000·J198=삭제 및 가이드 10 일반 list-E136=168,300과 다르다. 일반수가/이벤트의 범위 차이 또는 전사 시점 차이 가능, HB 전체 판매중단이나 이미지 오가격으로 단정할 수 없다.",
-          "evidence": "raw/17.md L934–944\nB198 | 리쥬란hb/1cc |  |\nG198 | 180,000 |  |\nJ198 | 삭제 |  |\n\nraw/10.md L96\n| list-E136 | 스킨부스터 | 리쥬란 HB | 1cc · 1회 | 1cc | 금액: 168,300원 |  | 확인 필요 |\n\nraw/10.md L790\n| event-2026-09-11-R21 | 리쥬란&쥬베룩 등 | \"리쥬란 엑스퍼트 & S-VIP 병원 선정 스킨부스터 리쥬란 | 무통 HB 1cc |  | 정가: 270,000원 / VAT 전: 149,000원 / VAT 후 (최종): 163,900원 |  | 확인 필요 |",
-          "limit": "고객이 해당 제품을 선택한 근거 없음. 판매중단·오가격 확정 아님."
-        },
-        {
-          "id": "case-20261029-45",
-          "verdict": "needsVerification",
-          "country": "TW",
-          "title": "광고·내성·효과",
-          "customerText": "那肉毒跟麗珠藍的價錢呢？",
-          "customerKo": "전날 보톡스와 리쥬란 가격을 물었고 병원은 오늘 가격표 이미지 두 개를 보냈다. 내성이나 효과를 질문한 것은 아니며 보톡스 첨부의 광고 문구를 검토한 건이다.",
-          "staffText": "價格表，您可以先參考一下～",
-          "staffKo": "보톡스·리쥬란 가격 문의에 가격표 이미지 두 개를 보내 참고하라고 답했다.",
-          "rationale": "저내성/효과UP/필터 없는 도자기피부 및 자체 콜라겐 생성 표현이 있다. 개인별 결과·내성발생 없음의 보장으로 확대하면 안 되며 이미지 자체의 규정 위반은 본 검토로 확정하지 않는다.",
-          "evidence": "직접 대조 가능한 가이드 인용·줄번호 없음. 첨부의 표현·조건 자체를 검토한 건.",
-          "limit": "효과·내성의 공식 근거 개별 대조 없음."
+          "staffKo": "저희 가격표를 보내 드리니 먼저 참고해 주세요.\n미리 예약하고 싶으시면 언제든 말씀해 주세요. 바로 도와드릴게요!",
+          "rationale": "포텐자9개 정가·세전가는 표와 일치한다. 엑소힐러5cc 조합은290,000원(세전)=319,000원(세후)이나 이미지 Cryo5분 대 표 R40의5초기호(5\")가 충돌한다. 5분=300초로 문자 그대로는295초 차이다. 바로 옆 필로가3cc 조합310,000원(세전)=341,000원(세후)은 원문5분기호(5')와 이미지5분이 일치한다.",
+          "evidence": "raw/17.md L5360–L5367 sheet-332689118!C40:C41\nC40 | 포텐자 레이저 (모공) + 엑소힐러5cc 크라이오 5\"+시트팩 |  |\nD40 | 527,273 | =F40/$G$5 |\nE40 | 530,000 | =ROUND(D40, -4) |\nF40 | 290,000 |  |\nG40 | 319,000 | =F40+(F40*10%) |\nH40 | 53만원 | =INT(E40/10000)&\"만\"&IF(INT(MOD(E40,10000)/1000)=0,\"\",INT(MOD(E40,10000)/1000)&\"천\")&\"원\" |\nI40 | 29만원 | =INT(F40/10000)&\"만\"&IF(INT(MOD(F40,10000)/1000)=0,\"\",INT(MOD(F40,10000)/1000)&\"천\")&\"원\" |\nC41 | 포텐자 레이저 (모공) +필로가(샤넬주사)3cc 도포+크라이오5'+ 시트팩 |  |\n\nraw/10.md L802 event-2026-09-11-R38\n| event-2026-09-11-R38 | 포텐자 에디션 | 모공, 보습 올인원 포텐자 | 포텐자 레이저 (모공) + pdrn(연어주사)2cc 도포+시트팩 |  | 정가: 490,000원 / VAT 전: 270,000원 / VAT 후 (최종): 297,000원 |  | 확인 필요 |\n\nraw/10.md L803 event-2026-09-11-R39\n| event-2026-09-11-R39 | 포텐자 에디션 | 모공, 보습 올인원 포텐자 | 포텐자 레이저 (모공) +트라블랑(미백+항노화+콜라겐)2cc 도포+시트팩 |  | 정가: 510,000원 / VAT 전: 280,000원 / VAT 후 (최종): 308,000원 |  | 확인 필요 |\n\nraw/10.md L804 event-2026-09-11-R40\n| event-2026-09-11-R40 | 포텐자 에디션 | 모공, 보습 올인원 포텐자 | 포텐자 레이저 (모공) + 엑소힐러5cc 크라이오 5\"+시트팩 |  | 정가: 530,000원 / VAT 전: 290,000원 / VAT 후 (최종): 319,000원 | 자가세안 | 확인 필요 |\n\nraw/10.md L805 event-2026-09-11-R41\n| event-2026-09-11-R41 | 포텐자 에디션 | 모공, 보습 올인원 포텐자 | 포텐자 레이저 (모공) +필로가(샤넬주사)3cc 도포+크라이오5'+ 시트팩 |  | 정가: 560,000원 / VAT 전: 310,000원 / VAT 후 (최종): 341,000원 |  | 확인 필요 |\n\nraw/10.md L806 event-2026-09-11-R42\n| event-2026-09-11-R42 | 포텐자 에디션 | 포텐자 펌핑 | 포텐자(펌핑) + 쥬베룩 스킨 반병 4cc |  | 정가: 690,000원 / VAT 전: 380,000원 / VAT 후 (최종): 418,000원 |  | 확인 필요 |\n\nraw/10.md L807 event-2026-09-11-R43\n| event-2026-09-11-R43 | 포텐자 에디션 | 포텐자 펌핑 | 포텐자(펌핑) + 울트라콜100 반병 4cc |  | 정가: 690,000원 / VAT 전: 380,000원 / VAT 후 (최종): 418,000원 |  | 확인 필요 |\n\nraw/10.md L808 event-2026-09-11-R44\n| event-2026-09-11-R44 | 포텐자 에디션 | 포텐자 펌핑 | 포텐자(펌핑) + 리즈네 2cc |  | 정가: 600,000원 / VAT 전: 330,000원 / VAT 후 (최종): 363,000원 | \"깐달걀 피부 관리\" | 확인 필요 |\n\nraw/10.md L809 event-2026-09-11-R45\n| event-2026-09-11-R45 | 포텐자 에디션 | 포텐자 펌핑 +리쥬란 세트 | 포텐자 펌핑 + 리쥬란2cc |  | 정가: 750,000원 / VAT 전: 410,000원 / VAT 후 (최종): 451,000원 |  | 확인 필요 |\n\nraw/10.md L810 event-2026-09-11-R46\n| event-2026-09-11-R46 | 포텐자 에디션 | 포텐자 펌핑 +리쥬란 세트 | 포텐자 모공 + 리쥬란2cc도포 + 크라이오5'+시트팩 |  | 정가: 670,000원 / VAT 전: 369,000원 / VAT 후 (최종): 405,900원 |  | 확인 필요 |",
+          "limit": ""
         }
-      ],
-      "casesComplete": true,
-      "casesUpdatedAt": "2026-10-29T10:28:45.675Z"
+      ]
     }
   ]
 };
