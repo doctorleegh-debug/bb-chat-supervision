@@ -13,8 +13,8 @@
   };
   const replace = (id, ...children) => $(id).replaceChildren(...children);
   const verdicts = [
-    ['appropriate', '적절'], ['confirmedError', '확정 오류'],
-    ['suspectedError', '의심 오류'], ['missingAnswer', '미답변'],
+    ['appropriate', '적정'], ['confirmedError', '확정 오류'],
+    ['suspectedError', '의심 오류'], ['missingAnswer', '답변누락'],
     ['sourceConflict', '자료충돌'], ['needsVerification', '확인필요']
   ];
   const countryDefinitions = [
@@ -63,9 +63,9 @@
     if (!day) { replace('kpi-grid', empty('조회할 집계가 없습니다', '데이터가 게시되면 검토 대상과 메시지 집계를 표시합니다.')); return; }
     const items = [
       ['검토 대상 상담방', day.eligibleRooms, '개', '읽지 않음·대기 등 제외 기준 적용', ''],
-      ['전체 메시지', day.messageCount, '건', '고객·직원·자동응답 포함', 'teal'],
-      ['확정 오류', day.verdicts?.confirmedError, '건', '자료충돌·확인필요는 제외', 'red'],
-      ['후속 검토 발견', verificationCount(day.verdicts), '건', '의심·미답변·자료충돌·확인필요 합계', 'amber']
+      ['전체 메시지', day.messageCount, '건', '제공된 메시지 분류 전체 범위', 'teal'],
+      ['확정 오류 상담', day.verdicts?.confirmedError, '개', '자료충돌·확인필요는 제외', 'red'],
+      ['후속 확인 상담', verificationCount(day.verdicts), '개', '의심·부분답변누락·자료충돌·확인필요', 'amber']
     ];
     replace('kpi-grid', ...items.map(([label, value, unit, note, color]) => {
       const card = node('article', `kpi ${color}`); const figure = node('div', 'kpi-value', fmt(value));
@@ -76,27 +76,41 @@
     if (!day) { replace('verdict-chart', empty('판정 집계 대기', '데이터가 없는 상태를 0건 또는 적절로 해석하지 않습니다.')); return; }
     const values = day.verdicts || {}; const total = sumVerdicts(values);
     const chart = node('div', 'stacked-bar'); chart.setAttribute('role', 'img');
-    chart.setAttribute('aria-label', `판정 발견 합계 ${fmt(total)}건. ${verdicts.map(([key, label]) => `${label} ${fmt(values[key])}건`).join(', ')}. 유형 간 중복 가능.`);
+    chart.setAttribute('aria-label', `상담별 대표판정 합계 ${fmt(total)}개. ${verdicts.map(([key, label]) => `${label} ${fmt(values[key])}개`).join(', ')}. 상담별 한 가지 대표판정.`);
     if (total) verdicts.forEach(([key, label]) => {
       const value = number(values[key]); if (!value) return;
-      const segment = node('span', `stacked-segment verdict-${key}`); segment.style.width = `${value / total * 100}%`; segment.title = `${label} ${fmt(value)}건`; chart.append(segment);
+      const segment = node('span', `stacked-segment verdict-${key}`); segment.style.width = `${value / total * 100}%`; segment.title = `${label} ${fmt(value)}개`; chart.append(segment);
     });
     const legend = node('div', 'verdict-legend');
     verdicts.forEach(([key, label]) => {
       const item = node('div'); const name = node('div', 'legend-label'); const swatch = node('span', `swatch verdict-${key}`); swatch.setAttribute('aria-hidden', 'true');
-      name.append(swatch, node('span', '', label)); const value = node('div', 'legend-value', fmt(values[key])); value.append(node('small', '', '건')); item.append(name, value); legend.append(item);
+      name.append(swatch, node('span', '', label)); const value = node('div', 'legend-value', fmt(values[key])); value.append(node('small', '', '개')); item.append(name, value); legend.append(item);
     });
-    replace('verdict-chart', chart, legend, node('p', 'finding-total', total ? `발견 합계 ${fmt(total)}건 기준 시각화 · 고유 메시지 비율·정확도 아님` : '등록된 판정 발견 0건 · 검토 완료 또는 오류 없음의 보증이 아닙니다.'));
+    replace('verdict-chart', chart, legend, node('p', 'finding-total', total ? `상담 ${fmt(total)}개 대표판정 · 메시지 비율·직원 정확도 아님` : '등록된 상담 대표판정 0개 · 검토 완료 또는 오류 없음의 보증이 아닙니다.'));
   }
   function renderMessages(day) {
     if (!day) { replace('message-breakdown', empty('메시지 집계 대기')); return; }
-    const items = [['고객', day.customerMessages, 'customer'], ['직원', day.staffMessages, 'staff'], ['자동응답', day.autoMessages, 'auto']];
-    const max = Math.max(number(day.messageCount), ...items.map(item => number(item[1])), 1);
-    replace('message-breakdown', ...items.map(([label, value, kind]) => {
+    const items = [
+      ['고객', day.customerMessages, 'customer'],
+      ['병원답변(개별담당자미확인)', day.staffMessages, 'staff'],
+      ['자동안내추정', day.autoMessages, 'auto']
+    ];
+    // Presence matters: an explicit zero is a provided category; an absent key is not.
+    if (Object.hasOwn(day, 'systemMessages')) items.push(['시스템', day.systemMessages, 'system']);
+    if (Object.hasOwn(day, 'deletedMessages')) items.push(['삭제표시', day.deletedMessages, 'deleted']);
+    const total = number(day.messageCount);
+    const sum = items.reduce((value, item) => value + number(item[1]), 0);
+    const max = Math.max(total, ...items.map(item => number(item[1])), 1);
+    const list = node('dl', 'message-list');
+    items.forEach(([label, value, kind]) => {
       const item = node('div', `message-row ${kind}`); const track = node('div', 'mini-track'); track.setAttribute('aria-hidden', 'true');
       const fill = node('div', 'mini-fill'); fill.style.width = `${number(value) / max * 100}%`; track.append(fill);
-      item.append(node('span', '', label), track, node('strong', '', `${fmt(value)}건`)); return item;
-    }));
+      item.append(node('dt', 'message-label', label), track, node('dd', 'message-count', `${fmt(value)}건`)); list.append(item);
+    });
+    const matches = sum === total;
+    const summary = node('p', `message-total${matches ? '' : ' is-warning'}`, `표시 분류 합계 ${fmt(sum)}건 / 전체 메시지 ${fmt(total)}건${matches ? ' · 합계 일치' : ` · 합계 불일치, 차이 ${fmt(Math.abs(sum - total))}건. 누락·중복·분류 범위를 확인하세요.`}`);
+    summary.setAttribute('role', 'status'); summary.setAttribute('aria-live', 'polite');
+    replace('message-breakdown', list, summary);
   }
   function getCountry(day) {
     if (!day) return null;
@@ -124,9 +138,9 @@
     verdicts.forEach(([key, label]) => {
       const item = node('div', 'country-bar-row'); const track = node('div', 'mini-track'); track.setAttribute('aria-hidden', 'true');
       const fill = node('div', `mini-fill verdict-${key}`); fill.style.width = `${number(country.verdicts?.[key]) / max * 100}%`; track.append(fill);
-      item.append(node('span', '', label), track, node('strong', '', `${fmt(country.verdicts?.[key])}건`)); bars.append(item);
+      item.append(node('span', '', label), track, node('strong', '', `${fmt(country.verdicts?.[key])}개`)); bars.append(item);
     });
-    panel.replaceChildren(heading, bars, node('p', 'helper bottom-note', '발견 건수 비교 · 각 막대는 이 탭의 최댓값 기준 · 전체 집계와 국가별 합계는 범위에 따라 다를 수 있습니다.'));
+    panel.replaceChildren(heading, bars, node('p', 'helper bottom-note', '상담별 대표판정 비교 · 각 막대는 이 탭의 최댓값 기준 · 기타·미확인은 국적을 추정하지 않은 분류입니다.'));
   }
   function table(headers, caption) {
     const wrap = node('div', 'table-wrap'); wrap.tabIndex = 0; wrap.setAttribute('role', 'region'); wrap.setAttribute('aria-label', `${caption}, 가로 스크롤 가능`);
@@ -139,7 +153,7 @@
     if (!day) { replace('issues-content', empty('이슈 집계 대기')); return; }
     const issues = Array.isArray(day.issues) ? day.issues.filter(item => item && typeof item === 'object') : [];
     if (!issues.length) { replace('issues-content', empty('등록된 이슈 분류가 없습니다', day.status === 'completed' ? '등록 목록 기준이며 모든 상담에 문제가 없다는 뜻은 아닙니다.' : '부분 집계 또는 상태 미확인 결과입니다. 이슈 없음으로 확정하지 않습니다.')); return; }
-    const { wrap, body } = table([['분류', false], ['우선도', false], ['조치 상태', false], ['발견 건수', true]], '이슈 분류 집계 · 사람 수가 아니며 판정 건수와 중복될 수 있습니다.');
+    const { wrap, body } = table([['분류', false], ['우선도', false], ['조치 상태', false], ['발견 건수', true]], '세부 이슈 집계 · 한 상담에 여러 건 가능. 상담별 대표판정과 합산하지 않습니다.');
     const allowedStatuses = new Set(['대기', '미확인', '확인중', '확인 중', '검토중', '검토 중', '조치중', '조치 중', '완료', '미조치', '조치 완료', '확인 필요', '보류']);
     issues.forEach(issue => {
       const tr = node('tr'); tr.append(node('td', '', text(issue.category, '미분류')));
@@ -151,12 +165,12 @@
   }
   function renderHistory() {
     if (!days.length) { replace('history-content', empty('아직 게시된 일별 기록이 없습니다', '실제 검토 결과가 게시되기 전에는 예시 수치를 표시하지 않습니다.')); return; }
-    const { wrap, body } = table([['조회일 · KST', false], ['집계 상태', false], ['상담방', true], ['메시지', true], ['확정 오류', true], ['후속 검토 발견', true]], '게시된 일별 기록 · 최신 날짜순 · 부분 집계는 완료 결과가 아닙니다.');
+    const { wrap, body } = table([['조회일 · KST', false], ['집계 상태', false], ['상담방', true], ['메시지', true], ['확정 오류', true], ['후속 확인 상담', true]], '게시된 일별 기록 · 최신 날짜순 · 부분 집계는 완료 결과가 아닙니다.');
     days.forEach(day => {
       const tr = node('tr', day.date === selectedDate ? 'selected' : ''); const dateCell = node('td'); const button = node('button', 'date-link', day.date); button.type = 'button';
       button.setAttribute('aria-label', `${day.date} KST, ${statusLabel(day)} 조회`); if (day.date === selectedDate) button.setAttribute('aria-current', 'date');
       button.addEventListener('click', () => { selectedDate = day.date; render(); dateInput.focus(); }); dateCell.append(button);
-      const statusCell = node('td'); statusCell.append(badge(day)); tr.append(dateCell, statusCell, node('td', 'number', `${fmt(day.eligibleRooms)}개`), node('td', 'number', `${fmt(day.messageCount)}건`), node('td', 'number', `${fmt(day.verdicts?.confirmedError)}건`), node('td', 'number', `${fmt(verificationCount(day.verdicts))}건`)); body.append(tr);
+      const statusCell = node('td'); statusCell.append(badge(day)); tr.append(dateCell, statusCell, node('td', 'number', `${fmt(day.eligibleRooms)}개`), node('td', 'number', `${fmt(day.messageCount)}건`), node('td', 'number', `${fmt(day.verdicts?.confirmedError)}개`), node('td', 'number', `${fmt(verificationCount(day.verdicts))}개`)); body.append(tr);
     }); replace('history-content', wrap);
   }
   function renderCoverage(day) {
