@@ -1,4 +1,4 @@
-/* Aggregate-only presentation. No requests, storage, analytics or transcript handling. */
+/* De-identified review excerpts and aggregates. No network requests, storage or analytics. */
 (() => {
   'use strict';
   const $ = id => document.getElementById(id);
@@ -37,6 +37,10 @@
   }).sort((a, b) => b.date.localeCompare(a.date));
   let selectedDate = days[0]?.date || '';
   let selectedCountry = 'ALL';
+  let selectedCaseVerdict = 'confirmedError';
+  let selectedCaseIndex = 0;
+  let caseDateMemo = null;
+  const caseVerdicts = [['confirmedError','확정 오류'],['missingAnswer','답변누락'],['needsVerification','확인필요'],['suspectedError','오안내의심'],['sourceConflict','자료충돌']];
   const dateInput = $('review-date');
   const sumVerdicts = value => verdicts.reduce((sum, [key]) => sum + number(value?.[key]), 0);
   const verificationCount = value => ['suspectedError', 'missingAnswer', 'sourceConflict', 'needsVerification'].reduce((sum, key) => sum + number(value?.[key]), 0);
@@ -149,6 +153,47 @@
     headers.forEach(([label, numeric]) => { const th = node('th', numeric ? 'number' : '', label); th.scope = 'col'; tr.append(th); });
     head.append(tr); const body = node('tbody'); element.append(head, body); wrap.append(element); return { wrap, body };
   }
+  function renderCases(day) {
+    const cases = day && Array.isArray(day.cases) ? day.cases.filter(c => c && caseVerdicts.some(([key]) => key === c.verdict)) : [];
+    const complete = day?.status === 'completed' && day?.casesComplete === true;
+    if (caseDateMemo !== selectedDate) {
+      caseDateMemo = selectedDate; selectedCaseIndex = 0;
+      selectedCaseVerdict = caseVerdicts.find(([key]) => cases.some(c => c.verdict === key))?.[0] || 'confirmedError';
+    }
+    $('cases-date').textContent = selectedDate ? selectedDate + ' · KST' : '날짜별 상담 검토';
+    caseVerdicts.forEach(([key, label]) => {
+      const tab = $('case-tab-' + key); const count = cases.filter(c => c.verdict === key).length;
+      tab.textContent = label + ' ' + fmt(count); tab.setAttribute('aria-selected', String(key === selectedCaseVerdict)); tab.tabIndex = key === selectedCaseVerdict ? 0 : -1;
+    });
+    const filtered = cases.filter(c => c.verdict === selectedCaseVerdict);
+    selectedCaseIndex = Math.max(0, Math.min(selectedCaseIndex, filtered.length - 1));
+    $('case-panel').setAttribute('aria-labelledby', 'case-tab-' + selectedCaseVerdict);
+    $('case-count').textContent = day ? '세부 사례 ' + fmt(cases.length) + '건 · 한 상담에 여러 이슈가 있을 수 있습니다.' + (complete ? '' : ' 현재 확인된 내용만 표시합니다.') : '선택한 날짜의 점검 기록을 확인하세요.';
+    $('case-previous').disabled = !filtered.length || selectedCaseIndex === 0;
+    $('case-next').disabled = !filtered.length || selectedCaseIndex >= filtered.length - 1;
+    $('case-position').textContent = filtered.length ? (selectedCaseIndex + 1) + ' / ' + fmt(filtered.length) : '';
+    if (!filtered.length) {
+      const title = !day ? '점검 기록 없음' : complete ? '없음' : '검토 중';
+      const detail = !day ? '이 날짜의 점검 결과가 아직 등록되지 않았습니다.' : complete ? '선택한 날짜에 이 판정에 해당하는 상담은 없습니다.' : '점검이 끝나지 않아 해당 사례가 없는 것으로 확정하지 않습니다.';
+      replace('case-panel', empty(title, detail)); return;
+    }
+    const item = filtered[selectedCaseIndex]; const article = node('article', 'case-review');
+    const heading = node('div', 'case-review-heading'); const label = caseVerdicts.find(([key]) => key === item.verdict)[1];
+    const country = countryDefinitions.find(([key]) => key === item.country)?.[1] || '미확인';
+    heading.append(node('span', 'case-verdict', label), node('span', 'case-country', country), node('h3', '', text(item.title, '상담 내용 확인')));
+    const grid = node('div', 'case-bento');
+    const quoteCard = (title, original, summary, kind) => {
+      const card = node('div', 'case-cell case-' + kind); card.append(node('h4', '', title));
+      card.append(node('blockquote', 'case-original', text(original, '확인 가능한 텍스트가 없습니다.')));
+      if (text(summary)) { const ko = node('div', 'case-ko'); ko.append(node('strong', '', '한국어로 보면'), node('p', '', summary)); card.append(ko); }
+      return card;
+    };
+    grid.append(quoteCard('고객이 남긴 글', item.customerText, item.customerKo, 'customer'), quoteCard('담당자가 답한 글', item.staffText, item.staffKo, 'staff'));
+    const basis = node('div', 'case-cell case-basis'); basis.append(node('h4', '', '내가 이렇게 판단한 근거'), node('p', 'case-rationale', text(item.rationale, '판단 근거 확인 필요')));
+    if (text(item.evidence)) { const evidence = node('div', 'case-evidence'); evidence.append(node('strong', '', '대조한 근거 원문'), node('blockquote', '', item.evidence)); basis.append(evidence); }
+    if (text(item.limit)) basis.append(node('p', 'case-limit', item.limit));
+    grid.append(basis); article.append(heading, node('p', 'case-excerpt-label', '실제 채팅 발췌 · 개인정보와 예약 식별정보 생략'), grid); replace('case-panel', article);
+  }
   function renderIssues(day) {
     if (!day) { replace('issues-content', empty('이슈 집계 대기')); return; }
     const issues = Array.isArray(day.issues) ? day.issues.filter(item => item && typeof item === 'object') : [];
@@ -202,7 +247,7 @@
     if (day) notice.textContent += ' 누락된 숫자 항목은 0으로 표시합니다.';
     if (skippedDays) notice.textContent += ' 날짜가 유효하지 않거나 중복된 기록은 표시에서 제외했습니다.';
     $('overview-title').textContent = selectedDate ? `${selectedDate} 검토 요약` : '일일 검토 요약';
-    renderKpis(day); renderVerdicts(day); renderMessages(day); renderCountry(day); renderIssues(day); renderHistory(); renderCoverage(day);
+    renderKpis(day); renderVerdicts(day); renderMessages(day); renderCases(day); renderCountry(day); renderIssues(day); renderHistory(); renderCoverage(day);
   }
   const title = text(meta.title, '상담 품질 감독'); $('dashboard-title').textContent = title; document.title = `${title} | Daily Review`;
   $('updated-at').textContent = timestamp(meta.updatedAt);
@@ -235,5 +280,15 @@
       event.preventDefault(); selectedCountry = countryDefinitions[next][0]; renderCountry(days.find(day => day.date === selectedDate)); $(`tab-${selectedCountry}`).focus();
     }); $('country-tabs').append(tab);
   });
+  caseVerdicts.forEach(([key, label], index) => {
+    const tab = node('button', '', label); tab.id = 'case-tab-' + key; tab.type = 'button'; tab.setAttribute('role','tab'); tab.setAttribute('aria-controls','case-panel');
+    tab.addEventListener('click', () => { selectedCaseVerdict = key; selectedCaseIndex = 0; renderCases(days.find(day => day.date === selectedDate)); });
+    tab.addEventListener('keydown', event => {
+      let next; if(event.key==='ArrowRight')next=(index+1)%caseVerdicts.length;else if(event.key==='ArrowLeft')next=(index+caseVerdicts.length-1)%caseVerdicts.length;else if(event.key==='Home')next=0;else if(event.key==='End')next=caseVerdicts.length-1;if(next===undefined)return;
+      event.preventDefault();selectedCaseVerdict=caseVerdicts[next][0];selectedCaseIndex=0;renderCases(days.find(day => day.date === selectedDate));$('case-tab-'+selectedCaseVerdict).focus();
+    }); $('case-tabs').append(tab);
+  });
+  $('case-previous').addEventListener('click', () => { if(selectedCaseIndex>0)selectedCaseIndex--;renderCases(days.find(day=>day.date===selectedDate)); });
+  $('case-next').addEventListener('click', () => { selectedCaseIndex++;renderCases(days.find(day=>day.date===selectedDate)); });
   render();
 })();
