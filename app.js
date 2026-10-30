@@ -350,15 +350,17 @@
     $('overview-title').textContent = selectedDate ? `${selectedDate} 검토 요약` : '일일 검토 요약';
     renderKpis(day); renderVerdicts(day); renderMessages(day); renderCases(day); renderCountry(day); renderIssues(day); renderHistory(); renderCoverage(day); renderFollowUps(day, 'report-followups'); renderKnowledge(day,'report-knowledge'); renderStats(day);
   }
+  $('staff-memo-title').textContent='AI에 피드백 메모';
+  $('staff-memo-link').textContent='피드백 원장 열기';
   let memoSheetUrl = '';
   try { const u = new URL(text(meta.staffMemoUrl)); const gid=u.searchParams.get('gid')||u.hash.match(/gid=(\d+)/)?.[1]; if(u.protocol==='https:'&&u.hostname==='docs.google.com'&&/^\/spreadsheets\/d\/[A-Za-z0-9_-]+\/edit$/.test(u.pathname)&&/^\d+$/.test(gid||'')) memoSheetUrl=u.origin+u.pathname+'?gid='+gid+'#gid='+gid; } catch {}
   if(memoSheetUrl){$('staff-memo-link').href=memoSheetUrl;$('staff-memo-link').hidden=false;}
   const memos=Array.isArray(meta.staffMemos)?meta.staffMemos.filter(m=>m&&text(m.text)):[];
-  if(memos.length){const list=node('ul','memo-list');memos.forEach(m=>{const li=node('li');li.append(node('span','memo-date',text(m.date)),node('p','',m.text),node('span','memo-state',text(m.status,'미반영')));list.append(li);});replace('staff-memo-list',list);}else replace('staff-memo-list',node('p','memo-empty','등록된 메모 없음'));
+  if(memos.length){const list=node('ul','memo-list');memos.forEach(m=>{const li=node('li');li.append(node('span','memo-date',text(m.date)),node('p','',m.text),node('span','memo-state',text(m.status,'미반영')));list.append(li);});replace('staff-memo-list',list);}else replace('staff-memo-list',node('p','memo-empty','등록된 AI 피드백 없음'));
   $('staff-memo-copy').addEventListener('click',async()=>{
-    const content=text($('staff-memo-input').value);const status=$('staff-memo-status');if(!content){status.textContent='전달 내용을 입력해 주세요.';return;}if(!memoSheetUrl){status.textContent='공유 메모 원장 연결이 필요합니다.';return;}
-    const date=new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Seoul',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());const values=['memo-'+Date.now().toString(36),date,text($('staff-memo-author').value,'실무자'),content,'미반영','','','N'];const tsv=values.map(v=>'"'+(/^[=+@-]/.test(v)?"'"+v:v).replaceAll('"','""')+'"').join('\t');
-    try{await navigator.clipboard.writeText(tsv);window.open(memoSheetUrl,'_blank','noopener,noreferrer');status.textContent='복사했습니다. 원장의 새 행에 붙여넣으면 공유 저장됩니다.';}catch{status.textContent='자동 복사가 되지 않았습니다. 공유 메모 원장을 열어 전달 내용을 직접 입력해 주세요.';}
+    const content=text($('staff-memo-input').value);const status=$('staff-memo-status');if(!content){status.textContent='AI에 전할 피드백을 입력해 주세요.';return;}if(!memoSheetUrl){status.textContent='피드백 원장 연결이 필요합니다.';return;}
+    const date=new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Seoul',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());const values=['memo-'+Date.now().toString(36),date,text($('staff-memo-author').value,'담당자'),content,'미반영','','','N'];const tsv=values.map(v=>'"'+(/^[=+@-]/.test(v)?"'"+v:v).replaceAll('"','""')+'"').join('\t');
+    try{await navigator.clipboard.writeText(tsv);window.open(memoSheetUrl,'_blank','noopener,noreferrer');status.textContent='복사했습니다. 원장의 새 행에 붙여넣으면 공유 저장됩니다.';}catch{status.textContent='자동 복사가 되지 않았습니다. 피드백 원장을 열어 내용을 직접 입력해 주세요.';}
   });
   const title = text(meta.title, '상담 품질 감독'); $('dashboard-title').textContent = title; document.title = `${title} | Daily Review`;
   $('updated-at').textContent = timestamp(meta.updatedAt);
