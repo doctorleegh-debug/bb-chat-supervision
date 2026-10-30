@@ -278,9 +278,9 @@
     const summary = day?.followUpSummary;
     const keys = [['carried','이월'],['resolved','해결'],['unresolved','미해결'],['deferred','확인보류'],['unchecked','미확인']];
     const rows = Array.isArray(day?.followUps) ? day.followUps.filter(item => item && typeof item === 'object' && item.status !== '판정철회') : [];
-    const card = $(target.replace('followups','followup-card'));
+    const card = $(target.replace('followups','followup-card')) || $(target).parentElement;
     const explicitEmpty = Array.isArray(day?.followUps) && !rows.length && !['resolved','unresolved','deferred','unchecked'].some(key => number(summary?.[key]) > 0);
-    card.hidden = explicitEmpty;
+    if (card) card.hidden = explicitEmpty;
     if (explicitEmpty) { replace(target); return; }
     if (!summary && !rows.length) { replace(target, empty('처리현황 미등록', '누락된 기록을 해결로 간주하지 않습니다.')); return; }
     const box = node('div', 'followup-counts'); keys.forEach(([key, label]) => box.append(node('span', '', label + ' ' + (suppliedNumber(summary?.[key]) ? fmt(key === 'carried' && suppliedNumber(summary.withdrawn) ? Math.max(0,summary.carried-summary.withdrawn) : summary[key]) + '건' : '미등록'))));
