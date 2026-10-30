@@ -198,7 +198,7 @@
     const issues = Array.isArray(day.issues) ? day.issues.filter(item => item && typeof item === 'object') : [];
     if (!issues.length) { replace('issues-content', empty('등록된 이슈 분류가 없습니다', day.status === 'completed' ? '등록 목록 기준이며 모든 상담에 문제가 없다는 뜻은 아닙니다.' : '부분 집계 또는 상태 미확인 결과입니다. 이슈 없음으로 확정하지 않습니다.')); return; }
     const { wrap, body } = table([['분류', false], ['우선도', false], ['조치 상태', false], ['발견 건수', true]], '세부 이슈 집계 · 한 상담에 여러 건 가능. 상담별 대표판정과 합산하지 않습니다.');
-    const allowedStatuses = new Set(['대기', '미확인', '확인중', '확인 중', '검토중', '검토 중', '조치중', '조치 중', '완료', '미조치', '조치 완료', '확인 필요', '보류']);
+    const allowedStatuses = new Set(['대기', '미확인', '확인중', '확인 중', '검토중', '검토 중', '조치중', '조치 중', '완료', '미조치', '조치 완료', '확인 필요', '자료 확인', '보류']);
     issues.forEach(issue => {
       const tr = node('tr'); tr.append(node('td', '', text(issue.category, '미분류')));
       const severity = ['높음', '보통', '낮음'].includes(issue.severity) ? issue.severity : '미분류';
