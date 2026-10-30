@@ -341,11 +341,16 @@
     const {wrap, body} = table([['담당자 그룹',false],['병원답변',true],['확정 오답 사례',true],['누락 사례',true],['확인필요 사례',true],['자료충돌 사례',true]], (selectedDate || '미선택') + ' KST · 병원답변과 세부 사례는 다른 단위');
     const tr = node('tr'); tr.append(node('td', '', '담당자 미확인'), node('td', 'number', statValue(day?.staffMessages, '건')), ...['confirmedError','missingAnswer','needsVerification','sourceConflict'].map(key => node('td', 'number', cases.label(key)))); body.append(tr); replace('stats-staff', wrap);
   }
-  function setView(hash) {
-    const active = hash === '#stats'; $('report-view').hidden = active; $('stats').hidden = !active;
-    $('nav-stats').setAttribute('aria-current', active ? 'page' : 'false');
-    $('nav-overview').setAttribute('aria-current', active ? 'false' : 'page');
-  }
+  const reportViewIds=['overview','suspect-cases','countries','issues','history','coverage'];
+  const platformDefinitions=[['gangnamunni','강남언니'],['kakao-clinic','카카오톡'],['babitalk','바비톡']];
+  const viewLabels={overview:'일일 현황','suspect-cases':'오상담의심',countries:'국가별 집계',issues:'이슈 분류',history:'일별 기록',coverage:'검토 범위',stats:'통계 대시보드','staff-memo':'AI에 피드백 메모','platform-gangnamunni':'강남언니','platform-kakao-clinic':'카카오톡','platform-babitalk':'바비톡'};
+  const viewIds=Object.keys(viewLabels);let currentView='overview';
+  const mobileMenu=()=>!!window.matchMedia?.('(max-width: 900px)').matches;
+  function setMenuOpen(open){$('sidebar-navigation').hidden=!open;$('nav-toggle').setAttribute('aria-expanded',String(open));$('nav-toggle').textContent=open?'콘텐츠 메뉴 접기':'콘텐츠 메뉴 열기';}
+  function updateViewContext(){const platform=currentView.startsWith('platform-');$('content-view-title').textContent=viewLabels[currentView];$('content-view-context').textContent=(selectedDate?selectedDate+' KST 보고서':'선택한 보고서 없음')+(platform?' · 플랫폼 접속 확인일과 상담 검토일은 별도입니다.':currentView==='staff-memo'?' · 담당자가 AI에 전달하는 교정·개선 피드백':' · 선택한 콘텐츠만 표시합니다.');$('data-notice').hidden=platform||currentView==='staff-memo';$('day-status').hidden=platform||currentView==='staff-memo';$('report-update-meta').hidden=platform||currentView==='staff-memo';}
+  function setView(hash,focus=false){const requested=typeof hash==='string'?hash.replace(/^#/,''):'';currentView=requested==='main'?currentView:viewIds.includes(requested)?requested:'overview';viewIds.forEach(id=>{const view=$(id);if(view)view.hidden=id!==currentView;const link=$('nav-'+id);if(link)link.setAttribute('aria-current',id===currentView?'page':'false');});$('report-view').hidden=!reportViewIds.includes(currentView);$('nav-home').setAttribute('aria-current','false');updateViewContext();if(focus){$('content-view-title').focus({preventScroll:true});window.scrollTo?.({top:0,behavior:'instant'});}}
+  function navigateView(id){const target=viewIds.includes(id)?id:'overview';if(window.location&&window.location.hash!=='#'+target){if(window.history?.pushState)window.history.pushState({contentView:target},'','#'+target);else window.location.hash='#'+target;}setView('#'+target,true);if(mobileMenu())setMenuOpen(false);}
+  function renderPlatforms(day){const supplied=Array.isArray(meta.platforms)?meta.platforms:[];platformDefinitions.forEach(([id,name])=>{const item=supplied.find(p=>p&&p.id===id);$('platform-'+id+'-title').textContent=name;const root=node('div','platform-content'),identity=node('article','card platform-status');identity.append(node('h3','','접속 확인'),node('p','platform-summary',text(item?.summary,'확인된 플랫폼 상태가 없습니다.')));const facts=node('dl','platform-facts');const yesNoUnknown=value=>value===true?'확인됨':value===false?'미확인':'미확인';facts.append(node('dt','','병원 계정'),node('dd','',yesNoUnknown(item?.accountVerified)),node('dt','','채팅 목록 진입'),node('dd','',yesNoUnknown(item?.inboxVerified)),node('dt','','접속 확인 시각'),node('dd','',item?.checkedAt?timestamp(item.checkedAt):'미확인'));identity.append(facts);if(text(item?.status)){const statusLabels={'report-available':'실제 상담 보고서 등록됨','not-reviewed':'대화 내용 점검 기록 미등록','inbox-verified-no-message-audit-yet':'채팅 목록 접속 확인 · 대화 내용 점검 전','existing-audit-source':'기존 상담 보고서 운영 중','blocked-chat-inbox-ui':'당시 채팅 목록 진입 미확인','blocked-authentication':'계정 인증 확인 필요'};identity.append(node('p','helper','상태: '+(statusLabels[item.status]||text(item.status))));}if(text(item?.limit))identity.append(node('p','helper platform-limit',item.limit));root.append(identity);const audit=node('article','card platform-audit');audit.append(node('h3','',(selectedDate||'미선택')+' 상담 보고서'));const confirmed=id==='gangnamunni'&&item?.auditDate===selectedDate&&!!day;if(confirmed){audit.append(node('p','platform-summary','선택한 날짜의 강남언니 검토 자료를 사용합니다. 다른 플랫폼의 건수와 합치지 않습니다.'));const metrics=node('p','platform-audit-metrics');metrics.textContent='검토 상담방 '+statValue(day.eligibleRooms,'개')+' · 메시지 '+statValue(day.messageCount,'건');audit.append(metrics);const actions=node('div','platform-actions');for(const [route,label]of [['overview','일일 현황 보기'],['suspect-cases','상담 사례 보기']]){const link=node('a','button button-secondary',label);link.href='#'+route;link.id='platform-'+id+'-'+route;link.addEventListener('click',event=>{event.preventDefault?.();navigateView(route);});actions.append(link);}audit.append(actions);}else audit.append(empty('선택일 상담 보고서 미등록','접속이 확인돼도 '+(selectedDate||'선택한 날짜')+'의 상담 내용 검토가 완료됐다는 뜻은 아닙니다. 확인하지 않은 건수를 0건이나 오류 없음으로 표시하지 않습니다.'));root.append(audit);replace('platform-'+id+'-content',root);});}
 
   function render() {
     const day = days.find(item => item.date === selectedDate);
@@ -364,7 +369,7 @@
     else notice.textContent = `${day.date} KST · 점검 완료.`;
     if (skippedDays) notice.textContent += ' 날짜가 유효하지 않거나 중복된 기록은 표시에서 제외했습니다.';
     $('overview-title').textContent = selectedDate ? `${selectedDate} 검토 요약` : '일일 검토 요약';
-    renderKpis(day); renderVerdicts(day); renderMessages(day); renderCases(day); renderCountry(day); renderIssues(day); renderHistory(); renderCoverage(day); renderFollowUps(day, 'report-followups'); renderKnowledge(day,'report-knowledge'); renderStats(day);
+    renderKpis(day); renderVerdicts(day); renderMessages(day); renderCases(day); renderCountry(day); renderIssues(day); renderHistory(); renderCoverage(day); renderFollowUps(day, 'report-followups'); renderKnowledge(day,'report-knowledge'); renderStats(day); renderPlatforms(day); updateViewContext();
   }
   $('staff-memo-title').textContent='AI에 피드백 메모';
   $('staff-memo-link').textContent='피드백 원장 열기';
@@ -428,9 +433,11 @@
       if (next === undefined) return; event.preventDefault(); const metric = ['rooms','messages'][next]; activate(metric); $('stats-country-' + metric).focus();
     });
   });
-  $('nav-stats').addEventListener('click', () => setView('#stats'));
-  ['home','overview','suspect-cases','countries','issues','history','coverage'].forEach(id => $('nav-' + id).addEventListener('click', () => setView('')));
-  window.addEventListener?.('hashchange', () => setView(window.location?.hash || ''));
-  setView(window.location?.hash || '');
-  render();
+  viewIds.forEach((id,index)=>{const link=$('nav-'+id);link.addEventListener('click',event=>{event.preventDefault?.();navigateView(id);});link.addEventListener('keydown',event=>{let next;if(event.key==='ArrowDown'||event.key==='ArrowRight')next=(index+1)%viewIds.length;else if(event.key==='ArrowUp'||event.key==='ArrowLeft')next=(index+viewIds.length-1)%viewIds.length;else if(event.key==='Home')next=0;else if(event.key==='End')next=viewIds.length-1;else if(event.key==='Enter'||event.key===' '){event.preventDefault?.();navigateView(id);return;}if(next!==undefined){event.preventDefault?.();$('nav-'+viewIds[next]).focus();}});});
+  $('nav-home').addEventListener('click',event=>{event.preventDefault?.();navigateView('overview');});
+  $('nav-toggle').addEventListener('click',()=>setMenuOpen($('sidebar-navigation').hidden));
+  window.addEventListener?.('hashchange',()=>setView(window.location?.hash||'',true));
+  window.addEventListener?.('popstate',()=>setView(window.location?.hash||'',true));
+  window.addEventListener?.('resize',()=>{if(!mobileMenu())setMenuOpen(true);});
+  setMenuOpen(!mobileMenu());setView(window.location?.hash||'');render();
 })();

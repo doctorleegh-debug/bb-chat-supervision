@@ -1,7 +1,7 @@
 window.SUPERVISION_DATA = {
   "meta": {
     "title": "뷰티블라썸 상담 품질 감독",
-    "updatedAt": "2026-10-30T02:41:11.813Z",
+    "updatedAt": "2026-10-30T03:57:16.902Z",
     "timeZone": "Asia/Seoul",
     "sheetUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit",
     "schedule": {
@@ -31,7 +31,42 @@ window.SUPERVISION_DATA = {
         "status": "반영완료"
       }
     ],
-    "canonicalReportUrl": "https://doctorleegh-debug.github.io/bb-chat-supervision/"
+    "canonicalReportUrl": "https://doctorleegh-debug.github.io/bb-chat-supervision/",
+    "platforms": [
+      {
+        "id": "gangnamunni",
+        "name": "강남언니",
+        "status": "report-available",
+        "checkedAt": "2026-10-29T09:00:35.027Z",
+        "accountVerified": true,
+        "inboxVerified": true,
+        "auditDate": "2026-10-29",
+        "summary": "2026-10-29 상담 23개·메시지 121건의 검토 기록",
+        "limit": "실제 수집 날짜의 보고서입니다. 과거 수집본 재검증과 신규 대화 점검을 구분합니다."
+      },
+      {
+        "id": "kakao-clinic",
+        "name": "카카오톡(병원계정)",
+        "status": "inbox-verified-no-message-audit-yet",
+        "checkedAt": "2026-10-30T03:16:20.699Z",
+        "accountVerified": true,
+        "inboxVerified": true,
+        "auditDate": null,
+        "summary": "병원 계정·환자 채팅 목록 정상 확인",
+        "limit": "접속 확인과 선택일 대화 점검은 다릅니다. 해당 날짜의 대화 점검 자료는 아직 등록되지 않았으며 0건·무오류로 집계하지 않습니다. 현재는 기존 정기점검 대상이며 상시 즉시 감시는 미구성입니다."
+      },
+      {
+        "id": "babitalk",
+        "name": "바비톡",
+        "status": "inbox-verified-no-message-audit-yet",
+        "checkedAt": "2026-10-30T03:57:16.902Z",
+        "accountVerified": true,
+        "inboxVerified": true,
+        "auditDate": null,
+        "summary": "병원 계정·환자 채팅 목록 정상 확인",
+        "limit": "접속 확인과 선택일 대화 점검은 다릅니다. 해당 날짜의 대화 점검 자료는 아직 등록되지 않았으며 0건·무오류로 집계하지 않습니다. 현재는 기존 정기점검 대상이며 상시 즉시 감시는 미구성입니다."
+      }
+    ]
   },
   "days": [
     {
