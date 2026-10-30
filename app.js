@@ -180,18 +180,34 @@
     const item = filtered[selectedCaseIndex]; const article = node('article', 'case-review');
     const heading = node('div', 'case-review-heading'); const label = caseVerdicts.find(([key]) => key === item.verdict)[1];
     const country = countryDefinitions.find(([key]) => key === item.country)?.[1] || '미확인';
-    heading.append(node('span', 'case-country', country), node('span', 'case-verdict', label), node('h3', '', text(item.title, '상담 내용 확인')));
+    heading.append(node('span', 'case-country', country));
+    const classification=node('dl','case-classification');
+    classification.append(node('dt','','시술'),node('dd','',text(item.procedure,'확인되지 않음')),node('dt','','질문 카테고리'),node('dd','',text(item.questionCategory,'확인되지 않음')));
+    heading.append(classification,node('span','case-verdict',label),node('h3','',text(item.title,'상담 내용 확인')));
     const grid = node('div', 'case-bento');
-    const quoteCard = (title, original, summary, kind) => {
-      const card = node('div', 'case-cell case-' + kind); card.append(node('h4', '', title));
-      card.append(node('blockquote', 'case-original', text(summary, text(original, '텍스트 답변 없음'))));
-      if (text(original) && original !== summary) { const originalBox = node('details', 'case-source'); originalBox.append(node('summary', '', '원문'), node('blockquote', '', original)); card.append(originalBox); }
-      return card;
+    const quoteCard = (title, originals, original, translation, side) => {
+      const card=node('div','case-cell case-'+side);card.append(node('h4','',title));
+      const messages=Array.isArray(originals)?originals:[{kind:'text',original:typeof original==='string'?original:'',ko:typeof translation==='string'?translation:''}];
+      if(!messages.length)card.append(node('p','case-nontext','이 사례와 연결된 문장형 메시지 없음'));
+      messages.forEach((message,i)=>{
+        const block=node('div','case-message');const kind=message.kind||'text';
+        if(['imageOnly','noMessage'].includes(kind)){
+          block.append(node('p','case-nontext',kind==='imageOnly'?'이미지로 응답 · 문장형 텍스트 없음':'직접 작성한 문장형 메시지 없음'));card.append(block);return;
+        }
+        if(kind==='context')block.append(node('p','case-nontext','상품 유입 정보 · 고객이 직접 작성한 글이 아님'));
+        if(kind==='linkOnly')block.append(node('p','case-nontext','링크로 응답'));
+        const source=typeof message.original==='string'?message.original:'';
+        const ko=typeof message.ko==='string'?message.ko:'';
+        block.append(node('p','case-quote-heading',(kind==='context'?'유입 정보 원문':'원문')+(messages.length>1?' '+(i+1):'')));
+        block.append(node('blockquote','case-original',source||'문장형 텍스트 없음'));
+        const translated=node('div','case-ko');translated.append(node('strong','','한국어 번역'),node('blockquote','case-translation',ko||'번역 확인 필요'));
+        block.append(translated);card.append(block);
+      });return card;
     };
-    grid.append(quoteCard('고객이 남긴 글', item.customerText, item.customerKo, 'customer'), quoteCard('담당자가 답한 글', item.staffText, item.staffKo, 'staff'));
+    grid.append(quoteCard('고객이 남긴 글',item.customerMessages,item.customerText,item.customerKo,'customer'),quoteCard('담당자가 답한 글',item.staffMessages,item.staffText,item.staffKo,'staff'));
     const basis = node('div', 'case-cell case-basis'); basis.append(node('h4', '', '판정 근거'), node('p', 'case-rationale', text(item.rationale, '판단 근거 확인 필요')));
     if (text(item.evidence)) { const evidence = node('details', 'case-evidence'); evidence.append(node('summary', '', '대조자료 원문'), node('blockquote', '', item.evidence)); basis.append(evidence); }
-    grid.append(basis); article.append(heading, node('p', 'case-excerpt-label', '개인정보 생략'), grid); replace('case-panel', article);
+    grid.append(basis); article.append(heading,node('p','case-excerpt-label',text(item.quoteScopeNote,item.quoteFormat==='full-messages-v1'?'관련 메시지 원문 전체 · 개인정보만 표시 후 가림':'기존 기록 · 전체 원문 대조 필요')),grid); replace('case-panel', article);
   }
   function renderIssues(day) {
     if (!day) { replace('issues-content', empty('이슈 집계 대기')); return; }
