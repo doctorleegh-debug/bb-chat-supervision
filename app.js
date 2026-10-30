@@ -29,13 +29,16 @@
     const parsed = new Date(`${value}T00:00:00Z`);
     return Number.isFinite(parsed.getTime()) && parsed.toISOString().startsWith(value);
   };
-  const seen = new Set();
-  let skippedDays = 0;
-  const days = (hasPayload && Array.isArray(raw.days) ? raw.days : []).filter(day => {
-    if (!day || !dateValid(day.date) || seen.has(day.date)) { skippedDays++; return false; }
-    seen.add(day.date); return true;
-  }).sort((a, b) => b.date.localeCompare(a.date));
-  let selectedDate = days[0]?.date || '';
+  const platformDefinitions=[['kakao-clinic','카카오톡'],['babitalk','바비톡'],['gangnamunni','강남언니']];
+  const platformIds=platformDefinitions.map(([id])=>id);
+  const hasPlatformReports=hasPayload&&raw.platformReports&&typeof raw.platformReports==='object'&&!Array.isArray(raw.platformReports);
+  const platformReports=hasPlatformReports?raw.platformReports:{};
+  let selectedPlatform='gangnamunni',skippedDays=0;
+  function platformDays(id){const source=hasPlatformReports?platformReports[id]?.days:id==='gangnamunni'?raw?.days:[];const seen=new Set();skippedDays=0;return(Array.isArray(source)?source:[]).filter(day=>{if(!day||!dateValid(day.date)||seen.has(day.date)){skippedDays++;return false;}seen.add(day.date);return true;}).sort((a,b)=>b.date.localeCompare(a.date));}
+  let days=platformDays(selectedPlatform);
+  const allReportDates=[...new Set((hasPlatformReports?platformIds.flatMap(id=>Array.isArray(platformReports[id]?.days)?platformReports[id].days:[]):days).map(d=>d?.date).filter(dateValid))].sort().reverse();
+  let selectedDate=days[0]?.date||allReportDates[0]||'';
+  const platformUiState=new Map();
   let selectedCountry = 'ALL';
   let selectedCaseVerdict = 'confirmedError';
   let selectedCaseIndex = 0;
@@ -64,21 +67,22 @@
     const item = node('div'); item.append(node('dt', '', label), node('dd', '', `${fmt(count)}건`)); return item;
   };
   function renderKpis(day) {
-    if (!day) { replace('kpi-grid', empty('조회할 집계가 없습니다', '데이터가 게시되면 검토 대상과 메시지 집계를 표시합니다.')); return; }
+    if (!day) { replace('kpi-grid', empty('상담 집계 미확인', '데이터가 게시되면 검토 대상과 메시지 집계를 표시합니다.')); return; }
     const items = [
       ['검토 대상 상담방', day.eligibleRooms, '개', '읽지 않음·대기 등 제외 기준 적용', ''],
       ['전체 메시지', day.messageCount, '건', '제공된 메시지 분류 전체 범위', 'teal'],
       ['확정 오류 상담', day.verdicts?.confirmedError, '개', '자료충돌·확인필요는 제외', 'red'],
-      ['후속 확인 상담', verificationCount(day.verdicts), '개', '의심·답변누락·자료충돌·확인필요', 'amber']
+      ['후속 확인 상담', day.verdicts&&['suspectedError','missingAnswer','sourceConflict','needsVerification'].every(k=>suppliedNumber(day.verdicts[k]))?verificationCount(day.verdicts):null, '개', '의심·답변누락·자료충돌·확인필요', 'amber']
     ];
     replace('kpi-grid', ...items.map(([label, value, unit, note, color]) => {
-      const card = node('article', `kpi ${color}`); const figure = node('div', 'kpi-value', fmt(value));
-      figure.append(node('small', '', unit)); card.append(node('h3', 'kpi-label', label), figure, node('p', 'kpi-note', note)); return card;
+      const card = node('article', `kpi ${color}`); const figure = node('div', 'kpi-value', suppliedNumber(value)?fmt(value):'미확인');
+      if(suppliedNumber(value))figure.append(node('small', '', unit)); card.append(node('h3', 'kpi-label', label), figure, node('p', 'kpi-note', note)); return card;
     }));
   }
   function renderVerdicts(day) {
     if (!day) { replace('verdict-chart', empty('판정 집계 대기', '데이터가 없는 상태를 0건 또는 적절로 해석하지 않습니다.')); return; }
-    const values = day.verdicts || {}; const total = sumVerdicts(values);
+    if(!day.verdicts||verdicts.some(([key])=>!suppliedNumber(day.verdicts[key]))){replace('verdict-chart',empty('판정 집계 미확인','확인되지 않은 판정을 0건으로 표시하지 않습니다.'));return;}
+    const values = day.verdicts; const total = sumVerdicts(values);
     const chart = node('div', 'stacked-bar'); chart.setAttribute('role', 'img');
     chart.setAttribute('aria-label', `상담별 대표판정 합계 ${fmt(total)}개. ${verdicts.map(([key, label]) => `${label} ${fmt(values[key])}개`).join(', ')}. 상담별 한 가지 대표판정.`);
     if (total) verdicts.forEach(([key, label]) => {
@@ -109,10 +113,11 @@
     items.forEach(([label, value, kind]) => {
       const item = node('div', `message-row ${kind}`); const track = node('div', 'mini-track'); track.setAttribute('aria-hidden', 'true');
       const fill = node('div', 'mini-fill'); fill.style.width = `${number(value) / max * 100}%`; track.append(fill);
-      item.append(node('dt', 'message-label', label), track, node('dd', 'message-count', `${fmt(value)}건`)); list.append(item);
+      item.append(node('dt', 'message-label', label), track, node('dd','message-count',statValue(value,'건'))); list.append(item);
     });
-    const matches = sum === total;
-    const summary = node('p', `message-total${matches ? '' : ' is-warning'}`, `표시 분류 합계 ${fmt(sum)}건 / 전체 메시지 ${fmt(total)}건${matches ? ' · 합계 일치' : ` · 합계 불일치, 차이 ${fmt(Math.abs(sum - total))}건. 누락·중복·분류 범위를 확인하세요.`}`);
+    const allMessageCountsKnown=suppliedNumber(day.messageCount)&&items.every(item=>suppliedNumber(item[1]));
+    const matches = allMessageCountsKnown&&sum === total;
+    const summary = node('p', `message-total${matches ? '' : ' is-warning'}`, !allMessageCountsKnown?'메시지 분류 합계 미확인 · 미확인 수치를 0건으로 합산하지 않습니다.':`표시 분류 합계 ${fmt(sum)}건 / 전체 메시지 ${fmt(total)}건${matches ? ' · 합계 일치' : ` · 합계 불일치, 차이 ${fmt(Math.abs(sum - total))}건. 누락·중복·분류 범위를 확인하세요.`}`);
     summary.setAttribute('role', 'status'); summary.setAttribute('aria-live', 'polite');
     replace('message-breakdown', list, summary);
   }
@@ -123,9 +128,9 @@
     const rows = Array.isArray(day.countries) ? day.countries.filter(item => item && item.code === selectedCountry) : [];
     if (!rows.length) return null;
     return rows.reduce((result, item) => {
-      result.rooms += number(item.rooms); result.messages += number(item.messages);
-      verdicts.forEach(([key]) => { result.verdicts[key] = number(result.verdicts[key]) + number(item.verdicts?.[key]); }); return result;
-    }, { name: countryDefinitions.find(([code]) => code === selectedCountry)[1], rooms: 0, messages: 0, verdicts: {} });
+      result.rooms=suppliedNumber(result.rooms)&&suppliedNumber(item.rooms)?result.rooms+item.rooms:null;result.messages=suppliedNumber(result.messages)&&suppliedNumber(item.messages)?result.messages+item.messages:null;
+      verdicts.forEach(([key])=>{result.verdicts[key]=suppliedNumber(result.verdicts[key])&&suppliedNumber(item.verdicts?.[key])?result.verdicts[key]+item.verdicts[key]:null;});return result;
+    }, { name: countryDefinitions.find(([code]) => code === selectedCountry)[1], rooms:0,messages:0,verdicts:Object.fromEntries(verdicts.map(([key])=>[key,0]))});
   }
   function renderCountry(day) {
     for (const [code] of countryDefinitions) {
@@ -136,13 +141,13 @@
     const country = getCountry(day);
     if (!country) { panel.replaceChildren(empty(day ? '이 국가 탭의 집계가 없습니다' : '국가별 집계 대기', '집계 없음은 상담방 0개 또는 검토 완료를 의미하지 않습니다.')); return; }
     const heading = node('div', 'country-topline'); const metrics = node('div', 'country-metrics');
-    [['상담방', country.rooms, '개'], ['메시지', country.messages, '건']].forEach(([label, count, unit]) => { const item = node('span', '', label); item.append(node('strong', '', `${fmt(count)}${unit}`)); metrics.append(item); });
+    [['상담방', country.rooms, '개'], ['메시지', country.messages, '건']].forEach(([label, count, unit]) => { const item = node('span', '', label); item.append(node('strong', '', statValue(count,unit))); metrics.append(item); });
     heading.append(node('h3', '', country.name), metrics);
     const bars = node('div', 'country-bars'); const max = Math.max(1, ...verdicts.map(([key]) => number(country.verdicts?.[key])));
     verdicts.forEach(([key, label]) => {
       const item = node('div', 'country-bar-row'); const track = node('div', 'mini-track'); track.setAttribute('aria-hidden', 'true');
       const fill = node('div', `mini-fill verdict-${key}`); fill.style.width = `${number(country.verdicts?.[key]) / max * 100}%`; track.append(fill);
-      item.append(node('span', '', label), track, node('strong', '', `${fmt(country.verdicts?.[key])}개`)); bars.append(item);
+      item.append(node('span', '', label), track, node('strong', '', statValue(country.verdicts?.[key],'개'))); bars.append(item);
     });
     panel.replaceChildren(heading, bars, node('p', 'helper bottom-note', '상담별 대표판정 비교 · 각 막대는 이 탭의 최댓값 기준 · 기타·미확인은 국적을 추정하지 않은 분류입니다.'));
   }
@@ -153,9 +158,10 @@
     headers.forEach(([label, numeric]) => { const th = node('th', numeric ? 'number' : '', label); th.scope = 'col'; tr.append(th); });
     head.append(tr); const body = node('tbody'); element.append(head, body); wrap.append(element); return { wrap, body };
   }
+  const caseScopeComplete=day=>day?.casesComplete===true&&(day.status==='completed'||(day.status==='partial'&&day.casesScope==='reviewed-rooms'&&Number.isInteger(day.eligibleRooms)&&day.reviewedRooms===day.eligibleRooms&&Array.isArray(day.reviewEntries)&&day.reviewEntries.length===day.reviewedRooms));
   function renderCases(day) {
     const cases = day && Array.isArray(day.cases) ? day.cases.filter(c => c && caseVerdicts.some(([key]) => key === c.verdict)) : [];
-    const complete = day?.status === 'completed' && day?.casesComplete === true;
+    const complete = caseScopeComplete(day);
     if (caseDateMemo !== selectedDate) {
       caseDateMemo = selectedDate; selectedCaseIndex = 0;
       selectedCaseVerdict = caseVerdicts.find(([key]) => cases.some(c => c.verdict === key))?.[0] || 'confirmedError';
@@ -163,12 +169,12 @@
     $('cases-date').textContent = selectedDate ? selectedDate + ' · KST' : '날짜별 상담 검토';
     caseVerdicts.forEach(([key, label]) => {
       const tab = $('case-tab-' + key); const count = cases.filter(c => c.verdict === key).length;
-      tab.textContent = label + ' ' + fmt(count); tab.setAttribute('aria-selected', String(key === selectedCaseVerdict)); tab.tabIndex = key === selectedCaseVerdict ? 0 : -1;
+      tab.textContent = label+' '+(complete?fmt(count):count?'확인 '+fmt(count):'미확인'); tab.setAttribute('aria-selected', String(key === selectedCaseVerdict)); tab.tabIndex = key === selectedCaseVerdict ? 0 : -1;
     });
     const filtered = cases.filter(c => c.verdict === selectedCaseVerdict);
     selectedCaseIndex = Math.max(0, Math.min(selectedCaseIndex, filtered.length - 1));
     $('case-panel').setAttribute('aria-labelledby', 'case-tab-' + selectedCaseVerdict);
-    $('case-count').textContent = day ? '세부 사례 ' + fmt(cases.length) + '건 · 한 상담에 여러 이슈가 있을 수 있습니다.' + (complete ? '' : ' 현재 확인된 내용만 표시합니다.') : '선택한 날짜의 점검 기록을 확인하세요.';
+    $('case-count').textContent = complete?(day.status==='partial'?'검수한 '+fmt(day.reviewedRooms)+'개 상담 범위 · ':'')+'세부 사례 '+fmt(cases.length)+'건 · 한 상담에 여러 이슈가 있을 수 있습니다.':cases.length?'확인된 세부 사례 '+fmt(cases.length)+'건 · 전체 집계 미완료':'세부 사례 집계 미확인';
     $('case-previous').disabled = !filtered.length || selectedCaseIndex === 0;
     $('case-next').disabled = !filtered.length || selectedCaseIndex >= filtered.length - 1;
     $('case-position').textContent = filtered.length ? (selectedCaseIndex + 1) + ' / ' + fmt(filtered.length) : '';
@@ -212,6 +218,7 @@
   function renderIssues(day) {
     if (!day) { replace('issues-content', empty('이슈 집계 대기')); return; }
     const issues = Array.isArray(day.issues) ? day.issues.filter(item => item && typeof item === 'object') : [];
+    if(!Array.isArray(day.issues)||(day.status!=='completed'&&!issues.length)){replace('issues-content',empty('이슈 분류 미확인','미확인 상태를 오류 없음으로 표시하지 않습니다.'));return;}
     if (!issues.length) { replace('issues-content', empty('등록된 이슈 분류가 없습니다', day.status === 'completed' ? '등록 목록 기준이며 모든 상담에 문제가 없다는 뜻은 아닙니다.' : '부분 집계 또는 상태 미확인 결과입니다. 이슈 없음으로 확정하지 않습니다.')); return; }
     const { wrap, body } = table([['분류', false], ['우선도', false], ['조치 상태', false], ['발견 건수', true]], '세부 이슈 집계 · 한 상담에 여러 건 가능. 상담별 대표판정과 합산하지 않습니다.');
     const allowedStatuses = new Set(['대기', '미확인', '확인중', '확인 중', '검토중', '검토 중', '조치중', '조치 중', '완료', '미조치', '조치 완료', '확인 필요', '자료 확인', '보류']);
@@ -230,16 +237,16 @@
       const tr = node('tr', day.date === selectedDate ? 'selected' : ''); const dateCell = node('td'); const button = node('button', 'date-link', day.date); button.type = 'button';
       button.setAttribute('aria-label', `${day.date} KST, ${statusLabel(day)} 조회`); if (day.date === selectedDate) button.setAttribute('aria-current', 'date');
       button.addEventListener('click', () => { selectedDate = day.date; render(); dateInput.focus(); }); dateCell.append(button);
-      const statusCell = node('td'); statusCell.append(badge(day)); tr.append(dateCell, statusCell, node('td', 'number', `${fmt(day.eligibleRooms)}개`), node('td', 'number', `${fmt(day.messageCount)}건`), node('td', 'number', `${fmt(day.verdicts?.confirmedError)}개`), node('td', 'number', `${fmt(verificationCount(day.verdicts))}개`)); body.append(tr);
+      const statusCell = node('td'); statusCell.append(badge(day)); tr.append(dateCell, statusCell, node('td', 'number', statValue(day.eligibleRooms,'개')), node('td', 'number', statValue(day.messageCount,'건')), node('td', 'number', statValue(day.verdicts?.confirmedError,'개')), node('td', 'number', day.verdicts&&['suspectedError','missingAnswer','sourceConflict','needsVerification'].every(k=>suppliedNumber(day.verdicts[k]))?statValue(verificationCount(day.verdicts),'개'):'미확인')); body.append(tr);
     }); replace('history-content', wrap);
   }
   function renderCoverage(day) {
     if (!day) { replace('coverage-content', empty('검토 범위 미제공', '대상 수, 제외 수, 첨부 검토 여부는 아직 확인할 수 없습니다.')); return; }
     const coverage = day.coverage || {}; const list = node('dl', 'coverage-list');
-    [['후보 상담방', 'candidateRooms'], ['검토한 상담방', 'reviewedRooms'], ['읽지 않음 제외', 'excludedUnread'], ['대기 상태 제외', 'excludedWaiting'], ['마감 이후 제외', 'excludedAfterCutoff'], ['미검토 첨부', 'uninspectedAttachments']].forEach(([label, key]) => { const item = row(label, coverage[key]); item.lastChild.textContent = `${fmt(coverage[key])}${key === 'uninspectedAttachments' ? '건' : '개'}`; list.append(item); });
+    [['후보 상담방', 'candidateRooms'], ['검토한 상담방', 'reviewedRooms'], ['읽지 않음 제외', 'excludedUnread'], ['대기 상태 제외', 'excludedWaiting'], ['마감 이후 제외', 'excludedAfterCutoff'], ['미검토 첨부', 'uninspectedAttachments']].forEach(([label, key]) => { const item = row(label, coverage[key]); item.lastChild.textContent = statValue(coverage[key],key === 'uninspectedAttachments' ? '건' : '개'); list.append(item); });
     const line = node('div', 'status-line'); line.append(badge(day), node('span', '', '수치가 아닌 게시된 상태 기준'));
     const children = [list, line];
-    if (!day.coverage) children.push(node('p', 'helper bottom-note', '범위 상세가 제공되지 않았습니다. 누락된 숫자는 0으로 표시하지만 범위 검증 완료를 의미하지 않습니다.'));
+    if (!day.coverage) children.push(node('p', 'helper bottom-note', '범위 상세가 제공되지 않았습니다. 누락된 숫자는 미확인으로 표시하며 범위 검증 완료를 의미하지 않습니다.'));
     const notes = Array.isArray(coverage.notes) ? coverage.notes.filter(note => typeof note === 'string' && note.trim()) : [];
     if (notes.length) { const ul = node('ul', 'coverage-note'); notes.forEach(note => ul.append(node('li', '', note))); children.push(ul); }
     replace('coverage-content', ...children);
@@ -247,11 +254,11 @@
 
   // Statistics use the same selected day. Missing values are not silently zeroed.
   const suppliedNumber = value => typeof value === 'number' && Number.isFinite(value) && value >= 0;
-  const statValue = (value, unit) => suppliedNumber(value) ? fmt(value) + unit : '집계중';
+  const statValue = (value, unit) => suppliedNumber(value) ? fmt(value) + unit : '미확인';
   const statsCaseInfo = day => {
     const rows = Array.isArray(day?.cases) ? day.cases : [];
     const valid = rows.filter(item => item && caseVerdicts.some(([key]) => key === item.verdict));
-    const complete = day?.status === 'completed' && day?.casesComplete === true && Array.isArray(day?.cases) && rows.length === valid.length;
+    const complete = caseScopeComplete(day) && Array.isArray(day?.cases) && rows.length === valid.length;
     const count = key => valid.filter(item => item.verdict === key).length;
     return { count, label: key => complete ? fmt(count(key)) + '건' : count(key) ? '집계중 · 확인 ' + fmt(count(key)) + '건' : '집계중', complete };
   };
@@ -265,7 +272,7 @@
   function renderStatsCountries(day) {
     ['rooms', 'messages'].forEach(key => { const tab = $('stats-country-' + key); const active = statsCountryMetric === key; tab.setAttribute('aria-selected', String(active)); tab.tabIndex = active ? 0 : -1; });
     $('stats-country-panel').setAttribute('aria-labelledby', 'stats-country-' + statsCountryMetric);
-    if (!Array.isArray(day?.countries) || !day.countries.length) { replace('stats-country-panel', empty('국가별 집계중')); return; }
+    if(!Array.isArray(day?.countries)||!day.countries.length){replace('stats-country-panel',empty(day?.status==='completed'&&day.eligibleRooms===0&&day.messageCount===0&&Array.isArray(day.countries)?'국가별 분포 대상 0개':'국가별 집계 미확인'));return;}
     const groups = new Map();
     day.countries.filter(item => item && typeof item === 'object').forEach(item => {
       const code = text(item.code, 'ZZ');
@@ -281,10 +288,12 @@
     const expected = day[statsCountryMetric === 'rooms' ? 'eligibleRooms' : 'messageCount'];
     const allKnown = rows.length > 0 && rows.every(item => item.known);
     const matches = allKnown && suppliedNumber(expected) && total === number(expected);
-    replace('stats-country-panel', list, node('p', 'helper bottom-note', '국가 합계 ' + (allKnown ? fmt(total) + unit : '집계중') + ' / 일일 전체 ' + statValue(expected, unit) + (matches ? ' · 합계 일치' : ' · 누락·집계 범위 확인 필요')));
+    replace('stats-country-panel', list, node('p', 'helper bottom-note', '국가 합계 ' + (allKnown ? fmt(total) + unit : '미확인') + ' / 일일 전체 ' + statValue(expected, unit) + (matches ? ' · 합계 일치' : ' · 누락·집계 범위 확인 필요')));
   }
   function renderKnowledge(day,target){
     const k=day?.knowledgeVerification;
+    if(k?.status==='source-reviewed'){const grid=node('div','knowledge-metrics');for(const[label,value,unit]of[['실제 검수 상담',k.rooms,'개'],['확인 메시지',k.messages,'건'],['자료충돌',k.sourceConflictOccurrences,'사례']]){const item=node('div');item.append(node('strong','',suppliedNumber(value)?fmt(value)+unit:'미확인'),node('span','',label));grid.append(item);}replace(target,grid,node('p','helper','동일 검수 규칙 · 실제 원문과 제공 가이드·수가 자료 직접 대조'),node('p','helper',text(k.scope)),node('p','helper','검토 시각 '+timestamp(k.checkedAt)));return;}
+    if(k?.status==='not-needed-no-activity'){replace(target,node('p','helper','해당일 활동 없음 확인 · 본문·수가 판정 대상 없음'),node('p','helper',text(k.scope)));return;}
     if(k?.status!=='verified'){replace(target,node('p','helper','지식기반 재검증 미등록'));return;}
     const grid=node('div','knowledge-metrics');
     for(const [label,value,unit] of [['가이드 문서',k.guideDocuments,'개'],['수가표 행',k.priceOffers,'행'],['재매칭 상담',k.rooms,'개']]){const item=node('div');item.append(node('strong','',suppliedNumber(value)?fmt(value)+unit:'미등록'),node('span','',label));grid.append(item);}
@@ -321,7 +330,7 @@
     const cases = statsCaseInfo(day);
     const items = [['검토 상담방', statValue(day?.eligibleRooms, '개'), '일일 검토 대상 상담방 · eligibleRooms', ''], ['병원답변', statValue(day?.staffMessages, '건'), '메시지 수 · 개별 담당자 미확인', 'teal'], ['확정 오답', cases.label('confirmedError'), '세부 사례 · 의심·자료충돌 제외', 'red'], ['답변누락', cases.label('missingAnswer'), '담당자 답변이 전혀 없는 사례만', 'red'], ['확인필요', cases.label('needsVerification'), '세부 사례 · 확정 오류 아님', 'amber'], ['자료충돌', cases.label('sourceConflict'), '세부 사례 · 확정 오류 아님', '']];
     replace('stats-kpis', ...items.map(([label, value, note, color]) => { const card = node('article', 'kpi ' + color); card.append(node('h3', 'kpi-label', label), node('div', 'kpi-value stats-value', value), node('p', 'kpi-note', note)); return card; }));
-    $('stats-case-note').textContent = '오안내의심 ' + cases.label('suspectedError') + ' · 한 상담방에 여러 사례가 있을 수 있습니다. ' + (cases.complete ? '사례 집계 완료.' : '사례 집계중 · 현재 확인된 사례만 표시하며 오류 0건으로 확정하지 않습니다.');
+    $('stats-case-note').textContent = '오안내의심 ' + cases.label('suspectedError') + ' · 한 상담방에 여러 사례가 있을 수 있습니다. ' + (cases.complete ? (day.status==='partial'?'검수한 '+fmt(day.reviewedRooms)+'개 상담 범위의 사례 집계 완료. 미검수 범위는 별도입니다.':'사례 집계 완료.') : '사례 집계중 · 현재 확인된 사례만 표시하며 오류 0건으로 확정하지 않습니다.');
     renderFollowUps(day, 'stats-followups'); renderKnowledge(day,'stats-knowledge');
     if (!days.length) replace('stats-trend', empty('게시된 일별 집계 없음'));
     else {
@@ -341,20 +350,25 @@
     const {wrap, body} = table([['담당자 그룹',false],['병원답변',true],['확정 오답 사례',true],['누락 사례',true],['확인필요 사례',true],['자료충돌 사례',true]], (selectedDate || '미선택') + ' KST · 병원답변과 세부 사례는 다른 단위');
     const tr = node('tr'); tr.append(node('td', '', '담당자 미확인'), node('td', 'number', statValue(day?.staffMessages, '건')), ...['confirmedError','missingAnswer','needsVerification','sourceConflict'].map(key => node('td', 'number', cases.label(key)))); body.append(tr); replace('stats-staff', wrap);
   }
-  const reportViewIds=['overview','suspect-cases','countries','issues','history','coverage'];
-  const platformDefinitions=[['gangnamunni','강남언니'],['kakao-clinic','카카오톡'],['babitalk','바비톡']];
-  const viewLabels={overview:'일일 현황','suspect-cases':'오상담의심',countries:'국가별 집계',issues:'이슈 분류',history:'일별 기록',coverage:'검토 범위',stats:'통계 대시보드','staff-memo':'AI에 피드백 메모','platform-gangnamunni':'강남언니','platform-kakao-clinic':'카카오톡','platform-babitalk':'바비톡'};
+  const reportViewIds=['overview','review-log','suspect-cases','countries','issues','history','coverage'];
+  const viewLabels={overview:'일일 현황','review-log':'검수내역','suspect-cases':'오상담의심',countries:'국가별 집계',issues:'이슈 분류',history:'일별 기록',coverage:'검토 범위',stats:'통계 대시보드','staff-memo':'AI에 피드백 메모'};
   const viewIds=Object.keys(viewLabels);let currentView='overview';
+  const platformName=()=>platformDefinitions.find(([id])=>id===selectedPlatform)?.[1]||'플랫폼';
   const mobileMenu=()=>!!window.matchMedia?.('(max-width: 900px)').matches;
   function setMenuOpen(open){$('sidebar-navigation').hidden=!open;$('nav-toggle').setAttribute('aria-expanded',String(open));$('nav-toggle').textContent=open?'콘텐츠 메뉴 접기':'콘텐츠 메뉴 열기';}
-  function updateViewContext(){const platform=currentView.startsWith('platform-');$('content-view-title').textContent=viewLabels[currentView];$('content-view-context').textContent=(selectedDate?selectedDate+' KST 보고서':'선택한 보고서 없음')+(platform?' · 플랫폼 접속 확인일과 상담 검토일은 별도입니다.':currentView==='staff-memo'?' · 담당자가 AI에 전달하는 교정·개선 피드백':' · 선택한 콘텐츠만 표시합니다.');$('data-notice').hidden=platform||currentView==='staff-memo';$('day-status').hidden=platform||currentView==='staff-memo';$('report-update-meta').hidden=platform||currentView==='staff-memo';}
-  function setView(hash,focus=false){const requested=typeof hash==='string'?hash.replace(/^#/,''):'';currentView=requested==='main'?currentView:viewIds.includes(requested)?requested:'overview';viewIds.forEach(id=>{const view=$(id);if(view)view.hidden=id!==currentView;const link=$('nav-'+id);if(link)link.setAttribute('aria-current',id===currentView?'page':'false');});$('report-view').hidden=!reportViewIds.includes(currentView);$('nav-home').setAttribute('aria-current','false');updateViewContext();if(focus){$('content-view-title').focus({preventScroll:true});window.scrollTo?.({top:0,behavior:'instant'});}}
-  function navigateView(id){const target=viewIds.includes(id)?id:'overview';if(window.location&&window.location.hash!=='#'+target){if(window.history?.pushState)window.history.pushState({contentView:target},'','#'+target);else window.location.hash='#'+target;}setView('#'+target,true);if(mobileMenu())setMenuOpen(false);}
-  function renderPlatforms(day){const supplied=Array.isArray(meta.platforms)?meta.platforms:[];platformDefinitions.forEach(([id,name])=>{const item=supplied.find(p=>p&&p.id===id);$('platform-'+id+'-title').textContent=name;const root=node('div','platform-content'),identity=node('article','card platform-status');identity.append(node('h3','','접속 확인'),node('p','platform-summary',text(item?.summary,'확인된 플랫폼 상태가 없습니다.')));const facts=node('dl','platform-facts');const yesNoUnknown=value=>value===true?'확인됨':value===false?'미확인':'미확인';facts.append(node('dt','','병원 계정'),node('dd','',yesNoUnknown(item?.accountVerified)),node('dt','','채팅 목록 진입'),node('dd','',yesNoUnknown(item?.inboxVerified)),node('dt','','접속 확인 시각'),node('dd','',item?.checkedAt?timestamp(item.checkedAt):'미확인'));identity.append(facts);if(text(item?.status)){const statusLabels={'report-available':'실제 상담 보고서 등록됨','not-reviewed':'대화 내용 점검 기록 미등록','inbox-verified-no-message-audit-yet':'채팅 목록 접속 확인 · 대화 내용 점검 전','existing-audit-source':'기존 상담 보고서 운영 중','blocked-chat-inbox-ui':'당시 채팅 목록 진입 미확인','blocked-authentication':'계정 인증 확인 필요'};identity.append(node('p','helper','상태: '+(statusLabels[item.status]||text(item.status))));}if(text(item?.limit))identity.append(node('p','helper platform-limit',item.limit));root.append(identity);const audit=node('article','card platform-audit');audit.append(node('h3','',(selectedDate||'미선택')+' 상담 보고서'));const confirmed=id==='gangnamunni'&&item?.auditDate===selectedDate&&!!day;if(confirmed){audit.append(node('p','platform-summary','선택한 날짜의 강남언니 검토 자료를 사용합니다. 다른 플랫폼의 건수와 합치지 않습니다.'));const metrics=node('p','platform-audit-metrics');metrics.textContent='검토 상담방 '+statValue(day.eligibleRooms,'개')+' · 메시지 '+statValue(day.messageCount,'건');audit.append(metrics);const actions=node('div','platform-actions');for(const [route,label]of [['overview','일일 현황 보기'],['suspect-cases','상담 사례 보기']]){const link=node('a','button button-secondary',label);link.href='#'+route;link.id='platform-'+id+'-'+route;link.addEventListener('click',event=>{event.preventDefault?.();navigateView(route);});actions.append(link);}audit.append(actions);}else audit.append(empty('선택일 상담 보고서 미등록','접속이 확인돼도 '+(selectedDate||'선택한 날짜')+'의 상담 내용 검토가 완료됐다는 뜻은 아닙니다. 확인하지 않은 건수를 0건이나 오류 없음으로 표시하지 않습니다.'));root.append(audit);replace('platform-'+id+'-content',root);});}
+  function updateViewContext(){$('content-view-title').textContent=platformName()+' · '+viewLabels[currentView];$('selected-platform-label').textContent=platformName()+' 보고서';$('content-view-context').textContent=(selectedDate?selectedDate+' KST':'조회일 미선택')+' · '+platformName()+' 독립 검수 자료'+(currentView==='staff-memo'?' · 담당자→AI 피드백':'');const feedback=currentView==='staff-memo';$('data-notice').hidden=feedback;$('day-status').hidden=feedback;$('report-update-meta').hidden=feedback;const connection=Array.isArray(meta.platforms)?meta.platforms.find(p=>p.id===selectedPlatform):null;$('platform-health-note').textContent=connection?.checkedAt?'자료 확인 '+timestamp(connection.checkedAt)+' · 접속 확인과 상담 검수는 별도입니다.':'';}
+  function rememberPlatform(){platformUiState.set(selectedPlatform,{selectedDate,selectedCountry,selectedCaseVerdict,selectedCaseIndex,caseDateMemo,statsCountryMetric});}
+  function activatePlatform(id){if(!platformIds.includes(id)||id===selectedPlatform)return false;rememberPlatform();selectedPlatform=id;days=platformDays(id);const saved=platformUiState.get(id);if(saved){selectedDate=saved.selectedDate;selectedCountry=saved.selectedCountry;selectedCaseVerdict=saved.selectedCaseVerdict;selectedCaseIndex=saved.selectedCaseIndex;caseDateMemo=saved.caseDateMemo;statsCountryMetric=saved.statsCountryMetric;}else{selectedDate=dateValid(selectedDate)?selectedDate:days[0]?.date||allReportDates[0]||'';selectedCountry='ALL';selectedCaseVerdict='confirmedError';selectedCaseIndex=0;caseDateMemo=null;statsCountryMetric='rooms';}return true;}
+  function decodeRoute(hash){const value=typeof hash==='string'?hash.replace(/^#/,''):'';if(value==='main')return{platform:selectedPlatform,view:currentView};if(value.startsWith('platform-')&&platformIds.includes(value.slice(9)))return{platform:value.slice(9),view:'overview'};const parts=value.split('/');if(platformIds.includes(parts[0]))return{platform:parts[0],view:viewIds.includes(parts[1])?parts[1]:'overview'};return{platform:selectedPlatform,view:viewIds.includes(value)?value:'overview'};}
+  function setView(hash,focus=false){const route=decodeRoute(hash),changed=activatePlatform(route.platform);currentView=route.view;viewIds.forEach(id=>{$(id).hidden=id!==currentView;$('nav-'+id).setAttribute('aria-current',id===currentView?'page':'false');$('nav-'+id).href='#'+selectedPlatform+'/'+id;});platformDefinitions.forEach(([id])=>{const link=$('nav-platform-'+id);link.setAttribute('aria-current',id===selectedPlatform?'page':'false');link.href='#'+id+'/'+currentView;});$('report-view').hidden=!reportViewIds.includes(currentView);$('nav-home').setAttribute('aria-current','false');if(changed)render();else updateViewContext();if(focus){$('content-view-title').focus({preventScroll:true});window.scrollTo?.({top:0,behavior:'instant'});}}
+  function navigateView(id,platform=selectedPlatform){const view=viewIds.includes(id)?id:'overview',target='#'+(platformIds.includes(platform)?platform:selectedPlatform)+'/'+view;if(window.location&&window.location.hash!==target){if(window.history?.pushState)window.history.pushState({platform,contentView:view},'',target);else window.location.hash=target;}setView(target,true);if(mobileMenu())setMenuOpen(false);}
+  function renderConversation(conversation){const box=node('article','card review-conversation');box.append(node('h3','','관련 메시지 원문 전체 · 한국어 번역'));for(const m of Array.isArray(conversation.messages)?conversation.messages:[]){const block=node('div','case-message');block.append(node('h4','',({customer:'고객',staff:'담당자',auto:'자동안내',system:'시스템'})[m.speaker]||'화자 미확인'),node('p','case-quote-heading','원문'),node('blockquote','case-original',typeof m.original==='string'?m.original:''),node('p','case-quote-heading','한국어 번역'),node('blockquote','case-translation',typeof m.ko==='string'?m.ko:'번역 미확인'));box.append(block);}if(text(conversation.rationale))box.append(node('p','case-rationale',conversation.rationale));replace('review-log-detail',box);box.tabIndex=-1;box.focus?.({preventScroll:true});box.scrollIntoView?.({block:'start',behavior:'auto'});}
+  function renderReviewLog(day){replace('review-log-detail');const entries=Array.isArray(day?.reviewEntries)?day.reviewEntries:[];if(!entries.length){const verifiedNone=day?.status==='completed'&&day.eligibleRooms===0&&Array.isArray(day.reviewEntries);replace('review-log-content',empty(verifiedNone?'검수 대상 없음':'검수내역 미확인 · 미완료',verifiedNone?'실제 완료된 검토 기록의 대상 수가 0개입니다.':'접속 확인이나 발견 사례 수를 전체 상담 검수내역으로 대신하지 않습니다.'));return;}const{wrap,body}=table([['국가',false],['시술',false],['질문 카테고리',false],['판정',false],['발견 건수',true],['본문·사례',false]],platformName()+' · '+selectedDate+' · 실제 검수 상담 '+entries.length+'건');for(const entry of entries){const tr=node('tr'),country=countryDefinitions.find(([key])=>key===entry.country)?.[1]||'기타·미확인',verdict=verdicts.find(([key])=>key===entry.verdict)?.[1]||text(entry.verdict,'미확인');tr.append(node('td','',country),node('td','',text(entry.procedure,'확인되지 않음')),node('td','',text(entry.questionCategory,'확인되지 않음')),node('td','',verdict),node('td','number',statValue(entry.findingCount,'건')));const actions=node('td');const related=Array.isArray(entry.relatedCaseIds)?entry.relatedCaseIds:[];let linked=0;for(const id of related){const c=day.cases?.find(c=>c.id===id);if(!c)continue;const button=node('button','date-link','사례 보기');button.id='review-case-'+entry.id+'-'+id;button.type='button';button.addEventListener('click',()=>{selectedCaseVerdict=c.verdict;selectedCaseIndex=day.cases.filter(c=>c.verdict===selectedCaseVerdict).findIndex(c=>c.id===id);caseDateMemo=selectedDate;renderCases(day);navigateView('suspect-cases');});actions.append(button);linked++;}const conversation=Array.isArray(day.conversations)?day.conversations.find(c=>c.id===entry.id):null;if(conversation){const button=node('button','date-link','관련 원문 보기');button.id='review-conversation-'+entry.id;button.type='button';button.addEventListener('click',()=>renderConversation(conversation));actions.append(button);}else if(!linked)actions.append(node('span','muted',entry.verdict==='appropriate'||entry.verdict==='적정'?'정상 검토 · 공개 사례 없음':'공개 사례 없음'));if(text(entry.note))actions.append(node('p','small muted',entry.note));tr.append(actions);body.append(tr);}replace('review-log-content',wrap,node('p','helper','검수내역은 실제 검토한 상담 기준이며, 발견 사례 수와 다른 단위입니다. 정상 상담의 전체 대화를 임의로 만들어 표시하지 않습니다.'));}
 
   function render() {
     const day = days.find(item => item.date === selectedDate);
-    dateInput.value = selectedDate;
+    dateInput.value = selectedDate;dateInput.disabled=false;dateInput.min=allReportDates.at(-1)||'';dateInput.max=allReportDates[0]||'';
+    $('updated-at').textContent=timestamp(platformReports[selectedPlatform]?.updatedAt||days[0]?.casesUpdatedAt||(selectedPlatform==='gangnamunni'?meta.updatedAt:null));
     const index = days.findIndex(item => item.date === selectedDate);
     $('previous-day').disabled = index < 0 || index >= days.length - 1;
     $('next-day').disabled = index <= 0;
@@ -363,13 +377,14 @@
     $('cutoff-at').textContent = day ? timestamp(day.cutoffAt) : '미제공 · KST';
     const notice = $('data-notice'); notice.className = `notice${day && day.status !== 'completed' ? ' warning' : ''}`;
     if (!hasPayload) notice.textContent = '집계 데이터가 없거나 로드되지 않았습니다. data.js 게시 상태를 확인해 주세요. 예시 데이터는 표시하지 않습니다. 모든 시각은 KST입니다.';
-    else if (!day) notice.textContent = selectedDate ? `${selectedDate} KST에 게시된 집계가 없습니다. 다른 날짜를 선택해 주세요.` : '아직 게시된 집계가 없습니다. 검토 결과가 게시되면 표시됩니다. 모든 시각은 KST입니다.';
+    else if (!day) notice.textContent = selectedDate ? platformName()+' · '+selectedDate+' KST 상담 검수 미확인. 이 플랫폼의 보고서가 아직 등록되지 않았습니다.' : '아직 게시된 집계가 없습니다. 검토 결과가 게시되면 표시됩니다. 모든 시각은 KST입니다.';
     else if (day.status === 'partial') notice.textContent = `${day.date} KST · 부분 집계입니다. 미검토·누락 범위가 있을 수 있으며 전체 검토 완료 또는 오류 없음으로 해석하지 않습니다.`;
     else if (day.status !== 'completed') notice.textContent = `${day.date} KST · 집계 상태를 확인할 수 없습니다. 완료로 간주하지 않습니다.`;
     else notice.textContent = `${day.date} KST · 점검 완료.`;
+    if(typeof day?.reviewScope==='string'&&day.reviewScope.trim())notice.textContent+=' 검수 범위: '+day.reviewScope;
     if (skippedDays) notice.textContent += ' 날짜가 유효하지 않거나 중복된 기록은 표시에서 제외했습니다.';
-    $('overview-title').textContent = selectedDate ? `${selectedDate} 검토 요약` : '일일 검토 요약';
-    renderKpis(day); renderVerdicts(day); renderMessages(day); renderCases(day); renderCountry(day); renderIssues(day); renderHistory(); renderCoverage(day); renderFollowUps(day, 'report-followups'); renderKnowledge(day,'report-knowledge'); renderStats(day); renderPlatforms(day); updateViewContext();
+    $('overview-title').textContent = platformName()+' · '+(selectedDate||'미선택')+' 검토 요약';
+    renderKpis(day); renderVerdicts(day); renderMessages(day); renderCases(day); renderCountry(day); renderIssues(day); renderHistory(); renderCoverage(day); renderFollowUps(day, 'report-followups'); renderKnowledge(day,'report-knowledge'); renderStats(day); renderReviewLog(day); updateViewContext();
   }
   $('staff-memo-title').textContent='AI에 피드백 메모';
   $('staff-memo-link').textContent='피드백 원장 열기';
@@ -396,8 +411,6 @@
       $('sheet-link').hidden = false; $('sheet-unavailable').hidden = true;
     }
   } catch { /* Missing or unsafe links stay unavailable. */ }
-  dateInput.disabled = !days.length;
-  if (days.length) { dateInput.min = days[days.length - 1].date; dateInput.max = days[0].date; }
   dateInput.addEventListener('change', () => { selectedDate = dateValid(dateInput.value) ? dateInput.value : ''; render(); });
   $('previous-day').addEventListener('click', () => { const index = days.findIndex(day => day.date === selectedDate); if (index >= 0 && days[index + 1]) { selectedDate = days[index + 1].date; render(); } });
   $('next-day').addEventListener('click', () => { const index = days.findIndex(day => day.date === selectedDate); if (index > 0) { selectedDate = days[index - 1].date; render(); } });
@@ -434,6 +447,7 @@
     });
   });
   viewIds.forEach((id,index)=>{const link=$('nav-'+id);link.addEventListener('click',event=>{event.preventDefault?.();navigateView(id);});link.addEventListener('keydown',event=>{let next;if(event.key==='ArrowDown'||event.key==='ArrowRight')next=(index+1)%viewIds.length;else if(event.key==='ArrowUp'||event.key==='ArrowLeft')next=(index+viewIds.length-1)%viewIds.length;else if(event.key==='Home')next=0;else if(event.key==='End')next=viewIds.length-1;else if(event.key==='Enter'||event.key===' '){event.preventDefault?.();navigateView(id);return;}if(next!==undefined){event.preventDefault?.();$('nav-'+viewIds[next]).focus();}});});
+  platformDefinitions.forEach(([id],index)=>{const link=$('nav-platform-'+id);link.addEventListener('click',event=>{event.preventDefault?.();navigateView(currentView,id);});link.addEventListener('keydown',event=>{let next;if(event.key==='ArrowDown'||event.key==='ArrowRight')next=(index+1)%platformDefinitions.length;else if(event.key==='ArrowUp'||event.key==='ArrowLeft')next=(index+platformDefinitions.length-1)%platformDefinitions.length;else if(event.key==='Home')next=0;else if(event.key==='End')next=platformDefinitions.length-1;else if(event.key==='Enter'||event.key===' '){event.preventDefault?.();navigateView(currentView,id);return;}if(next!==undefined){event.preventDefault?.();$('nav-platform-'+platformDefinitions[next][0]).focus();}});});
   $('nav-home').addEventListener('click',event=>{event.preventDefault?.();navigateView('overview');});
   $('nav-toggle').addEventListener('click',()=>setMenuOpen($('sidebar-navigation').hidden));
   window.addEventListener?.('hashchange',()=>setView(window.location?.hash||'',true));
