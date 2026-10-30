@@ -1,7 +1,7 @@
 window.SUPERVISION_DATA = {
   "meta": {
     "title": "뷰티블라썸 상담 품질 감독",
-    "updatedAt": "2026-10-30T05:27:31.358Z",
+    "updatedAt": "2026-10-30T09:20:41.757Z",
     "timeZone": "Asia/Seoul",
     "sheetUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit",
     "schedule": {
@@ -36,35 +36,35 @@ window.SUPERVISION_DATA = {
       {
         "id": "gangnamunni",
         "name": "강남언니",
-        "status": "report-available",
-        "checkedAt": "2026-10-30T03:57:16.902Z",
+        "status": "report-partial",
+        "checkedAt": "2026-10-30T09:20:08.793Z",
         "accountVerified": true,
         "inboxVerified": true,
-        "auditDate": "2026-10-29",
-        "summary": "2026-10-29 상담 23개·메시지 121건의 검토 기록",
-        "limit": "검수 범위: 해당 날짜에 실제 수집·확인한 자료만 포함합니다. 실제 확인한 점검 범위에 한정하며, 상시 즉시 감시·푸시 수신은 검증되지 않았습니다."
+        "auditDate": "2026-10-30",
+        "summary": "2026-10-30 상담 26개·메시지 159건의 부분 검토 기록",
+        "limit": "검수 범위: 수집27방 중 원문만 저장된1방은 집계 제외. 실제26방의 당일 표시 텍스트를 읽었으나 14방만 제한된 텍스트 범위 판정. 12방은 이미지 가격·제품조건·임상 근거 또는 지정비 적용범위 검증 미완료로 미검수. 이미지 단독11개와 텍스트결합5개 메시지의 첨부 내용은 읽지 않음. 따라서 전체 일일감사·26방 전체 의미검수·무오류 완료가 아님. 실제 확인한 점검 범위에 한정하며, 상시 즉시 감시·푸시 수신은 검증되지 않았습니다."
       },
       {
         "id": "kakao-clinic",
         "name": "카카오톡(병원계정)",
         "status": "report-partial",
-        "checkedAt": "2026-10-30T05:27:31.358Z",
+        "checkedAt": "2026-10-30T09:16:20.562Z",
         "accountVerified": true,
         "inboxVerified": true,
-        "auditDate": "2026-10-29",
-        "summary": "2026-10-29 상담 27개·메시지 93건의 부분 검토 기록",
-        "limit": "검수 범위: 마지막 대화일이 2026-10-29인 완료 상담 33개 중 병원 최종답변·미읽음 표시 없음이 확인된 27개·당일 메시지 93건을 검수했습니다. 고객 최종발화 또는 발신자 불명확 6개 방은 열지 않았습니다. 다음날에도 이어진 방의 29일 이력은 이 날짜 필터에 포함되지 않아 일일 전체는 부분 집계입니다. 국적은 추정하지 않았고 링크·내장 이미지 내용 및 실제 예약 시스템 처리 결과는 별도입니다. 실제 확인한 점검 범위에 한정하며, 상시 즉시 감시·푸시 수신은 검증되지 않았습니다."
+        "auditDate": "2026-10-30",
+        "summary": "2026-10-30 상담 4개·메시지 18건의 부분 검토 기록",
+        "limit": "검수 범위: 오늘 완료 목록의 안전 확인 상담 4개·당일 관찰 메시지 18건만 검수한 부분집계입니다. 목록은 관찰 중 37→36개로 변동했고 전체 36개를 검수한 결과가 아닙니다. 목록의 완료 표시가 뒤의 봇 메뉴 이력을 드러내지 않는 사례가 있어 안전 불명 수집본을 폐기하고 추가 열람을 중단했습니다. 새 미확인·대기·고객 최종 미답변·마감 이후 방과 나머지 미검수 상담은 제외했습니다. 오늘 이후에도 이어지는 이력과 첨부 내용·실제 첨부 개수, 국적은 미확인입니다. 실제 확인한 점검 범위에 한정하며, 상시 즉시 감시·푸시 수신은 검증되지 않았습니다."
       },
       {
         "id": "babitalk",
         "name": "바비톡",
         "status": "completed-noactivity",
-        "checkedAt": "2026-10-30T04:55:54.899Z",
+        "checkedAt": "2026-10-30T09:20:41.757Z",
         "accountVerified": true,
         "inboxVerified": true,
-        "auditDate": "2026-10-29",
-        "summary": "2026-10-29 상담 0개·메시지 0건의 당일 활동 없음 확인 기록",
-        "limit": "검수 범위: 2026-10-29 KST의 바비톡 해외 환자채팅 활동 유무를 native 전체/언어 목록과 목록 끝까지 확인한 일별 무활동 검증. 대상0이므로 임상·수가 내용 판정/번역 대상0. 실제 확인한 점검 범위에 한정하며, 상시 즉시 감시·푸시 수신은 검증되지 않았습니다."
+        "auditDate": "2026-10-30",
+        "summary": "2026-10-30 상담 0개·메시지 0건의 당일 활동 없음 확인 기록",
+        "limit": "검수 범위: 병원 해외 환자채팅함의 전체 및 영어·일본어·중국어 번체·간체 목록 끝까지 확인했습니다. 전체 8개 과거 상담의 최신 표시는 10월8일 이전이며 오늘 18시 마감까지의 당일 활동은 0건입니다. 과거 8개 본문을 열어 검수하거나 적정·무오류로 판정한 결과가 아닙니다. 국내 실시간 상담 범위는 미확인이고 광고주 고객센터는 제외했습니다. 실제 확인한 점검 범위에 한정하며, 상시 즉시 감시·푸시 수신은 검증되지 않았습니다."
       }
     ]
   },
@@ -566,6 +566,483 @@ window.SUPERVISION_DATA = {
       "name": "강남언니",
       "updatedAt": "2026-10-30T03:57:16.902Z",
       "days": [
+        {
+          "platform": "gangnamunni",
+          "date": "2026-10-30",
+          "status": "partial",
+          "auditState": "local-text-read-subset-approved-incomplete",
+          "cutoffAt": "2026-10-30T18:00:29+09:00",
+          "checkedAt": "2026-10-30T09:20:08.793Z",
+          "eligibleRooms": 26,
+          "reviewedRooms": 14,
+          "messageCount": 159,
+          "customerMessages": 36,
+          "staffMessages": 75,
+          "autoMessages": 22,
+          "systemMessages": 26,
+          "deletedMessages": 0,
+          "verdicts": {
+            "appropriate": 14,
+            "confirmedError": 0,
+            "suspectedError": 0,
+            "missingAnswer": 0,
+            "sourceConflict": 0,
+            "needsVerification": 0,
+            "unreviewed": 12
+          },
+          "countries": [
+            {
+              "code": "GB",
+              "name": "영국",
+              "rooms": 1,
+              "messages": 3,
+              "verdicts": {
+                "appropriate": 1,
+                "confirmedError": 0,
+                "suspectedError": 0,
+                "missingAnswer": 0,
+                "sourceConflict": 0,
+                "needsVerification": 0,
+                "unreviewed": 0
+              }
+            },
+            {
+              "code": "TH",
+              "name": "태국",
+              "rooms": 5,
+              "messages": 34,
+              "verdicts": {
+                "appropriate": 3,
+                "confirmedError": 0,
+                "suspectedError": 0,
+                "missingAnswer": 0,
+                "sourceConflict": 0,
+                "needsVerification": 0,
+                "unreviewed": 2
+              }
+            },
+            {
+              "code": "SG",
+              "name": "싱가포르",
+              "rooms": 2,
+              "messages": 28,
+              "verdicts": {
+                "appropriate": 1,
+                "confirmedError": 0,
+                "suspectedError": 0,
+                "missingAnswer": 0,
+                "sourceConflict": 0,
+                "needsVerification": 0,
+                "unreviewed": 1
+              }
+            },
+            {
+              "code": "US",
+              "name": "미국",
+              "rooms": 4,
+              "messages": 29,
+              "verdicts": {
+                "appropriate": 1,
+                "confirmedError": 0,
+                "suspectedError": 0,
+                "missingAnswer": 0,
+                "sourceConflict": 0,
+                "needsVerification": 0,
+                "unreviewed": 3
+              }
+            },
+            {
+              "code": "TW",
+              "name": "대만",
+              "rooms": 6,
+              "messages": 39,
+              "verdicts": {
+                "appropriate": 2,
+                "confirmedError": 0,
+                "suspectedError": 0,
+                "missingAnswer": 0,
+                "sourceConflict": 0,
+                "needsVerification": 0,
+                "unreviewed": 4
+              }
+            },
+            {
+              "code": "RU",
+              "name": "러시아",
+              "rooms": 1,
+              "messages": 4,
+              "verdicts": {
+                "appropriate": 0,
+                "confirmedError": 0,
+                "suspectedError": 0,
+                "missingAnswer": 0,
+                "sourceConflict": 0,
+                "needsVerification": 0,
+                "unreviewed": 1
+              }
+            },
+            {
+              "code": "DE",
+              "name": "독일",
+              "rooms": 1,
+              "messages": 4,
+              "verdicts": {
+                "appropriate": 1,
+                "confirmedError": 0,
+                "suspectedError": 0,
+                "missingAnswer": 0,
+                "sourceConflict": 0,
+                "needsVerification": 0,
+                "unreviewed": 0
+              }
+            },
+            {
+              "code": "CA",
+              "name": "캐나다",
+              "rooms": 1,
+              "messages": 4,
+              "verdicts": {
+                "appropriate": 0,
+                "confirmedError": 0,
+                "suspectedError": 0,
+                "missingAnswer": 0,
+                "sourceConflict": 0,
+                "needsVerification": 0,
+                "unreviewed": 1
+              }
+            },
+            {
+              "code": "FI",
+              "name": "핀란드",
+              "rooms": 1,
+              "messages": 3,
+              "verdicts": {
+                "appropriate": 1,
+                "confirmedError": 0,
+                "suspectedError": 0,
+                "missingAnswer": 0,
+                "sourceConflict": 0,
+                "needsVerification": 0,
+                "unreviewed": 0
+              }
+            },
+            {
+              "code": "JP",
+              "name": "일본",
+              "rooms": 4,
+              "messages": 11,
+              "verdicts": {
+                "appropriate": 4,
+                "confirmedError": 0,
+                "suspectedError": 0,
+                "missingAnswer": 0,
+                "sourceConflict": 0,
+                "needsVerification": 0,
+                "unreviewed": 0
+              }
+            }
+          ],
+          "issues": [],
+          "casesComplete": false,
+          "casesScope": "reviewed-rooms",
+          "casesUpdatedAt": "2026-10-30T09:20:08.793Z",
+          "cases": [],
+          "conversations": [],
+          "reviewEntries": [
+            {
+              "id": "G-20261030-001",
+              "country": "GB",
+              "procedure": "여성 겨드랑이 관리(유입정보)",
+              "questionCategory": "상담 시작",
+              "verdict": "appropriate",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "고객 직접 질문 없이 상품 유입 카드와 상담 요청 안내. 당일 텍스트상 미응답 지적 없음."
+            },
+            {
+              "id": "G-20261030-002",
+              "country": "TH",
+              "procedure": "Eve-V Muse 피부진단",
+              "questionCategory": "통역·장비 유무",
+              "verdict": "appropriate",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "태국어 통역 및 AI 피부진단 유무 질문에 둘 다 있다고 답변. 실제 문의에 응대가 있으며 의료 효과·금액 주장 없음."
+            },
+            {
+              "id": "G-20261030-003",
+              "country": "SG",
+              "procedure": "SKINVIVE·리쥬란 HB·피부진단",
+              "questionCategory": "용량·피부질환 이력·진단비",
+              "verdict": "unreviewed",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "습진 이력을 전달하자 의사 사전평가를 권고했고 예약 문의에 응대. 진단비 55000/27500/11000은 제공 영어 문구와 숫자 일치. SKINVIVE 1cc syringe 및 습진 안정기 적용의 제품별 근거가 등록 원문에서 확인되지 않아 제품·임상 사실 검증 보류. 오류로 판정하지 않음."
+            },
+            {
+              "id": "G-20261030-004",
+              "country": "US",
+              "procedure": "피코슈어(유입정보)",
+              "questionCategory": "프로모션·가격",
+              "verdict": "unreviewed",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "상품 유입 후 병원 이미지와 질문 안내 응대. 이미지 가격·상품조건 미판독으로 전체 판정 보류, 응답누락 아님."
+            },
+            {
+              "id": "G-20261030-005",
+              "country": "TW",
+              "procedure": "여성 겨드랑이 관리(유입정보)",
+              "questionCategory": "개선부위 확인",
+              "verdict": "appropriate",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "직접 고객질문은 없으며 겨드랑이 개선 희망부위를 물어 추가 상담 유도. 이벤트 제목의 동반 할인조건을 임의 적용하지 않음."
+            },
+            {
+              "id": "G-20261030-006",
+              "country": "US",
+              "procedure": "주름·스킨보톡스 및 피부상담",
+              "questionCategory": "추가비용·가격·홍조",
+              "verdict": "unreviewed",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "VAT 포함 및 상담만 1만원 안내는 제공 채널표·예약문구와 부합. 피부 요철/홍조는 원인평가 우선 권고. 2개 이미지 메시지의 가격·브랜드·부위 미판독으로 전체 판정 보류."
+            },
+            {
+              "id": "G-20261030-007",
+              "country": "TH",
+              "procedure": "Elravie Re2O(유입정보)",
+              "questionCategory": "예약확정·지정비",
+              "verdict": "unreviewed",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "고객이 요청한 일정과 병원 확정·시스템 일정 표시가 일치합니다. 이미지 미판독 및 대표원장 지정 20% 문구의 원내월이벤트 적용/최소5만원 조건이 해당 상담에 적용되는지 확인되지 않아 보류했습니다. 누락·직원오류로 집계하지 않습니다."
+            },
+            {
+              "id": "G-20261030-008",
+              "country": "RU",
+              "procedure": "사각턱 보톡스",
+              "questionCategory": "브랜드별 가격·용량",
+              "verdict": "unreviewed",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "국산43500/코어73700/제오민143000/앨러간197000 숫자는 정리표 동일 상품행과 일치. 다만 제시50U와 각 원본행 단위·채널·현행조건 모두 대응 확인되지 않아 조건완전 일치 판정 보류. 가격오류 생성 안 함."
+            },
+            {
+              "id": "G-20261030-009",
+              "country": "TW",
+              "procedure": "황금미세침·쥬베룩·승모근보톡스·팔 INMODE",
+              "questionCategory": "시술조합·예약가능시간",
+              "verdict": "unreviewed",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "친구 추천이 본인에게 맞지 않을 수 있어 현장평가 권고. 조합/신체부위 설명과 토요일 예약안내에 응답. 이미지3개 메시지의 상품·가격 미판독, 정확 제품/모드·용량 대응 미완료로 보류."
+            },
+            {
+              "id": "G-20261030-010",
+              "country": "TW",
+              "procedure": "포텐자(유입정보)",
+              "questionCategory": "예약경로 재확인",
+              "verdict": "appropriate",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "과거 일정제안을 보고 당일 LINE에서 이미 예약했는지 확인하는 병원 답변. 실제 LINE 예약완료는 확인 안 됨. 이 메시지로 전일 이슈 해결이나 신규 누락을 만들지 않음."
+            },
+            {
+              "id": "G-20261030-011",
+              "country": "TH",
+              "procedure": "코어톡스(유입정보)",
+              "questionCategory": "예약의향 안내",
+              "verdict": "appropriate",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "과거 가격문의에 이미지 응대가 이미 존재. 당일은 예약 희망시 알려달라는 후속 안내만 검토, 과거 이미지 금액을 검증했다고 하지 않음."
+            },
+            {
+              "id": "G-20261030-012",
+              "country": "DE",
+              "procedure": "포텐자(유입정보)",
+              "questionCategory": "예약취소",
+              "verdict": "appropriate",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "고객 취소요청 후 병원 확인답변과 시스템 취소기록이 모두 실제 존재. 고객 요청에 응대했고 일정 변경을 대신 수행하지 않음."
+            },
+            {
+              "id": "G-20261030-013",
+              "country": "TH",
+              "procedure": "보톡스·팔자필러·턱밑 지방·윤곽",
+              "questionCategory": "복합시술 가격·예약·도착",
+              "verdict": "unreviewed",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "가격 문의 후 이미지 응대가 존재하며 예약 일정 및 조기 도착 문의에 답변했습니다. 이미지2개 메시지의 가격/제품과 대표원장 지정비 적용조건은 미확인입니다. 항공편과 시술시간을 추정하여 오류를 만들지 않았습니다."
+            },
+            {
+              "id": "G-20261030-014",
+              "country": "SG",
+              "procedure": "보톡스(정확 제품 미정)",
+              "questionCategory": "당일예약",
+              "verdict": "appropriate",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "고객이 요청한 일정과 병원 재확인·시스템 확정 표시가 일치합니다. 인적사항 양식·구체 예약 일정은 공개하지 않습니다. 특정 브랜드·용량·금액 판단은 없으며 국적은 실제 계정 국적 라벨을 사용했습니다."
+            },
+            {
+              "id": "G-20261030-015",
+              "country": "CA",
+              "procedure": "필러(유입정보)",
+              "questionCategory": "프로모션·가격",
+              "verdict": "unreviewed",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "이미지1개와 추가질문 안내로 응대. 이미지 내용·브랜드·용량을 읽지 않았으므로 전체 가격 판정 보류."
+            },
+            {
+              "id": "G-20261030-016",
+              "country": "FI",
+              "procedure": "주름보톡스(유입정보)",
+              "questionCategory": "시술종류·예약의향",
+              "verdict": "appropriate",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "원하는 보톡스 종류를 묻고 공개 병원 웹페이지를 제공. 금액 안내가 없어 제품단위 가격판정 없음. 단축링크 목적지 오류를 추정하지 않음."
+            },
+            {
+              "id": "G-20261030-017",
+              "country": "TW",
+              "procedure": "사각턱 보톡스",
+              "questionCategory": "가격참고·추가질문",
+              "verdict": "unreviewed",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "가격 이미지와 상담유도 후 고객의 검토하겠다는 답변에 재응대. 이미지의 실제 금액 미판독으로 가격판정 보류, 답변누락 아님."
+            },
+            {
+              "id": "G-20261030-018",
+              "country": "TH",
+              "procedure": "확인되지 않음",
+              "questionCategory": "예약전일 확인",
+              "verdict": "appropriate",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "과거 예약확인과 당일 재안내 일정이 일치합니다. 시술종류는 확인되지 않았습니다. 이 방의 이전 전체 가격·진료를 승인하는 것이 아닙니다."
+            },
+            {
+              "id": "G-20261030-019",
+              "country": "US",
+              "procedure": "피코슈어·미세침",
+              "questionCategory": "기미·주근깨 치료추천",
+              "verdict": "unreviewed",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "색소 종류·깊이에 따라 의사 평가 후 모드 선택 권고는 제공 가이드와 부합. 고객사진1개 및 병원프로모션2개 메시지의 실내용 미판독, 영상/피부사진을 임상 검토한 것으로 세지 않아 전체판정 보류."
+            },
+            {
+              "id": "G-20261030-020",
+              "country": "US",
+              "procedure": "사각턱 보톡스(유입정보)",
+              "questionCategory": "예약확정",
+              "verdict": "appropriate",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "고객 제안 일정과 시스템 확정·병원 안내가 일치합니다. 표시된 위치·지참 안내는 제공 예약 템플릿과 부합합니다. 특정 제품·금액 안내는 없고 구체 예약 일정은 공개하지 않습니다."
+            },
+            {
+              "id": "G-20261030-021",
+              "country": "JP",
+              "procedure": "주름보톡스(유입정보)",
+              "questionCategory": "예약당일 안내",
+              "verdict": "appropriate",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "당일 안내 일정이 기존 확정·시스템 표시와 일치합니다. 상담만 1만원 문구는 제공 일본어 예약 템플릿과 부합합니다. 자동일정 시스템과 병원 메시지를 구분했습니다."
+            },
+            {
+              "id": "G-20261030-022",
+              "country": "JP",
+              "procedure": "사각턱보톡스(유입정보)",
+              "questionCategory": "예약당일 안내",
+              "verdict": "appropriate",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "당일 안내 일정이 기존 확정·시스템 표시와 일치합니다. 과거 대화를 오늘 신규사례로 삼지 않았습니다."
+            },
+            {
+              "id": "G-20261030-023",
+              "country": "JP",
+              "procedure": "사각턱보톡스(유입정보)",
+              "questionCategory": "예약당일 안내",
+              "verdict": "appropriate",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "당일 안내 일정이 기존 확정·시스템 표시와 일치합니다. 과거 포인트 규정을 오늘 재검증했다는 주장은 하지 않습니다."
+            },
+            {
+              "id": "G-20261030-024",
+              "country": "TW",
+              "procedure": "주름보톡스(유입정보)",
+              "questionCategory": "잘못 클릭·가격참고",
+              "verdict": "unreviewed",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "고객은 잘못 눌렀다고 했고 영업외 안내 후 이미지·상담유도 메시지가 존재. 가격 이미지 미판독으로 가격 승인 안 함. 할인 가정 오류 없음."
+            },
+            {
+              "id": "G-20261030-025",
+              "country": "JP",
+              "procedure": "사각턱보톡스(유입정보)",
+              "questionCategory": "시술상담·채널가격 안내",
+              "verdict": "appropriate",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "시술 상담 희망에 강남언니 표시가격대로 제공하고 추가문의하라는 병원응대. 구체 부위·용량/금액 비교는 없으며 즉시 치료확정/고정효과 약속도 없음."
+            },
+            {
+              "id": "G-20261030-026",
+              "country": "TW",
+              "procedure": "ONDA",
+              "questionCategory": "시술대상·가격참고",
+              "verdict": "unreviewed",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "팔·복부·옆구리·허벅지의 국소지방/라인/탄력이라는 텍스트는 제공 온다 설명범위와 부합. 가격 이미지 미판독이므로 전체가격 승인 안 함."
+            }
+          ],
+          "reviewScope": "수집27방 중 원문만 저장된1방은 집계 제외. 실제26방의 당일 표시 텍스트를 읽었으나 14방만 제한된 텍스트 범위 판정. 12방은 이미지 가격·제품조건·임상 근거 또는 지정비 적용범위 검증 미완료로 미검수. 이미지 단독11개와 텍스트결합5개 메시지의 첨부 내용은 읽지 않음. 따라서 전체 일일감사·26방 전체 의미검수·무오류 완료가 아님.",
+          "coverage": {
+            "candidateRooms": 32,
+            "reviewedRooms": 14,
+            "excludedUnread": null,
+            "excludedWaiting": 2,
+            "excludedCustomerFinalOrUnknown": 5,
+            "excludedAfterCutoff": 0,
+            "excludedOutsideDate": 0,
+            "excludedBeforeDate": 0,
+            "uninspectedAttachments": null,
+            "notes": [
+              "국가미선택 완료목록에서 오늘과 어제 날짜 경계까지 확인. 보호방 미열람.",
+              "당일159 메시지 컨테이너는 고객일정제안2개 포함, 시스템이벤트·자동추정문구 포함.",
+              "원문27방 중 미구조화1방 제외, 26방159개만 수치 집계.",
+              "첨부 개수는 미확인. 이미지 단독11개·결합5개는 메시지 컨테이너 수이며 파일 수나 내용 검수 수가 아님.",
+              "읽은 텍스트가 있어도 제품조건·첨부·원문근거가 미완료인12방은 적정이나 직원오류로 분류하지 않음.",
+              "직원/자동발송의 실제 개별 담당자 신원은 확인 안 됨.22개 자동문구는 템플릿 추정일 뿐 발송주체 자동화 증명 아님.",
+              "실제국적라벨 사용. 고객 자기소개·사용언어로 국적을 변경하지 않음.",
+              "전일 이슈의 해결·미해결은 새 조치 근거가 없어 변경하지 않았습니다. 신규 검수는 기존 제한 원장 동기화와 별개입니다.",
+              "지식규칙 신규 일자 적용은 해석 승인 패킷·첨부 검증 미완료로 보류했습니다. 수집 및 제한된 텍스트 검토가 전체 지식규칙 적용 성공을 뜻하지 않습니다."
+            ]
+          },
+          "followUps": [],
+          "definitionRevision": "2026-10-30-local-text-subset-v1",
+          "knowledgeVerification": {
+            "status": "partial-review-pending",
+            "rooms": 14,
+            "messages": 159,
+            "checkedAt": "2026-10-30T09:20:08.793Z",
+            "scope": "26상담의 표시 텍스트를 읽었으나14상담만 제한된 텍스트 범위 승인.12상담은 제품·임상·이미지 검증 보류. 신규 KG 입력은 pending이며 규칙 적용·Google 원장 동기화는 미완료."
+          }
+        },
         {
           "date": "2026-10-29",
           "cutoffAt": "2026-10-29T09:00:35.027Z",
@@ -1312,6 +1789,251 @@ window.SUPERVISION_DATA = {
       "days": [
         {
           "platform": "kakao-clinic",
+          "date": "2026-10-30",
+          "status": "partial",
+          "auditState": "partial-reviewed-safe-subset-safety-stop",
+          "cutoffAt": "2026-10-30T18:00:29+09:00",
+          "checkedAt": "2026-10-30T09:16:20.562Z",
+          "eligibleRooms": 4,
+          "reviewedRooms": 4,
+          "messageCount": 18,
+          "customerMessages": 7,
+          "staffMessages": 6,
+          "autoMessages": 2,
+          "systemMessages": 3,
+          "deletedMessages": 0,
+          "verdicts": {
+            "appropriate": 4,
+            "confirmedError": 0,
+            "suspectedError": 0,
+            "missingAnswer": 0,
+            "sourceConflict": 0,
+            "needsVerification": 0
+          },
+          "countries": [
+            {
+              "code": "KR",
+              "name": "한국",
+              "rooms": 0,
+              "messages": 0,
+              "verdicts": {
+                "appropriate": 0,
+                "confirmedError": 0,
+                "suspectedError": 0,
+                "missingAnswer": 0,
+                "sourceConflict": 0,
+                "needsVerification": 0
+              }
+            },
+            {
+              "code": "JP",
+              "name": "일본",
+              "rooms": 0,
+              "messages": 0,
+              "verdicts": {
+                "appropriate": 0,
+                "confirmedError": 0,
+                "suspectedError": 0,
+                "missingAnswer": 0,
+                "sourceConflict": 0,
+                "needsVerification": 0
+              }
+            },
+            {
+              "code": "TH",
+              "name": "태국",
+              "rooms": 0,
+              "messages": 0,
+              "verdicts": {
+                "appropriate": 0,
+                "confirmedError": 0,
+                "suspectedError": 0,
+                "missingAnswer": 0,
+                "sourceConflict": 0,
+                "needsVerification": 0
+              }
+            },
+            {
+              "code": "CN",
+              "name": "중국",
+              "rooms": 0,
+              "messages": 0,
+              "verdicts": {
+                "appropriate": 0,
+                "confirmedError": 0,
+                "suspectedError": 0,
+                "missingAnswer": 0,
+                "sourceConflict": 0,
+                "needsVerification": 0
+              }
+            },
+            {
+              "code": "TW",
+              "name": "대만",
+              "rooms": 0,
+              "messages": 0,
+              "verdicts": {
+                "appropriate": 0,
+                "confirmedError": 0,
+                "suspectedError": 0,
+                "missingAnswer": 0,
+                "sourceConflict": 0,
+                "needsVerification": 0
+              }
+            },
+            {
+              "code": "ZZ",
+              "name": "기타·미확인",
+              "rooms": 4,
+              "messages": 18,
+              "verdicts": {
+                "appropriate": 4,
+                "confirmedError": 0,
+                "suspectedError": 0,
+                "missingAnswer": 0,
+                "sourceConflict": 0,
+                "needsVerification": 0
+              }
+            }
+          ],
+          "issues": [],
+          "casesComplete": true,
+          "casesScope": "reviewed-rooms",
+          "casesUpdatedAt": "2026-10-30T09:16:20.562Z",
+          "cases": [],
+          "reviewEntries": [
+            {
+              "id": "kakao-20261030-review-001",
+              "country": "ZZ",
+              "procedure": "세르프(XERF)",
+              "questionCategory": "가격·부가세",
+              "verdict": "appropriate",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "300·600·900샷 안내 금액은 제공표의 1,199,000·2,079,000·2,849,000원과 숫자·VAT 표기가 일치합니다. 시트마스크·LED 포함 옵션과 현행 적용 채널은 별도 미확인으로 두었으며 가정 가격 차이를 만들지 않았습니다."
+            },
+            {
+              "id": "kakao-20261030-review-002",
+              "country": "ZZ",
+              "procedure": "확인되지 않음",
+              "questionCategory": "시술 후 주의사항 링크",
+              "verdict": "appropriate",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "고객의 채널 연결 발화 뒤 병원이 시술 후 주의사항 링크를 보냈습니다. 링크 응답이 있어 누락이 아닙니다. 링크 썸네일을 실제 첨부 개수로 합산하지 않았고 외부 페이지 내용 재검수는 하지 않았습니다."
+            },
+            {
+              "id": "kakao-20261030-review-003",
+              "country": "ZZ",
+              "procedure": "레스틸렌 턱필러",
+              "questionCategory": "가격·용량·부가세",
+              "verdict": "appropriate",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "고객의 가격·VAT 문의에 1cc 360,000원 VAT 포함으로 답했습니다. 제공표의 수입 턱끝필러 1cc 금액은 360,000원이지만 해당 행의 레스틸렌 브랜드·채널 적용이 확인되지 않아 동일조건 가격비교 통과나 오류로 확정하지 않았습니다."
+            },
+            {
+              "id": "kakao-20261030-review-004",
+              "country": "ZZ",
+              "procedure": "확인되지 않음",
+              "questionCategory": "시술 후 경과·응대",
+              "verdict": "appropriate",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "고객의 호전 경과에 병원이 확인·사과·재문의 안내로 응대했습니다. 본문에 언급된 과거 안내의 실제 내용은 이번 자료에 없으므로 과거 직원 오류나 해결을 추정하지 않았습니다."
+            }
+          ],
+          "conversations": [
+            {
+              "id": "kakao-20261030-review-001",
+              "country": "ZZ",
+              "procedure": "세르프(XERF)",
+              "questionCategory": "가격·부가세",
+              "verdict": "appropriate",
+              "messages": [
+                {
+                  "speaker": "customer",
+                  "kind": "text",
+                  "original": "세르프 가격 좀 알려주세요",
+                  "ko": "세르프 가격 좀 알려주세요"
+                },
+                {
+                  "speaker": "staff",
+                  "kind": "text",
+                  "original": "안녕하세요, 뷰티블라썸의원입니다 😊\r\r고객님, 세르프 리프팅 시술 가격 안내드립니다! 💕\r\r🌸 **세르프(XERF) 리프팅**\r\r* 300샷 : **1,199,000원**\r* 600샷 : **2,079,000원**\r* 900샷 : **2,849,000원**\r\r위 금액은 모두 **부가세(VAT)가 포함된 금액**입니다.\r\r추가로 궁금하신 사항이나 예약을 희망하시면 편하게 말씀해 주세요! 😊\r\r감사합니다!🌸",
+                  "ko": "안녕하세요, 뷰티블라썸의원입니다 😊\r\r고객님, 세르프 리프팅 시술 가격 안내드립니다! 💕\r\r🌸 **세르프(XERF) 리프팅**\r\r* 300샷 : **1,199,000원**\r* 600샷 : **2,079,000원**\r* 900샷 : **2,849,000원**\r\r위 금액은 모두 **부가세(VAT)가 포함된 금액**입니다.\r\r추가로 궁금하신 사항이나 예약을 희망하시면 편하게 말씀해 주세요! 😊\r\r감사합니다!🌸"
+                }
+              ],
+              "rationale": "300·600·900샷 안내 금액은 제공표의 1,199,000·2,079,000·2,849,000원과 숫자·VAT 표기가 일치합니다. 시트마스크·LED 포함 옵션과 현행 적용 채널은 별도 미확인으로 두었으며 가정 가격 차이를 만들지 않았습니다."
+            },
+            {
+              "id": "kakao-20261030-review-003",
+              "country": "ZZ",
+              "procedure": "레스틸렌 턱필러",
+              "questionCategory": "가격·용량·부가세",
+              "verdict": "appropriate",
+              "messages": [
+                {
+                  "speaker": "customer",
+                  "kind": "text",
+                  "original": "안녕하세요~ 턱필러 레스틸렌 가격 얼마인가요?",
+                  "ko": "안녕하세요~ 턱필러 레스틸렌 가격 얼마인가요?"
+                },
+                {
+                  "speaker": "staff",
+                  "kind": "text",
+                  "original": "안녕하세요, 뷰티블라썸의원입니다 😊\r\r고객님, 문의하신 **레스틸렌 턱필러 가격** 안내드립니다! 💕\r\r🌸 **레스틸렌 턱필러 (수입 필러)**\r\r* 1cc : **360,000원**\r\r필요한 용량은 고객님의 턱 모양과 원하시는 디자인에 따라 달라질 수 있으며, 내원 후 상담을 통해 자세히 안내받으실 수 있습니다. 😊\r\r추가로 궁금하신 사항이나 예약을 희망하시면 편하게 말씀해 주세요!\r\r감사합니다!🌸",
+                  "ko": "안녕하세요, 뷰티블라썸의원입니다 😊\r\r고객님, 문의하신 **레스틸렌 턱필러 가격** 안내드립니다! 💕\r\r🌸 **레스틸렌 턱필러 (수입 필러)**\r\r* 1cc : **360,000원**\r\r필요한 용량은 고객님의 턱 모양과 원하시는 디자인에 따라 달라질 수 있으며, 내원 후 상담을 통해 자세히 안내받으실 수 있습니다. 😊\r\r추가로 궁금하신 사항이나 예약을 희망하시면 편하게 말씀해 주세요!\r\r감사합니다!🌸"
+                },
+                {
+                  "speaker": "customer",
+                  "kind": "text",
+                  "original": "Vat별도인가요??",
+                  "ko": "Vat별도인가요??"
+                },
+                {
+                  "speaker": "staff",
+                  "kind": "text",
+                  "original": "안녕하세요, 뷰티블라썸의원입니다 😊\r\r네, 고객님! 안내드린 **레스틸렌 턱필러 1cc 360,000원은 부가세(VAT)가 포함된 금액**입니다. 💕\r\r감사합니다!🌸",
+                  "ko": "안녕하세요, 뷰티블라썸의원입니다 😊\r\r네, 고객님! 안내드린 **레스틸렌 턱필러 1cc 360,000원은 부가세(VAT)가 포함된 금액**입니다. 💕\r\r감사합니다!🌸"
+                }
+              ],
+              "rationale": "고객의 가격·VAT 문의에 1cc 360,000원 VAT 포함으로 답했습니다. 제공표의 수입 턱끝필러 1cc 금액은 360,000원이지만 해당 행의 레스틸렌 브랜드·채널 적용이 확인되지 않아 동일조건 가격비교 통과나 오류로 확정하지 않았습니다."
+            }
+          ],
+          "reviewScope": "오늘 완료 목록의 안전 확인 상담 4개·당일 관찰 메시지 18건만 검수한 부분집계입니다. 목록은 관찰 중 37→36개로 변동했고 전체 36개를 검수한 결과가 아닙니다. 목록의 완료 표시가 뒤의 봇 메뉴 이력을 드러내지 않는 사례가 있어 안전 불명 수집본을 폐기하고 추가 열람을 중단했습니다. 새 미확인·대기·고객 최종 미답변·마감 이후 방과 나머지 미검수 상담은 제외했습니다. 오늘 이후에도 이어지는 이력과 첨부 내용·실제 첨부 개수, 국적은 미확인입니다.",
+          "coverage": {
+            "candidateRooms": null,
+            "reviewedRooms": 4,
+            "excludedUnread": null,
+            "excludedWaiting": null,
+            "excludedCustomerFinalOrUnknown": null,
+            "excludedAfterCutoff": null,
+            "uninspectedAttachments": null,
+            "notes": [
+              "오늘 완료 목록의 안전 확인 상담 4개·당일 관찰 메시지 18건만 검수한 부분집계입니다. 목록은 관찰 중 37→36개로 변동했고 전체 36개를 검수한 결과가 아닙니다. 목록의 완료 표시가 뒤의 봇 메뉴 이력을 드러내지 않는 사례가 있어 안전 불명 수집본을 폐기하고 추가 열람을 중단했습니다. 새 미확인·대기·고객 최종 미답변·마감 이후 방과 나머지 미검수 상담은 제외했습니다. 오늘 이후에도 이어지는 이력과 첨부 내용·실제 첨부 개수, 국적은 미확인입니다.",
+              "비텍스트 카드 3개를 시스템 안내 단위로 분류했습니다. 당시 native 스냅샷에는 채널환영·운영시간 안내가 표시됐지만 카드의 원문 필드는 미수집(null)이므로 카드 내용의 완전한 원문 검증은 제외했습니다. 자동안내 2개는 문구·요청 패턴에 따른 추정 분류입니다. 메시지수는 실제 수집 DOM 메시지 단위이며 첨부 수가 아닙니다.",
+              "수가 금액의 숫자 일치와 브랜드·패키지·채널의 동일 조건 검증은 구별했습니다. 현재 검수 부분집합의 확정 지적만 0건이며 전체 당일 무오류를 뜻하지 않습니다."
+            ]
+          },
+          "followUps": [],
+          "followUpSummary": {
+            "carried": 0,
+            "resolved": 0,
+            "unresolved": 0,
+            "deferred": 0,
+            "unchecked": 0
+          },
+          "knowledgeVerification": {
+            "status": "source-reviewed",
+            "rooms": 4,
+            "messages": 18,
+            "checkedAt": "2026-10-30T09:16:20.562Z",
+            "scope": "안전 확인된 4상담만 의미 검토. 관련 가격 원본표 대조 및 공개 6메시지 전문 일치 검증. 기존 29일 통계 재사용 없음."
+          }
+        },
+        {
+          "platform": "kakao-clinic",
           "date": "2026-10-29",
           "status": "partial",
           "auditState": "reviewed-safe-completed-scope",
@@ -1837,6 +2559,147 @@ window.SUPERVISION_DATA = {
       "name": "바비톡",
       "updatedAt": "2026-10-30T04:55:54.899Z",
       "days": [
+        {
+          "platform": "babitalk",
+          "date": "2026-10-30",
+          "status": "completed",
+          "auditState": "completed-no-activity",
+          "cutoffAt": "2026-10-30T18:00:29+09:00",
+          "checkedAt": "2026-10-30T09:20:41.757Z",
+          "eligibleRooms": 0,
+          "reviewedRooms": 0,
+          "messageCount": 0,
+          "customerMessages": 0,
+          "staffMessages": 0,
+          "autoMessages": 0,
+          "systemMessages": 0,
+          "deletedMessages": 0,
+          "verdicts": {
+            "appropriate": 0,
+            "confirmedError": 0,
+            "suspectedError": 0,
+            "missingAnswer": 0,
+            "sourceConflict": 0,
+            "needsVerification": 0
+          },
+          "countries": [
+            {
+              "code": "KR",
+              "name": "한국",
+              "rooms": 0,
+              "messages": 0,
+              "verdicts": {
+                "appropriate": 0,
+                "confirmedError": 0,
+                "suspectedError": 0,
+                "missingAnswer": 0,
+                "sourceConflict": 0,
+                "needsVerification": 0
+              }
+            },
+            {
+              "code": "JP",
+              "name": "일본",
+              "rooms": 0,
+              "messages": 0,
+              "verdicts": {
+                "appropriate": 0,
+                "confirmedError": 0,
+                "suspectedError": 0,
+                "missingAnswer": 0,
+                "sourceConflict": 0,
+                "needsVerification": 0
+              }
+            },
+            {
+              "code": "TH",
+              "name": "태국",
+              "rooms": 0,
+              "messages": 0,
+              "verdicts": {
+                "appropriate": 0,
+                "confirmedError": 0,
+                "suspectedError": 0,
+                "missingAnswer": 0,
+                "sourceConflict": 0,
+                "needsVerification": 0
+              }
+            },
+            {
+              "code": "CN",
+              "name": "중국",
+              "rooms": 0,
+              "messages": 0,
+              "verdicts": {
+                "appropriate": 0,
+                "confirmedError": 0,
+                "suspectedError": 0,
+                "missingAnswer": 0,
+                "sourceConflict": 0,
+                "needsVerification": 0
+              }
+            },
+            {
+              "code": "TW",
+              "name": "대만",
+              "rooms": 0,
+              "messages": 0,
+              "verdicts": {
+                "appropriate": 0,
+                "confirmedError": 0,
+                "suspectedError": 0,
+                "missingAnswer": 0,
+                "sourceConflict": 0,
+                "needsVerification": 0
+              }
+            },
+            {
+              "code": "ZZ",
+              "name": "기타·미확인",
+              "rooms": 0,
+              "messages": 0,
+              "verdicts": {
+                "appropriate": 0,
+                "confirmedError": 0,
+                "suspectedError": 0,
+                "missingAnswer": 0,
+                "sourceConflict": 0,
+                "needsVerification": 0
+              }
+            }
+          ],
+          "issues": [],
+          "casesComplete": true,
+          "casesScope": "reviewed-rooms",
+          "casesUpdatedAt": "2026-10-30T09:16:20.562Z",
+          "cases": [],
+          "reviewEntries": [],
+          "conversations": [],
+          "reviewScope": "병원 해외 환자채팅함의 전체 및 영어·일본어·중국어 번체·간체 목록 끝까지 확인했습니다. 전체 8개 과거 상담의 최신 표시는 10월8일 이전이며 오늘 18시 마감까지의 당일 활동은 0건입니다. 과거 8개 본문을 열어 검수하거나 적정·무오류로 판정한 결과가 아닙니다. 국내 실시간 상담 범위는 미확인이고 광고주 고객센터는 제외했습니다.",
+          "coverage": {
+            "candidateRooms": 8,
+            "reviewedRooms": 0,
+            "excludedOutsideDate": 8,
+            "uninspectedAttachments": null,
+            "notes": [
+              "병원 해외 환자채팅함의 전체 및 영어·일본어·중국어 번체·간체 목록 끝까지 확인했습니다. 전체 8개 과거 상담의 최신 표시는 10월8일 이전이며 오늘 18시 마감까지의 당일 활동은 0건입니다. 과거 8개 본문을 열어 검수하거나 적정·무오류로 판정한 결과가 아닙니다. 국내 실시간 상담 범위는 미확인이고 광고주 고객센터는 제외했습니다.",
+              "전체8/일본어8·나머지 언어0, 목록 높이976px가 뷰포트1115px 안에 모두 표시되어 하단 도달. 개별방 열람0."
+            ]
+          },
+          "followUps": [],
+          "followUpSummary": {
+            "carried": 0,
+            "resolved": 0,
+            "unresolved": 0,
+            "deferred": 0,
+            "unchecked": 0
+          },
+          "knowledgeVerification": {
+            "status": "not-needed-no-activity",
+            "checkedAt": "2026-10-30T09:16:20.562Z",
+            "scope": "병원 해외 환자채팅함의 전체 및 영어·일본어·중국어 번체·간체 목록 끝까지 확인했습니다. 전체 8개 과거 상담의 최신 표시는 10월8일 이전이며 오늘 18시 마감까지의 당일 활동은 0건입니다. 과거 8개 본문을 열어 검수하거나 적정·무오류로 판정한 결과가 아닙니다. 국내 실시간 상담 범위는 미확인이고 광고주 고객센터는 제외했습니다."
+          }
+        },
         {
           "platform": "babitalk",
           "date": "2026-10-29",

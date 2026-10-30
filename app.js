@@ -56,8 +56,12 @@
     if (!Number.isFinite(time.getTime())) return '시각 형식 확인 필요 · KST';
     return `${new Intl.DateTimeFormat('ko-KR', { timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).format(time)} KST`;
   };
-  const statusLabel = day => day?.status === 'completed' ? '집계 완료' : day?.status === 'partial' ? '부분 집계' : '상태 확인 필요';
-  const statusClass = day => day?.status === 'completed' ? 'complete' : 'partial';
+  const semanticIncomplete = day => !!day && (day.casesComplete === false || number(day.verdicts?.unreviewed) > 0 || (day.status === 'partial' && !caseScopeComplete(day)));
+  const countryLabel = (day, code) => text(day?.countries?.find(item => item?.code === code)?.name) || countryDefinitions.find(([key]) => key === code)?.[1] || (text(code) ? '국가코드 ' + code : '국가 미확인');
+  const semanticScopeNote = day => '검수 ' + statValue(day?.reviewedRooms, '개') + ' / 수집 ' + statValue(day?.eligibleRooms, '개') + ' · 미검수 ' + statValue(day?.verdicts?.unreviewed, '개') + ' · 판정은 검수분만, 전체 검수중';
+  const verdictValue = (day, values, key, unit = '개') => semanticIncomplete(day) ? (suppliedNumber(values?.[key]) && values[key] > 0 ? '검수분 ' + fmt(values[key]) + unit + ' · 전체 검수중' : '검수중') : statValue(values?.[key], unit);
+  const statusLabel = day => semanticIncomplete(day) ? '부분 집계 · 검수중' : day?.status === 'completed' ? '집계 완료' : day?.status === 'partial' ? '부분 집계' : '상태 확인 필요';
+  const statusClass = day => !semanticIncomplete(day) && day?.status === 'completed' ? 'complete' : 'partial';
   const empty = (title, detail) => {
     const box = node('div', 'empty-state'); box.append(node('strong', '', title));
     if (detail) box.append(node('small', '', detail)); return box;
@@ -69,14 +73,15 @@
   function renderKpis(day) {
     if (!day) { replace('kpi-grid', empty('상담 집계 미확인', '데이터가 게시되면 검토 대상과 메시지 집계를 표시합니다.')); return; }
     const items = [
-      ['검토 대상 상담방', day.eligibleRooms, '개', '읽지 않음·대기 등 제외 기준 적용', ''],
+      [semanticIncomplete(day)?'수집 상담방':'검토 대상 상담방', day.eligibleRooms, '개', semanticIncomplete(day)?semanticScopeNote(day):'읽지 않음·대기 등 제외 기준 적용', ''],
       ['전체 메시지', day.messageCount, '건', '제공된 메시지 분류 전체 범위', 'teal'],
       ['확정 오류 상담', day.verdicts?.confirmedError, '개', '자료충돌·확인필요는 제외', 'red'],
       ['후속 확인 상담', day.verdicts&&['suspectedError','missingAnswer','sourceConflict','needsVerification'].every(k=>suppliedNumber(day.verdicts[k]))?verificationCount(day.verdicts):null, '개', '의심·답변누락·자료충돌·확인필요', 'amber']
     ];
-    replace('kpi-grid', ...items.map(([label, value, unit, note, color]) => {
-      const card = node('article', `kpi ${color}`); const figure = node('div', 'kpi-value', suppliedNumber(value)?fmt(value):'미확인');
-      if(suppliedNumber(value))figure.append(node('small', '', unit)); card.append(node('h3', 'kpi-label', label), figure, node('p', 'kpi-note', note)); return card;
+    replace('kpi-grid', ...items.map(([label, value, unit, note, color], index) => {
+      const pending = semanticIncomplete(day) && index >= 2;
+      const card = node('article', `kpi ${color}`); const figure = node('div', 'kpi-value', pending ? (suppliedNumber(value)&&value>0?'검수분 '+fmt(value):'검수중') : suppliedNumber(value)?fmt(value):'미확인');
+      if(suppliedNumber(value)&&(!pending||value>0))figure.append(node('small', '', unit)); card.append(node('h3', 'kpi-label', label), figure, node('p', 'kpi-note', pending?semanticScopeNote(day):note)); return card;
     }));
   }
   function renderVerdicts(day) {
@@ -84,17 +89,17 @@
     if(!day.verdicts||verdicts.some(([key])=>!suppliedNumber(day.verdicts[key]))){replace('verdict-chart',empty('판정 집계 미확인','확인되지 않은 판정을 0건으로 표시하지 않습니다.'));return;}
     const values = day.verdicts; const total = sumVerdicts(values);
     const chart = node('div', 'stacked-bar'); chart.setAttribute('role', 'img');
-    chart.setAttribute('aria-label', `상담별 대표판정 합계 ${fmt(total)}개. ${verdicts.map(([key, label]) => `${label} ${fmt(values[key])}개`).join(', ')}. 상담별 한 가지 대표판정.`);
+    chart.setAttribute('aria-label', (semanticIncomplete(day)?'대표판정 검수중. '+semanticScopeNote(day):`상담별 대표판정 합계 ${fmt(total)}개`)+'. '+verdicts.map(([key,label])=>label+' '+verdictValue(day,values,key)).join(', ')+'. 상담별 한 가지 대표판정.');
     if (total) verdicts.forEach(([key, label]) => {
       const value = number(values[key]); if (!value) return;
-      const segment = node('span', `stacked-segment verdict-${key}`); segment.style.width = `${value / total * 100}%`; segment.title = `${label} ${fmt(value)}개`; chart.append(segment);
+      const segment = node('span', `stacked-segment verdict-${key}`); segment.style.width = `${value / total * 100}%`; segment.title = `${label} ${verdictValue(day,values,key)}`; chart.append(segment);
     });
     const legend = node('div', 'verdict-legend');
     verdicts.forEach(([key, label]) => {
       const item = node('div'); const name = node('div', 'legend-label'); const swatch = node('span', `swatch verdict-${key}`); swatch.setAttribute('aria-hidden', 'true');
-      name.append(swatch, node('span', '', label)); const value = node('div', 'legend-value', fmt(values[key])); value.append(node('small', '', '개')); item.append(name, value); legend.append(item);
+      name.append(swatch, node('span', '', label)); const value = node('div', 'legend-value', semanticIncomplete(day)?verdictValue(day,values,key):fmt(values[key])); if(!semanticIncomplete(day))value.append(node('small', '', '개')); item.append(name, value); legend.append(item);
     });
-    replace('verdict-chart', chart, legend, node('p', 'finding-total', total ? `상담 ${fmt(total)}개 대표판정` : '등록된 상담 대표판정 0개 · 검토 완료 또는 오류 없음의 보증이 아닙니다.'));
+    replace('verdict-chart', chart, legend, node('p', 'finding-total', semanticIncomplete(day)?'대표판정 검수중 · '+semanticScopeNote(day):total ? `상담 ${fmt(total)}개 대표판정` : '등록된 상담 대표판정 0개 · 검토 완료 또는 오류 없음의 보증이 아닙니다.'));
   }
   function renderMessages(day) {
     if (!day) { replace('message-breakdown', empty('메시지 집계 대기')); return; }
@@ -129,8 +134,8 @@
     if (!rows.length) return null;
     return rows.reduce((result, item) => {
       result.rooms=suppliedNumber(result.rooms)&&suppliedNumber(item.rooms)?result.rooms+item.rooms:null;result.messages=suppliedNumber(result.messages)&&suppliedNumber(item.messages)?result.messages+item.messages:null;
-      verdicts.forEach(([key])=>{result.verdicts[key]=suppliedNumber(result.verdicts[key])&&suppliedNumber(item.verdicts?.[key])?result.verdicts[key]+item.verdicts[key]:null;});return result;
-    }, { name: countryDefinitions.find(([code]) => code === selectedCountry)[1], rooms:0,messages:0,verdicts:Object.fromEntries(verdicts.map(([key])=>[key,0]))});
+      [...verdicts,['unreviewed']].forEach(([key])=>{result.verdicts[key]=suppliedNumber(result.verdicts[key])&&suppliedNumber(item.verdicts?.[key])?result.verdicts[key]+item.verdicts[key]:null;});return result;
+    }, { name: countryLabel(day,selectedCountry), rooms:0,messages:0,verdicts:Object.fromEntries([...verdicts,['unreviewed']].map(([key])=>[key,0]))});
   }
   function renderCountry(day) {
     for (const [code] of countryDefinitions) {
@@ -147,9 +152,9 @@
     verdicts.forEach(([key, label]) => {
       const item = node('div', 'country-bar-row'); const track = node('div', 'mini-track'); track.setAttribute('aria-hidden', 'true');
       const fill = node('div', `mini-fill verdict-${key}`); fill.style.width = `${number(country.verdicts?.[key]) / max * 100}%`; track.append(fill);
-      item.append(node('span', '', label), track, node('strong', '', statValue(country.verdicts?.[key],'개'))); bars.append(item);
+      item.append(node('span', '', label), track, node('strong', '', verdictValue(day,country.verdicts,key))); bars.append(item);
     });
-    panel.replaceChildren(heading, bars, node('p', 'helper bottom-note', '상담별 대표판정 비교 · 각 막대는 이 탭의 최댓값 기준 · 기타·미확인은 국적을 추정하지 않은 분류입니다.'));
+    panel.replaceChildren(heading, bars, node('p', 'helper bottom-note', semanticIncomplete(day)?'국가별 판정도 검수분만 표시합니다. 미검수 '+statValue(country.verdicts?.unreviewed,'개')+' · 전체 검수중. '+semanticScopeNote(day):'상담별 대표판정 비교 · 각 막대는 이 탭의 최댓값 기준 · 기타·미확인은 국적을 추정하지 않은 분류입니다.'));
   }
   function table(headers, caption) {
     const wrap = node('div', 'table-wrap'); wrap.tabIndex = 0; wrap.setAttribute('role', 'region'); wrap.setAttribute('aria-label', `${caption}, 가로 스크롤 가능`);
@@ -158,7 +163,7 @@
     headers.forEach(([label, numeric]) => { const th = node('th', numeric ? 'number' : '', label); th.scope = 'col'; tr.append(th); });
     head.append(tr); const body = node('tbody'); element.append(head, body); wrap.append(element); return { wrap, body };
   }
-  const caseScopeComplete=day=>day?.casesComplete===true&&(day.status==='completed'||(day.status==='partial'&&day.casesScope==='reviewed-rooms'&&Number.isInteger(day.eligibleRooms)&&day.reviewedRooms===day.eligibleRooms&&Array.isArray(day.reviewEntries)&&day.reviewEntries.length===day.reviewedRooms));
+  const caseScopeComplete=day=>number(day?.verdicts?.unreviewed)===0&&day?.casesComplete===true&&(day.status==='completed'||(day.status==='partial'&&day.casesScope==='reviewed-rooms'&&Number.isInteger(day.eligibleRooms)&&day.reviewedRooms===day.eligibleRooms&&Array.isArray(day.reviewEntries)&&day.reviewEntries.length===day.reviewedRooms));
   function renderCases(day) {
     const cases = day && Array.isArray(day.cases) ? day.cases.filter(c => c && caseVerdicts.some(([key]) => key === c.verdict)) : [];
     const complete = caseScopeComplete(day);
@@ -185,7 +190,7 @@
     }
     const item = filtered[selectedCaseIndex]; const article = node('article', 'case-review');
     const heading = node('div', 'case-review-heading'); const label = caseVerdicts.find(([key]) => key === item.verdict)[1];
-    const country = countryDefinitions.find(([key]) => key === item.country)?.[1] || '미확인';
+    const country = countryLabel(day,item.country);
     heading.append(node('span', 'case-country', country));
     const classification=node('dl','case-classification');
     classification.append(node('dt','','시술'),node('dd','',text(item.procedure,'확인되지 않음')),node('dt','','질문 카테고리'),node('dd','',text(item.questionCategory,'확인되지 않음')));
@@ -218,7 +223,7 @@
   function renderIssues(day) {
     if (!day) { replace('issues-content', empty('이슈 집계 대기')); return; }
     const issues = Array.isArray(day.issues) ? day.issues.filter(item => item && typeof item === 'object') : [];
-    if(!Array.isArray(day.issues)||(day.status!=='completed'&&!issues.length)){replace('issues-content',empty('이슈 분류 미확인','미확인 상태를 오류 없음으로 표시하지 않습니다.'));return;}
+    if(!Array.isArray(day.issues)||((day.status!=='completed'||semanticIncomplete(day))&&!issues.length)){replace('issues-content',empty('이슈 분류 미확인','미확인 상태를 오류 없음으로 표시하지 않습니다.'));return;}
     if (!issues.length) { replace('issues-content', empty('등록된 이슈 분류가 없습니다', day.status === 'completed' ? '등록 목록 기준이며 모든 상담에 문제가 없다는 뜻은 아닙니다.' : '부분 집계 또는 상태 미확인 결과입니다. 이슈 없음으로 확정하지 않습니다.')); return; }
     const { wrap, body } = table([['분류', false], ['우선도', false], ['조치 상태', false], ['발견 건수', true]], '세부 이슈 집계 · 한 상담에 여러 건 가능. 상담별 대표판정과 합산하지 않습니다.');
     const allowedStatuses = new Set(['대기', '미확인', '확인중', '확인 중', '검토중', '검토 중', '조치중', '조치 중', '완료', '미조치', '조치 완료', '확인 필요', '자료 확인', '보류']);
@@ -226,7 +231,7 @@
       const tr = node('tr'); tr.append(node('td', '', text(issue.category, '미분류')));
       const severity = ['높음', '보통', '낮음'].includes(issue.severity) ? issue.severity : '미분류';
       tr.append(node('td', `severity ${severity === '높음' ? 'high' : severity === '보통' ? 'medium' : severity === '낮음' ? 'low' : ''}`, severity));
-      tr.append(node('td', '', allowedStatuses.has(issue.status) ? issue.status : '상태 미분류'), node('td', 'number', `${fmt(issue.count)}건`)); body.append(tr);
+      tr.append(node('td', '', allowedStatuses.has(issue.status) ? issue.status : '상태 미분류'), node('td', 'number', semanticIncomplete(day)?(suppliedNumber(issue.count)&&issue.count>0?'검수분 '+fmt(issue.count)+'건 · 전체 검수중':'검수중'):`${fmt(issue.count)}건`)); body.append(tr);
       // issue.summary is intentionally never read or rendered.
     }); replace('issues-content', wrap);
   }
@@ -237,7 +242,7 @@
       const tr = node('tr', day.date === selectedDate ? 'selected' : ''); const dateCell = node('td'); const button = node('button', 'date-link', day.date); button.type = 'button';
       button.setAttribute('aria-label', `${day.date} KST, ${statusLabel(day)} 조회`); if (day.date === selectedDate) button.setAttribute('aria-current', 'date');
       button.addEventListener('click', () => { selectedDate = day.date; render(); dateInput.focus(); }); dateCell.append(button);
-      const statusCell = node('td'); statusCell.append(badge(day)); tr.append(dateCell, statusCell, node('td', 'number', statValue(day.eligibleRooms,'개')), node('td', 'number', statValue(day.messageCount,'건')), node('td', 'number', statValue(day.verdicts?.confirmedError,'개')), node('td', 'number', day.verdicts&&['suspectedError','missingAnswer','sourceConflict','needsVerification'].every(k=>suppliedNumber(day.verdicts[k]))?statValue(verificationCount(day.verdicts),'개'):'미확인')); body.append(tr);
+      const statusCell = node('td'); statusCell.append(badge(day)); tr.append(dateCell, statusCell, node('td', 'number', statValue(day.eligibleRooms,'개')), node('td', 'number', statValue(day.messageCount,'건')), node('td', 'number', verdictValue(day,day.verdicts,'confirmedError')), node('td', 'number', day.verdicts&&['suspectedError','missingAnswer','sourceConflict','needsVerification'].every(k=>suppliedNumber(day.verdicts[k]))?(semanticIncomplete(day)?(verificationCount(day.verdicts)>0?'검수분 '+fmt(verificationCount(day.verdicts))+'개 · 전체 검수중':'검수중'):statValue(verificationCount(day.verdicts),'개')):semanticIncomplete(day)?'검수중':'미확인')); body.append(tr);
     }); replace('history-content', wrap);
   }
   function renderCoverage(day) {
@@ -263,11 +268,11 @@
     return { count, label: key => complete ? fmt(count(key)) + '건' : count(key) ? '집계중 · 확인 ' + fmt(count(key)) + '건' : '집계중', complete };
   };
   let statsCountryMetric = 'rooms';
-  function statBar(label, value, max, unit, kind = '') {
+  function statBar(label, value, max, unit, kind = '', display) {
     const row = node('div', 'stats-bar-row');
     const track = node('div', 'mini-track'); track.setAttribute('aria-hidden', 'true');
     const fill = node('div', 'mini-fill ' + kind); fill.style.width = (suppliedNumber(value) ? number(value) / Math.max(max, 1) * 100 : 0) + '%'; track.append(fill);
-    row.append(node('span', '', label), track, node('strong', '', statValue(value, unit))); return row;
+    row.append(node('span', '', label), track, node('strong', '', display === undefined ? statValue(value, unit) : display)); return row;
   }
   function renderStatsCountries(day) {
     ['rooms', 'messages'].forEach(key => { const tab = $('stats-country-' + key); const active = statsCountryMetric === key; tab.setAttribute('aria-selected', String(active)); tab.tabIndex = active ? 0 : -1; });
@@ -275,8 +280,8 @@
     if(!Array.isArray(day?.countries)||!day.countries.length){replace('stats-country-panel',empty(day?.status==='completed'&&day.eligibleRooms===0&&day.messageCount===0&&Array.isArray(day.countries)?'국가별 분포 대상 0개':'국가별 집계 미확인'));return;}
     const groups = new Map();
     day.countries.filter(item => item && typeof item === 'object').forEach(item => {
-      const code = text(item.code, 'ZZ');
-      const label = countryDefinitions.find(([key]) => key === code)?.[1] || text(item.name, '미분류');
+      const code = text(item.code, 'UNCONFIRMED');
+      const label = text(item.name) || countryLabel(day,text(item.code));
       const old = groups.get(code) || { label, value: 0, known: true };
       old.known = old.known && suppliedNumber(item[statsCountryMetric]); old.value += number(item[statsCountryMetric]); groups.set(code, old);
     });
@@ -292,6 +297,7 @@
   }
   function renderKnowledge(day,target){
     const k=day?.knowledgeVerification;
+    if(semanticIncomplete(day)){replace(target,node('p','helper','지식·의미 검수중 · 수집 완료와 의미·첨부 검수 완료는 별도입니다.'),node('p','helper',semanticScopeNote(day)),node('p','helper',text(k?.scope)));return;}
     if(k?.status==='source-reviewed'){const grid=node('div','knowledge-metrics');for(const[label,value,unit]of[['실제 검수 상담',k.rooms,'개'],['확인 메시지',k.messages,'건'],['자료충돌',k.sourceConflictOccurrences,'사례']]){const item=node('div');item.append(node('strong','',suppliedNumber(value)?fmt(value)+unit:'미확인'),node('span','',label));grid.append(item);}replace(target,grid,node('p','helper','동일 검수 규칙 · 실제 원문과 제공 가이드·수가 자료 직접 대조'),node('p','helper',text(k.scope)),node('p','helper','검토 시각 '+timestamp(k.checkedAt)));return;}
     if(k?.status==='not-needed-no-activity'){replace(target,node('p','helper','해당일 활동 없음 확인 · 본문·수가 판정 대상 없음'),node('p','helper',text(k.scope)));return;}
     if(k?.status!=='verified'){replace(target,node('p','helper','지식기반 재검증 미등록'));return;}
@@ -328,25 +334,25 @@
   function renderStats(day) {
     $('stats-date').textContent = selectedDate ? selectedDate + ' · KST · ' + (day ? statusLabel(day) : '미게시') : '조회일 없음';
     const cases = statsCaseInfo(day);
-    const items = [['검토 상담방', statValue(day?.eligibleRooms, '개'), '일일 검토 대상 상담방 · eligibleRooms', ''], ['병원답변', statValue(day?.staffMessages, '건'), '메시지 수 · 개별 담당자 미확인', 'teal'], ['확정 오답', cases.label('confirmedError'), '세부 사례 · 의심·자료충돌 제외', 'red'], ['답변누락', cases.label('missingAnswer'), '담당자 답변이 전혀 없는 사례만', 'red'], ['확인필요', cases.label('needsVerification'), '세부 사례 · 확정 오류 아님', 'amber'], ['자료충돌', cases.label('sourceConflict'), '세부 사례 · 확정 오류 아님', '']];
+    const items = [[semanticIncomplete(day)?'수집 상담방':'검토 상담방', statValue(day?.eligibleRooms, '개'), semanticIncomplete(day)?semanticScopeNote(day):'일일 검토 대상 상담방 · eligibleRooms', ''], ['병원답변', statValue(day?.staffMessages, '건'), '메시지 수 · 개별 담당자 미확인', 'teal'], ['확정 오답', cases.label('confirmedError'), '세부 사례 · 의심·자료충돌 제외', 'red'], ['답변누락', cases.label('missingAnswer'), '담당자 답변이 전혀 없는 사례만', 'red'], ['확인필요', cases.label('needsVerification'), '세부 사례 · 확정 오류 아님', 'amber'], ['자료충돌', cases.label('sourceConflict'), '세부 사례 · 확정 오류 아님', '']];
     replace('stats-kpis', ...items.map(([label, value, note, color]) => { const card = node('article', 'kpi ' + color); card.append(node('h3', 'kpi-label', label), node('div', 'kpi-value stats-value', value), node('p', 'kpi-note', note)); return card; }));
     $('stats-case-note').textContent = '오안내의심 ' + cases.label('suspectedError') + ' · 한 상담방에 여러 사례가 있을 수 있습니다. ' + (cases.complete ? (day.status==='partial'?'검수한 '+fmt(day.reviewedRooms)+'개 상담 범위의 사례 집계 완료. 미검수 범위는 별도입니다.':'사례 집계 완료.') : '사례 집계중 · 현재 확인된 사례만 표시하며 오류 0건으로 확정하지 않습니다.');
     renderFollowUps(day, 'stats-followups'); renderKnowledge(day,'stats-knowledge');
     if (!days.length) replace('stats-trend', empty('게시된 일별 집계 없음'));
     else {
       const ordered = [...days].reverse(); const max = Math.max(1, ...ordered.map(item => number(item.eligibleRooms)));
-      const chart = node('ol', 'stats-trend'); chart.setAttribute('aria-label', '게시일별 검토 상담방 수 · 실제 날짜만 표시');
+      const chart = node('ol', 'stats-trend'); chart.setAttribute('aria-label', ordered.some(semanticIncomplete)?'게시일별 수집 상담방 수와 검수 범위 · 실제 날짜만 표시':'게시일별 검토 상담방 수 · 실제 날짜만 표시');
       ordered.forEach(item => { const li = node('li', item.date === selectedDate ? 'selected' : '');
         const mark = node('div', 'stats-point-track'); mark.setAttribute('aria-hidden', 'true');
         if (suppliedNumber(item.eligibleRooms)) { const point = node('span', 'stats-point'); point.style.left = number(item.eligibleRooms) / max * 100 + '%'; mark.append(point); }
         const date = node('button', 'date-link', item.date); date.type = 'button'; date.setAttribute('aria-label', item.date + ' KST 조회'); if (item.date === selectedDate) date.setAttribute('aria-current', 'date');
         date.addEventListener('click', () => { selectedDate = item.date; render(); });
-        li.append(date, mark, node('strong', '', statValue(item.eligibleRooms, '개')), node('small', '', statusLabel(item))); chart.append(li);
+        li.append(date, mark, node('strong', '', (semanticIncomplete(item)?'수집 ':'')+statValue(item.eligibleRooms, '개')), node('small', '', statusLabel(item)+(semanticIncomplete(item)?' · '+semanticScopeNote(item):''))); chart.append(li);
       }); replace('stats-trend', chart, node('p', 'helper', 'KST · 가로 위치는 상담방 수이며, 날짜 사이의 미게시 일자는 보간하지 않습니다.'));
     }
     renderStatsCountries(day);
     if (!day?.verdicts) replace('stats-verdicts', empty('대표판정 집계중'));
-    else { const max = Math.max(1, ...verdicts.map(([key]) => number(day.verdicts[key]))); const list = node('div', 'stats-bars'); verdicts.forEach(([key, label]) => list.append(statBar(label, day.verdicts[key], max, '개', 'verdict-' + key))); replace('stats-verdicts', list); }
+    else { const max = Math.max(1, ...verdicts.map(([key]) => number(day.verdicts[key]))); const list = node('div', 'stats-bars'); verdicts.forEach(([key, label]) => list.append(statBar(label, day.verdicts[key], max, '개', 'verdict-' + key,verdictValue(day,day.verdicts,key)))); if(semanticIncomplete(day))list.append(node('p','helper','대표판정 검수중'+' · '+semanticScopeNote(day))); replace('stats-verdicts', list); }
     const {wrap, body} = table([['담당자 그룹',false],['병원답변',true],['확정 오답 사례',true],['누락 사례',true],['확인필요 사례',true],['자료충돌 사례',true]], (selectedDate || '미선택') + ' KST · 병원답변과 세부 사례는 다른 단위');
     const tr = node('tr'); tr.append(node('td', '', '담당자 미확인'), node('td', 'number', statValue(day?.staffMessages, '건')), ...['confirmedError','missingAnswer','needsVerification','sourceConflict'].map(key => node('td', 'number', cases.label(key)))); body.append(tr); replace('stats-staff', wrap);
   }
@@ -363,12 +369,13 @@
   function setView(hash,focus=false){const route=decodeRoute(hash),changed=activatePlatform(route.platform);currentView=route.view;viewIds.forEach(id=>{$(id).hidden=id!==currentView;$('nav-'+id).setAttribute('aria-current',id===currentView?'page':'false');$('nav-'+id).href='#'+selectedPlatform+'/'+id;});platformDefinitions.forEach(([id])=>{const link=$('nav-platform-'+id);link.setAttribute('aria-current',id===selectedPlatform?'page':'false');link.href='#'+id+'/'+currentView;});$('report-view').hidden=!reportViewIds.includes(currentView);$('nav-home').setAttribute('aria-current','false');if(changed)render();else updateViewContext();if(focus){$('content-view-title').focus({preventScroll:true});window.scrollTo?.({top:0,behavior:'instant'});}}
   function navigateView(id,platform=selectedPlatform){const view=viewIds.includes(id)?id:'overview',target='#'+(platformIds.includes(platform)?platform:selectedPlatform)+'/'+view;if(window.location&&window.location.hash!==target){if(window.history?.pushState)window.history.pushState({platform,contentView:view},'',target);else window.location.hash=target;}setView(target,true);if(mobileMenu())setMenuOpen(false);}
   function renderConversation(conversation){const box=node('article','card review-conversation');box.append(node('h3','','관련 메시지 원문 전체 · 한국어 번역'));for(const m of Array.isArray(conversation.messages)?conversation.messages:[]){const block=node('div','case-message');block.append(node('h4','',({customer:'고객',staff:'담당자',auto:'자동안내',system:'시스템'})[m.speaker]||'화자 미확인'),node('p','case-quote-heading','원문'),node('blockquote','case-original',typeof m.original==='string'?m.original:''),node('p','case-quote-heading','한국어 번역'),node('blockquote','case-translation',typeof m.ko==='string'?m.ko:'번역 미확인'));box.append(block);}if(text(conversation.rationale))box.append(node('p','case-rationale',conversation.rationale));replace('review-log-detail',box);box.tabIndex=-1;box.focus?.({preventScroll:true});box.scrollIntoView?.({block:'start',behavior:'auto'});}
-  function renderReviewLog(day){replace('review-log-detail');const entries=Array.isArray(day?.reviewEntries)?day.reviewEntries:[];if(!entries.length){const verifiedNone=day?.status==='completed'&&day.eligibleRooms===0&&Array.isArray(day.reviewEntries);replace('review-log-content',empty(verifiedNone?'검수 대상 없음':'검수내역 미확인 · 미완료',verifiedNone?'실제 완료된 검토 기록의 대상 수가 0개입니다.':'접속 확인이나 발견 사례 수를 전체 상담 검수내역으로 대신하지 않습니다.'));return;}const{wrap,body}=table([['국가',false],['시술',false],['질문 카테고리',false],['판정',false],['발견 건수',true],['본문·사례',false]],platformName()+' · '+selectedDate+' · 실제 검수 상담 '+entries.length+'건');for(const entry of entries){const tr=node('tr'),country=countryDefinitions.find(([key])=>key===entry.country)?.[1]||'기타·미확인',verdict=verdicts.find(([key])=>key===entry.verdict)?.[1]||text(entry.verdict,'미확인');tr.append(node('td','',country),node('td','',text(entry.procedure,'확인되지 않음')),node('td','',text(entry.questionCategory,'확인되지 않음')),node('td','',verdict),node('td','number',statValue(entry.findingCount,'건')));const actions=node('td');const related=Array.isArray(entry.relatedCaseIds)?entry.relatedCaseIds:[];let linked=0;for(const id of related){const c=day.cases?.find(c=>c.id===id);if(!c)continue;const button=node('button','date-link','사례 보기');button.id='review-case-'+entry.id+'-'+id;button.type='button';button.addEventListener('click',()=>{selectedCaseVerdict=c.verdict;selectedCaseIndex=day.cases.filter(c=>c.verdict===selectedCaseVerdict).findIndex(c=>c.id===id);caseDateMemo=selectedDate;renderCases(day);navigateView('suspect-cases');});actions.append(button);linked++;}const conversation=Array.isArray(day.conversations)?day.conversations.find(c=>c.id===entry.id):null;if(conversation){const button=node('button','date-link','관련 원문 보기');button.id='review-conversation-'+entry.id;button.type='button';button.addEventListener('click',()=>renderConversation(conversation));actions.append(button);}else if(!linked)actions.append(node('span','muted',entry.verdict==='appropriate'||entry.verdict==='적정'?'정상 검토 · 공개 사례 없음':'공개 사례 없음'));if(text(entry.note))actions.append(node('p','small muted',entry.note));tr.append(actions);body.append(tr);}replace('review-log-content',wrap,node('p','helper','검수내역은 실제 검토한 상담 기준이며, 발견 사례 수와 다른 단위입니다. 정상 상담의 전체 대화를 임의로 만들어 표시하지 않습니다.'));}
+  function renderReviewLog(day){replace('review-log-detail');const entries=Array.isArray(day?.reviewEntries)?day.reviewEntries:[];if(!entries.length){const verifiedNone=day?.status==='completed'&&day.eligibleRooms===0&&Array.isArray(day.reviewEntries);replace('review-log-content',empty(verifiedNone?'검수 대상 없음':'검수내역 미확인 · 미완료',verifiedNone?'실제 완료된 검토 기록의 대상 수가 0개입니다.':'접속 확인이나 발견 사례 수를 전체 상담 검수내역으로 대신하지 않습니다.'));return;}const{wrap,body}=table([['국가',false],['시술',false],['질문 카테고리',false],['판정',false],['발견 건수',true],['본문·사례',false]],platformName()+' · '+selectedDate+' · '+(semanticIncomplete(day)?'수집 상담 원장 ':'실제 검수 상담 ')+entries.length+'건'+(semanticIncomplete(day)?' · 검수중':''));for(const entry of entries){const tr=node('tr'),country=countryLabel(day,entry.country),verdict=entry.verdict==='unreviewed'?'미검수':(verdicts.find(([key])=>key===entry.verdict)?.[1]||text(entry.verdict,'미확인'))+(semanticIncomplete(day)?' · 검수분':'');tr.append(node('td','',country),node('td','',text(entry.procedure,'확인되지 않음')),node('td','',text(entry.questionCategory,'확인되지 않음')),node('td','',verdict),node('td','number',semanticIncomplete(day)?(entry.verdict==='unreviewed'?'검수중':suppliedNumber(entry.findingCount)&&entry.findingCount>0?'검수분 '+fmt(entry.findingCount)+'건 · 전체 검수중':'검수중'):statValue(entry.findingCount,'건')));const actions=node('td');const related=Array.isArray(entry.relatedCaseIds)?entry.relatedCaseIds:[];let linked=0;for(const id of related){const c=day.cases?.find(c=>c.id===id);if(!c)continue;const button=node('button','date-link','사례 보기');button.id='review-case-'+entry.id+'-'+id;button.type='button';button.addEventListener('click',()=>{selectedCaseVerdict=c.verdict;selectedCaseIndex=day.cases.filter(c=>c.verdict===selectedCaseVerdict).findIndex(c=>c.id===id);caseDateMemo=selectedDate;renderCases(day);navigateView('suspect-cases');});actions.append(button);linked++;}const conversation=Array.isArray(day.conversations)?day.conversations.find(c=>c.id===entry.id):null;if(conversation){const button=node('button','date-link','관련 원문 보기');button.id='review-conversation-'+entry.id;button.type='button';button.addEventListener('click',()=>renderConversation(conversation));actions.append(button);}else if(!linked)actions.append(node('span','muted',entry.verdict==='unreviewed'?'미검수 · 공개 사례 검토 전':semanticIncomplete(day)?'검수분 · 공개 사례 집계중':entry.verdict==='appropriate'||entry.verdict==='적정'?'정상 검토 · 공개 사례 없음':'공개 사례 없음'));if(text(entry.note))actions.append(node('p','small muted',entry.note));tr.append(actions);body.append(tr);}replace('review-log-content',wrap,node('p','helper',semanticIncomplete(day)?semanticScopeNote(day)+' · 미검수 원장 행은 적정·오류 판정이나 발견 건수 확정을 뜻하지 않습니다.':'검수내역은 실제 검토한 상담 기준이며, 발견 사례 수와 다른 단위입니다. 정상 상담의 전체 대화를 임의로 만들어 표시하지 않습니다.'));}
 
   function render() {
     const day = days.find(item => item.date === selectedDate);
     dateInput.value = selectedDate;dateInput.disabled=false;dateInput.min=allReportDates.at(-1)||'';dateInput.max=allReportDates[0]||'';
-    $('updated-at').textContent=timestamp(platformReports[selectedPlatform]?.updatedAt||days[0]?.casesUpdatedAt||(selectedPlatform==='gangnamunni'?meta.updatedAt:null));
+    const dayUpdate=[day?.checkedAt,day?.casesUpdatedAt].filter(v=>typeof v==='string'&&/(Z|[+-]\d{2}:?\d{2})$/i.test(v)&&Number.isFinite(Date.parse(v))).sort((a,b)=>Date.parse(b)-Date.parse(a))[0];
+    $('updated-at').textContent=timestamp(dayUpdate||platformReports[selectedPlatform]?.updatedAt||(selectedPlatform==='gangnamunni'?meta.updatedAt:null));
     const index = days.findIndex(item => item.date === selectedDate);
     $('previous-day').disabled = index < 0 || index >= days.length - 1;
     $('next-day').disabled = index <= 0;
@@ -378,7 +385,7 @@
     const notice = $('data-notice'); notice.className = `notice${day && day.status !== 'completed' ? ' warning' : ''}`;
     if (!hasPayload) notice.textContent = '집계 데이터가 없거나 로드되지 않았습니다. data.js 게시 상태를 확인해 주세요. 예시 데이터는 표시하지 않습니다. 모든 시각은 KST입니다.';
     else if (!day) notice.textContent = selectedDate ? platformName()+' · '+selectedDate+' KST 상담 검수 미확인. 이 플랫폼의 보고서가 아직 등록되지 않았습니다.' : '아직 게시된 집계가 없습니다. 검토 결과가 게시되면 표시됩니다. 모든 시각은 KST입니다.';
-    else if (day.status === 'partial') notice.textContent = `${day.date} KST · 부분 집계입니다. 미검토·누락 범위가 있을 수 있으며 전체 검토 완료 또는 오류 없음으로 해석하지 않습니다.`;
+    else if (day.status === 'partial' || semanticIncomplete(day)) notice.textContent = `${day.date} KST · 부분 집계입니다. 미검토·누락 범위가 있을 수 있으며 전체 검토 완료 또는 오류 없음으로 해석하지 않습니다.`;
     else if (day.status !== 'completed') notice.textContent = `${day.date} KST · 집계 상태를 확인할 수 없습니다. 완료로 간주하지 않습니다.`;
     else notice.textContent = `${day.date} KST · 점검 완료.`;
     if(typeof day?.reviewScope==='string'&&day.reviewScope.trim())notice.textContent+=' 검수 범위: '+day.reviewScope;
