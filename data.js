@@ -1,7 +1,7 @@
 window.SUPERVISION_DATA = {
   "meta": {
     "title": "뷰티블라썸 상담 품질 감독",
-    "updatedAt": "2026-10-30T23:42:14.945Z",
+    "updatedAt": "2026-10-30T23:52:11.520Z",
     "timeZone": "Asia/Seoul",
     "sheetUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit",
     "schedule": {
@@ -783,7 +783,7 @@ window.SUPERVISION_DATA = {
                 {
                   "kind": "context",
                   "original": "Beauty Blossom Design Face Filler — Forehead, Nose, Smile Lines & Chin Customized Treatment at Hongd",
-                  "ko": "얼굴 디자인 필러:이마·코·팔자·턱 맞춤 시술 이벤트 문의"
+                  "ko": "뷰티블라썸 얼굴 디자인 필러 — 이마·코·팔자주름·턱 맞춤 시술, Hongd에서"
                 }
               ],
               "staffMessages": [
@@ -804,7 +804,7 @@ window.SUPERVISION_DATA = {
               "quoteScopeNote": "해당 사례와 관련된 문자 메시지 단위 전체와 완전한 한국어 번역입니다. 유입정보는 직접 고객발화와 구분하며, 개인정보만 명시적으로 가렸습니다. 이미지 응답은 존재만 표시하고 원본·첨부·무관한 전체 대화는 공개하지 않습니다.",
               "quoteFormat": "full-messages-v1",
               "customerText": "Beauty Blossom Design Face Filler — Forehead, Nose, Smile Lines & Chin Customized Treatment at Hongd",
-              "customerKo": "얼굴 디자인 필러:이마·코·팔자·턱 맞춤 시술 이벤트 문의",
+              "customerKo": "뷰티블라썸 얼굴 디자인 필러 — 이마·코·팔자주름·턱 맞춤 시술, Hongd에서",
               "staffText": "If you have any questions or need further information, please feel free to reach out to us anytime!\n\nThank you! 🌸",
               "staffKo": "질문이나 추가로 필요한 정보가 있으면 언제든지 편하게 연락해 주세요!\n\n감사합니다!"
             },
