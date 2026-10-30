@@ -272,24 +272,28 @@
     if(k?.status!=='verified'){replace(target,node('p','helper','지식기반 재검증 미등록'));return;}
     const grid=node('div','knowledge-metrics');
     for(const [label,value,unit] of [['가이드 문서',k.guideDocuments,'개'],['수가표 행',k.priceOffers,'행'],['재매칭 상담',k.rooms,'개']]){const item=node('div');item.append(node('strong','',suppliedNumber(value)?fmt(value)+unit:'미등록'),node('span','',label));grid.append(item);}
-    replace(target,grid,node('p','helper','원본 수가 '+fmt(k.priceSheets)+'시트 · '+fmt(k.sourceCells)+'셀 · 규칙 '+fmt(k.ruleCount)+'개 · 검토된 정책 사실 '+fmt(k.curatedFacts)+'개'),node('p','helper','검토항목 '+fmt(k.findingPackets)+'개 · 출처 연결 '+fmt(k.citationLinks)+'회 · 기존 누락 철회 '+fmt(k.withdrawnRegression)+'/5 회귀 통과'),node('p','helper','가격 비교 '+fmt(k.priceComparisons)+'회(중복 포함): 일치 '+fmt(k.priceMatched)+'회 · 조건/셀 대조로 자동 비교 제외 '+fmt(k.priceNotComparable)+'회'),node('p','helper','자료충돌 '+fmt(k.sourceConflictOccurrences)+'사례 / 공통 원인 '+fmt(k.uniqueSourceConflictTopics)+'유형 · 직원 확정 오류와 별도'),node('p','helper',text(k.scope)+' · '+text(k.version)+' · '+timestamp(k.checkedAt)));
+    replace(target,grid,node('p','helper','원본 수가 '+fmt(k.priceSheets)+'시트 · '+fmt(k.sourceCells)+'셀 · 규칙 '+fmt(k.ruleCount)+'개 · 검토된 정책 사실 '+fmt(k.curatedFacts)+'개'),node('p','helper','검토항목 '+fmt(k.findingPackets)+'개 · 출처 연결 '+fmt(k.citationLinks)+'회'),node('p','helper','가격 비교 '+fmt(k.priceComparisons)+'회(중복 포함): 일치 '+fmt(k.priceMatched)+'회 · 조건/셀 대조로 자동 비교 제외 '+fmt(k.priceNotComparable)+'회'),node('p','helper','자료충돌 '+fmt(k.sourceConflictOccurrences)+'사례 / 공통 원인 '+fmt(k.uniqueSourceConflictTopics)+'유형 · 직원 확정 오류와 별도'),node('p','helper',text(k.scope)+' · '+text(k.version)+' · '+timestamp(k.checkedAt)));
   }
   function renderFollowUps(day, target) {
     const summary = day?.followUpSummary;
-    const keys = [['carried','이월'],['resolved','해결'],['unresolved','미해결'],['deferred','확인보류'],['unchecked','미확인'],['withdrawn','판정철회']];
-    const rows = Array.isArray(day?.followUps) ? day.followUps.filter(item => item && typeof item === 'object') : [];
+    const keys = [['carried','이월'],['resolved','해결'],['unresolved','미해결'],['deferred','확인보류'],['unchecked','미확인']];
+    const rows = Array.isArray(day?.followUps) ? day.followUps.filter(item => item && typeof item === 'object' && item.status !== '판정철회') : [];
+    const card = $(target.replace('followups','followup-card'));
+    const explicitEmpty = Array.isArray(day?.followUps) && !rows.length && !['resolved','unresolved','deferred','unchecked'].some(key => number(summary?.[key]) > 0);
+    card.hidden = explicitEmpty;
+    if (explicitEmpty) { replace(target); return; }
     if (!summary && !rows.length) { replace(target, empty('처리현황 미등록', '누락된 기록을 해결로 간주하지 않습니다.')); return; }
-    const box = node('div', 'followup-counts'); keys.forEach(([key, label]) => box.append(node('span', '', label + ' ' + (suppliedNumber(summary?.[key]) ? fmt(summary[key]) + '건' : '미등록'))));
+    const box = node('div', 'followup-counts'); keys.forEach(([key, label]) => box.append(node('span', '', label + ' ' + (suppliedNumber(summary?.[key]) ? fmt(key === 'carried' && suppliedNumber(summary.withdrawn) ? Math.max(0,summary.carried-summary.withdrawn) : summary[key]) + '건' : '미등록'))));
     const completeSummary = keys.every(([key]) => suppliedNumber(summary?.[key]));
     const none = completeSummary && keys.every(([key]) => summary[key] === 0) && Array.isArray(day?.followUps) && !rows.length;
     const children = [box];
-    if (dateValid(day?.followUpAsOf)) children.unshift(node('p','helper','처리 기준일 '+day.followUpAsOf+' · 판정 정정은 해결 건수와 별도 기록'));
+    if (dateValid(day?.followUpAsOf)) children.unshift(node('p','helper','처리 기준일 '+day.followUpAsOf));
     if (none) children.push(node('p', 'helper', '이전 지적사항 없음'));
     else if (!rows.length) children.push(node('p', 'helper', '세부 처리 기록 미등록 · 해결 여부는 개별 근거를 확인해 주세요.'));
     else {
       const list = node('ul', 'followup-list');
       rows.forEach(item => {
-        const li = node('li'); const state = ['해결','미해결','확인보류','미확인','판정철회'].includes(item.status) ? item.status : '미확인';
+        const li = node('li'); const state = ['해결','미해결','확인보류','미확인'].includes(item.status) ? item.status : '미확인';
         li.append(node('strong', '', text(item.title, '지적사항')), node('span', 'followup-state', state), node('p', 'helper', '최초 보고 ' + (dateValid(item.firstReportedDate) ? item.firstReportedDate + ' KST' : '미등록') + ' · 마지막 확인 ' + (text(item.checkedAt) ? timestamp(item.checkedAt) : '미등록')));
         li.append(node('p', '', '처리 내용: ' + text(item.update, '미등록')), node('p', 'helper', '확인 근거: ' + text(item.evidence, '미등록'))); list.append(li);
       }); children.push(list);

@@ -1,7 +1,7 @@
 window.SUPERVISION_DATA = {
   "meta": {
     "title": "뷰티블라썸 상담 품질 감독",
-    "updatedAt": "2026-10-30T00:21:09.747Z",
+    "updatedAt": "2026-10-30T01:00:09.622Z",
     "timeZone": "Asia/Seoul",
     "sheetUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit",
     "schedule": {
@@ -12,7 +12,7 @@ window.SUPERVISION_DATA = {
     "staffMemos": [
       {
         "date": "2026-10-30",
-        "text": "답변누락은 담당자 답변이 전혀 없는 경우만. 응대한 기존 5건은 판정철회.",
+        "text": "답변누락은 담당자 답변이 전혀 없는 경우만.",
         "status": "반영완료"
       },
       {
@@ -278,77 +278,13 @@ window.SUPERVISION_DATA = {
           "limit": ""
         }
       ],
-      "followUpAsOf": "2026-10-30",
-      "followUpScope": "과거 보고 판정 정정",
-      "followUps": [
-        {
-          "id": "issue-20261029-001",
-          "firstReportedDate": "2026-10-29",
-          "kind": "답변누락",
-          "title": "3부위 패키지·합계 문의 충족 여부",
-          "status": "판정철회",
-          "checkedAt": "2026-10-29T23:00:01.732Z",
-          "update": "담당자 답변이 있어 누락 판정 철회",
-          "evidence": "기존 보고 원장에 담당자 응대 기록 확인"
-        },
-        {
-          "id": "issue-20261029-003",
-          "firstReportedDate": "2026-10-29",
-          "kind": "답변누락",
-          "title": "지정비 최소금액·적용상품 조건 누락",
-          "status": "판정철회",
-          "checkedAt": "2026-10-29T23:00:01.732Z",
-          "update": "담당자 답변이 있어 누락 판정 철회",
-          "evidence": "기존 보고 원장에 담당자 응대 기록 확인"
-        },
-        {
-          "id": "issue-20261029-004",
-          "firstReportedDate": "2026-10-29",
-          "kind": "확인필요",
-          "title": "동반 할인 조건",
-          "status": "판정철회",
-          "checkedAt": "2026-10-30T00:13:43.766Z",
-          "update": "원문·동일 상품 가격 재대조 후 판정철회",
-          "evidence": "첨부 상품 금액은 제공 수가표와 일치. 동반·중복할인 적용이 확인되지 않은 가정 금액으로 지적하지 않음."
-        },
-        {
-          "id": "issue-20261029-009",
-          "firstReportedDate": "2026-10-29",
-          "kind": "답변누락",
-          "title": "색소성 병변 진료 선행 안내",
-          "status": "판정철회",
-          "checkedAt": "2026-10-29T23:00:01.732Z",
-          "update": "담당자 답변이 있어 누락 판정 철회",
-          "evidence": "기존 보고 원장에 담당자 응대 기록 확인"
-        },
-        {
-          "id": "issue-20261029-010",
-          "firstReportedDate": "2026-10-29",
-          "kind": "답변누락",
-          "title": "피부진단비 무료 구간 누락",
-          "status": "판정철회",
-          "checkedAt": "2026-10-29T23:00:01.732Z",
-          "update": "담당자 답변이 있어 누락 판정 철회",
-          "evidence": "기존 보고 원장에 담당자 응대 기록 확인"
-        },
-        {
-          "id": "issue-20261029-013",
-          "firstReportedDate": "2026-10-29",
-          "kind": "답변누락",
-          "title": "시술상세 설명 부분 누락",
-          "status": "판정철회",
-          "checkedAt": "2026-10-29T23:00:01.732Z",
-          "update": "담당자 답변이 있어 누락 판정 철회",
-          "evidence": "기존 보고 원장에 담당자 응대 기록 확인"
-        }
-      ],
+      "followUps": [],
       "followUpSummary": {
-        "carried": 6,
+        "carried": 0,
         "resolved": 0,
         "unresolved": 0,
         "deferred": 0,
-        "unchecked": 0,
-        "withdrawn": 6
+        "unchecked": 0
       },
       "definitionRevision": "NO_STAFF_REPLY_ONLY",
       "knowledgeVerification": {
@@ -374,7 +310,6 @@ window.SUPERVISION_DATA = {
         "priceComparisons": 256,
         "priceMatched": 201,
         "priceNotComparable": 55,
-        "withdrawnRegression": 5,
         "uniqueSourceConflictTopics": 5,
         "sourceConflictOccurrences": 6,
         "scope": "기존 수집본 재매칭 · 신규 채팅 및 이미지 재열람 없음",
