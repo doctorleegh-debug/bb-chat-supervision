@@ -136,3 +136,7 @@ node --check data.js
 
 ## 2026-10-30 update
 Same-page statistics uses the same dated daily records. A missing answer means no staff response at all, not an incomplete reply. Five former missing labels were withdrawn, not resolved. Follow-up status and evidence remain distinct. The canonical report address is unchanged.
+
+
+## 지식기반 재검증 표시
+같은 일별 데이터의 knowledgeVerification 요약을 검토/통계에 함께 표시합니다. sourceDate는 원래 수집일, checkedAt은 재매칭일입니다. 가이드18개·표1,034행·원본31시트의 구조화와 검토한 정책17개를 구별합니다. 가격비교256회 중201회 일치·55회 비교제외는 중복 비교를 포함하며 고유상품 수가 아닙니다. 그래프/개인상담 원본은 공개하지 않습니다. 추가할인 조건 미확인에 따른 가정 금액을 지적하지 않아1건을 철회했고, 현재 확인필요2·자료충돌6입니다.

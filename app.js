@@ -267,6 +267,13 @@
     const matches = allKnown && suppliedNumber(expected) && total === number(expected);
     replace('stats-country-panel', list, node('p', 'helper bottom-note', '국가 합계 ' + (allKnown ? fmt(total) + unit : '집계중') + ' / 일일 전체 ' + statValue(expected, unit) + (matches ? ' · 합계 일치' : ' · 누락·집계 범위 확인 필요')));
   }
+  function renderKnowledge(day,target){
+    const k=day?.knowledgeVerification;
+    if(k?.status!=='verified'){replace(target,node('p','helper','지식기반 재검증 미등록'));return;}
+    const grid=node('div','knowledge-metrics');
+    for(const [label,value,unit] of [['가이드 문서',k.guideDocuments,'개'],['수가표 행',k.priceOffers,'행'],['재매칭 상담',k.rooms,'개']]){const item=node('div');item.append(node('strong','',suppliedNumber(value)?fmt(value)+unit:'미등록'),node('span','',label));grid.append(item);}
+    replace(target,grid,node('p','helper','원본 수가 '+fmt(k.priceSheets)+'시트 · '+fmt(k.sourceCells)+'셀 · 규칙 '+fmt(k.ruleCount)+'개 · 검토된 정책 사실 '+fmt(k.curatedFacts)+'개'),node('p','helper','검토항목 '+fmt(k.findingPackets)+'개 · 출처 연결 '+fmt(k.citationLinks)+'회 · 기존 누락 철회 '+fmt(k.withdrawnRegression)+'/5 회귀 통과'),node('p','helper','가격 비교 '+fmt(k.priceComparisons)+'회(중복 포함): 일치 '+fmt(k.priceMatched)+'회 · 조건/셀 대조로 자동 비교 제외 '+fmt(k.priceNotComparable)+'회'),node('p','helper','자료충돌 '+fmt(k.sourceConflictOccurrences)+'사례 / 공통 원인 '+fmt(k.uniqueSourceConflictTopics)+'유형 · 직원 확정 오류와 별도'),node('p','helper',text(k.scope)+' · '+text(k.version)+' · '+timestamp(k.checkedAt)));
+  }
   function renderFollowUps(day, target) {
     const summary = day?.followUpSummary;
     const keys = [['carried','이월'],['resolved','해결'],['unresolved','미해결'],['deferred','확인보류'],['unchecked','미확인'],['withdrawn','판정철회']];
@@ -295,7 +302,7 @@
     const items = [['검토 상담방', statValue(day?.eligibleRooms, '개'), '일일 검토 대상 상담방 · eligibleRooms', ''], ['병원답변', statValue(day?.staffMessages, '건'), '메시지 수 · 개별 담당자 미확인', 'teal'], ['확정 오답', cases.label('confirmedError'), '세부 사례 · 의심·자료충돌 제외', 'red'], ['답변누락', cases.label('missingAnswer'), '담당자 답변이 전혀 없는 사례만', 'red'], ['확인필요', cases.label('needsVerification'), '세부 사례 · 확정 오류 아님', 'amber'], ['자료충돌', cases.label('sourceConflict'), '세부 사례 · 확정 오류 아님', '']];
     replace('stats-kpis', ...items.map(([label, value, note, color]) => { const card = node('article', 'kpi ' + color); card.append(node('h3', 'kpi-label', label), node('div', 'kpi-value stats-value', value), node('p', 'kpi-note', note)); return card; }));
     $('stats-case-note').textContent = '오안내의심 ' + cases.label('suspectedError') + ' · 한 상담방에 여러 사례가 있을 수 있습니다. ' + (cases.complete ? '사례 집계 완료.' : '사례 집계중 · 현재 확인된 사례만 표시하며 오류 0건으로 확정하지 않습니다.');
-    renderFollowUps(day, 'stats-followups');
+    renderFollowUps(day, 'stats-followups'); renderKnowledge(day,'stats-knowledge');
     if (!days.length) replace('stats-trend', empty('게시된 일별 집계 없음'));
     else {
       const ordered = [...days].reverse(); const max = Math.max(1, ...ordered.map(item => number(item.eligibleRooms)));
@@ -337,7 +344,7 @@
     else notice.textContent = `${day.date} KST · 점검 완료.`;
     if (skippedDays) notice.textContent += ' 날짜가 유효하지 않거나 중복된 기록은 표시에서 제외했습니다.';
     $('overview-title').textContent = selectedDate ? `${selectedDate} 검토 요약` : '일일 검토 요약';
-    renderKpis(day); renderVerdicts(day); renderMessages(day); renderCases(day); renderCountry(day); renderIssues(day); renderHistory(); renderCoverage(day); renderFollowUps(day, 'report-followups'); renderStats(day);
+    renderKpis(day); renderVerdicts(day); renderMessages(day); renderCases(day); renderCountry(day); renderIssues(day); renderHistory(); renderCoverage(day); renderFollowUps(day, 'report-followups'); renderKnowledge(day,'report-knowledge'); renderStats(day);
   }
   let memoSheetUrl = '';
   try { const u = new URL(text(meta.staffMemoUrl)); const gid=u.searchParams.get('gid')||u.hash.match(/gid=(\d+)/)?.[1]; if(u.protocol==='https:'&&u.hostname==='docs.google.com'&&/^\/spreadsheets\/d\/[A-Za-z0-9_-]+\/edit$/.test(u.pathname)&&/^\d+$/.test(gid||'')) memoSheetUrl=u.origin+u.pathname+'?gid='+gid+'#gid='+gid; } catch {}

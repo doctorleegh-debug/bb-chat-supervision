@@ -20,3 +20,6 @@
 
 /* Country is the first, prominent row of every case card. */
 .case-review-heading .case-country{display:block;flex:0 0 100%;font-size:28px;font-weight:750;line-height:1.35;color:var(--ink);padding:0;margin:0 0 6px;border:0;background:transparent;white-space:normal;overflow-wrap:anywhere}.case-review-heading .case-verdict{font-size:11px}@media(max-width:640px){.case-review-heading .case-country{font-size:25px}}
+
+/* Provenance summary: counts are structural coverage, not unique medical facts. */
+.knowledge-card{margin-top:18px}.knowledge-metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:16px 0}.knowledge-metrics strong{display:block;font-size:25px;color:var(--purple,#66518a);line-height:1.3}.knowledge-metrics span{display:block;font-size:12px;margin-top:4px}.knowledge-card .helper{overflow-wrap:anywhere}@media(max-width:640px){.knowledge-metrics{gap:8px}.knowledge-metrics strong{font-size:21px}}
