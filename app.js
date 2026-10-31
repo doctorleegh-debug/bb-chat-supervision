@@ -223,7 +223,8 @@
     for (const note of Array.isArray(coverage.limitations) ? coverage.limitations : []) if(text(note))limitations.append(node('li','',note));
     replace('inquiry-language-coverage',...(Array.isArray(coverage.nationalities)?[node('p','helper',sourceScopeNote(day)+' 언어별 알려진 대상·읽은 대상은 운영기록만 있는 방도 포함합니다.')]:[]),node('p','helper',coverage.denominatorKnown === true ? '전체분모 확인됨 · 미열람·접근 실패·원문 미확인 여부는 별도입니다.' : '전체분모 미확인 · 확인된 범위만 표시하며 전수 완료나 오류 없음이 아닙니다.'),list,limitations);
     if (!rows.some(item => item.code === selectedLanguage)) selectedLanguage = 'ALL';
-    const definitions = [{code:'ALL',name:'전체',knownTargetRooms:coverage.confirmedTargetRooms},...rows];
+    const languageKnownTotal = rows.every(item=>suppliedNumber(item.knownTargetRooms)) ? rows.reduce((sum,item)=>sum+item.knownTargetRooms,0) : null;
+    const definitions = [{code:'ALL',name:'전체',knownTargetRooms:languageKnownTotal},...rows];
     const tabs = definitions.map((item,index) => {
       const tab=node('button','',item.name+' '+statValue(item.knownTargetRooms,'방')); tab.type='button'; tab.id='language-tab-'+encodeURIComponent(item.code);
       tab.setAttribute('role','tab'); tab.setAttribute('aria-controls','inquiry-language-panel'); tab.setAttribute('aria-selected',String(item.code === selectedLanguage)); tab.tabIndex=item.code === selectedLanguage ? 0 : -1;
