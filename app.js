@@ -118,7 +118,7 @@
     items.forEach(([label, value, kind]) => {
       const item = node('div', `message-row ${kind}`); const track = node('div', 'mini-track'); track.setAttribute('aria-hidden', 'true');
       const fill = node('div', 'mini-fill'); fill.style.width = `${number(value) / max * 100}%`; track.append(fill);
-      item.append(node('dt', 'message-label', label), track, node('dd','message-count',statValue(value,'건'))); list.append(item);
+      item.append(node('dt', 'message-label', label), track, node('dd','message-count',day.auditState==='reviewed-expanded-safe-scope-unaggregated'?'미집계':statValue(value,'건'))); list.append(item);
     });
     const allMessageCountsKnown=suppliedNumber(day.messageCount)&&items.every(item=>suppliedNumber(item[1]));
     const matches = allMessageCountsKnown&&sum === total;
@@ -155,6 +155,15 @@
       item.append(node('span', '', label), track, node('strong', '', verdictValue(day,country.verdicts,key))); bars.append(item);
     });
     panel.replaceChildren(heading, bars, node('p', 'helper bottom-note', semanticIncomplete(day)?'국가별 판정도 검수분만 표시합니다. 미검수 '+statValue(country.verdicts?.unreviewed,'개')+' · 전체 검수중. '+semanticScopeNote(day):'상담별 대표판정 비교 · 각 막대는 이 탭의 최댓값 기준 · 기타·미확인은 국적을 추정하지 않은 분류입니다.'));
+  }
+  function renderCountryAudit(day){
+    const host=$('country-review-audit');if(!host)return;const cc=day?.countryCoverage;host.hidden=!cc;
+    if(!cc){host.replaceChildren();$('country-basis').textContent='워크북의 국가 탭 기준';$('country-classification-note').textContent='국가 분류는 운영 탭 기준이며 고객의 국적을 의미하지 않습니다. 기타·미확인은 국적을 추정하지 않습니다.';$('stats-country-basis-note').textContent='운영 국가 탭 기준이며 국적을 추정하지 않습니다. 분포 비율은 제공된 국가 행 합계 기준입니다.';return;}
+    $('country-basis').textContent=text(cc.basis);$('country-classification-note').textContent=text(cc.scope);$('stats-country-basis-note').textContent=text(cc.scope)+' '+text(cc.legends?.[0]);
+    const children=[node('h3','','국가별 확인범위 · 전수완료 아님'),node('p','helper',text(cc.scope))];
+    const legend=node('ul','coverage-note');for(const item of cc.legends||[])legend.append(node('li','',item));children.push(legend);
+    if(cc.rows?.length){const {wrap,body}=table([['국가',false],['알려진 대상',true],['명시범위 실검토',true],['정상 재열람 / 이전 원문',false],['읽은 뒤 확인필요',true],['실제 미열람 단위',false],['전체분모 · 보호제외',false]],platformName()+' · '+selectedDate+' · 국가별 실제 확인범위 (미확인은0 아님)');for(const r of cc.rows){const tr=node('tr');tr.append(node('td','',r.name),node('td','number',statValue(r.knownRooms,'방')),node('td','number',statValue(r.reviewedScopeRooms,'방')),node('td','',statValue(r.normalReopenedRooms,'방')+' / '+statValue(r.priorTextRooms,'방')),node('td','number',statValue(r.needsVerificationRooms,'방')),node('td','', '삭제 '+statValue(r.unreadDeletedUnits,'단위')+(r.unreadCardUnits>0?' · 보호카드 '+statValue(r.unreadCardUnits,'개'):'')),node('td','', '전체분모 '+statValue(r.totalDailyRooms,'방')+' · 보호총수 '+statValue(r.protectedTotalRooms,'방')+(suppliedNumber(r.knownProtectedRooms)?' · 확인된 보호제외 '+fmt(r.knownProtectedRooms)+'방':'')+' / '+text(r.reason)));body.append(tr);}children.push(wrap);}else children.push(node('p','helper','당일 확인한 범위에서 국가별 본문검토 대상이 없습니다. 언어목록은 국적 근거로 바꾸지 않습니다.'));
+    for(const n of cc.notes||[])children.push(node('p','helper',n));host.replaceChildren(...children);
   }
   function table(headers, caption) {
     const wrap = node('div', 'table-wrap'); wrap.tabIndex = 0; wrap.setAttribute('role', 'region'); wrap.setAttribute('aria-label', `${caption}, 가로 스크롤 가능`);
@@ -392,7 +401,7 @@
     if(typeof day?.reviewScope==='string'&&day.reviewScope.trim())notice.textContent+=' 검수 범위: '+day.reviewScope;
     if (skippedDays) notice.textContent += ' 날짜가 유효하지 않거나 중복된 기록은 표시에서 제외했습니다.';
     $('overview-title').textContent = platformName()+' · '+(selectedDate||'미선택')+' 검토 요약';
-    renderKpis(day); renderVerdicts(day); renderMessages(day); renderCases(day); renderCountry(day); renderIssues(day); renderHistory(); renderCoverage(day); renderFollowUps(day, 'report-followups'); renderKnowledge(day,'report-knowledge'); renderStats(day); renderReviewLog(day); updateViewContext();
+    renderKpis(day); renderVerdicts(day); renderMessages(day); renderCases(day); renderCountry(day); renderCountryAudit(day); renderIssues(day); renderHistory(); renderCoverage(day); renderFollowUps(day, 'report-followups'); renderKnowledge(day,'report-knowledge'); renderStats(day); renderReviewLog(day); updateViewContext();
   }
   $('staff-memo-title').textContent='AI에 피드백 메모';
   $('staff-memo-link').textContent='피드백 원장 열기';

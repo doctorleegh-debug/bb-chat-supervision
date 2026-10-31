@@ -1,7 +1,7 @@
 window.SUPERVISION_DATA = {
   "meta": {
     "title": "뷰티블라썸 상담 품질 감독",
-    "updatedAt": "2026-10-30T23:52:11.520Z",
+    "updatedAt": "2026-10-31T00:18:51.490Z",
     "timeZone": "Asia/Seoul",
     "sheetUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit",
     "schedule": {
@@ -42,7 +42,7 @@ window.SUPERVISION_DATA = {
         "inboxVerified": true,
         "auditDate": "2026-10-30",
         "summary": "2026-10-30 상담 36개·메시지 미집계의 부분 검토 기록",
-        "limit": "검수 범위: 누적36방의 명시된 응답범위를 검토했습니다(적정26·확인필요6·공통환산자료노출3·자료오전송1). 정상 재열람22방·첨부34표시와 이전 원문14방·텍스트50단위를 중복 없이 통합했습니다. 확장36방 메시지 총수·분류·국가별 메시지는 미집계이며 초기26방159단위를 재사용하지 않습니다. 삭제원문2단위는 미검수·판정제외, 읽지않음/대기/고객최종미답변/안전불명 방은 보호·제외입니다. 확인필요는 원문·이미지를 읽은 뒤 근거가 부족한 판정이며 미열람과 다릅니다. 보고서대상일은30일, 정상후속 관찰은31일입니다. 전체 원문전수상태는partial입니다. 실제 확인한 점검 범위에 한정하며, 상시 즉시 감시·푸시 수신은 검증되지 않았습니다."
+        "limit": "검수 범위: 누적36방의 명시된 응답범위를 검토했습니다(적정26·확인필요6·공통환산자료노출3·자료오전송1). 정상 재열람22방·첨부34표시와 이전 원문14방·텍스트50단위를 중복 없이 통합했습니다. 확장36방 메시지 총수·분류·국가별 메시지는 미집계이며 초기26방159단위를 재사용하지 않습니다. 삭제원문2단위는 미검수·판정제외, 읽지않음/대기/고객최종미답변/안전불명 방은 보호·제외입니다. 확인필요는 원문·이미지를 읽은 뒤 근거가 부족한 판정이며 미열람과 다릅니다. 보고서대상일은30일, 정상후속 관찰은31일입니다. 전체 원문전수상태는partial입니다. 검토36방의 실제 고객정보 국적 필드를 대조하여11국가로 확인했습니다. 목록의 ZZ아이콘과 고객정보 국적이 다른4방은 실제 국적 필드를 우선했습니다. 국가필터 해제 완료목록을10/29경계까지 본 것은 모든 국가·모든 상태의30일 본문/첨부 전수검수와 다릅니다. 국가별 전체 대상분모와 보호/미검수 방수는 미확인입니다. 실제 확인한 점검 범위에 한정하며, 상시 즉시 감시·푸시 수신은 검증되지 않았습니다."
       },
       {
         "id": "kakao-clinic",
@@ -53,7 +53,7 @@ window.SUPERVISION_DATA = {
         "inboxVerified": true,
         "auditDate": "2026-10-30",
         "summary": "2026-10-30 상담 3개·메시지 14건의 부분 검토 기록",
-        "limit": "검수 범위: 현재 안전조건을 통과한 기존3방·14단위를 실제 읽고 운영시간카드1개도 확인했습니다. 응답범위 적정2·확인필요1입니다. 기존 보호1방의 카드2개는 열지 않았으며 다른3방으로 대체하지 않습니다. 읽지않음·대기·고객최종미답변·안전불명과 폐기자료는 제외했습니다. 전체 원문전수는partial이며 국적은 추정하지 않습니다. 실제 확인한 점검 범위에 한정하며, 상시 즉시 감시·푸시 수신은 검증되지 않았습니다."
+        "limit": "검수 범위: 현재 안전조건을 통과한 기존3방·14단위를 실제 읽고 운영시간카드1개도 확인했습니다. 응답범위 적정2·확인필요1입니다. 기존 보호1방의 카드2개는 열지 않았으며 다른3방으로 대체하지 않습니다. 읽지않음·대기·고객최종미답변·안전불명과 폐기자료는 제외했습니다. 전체 원문전수는partial이며 국적은 추정하지 않습니다. 기타·미확인3방은 국적정보 부재이지 미검수3방이라는 뜻이 아닙니다. 안전3방은 실제 읽었고, 보호제외1방 카드2개만 별도 미열람입니다. 국적별 전체 분모·추가보호 수는 미확인입니다. 실제 확인한 점검 범위에 한정하며, 상시 즉시 감시·푸시 수신은 검증되지 않았습니다."
       },
       {
         "id": "babitalk",
@@ -64,7 +64,7 @@ window.SUPERVISION_DATA = {
         "inboxVerified": true,
         "auditDate": "2026-10-30",
         "summary": "2026-10-30 해외 채팅 활동 0개·0건 / 국내 신청·기존 문자 별도 기록",
-        "limit": "검수 범위: 해외 전체/지원언어 목록8건(일본어8,영어·번체·간체0)을 확인했고30일 해외활동은0입니다. 국내 신청1건·기존 부재문자1건은 별도 읽었습니다. 이를 실시간채팅방1개·전체통화상담 검수완료나 플랫폼전체0으로 합치지 않습니다. 과거 해외8방 본문은 새로 검수하지 않았고 국내 통화내용은 이번채팅검수 범위밖입니다. 실제 확인한 점검 범위에 한정하며, 상시 즉시 감시·푸시 수신은 검증되지 않았습니다."
+        "limit": "검수 범위: 해외 전체/지원언어 목록8건(일본어8,영어·번체·간체0)을 확인했고30일 해외활동은0입니다. 국내 신청1건·기존 부재문자1건은 별도 읽었습니다. 이를 실시간채팅방1개·전체통화상담 검수완료나 플랫폼전체0으로 합치지 않습니다. 과거 해외8방 본문은 새로 검수하지 않았고 국내 통화내용은 이번채팅검수 범위밖입니다. 해외 언어목록은 국적라벨이 아닙니다. 일본어목록8건을 일본국적8명으로 추정하지 않습니다. 당일 해외활동0과 국내신청/문자 별도 확인범위만 보고합니다. 실제 확인한 점검 범위에 한정하며, 상시 즉시 감시·푸시 수신은 검증되지 않았습니다."
       }
     ]
   },
@@ -635,15 +635,15 @@ window.SUPERVISION_DATA = {
             {
               "code": "US",
               "name": "미국",
-              "rooms": 4,
+              "rooms": 7,
               "messages": null,
               "verdicts": {
-                "appropriate": 1,
+                "appropriate": 2,
                 "confirmedError": 0,
                 "suspectedError": 0,
                 "missingAnswer": 0,
                 "sourceConflict": 0,
-                "needsVerification": 3
+                "needsVerification": 5
               }
             },
             {
@@ -733,15 +733,29 @@ window.SUPERVISION_DATA = {
             {
               "code": "ZZ",
               "name": "기타·미확인",
-              "rooms": 4,
+              "rooms": 0,
               "messages": null,
               "verdicts": {
-                "appropriate": 2,
+                "appropriate": 0,
                 "confirmedError": 0,
                 "suspectedError": 0,
                 "missingAnswer": 0,
                 "sourceConflict": 0,
-                "needsVerification": 2
+                "needsVerification": 0
+              }
+            },
+            {
+              "code": "IT",
+              "name": "이탈리아",
+              "rooms": 1,
+              "messages": null,
+              "verdicts": {
+                "appropriate": 1,
+                "confirmedError": 0,
+                "suspectedError": 0,
+                "missingAnswer": 0,
+                "sourceConflict": 0,
+                "needsVerification": 0
               }
             }
           ],
@@ -852,7 +866,7 @@ window.SUPERVISION_DATA = {
             {
               "id": "G-20261030-case-003",
               "verdict": "needsVerification",
-              "country": "ZZ",
+              "country": "US",
               "title": "피코 자료 일부 금액·구성·버전 대응 확인",
               "procedure": "피코 색소 레이저",
               "questionCategory": "자료금액·구성·적용조건",
@@ -965,7 +979,7 @@ window.SUPERVISION_DATA = {
             {
               "id": "G-20261030-case-006",
               "verdict": "needsVerification",
-              "country": "ZZ",
+              "country": "US",
               "title": "최종 예약요청에 대한 확정 회신 확인",
               "procedure": "확인되지 않음",
               "questionCategory": "예약확정·예상소요시간",
@@ -1314,7 +1328,7 @@ window.SUPERVISION_DATA = {
             },
             {
               "id": "G-20261030-031",
-              "country": "ZZ",
+              "country": "US",
               "procedure": "확인되지 않음",
               "questionCategory": "예약확정·예상소요시간",
               "verdict": "needsVerification",
@@ -1336,7 +1350,7 @@ window.SUPERVISION_DATA = {
             },
             {
               "id": "G-20261030-033",
-              "country": "ZZ",
+              "country": "US",
               "procedure": "피코 색소레이저",
               "questionCategory": "이벤트·가격자료",
               "verdict": "needsVerification",
@@ -1348,7 +1362,7 @@ window.SUPERVISION_DATA = {
             },
             {
               "id": "G-20261030-034",
-              "country": "ZZ",
+              "country": "IT",
               "procedure": "주름 보톡스",
               "questionCategory": "이벤트·가격자료",
               "verdict": "appropriate",
@@ -1358,7 +1372,7 @@ window.SUPERVISION_DATA = {
             },
             {
               "id": "G-20261030-035",
-              "country": "ZZ",
+              "country": "US",
               "procedure": "교근 보톡스",
               "questionCategory": "일정 응답 확인",
               "verdict": "appropriate",
@@ -1377,7 +1391,7 @@ window.SUPERVISION_DATA = {
               "note": "원문·실제 첨부를 제공자료와 대조한 명시된 응답범위의 판정입니다. 개별 시술적합성·모든 과거대화의 무오류 보장이 아닙니다."
             }
           ],
-          "reviewScope": "누적36방의 명시된 응답범위를 검토했습니다(적정26·확인필요6·공통환산자료노출3·자료오전송1). 정상 재열람22방·첨부34표시와 이전 원문14방·텍스트50단위를 중복 없이 통합했습니다. 확장36방 메시지 총수·분류·국가별 메시지는 미집계이며 초기26방159단위를 재사용하지 않습니다. 삭제원문2단위는 미검수·판정제외, 읽지않음/대기/고객최종미답변/안전불명 방은 보호·제외입니다. 확인필요는 원문·이미지를 읽은 뒤 근거가 부족한 판정이며 미열람과 다릅니다. 보고서대상일은30일, 정상후속 관찰은31일입니다. 전체 원문전수상태는partial입니다.",
+          "reviewScope": "누적36방의 명시된 응답범위를 검토했습니다(적정26·확인필요6·공통환산자료노출3·자료오전송1). 정상 재열람22방·첨부34표시와 이전 원문14방·텍스트50단위를 중복 없이 통합했습니다. 확장36방 메시지 총수·분류·국가별 메시지는 미집계이며 초기26방159단위를 재사용하지 않습니다. 삭제원문2단위는 미검수·판정제외, 읽지않음/대기/고객최종미답변/안전불명 방은 보호·제외입니다. 확인필요는 원문·이미지를 읽은 뒤 근거가 부족한 판정이며 미열람과 다릅니다. 보고서대상일은30일, 정상후속 관찰은31일입니다. 전체 원문전수상태는partial입니다. 검토36방의 실제 고객정보 국적 필드를 대조하여11국가로 확인했습니다. 목록의 ZZ아이콘과 고객정보 국적이 다른4방은 실제 국적 필드를 우선했습니다. 국가필터 해제 완료목록을10/29경계까지 본 것은 모든 국가·모든 상태의30일 본문/첨부 전수검수와 다릅니다. 국가별 전체 대상분모와 보호/미검수 방수는 미확인입니다.",
           "coverage": {
             "candidateRooms": null,
             "reviewedRooms": 36,
@@ -1403,6 +1417,191 @@ window.SUPERVISION_DATA = {
             "sourceConflictOccurrences": 3,
             "checkedAt": "2026-10-30T22:35:15.598Z",
             "scope": "정상열람22방·첨부34표시/이전텍스트14방 통합. 공통환산문제 원인1·노출3. 삭제2단위·보호범위 제외. 확장 메시지 미집계."
+          },
+          "countryCoverage": {
+            "basis": "실제 고객정보 국적 필드 기준 · 목록 아이콘과 다르면 국적 필드 우선",
+            "allCountryDailyAuditComplete": false,
+            "denominatorKnown": false,
+            "scope": "검토36방의 실제 고객정보 국적 필드를 대조하여11국가로 확인했습니다. 목록의 ZZ아이콘과 고객정보 국적이 다른4방은 실제 국적 필드를 우선했습니다. 국가필터 해제 완료목록을10/29경계까지 본 것은 모든 국가·모든 상태의30일 본문/첨부 전수검수와 다릅니다. 국가별 전체 대상분모와 보호/미검수 방수는 미확인입니다.",
+            "legends": [
+              "국적 미확인: 확인한 고객정보/원천에 국적정보가 없거나 해당 필드가 미확인인 분류입니다. 목록 ZZ아이콘만으로 판단하지 않습니다. 원문 미검수라는 뜻이 아니며 언어·이름으로 추정하지 않습니다.",
+              "실제 미열람: 원문·첨부를 읽지 못한 범위입니다. 삭제 원문과 안전조건상 보호제외는 판정에서 분리합니다.",
+              "확인필요: 원문·이미지를 실제 읽었지만 적용조건·자료근거가 부족한 판정입니다. 미열람과 다릅니다.",
+              "미집계: 확장범위 메시지 총수를 재계수하지 않은 상태입니다. 0건이나 이전 부분집합 수치로 바꾸지 않습니다."
+            ],
+            "rows": [
+              {
+                "code": "GB",
+                "name": "영국",
+                "knownRooms": 1,
+                "reviewedScopeRooms": 1,
+                "normalReopenedRooms": 0,
+                "priorTextRooms": 1,
+                "needsVerificationRooms": 0,
+                "unreadDeletedUnits": 0,
+                "unreadCardUnits": 0,
+                "knownProtectedRooms": null,
+                "totalDailyRooms": null,
+                "protectedTotalRooms": null,
+                "reason": "실제 고객정보 국적 필드와 저장 원문 연결. 해당 범위만 검토, 국가별 전체분모·보호방수 미확인."
+              },
+              {
+                "code": "TH",
+                "name": "태국",
+                "knownRooms": 7,
+                "reviewedScopeRooms": 7,
+                "normalReopenedRooms": 4,
+                "priorTextRooms": 3,
+                "needsVerificationRooms": 1,
+                "unreadDeletedUnits": 1,
+                "unreadCardUnits": 0,
+                "knownProtectedRooms": null,
+                "totalDailyRooms": null,
+                "protectedTotalRooms": null,
+                "reason": "실제 고객정보 국적 필드와 저장 원문 연결. 해당 범위만 검토, 국가별 전체분모·보호방수 미확인."
+              },
+              {
+                "code": "SG",
+                "name": "싱가포르",
+                "knownRooms": 2,
+                "reviewedScopeRooms": 2,
+                "normalReopenedRooms": 1,
+                "priorTextRooms": 1,
+                "needsVerificationRooms": 0,
+                "unreadDeletedUnits": 0,
+                "unreadCardUnits": 0,
+                "knownProtectedRooms": null,
+                "totalDailyRooms": null,
+                "protectedTotalRooms": null,
+                "reason": "실제 고객정보 국적 필드와 저장 원문 연결. 해당 범위만 검토, 국가별 전체분모·보호방수 미확인."
+              },
+              {
+                "code": "US",
+                "name": "미국",
+                "knownRooms": 7,
+                "reviewedScopeRooms": 7,
+                "normalReopenedRooms": 6,
+                "priorTextRooms": 1,
+                "needsVerificationRooms": 5,
+                "unreadDeletedUnits": 1,
+                "unreadCardUnits": 0,
+                "knownProtectedRooms": null,
+                "totalDailyRooms": null,
+                "protectedTotalRooms": null,
+                "reason": "실제 고객정보 국적 필드와 저장 원문 연결. 해당 범위만 검토, 국가별 전체분모·보호방수 미확인."
+              },
+              {
+                "code": "TW",
+                "name": "대만",
+                "knownRooms": 10,
+                "reviewedScopeRooms": 10,
+                "normalReopenedRooms": 8,
+                "priorTextRooms": 2,
+                "needsVerificationRooms": 0,
+                "unreadDeletedUnits": 0,
+                "unreadCardUnits": 0,
+                "knownProtectedRooms": null,
+                "totalDailyRooms": null,
+                "protectedTotalRooms": null,
+                "reason": "실제 고객정보 국적 필드와 저장 원문 연결. 해당 범위만 검토, 국가별 전체분모·보호방수 미확인."
+              },
+              {
+                "code": "RU",
+                "name": "러시아",
+                "knownRooms": 1,
+                "reviewedScopeRooms": 1,
+                "normalReopenedRooms": 1,
+                "priorTextRooms": 0,
+                "needsVerificationRooms": 0,
+                "unreadDeletedUnits": 0,
+                "unreadCardUnits": 0,
+                "knownProtectedRooms": null,
+                "totalDailyRooms": null,
+                "protectedTotalRooms": null,
+                "reason": "실제 고객정보 국적 필드와 저장 원문 연결. 해당 범위만 검토, 국가별 전체분모·보호방수 미확인."
+              },
+              {
+                "code": "DE",
+                "name": "독일",
+                "knownRooms": 1,
+                "reviewedScopeRooms": 1,
+                "normalReopenedRooms": 0,
+                "priorTextRooms": 1,
+                "needsVerificationRooms": 0,
+                "unreadDeletedUnits": 0,
+                "unreadCardUnits": 0,
+                "knownProtectedRooms": null,
+                "totalDailyRooms": null,
+                "protectedTotalRooms": null,
+                "reason": "실제 고객정보 국적 필드와 저장 원문 연결. 해당 범위만 검토, 국가별 전체분모·보호방수 미확인."
+              },
+              {
+                "code": "CA",
+                "name": "캐나다",
+                "knownRooms": 1,
+                "reviewedScopeRooms": 1,
+                "normalReopenedRooms": 1,
+                "priorTextRooms": 0,
+                "needsVerificationRooms": 0,
+                "unreadDeletedUnits": 0,
+                "unreadCardUnits": 0,
+                "knownProtectedRooms": null,
+                "totalDailyRooms": null,
+                "protectedTotalRooms": null,
+                "reason": "실제 고객정보 국적 필드와 저장 원문 연결. 해당 범위만 검토, 국가별 전체분모·보호방수 미확인."
+              },
+              {
+                "code": "FI",
+                "name": "핀란드",
+                "knownRooms": 1,
+                "reviewedScopeRooms": 1,
+                "normalReopenedRooms": 0,
+                "priorTextRooms": 1,
+                "needsVerificationRooms": 0,
+                "unreadDeletedUnits": 0,
+                "unreadCardUnits": 0,
+                "knownProtectedRooms": null,
+                "totalDailyRooms": null,
+                "protectedTotalRooms": null,
+                "reason": "실제 고객정보 국적 필드와 저장 원문 연결. 해당 범위만 검토, 국가별 전체분모·보호방수 미확인."
+              },
+              {
+                "code": "JP",
+                "name": "일본",
+                "knownRooms": 4,
+                "reviewedScopeRooms": 4,
+                "normalReopenedRooms": 0,
+                "priorTextRooms": 4,
+                "needsVerificationRooms": 0,
+                "unreadDeletedUnits": 0,
+                "unreadCardUnits": 0,
+                "knownProtectedRooms": null,
+                "totalDailyRooms": null,
+                "protectedTotalRooms": null,
+                "reason": "실제 고객정보 국적 필드와 저장 원문 연결. 해당 범위만 검토, 국가별 전체분모·보호방수 미확인."
+              },
+              {
+                "code": "IT",
+                "name": "이탈리아",
+                "knownRooms": 1,
+                "reviewedScopeRooms": 1,
+                "normalReopenedRooms": 1,
+                "priorTextRooms": 0,
+                "needsVerificationRooms": 0,
+                "unreadDeletedUnits": 0,
+                "unreadCardUnits": 0,
+                "knownProtectedRooms": null,
+                "totalDailyRooms": null,
+                "protectedTotalRooms": null,
+                "reason": "실제 고객정보 국적 필드와 저장 원문 연결. 해당 범위만 검토, 국가별 전체분모·보호방수 미확인."
+              }
+            ],
+            "notes": [
+              "확인대상/실검토는 알려진 방의 명시된 범위입니다. 모든 과거대화·삭제원문·보호방까지 읽었다는 뜻이 아닙니다.",
+              "확인필요 방은 실검토 수에 포함됩니다. 삭제·보호로 실제 읽지 못한 자료는 별도 표시합니다.",
+              "전체 분모/보호수 미확인은0이 아니며, 제외 사유와 검토범위는 플랫폼별로 분리합니다.",
+              "이번36방 안의 국적 미확인0과 국가별 전체분모/보호수 미확인은 다른 정보입니다. 국적이 확인돼도 전국가 전수검수 완료는 아닙니다."
+            ]
           }
         },
         {
@@ -2405,7 +2604,7 @@ window.SUPERVISION_DATA = {
               "rationale": "턱1cc360,000원VAT포함이라는 답변을 실제 읽었습니다. 같은 브랜드·부위·카카오 적용조건의 제공근거가 부족하여 확인필요입니다."
             }
           ],
-          "reviewScope": "현재 안전조건을 통과한 기존3방·14단위를 실제 읽고 운영시간카드1개도 확인했습니다. 응답범위 적정2·확인필요1입니다. 기존 보호1방의 카드2개는 열지 않았으며 다른3방으로 대체하지 않습니다. 읽지않음·대기·고객최종미답변·안전불명과 폐기자료는 제외했습니다. 전체 원문전수는partial이며 국적은 추정하지 않습니다.",
+          "reviewScope": "현재 안전조건을 통과한 기존3방·14단위를 실제 읽고 운영시간카드1개도 확인했습니다. 응답범위 적정2·확인필요1입니다. 기존 보호1방의 카드2개는 열지 않았으며 다른3방으로 대체하지 않습니다. 읽지않음·대기·고객최종미답변·안전불명과 폐기자료는 제외했습니다. 전체 원문전수는partial이며 국적은 추정하지 않습니다. 기타·미확인3방은 국적정보 부재이지 미검수3방이라는 뜻이 아닙니다. 안전3방은 실제 읽었고, 보호제외1방 카드2개만 별도 미열람입니다. 국적별 전체 분모·추가보호 수는 미확인입니다.",
           "coverage": {
             "candidateRooms": null,
             "reviewedRooms": 3,
@@ -2433,6 +2632,40 @@ window.SUPERVISION_DATA = {
             "messages": 14,
             "checkedAt": "2026-10-30T22:35:15.598Z",
             "scope": "현재안전3방·14단위/운영카드1. 적정2·확인필요1. 보호1방카드2제외."
+          },
+          "countryCoverage": {
+            "basis": "플랫폼 국적정보 부재 · 추정 없음",
+            "allCountryDailyAuditComplete": false,
+            "denominatorKnown": false,
+            "scope": "기타·미확인3방은 국적정보 부재이지 미검수3방이라는 뜻이 아닙니다. 안전3방은 실제 읽었고, 보호제외1방 카드2개만 별도 미열람입니다. 국적별 전체 분모·추가보호 수는 미확인입니다.",
+            "legends": [
+              "국적 미확인: 확인한 고객정보/원천에 국적정보가 없거나 해당 필드가 미확인인 분류입니다. 목록 ZZ아이콘만으로 판단하지 않습니다. 원문 미검수라는 뜻이 아니며 언어·이름으로 추정하지 않습니다.",
+              "실제 미열람: 원문·첨부를 읽지 못한 범위입니다. 삭제 원문과 안전조건상 보호제외는 판정에서 분리합니다.",
+              "확인필요: 원문·이미지를 실제 읽었지만 적용조건·자료근거가 부족한 판정입니다. 미열람과 다릅니다.",
+              "미집계: 확장범위 메시지 총수를 재계수하지 않은 상태입니다. 0건이나 이전 부분집합 수치로 바꾸지 않습니다."
+            ],
+            "rows": [
+              {
+                "code": "ZZ",
+                "name": "기타·미확인",
+                "knownRooms": 3,
+                "reviewedScopeRooms": 3,
+                "normalReopenedRooms": 3,
+                "priorTextRooms": 0,
+                "needsVerificationRooms": 1,
+                "unreadDeletedUnits": 0,
+                "unreadCardUnits": 2,
+                "knownProtectedRooms": 1,
+                "totalDailyRooms": null,
+                "protectedTotalRooms": null,
+                "reason": "국적정보 미제공. 안전3방 실검토 완료. 보호제외1방의 카드2개는 이3방 밖의 미열람이며 추가 총수는 미확인."
+              }
+            ],
+            "notes": [
+              "확인대상/실검토는 알려진 방의 명시된 범위입니다. 모든 과거대화·삭제원문·보호방까지 읽었다는 뜻이 아닙니다.",
+              "확인필요 방은 실검토 수에 포함됩니다. 삭제·보호로 실제 읽지 못한 자료는 별도 표시합니다.",
+              "전체 분모/보호수 미확인은0이 아니며, 제외 사유와 검토범위는 플랫폼별로 분리합니다."
+            ]
           }
         },
         {
@@ -3078,7 +3311,7 @@ window.SUPERVISION_DATA = {
           "cases": [],
           "reviewEntries": [],
           "conversations": [],
-          "reviewScope": "해외 전체/지원언어 목록8건(일본어8,영어·번체·간체0)을 확인했고30일 해외활동은0입니다. 국내 신청1건·기존 부재문자1건은 별도 읽었습니다. 이를 실시간채팅방1개·전체통화상담 검수완료나 플랫폼전체0으로 합치지 않습니다. 과거 해외8방 본문은 새로 검수하지 않았고 국내 통화내용은 이번채팅검수 범위밖입니다.",
+          "reviewScope": "해외 전체/지원언어 목록8건(일본어8,영어·번체·간체0)을 확인했고30일 해외활동은0입니다. 국내 신청1건·기존 부재문자1건은 별도 읽었습니다. 이를 실시간채팅방1개·전체통화상담 검수완료나 플랫폼전체0으로 합치지 않습니다. 과거 해외8방 본문은 새로 검수하지 않았고 국내 통화내용은 이번채팅검수 범위밖입니다. 해외 언어목록은 국적라벨이 아닙니다. 일본어목록8건을 일본국적8명으로 추정하지 않습니다. 당일 해외활동0과 국내신청/문자 별도 확인범위만 보고합니다.",
           "coverage": {
             "candidateRooms": 8,
             "reviewedRooms": 0,
@@ -3117,7 +3350,25 @@ window.SUPERVISION_DATA = {
               "scope": "정상 화면의 기존 연락안내문",
               "assessment": "연락안내문 범위 적정 · 실제통화/치료결과 판정 아님"
             }
-          ]
+          ],
+          "countryCoverage": {
+            "basis": "언어목록과 국적 구분",
+            "allCountryDailyAuditComplete": false,
+            "denominatorKnown": false,
+            "scope": "해외 언어목록은 국적라벨이 아닙니다. 일본어목록8건을 일본국적8명으로 추정하지 않습니다. 당일 해외활동0과 국내신청/문자 별도 확인범위만 보고합니다.",
+            "legends": [
+              "국적 미확인: 확인한 고객정보/원천에 국적정보가 없거나 해당 필드가 미확인인 분류입니다. 목록 ZZ아이콘만으로 판단하지 않습니다. 원문 미검수라는 뜻이 아니며 언어·이름으로 추정하지 않습니다.",
+              "실제 미열람: 원문·첨부를 읽지 못한 범위입니다. 삭제 원문과 안전조건상 보호제외는 판정에서 분리합니다.",
+              "확인필요: 원문·이미지를 실제 읽었지만 적용조건·자료근거가 부족한 판정입니다. 미열람과 다릅니다.",
+              "미집계: 확장범위 메시지 총수를 재계수하지 않은 상태입니다. 0건이나 이전 부분집합 수치로 바꾸지 않습니다."
+            ],
+            "rows": [],
+            "notes": [
+              "확인대상/실검토는 알려진 방의 명시된 범위입니다. 모든 과거대화·삭제원문·보호방까지 읽었다는 뜻이 아닙니다.",
+              "확인필요 방은 실검토 수에 포함됩니다. 삭제·보호로 실제 읽지 못한 자료는 별도 표시합니다.",
+              "전체 분모/보호수 미확인은0이 아니며, 제외 사유와 검토범위는 플랫폼별로 분리합니다."
+            ]
+          }
         },
         {
           "platform": "babitalk",

@@ -10,8 +10,8 @@
   <meta name="description" content="비식별 상담 발췌와 판단 근거를 날짜별로 확인하는 상담 품질 감독 대시보드">
   <title>상담 품질 감독 | Daily Review</title>
   <link rel="stylesheet" href="./styles.css?v=e827e92f6305">
-  <script defer src="./data.js?v=7cf26413e3cb"></script>
-  <script defer src="./app.js?v=9d44bfeaaa27"></script>
+  <script defer src="./data.js?v=037b5b06bc5c"></script>
+  <script defer src="./app.js?v=0dc8e0eb1c76"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">본문으로 이동</a>
@@ -79,8 +79,9 @@
       <div id="case-panel" class="case-panel" role="tabpanel" tabindex="0" aria-live="polite"></div>
     </section>
     <section hidden id="countries" class="section" aria-labelledby="countries-title">
-      <div class="section-heading"><div><span class="eyebrow">BY COUNTRY</span><h2 id="countries-title">국가별 검토 현황</h2></div><span class="section-caption">워크북의 국가 탭 기준</span></div>
-      <div class="card country-card"><p class="helper">국가 분류는 운영 탭 기준이며 고객의 국적을 의미하지 않습니다. 기타·미확인은 국적을 추정하지 않습니다.</p><div id="country-tabs" class="country-tabs" role="tablist" aria-label="국가 탭"></div><div id="country-panel" class="country-panel" role="tabpanel" tabindex="0"></div></div>
+      <div class="section-heading"><div><span class="eyebrow">BY COUNTRY</span><h2 id="countries-title">국가별 검토 현황</h2></div><span id="country-basis" class="section-caption">워크북의 국가 탭 기준</span></div>
+      <div class="card country-card"><p id="country-classification-note" class="helper">국가 분류는 운영 탭 기준이며 고객의 국적을 의미하지 않습니다. 기타·미확인은 국적을 추정하지 않습니다.</p><div id="country-tabs" class="country-tabs" role="tablist" aria-label="국가 탭"></div><div id="country-panel" class="country-panel" role="tabpanel" tabindex="0"></div></div>
+      <div id="country-review-audit" class="card table-card" hidden></div>
     </section>
     <section hidden id="issues" class="section" aria-labelledby="issues-title">
       <div class="section-heading"><div><span class="eyebrow">ACTION ITEMS</span><h2 id="issues-title">이슈 분류별 집계</h2></div><span class="section-caption">비식별 분류 · 건수만 표시</span></div>
@@ -104,7 +105,7 @@
       <article id="stats-followup-card" class="card followup-card" aria-labelledby="stats-followup-title"><h3 id="stats-followup-title">이전 지적사항 처리현황</h3><div id="stats-followups"></div></article>
       <article class="card stats-trend-card" aria-labelledby="stats-trend-title"><div class="card-heading"><h3 id="stats-trend-title">일별 검토 추이</h3><span class="pill">상담방 수</span></div><p class="helper">게시된 실제 날짜만 표시합니다. 하루당 한 점이며, 부분 집계는 해당 시점의 값입니다.</p><div id="stats-trend"></div></article>
       <div class="overview-grid">
-        <article class="card" aria-labelledby="stats-country-title"><div class="card-heading"><h3 id="stats-country-title">국가별 분포</h3></div><div class="country-tabs" role="tablist" aria-label="국가 분포 단위"><button id="stats-country-rooms" type="button" role="tab" aria-controls="stats-country-panel">상담방</button><button id="stats-country-messages" type="button" role="tab" aria-controls="stats-country-panel">메시지</button></div><div id="stats-country-panel" role="tabpanel" tabindex="0"></div><p class="helper bottom-note">운영 국가 탭 기준이며 국적을 추정하지 않습니다. 분포 비율은 제공된 국가 행 합계 기준입니다.</p></article>
+        <article class="card" aria-labelledby="stats-country-title"><div class="card-heading"><h3 id="stats-country-title">국가별 분포</h3></div><div class="country-tabs" role="tablist" aria-label="국가 분포 단위"><button id="stats-country-rooms" type="button" role="tab" aria-controls="stats-country-panel">상담방</button><button id="stats-country-messages" type="button" role="tab" aria-controls="stats-country-panel">메시지</button></div><div id="stats-country-panel" role="tabpanel" tabindex="0"></div><p id="stats-country-basis-note" class="helper bottom-note">운영 국가 탭 기준이며 국적을 추정하지 않습니다. 분포 비율은 제공된 국가 행 합계 기준입니다.</p></article>
         <article class="card" aria-labelledby="stats-verdict-title"><div class="card-heading"><h3 id="stats-verdict-title">상담방 대표판정 분포</h3><span class="pill">사례 건수 아님</span></div><div id="stats-verdicts"></div><p class="helper bottom-note">한 상담방당 한 대표판정입니다. 확인필요·의심·자료충돌을 확정 오류에 합산하지 않습니다.</p></article>
       </div>
       <article class="card stats-staff-card" aria-labelledby="stats-staff-title"><h3 id="stats-staff-title">병원답변 집계</h3><p class="helper">담당자 식별정보가 없어 단일 그룹으로 표시합니다. 사례는 선택일의 실제 검수 범위 기준이며 개인별 성과·응답시간을 뜻하지 않습니다.</p><div id="stats-staff"></div></article>
