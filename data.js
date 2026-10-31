@@ -1,7 +1,7 @@
 window.SUPERVISION_DATA = {
   "meta": {
     "title": "뷰티블라썸 상담 품질 감독",
-    "updatedAt": "2026-10-31T07:02:31.723Z",
+    "updatedAt": "2026-10-31T07:02:40.941Z",
     "timeZone": "Asia/Seoul",
     "sheetUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit",
     "schedule": {
@@ -37,7 +37,7 @@ window.SUPERVISION_DATA = {
         "id": "gangnamunni",
         "name": "강남언니",
         "status": "report-partial",
-        "checkedAt": "2026-10-31T03:07:45.347Z",
+        "checkedAt": "2026-10-31T07:02:40.941Z",
         "accountVerified": true,
         "inboxVerified": true,
         "auditDate": "2026-10-30",
@@ -59,7 +59,7 @@ window.SUPERVISION_DATA = {
         "id": "babitalk",
         "name": "바비톡",
         "status": "report-partial",
-        "checkedAt": "2026-10-31T02:55:58.075Z",
+        "checkedAt": "2026-10-31T06:33:46.346Z",
         "accountVerified": true,
         "inboxVerified": true,
         "auditDate": "2026-10-30",
@@ -564,15 +564,15 @@ window.SUPERVISION_DATA = {
   "platformReports": {
     "gangnamunni": {
       "name": "강남언니",
-      "updatedAt": "2026-10-30T03:57:16.902Z",
+      "updatedAt": "2026-10-31T07:02:40.941Z",
       "days": [
         {
           "platform": "gangnamunni",
           "date": "2026-10-30",
           "status": "partial",
           "auditState": "reviewed-expanded-safe-scope-unaggregated",
-          "cutoffAt": "2026-10-31T03:07:45.347Z",
-          "checkedAt": "2026-10-31T03:07:45.347Z",
+          "cutoffAt": "2026-10-30T23:59:59+09:00",
+          "checkedAt": "2026-10-31T07:02:40.941Z",
           "eligibleRooms": 46,
           "reviewedRooms": 46,
           "messageCount": null,
@@ -3057,14 +3057,14 @@ window.SUPERVISION_DATA = {
     },
     "kakao-clinic": {
       "name": "카카오톡(병원계정)",
-      "updatedAt": "2026-10-30T05:27:31.358Z",
+      "updatedAt": "2026-10-31T07:02:31.723Z",
       "days": [
         {
           "platform": "kakao-clinic",
           "date": "2026-10-30",
           "status": "partial",
           "auditState": "reviewed-expanded-safe-scope-unaggregated",
-          "cutoffAt": "2026-10-31T03:02:18.443Z",
+          "cutoffAt": "2026-10-30T23:59:59+09:00",
           "checkedAt": "2026-10-31T07:02:31.723Z",
           "eligibleRooms": 9,
           "reviewedRooms": 9,
@@ -4018,15 +4018,15 @@ window.SUPERVISION_DATA = {
     },
     "babitalk": {
       "name": "바비톡",
-      "updatedAt": "2026-10-30T04:55:54.899Z",
+      "updatedAt": "2026-10-31T06:33:46.346Z",
       "days": [
         {
           "platform": "babitalk",
           "date": "2026-10-30",
           "status": "partial",
           "auditState": "partial-history-unopened-date-unknown",
-          "cutoffAt": "2026-10-31T02:55:58.075Z",
-          "checkedAt": "2026-10-31T02:55:58.075Z",
+          "cutoffAt": "2026-10-30T23:59:59+09:00",
+          "checkedAt": "2026-10-31T06:33:46.346Z",
           "eligibleRooms": 0,
           "reviewedRooms": 0,
           "messageCount": 0,

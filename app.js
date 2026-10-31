@@ -213,7 +213,7 @@
     const rows = languageRows(coverage);
     const complete = inquiryCoverageComplete(coverage);
     $('inquiry-language-status').textContent = complete ? '집계 완료 · 확인된 전체분모 기준' : '부분 집계 · 전체 완료 아님';
-    $('inquiry-language-method').textContent = [text(coverage.label),text(coverage.methodNote),'문의에 사용된 언어의 실무 분류(추정)이며 국가·국적 판정이 아닙니다.'].filter(Boolean).join(' · ');
+    $('inquiry-language-method').textContent = [text(coverage.label),...(text(day.checkedAt)?['이번 재감사 자료 확인 '+timestamp(day.checkedAt)]:[]),text(coverage.methodNote),'문의에 사용된 언어의 실무 분류(추정)이며 국가·국적 판정이 아닙니다.'].filter(Boolean).join(' · ');
     $('inquiry-language-nationality').textContent = '국적 근거: ' + text(coverage.nationalitySourceNote,'미확인 · 문의언어·플랫폼·국가코드로 국적을 추정하지 않습니다.');
     const metrics = [['전체 대상 상담방','totalTargetRooms','방'],['관찰한 후보 상담방','observedCandidateRooms','방'],['당일 대상 확인','confirmedTargetRooms','방'],['알려진 대상 하한','knownTargetRoomLowerBound','방'],['알려진 대상 상한','knownTargetRoomUpperBound','방'],['접근 시도','accessAttemptedRooms','방'],['열람','openedRooms','방'],['당일 대상 검수','reviewedTargetRooms','방'],['보호로 미열람','guardedNotOpenedRooms','방'],['접근 실패','accessFailureRooms','방'],['날짜 미해결','unresolvedDateRooms','방'],['삭제 원문 미열람','deletedOriginalUnreadUnits','단위'],['제공자 개별 메시지 총수','providerIndividualMessageCount','건']];
     for (const [label,key] of [['상담본문 범위','clinicalSourceRooms'],['운영기록만','operatingOnlyRooms'],['보존된 목록 행','retainedListRows'],['보존 목록 미처리 행','unprocessedRetainedRows']]) if(Object.hasOwn(coverage,key))metrics.push([label,key,key.includes('Rows')?'행':'방']);
@@ -257,7 +257,7 @@
     if(!cc && day?.inquiryLanguageCoverage){host.replaceChildren();return;}
     if(!cc){host.replaceChildren();$('country-basis').textContent='워크북의 국가 탭 기준';$('country-classification-note').textContent='국가 분류는 운영 탭 기준이며 고객의 국적을 의미하지 않습니다. 기타·미확인은 국적을 추정하지 않습니다.';$('stats-country-basis-note').textContent='운영 국가 탭 기준이며 국적을 추정하지 않습니다. 분포 비율은 제공된 국가 행 합계 기준입니다.';return;}
     if(!day?.inquiryLanguageCoverage){$('country-basis').textContent=text(cc.basis);$('country-classification-note').textContent=text(cc.scope);$('stats-country-basis-note').textContent=text(cc.scope)+' '+text(cc.legends?.[0]);}
-    const children=[node('h3','','국가별 확인범위 · 전수완료 아님'),node('p','helper',text(cc.scope))];
+    const children=[node('h3','',day.inquiryLanguageCoverage?'기존 상담원장의 과거 확인범위 · 이번 재열람 합계와 별도':'국가별 확인범위 · 전수완료 아님'),node('p','helper',(day.inquiryLanguageCoverage?'아래는 이전 승인 원장의 수집 이력입니다. 이번 재감사의 현재 열람·보호·국가·언어 분모는 별도 문의언어 확인범위를 보세요. 이전 보호/재열람 수를 이번 합계로 재사용하지 않습니다. ':'')+text(cc.scope))];
     const legend=node('ul','coverage-note');for(const item of cc.legends||[])legend.append(node('li','',item));children.push(legend);
     if(cc.rows?.length){const {wrap,body}=table([['국가',false],['알려진 대상',true],['명시범위 실검토',true],['정상 재열람 / 이전 원문',false],['읽은 뒤 확인필요',true],['실제 미열람 단위',false],['전체분모 · 보호제외',false]],platformName()+' · '+selectedDate+' · 국가별 실제 확인범위 (미확인은0 아님)');for(const r of cc.rows){const tr=node('tr');tr.append(node('td','',r.name),node('td','number',statValue(r.knownRooms,'방')),node('td','number',statValue(r.reviewedScopeRooms,'방')),node('td','',statValue(r.normalReopenedRooms,'방')+' / '+statValue(r.priorTextRooms,'방')),node('td','number',statValue(r.needsVerificationRooms,'방')),node('td','', '삭제 '+statValue(r.unreadDeletedUnits,'단위')+(r.unreadCardUnits===null?' · 카드 미열람 미확인':r.unreadCardUnits>0?' · 보호카드 '+statValue(r.unreadCardUnits,'개'):'')),node('td','', '전체분모 '+statValue(r.totalDailyRooms,'방')+' · 보호총수 '+statValue(r.protectedTotalRooms,'방')+(suppliedNumber(r.knownProtectedRooms)?' · 확인된 보호제외 '+fmt(r.knownProtectedRooms)+'방':'')+' / '+text(r.reason)));body.append(tr);}children.push(wrap);}else children.push(node('p','helper','당일 확인한 범위에서 국가별 본문검토 대상이 없습니다. 언어목록은 국적 근거로 바꾸지 않습니다.'));
     for(const n of cc.notes||[])children.push(node('p','helper',n));host.replaceChildren(...children);
@@ -483,9 +483,9 @@
     const records=day?.inquiryLanguageCoverage && Array.isArray(day.nonChatRecords) ? day.nonChatRecords : [];
     const show=records.length>0;
     host.hidden=!show;if(!show){host.replaceChildren();return;}
-    const {wrap,body}=table([['기록 종류',false],['건수',true],['확인 범위',false],['판정 범위',false]],platformName()+' · '+selectedDate+' · 자동 운영기록 · 상담본문 검수 원장과 별도');
+    const {wrap,body}=table([['기록 종류',false],['건수',true],['확인 범위',false],['판정 범위',false]],platformName()+' · '+selectedDate+' · 별도 기록 · 상담 판정에 미합산');
     for(const record of records){const tr=node('tr');tr.append(node('td','',text(record.kind,'기록 종류 미확인')),node('td','number',statValue(record.count,'건')),node('td','',text(record.scope,'미확인')),node('td','',text(record.assessment,'미확인')));body.append(tr);}
-    host.replaceChildren(node('h3','','자동 운영기록 · 상담본문과 별도'),node('p','helper',sourceScopeNote(day)+' 운영기록 수는 상담방 수나 개별 메시지 수가 아닙니다.'),wrap);
+    host.replaceChildren(node('h3','','별도 기록 · 상담 판정에 미합산'),node('p','helper',sourceScopeNote(day)+' 자동카드·기업제안·국내신청 등 각 행의 종류를 구분합니다. 별도 기록 수는 상담방 수나 개별 메시지 수가 아니며 모두 자동발송이라는 뜻도 아닙니다.'),wrap);
   }
 
   function render() {
@@ -505,7 +505,7 @@
     else if (day.status === 'partial' || semanticIncomplete(day)) notice.textContent = `${day.date} KST · 부분 집계입니다. 미검토·누락 범위가 있을 수 있으며 전체 검토 완료 또는 오류 없음으로 해석하지 않습니다.`;
     else if (day.status !== 'completed') notice.textContent = `${day.date} KST · 집계 상태를 확인할 수 없습니다. 완료로 간주하지 않습니다.`;
     else notice.textContent = `${day.date} KST · 점검 완료.`;
-    if(typeof day?.reviewScope==='string'&&day.reviewScope.trim())notice.textContent+=' 검수 범위: '+day.reviewScope;
+    if(typeof day?.reviewScope==='string'&&day.reviewScope.trim())notice.textContent+=(day.inquiryLanguageCoverage?' 기존 원장 범위(이번 추가 재감사와 별도): ':' 검수 범위: ')+day.reviewScope;
     if(day?.inquiryLanguageCoverage?.nationalities)notice.textContent+=' '+sourceScopeNote(day);
     if (skippedDays) notice.textContent += ' 날짜가 유효하지 않거나 중복된 기록은 표시에서 제외했습니다.';
     $('overview-title').textContent = platformName()+' · '+(selectedDate||'미선택')+' 검토 요약';
