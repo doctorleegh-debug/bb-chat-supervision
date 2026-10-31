@@ -1,7 +1,7 @@
 window.SUPERVISION_DATA = {
   "meta": {
     "title": "뷰티블라썸 상담 품질 감독",
-    "updatedAt": "2026-10-31T00:18:51.490Z",
+    "updatedAt": "2026-10-31T03:47:55.524Z",
     "timeZone": "Asia/Seoul",
     "sheetUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit",
     "schedule": {
@@ -37,34 +37,34 @@ window.SUPERVISION_DATA = {
         "id": "gangnamunni",
         "name": "강남언니",
         "status": "report-partial",
-        "checkedAt": "2026-10-30T23:42:14.945Z",
+        "checkedAt": "2026-10-31T03:07:45.347Z",
         "accountVerified": true,
         "inboxVerified": true,
         "auditDate": "2026-10-30",
-        "summary": "2026-10-30 상담 36개·메시지 미집계의 부분 검토 기록",
-        "limit": "검수 범위: 누적36방의 명시된 응답범위를 검토했습니다(적정26·확인필요6·공통환산자료노출3·자료오전송1). 정상 재열람22방·첨부34표시와 이전 원문14방·텍스트50단위를 중복 없이 통합했습니다. 확장36방 메시지 총수·분류·국가별 메시지는 미집계이며 초기26방159단위를 재사용하지 않습니다. 삭제원문2단위는 미검수·판정제외, 읽지않음/대기/고객최종미답변/안전불명 방은 보호·제외입니다. 확인필요는 원문·이미지를 읽은 뒤 근거가 부족한 판정이며 미열람과 다릅니다. 보고서대상일은30일, 정상후속 관찰은31일입니다. 전체 원문전수상태는partial입니다. 검토36방의 실제 고객정보 국적 필드를 대조하여11국가로 확인했습니다. 목록의 ZZ아이콘과 고객정보 국적이 다른4방은 실제 국적 필드를 우선했습니다. 국가필터 해제 완료목록을10/29경계까지 본 것은 모든 국가·모든 상태의30일 본문/첨부 전수검수와 다릅니다. 국가별 전체 대상분모와 보호/미검수 방수는 미확인입니다. 실제 확인한 점검 범위에 한정하며, 상시 즉시 감시·푸시 수신은 검증되지 않았습니다."
+        "summary": "2026-10-30 상담 46개·메시지 미집계의 부분 검토 기록",
+        "limit": "검수 범위: 기존36방 판정·공개 사례 원문과 한국어 번역은 좁은 기존 승인범위로 보존하고 신규10방을 추가한 누적46방입니다. 현재30일 본문 재열람45방과 보호된 태국 과거자료1방을 구분합니다. 현재 실제 국적필드45방·12국가이며 누적 태국8에는 현재7+역사1이 포함됩니다. 후보56·안전열람55 중30일45방, 이미지38표시, UI278단위(본문253+운영카드22+삭제원문미열람3)입니다. 제공자 개별 메시지수는 미집계입니다. 신규 적정9는 행정/접수범위8과 동일범주 지침을 대조한 일반후관리 가시답변1이며, 야간 시술상세문의1은 확인필요·부분범위입니다. 신규10방 모두31일 연속이나31일 답변을30일 상담완료로 보지 않습니다. 전국가/전상태 분모는 미확인·전체partial이며 과거 수집 차이의 구체 원인 또는 직원 답변누락은 미입증입니다. 실제 확인한 점검 범위에 한정하며, 상시 즉시 감시·푸시 수신은 검증되지 않았습니다."
       },
       {
         "id": "kakao-clinic",
         "name": "카카오톡(병원계정)",
         "status": "report-partial",
-        "checkedAt": "2026-10-30T23:42:14.945Z",
+        "checkedAt": "2026-10-31T03:08:40.870Z",
         "accountVerified": true,
         "inboxVerified": true,
         "auditDate": "2026-10-30",
-        "summary": "2026-10-30 상담 3개·메시지 14건의 부분 검토 기록",
-        "limit": "검수 범위: 현재 안전조건을 통과한 기존3방·14단위를 실제 읽고 운영시간카드1개도 확인했습니다. 응답범위 적정2·확인필요1입니다. 기존 보호1방의 카드2개는 열지 않았으며 다른3방으로 대체하지 않습니다. 읽지않음·대기·고객최종미답변·안전불명과 폐기자료는 제외했습니다. 전체 원문전수는partial이며 국적은 추정하지 않습니다. 기타·미확인3방은 국적정보 부재이지 미검수3방이라는 뜻이 아닙니다. 안전3방은 실제 읽었고, 보호제외1방 카드2개만 별도 미열람입니다. 국적별 전체 분모·추가보호 수는 미확인입니다. 실제 확인한 점검 범위에 한정하며, 상시 즉시 감시·푸시 수신은 검증되지 않았습니다."
+        "summary": "2026-10-30 상담 9개·메시지 미집계의 부분 검토 기록",
+        "limit": "검수 범위: 저장된30일11방 중 환자9방만 분모로 삼았습니다(제한범위 적정6·확인필요3: 동일조건 가격1+야간부분범위2). 야간2는 실질 상담·가격/예약확정 검수완료가 아닙니다. 기업제안1방과 목적불명1방은 환자에서 제외합니다. 전체49 UI단위와 환자39 UI단위(문자34+카드5)는 의료메시지수/사람답변수와 다릅니다. 환자9방의 카드5개·전체11방의 카드6개는 표시문자만 읽었으며 버튼·목적지·연결이미지는 열지 않았습니다. 카드 미열람 총수는 미확인입니다. 삭제원문1개 미열람, 보호44방(30일확실34·가능10)은 국적 미검사로 국적미확인9에 합산하지 않습니다. 검토9방의 실제국적은 본문에 없어 미확인이며 이름·언어로 추정하지 않았습니다. casesComplete는 해석한 가시문자 부분집합과 기존 가격사례만 의미하며 전체카드·삭제·전일전수 완료가 아닙니다. 전체partial입니다. 실제 확인한 점검 범위에 한정하며, 상시 즉시 감시·푸시 수신은 검증되지 않았습니다."
       },
       {
         "id": "babitalk",
         "name": "바비톡",
         "status": "report-partial",
-        "checkedAt": "2026-10-30T22:35:15.598Z",
+        "checkedAt": "2026-10-31T02:55:58.075Z",
         "accountVerified": true,
         "inboxVerified": true,
         "auditDate": "2026-10-30",
         "summary": "2026-10-30 해외 채팅 활동 0개·0건 / 국내 신청·기존 문자 별도 기록",
-        "limit": "검수 범위: 해외 전체/지원언어 목록8건(일본어8,영어·번체·간체0)을 확인했고30일 해외활동은0입니다. 국내 신청1건·기존 부재문자1건은 별도 읽었습니다. 이를 실시간채팅방1개·전체통화상담 검수완료나 플랫폼전체0으로 합치지 않습니다. 과거 해외8방 본문은 새로 검수하지 않았고 국내 통화내용은 이번채팅검수 범위밖입니다. 해외 언어목록은 국적라벨이 아닙니다. 일본어목록8건을 일본국적8명으로 추정하지 않습니다. 당일 해외활동0과 국내신청/문자 별도 확인범위만 보고합니다. 실제 확인한 점검 범위에 한정하며, 상시 즉시 감시·푸시 수신은 검증되지 않았습니다."
+        "limit": "검수 범위: 해외 전체목록8건(일본어8, 영어·번체·간체0)의 최신 메시지는10월8일이며 관찰목록의30일 대상0입니다. 과거8방 본문은 열지 않았습니다. 국내30일 신청목록1건은 채팅방이 아닌 신청기록이며 SMS내역 배지1건은 현재 안전조건 미충족으로 본문을 열지 않았습니다. 해외0을 플랫폼전체 무오류·전국가 전수검수로 표현하지 않습니다. 국내 신청국가 표시는 실제 국적검증이 아닙니다. 실제 확인한 점검 범위에 한정하며, 상시 즉시 감시·푸시 수신은 검증되지 않았습니다."
       }
     ]
   },
@@ -571,10 +571,10 @@ window.SUPERVISION_DATA = {
           "date": "2026-10-30",
           "status": "partial",
           "auditState": "reviewed-expanded-safe-scope-unaggregated",
-          "cutoffAt": "2026-10-30T22:10:00.160Z",
-          "checkedAt": "2026-10-30T22:35:15.598Z",
-          "eligibleRooms": 36,
-          "reviewedRooms": 36,
+          "cutoffAt": "2026-10-31T03:07:45.347Z",
+          "checkedAt": "2026-10-31T03:07:45.347Z",
+          "eligibleRooms": 46,
+          "reviewedRooms": 46,
           "messageCount": null,
           "customerMessages": null,
           "staffMessages": null,
@@ -582,12 +582,12 @@ window.SUPERVISION_DATA = {
           "systemMessages": null,
           "deletedMessages": null,
           "verdicts": {
-            "appropriate": 26,
+            "appropriate": 35,
             "confirmedError": 1,
             "suspectedError": 0,
             "missingAnswer": 0,
             "sourceConflict": 3,
-            "needsVerification": 6
+            "needsVerification": 7
           },
           "countries": [
             {
@@ -607,15 +607,43 @@ window.SUPERVISION_DATA = {
             {
               "code": "TH",
               "name": "태국",
-              "rooms": 7,
+              "rooms": 8,
               "messages": null,
               "verdicts": {
-                "appropriate": 6,
+                "appropriate": 7,
                 "confirmedError": 0,
                 "suspectedError": 0,
                 "missingAnswer": 0,
                 "sourceConflict": 0,
                 "needsVerification": 1
+              }
+            },
+            {
+              "code": "TW",
+              "name": "대만",
+              "rooms": 15,
+              "messages": null,
+              "verdicts": {
+                "appropriate": 11,
+                "confirmedError": 0,
+                "suspectedError": 0,
+                "missingAnswer": 0,
+                "sourceConflict": 3,
+                "needsVerification": 1
+              }
+            },
+            {
+              "code": "DE",
+              "name": "독일",
+              "rooms": 1,
+              "messages": null,
+              "verdicts": {
+                "appropriate": 1,
+                "confirmedError": 0,
+                "suspectedError": 0,
+                "missingAnswer": 0,
+                "sourceConflict": 0,
+                "needsVerification": 0
               }
             },
             {
@@ -633,36 +661,8 @@ window.SUPERVISION_DATA = {
               }
             },
             {
-              "code": "US",
-              "name": "미국",
-              "rooms": 7,
-              "messages": null,
-              "verdicts": {
-                "appropriate": 2,
-                "confirmedError": 0,
-                "suspectedError": 0,
-                "missingAnswer": 0,
-                "sourceConflict": 0,
-                "needsVerification": 5
-              }
-            },
-            {
-              "code": "TW",
-              "name": "대만",
-              "rooms": 10,
-              "messages": null,
-              "verdicts": {
-                "appropriate": 7,
-                "confirmedError": 0,
-                "suspectedError": 0,
-                "missingAnswer": 0,
-                "sourceConflict": 3,
-                "needsVerification": 0
-              }
-            },
-            {
-              "code": "RU",
-              "name": "러시아",
+              "code": "FI",
+              "name": "핀란드",
               "rooms": 1,
               "messages": null,
               "verdicts": {
@@ -675,8 +675,36 @@ window.SUPERVISION_DATA = {
               }
             },
             {
-              "code": "DE",
-              "name": "독일",
+              "code": "US",
+              "name": "미국",
+              "rooms": 8,
+              "messages": null,
+              "verdicts": {
+                "appropriate": 3,
+                "confirmedError": 0,
+                "suspectedError": 0,
+                "missingAnswer": 0,
+                "sourceConflict": 0,
+                "needsVerification": 5
+              }
+            },
+            {
+              "code": "JP",
+              "name": "일본",
+              "rooms": 5,
+              "messages": null,
+              "verdicts": {
+                "appropriate": 5,
+                "confirmedError": 0,
+                "suspectedError": 0,
+                "missingAnswer": 0,
+                "sourceConflict": 0,
+                "needsVerification": 0
+              }
+            },
+            {
+              "code": "RU",
+              "name": "러시아",
               "rooms": 1,
               "messages": null,
               "verdicts": {
@@ -703,54 +731,26 @@ window.SUPERVISION_DATA = {
               }
             },
             {
-              "code": "FI",
-              "name": "핀란드",
-              "rooms": 1,
-              "messages": null,
-              "verdicts": {
-                "appropriate": 1,
-                "confirmedError": 0,
-                "suspectedError": 0,
-                "missingAnswer": 0,
-                "sourceConflict": 0,
-                "needsVerification": 0
-              }
-            },
-            {
-              "code": "JP",
-              "name": "일본",
-              "rooms": 4,
-              "messages": null,
-              "verdicts": {
-                "appropriate": 4,
-                "confirmedError": 0,
-                "suspectedError": 0,
-                "missingAnswer": 0,
-                "sourceConflict": 0,
-                "needsVerification": 0
-              }
-            },
-            {
-              "code": "ZZ",
-              "name": "기타·미확인",
-              "rooms": 0,
-              "messages": null,
-              "verdicts": {
-                "appropriate": 0,
-                "confirmedError": 0,
-                "suspectedError": 0,
-                "missingAnswer": 0,
-                "sourceConflict": 0,
-                "needsVerification": 0
-              }
-            },
-            {
               "code": "IT",
               "name": "이탈리아",
               "rooms": 1,
               "messages": null,
               "verdicts": {
                 "appropriate": 1,
+                "confirmedError": 0,
+                "suspectedError": 0,
+                "missingAnswer": 0,
+                "sourceConflict": 0,
+                "needsVerification": 0
+              }
+            },
+            {
+              "code": "AU",
+              "name": "호주",
+              "rooms": 2,
+              "messages": null,
+              "verdicts": {
+                "appropriate": 2,
                 "confirmedError": 0,
                 "suspectedError": 0,
                 "missingAnswer": 0,
@@ -1018,7 +1018,7 @@ window.SUPERVISION_DATA = {
               "verdict": "appropriate",
               "findingCount": 0,
               "relatedCaseIds": [],
-              "note": "고객 직접 질문 없이 상품 유입 카드와 상담 요청 안내. 당일 텍스트상 미응답 지적 없음."
+              "note": "고객 직접 질문 없이 상품 유입 카드와 상담 요청 안내. 당일 텍스트상 미응답 지적 없음. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다."
             },
             {
               "id": "G-20261030-002",
@@ -1028,7 +1028,7 @@ window.SUPERVISION_DATA = {
               "verdict": "appropriate",
               "findingCount": 0,
               "relatedCaseIds": [],
-              "note": "태국어 통역 및 AI 피부진단 유무 질문에 둘 다 있다고 답변. 실제 문의에 응대가 있으며 의료 효과·금액 주장 없음."
+              "note": "태국어 통역 및 AI 피부진단 유무 질문에 둘 다 있다고 답변. 실제 문의에 응대가 있으며 의료 효과·금액 주장 없음. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다."
             },
             {
               "id": "G-20261030-005",
@@ -1038,7 +1038,7 @@ window.SUPERVISION_DATA = {
               "verdict": "appropriate",
               "findingCount": 0,
               "relatedCaseIds": [],
-              "note": "직접 고객질문은 없으며 겨드랑이 개선 희망부위를 물어 추가 상담 유도. 이벤트 제목의 동반 할인조건을 임의 적용하지 않음."
+              "note": "직접 고객질문은 없으며 겨드랑이 개선 희망부위를 물어 추가 상담 유도. 이벤트 제목의 동반 할인조건을 임의 적용하지 않음. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다."
             },
             {
               "id": "G-20261030-010",
@@ -1048,7 +1048,7 @@ window.SUPERVISION_DATA = {
               "verdict": "appropriate",
               "findingCount": 0,
               "relatedCaseIds": [],
-              "note": "과거 일정제안을 보고 당일 LINE에서 이미 예약했는지 확인하는 병원 답변. 실제 LINE 예약완료는 확인 안 됨. 이 메시지로 전일 이슈 해결이나 신규 누락을 만들지 않음."
+              "note": "과거 일정제안을 보고 당일 LINE에서 이미 예약했는지 확인하는 병원 답변. 실제 LINE 예약완료는 확인 안 됨. 이 메시지로 전일 이슈 해결이나 신규 누락을 만들지 않음. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다."
             },
             {
               "id": "G-20261030-011",
@@ -1058,7 +1058,7 @@ window.SUPERVISION_DATA = {
               "verdict": "appropriate",
               "findingCount": 0,
               "relatedCaseIds": [],
-              "note": "과거 가격문의에 이미지 응대가 이미 존재. 당일은 예약 희망시 알려달라는 후속 안내만 검토, 과거 이미지 금액을 검증했다고 하지 않음."
+              "note": "과거 가격문의에 이미지 응대가 이미 존재. 당일은 예약 희망시 알려달라는 후속 안내만 검토, 과거 이미지 금액을 검증했다고 하지 않음. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다."
             },
             {
               "id": "G-20261030-012",
@@ -1068,7 +1068,7 @@ window.SUPERVISION_DATA = {
               "verdict": "appropriate",
               "findingCount": 0,
               "relatedCaseIds": [],
-              "note": "고객 취소요청 후 병원 확인답변과 시스템 취소기록이 모두 실제 존재. 고객 요청에 응대했고 일정 변경을 대신 수행하지 않음."
+              "note": "고객 취소요청 후 병원 확인답변과 시스템 취소기록이 모두 실제 존재. 고객 요청에 응대했고 일정 변경을 대신 수행하지 않음. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다."
             },
             {
               "id": "G-20261030-014",
@@ -1078,7 +1078,7 @@ window.SUPERVISION_DATA = {
               "verdict": "appropriate",
               "findingCount": 0,
               "relatedCaseIds": [],
-              "note": "고객이 요청한 일정과 병원 재확인·시스템 확정 표시가 일치합니다. 인적사항 양식·구체 예약 일정은 공개하지 않습니다. 특정 브랜드·용량·금액 판단은 없으며 국적은 실제 계정 국적 라벨을 사용했습니다."
+              "note": "고객이 요청한 일정과 병원 재확인·시스템 확정 표시가 일치합니다. 인적사항 양식·구체 예약 일정은 공개하지 않습니다. 특정 브랜드·용량·금액 판단은 없으며 국적은 실제 계정 국적 라벨을 사용했습니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다."
             },
             {
               "id": "G-20261030-016",
@@ -1088,7 +1088,7 @@ window.SUPERVISION_DATA = {
               "verdict": "appropriate",
               "findingCount": 0,
               "relatedCaseIds": [],
-              "note": "원하는 보톡스 종류를 묻고 공개 병원 웹페이지를 제공. 금액 안내가 없어 제품단위 가격판정 없음. 단축링크 목적지 오류를 추정하지 않음."
+              "note": "원하는 보톡스 종류를 묻고 공개 병원 웹페이지를 제공. 금액 안내가 없어 제품단위 가격판정 없음. 단축링크 목적지 오류를 추정하지 않음. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다."
             },
             {
               "id": "G-20261030-018",
@@ -1098,7 +1098,7 @@ window.SUPERVISION_DATA = {
               "verdict": "appropriate",
               "findingCount": 0,
               "relatedCaseIds": [],
-              "note": "과거 예약확인과 당일 재안내 일정이 일치합니다. 시술종류는 확인되지 않았습니다. 이 방의 이전 전체 가격·진료를 승인하는 것이 아닙니다."
+              "note": "과거 예약확인과 당일 재안내 일정이 일치합니다. 시술종류는 확인되지 않았습니다. 이 방의 이전 전체 가격·진료를 승인하는 것이 아닙니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다. 현재는 고객최종발화 보호로 재열람하지 않았고 과거30일 저장자료만 유지합니다."
             },
             {
               "id": "G-20261030-020",
@@ -1108,7 +1108,7 @@ window.SUPERVISION_DATA = {
               "verdict": "appropriate",
               "findingCount": 0,
               "relatedCaseIds": [],
-              "note": "고객 제안 일정과 시스템 확정·병원 안내가 일치합니다. 표시된 위치·지참 안내는 제공 예약 템플릿과 부합합니다. 특정 제품·금액 안내는 없고 구체 예약 일정은 공개하지 않습니다."
+              "note": "고객 제안 일정과 시스템 확정·병원 안내가 일치합니다. 표시된 위치·지참 안내는 제공 예약 템플릿과 부합합니다. 특정 제품·금액 안내는 없고 구체 예약 일정은 공개하지 않습니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다."
             },
             {
               "id": "G-20261030-021",
@@ -1118,7 +1118,7 @@ window.SUPERVISION_DATA = {
               "verdict": "appropriate",
               "findingCount": 0,
               "relatedCaseIds": [],
-              "note": "당일 안내 일정이 기존 확정·시스템 표시와 일치합니다. 상담만 1만원 문구는 제공 일본어 예약 템플릿과 부합합니다. 자동일정 시스템과 병원 메시지를 구분했습니다."
+              "note": "당일 안내 일정이 기존 확정·시스템 표시와 일치합니다. 상담만 1만원 문구는 제공 일본어 예약 템플릿과 부합합니다. 자동일정 시스템과 병원 메시지를 구분했습니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다."
             },
             {
               "id": "G-20261030-022",
@@ -1128,7 +1128,7 @@ window.SUPERVISION_DATA = {
               "verdict": "appropriate",
               "findingCount": 0,
               "relatedCaseIds": [],
-              "note": "당일 안내 일정이 기존 확정·시스템 표시와 일치합니다. 과거 대화를 오늘 신규사례로 삼지 않았습니다."
+              "note": "당일 안내 일정이 기존 확정·시스템 표시와 일치합니다. 과거 대화를 오늘 신규사례로 삼지 않았습니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다."
             },
             {
               "id": "G-20261030-023",
@@ -1138,7 +1138,7 @@ window.SUPERVISION_DATA = {
               "verdict": "appropriate",
               "findingCount": 0,
               "relatedCaseIds": [],
-              "note": "당일 안내 일정이 기존 확정·시스템 표시와 일치합니다. 과거 포인트 규정을 오늘 재검증했다는 주장은 하지 않습니다."
+              "note": "당일 안내 일정이 기존 확정·시스템 표시와 일치합니다. 과거 포인트 규정을 오늘 재검증했다는 주장은 하지 않습니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다."
             },
             {
               "id": "G-20261030-025",
@@ -1148,7 +1148,7 @@ window.SUPERVISION_DATA = {
               "verdict": "appropriate",
               "findingCount": 0,
               "relatedCaseIds": [],
-              "note": "시술 상담 희망에 강남언니 표시가격대로 제공하고 추가문의하라는 병원응대. 구체 부위·용량/금액 비교는 없으며 즉시 치료확정/고정효과 약속도 없음."
+              "note": "시술 상담 희망에 강남언니 표시가격대로 제공하고 추가문의하라는 병원응대. 구체 부위·용량/금액 비교는 없으며 즉시 치료확정/고정효과 약속도 없음. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다."
             },
             {
               "id": "G-20261030-004",
@@ -1160,7 +1160,7 @@ window.SUPERVISION_DATA = {
               "relatedCaseIds": [
                 "G-20261030-case-003"
               ],
-              "note": "관련 사례의 확인한 응답범위 판정입니다. 공통자료는 원인과 노출 상담 수를 구분합니다."
+              "note": "관련 사례의 확인한 응답범위 판정입니다. 공통자료는 원인과 노출 상담 수를 구분합니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다."
             },
             {
               "id": "G-20261030-006",
@@ -1172,7 +1172,7 @@ window.SUPERVISION_DATA = {
               "relatedCaseIds": [
                 "G-20261030-case-004"
               ],
-              "note": "관련 사례의 확인한 응답범위 판정입니다. 공통자료는 원인과 노출 상담 수를 구분합니다."
+              "note": "관련 사례의 확인한 응답범위 판정입니다. 공통자료는 원인과 노출 상담 수를 구분합니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다."
             },
             {
               "id": "G-20261030-007",
@@ -1182,7 +1182,7 @@ window.SUPERVISION_DATA = {
               "verdict": "appropriate",
               "findingCount": 0,
               "relatedCaseIds": [],
-              "note": "원문·실제 첨부를 제공자료와 대조한 명시된 응답범위의 판정입니다. 개별 시술적합성·모든 과거대화의 무오류 보장이 아닙니다."
+              "note": "원문·실제 첨부를 제공자료와 대조한 명시된 응답범위의 판정입니다. 개별 시술적합성·모든 과거대화의 무오류 보장이 아닙니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다."
             },
             {
               "id": "G-20261030-009",
@@ -1192,7 +1192,7 @@ window.SUPERVISION_DATA = {
               "verdict": "appropriate",
               "findingCount": 0,
               "relatedCaseIds": [],
-              "note": "원문·실제 첨부를 제공자료와 대조한 명시된 응답범위의 판정입니다. 개별 시술적합성·모든 과거대화의 무오류 보장이 아닙니다."
+              "note": "원문·실제 첨부를 제공자료와 대조한 명시된 응답범위의 판정입니다. 개별 시술적합성·모든 과거대화의 무오류 보장이 아닙니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다."
             },
             {
               "id": "G-20261030-013",
@@ -1204,7 +1204,7 @@ window.SUPERVISION_DATA = {
               "relatedCaseIds": [
                 "G-20261030-case-005"
               ],
-              "note": "관련 사례의 확인한 응답범위 판정입니다. 공통자료는 원인과 노출 상담 수를 구분합니다."
+              "note": "관련 사례의 확인한 응답범위 판정입니다. 공통자료는 원인과 노출 상담 수를 구분합니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다."
             },
             {
               "id": "G-20261030-027",
@@ -1216,7 +1216,7 @@ window.SUPERVISION_DATA = {
               "relatedCaseIds": [
                 "G-20261030-case-002"
               ],
-              "note": "관련 사례의 확인한 응답범위 판정입니다. 공통자료는 원인과 노출 상담 수를 구분합니다."
+              "note": "관련 사례의 확인한 응답범위 판정입니다. 공통자료는 원인과 노출 상담 수를 구분합니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다."
             },
             {
               "id": "G-20261030-003",
@@ -1226,7 +1226,7 @@ window.SUPERVISION_DATA = {
               "verdict": "appropriate",
               "findingCount": 0,
               "relatedCaseIds": [],
-              "note": "제공 자료의 조건부 의사평가·상담비 안내를 대조했습니다. 개별 진단·시술결과 보장은 판정하지 않습니다."
+              "note": "제공 자료의 조건부 의사평가·상담비 안내를 대조했습니다. 개별 진단·시술결과 보장은 판정하지 않습니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다."
             },
             {
               "id": "G-20261030-008",
@@ -1236,7 +1236,7 @@ window.SUPERVISION_DATA = {
               "verdict": "appropriate",
               "findingCount": 0,
               "relatedCaseIds": [],
-              "note": "동일 브랜드50U 금액과 실제 채널의 국산/Coretox옵션·VAT포함을 대조했습니다."
+              "note": "동일 브랜드50U 금액과 실제 채널의 국산/Coretox옵션·VAT포함을 대조했습니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다."
             },
             {
               "id": "G-20261030-015",
@@ -1248,7 +1248,7 @@ window.SUPERVISION_DATA = {
               "relatedCaseIds": [
                 "G-20261030-case-001"
               ],
-              "note": "관련 사례의 확인한 응답범위 판정입니다. 공통자료는 원인과 노출 상담 수를 구분합니다."
+              "note": "관련 사례의 확인한 응답범위 판정입니다. 공통자료는 원인과 노출 상담 수를 구분합니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다."
             },
             {
               "id": "G-20261030-017",
@@ -1260,7 +1260,7 @@ window.SUPERVISION_DATA = {
               "relatedCaseIds": [
                 "G-20261030-case-002"
               ],
-              "note": "관련 사례의 확인한 응답범위 판정입니다. 공통자료는 원인과 노출 상담 수를 구분합니다."
+              "note": "관련 사례의 확인한 응답범위 판정입니다. 공통자료는 원인과 노출 상담 수를 구분합니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다."
             },
             {
               "id": "G-20261030-019",
@@ -1272,7 +1272,7 @@ window.SUPERVISION_DATA = {
               "relatedCaseIds": [
                 "G-20261030-case-003"
               ],
-              "note": "관련 사례의 확인한 응답범위 판정입니다. 공통자료는 원인과 노출 상담 수를 구분합니다."
+              "note": "관련 사례의 확인한 응답범위 판정입니다. 공통자료는 원인과 노출 상담 수를 구분합니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다."
             },
             {
               "id": "G-20261030-024",
@@ -1282,7 +1282,7 @@ window.SUPERVISION_DATA = {
               "verdict": "appropriate",
               "findingCount": 0,
               "relatedCaseIds": [],
-              "note": "원문·실제 첨부를 제공자료와 대조한 명시된 응답범위의 판정입니다. 개별 시술적합성·모든 과거대화의 무오류 보장이 아닙니다."
+              "note": "원문·실제 첨부를 제공자료와 대조한 명시된 응답범위의 판정입니다. 개별 시술적합성·모든 과거대화의 무오류 보장이 아닙니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다."
             },
             {
               "id": "G-20261030-026",
@@ -1292,7 +1292,7 @@ window.SUPERVISION_DATA = {
               "verdict": "appropriate",
               "findingCount": 0,
               "relatedCaseIds": [],
-              "note": "원문·실제 첨부를 제공자료와 대조한 명시된 응답범위의 판정입니다. 개별 시술적합성·모든 과거대화의 무오류 보장이 아닙니다."
+              "note": "원문·실제 첨부를 제공자료와 대조한 명시된 응답범위의 판정입니다. 개별 시술적합성·모든 과거대화의 무오류 보장이 아닙니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다."
             },
             {
               "id": "G-20261030-028",
@@ -1304,7 +1304,7 @@ window.SUPERVISION_DATA = {
               "relatedCaseIds": [
                 "G-20261030-case-002"
               ],
-              "note": "관련 사례의 확인한 응답범위 판정입니다. 공통자료는 원인과 노출 상담 수를 구분합니다."
+              "note": "관련 사례의 확인한 응답범위 판정입니다. 공통자료는 원인과 노출 상담 수를 구분합니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다."
             },
             {
               "id": "G-20261030-029",
@@ -1314,7 +1314,7 @@ window.SUPERVISION_DATA = {
               "verdict": "appropriate",
               "findingCount": 0,
               "relatedCaseIds": [],
-              "note": "기존 화면의 일정응답 기록을 대조했습니다. 개인 예약정보와 실제 진료이행은 공개하거나 보증하지 않습니다."
+              "note": "기존 화면의 일정응답 기록을 대조했습니다. 개인 예약정보와 실제 진료이행은 공개하거나 보증하지 않습니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다."
             },
             {
               "id": "G-20261030-030",
@@ -1324,7 +1324,7 @@ window.SUPERVISION_DATA = {
               "verdict": "appropriate",
               "findingCount": 0,
               "relatedCaseIds": [],
-              "note": "기존 화면의 일정응답 기록을 대조했습니다. 개인 예약정보와 실제 진료이행은 공개하거나 보증하지 않습니다."
+              "note": "기존 화면의 일정응답 기록을 대조했습니다. 개인 예약정보와 실제 진료이행은 공개하거나 보증하지 않습니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다."
             },
             {
               "id": "G-20261030-031",
@@ -1336,7 +1336,7 @@ window.SUPERVISION_DATA = {
               "relatedCaseIds": [
                 "G-20261030-case-006"
               ],
-              "note": "관련 사례의 확인한 응답범위 판정입니다. 공통자료는 원인과 노출 상담 수를 구분합니다."
+              "note": "관련 사례의 확인한 응답범위 판정입니다. 공통자료는 원인과 노출 상담 수를 구분합니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다."
             },
             {
               "id": "G-20261030-032",
@@ -1346,7 +1346,7 @@ window.SUPERVISION_DATA = {
               "verdict": "appropriate",
               "findingCount": 0,
               "relatedCaseIds": [],
-              "note": "보이는 응답과 실제 가격표는 일치합니다. 삭제 원문1단위는 미검수로 판정에서 제외합니다."
+              "note": "보이는 응답과 실제 가격표는 일치합니다. 삭제 원문1단위는 미검수로 판정에서 제외합니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다."
             },
             {
               "id": "G-20261030-033",
@@ -1358,7 +1358,7 @@ window.SUPERVISION_DATA = {
               "relatedCaseIds": [
                 "G-20261030-case-003"
               ],
-              "note": "관련 사례의 확인한 응답범위 판정입니다. 공통자료는 원인과 노출 상담 수를 구분합니다."
+              "note": "관련 사례의 확인한 응답범위 판정입니다. 공통자료는 원인과 노출 상담 수를 구분합니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다."
             },
             {
               "id": "G-20261030-034",
@@ -1368,7 +1368,7 @@ window.SUPERVISION_DATA = {
               "verdict": "appropriate",
               "findingCount": 0,
               "relatedCaseIds": [],
-              "note": "원문·실제 첨부를 제공자료와 대조한 명시된 응답범위의 판정입니다. 개별 시술적합성·모든 과거대화의 무오류 보장이 아닙니다."
+              "note": "원문·실제 첨부를 제공자료와 대조한 명시된 응답범위의 판정입니다. 개별 시술적합성·모든 과거대화의 무오류 보장이 아닙니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다."
             },
             {
               "id": "G-20261030-035",
@@ -1378,7 +1378,7 @@ window.SUPERVISION_DATA = {
               "verdict": "appropriate",
               "findingCount": 0,
               "relatedCaseIds": [],
-              "note": "기존 화면의 일정응답 기록을 대조했습니다. 개인 예약정보와 실제 진료이행은 공개하거나 보증하지 않습니다."
+              "note": "기존 화면의 일정응답 기록을 대조했습니다. 개인 예약정보와 실제 진료이행은 공개하거나 보증하지 않습니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다."
             },
             {
               "id": "G-20261030-036",
@@ -1388,46 +1388,146 @@ window.SUPERVISION_DATA = {
               "verdict": "appropriate",
               "findingCount": 0,
               "relatedCaseIds": [],
-              "note": "원문·실제 첨부를 제공자료와 대조한 명시된 응답범위의 판정입니다. 개별 시술적합성·모든 과거대화의 무오류 보장이 아닙니다."
+              "note": "원문·실제 첨부를 제공자료와 대조한 명시된 응답범위의 판정입니다. 개별 시술적합성·모든 과거대화의 무오류 보장이 아닙니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다."
+            },
+            {
+              "id": "G-20261030-037",
+              "country": "JP",
+              "procedure": "확인되지 않음",
+              "questionCategory": "취소요청·야간접수",
+              "verdict": "appropriate",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "취소요청과 영업시간외 안내가 보입니다. 접수안내 범위만 적정이며 당일 취소처리·상담완료를 뜻하지 않습니다. 신규10방 모두31일에도 이어지며 과거 수집 차이의 정확한 원인과 직원 답변누락은 미입증입니다."
+            },
+            {
+              "id": "G-20261030-038",
+              "country": "TH",
+              "procedure": "인모드",
+              "questionCategory": "이벤트유입·접수안내",
+              "verdict": "appropriate",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "이벤트 유입정보와 병원 소개·연락 안내 범위만 적정입니다. 개별 시술 적합성·가격 설명 완료는 미평가입니다. 신규10방 모두31일에도 이어지며 과거 수집 차이의 정확한 원인과 직원 답변누락은 미입증입니다."
+            },
+            {
+              "id": "G-20261030-039",
+              "country": "TW",
+              "procedure": "주름 보톡스",
+              "questionCategory": "이벤트유입·접수안내",
+              "verdict": "appropriate",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "이벤트 유입과 연락 안내만 확인한 행정 접수범위 적정입니다. 의료상담 완료가 아닙니다. 신규10방 모두31일에도 이어지며 과거 수집 차이의 정확한 원인과 직원 답변누락은 미입증입니다."
+            },
+            {
+              "id": "G-20261030-040",
+              "country": "TW",
+              "procedure": "확인되지 않음",
+              "questionCategory": "병원유입·접수안내",
+              "verdict": "appropriate",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "병원 유입과 연락 안내만 확인한 행정 접수범위 적정입니다. 의료상담 완료가 아닙니다. 신규10방 모두31일에도 이어지며 과거 수집 차이의 정확한 원인과 직원 답변누락은 미입증입니다."
+            },
+            {
+              "id": "G-20261030-041",
+              "country": "TW",
+              "procedure": "초음파리프팅",
+              "questionCategory": "예약·시술후 화장안내",
+              "verdict": "appropriate",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "예약·길안내 및 초음파리프팅 당일 화장 질문에 대한 가시 답변 범위를 검토했습니다. 부드럽게 하고 세게 문지르지 말라는 답변은 제공된 동일범주 초음파리프팅/HIFU 후관리의 당일 가벼운 세안·화장 가능 지침과 일치합니다. 개인 시술적합성·실제 시술이행·모든 상황의 무위험성을 보증하지 않습니다. 삭제원문1개는 미열람이며 복원하지 않았습니다. 예약정보는 공개하지 않습니다. 신규10방 모두31일에도 이어지며 과거 수집 차이의 정확한 원인과 직원 답변누락은 미입증입니다."
+            },
+            {
+              "id": "G-20261030-042",
+              "country": "TW",
+              "procedure": "포텐자",
+              "questionCategory": "시술상세문의·야간부분범위",
+              "verdict": "needsVerification",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "시술 내용을 자세히 알고 싶다는 질문 뒤 야간안내만 확인했습니다. 실질 시술설명 완료가 아니므로 확인필요·부분범위입니다. 확정 답변누락이나 직원 과실로 단정하지 않습니다. 신규10방 모두31일에도 이어지며 과거 수집 차이의 정확한 원인과 직원 답변누락은 미입증입니다."
+            },
+            {
+              "id": "G-20261030-043",
+              "country": "TW",
+              "procedure": "인모드",
+              "questionCategory": "예약문의·야간접수",
+              "verdict": "appropriate",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "예약 가능 여부 질문과 야간안내의 접수범위만 적정입니다. 예약확정·실질 의료상담 완료가 아닙니다. 신규10방 모두31일에도 이어지며 과거 수집 차이의 정확한 원인과 직원 답변누락은 미입증입니다."
+            },
+            {
+              "id": "G-20261030-044",
+              "country": "US",
+              "procedure": "겨드랑이 관리",
+              "questionCategory": "일정제안·야간접수",
+              "verdict": "appropriate",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "일정제안 카드와 연락·야간안내의 접수범위만 적정입니다. 실제 예약확정·의료상담 완료는 미평가입니다. 신규10방 모두31일에도 이어지며 과거 수집 차이의 정확한 원인과 직원 답변누락은 미입증입니다."
+            },
+            {
+              "id": "G-20261030-045",
+              "country": "AU",
+              "procedure": "피코 색소레이저",
+              "questionCategory": "이벤트유입·접수안내",
+              "verdict": "appropriate",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "이벤트 유입과 연락 안내만 확인한 행정 접수범위 적정입니다. 의료상담 완료가 아닙니다. 신규10방 모두31일에도 이어지며 과거 수집 차이의 정확한 원인과 직원 답변누락은 미입증입니다."
+            },
+            {
+              "id": "G-20261030-046",
+              "country": "AU",
+              "procedure": "수염 제모",
+              "questionCategory": "이벤트유입·접수안내",
+              "verdict": "appropriate",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "이벤트 유입과 연락 안내만 확인한 행정 접수범위 적정입니다. 의료상담 완료가 아닙니다. 신규10방 모두31일에도 이어지며 과거 수집 차이의 정확한 원인과 직원 답변누락은 미입증입니다."
             }
           ],
-          "reviewScope": "누적36방의 명시된 응답범위를 검토했습니다(적정26·확인필요6·공통환산자료노출3·자료오전송1). 정상 재열람22방·첨부34표시와 이전 원문14방·텍스트50단위를 중복 없이 통합했습니다. 확장36방 메시지 총수·분류·국가별 메시지는 미집계이며 초기26방159단위를 재사용하지 않습니다. 삭제원문2단위는 미검수·판정제외, 읽지않음/대기/고객최종미답변/안전불명 방은 보호·제외입니다. 확인필요는 원문·이미지를 읽은 뒤 근거가 부족한 판정이며 미열람과 다릅니다. 보고서대상일은30일, 정상후속 관찰은31일입니다. 전체 원문전수상태는partial입니다. 검토36방의 실제 고객정보 국적 필드를 대조하여11국가로 확인했습니다. 목록의 ZZ아이콘과 고객정보 국적이 다른4방은 실제 국적 필드를 우선했습니다. 국가필터 해제 완료목록을10/29경계까지 본 것은 모든 국가·모든 상태의30일 본문/첨부 전수검수와 다릅니다. 국가별 전체 대상분모와 보호/미검수 방수는 미확인입니다.",
+          "reviewScope": "기존36방 판정·공개 사례 원문과 한국어 번역은 좁은 기존 승인범위로 보존하고 신규10방을 추가한 누적46방입니다. 현재30일 본문 재열람45방과 보호된 태국 과거자료1방을 구분합니다. 현재 실제 국적필드45방·12국가이며 누적 태국8에는 현재7+역사1이 포함됩니다. 후보56·안전열람55 중30일45방, 이미지38표시, UI278단위(본문253+운영카드22+삭제원문미열람3)입니다. 제공자 개별 메시지수는 미집계입니다. 신규 적정9는 행정/접수범위8과 동일범주 지침을 대조한 일반후관리 가시답변1이며, 야간 시술상세문의1은 확인필요·부분범위입니다. 신규10방 모두31일 연속이나31일 답변을30일 상담완료로 보지 않습니다. 전국가/전상태 분모는 미확인·전체partial이며 과거 수집 차이의 구체 원인 또는 직원 답변누락은 미입증입니다.",
           "coverage": {
-            "candidateRooms": null,
-            "reviewedRooms": 36,
+            "candidateRooms": 56,
+            "reviewedRooms": 46,
             "excludedUnread": null,
             "excludedWaiting": null,
-            "excludedCustomerFinalOrUnknown": null,
+            "excludedCustomerFinalOrUnknown": 1,
             "excludedAfterCutoff": null,
+            "excludedOutsideDate": 10,
             "uninspectedAttachments": null,
             "notes": [
-              "누적36방의 명시된 응답범위를 검토했습니다(적정26·확인필요6·공통환산자료노출3·자료오전송1). 정상 재열람22방·첨부34표시와 이전 원문14방·텍스트50단위를 중복 없이 통합했습니다. 확장36방 메시지 총수·분류·국가별 메시지는 미집계이며 초기26방159단위를 재사용하지 않습니다. 삭제원문2단위는 미검수·판정제외, 읽지않음/대기/고객최종미답변/안전불명 방은 보호·제외입니다. 확인필요는 원문·이미지를 읽은 뒤 근거가 부족한 판정이며 미열람과 다릅니다. 보고서대상일은30일, 정상후속 관찰은31일입니다. 전체 원문전수상태는partial입니다.",
-              "실제 첨부34표시 모두 읽었으나 고유파일34개·원본바이트다운로드34개라는 뜻은 아닙니다. 삭제 원문2단위는 읽지 못했습니다.",
-              "초기 수집마감18:00:29 KST의 원본·성공경계는 보존했고 이후 정상 후속검수 범위를 통합했습니다. 표시는 실제 후속 관찰마감입니다.",
-              "고객사진은 비공개 대조만 했고 개인진단·시술적합성 또는 작성자·실제청구오류로 확대하지 않았습니다."
+              "기존36방 판정·공개 사례 원문과 한국어 번역은 좁은 기존 승인범위로 보존하고 신규10방을 추가한 누적46방입니다. 현재30일 본문 재열람45방과 보호된 태국 과거자료1방을 구분합니다. 현재 실제 국적필드45방·12국가이며 누적 태국8에는 현재7+역사1이 포함됩니다. 후보56·안전열람55 중30일45방, 이미지38표시, UI278단위(본문253+운영카드22+삭제원문미열람3)입니다. 제공자 개별 메시지수는 미집계입니다. 신규 적정9는 행정/접수범위8과 동일범주 지침을 대조한 일반후관리 가시답변1이며, 야간 시술상세문의1은 확인필요·부분범위입니다. 신규10방 모두31일 연속이나31일 답변을30일 상담완료로 보지 않습니다. 전국가/전상태 분모는 미확인·전체partial이며 과거 수집 차이의 구체 원인 또는 직원 답변누락은 미입증입니다.",
+              "이미지38표시는 저장된 시각검토 근거에 연결했습니다. 고유파일수·새 다운로드수와 다릅니다. 삭제3은 미열람이며 보호방의 현재 미관찰내용은 알 수 없습니다.",
+              "casesComplete는 기존 공개 사례의 명시된 검토범위 보존만 뜻하며 전체 대화/삭제/보호범위 완전성 또는 신규범위 전체 검토 완료가 아닙니다.",
+              "기존 국가별 관리원장에30일279행(278UI표시단위+보호메타1)을 실제 저장하고8,370셀 전체XLSX 재독으로 대조했습니다. 기존29일121행과 원래값·서식은 보존됐고 기록키 중복은0입니다. 삭제3·보호1은 미검수 표시 그대로입니다."
             ]
           },
           "followUps": [],
           "definitionRevision": "2026-10-30-local-text-subset-v1",
           "knowledgeVerification": {
-            "status": "direct-source-live-reviewed",
-            "rooms": 36,
+            "status": "native-source-bounded-reviewed",
+            "rooms": 46,
             "messages": null,
+            "checkedAt": "2026-10-31T03:07:45.347Z",
             "uniqueSourceConflictTopics": 1,
             "sourceConflictOccurrences": 3,
-            "checkedAt": "2026-10-30T22:35:15.598Z",
-            "scope": "정상열람22방·첨부34표시/이전텍스트14방 통합. 공통환산문제 원인1·노출3. 삭제2단위·보호범위 제외. 확장 메시지 미집계."
+            "scope": "기존36방 판정·공개 사례 원문과 한국어 번역은 좁은 기존 승인범위로 보존하고 신규10방을 추가한 누적46방입니다. 현재30일 본문 재열람45방과 보호된 태국 과거자료1방을 구분합니다. 현재 실제 국적필드45방·12국가이며 누적 태국8에는 현재7+역사1이 포함됩니다. 후보56·안전열람55 중30일45방, 이미지38표시, UI278단위(본문253+운영카드22+삭제원문미열람3)입니다. 제공자 개별 메시지수는 미집계입니다. 신규 적정9는 행정/접수범위8과 동일범주 지침을 대조한 일반후관리 가시답변1이며, 야간 시술상세문의1은 확인필요·부분범위입니다. 신규10방 모두31일 연속이나31일 답변을30일 상담완료로 보지 않습니다. 전국가/전상태 분모는 미확인·전체partial이며 과거 수집 차이의 구체 원인 또는 직원 답변누락은 미입증입니다."
           },
           "countryCoverage": {
-            "basis": "실제 고객정보 국적 필드 기준 · 목록 아이콘과 다르면 국적 필드 우선",
+            "basis": "현재 재열람45방은 실제 고객정보 국적필드, 보호태국1방은 과거 실제필드만 유지",
             "allCountryDailyAuditComplete": false,
             "denominatorKnown": false,
-            "scope": "검토36방의 실제 고객정보 국적 필드를 대조하여11국가로 확인했습니다. 목록의 ZZ아이콘과 고객정보 국적이 다른4방은 실제 국적 필드를 우선했습니다. 국가필터 해제 완료목록을10/29경계까지 본 것은 모든 국가·모든 상태의30일 본문/첨부 전수검수와 다릅니다. 국가별 전체 대상분모와 보호/미검수 방수는 미확인입니다.",
+            "scope": "기존36방 판정·공개 사례 원문과 한국어 번역은 좁은 기존 승인범위로 보존하고 신규10방을 추가한 누적46방입니다. 현재30일 본문 재열람45방과 보호된 태국 과거자료1방을 구분합니다. 현재 실제 국적필드45방·12국가이며 누적 태국8에는 현재7+역사1이 포함됩니다. 후보56·안전열람55 중30일45방, 이미지38표시, UI278단위(본문253+운영카드22+삭제원문미열람3)입니다. 제공자 개별 메시지수는 미집계입니다. 신규 적정9는 행정/접수범위8과 동일범주 지침을 대조한 일반후관리 가시답변1이며, 야간 시술상세문의1은 확인필요·부분범위입니다. 신규10방 모두31일 연속이나31일 답변을30일 상담완료로 보지 않습니다. 전국가/전상태 분모는 미확인·전체partial이며 과거 수집 차이의 구체 원인 또는 직원 답변누락은 미입증입니다.",
             "legends": [
-              "국적 미확인: 확인한 고객정보/원천에 국적정보가 없거나 해당 필드가 미확인인 분류입니다. 목록 ZZ아이콘만으로 판단하지 않습니다. 원문 미검수라는 뜻이 아니며 언어·이름으로 추정하지 않습니다.",
-              "실제 미열람: 원문·첨부를 읽지 못한 범위입니다. 삭제 원문과 안전조건상 보호제외는 판정에서 분리합니다.",
-              "확인필요: 원문·이미지를 실제 읽었지만 적용조건·자료근거가 부족한 판정입니다. 미열람과 다릅니다.",
-              "미집계: 확장범위 메시지 총수를 재계수하지 않은 상태입니다. 0건이나 이전 부분집합 수치로 바꾸지 않습니다."
+              "현재재열람45와 과거자료1은 다른 방법입니다.",
+              "적정은 각 행의 제한된 검토범위이며 의료상담 전체 완료가 아닙니다.",
+              "국가별 전체분모·총보호방수 미확인은0이 아닙니다."
             ],
             "rows": [
               {
@@ -1435,75 +1535,120 @@ window.SUPERVISION_DATA = {
                 "name": "영국",
                 "knownRooms": 1,
                 "reviewedScopeRooms": 1,
-                "normalReopenedRooms": 0,
-                "priorTextRooms": 1,
+                "normalReopenedRooms": 1,
+                "priorTextRooms": 0,
                 "needsVerificationRooms": 0,
                 "unreadDeletedUnits": 0,
                 "unreadCardUnits": 0,
                 "knownProtectedRooms": null,
                 "totalDailyRooms": null,
                 "protectedTotalRooms": null,
-                "reason": "실제 고객정보 국적 필드와 저장 원문 연결. 해당 범위만 검토, 국가별 전체분모·보호방수 미확인."
+                "reason": "현재 국적필드와 정상 재열람의 명시된 범위만 집계. 국가 전체분모·총보호수 미확인."
               },
               {
                 "code": "TH",
                 "name": "태국",
-                "knownRooms": 7,
-                "reviewedScopeRooms": 7,
-                "normalReopenedRooms": 4,
-                "priorTextRooms": 3,
+                "knownRooms": 8,
+                "reviewedScopeRooms": 8,
+                "normalReopenedRooms": 7,
+                "priorTextRooms": 1,
+                "needsVerificationRooms": 1,
+                "unreadDeletedUnits": 1,
+                "unreadCardUnits": 0,
+                "knownProtectedRooms": 1,
+                "totalDailyRooms": null,
+                "protectedTotalRooms": null,
+                "reason": "현재 국적필드7방+역사 국적필드1방. 보호1은 현재 재열람·현재국적 확인 아님."
+              },
+              {
+                "code": "TW",
+                "name": "대만",
+                "knownRooms": 15,
+                "reviewedScopeRooms": 15,
+                "normalReopenedRooms": 15,
+                "priorTextRooms": 0,
                 "needsVerificationRooms": 1,
                 "unreadDeletedUnits": 1,
                 "unreadCardUnits": 0,
                 "knownProtectedRooms": null,
                 "totalDailyRooms": null,
                 "protectedTotalRooms": null,
-                "reason": "실제 고객정보 국적 필드와 저장 원문 연결. 해당 범위만 검토, 국가별 전체분모·보호방수 미확인."
+                "reason": "현재 국적필드와 정상 재열람의 명시된 범위만 집계. 국가 전체분모·총보호수 미확인."
+              },
+              {
+                "code": "DE",
+                "name": "독일",
+                "knownRooms": 1,
+                "reviewedScopeRooms": 1,
+                "normalReopenedRooms": 1,
+                "priorTextRooms": 0,
+                "needsVerificationRooms": 0,
+                "unreadDeletedUnits": 0,
+                "unreadCardUnits": 0,
+                "knownProtectedRooms": null,
+                "totalDailyRooms": null,
+                "protectedTotalRooms": null,
+                "reason": "현재 국적필드와 정상 재열람의 명시된 범위만 집계. 국가 전체분모·총보호수 미확인."
               },
               {
                 "code": "SG",
                 "name": "싱가포르",
                 "knownRooms": 2,
                 "reviewedScopeRooms": 2,
-                "normalReopenedRooms": 1,
-                "priorTextRooms": 1,
+                "normalReopenedRooms": 2,
+                "priorTextRooms": 0,
                 "needsVerificationRooms": 0,
                 "unreadDeletedUnits": 0,
                 "unreadCardUnits": 0,
                 "knownProtectedRooms": null,
                 "totalDailyRooms": null,
                 "protectedTotalRooms": null,
-                "reason": "실제 고객정보 국적 필드와 저장 원문 연결. 해당 범위만 검토, 국가별 전체분모·보호방수 미확인."
+                "reason": "현재 국적필드와 정상 재열람의 명시된 범위만 집계. 국가 전체분모·총보호수 미확인."
+              },
+              {
+                "code": "FI",
+                "name": "핀란드",
+                "knownRooms": 1,
+                "reviewedScopeRooms": 1,
+                "normalReopenedRooms": 1,
+                "priorTextRooms": 0,
+                "needsVerificationRooms": 0,
+                "unreadDeletedUnits": 0,
+                "unreadCardUnits": 0,
+                "knownProtectedRooms": null,
+                "totalDailyRooms": null,
+                "protectedTotalRooms": null,
+                "reason": "현재 국적필드와 정상 재열람의 명시된 범위만 집계. 국가 전체분모·총보호수 미확인."
               },
               {
                 "code": "US",
                 "name": "미국",
-                "knownRooms": 7,
-                "reviewedScopeRooms": 7,
-                "normalReopenedRooms": 6,
-                "priorTextRooms": 1,
+                "knownRooms": 8,
+                "reviewedScopeRooms": 8,
+                "normalReopenedRooms": 8,
+                "priorTextRooms": 0,
                 "needsVerificationRooms": 5,
                 "unreadDeletedUnits": 1,
                 "unreadCardUnits": 0,
                 "knownProtectedRooms": null,
                 "totalDailyRooms": null,
                 "protectedTotalRooms": null,
-                "reason": "실제 고객정보 국적 필드와 저장 원문 연결. 해당 범위만 검토, 국가별 전체분모·보호방수 미확인."
+                "reason": "현재 국적필드와 정상 재열람의 명시된 범위만 집계. 국가 전체분모·총보호수 미확인."
               },
               {
-                "code": "TW",
-                "name": "대만",
-                "knownRooms": 10,
-                "reviewedScopeRooms": 10,
-                "normalReopenedRooms": 8,
-                "priorTextRooms": 2,
+                "code": "JP",
+                "name": "일본",
+                "knownRooms": 5,
+                "reviewedScopeRooms": 5,
+                "normalReopenedRooms": 5,
+                "priorTextRooms": 0,
                 "needsVerificationRooms": 0,
                 "unreadDeletedUnits": 0,
                 "unreadCardUnits": 0,
                 "knownProtectedRooms": null,
                 "totalDailyRooms": null,
                 "protectedTotalRooms": null,
-                "reason": "실제 고객정보 국적 필드와 저장 원문 연결. 해당 범위만 검토, 국가별 전체분모·보호방수 미확인."
+                "reason": "현재 국적필드와 정상 재열람의 명시된 범위만 집계. 국가 전체분모·총보호수 미확인."
               },
               {
                 "code": "RU",
@@ -1518,22 +1663,7 @@ window.SUPERVISION_DATA = {
                 "knownProtectedRooms": null,
                 "totalDailyRooms": null,
                 "protectedTotalRooms": null,
-                "reason": "실제 고객정보 국적 필드와 저장 원문 연결. 해당 범위만 검토, 국가별 전체분모·보호방수 미확인."
-              },
-              {
-                "code": "DE",
-                "name": "독일",
-                "knownRooms": 1,
-                "reviewedScopeRooms": 1,
-                "normalReopenedRooms": 0,
-                "priorTextRooms": 1,
-                "needsVerificationRooms": 0,
-                "unreadDeletedUnits": 0,
-                "unreadCardUnits": 0,
-                "knownProtectedRooms": null,
-                "totalDailyRooms": null,
-                "protectedTotalRooms": null,
-                "reason": "실제 고객정보 국적 필드와 저장 원문 연결. 해당 범위만 검토, 국가별 전체분모·보호방수 미확인."
+                "reason": "현재 국적필드와 정상 재열람의 명시된 범위만 집계. 국가 전체분모·총보호수 미확인."
               },
               {
                 "code": "CA",
@@ -1548,37 +1678,7 @@ window.SUPERVISION_DATA = {
                 "knownProtectedRooms": null,
                 "totalDailyRooms": null,
                 "protectedTotalRooms": null,
-                "reason": "실제 고객정보 국적 필드와 저장 원문 연결. 해당 범위만 검토, 국가별 전체분모·보호방수 미확인."
-              },
-              {
-                "code": "FI",
-                "name": "핀란드",
-                "knownRooms": 1,
-                "reviewedScopeRooms": 1,
-                "normalReopenedRooms": 0,
-                "priorTextRooms": 1,
-                "needsVerificationRooms": 0,
-                "unreadDeletedUnits": 0,
-                "unreadCardUnits": 0,
-                "knownProtectedRooms": null,
-                "totalDailyRooms": null,
-                "protectedTotalRooms": null,
-                "reason": "실제 고객정보 국적 필드와 저장 원문 연결. 해당 범위만 검토, 국가별 전체분모·보호방수 미확인."
-              },
-              {
-                "code": "JP",
-                "name": "일본",
-                "knownRooms": 4,
-                "reviewedScopeRooms": 4,
-                "normalReopenedRooms": 0,
-                "priorTextRooms": 4,
-                "needsVerificationRooms": 0,
-                "unreadDeletedUnits": 0,
-                "unreadCardUnits": 0,
-                "knownProtectedRooms": null,
-                "totalDailyRooms": null,
-                "protectedTotalRooms": null,
-                "reason": "실제 고객정보 국적 필드와 저장 원문 연결. 해당 범위만 검토, 국가별 전체분모·보호방수 미확인."
+                "reason": "현재 국적필드와 정상 재열람의 명시된 범위만 집계. 국가 전체분모·총보호수 미확인."
               },
               {
                 "code": "IT",
@@ -1593,14 +1693,27 @@ window.SUPERVISION_DATA = {
                 "knownProtectedRooms": null,
                 "totalDailyRooms": null,
                 "protectedTotalRooms": null,
-                "reason": "실제 고객정보 국적 필드와 저장 원문 연결. 해당 범위만 검토, 국가별 전체분모·보호방수 미확인."
+                "reason": "현재 국적필드와 정상 재열람의 명시된 범위만 집계. 국가 전체분모·총보호수 미확인."
+              },
+              {
+                "code": "AU",
+                "name": "호주",
+                "knownRooms": 2,
+                "reviewedScopeRooms": 2,
+                "normalReopenedRooms": 2,
+                "priorTextRooms": 0,
+                "needsVerificationRooms": 0,
+                "unreadDeletedUnits": 0,
+                "unreadCardUnits": 0,
+                "knownProtectedRooms": null,
+                "totalDailyRooms": null,
+                "protectedTotalRooms": null,
+                "reason": "현재 국적필드와 정상 재열람의 명시된 범위만 집계. 국가 전체분모·총보호수 미확인."
               }
             ],
             "notes": [
-              "확인대상/실검토는 알려진 방의 명시된 범위입니다. 모든 과거대화·삭제원문·보호방까지 읽었다는 뜻이 아닙니다.",
-              "확인필요 방은 실검토 수에 포함됩니다. 삭제·보호로 실제 읽지 못한 자료는 별도 표시합니다.",
-              "전체 분모/보호수 미확인은0이 아니며, 제외 사유와 검토범위는 플랫폼별로 분리합니다.",
-              "이번36방 안의 국적 미확인0과 국가별 전체분모/보호수 미확인은 다른 정보입니다. 국적이 확인돼도 전국가 전수검수 완료는 아닙니다."
+              "기존36방 판정·공개 사례 원문과 한국어 번역은 좁은 기존 승인범위로 보존하고 신규10방을 추가한 누적46방입니다. 현재30일 본문 재열람45방과 보호된 태국 과거자료1방을 구분합니다. 현재 실제 국적필드45방·12국가이며 누적 태국8에는 현재7+역사1이 포함됩니다. 후보56·안전열람55 중30일45방, 이미지38표시, UI278단위(본문253+운영카드22+삭제원문미열람3)입니다. 제공자 개별 메시지수는 미집계입니다. 신규 적정9는 행정/접수범위8과 동일범주 지침을 대조한 일반후관리 가시답변1이며, 야간 시술상세문의1은 확인필요·부분범위입니다. 신규10방 모두31일 연속이나31일 답변을30일 상담완료로 보지 않습니다. 전국가/전상태 분모는 미확인·전체partial이며 과거 수집 차이의 구체 원인 또는 직원 답변누락은 미입증입니다.",
+              "원장 미반영은 실제 기존30일0행→279행 누적으로 보완했습니다. 신규10방의 과거 구체 누락발생 단계와 직원 답변누락은 미입증입니다."
             ]
           }
         },
@@ -2352,108 +2465,38 @@ window.SUPERVISION_DATA = {
           "platform": "kakao-clinic",
           "date": "2026-10-30",
           "status": "partial",
-          "auditState": "reviewed-current-safe-scope",
-          "cutoffAt": "2026-10-30T21:09:10.533Z",
-          "checkedAt": "2026-10-30T22:35:15.598Z",
-          "eligibleRooms": 3,
-          "reviewedRooms": 3,
-          "messageCount": 14,
-          "customerMessages": 6,
-          "staffMessages": 5,
-          "autoMessages": 2,
-          "systemMessages": 1,
-          "deletedMessages": 0,
+          "auditState": "reviewed-expanded-safe-scope-unaggregated",
+          "cutoffAt": "2026-10-31T03:02:18.443Z",
+          "checkedAt": "2026-10-31T03:08:40.870Z",
+          "eligibleRooms": 9,
+          "reviewedRooms": 9,
+          "messageCount": null,
+          "customerMessages": null,
+          "staffMessages": null,
+          "autoMessages": null,
+          "systemMessages": null,
+          "deletedMessages": null,
           "verdicts": {
-            "appropriate": 2,
+            "appropriate": 6,
             "confirmedError": 0,
             "suspectedError": 0,
             "missingAnswer": 0,
             "sourceConflict": 0,
-            "needsVerification": 1
+            "needsVerification": 3
           },
           "countries": [
             {
-              "code": "KR",
-              "name": "한국",
-              "rooms": 0,
-              "messages": 0,
-              "verdicts": {
-                "appropriate": 0,
-                "confirmedError": 0,
-                "suspectedError": 0,
-                "missingAnswer": 0,
-                "sourceConflict": 0,
-                "needsVerification": 0
-              }
-            },
-            {
-              "code": "JP",
-              "name": "일본",
-              "rooms": 0,
-              "messages": 0,
-              "verdicts": {
-                "appropriate": 0,
-                "confirmedError": 0,
-                "suspectedError": 0,
-                "missingAnswer": 0,
-                "sourceConflict": 0,
-                "needsVerification": 0
-              }
-            },
-            {
-              "code": "TH",
-              "name": "태국",
-              "rooms": 0,
-              "messages": 0,
-              "verdicts": {
-                "appropriate": 0,
-                "confirmedError": 0,
-                "suspectedError": 0,
-                "missingAnswer": 0,
-                "sourceConflict": 0,
-                "needsVerification": 0
-              }
-            },
-            {
-              "code": "CN",
-              "name": "중국",
-              "rooms": 0,
-              "messages": 0,
-              "verdicts": {
-                "appropriate": 0,
-                "confirmedError": 0,
-                "suspectedError": 0,
-                "missingAnswer": 0,
-                "sourceConflict": 0,
-                "needsVerification": 0
-              }
-            },
-            {
-              "code": "TW",
-              "name": "대만",
-              "rooms": 0,
-              "messages": 0,
-              "verdicts": {
-                "appropriate": 0,
-                "confirmedError": 0,
-                "suspectedError": 0,
-                "missingAnswer": 0,
-                "sourceConflict": 0,
-                "needsVerification": 0
-              }
-            },
-            {
               "code": "ZZ",
-              "name": "기타·미확인",
-              "rooms": 3,
-              "messages": 14,
+              "name": "국적 미확인",
+              "rooms": 9,
+              "messages": null,
               "verdicts": {
-                "appropriate": 2,
+                "appropriate": 6,
                 "confirmedError": 0,
                 "suspectedError": 0,
                 "missingAnswer": 0,
                 "sourceConflict": 0,
-                "needsVerification": 1
+                "needsVerification": 3
               }
             }
           ],
@@ -2514,36 +2557,96 @@ window.SUPERVISION_DATA = {
           ],
           "reviewEntries": [
             {
-              "id": "kakao-20261030-review-001",
-              "country": "ZZ",
-              "procedure": "세르프(XERF)",
-              "questionCategory": "가격·부가세",
-              "verdict": "appropriate",
-              "findingCount": 0,
-              "relatedCaseIds": [],
-              "note": "300·600·900샷의VAT포함금액은 제공 일반리프팅 원본과 일치합니다. 주장하지 않은 모든 부가혜택의 이행까지 통과조건으로 추가하지 않았습니다."
-            },
-            {
               "id": "kakao-20261030-review-003",
               "country": "ZZ",
-              "procedure": "레스틸렌 턱필러",
-              "questionCategory": "가격·VAT·채널",
+              "procedure": "레스틸렌 턱필러1cc",
+              "questionCategory": "가격/VAT",
               "verdict": "needsVerification",
               "findingCount": 1,
               "relatedCaseIds": [
                 "kakao-20261030-case-001"
               ],
-              "note": "턱1cc360,000원VAT포함이라는 답변을 실제 읽었습니다. 같은 브랜드·부위·카카오 적용조건의 제공근거가 부족하여 확인필요입니다."
+              "note": "턱1cc360,000원VAT포함이라는 답변을 실제 읽었습니다. 같은 브랜드·부위·카카오 적용조건의 제공근거가 부족하여 확인필요입니다. 카드문자만 확인하고 버튼·목적지·연결이미지는 열지 않았습니다."
             },
             {
               "id": "kakao-20261030-review-004",
               "country": "ZZ",
-              "procedure": "확인되지 않음",
-              "questionCategory": "경과확인·문의응대",
+              "procedure": "이전시술 특정불가",
+              "questionCategory": "호전 경과/사과/후속문의",
               "verdict": "appropriate",
               "findingCount": 0,
               "relatedCaseIds": [],
-              "note": "보이는 경과확인·사과·문의응대와 운영카드 범위 검토입니다. 실제 치료결과 판정은 아닙니다."
+              "note": "보이는 경과확인·사과·문의응대와 운영카드 범위 검토입니다. 실제 치료결과 판정은 아닙니다. 카드문자만 확인하고 버튼·목적지·연결이미지는 열지 않았습니다."
+            },
+            {
+              "id": "kakao-20261030-review-001",
+              "country": "ZZ",
+              "procedure": "세르프XERF300/600/900샷",
+              "questionCategory": "가격/VAT",
+              "verdict": "appropriate",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "300·600·900샷의VAT포함금액은 제공 일반리프팅 원본과 일치합니다. 주장하지 않은 모든 부가혜택의 이행까지 통과조건으로 추가하지 않았습니다. 카드문자만 확인하고 버튼·목적지·연결이미지는 열지 않았습니다."
+            },
+            {
+              "id": "kakao-20261030-review-005",
+              "country": "ZZ",
+              "procedure": "세르프XERF",
+              "questionCategory": "가격문의/야간접수",
+              "verdict": "needsVerification",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "야간 가격문의와 자동접수만 확인했습니다. 가격설명은 미완료 검토이며 확인필요·부분범위입니다. 다음날 이미지를30일 답변으로 승격하거나 답변누락으로 단정하지 않습니다. 카드문자만 확인하고 버튼·목적지·연결이미지는 열지 않았습니다."
+            },
+            {
+              "id": "kakao-20261030-review-006",
+              "country": "ZZ",
+              "procedure": "보톡스",
+              "questionCategory": "예약접수/야간자동응답",
+              "verdict": "needsVerification",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "야간 예약요청·접수폼·운영카드 문자만 확인했습니다. 실제예약확정·실질 의료상담은 검수완료가 아니며 확인필요·부분범위입니다. 카드문자만 확인하고 버튼·목적지·연결이미지는 열지 않았습니다."
+            },
+            {
+              "id": "kakao-20261030-review-007",
+              "country": "ZZ",
+              "procedure": "색소관리",
+              "questionCategory": "기결제시술예약",
+              "verdict": "appropriate",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "가시 예약/변경/취소 응답의 문맥 범위만 적정입니다. 실제 CRM등록·시술실행·개별 의료적합성은 검증하지 않았습니다. 카드문자만 확인하고 버튼·목적지·연결이미지는 열지 않았습니다."
+            },
+            {
+              "id": "kakao-20261030-review-008",
+              "country": "ZZ",
+              "procedure": "타투제거예약",
+              "questionCategory": "예약가능일시/확정",
+              "verdict": "appropriate",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "가시 예약/변경/취소 응답의 문맥 범위만 적정입니다. 실제 CRM등록·시술실행·개별 의료적합성은 검증하지 않았습니다. 카드문자만 확인하고 버튼·목적지·연결이미지는 열지 않았습니다. 삭제원문1개는 미열람이며 복원하지 않았습니다."
+            },
+            {
+              "id": "kakao-20261030-review-009",
+              "country": "ZZ",
+              "procedure": "기존예약시간변경(시술종류30일확인불가)",
+              "questionCategory": "예약변경·이벤트봇",
+              "verdict": "appropriate",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "가시 예약/변경/취소 응답의 문맥 범위만 적정입니다. 실제 CRM등록·시술실행·개별 의료적합성은 검증하지 않았습니다. 카드문자만 확인하고 버튼·목적지·연결이미지는 열지 않았습니다. 숨은 후속봇 이력의 읽음 안전 미확인으로 향후 재열람은 보류합니다."
+            },
+            {
+              "id": "kakao-20261030-review-010",
+              "country": "ZZ",
+              "procedure": "기존예약취소(시술종류30일미확인)",
+              "questionCategory": "고객사정취소",
+              "verdict": "appropriate",
+              "findingCount": 0,
+              "relatedCaseIds": [],
+              "note": "가시 예약/변경/취소 응답의 문맥 범위만 적정입니다. 실제 CRM등록·시술실행·개별 의료적합성은 검증하지 않았습니다. 카드문자만 확인하고 버튼·목적지·연결이미지는 열지 않았습니다."
             }
           ],
           "conversations": [
@@ -2604,18 +2707,20 @@ window.SUPERVISION_DATA = {
               "rationale": "턱1cc360,000원VAT포함이라는 답변을 실제 읽었습니다. 같은 브랜드·부위·카카오 적용조건의 제공근거가 부족하여 확인필요입니다."
             }
           ],
-          "reviewScope": "현재 안전조건을 통과한 기존3방·14단위를 실제 읽고 운영시간카드1개도 확인했습니다. 응답범위 적정2·확인필요1입니다. 기존 보호1방의 카드2개는 열지 않았으며 다른3방으로 대체하지 않습니다. 읽지않음·대기·고객최종미답변·안전불명과 폐기자료는 제외했습니다. 전체 원문전수는partial이며 국적은 추정하지 않습니다. 기타·미확인3방은 국적정보 부재이지 미검수3방이라는 뜻이 아닙니다. 안전3방은 실제 읽었고, 보호제외1방 카드2개만 별도 미열람입니다. 국적별 전체 분모·추가보호 수는 미확인입니다.",
+          "reviewScope": "저장된30일11방 중 환자9방만 분모로 삼았습니다(제한범위 적정6·확인필요3: 동일조건 가격1+야간부분범위2). 야간2는 실질 상담·가격/예약확정 검수완료가 아닙니다. 기업제안1방과 목적불명1방은 환자에서 제외합니다. 전체49 UI단위와 환자39 UI단위(문자34+카드5)는 의료메시지수/사람답변수와 다릅니다. 환자9방의 카드5개·전체11방의 카드6개는 표시문자만 읽었으며 버튼·목적지·연결이미지는 열지 않았습니다. 카드 미열람 총수는 미확인입니다. 삭제원문1개 미열람, 보호44방(30일확실34·가능10)은 국적 미검사로 국적미확인9에 합산하지 않습니다. 검토9방의 실제국적은 본문에 없어 미확인이며 이름·언어로 추정하지 않았습니다. casesComplete는 해석한 가시문자 부분집합과 기존 가격사례만 의미하며 전체카드·삭제·전일전수 완료가 아닙니다. 전체partial입니다.",
           "coverage": {
-            "candidateRooms": null,
-            "reviewedRooms": 3,
+            "candidateRooms": 56,
+            "reviewedRooms": 9,
             "excludedUnread": null,
             "excludedWaiting": null,
-            "excludedCustomerFinalOrUnknown": 1,
+            "excludedCustomerFinalOrUnknown": 44,
             "excludedAfterCutoff": null,
-            "uninspectedAttachments": 2,
+            "excludedOutsideDate": 1,
+            "uninspectedAttachments": null,
             "notes": [
-              "현재 안전조건을 통과한 기존3방·14단위를 실제 읽고 운영시간카드1개도 확인했습니다. 응답범위 적정2·확인필요1입니다. 기존 보호1방의 카드2개는 열지 않았으며 다른3방으로 대체하지 않습니다. 읽지않음·대기·고객최종미답변·안전불명과 폐기자료는 제외했습니다. 전체 원문전수는partial이며 국적은 추정하지 않습니다.",
-              "확인한 보호1방의 카드2개는 미열람이며 추가 안전범위/미열람 총수는 미확인입니다. 운영카드는 현재 검토범위에서 실제 읽었습니다."
+              "저장된30일11방 중 환자9방만 분모로 삼았습니다(제한범위 적정6·확인필요3: 동일조건 가격1+야간부분범위2). 야간2는 실질 상담·가격/예약확정 검수완료가 아닙니다. 기업제안1방과 목적불명1방은 환자에서 제외합니다. 전체49 UI단위와 환자39 UI단위(문자34+카드5)는 의료메시지수/사람답변수와 다릅니다. 환자9방의 카드5개·전체11방의 카드6개는 표시문자만 읽었으며 버튼·목적지·연결이미지는 열지 않았습니다. 카드 미열람 총수는 미확인입니다. 삭제원문1개 미열람, 보호44방(30일확실34·가능10)은 국적 미검사로 국적미확인9에 합산하지 않습니다. 검토9방의 실제국적은 본문에 없어 미확인이며 이름·언어로 추정하지 않았습니다. casesComplete는 해석한 가시문자 부분집합과 기존 가격사례만 의미하며 전체카드·삭제·전일전수 완료가 아닙니다. 전체partial입니다.",
+              "후보56방은 실제 관찰 목록입니다. 보호44방과 30일 본문 없는1방을 구분합니다. 30일 기업제안1방·목적불명1방은 환자9방 분모에서 제외합니다.",
+              "9행 모두 제한범위 실제문자 검토를 기록하되 임상설명 완료9로 해석하지 않습니다. 환자9행 중6행은 제한범위 적정이고3행은 확인필요이며, 이 중 야간2행의 실질 가격·예약상담은 검토완료로 보지 않습니다."
             ]
           },
           "followUps": [],
@@ -2627,44 +2732,41 @@ window.SUPERVISION_DATA = {
             "unchecked": 0
           },
           "knowledgeVerification": {
-            "status": "direct-source-live-reviewed",
-            "rooms": 3,
-            "messages": 14,
-            "checkedAt": "2026-10-30T22:35:15.598Z",
-            "scope": "현재안전3방·14단위/운영카드1. 적정2·확인필요1. 보호1방카드2제외."
+            "status": "visible-text-subset-reviewed",
+            "rooms": 9,
+            "messages": null,
+            "checkedAt": "2026-10-31T03:08:40.870Z",
+            "scope": "저장된30일11방 중 환자9방만 분모로 삼았습니다(제한범위 적정6·확인필요3: 동일조건 가격1+야간부분범위2). 야간2는 실질 상담·가격/예약확정 검수완료가 아닙니다. 기업제안1방과 목적불명1방은 환자에서 제외합니다. 전체49 UI단위와 환자39 UI단위(문자34+카드5)는 의료메시지수/사람답변수와 다릅니다. 환자9방의 카드5개·전체11방의 카드6개는 표시문자만 읽었으며 버튼·목적지·연결이미지는 열지 않았습니다. 카드 미열람 총수는 미확인입니다. 삭제원문1개 미열람, 보호44방(30일확실34·가능10)은 국적 미검사로 국적미확인9에 합산하지 않습니다. 검토9방의 실제국적은 본문에 없어 미확인이며 이름·언어로 추정하지 않았습니다. casesComplete는 해석한 가시문자 부분집합과 기존 가격사례만 의미하며 전체카드·삭제·전일전수 완료가 아닙니다. 전체partial입니다."
           },
           "countryCoverage": {
-            "basis": "플랫폼 국적정보 부재 · 추정 없음",
+            "basis": "검토한 환자9방 본문에 실제국적정보 없음; 프로필미열람·추정금지",
             "allCountryDailyAuditComplete": false,
             "denominatorKnown": false,
-            "scope": "기타·미확인3방은 국적정보 부재이지 미검수3방이라는 뜻이 아닙니다. 안전3방은 실제 읽었고, 보호제외1방 카드2개만 별도 미열람입니다. 국적별 전체 분모·추가보호 수는 미확인입니다.",
+            "scope": "저장된30일11방 중 환자9방만 분모로 삼았습니다(제한범위 적정6·확인필요3: 동일조건 가격1+야간부분범위2). 야간2는 실질 상담·가격/예약확정 검수완료가 아닙니다. 기업제안1방과 목적불명1방은 환자에서 제외합니다. 전체49 UI단위와 환자39 UI단위(문자34+카드5)는 의료메시지수/사람답변수와 다릅니다. 환자9방의 카드5개·전체11방의 카드6개는 표시문자만 읽었으며 버튼·목적지·연결이미지는 열지 않았습니다. 카드 미열람 총수는 미확인입니다. 삭제원문1개 미열람, 보호44방(30일확실34·가능10)은 국적 미검사로 국적미확인9에 합산하지 않습니다. 검토9방의 실제국적은 본문에 없어 미확인이며 이름·언어로 추정하지 않았습니다. casesComplete는 해석한 가시문자 부분집합과 기존 가격사례만 의미하며 전체카드·삭제·전일전수 완료가 아닙니다. 전체partial입니다.",
             "legends": [
-              "국적 미확인: 확인한 고객정보/원천에 국적정보가 없거나 해당 필드가 미확인인 분류입니다. 목록 ZZ아이콘만으로 판단하지 않습니다. 원문 미검수라는 뜻이 아니며 언어·이름으로 추정하지 않습니다.",
-              "실제 미열람: 원문·첨부를 읽지 못한 범위입니다. 삭제 원문과 안전조건상 보호제외는 판정에서 분리합니다.",
-              "확인필요: 원문·이미지를 실제 읽었지만 적용조건·자료근거가 부족한 판정입니다. 미열람과 다릅니다.",
-              "미집계: 확장범위 메시지 총수를 재계수하지 않은 상태입니다. 0건이나 이전 부분집합 수치로 바꾸지 않습니다."
+              "국적미확인9는 실제 읽은 환자범위만 의미합니다. 보호44는 국적미검사입니다.",
+              "카드 문자와 버튼·연결이미지 검토는 다릅니다. 미열람카드 총수는 미확인입니다."
             ],
             "rows": [
               {
                 "code": "ZZ",
-                "name": "기타·미확인",
-                "knownRooms": 3,
-                "reviewedScopeRooms": 3,
-                "normalReopenedRooms": 3,
+                "name": "국적 미확인",
+                "knownRooms": 9,
+                "reviewedScopeRooms": 9,
+                "normalReopenedRooms": 9,
                 "priorTextRooms": 0,
-                "needsVerificationRooms": 1,
-                "unreadDeletedUnits": 0,
-                "unreadCardUnits": 2,
-                "knownProtectedRooms": 1,
+                "needsVerificationRooms": 3,
+                "unreadDeletedUnits": 1,
+                "unreadCardUnits": null,
+                "knownProtectedRooms": null,
                 "totalDailyRooms": null,
                 "protectedTotalRooms": null,
-                "reason": "국적정보 미제공. 안전3방 실검토 완료. 보호제외1방의 카드2개는 이3방 밖의 미열람이며 추가 총수는 미확인."
+                "reason": "확인한 환자9방에 실제국적정보가 없습니다. 환자 카드5개와 전체 카드6개의 표시문자만 확인했으며 연결내용은 열지 않았습니다. 카드 미열람 총수는 확인되지 않았습니다. 보호44는 국가미검사로 이 행에 배분하지 않습니다."
               }
             ],
             "notes": [
-              "확인대상/실검토는 알려진 방의 명시된 범위입니다. 모든 과거대화·삭제원문·보호방까지 읽었다는 뜻이 아닙니다.",
-              "확인필요 방은 실검토 수에 포함됩니다. 삭제·보호로 실제 읽지 못한 자료는 별도 표시합니다.",
-              "전체 분모/보호수 미확인은0이 아니며, 제외 사유와 검토범위는 플랫폼별로 분리합니다."
+              "저장된30일11방 중 환자9방만 분모로 삼았습니다(제한범위 적정6·확인필요3: 동일조건 가격1+야간부분범위2). 야간2는 실질 상담·가격/예약확정 검수완료가 아닙니다. 기업제안1방과 목적불명1방은 환자에서 제외합니다. 전체49 UI단위와 환자39 UI단위(문자34+카드5)는 의료메시지수/사람답변수와 다릅니다. 환자9방의 카드5개·전체11방의 카드6개는 표시문자만 읽었으며 버튼·목적지·연결이미지는 열지 않았습니다. 카드 미열람 총수는 미확인입니다. 삭제원문1개 미열람, 보호44방(30일확실34·가능10)은 국적 미검사로 국적미확인9에 합산하지 않습니다. 검토9방의 실제국적은 본문에 없어 미확인이며 이름·언어로 추정하지 않았습니다. casesComplete는 해석한 가시문자 부분집합과 기존 가격사례만 의미하며 전체카드·삭제·전일전수 완료가 아닙니다. 전체partial입니다.",
+              "카드 미열람 수는 미확인이므로 null로 유지하며 0으로 집계하지 않습니다."
             ]
           }
         },
@@ -3200,8 +3302,8 @@ window.SUPERVISION_DATA = {
           "date": "2026-10-30",
           "status": "partial",
           "auditState": "reviewed-overseas-zero-domestic-records-separate",
-          "cutoffAt": "2026-10-30T21:15:31.746Z",
-          "checkedAt": "2026-10-30T22:35:15.598Z",
+          "cutoffAt": "2026-10-31T02:55:58.075Z",
+          "checkedAt": "2026-10-31T02:55:58.075Z",
           "eligibleRooms": 0,
           "reviewedRooms": 0,
           "messageCount": 0,
@@ -3311,15 +3413,14 @@ window.SUPERVISION_DATA = {
           "cases": [],
           "reviewEntries": [],
           "conversations": [],
-          "reviewScope": "해외 전체/지원언어 목록8건(일본어8,영어·번체·간체0)을 확인했고30일 해외활동은0입니다. 국내 신청1건·기존 부재문자1건은 별도 읽었습니다. 이를 실시간채팅방1개·전체통화상담 검수완료나 플랫폼전체0으로 합치지 않습니다. 과거 해외8방 본문은 새로 검수하지 않았고 국내 통화내용은 이번채팅검수 범위밖입니다. 해외 언어목록은 국적라벨이 아닙니다. 일본어목록8건을 일본국적8명으로 추정하지 않습니다. 당일 해외활동0과 국내신청/문자 별도 확인범위만 보고합니다.",
+          "reviewScope": "해외 전체목록8건(일본어8, 영어·번체·간체0)의 최신 메시지는10월8일이며 관찰목록의30일 대상0입니다. 과거8방 본문은 열지 않았습니다. 국내30일 신청목록1건은 채팅방이 아닌 신청기록이며 SMS내역 배지1건은 현재 안전조건 미충족으로 본문을 열지 않았습니다. 해외0을 플랫폼전체 무오류·전국가 전수검수로 표현하지 않습니다. 국내 신청국가 표시는 실제 국적검증이 아닙니다.",
           "coverage": {
             "candidateRooms": 8,
             "reviewedRooms": 0,
             "excludedOutsideDate": 8,
             "uninspectedAttachments": null,
             "notes": [
-              "해외 전체/지원언어 목록8건(일본어8,영어·번체·간체0)을 확인했고30일 해외활동은0입니다. 국내 신청1건·기존 부재문자1건은 별도 읽었습니다. 이를 실시간채팅방1개·전체통화상담 검수완료나 플랫폼전체0으로 합치지 않습니다. 과거 해외8방 본문은 새로 검수하지 않았고 국내 통화내용은 이번채팅검수 범위밖입니다.",
-              "국내 비채팅기록은 원장 별도 표에 표시하며 해외 채팅방·메시지·판정 수에 합산하지 않습니다."
+              "해외 전체목록8건(일본어8, 영어·번체·간체0)의 최신 메시지는10월8일이며 관찰목록의30일 대상0입니다. 과거8방 본문은 열지 않았습니다. 국내30일 신청목록1건은 채팅방이 아닌 신청기록이며 SMS내역 배지1건은 현재 안전조건 미충족으로 본문을 열지 않았습니다. 해외0을 플랫폼전체 무오류·전국가 전수검수로 표현하지 않습니다. 국내 신청국가 표시는 실제 국적검증이 아닙니다."
             ]
           },
           "followUps": [],
@@ -3331,31 +3432,31 @@ window.SUPERVISION_DATA = {
             "unchecked": 0
           },
           "knowledgeVerification": {
-            "status": "direct-list-and-contact-notice-reviewed",
+            "status": "native-list-only-reviewed",
             "rooms": 0,
             "messages": 0,
-            "checkedAt": "2026-10-30T22:35:15.598Z",
-            "scope": "해외 전체/지원언어 목록8건(일본어8,영어·번체·간체0)을 확인했고30일 해외활동은0입니다. 국내 신청1건·기존 부재문자1건은 별도 읽었습니다. 이를 실시간채팅방1개·전체통화상담 검수완료나 플랫폼전체0으로 합치지 않습니다. 과거 해외8방 본문은 새로 검수하지 않았고 국내 통화내용은 이번채팅검수 범위밖입니다."
+            "checkedAt": "2026-10-31T02:55:58.075Z",
+            "scope": "해외 전체목록8건(일본어8, 영어·번체·간체0)의 최신 메시지는10월8일이며 관찰목록의30일 대상0입니다. 과거8방 본문은 열지 않았습니다. 국내30일 신청목록1건은 채팅방이 아닌 신청기록이며 SMS내역 배지1건은 현재 안전조건 미충족으로 본문을 열지 않았습니다. 해외0을 플랫폼전체 무오류·전국가 전수검수로 표현하지 않습니다. 국내 신청국가 표시는 실제 국적검증이 아닙니다."
           },
           "nonChatRecords": [
             {
-              "kind": "국내 이벤트 신청",
+              "kind": "국내 이벤트 신청목록",
               "count": 1,
-              "scope": "대상일의 정상 신청 목록",
-              "assessment": "기존 신청기록 확인 · 채팅방수 아님"
+              "scope": "30일 신청일·전체 서비스언어 목록",
+              "assessment": "신청목록만 확인, 채팅상담·실제예약확정 아님"
             },
             {
-              "kind": "기존 부재문자 발송기록",
+              "kind": "SMS 내역 배지",
               "count": 1,
-              "scope": "정상 화면의 기존 연락안내문",
-              "assessment": "연락안내문 범위 적정 · 실제통화/치료결과 판정 아님"
+              "scope": "신청목록 배지만 관찰",
+              "assessment": "현재 안전조건 미확인으로 본문 미열람, 문자내용 적정판정 없음"
             }
           ],
           "countryCoverage": {
             "basis": "언어목록과 국적 구분",
             "allCountryDailyAuditComplete": false,
             "denominatorKnown": false,
-            "scope": "해외 언어목록은 국적라벨이 아닙니다. 일본어목록8건을 일본국적8명으로 추정하지 않습니다. 당일 해외활동0과 국내신청/문자 별도 확인범위만 보고합니다.",
+            "scope": "해외 전체목록8건(일본어8, 영어·번체·간체0)의 최신 메시지는10월8일이며 관찰목록의30일 대상0입니다. 과거8방 본문은 열지 않았습니다. 국내30일 신청목록1건은 채팅방이 아닌 신청기록이며 SMS내역 배지1건은 현재 안전조건 미충족으로 본문을 열지 않았습니다. 해외0을 플랫폼전체 무오류·전국가 전수검수로 표현하지 않습니다. 국내 신청국가 표시는 실제 국적검증이 아닙니다.",
             "legends": [
               "국적 미확인: 확인한 고객정보/원천에 국적정보가 없거나 해당 필드가 미확인인 분류입니다. 목록 ZZ아이콘만으로 판단하지 않습니다. 원문 미검수라는 뜻이 아니며 언어·이름으로 추정하지 않습니다.",
               "실제 미열람: 원문·첨부를 읽지 못한 범위입니다. 삭제 원문과 안전조건상 보호제외는 판정에서 분리합니다.",
@@ -3364,9 +3465,7 @@ window.SUPERVISION_DATA = {
             ],
             "rows": [],
             "notes": [
-              "확인대상/실검토는 알려진 방의 명시된 범위입니다. 모든 과거대화·삭제원문·보호방까지 읽었다는 뜻이 아닙니다.",
-              "확인필요 방은 실검토 수에 포함됩니다. 삭제·보호로 실제 읽지 못한 자료는 별도 표시합니다.",
-              "전체 분모/보호수 미확인은0이 아니며, 제외 사유와 검토범위는 플랫폼별로 분리합니다."
+              "해외 전체목록8건(일본어8, 영어·번체·간체0)의 최신 메시지는10월8일이며 관찰목록의30일 대상0입니다. 과거8방 본문은 열지 않았습니다. 국내30일 신청목록1건은 채팅방이 아닌 신청기록이며 SMS내역 배지1건은 현재 안전조건 미충족으로 본문을 열지 않았습니다. 해외0을 플랫폼전체 무오류·전국가 전수검수로 표현하지 않습니다. 국내 신청국가 표시는 실제 국적검증이 아닙니다."
             ]
           }
         },
