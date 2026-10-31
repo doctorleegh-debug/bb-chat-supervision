@@ -1,7 +1,7 @@
 window.SUPERVISION_DATA = {
   "meta": {
     "title": "뷰티블라썸 상담 품질 감독",
-    "updatedAt": "2026-10-31T03:47:55.524Z",
+    "updatedAt": "2026-10-31T07:02:31.723Z",
     "timeZone": "Asia/Seoul",
     "sheetUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit",
     "schedule": {
@@ -41,18 +41,18 @@ window.SUPERVISION_DATA = {
         "accountVerified": true,
         "inboxVerified": true,
         "auditDate": "2026-10-30",
-        "summary": "2026-10-30 상담 46개·메시지 미집계의 부분 검토 기록",
+        "summary": "2026-10-30 당일 근거 57방 · 실제 당일열람 56방 / 전체분모 미확인 · 부분 집계",
         "limit": "검수 범위: 기존36방 판정·공개 사례 원문과 한국어 번역은 좁은 기존 승인범위로 보존하고 신규10방을 추가한 누적46방입니다. 현재30일 본문 재열람45방과 보호된 태국 과거자료1방을 구분합니다. 현재 실제 국적필드45방·12국가이며 누적 태국8에는 현재7+역사1이 포함됩니다. 후보56·안전열람55 중30일45방, 이미지38표시, UI278단위(본문253+운영카드22+삭제원문미열람3)입니다. 제공자 개별 메시지수는 미집계입니다. 신규 적정9는 행정/접수범위8과 동일범주 지침을 대조한 일반후관리 가시답변1이며, 야간 시술상세문의1은 확인필요·부분범위입니다. 신규10방 모두31일 연속이나31일 답변을30일 상담완료로 보지 않습니다. 전국가/전상태 분모는 미확인·전체partial이며 과거 수집 차이의 구체 원인 또는 직원 답변누락은 미입증입니다. 실제 확인한 점검 범위에 한정하며, 상시 즉시 감시·푸시 수신은 검증되지 않았습니다."
       },
       {
         "id": "kakao-clinic",
         "name": "카카오톡(병원계정)",
         "status": "report-partial",
-        "checkedAt": "2026-10-31T03:08:40.870Z",
+        "checkedAt": "2026-10-31T07:02:31.723Z",
         "accountVerified": true,
         "inboxVerified": true,
         "auditDate": "2026-10-30",
-        "summary": "2026-10-30 상담 9개·메시지 미집계의 부분 검토 기록",
+        "summary": "2026-10-30 당일 근거 44방 · 실제 당일열람 9방 / 전체분모 미확인 · 부분 집계",
         "limit": "검수 범위: 저장된30일11방 중 환자9방만 분모로 삼았습니다(제한범위 적정6·확인필요3: 동일조건 가격1+야간부분범위2). 야간2는 실질 상담·가격/예약확정 검수완료가 아닙니다. 기업제안1방과 목적불명1방은 환자에서 제외합니다. 전체49 UI단위와 환자39 UI단위(문자34+카드5)는 의료메시지수/사람답변수와 다릅니다. 환자9방의 카드5개·전체11방의 카드6개는 표시문자만 읽었으며 버튼·목적지·연결이미지는 열지 않았습니다. 카드 미열람 총수는 미확인입니다. 삭제원문1개 미열람, 보호44방(30일확실34·가능10)은 국적 미검사로 국적미확인9에 합산하지 않습니다. 검토9방의 실제국적은 본문에 없어 미확인이며 이름·언어로 추정하지 않았습니다. casesComplete는 해석한 가시문자 부분집합과 기존 가격사례만 의미하며 전체카드·삭제·전일전수 완료가 아닙니다. 전체partial입니다. 실제 확인한 점검 범위에 한정하며, 상시 즉시 감시·푸시 수신은 검증되지 않았습니다."
       },
       {
@@ -63,8 +63,8 @@ window.SUPERVISION_DATA = {
         "accountVerified": true,
         "inboxVerified": true,
         "auditDate": "2026-10-30",
-        "summary": "2026-10-30 해외 채팅 활동 0개·0건 / 국내 신청·기존 문자 별도 기록",
-        "limit": "검수 범위: 해외 전체목록8건(일본어8, 영어·번체·간체0)의 최신 메시지는10월8일이며 관찰목록의30일 대상0입니다. 과거8방 본문은 열지 않았습니다. 국내30일 신청목록1건은 채팅방이 아닌 신청기록이며 SMS내역 배지1건은 현재 안전조건 미충족으로 본문을 열지 않았습니다. 해외0을 플랫폼전체 무오류·전국가 전수검수로 표현하지 않습니다. 국내 신청국가 표시는 실제 국적검증이 아닙니다. 실제 확인한 점검 범위에 한정하며, 상시 즉시 감시·푸시 수신은 검증되지 않았습니다."
+        "summary": "2026-10-30 당일 근거 0방 · 실제 당일열람 0방 / 전체분모 미확인 · 부분 집계",
+        "limit": "검수 범위: 전체 해외목록8방의 최신 표시일과 국내신청목록만 확인했으며 방본문8개는 미검수입니다. 당일 전체분모는 미확인이고 0건·전체완료로 표시하지 않습니다. 실제 확인한 점검 범위에 한정하며, 상시 즉시 감시·푸시 수신은 검증되지 않았습니다."
       }
     ]
   },
@@ -1505,7 +1505,8 @@ window.SUPERVISION_DATA = {
               "기존36방 판정·공개 사례 원문과 한국어 번역은 좁은 기존 승인범위로 보존하고 신규10방을 추가한 누적46방입니다. 현재30일 본문 재열람45방과 보호된 태국 과거자료1방을 구분합니다. 현재 실제 국적필드45방·12국가이며 누적 태국8에는 현재7+역사1이 포함됩니다. 후보56·안전열람55 중30일45방, 이미지38표시, UI278단위(본문253+운영카드22+삭제원문미열람3)입니다. 제공자 개별 메시지수는 미집계입니다. 신규 적정9는 행정/접수범위8과 동일범주 지침을 대조한 일반후관리 가시답변1이며, 야간 시술상세문의1은 확인필요·부분범위입니다. 신규10방 모두31일 연속이나31일 답변을30일 상담완료로 보지 않습니다. 전국가/전상태 분모는 미확인·전체partial이며 과거 수집 차이의 구체 원인 또는 직원 답변누락은 미입증입니다.",
               "이미지38표시는 저장된 시각검토 근거에 연결했습니다. 고유파일수·새 다운로드수와 다릅니다. 삭제3은 미열람이며 보호방의 현재 미관찰내용은 알 수 없습니다.",
               "casesComplete는 기존 공개 사례의 명시된 검토범위 보존만 뜻하며 전체 대화/삭제/보호범위 완전성 또는 신규범위 전체 검토 완료가 아닙니다.",
-              "기존 국가별 관리원장에30일279행(278UI표시단위+보호메타1)을 실제 저장하고8,370셀 전체XLSX 재독으로 대조했습니다. 기존29일121행과 원래값·서식은 보존됐고 기록키 중복은0입니다. 삭제3·보호1은 미검수 표시 그대로입니다."
+              "기존 국가별 관리원장에30일279행(278UI표시단위+보호메타1)을 실제 저장하고8,370셀 전체XLSX 재독으로 대조했습니다. 기존29일121행과 원래값·서식은 보존됐고 기록키 중복은0입니다. 삭제3·보호1은 미검수 표시 그대로입니다.",
+              "전체언어 재감사: 보존목록5425개 물리슬롯 끝까지 관찰했지만 고유방수나 당일분모는 아닙니다. 처리기록795행, 실제 고유채널775개 성공. 목록 메타키와 처리기록이 연결되지 않은 4630행은 고유 미검수방수로 단정하지 않습니다. 현재 당일 직접열람56방·289UI단위 = 기존45방·278단위 + 자동 운영카드전용11방·11단위입니다. 보호된 기존자료1방을 별도로 유지하여 알려진 이력 하한57방입니다. UI단위는 제공자 개별 메시지 수가 아닙니다. 기존 상담판정46방은 적정35·확정오류1·자료충돌3·확인필요7로 보존합니다. 언어별 판정은 현재 재열람45방의 기존 한정판정만 연결했으며 보호역사1방의 판정은 기존원장에만 남깁니다. 새 운영카드11방에 임상 적정/오류 판정을 생성하지 않습니다. 처리기록 내 보호15행과 선택미확인2행이 있습니다. 보호 중 알려진 과거 당일방1개 외 나머지의 당일 포함 여부·언어·국적은 미확인이라 당일 국가/언어분모에 확정 편입하지 않습니다. 전체 미검수방수는 미확인입니다."
             ]
           },
           "followUps": [],
@@ -1713,9 +1714,606 @@ window.SUPERVISION_DATA = {
             ],
             "notes": [
               "기존36방 판정·공개 사례 원문과 한국어 번역은 좁은 기존 승인범위로 보존하고 신규10방을 추가한 누적46방입니다. 현재30일 본문 재열람45방과 보호된 태국 과거자료1방을 구분합니다. 현재 실제 국적필드45방·12국가이며 누적 태국8에는 현재7+역사1이 포함됩니다. 후보56·안전열람55 중30일45방, 이미지38표시, UI278단위(본문253+운영카드22+삭제원문미열람3)입니다. 제공자 개별 메시지수는 미집계입니다. 신규 적정9는 행정/접수범위8과 동일범주 지침을 대조한 일반후관리 가시답변1이며, 야간 시술상세문의1은 확인필요·부분범위입니다. 신규10방 모두31일 연속이나31일 답변을30일 상담완료로 보지 않습니다. 전국가/전상태 분모는 미확인·전체partial이며 과거 수집 차이의 구체 원인 또는 직원 답변누락은 미입증입니다.",
-              "원장 미반영은 실제 기존30일0행→279행 누적으로 보완했습니다. 신규10방의 과거 구체 누락발생 단계와 직원 답변누락은 미입증입니다."
+              "원장 미반영은 실제 기존30일0행→279행 누적으로 보완했습니다. 신규10방의 과거 구체 누락발생 단계와 직원 답변누락은 미입증입니다.",
+              "새 국적탭은 현재 확인된 실제필드28개 코드를 별도 표시하고 전체분모는 미확인입니다. 기존 한정판정과 자동카드전용 추가분모는 합치지 않습니다."
             ]
-          }
+          },
+          "inquiryLanguageCoverage": {
+            "label": "10월30일 전국가·전언어 재감사 확인범위",
+            "methodNote": "고객이 당일 직접 작성한 자연문장만 분류. 직원 답변·자동안내·상품유입 문구·국적·이름·국기는 언어 근거에서 제외.",
+            "denominatorKnown": false,
+            "totalTargetRooms": null,
+            "observedCandidateRooms": null,
+            "confirmedTargetRooms": 57,
+            "knownTargetRoomLowerBound": 57,
+            "knownTargetRoomUpperBound": null,
+            "accessAttemptedRooms": 775,
+            "openedRooms": 775,
+            "reviewedTargetRooms": 56,
+            "clinicalSourceRooms": 46,
+            "operatingOnlyRooms": 11,
+            "guardedNotOpenedRooms": 15,
+            "accessFailureRooms": 0,
+            "unresolvedDateRooms": null,
+            "deletedOriginalUnreadUnits": 3,
+            "providerIndividualMessageCount": null,
+            "retainedListRows": 5425,
+            "unprocessedRetainedRows": null,
+            "languages": [
+              {
+                "code": "zh",
+                "name": "중국어",
+                "knownTargetRooms": 8,
+                "readTargetRooms": 8,
+                "reviewedTargetRooms": 8,
+                "clinicalReviewedRooms": 8,
+                "operatingOnlyRooms": 0,
+                "uiUnits": 91,
+                "guardedNotOpenedRooms": 0,
+                "unreadOriginalUnits": 1,
+                "accessFailureRooms": 0,
+                "verdicts": {
+                  "appropriate": 4,
+                  "confirmedError": 0,
+                  "suspectedError": 0,
+                  "missingAnswer": 0,
+                  "sourceConflict": 3,
+                  "needsVerification": 1
+                },
+                "notes": [
+                  "현재 실제 열람한 당일 고객 직접 문장에 한정한 실무 언어분류입니다. 브랜드명·차용어만으로 다국어로 분류하지 않았습니다."
+                ]
+              },
+              {
+                "code": "en",
+                "name": "영어",
+                "knownTargetRooms": 7,
+                "readTargetRooms": 7,
+                "reviewedTargetRooms": 7,
+                "clinicalReviewedRooms": 7,
+                "operatingOnlyRooms": 0,
+                "uiUnits": 79,
+                "guardedNotOpenedRooms": 0,
+                "unreadOriginalUnits": 1,
+                "accessFailureRooms": 0,
+                "verdicts": {
+                  "appropriate": 4,
+                  "confirmedError": 0,
+                  "suspectedError": 0,
+                  "missingAnswer": 0,
+                  "sourceConflict": 0,
+                  "needsVerification": 3
+                },
+                "notes": [
+                  "현재 실제 열람한 당일 고객 직접 문장에 한정한 실무 언어분류입니다. 브랜드명·차용어만으로 다국어로 분류하지 않았습니다."
+                ]
+              },
+              {
+                "code": "ja",
+                "name": "일본어",
+                "knownTargetRooms": 2,
+                "readTargetRooms": 2,
+                "reviewedTargetRooms": 2,
+                "clinicalReviewedRooms": 2,
+                "operatingOnlyRooms": 0,
+                "uiUnits": 7,
+                "guardedNotOpenedRooms": 0,
+                "unreadOriginalUnits": 0,
+                "accessFailureRooms": 0,
+                "verdicts": {
+                  "appropriate": 2,
+                  "confirmedError": 0,
+                  "suspectedError": 0,
+                  "missingAnswer": 0,
+                  "sourceConflict": 0,
+                  "needsVerification": 0
+                },
+                "notes": [
+                  "현재 실제 열람한 당일 고객 직접 문장에 한정한 실무 언어분류입니다. 브랜드명·차용어만으로 다국어로 분류하지 않았습니다."
+                ]
+              },
+              {
+                "code": "th",
+                "name": "태국어",
+                "knownTargetRooms": 2,
+                "readTargetRooms": 2,
+                "reviewedTargetRooms": 2,
+                "clinicalReviewedRooms": 2,
+                "operatingOnlyRooms": 0,
+                "uiUnits": 23,
+                "guardedNotOpenedRooms": 0,
+                "unreadOriginalUnits": 0,
+                "accessFailureRooms": 0,
+                "verdicts": {
+                  "appropriate": 1,
+                  "confirmedError": 0,
+                  "suspectedError": 0,
+                  "missingAnswer": 0,
+                  "sourceConflict": 0,
+                  "needsVerification": 1
+                },
+                "notes": [
+                  "현재 실제 열람한 당일 고객 직접 문장에 한정한 실무 언어분류입니다. 브랜드명·차용어만으로 다국어로 분류하지 않았습니다."
+                ]
+              },
+              {
+                "code": "ko",
+                "name": "한국어",
+                "knownTargetRooms": 0,
+                "readTargetRooms": 0,
+                "reviewedTargetRooms": 0,
+                "clinicalReviewedRooms": 0,
+                "operatingOnlyRooms": 0,
+                "uiUnits": 0,
+                "guardedNotOpenedRooms": 0,
+                "unreadOriginalUnits": 0,
+                "accessFailureRooms": 0,
+                "verdicts": {
+                  "appropriate": 0,
+                  "confirmedError": 0,
+                  "suspectedError": 0,
+                  "missingAnswer": 0,
+                  "sourceConflict": 0,
+                  "needsVerification": 0
+                },
+                "notes": [
+                  "현재 실제 열람한 당일 고객 직접 문장에 한정한 실무 언어분류입니다. 브랜드명·차용어만으로 다국어로 분류하지 않았습니다."
+                ]
+              },
+              {
+                "code": "unknown",
+                "name": "미확인",
+                "knownTargetRooms": 38,
+                "readTargetRooms": 37,
+                "reviewedTargetRooms": 37,
+                "clinicalReviewedRooms": 26,
+                "operatingOnlyRooms": 11,
+                "uiUnits": 89,
+                "guardedNotOpenedRooms": 1,
+                "unreadOriginalUnits": 1,
+                "accessFailureRooms": 0,
+                "verdicts": {
+                  "appropriate": 23,
+                  "confirmedError": 1,
+                  "suspectedError": 0,
+                  "missingAnswer": 0,
+                  "sourceConflict": 0,
+                  "needsVerification": 2
+                },
+                "notes": [
+                  "당일 고객 직접 문장이 없거나 현재 보호로 미열람한 방입니다. 자동카드·상품유입·직원문구·국적·이름으로 언어를 추정하지 않았습니다."
+                ]
+              },
+              {
+                "code": "multilingual",
+                "name": "다국어",
+                "knownTargetRooms": 0,
+                "readTargetRooms": 0,
+                "reviewedTargetRooms": 0,
+                "clinicalReviewedRooms": 0,
+                "operatingOnlyRooms": 0,
+                "uiUnits": 0,
+                "guardedNotOpenedRooms": 0,
+                "unreadOriginalUnits": 0,
+                "accessFailureRooms": 0,
+                "verdicts": {
+                  "appropriate": 0,
+                  "confirmedError": 0,
+                  "suspectedError": 0,
+                  "missingAnswer": 0,
+                  "sourceConflict": 0,
+                  "needsVerification": 0
+                },
+                "notes": [
+                  "현재 실제 열람한 당일 고객 직접 문장에 한정한 실무 언어분류입니다. 브랜드명·차용어만으로 다국어로 분류하지 않았습니다."
+                ]
+              }
+            ],
+            "nationalities": [
+              {
+                "code": "AE",
+                "name": "아랍에미리트",
+                "knownTargetRooms": 0,
+                "readTargetRooms": 0,
+                "clinicalSourceRooms": 0,
+                "operatingOnlyRooms": 0,
+                "historicalUnopenedRooms": 0,
+                "uiUnits": 0,
+                "notes": [
+                  "실제 국적필드를 확인한 열람방 중 당일 이력 관찰 0입니다. 해당 국가 전체에 당일 대화가 0이라는 뜻이 아닙니다."
+                ]
+              },
+              {
+                "code": "AT",
+                "name": "오스트리아",
+                "knownTargetRooms": 0,
+                "readTargetRooms": 0,
+                "clinicalSourceRooms": 0,
+                "operatingOnlyRooms": 0,
+                "historicalUnopenedRooms": 0,
+                "uiUnits": 0,
+                "notes": [
+                  "실제 국적필드를 확인한 열람방 중 당일 이력 관찰 0입니다. 해당 국가 전체에 당일 대화가 0이라는 뜻이 아닙니다."
+                ]
+              },
+              {
+                "code": "AU",
+                "name": "오스트레일리아",
+                "knownTargetRooms": 3,
+                "readTargetRooms": 3,
+                "clinicalSourceRooms": 2,
+                "operatingOnlyRooms": 1,
+                "historicalUnopenedRooms": 0,
+                "uiUnits": 5,
+                "notes": [
+                  "국적은 선택 고객정보의 실제 필드에 근거합니다. 표시 이력방 수는 현재 확인된 부분집합이며 해당 국가 전체 분모가 아닙니다."
+                ]
+              },
+              {
+                "code": "BR",
+                "name": "브라질",
+                "knownTargetRooms": 0,
+                "readTargetRooms": 0,
+                "clinicalSourceRooms": 0,
+                "operatingOnlyRooms": 0,
+                "historicalUnopenedRooms": 0,
+                "uiUnits": 0,
+                "notes": [
+                  "실제 국적필드를 확인한 열람방 중 당일 이력 관찰 0입니다. 해당 국가 전체에 당일 대화가 0이라는 뜻이 아닙니다."
+                ]
+              },
+              {
+                "code": "CA",
+                "name": "캐나다",
+                "knownTargetRooms": 1,
+                "readTargetRooms": 1,
+                "clinicalSourceRooms": 1,
+                "operatingOnlyRooms": 0,
+                "historicalUnopenedRooms": 0,
+                "uiUnits": 4,
+                "notes": [
+                  "국적은 선택 고객정보의 실제 필드에 근거합니다. 표시 이력방 수는 현재 확인된 부분집합이며 해당 국가 전체 분모가 아닙니다."
+                ]
+              },
+              {
+                "code": "CH",
+                "name": "스위스",
+                "knownTargetRooms": 0,
+                "readTargetRooms": 0,
+                "clinicalSourceRooms": 0,
+                "operatingOnlyRooms": 0,
+                "historicalUnopenedRooms": 0,
+                "uiUnits": 0,
+                "notes": [
+                  "실제 국적필드를 확인한 열람방 중 당일 이력 관찰 0입니다. 해당 국가 전체에 당일 대화가 0이라는 뜻이 아닙니다."
+                ]
+              },
+              {
+                "code": "CN",
+                "name": "중국",
+                "knownTargetRooms": 0,
+                "readTargetRooms": 0,
+                "clinicalSourceRooms": 0,
+                "operatingOnlyRooms": 0,
+                "historicalUnopenedRooms": 0,
+                "uiUnits": 0,
+                "notes": [
+                  "실제 국적필드를 확인한 열람방 중 당일 이력 관찰 0입니다. 해당 국가 전체에 당일 대화가 0이라는 뜻이 아닙니다."
+                ]
+              },
+              {
+                "code": "DE",
+                "name": "독일",
+                "knownTargetRooms": 1,
+                "readTargetRooms": 1,
+                "clinicalSourceRooms": 1,
+                "operatingOnlyRooms": 0,
+                "historicalUnopenedRooms": 0,
+                "uiUnits": 4,
+                "notes": [
+                  "국적은 선택 고객정보의 실제 필드에 근거합니다. 표시 이력방 수는 현재 확인된 부분집합이며 해당 국가 전체 분모가 아닙니다."
+                ]
+              },
+              {
+                "code": "DK",
+                "name": "덴마크",
+                "knownTargetRooms": 0,
+                "readTargetRooms": 0,
+                "clinicalSourceRooms": 0,
+                "operatingOnlyRooms": 0,
+                "historicalUnopenedRooms": 0,
+                "uiUnits": 0,
+                "notes": [
+                  "실제 국적필드를 확인한 열람방 중 당일 이력 관찰 0입니다. 해당 국가 전체에 당일 대화가 0이라는 뜻이 아닙니다."
+                ]
+              },
+              {
+                "code": "ES",
+                "name": "스페인",
+                "knownTargetRooms": 1,
+                "readTargetRooms": 1,
+                "clinicalSourceRooms": 0,
+                "operatingOnlyRooms": 1,
+                "historicalUnopenedRooms": 0,
+                "uiUnits": 1,
+                "notes": [
+                  "국적은 선택 고객정보의 실제 필드에 근거합니다. 표시 이력방 수는 현재 확인된 부분집합이며 해당 국가 전체 분모가 아닙니다."
+                ]
+              },
+              {
+                "code": "FI",
+                "name": "핀란드",
+                "knownTargetRooms": 1,
+                "readTargetRooms": 1,
+                "clinicalSourceRooms": 1,
+                "operatingOnlyRooms": 0,
+                "historicalUnopenedRooms": 0,
+                "uiUnits": 3,
+                "notes": [
+                  "국적은 선택 고객정보의 실제 필드에 근거합니다. 표시 이력방 수는 현재 확인된 부분집합이며 해당 국가 전체 분모가 아닙니다."
+                ]
+              },
+              {
+                "code": "FR",
+                "name": "프랑스",
+                "knownTargetRooms": 0,
+                "readTargetRooms": 0,
+                "clinicalSourceRooms": 0,
+                "operatingOnlyRooms": 0,
+                "historicalUnopenedRooms": 0,
+                "uiUnits": 0,
+                "notes": [
+                  "실제 국적필드를 확인한 열람방 중 당일 이력 관찰 0입니다. 해당 국가 전체에 당일 대화가 0이라는 뜻이 아닙니다."
+                ]
+              },
+              {
+                "code": "GB",
+                "name": "영국",
+                "knownTargetRooms": 1,
+                "readTargetRooms": 1,
+                "clinicalSourceRooms": 1,
+                "operatingOnlyRooms": 0,
+                "historicalUnopenedRooms": 0,
+                "uiUnits": 3,
+                "notes": [
+                  "국적은 선택 고객정보의 실제 필드에 근거합니다. 표시 이력방 수는 현재 확인된 부분집합이며 해당 국가 전체 분모가 아닙니다."
+                ]
+              },
+              {
+                "code": "HK",
+                "name": "홍콩(중국 특별행정구)",
+                "knownTargetRooms": 0,
+                "readTargetRooms": 0,
+                "clinicalSourceRooms": 0,
+                "operatingOnlyRooms": 0,
+                "historicalUnopenedRooms": 0,
+                "uiUnits": 0,
+                "notes": [
+                  "실제 국적필드를 확인한 열람방 중 당일 이력 관찰 0입니다. 해당 국가 전체에 당일 대화가 0이라는 뜻이 아닙니다."
+                ]
+              },
+              {
+                "code": "IT",
+                "name": "이탈리아",
+                "knownTargetRooms": 1,
+                "readTargetRooms": 1,
+                "clinicalSourceRooms": 1,
+                "operatingOnlyRooms": 0,
+                "historicalUnopenedRooms": 0,
+                "uiUnits": 3,
+                "notes": [
+                  "국적은 선택 고객정보의 실제 필드에 근거합니다. 표시 이력방 수는 현재 확인된 부분집합이며 해당 국가 전체 분모가 아닙니다."
+                ]
+              },
+              {
+                "code": "JP",
+                "name": "일본",
+                "knownTargetRooms": 7,
+                "readTargetRooms": 7,
+                "clinicalSourceRooms": 5,
+                "operatingOnlyRooms": 2,
+                "historicalUnopenedRooms": 0,
+                "uiUnits": 15,
+                "notes": [
+                  "국적은 선택 고객정보의 실제 필드에 근거합니다. 표시 이력방 수는 현재 확인된 부분집합이며 해당 국가 전체 분모가 아닙니다."
+                ]
+              },
+              {
+                "code": "KZ",
+                "name": "카자흐스탄",
+                "knownTargetRooms": 0,
+                "readTargetRooms": 0,
+                "clinicalSourceRooms": 0,
+                "operatingOnlyRooms": 0,
+                "historicalUnopenedRooms": 0,
+                "uiUnits": 0,
+                "notes": [
+                  "실제 국적필드를 확인한 열람방 중 당일 이력 관찰 0입니다. 해당 국가 전체에 당일 대화가 0이라는 뜻이 아닙니다."
+                ]
+              },
+              {
+                "code": "MY",
+                "name": "말레이시아",
+                "knownTargetRooms": 1,
+                "readTargetRooms": 1,
+                "clinicalSourceRooms": 0,
+                "operatingOnlyRooms": 1,
+                "historicalUnopenedRooms": 0,
+                "uiUnits": 1,
+                "notes": [
+                  "국적은 선택 고객정보의 실제 필드에 근거합니다. 표시 이력방 수는 현재 확인된 부분집합이며 해당 국가 전체 분모가 아닙니다."
+                ]
+              },
+              {
+                "code": "NL",
+                "name": "네덜란드",
+                "knownTargetRooms": 0,
+                "readTargetRooms": 0,
+                "clinicalSourceRooms": 0,
+                "operatingOnlyRooms": 0,
+                "historicalUnopenedRooms": 0,
+                "uiUnits": 0,
+                "notes": [
+                  "실제 국적필드를 확인한 열람방 중 당일 이력 관찰 0입니다. 해당 국가 전체에 당일 대화가 0이라는 뜻이 아닙니다."
+                ]
+              },
+              {
+                "code": "NO",
+                "name": "노르웨이",
+                "knownTargetRooms": 0,
+                "readTargetRooms": 0,
+                "clinicalSourceRooms": 0,
+                "operatingOnlyRooms": 0,
+                "historicalUnopenedRooms": 0,
+                "uiUnits": 0,
+                "notes": [
+                  "실제 국적필드를 확인한 열람방 중 당일 이력 관찰 0입니다. 해당 국가 전체에 당일 대화가 0이라는 뜻이 아닙니다."
+                ]
+              },
+              {
+                "code": "RU",
+                "name": "러시아",
+                "knownTargetRooms": 1,
+                "readTargetRooms": 1,
+                "clinicalSourceRooms": 1,
+                "operatingOnlyRooms": 0,
+                "historicalUnopenedRooms": 0,
+                "uiUnits": 4,
+                "notes": [
+                  "국적은 선택 고객정보의 실제 필드에 근거합니다. 표시 이력방 수는 현재 확인된 부분집합이며 해당 국가 전체 분모가 아닙니다."
+                ]
+              },
+              {
+                "code": "SG",
+                "name": "싱가포르",
+                "knownTargetRooms": 2,
+                "readTargetRooms": 2,
+                "clinicalSourceRooms": 2,
+                "operatingOnlyRooms": 0,
+                "historicalUnopenedRooms": 0,
+                "uiUnits": 28,
+                "notes": [
+                  "국적은 선택 고객정보의 실제 필드에 근거합니다. 표시 이력방 수는 현재 확인된 부분집합이며 해당 국가 전체 분모가 아닙니다."
+                ]
+              },
+              {
+                "code": "SK",
+                "name": "슬로바키아",
+                "knownTargetRooms": 0,
+                "readTargetRooms": 0,
+                "clinicalSourceRooms": 0,
+                "operatingOnlyRooms": 0,
+                "historicalUnopenedRooms": 0,
+                "uiUnits": 0,
+                "notes": [
+                  "실제 국적필드를 확인한 열람방 중 당일 이력 관찰 0입니다. 해당 국가 전체에 당일 대화가 0이라는 뜻이 아닙니다."
+                ]
+              },
+              {
+                "code": "TH",
+                "name": "태국",
+                "knownTargetRooms": 10,
+                "readTargetRooms": 9,
+                "clinicalSourceRooms": 8,
+                "operatingOnlyRooms": 2,
+                "historicalUnopenedRooms": 1,
+                "uiUnits": 42,
+                "notes": [
+                  "국적은 선택 고객정보의 실제 필드에 근거합니다. 표시 이력방 수는 현재 확인된 부분집합이며 해당 국가 전체 분모가 아닙니다.",
+                  "보호된 과거자료1방의 국적만 이전 실제필드로 유지했으며 현재 본문·언어를 재열람한 것으로 세지 않습니다."
+                ]
+              },
+              {
+                "code": "TR",
+                "name": "튀르키예",
+                "knownTargetRooms": 0,
+                "readTargetRooms": 0,
+                "clinicalSourceRooms": 0,
+                "operatingOnlyRooms": 0,
+                "historicalUnopenedRooms": 0,
+                "uiUnits": 0,
+                "notes": [
+                  "실제 국적필드를 확인한 열람방 중 당일 이력 관찰 0입니다. 해당 국가 전체에 당일 대화가 0이라는 뜻이 아닙니다."
+                ]
+              },
+              {
+                "code": "TW",
+                "name": "대만",
+                "knownTargetRooms": 19,
+                "readTargetRooms": 19,
+                "clinicalSourceRooms": 15,
+                "operatingOnlyRooms": 4,
+                "historicalUnopenedRooms": 0,
+                "uiUnits": 114,
+                "notes": [
+                  "국적은 선택 고객정보의 실제 필드에 근거합니다. 표시 이력방 수는 현재 확인된 부분집합이며 해당 국가 전체 분모가 아닙니다."
+                ]
+              },
+              {
+                "code": "US",
+                "name": "미국",
+                "knownTargetRooms": 8,
+                "readTargetRooms": 8,
+                "clinicalSourceRooms": 8,
+                "operatingOnlyRooms": 0,
+                "historicalUnopenedRooms": 0,
+                "uiUnits": 62,
+                "notes": [
+                  "국적은 선택 고객정보의 실제 필드에 근거합니다. 표시 이력방 수는 현재 확인된 부분집합이며 해당 국가 전체 분모가 아닙니다."
+                ]
+              },
+              {
+                "code": "VN",
+                "name": "베트남",
+                "knownTargetRooms": 0,
+                "readTargetRooms": 0,
+                "clinicalSourceRooms": 0,
+                "operatingOnlyRooms": 0,
+                "historicalUnopenedRooms": 0,
+                "uiUnits": 0,
+                "notes": [
+                  "실제 국적필드를 확인한 열람방 중 당일 이력 관찰 0입니다. 해당 국가 전체에 당일 대화가 0이라는 뜻이 아닙니다."
+                ]
+              }
+            ],
+            "nationalitySourceNote": "현재 직접 열람에서 확인한 실제 국적필드28개 코드를 각각 표시합니다. 당일 이력은14개국에서 확인했고 태국 과거자료1방은 역사적 실제필드만 유지합니다. 국적과 문의언어는 독립 필드입니다.",
+            "limitations": [
+              "보존목록5425개 물리슬롯 끝까지 관찰했지만 고유방수나 당일분모는 아닙니다. 처리기록795행, 실제 고유채널775개 성공. 목록 메타키와 처리기록이 연결되지 않은 4630행은 고유 미검수방수로 단정하지 않습니다.",
+              "현재 당일 직접열람56방·289UI단위 = 기존45방·278단위 + 자동 운영카드전용11방·11단위입니다. 보호된 기존자료1방을 별도로 유지하여 알려진 이력 하한57방입니다. UI단위는 제공자 개별 메시지 수가 아닙니다.",
+              "기존 상담판정46방은 적정35·확정오류1·자료충돌3·확인필요7로 보존합니다. 언어별 판정은 현재 재열람45방의 기존 한정판정만 연결했으며 보호역사1방의 판정은 기존원장에만 남깁니다. 새 운영카드11방에 임상 적정/오류 판정을 생성하지 않습니다.",
+              "처리기록 내 보호15행과 선택미확인2행이 있습니다. 보호 중 알려진 과거 당일방1개 외 나머지의 당일 포함 여부·언어·국적은 미확인이라 당일 국가/언어분모에 확정 편입하지 않습니다. 전체 미검수방수는 미확인입니다.",
+              "공식 신청/내원 기간5개 조회를17페이지 끝까지 확인: 내원87행 + 신청54행 = 쿼리소속141행입니다. 환자·채팅방 고유건수가 아닙니다. 채팅표시53행 중 표시명/연락메타의 단일 목록 연결후보46행, 나머지7행은 모호/미일치입니다. 연결후보도 채널 동일성의 독립 증명은 아니며 자동카드 발송일 분모를 확정하지 못했습니다.",
+              "추가 순회 중 공식 로그인 화면 전환2회, 저장된 공식 자동입력으로 각각 복구했습니다. 추가인증·계정잠금·보안경고는 관찰되지 않았으며 전환 원인은 미확정입니다. 이는 과거10방 누락의 원인 증명이 아니고 방열람 실패0과 별도 접속단계 사건입니다.",
+              "현재 첨부38개를 정상 미리보기로 재열람·시각대조했습니다. 기존 판정과 유의미한 새 차이는 관찰되지 않았습니다. 원본 파일 바이트 동일성·전체 무오류·삭제원문3개 복원을 뜻하지 않습니다.",
+              "전체상태·국가필터를 제한하지 않았으나 모든 역대 방의 당일 이력·첨부를 전수확인한 것은 아닙니다. 전체분모null·partial을 유지합니다."
+            ]
+          },
+          "nonChatRecords": [
+            {
+              "kind": "D-Day 자동 운영카드",
+              "count": 3,
+              "scope": "30일 자동카드전용 추가방, 문의언어 미확인",
+              "assessment": "일정표기·당일구분 정합만 확인. 실제 발송로그/예약이행/임상상담 완료를 증명하지 않음"
+            },
+            {
+              "kind": "D-1 자동 운영카드",
+              "count": 1,
+              "scope": "30일 자동카드전용 추가방, 문의언어 미확인",
+              "assessment": "일정표기·당일구분 정합만 확인. 실제 발송로그/예약이행/임상상담 완료를 증명하지 않음"
+            },
+            {
+              "kind": "D-2 자동 운영카드",
+              "count": 5,
+              "scope": "30일 자동카드전용 추가방, 문의언어 미확인",
+              "assessment": "일정표기·당일구분 정합만 확인. 실제 발송로그/예약이행/임상상담 완료를 증명하지 않음"
+            },
+            {
+              "kind": "D-7 자동 운영카드",
+              "count": 2,
+              "scope": "30일 자동카드전용 추가방, 문의언어 미확인",
+              "assessment": "일정표기·당일구분 정합만 확인. 실제 발송로그/예약이행/임상상담 완료를 증명하지 않음"
+            }
+          ]
         },
         {
           "date": "2026-10-29",
@@ -2467,7 +3065,7 @@ window.SUPERVISION_DATA = {
           "status": "partial",
           "auditState": "reviewed-expanded-safe-scope-unaggregated",
           "cutoffAt": "2026-10-31T03:02:18.443Z",
-          "checkedAt": "2026-10-31T03:08:40.870Z",
+          "checkedAt": "2026-10-31T07:02:31.723Z",
           "eligibleRooms": 9,
           "reviewedRooms": 9,
           "messageCount": null,
@@ -2720,7 +3318,12 @@ window.SUPERVISION_DATA = {
             "notes": [
               "저장된30일11방 중 환자9방만 분모로 삼았습니다(제한범위 적정6·확인필요3: 동일조건 가격1+야간부분범위2). 야간2는 실질 상담·가격/예약확정 검수완료가 아닙니다. 기업제안1방과 목적불명1방은 환자에서 제외합니다. 전체49 UI단위와 환자39 UI단위(문자34+카드5)는 의료메시지수/사람답변수와 다릅니다. 환자9방의 카드5개·전체11방의 카드6개는 표시문자만 읽었으며 버튼·목적지·연결이미지는 열지 않았습니다. 카드 미열람 총수는 미확인입니다. 삭제원문1개 미열람, 보호44방(30일확실34·가능10)은 국적 미검사로 국적미확인9에 합산하지 않습니다. 검토9방의 실제국적은 본문에 없어 미확인이며 이름·언어로 추정하지 않았습니다. casesComplete는 해석한 가시문자 부분집합과 기존 가격사례만 의미하며 전체카드·삭제·전일전수 완료가 아닙니다. 전체partial입니다.",
               "후보56방은 실제 관찰 목록입니다. 보호44방과 30일 본문 없는1방을 구분합니다. 30일 기업제안1방·목적불명1방은 환자9방 분모에서 제외합니다.",
-              "9행 모두 제한범위 실제문자 검토를 기록하되 임상설명 완료9로 해석하지 않습니다. 환자9행 중6행은 제한범위 적정이고3행은 확인필요이며, 이 중 야간2행의 실질 가격·예약상담은 검토완료로 보지 않습니다."
+              "9행 모두 제한범위 실제문자 검토를 기록하되 임상설명 완료9로 해석하지 않습니다. 환자9행 중6행은 제한범위 적정이고3행은 확인필요이며, 이 중 야간2행의 실질 가격·예약상담은 검토완료로 보지 않습니다.",
+              "보존목록16656방의메타데이터끝확인과전체대화본문전수검수는다릅니다. 현재10방열람,30일본문9방(환자8+기업1),본문41UI단위입니다.",
+              "최근후보72방중보호62방은열지않았습니다. 목록30일42방중35방미열람,31일최신보호27방의30일포함여부미확인입니다. 후보창상한72와전체분모를혼동하지않습니다.",
+              "기존환자판정9방(적정6/확인필요3)은보존하고현재재열람환자8방의한정판정(적정5/확인필요3)과구분합니다. 기업제안1방은별도이고새임상판정을생성하지않았습니다.",
+              "단일문자검색검증1건은검색을지운안전목록선택으로해소했습니다. 본문배열불일치1건은비교기의배열누락처리문제로수정후현재8메시지의본문·시각·화자일치를확인했습니다. 사이트차단/직원오류가아닙니다.",
+              "링크·연결이미지의실제목적지와전체첨부수는미검수입니다. 전체분모null·partial을유지합니다."
             ]
           },
           "followUps": [],
@@ -2768,7 +3371,127 @@ window.SUPERVISION_DATA = {
               "저장된30일11방 중 환자9방만 분모로 삼았습니다(제한범위 적정6·확인필요3: 동일조건 가격1+야간부분범위2). 야간2는 실질 상담·가격/예약확정 검수완료가 아닙니다. 기업제안1방과 목적불명1방은 환자에서 제외합니다. 전체49 UI단위와 환자39 UI단위(문자34+카드5)는 의료메시지수/사람답변수와 다릅니다. 환자9방의 카드5개·전체11방의 카드6개는 표시문자만 읽었으며 버튼·목적지·연결이미지는 열지 않았습니다. 카드 미열람 총수는 미확인입니다. 삭제원문1개 미열람, 보호44방(30일확실34·가능10)은 국적 미검사로 국적미확인9에 합산하지 않습니다. 검토9방의 실제국적은 본문에 없어 미확인이며 이름·언어로 추정하지 않았습니다. casesComplete는 해석한 가시문자 부분집합과 기존 가격사례만 의미하며 전체카드·삭제·전일전수 완료가 아닙니다. 전체partial입니다.",
               "카드 미열람 수는 미확인이므로 null로 유지하며 0으로 집계하지 않습니다."
             ]
-          }
+          },
+          "inquiryLanguageCoverage": {
+            "label": "10월30일 전체상태·전체기간 목록 및 당일 직접본문 확인범위",
+            "methodNote": "현재 열람한 고객 직접 한국어 문장에 근거. 병원답변/플랫폼명으로 국적을 추정하지 않음.",
+            "denominatorKnown": false,
+            "totalTargetRooms": null,
+            "observedCandidateRooms": 72,
+            "confirmedTargetRooms": 44,
+            "knownTargetRoomLowerBound": 44,
+            "knownTargetRoomUpperBound": null,
+            "accessAttemptedRooms": 10,
+            "openedRooms": 10,
+            "reviewedTargetRooms": 9,
+            "clinicalSourceRooms": 9,
+            "operatingOnlyRooms": 1,
+            "guardedNotOpenedRooms": 62,
+            "accessFailureRooms": 0,
+            "unresolvedDateRooms": null,
+            "deletedOriginalUnreadUnits": null,
+            "providerIndividualMessageCount": null,
+            "retainedListRows": 16656,
+            "unprocessedRetainedRows": 16646,
+            "nationalitySourceNote": "현재 국적필드를 검사하지 않았으므로 실제 국적은 모두 미확인입니다. 한국어 문의·병원계정·한국 플랫폼은 한국 국적 근거가 아닙니다.",
+            "nationalities": [
+              {
+                "code": "ZZ",
+                "name": "국적미확인",
+                "knownTargetRooms": 44,
+                "readTargetRooms": 9,
+                "clinicalSourceRooms": 9,
+                "operatingOnlyRooms": 1,
+                "historicalUnopenedRooms": 1,
+                "uiUnits": 41,
+                "notes": [
+                  "최소44는 목록상30일42방 +31일최신이지만30일본문을읽은2방입니다. 현재본문9방과미열람35방을구별합니다."
+                ]
+              }
+            ],
+            "languages": [
+              {
+                "code": "ko",
+                "name": "한국어",
+                "knownTargetRooms": 9,
+                "readTargetRooms": 9,
+                "reviewedTargetRooms": 9,
+                "clinicalReviewedRooms": 8,
+                "operatingOnlyRooms": 1,
+                "uiUnits": 41,
+                "guardedNotOpenedRooms": 0,
+                "unreadOriginalUnits": null,
+                "accessFailureRooms": 0,
+                "verdicts": {
+                  "appropriate": 5,
+                  "confirmedError": 0,
+                  "suspectedError": 0,
+                  "missingAnswer": 0,
+                  "sourceConflict": 0,
+                  "needsVerification": 3
+                },
+                "notes": [
+                  "현재환자8방34UI + 기업1방7UI를실제열람. 환자8방기존판정적정5/확인필요3,기업1방은임상판정대상아님."
+                ]
+              },
+              {
+                "code": "unknown",
+                "name": "미확인",
+                "knownTargetRooms": 35,
+                "readTargetRooms": 0,
+                "reviewedTargetRooms": 0,
+                "clinicalReviewedRooms": 0,
+                "operatingOnlyRooms": 0,
+                "uiUnits": null,
+                "guardedNotOpenedRooms": 35,
+                "unreadOriginalUnits": null,
+                "accessFailureRooms": 0,
+                "verdicts": null,
+                "notes": [
+                  "목록상30일이지만보호미열람35방의고객문의언어는미확인. 기존보존환자원장9방중현재재열람하지않은1방포함."
+                ]
+              },
+              {
+                "code": "multilingual",
+                "name": "다국어",
+                "knownTargetRooms": 0,
+                "readTargetRooms": 0,
+                "reviewedTargetRooms": 0,
+                "clinicalReviewedRooms": 0,
+                "operatingOnlyRooms": 0,
+                "uiUnits": 0,
+                "guardedNotOpenedRooms": 0,
+                "unreadOriginalUnits": 0,
+                "accessFailureRooms": 0,
+                "verdicts": {
+                  "appropriate": 0,
+                  "confirmedError": 0,
+                  "suspectedError": 0,
+                  "missingAnswer": 0,
+                  "sourceConflict": 0,
+                  "needsVerification": 0
+                },
+                "notes": [
+                  "현재직접열람9방에서는다국어문의가확인되지않음. 전체0뜻아님."
+                ]
+              }
+            ],
+            "limitations": [
+              "보존목록16656방의메타데이터끝확인과전체대화본문전수검수는다릅니다. 현재10방열람,30일본문9방(환자8+기업1),본문41UI단위입니다.",
+              "최근후보72방중보호62방은열지않았습니다. 목록30일42방중35방미열람,31일최신보호27방의30일포함여부미확인입니다. 후보창상한72와전체분모를혼동하지않습니다.",
+              "기존환자판정9방(적정6/확인필요3)은보존하고현재재열람환자8방의한정판정(적정5/확인필요3)과구분합니다. 기업제안1방은별도이고새임상판정을생성하지않았습니다.",
+              "단일문자검색검증1건은검색을지운안전목록선택으로해소했습니다. 본문배열불일치1건은비교기의배열누락처리문제로수정후현재8메시지의본문·시각·화자일치를확인했습니다. 사이트차단/직원오류가아닙니다.",
+              "링크·연결이미지의실제목적지와전체첨부수는미검수입니다. 전체분모null·partial을유지합니다."
+            ]
+          },
+          "nonChatRecords": [
+            {
+              "kind": "기업 제안 대화",
+              "count": 1,
+              "scope": "30일 한국어 고객문장·7UI단위 실제열람",
+              "assessment": "환자 임상상담/적정·오류 집계에 합산하지 않음"
+            }
+          ]
         },
         {
           "platform": "kakao-clinic",
@@ -3301,7 +4024,7 @@ window.SUPERVISION_DATA = {
           "platform": "babitalk",
           "date": "2026-10-30",
           "status": "partial",
-          "auditState": "reviewed-overseas-zero-domestic-records-separate",
+          "auditState": "partial-history-unopened-date-unknown",
           "cutoffAt": "2026-10-31T02:55:58.075Z",
           "checkedAt": "2026-10-31T02:55:58.075Z",
           "eligibleRooms": 0,
@@ -3318,7 +4041,8 @@ window.SUPERVISION_DATA = {
             "suspectedError": 0,
             "missingAnswer": 0,
             "sourceConflict": 0,
-            "needsVerification": 0
+            "needsVerification": 0,
+            "unreviewed": 0
           },
           "countries": [
             {
@@ -3332,7 +4056,8 @@ window.SUPERVISION_DATA = {
                 "suspectedError": 0,
                 "missingAnswer": 0,
                 "sourceConflict": 0,
-                "needsVerification": 0
+                "needsVerification": 0,
+                "unreviewed": 0
               }
             },
             {
@@ -3346,7 +4071,8 @@ window.SUPERVISION_DATA = {
                 "suspectedError": 0,
                 "missingAnswer": 0,
                 "sourceConflict": 0,
-                "needsVerification": 0
+                "needsVerification": 0,
+                "unreviewed": 0
               }
             },
             {
@@ -3360,7 +4086,8 @@ window.SUPERVISION_DATA = {
                 "suspectedError": 0,
                 "missingAnswer": 0,
                 "sourceConflict": 0,
-                "needsVerification": 0
+                "needsVerification": 0,
+                "unreviewed": 0
               }
             },
             {
@@ -3374,7 +4101,8 @@ window.SUPERVISION_DATA = {
                 "suspectedError": 0,
                 "missingAnswer": 0,
                 "sourceConflict": 0,
-                "needsVerification": 0
+                "needsVerification": 0,
+                "unreviewed": 0
               }
             },
             {
@@ -3388,7 +4116,8 @@ window.SUPERVISION_DATA = {
                 "suspectedError": 0,
                 "missingAnswer": 0,
                 "sourceConflict": 0,
-                "needsVerification": 0
+                "needsVerification": 0,
+                "unreviewed": 0
               }
             },
             {
@@ -3402,25 +4131,30 @@ window.SUPERVISION_DATA = {
                 "suspectedError": 0,
                 "missingAnswer": 0,
                 "sourceConflict": 0,
-                "needsVerification": 0
+                "needsVerification": 0,
+                "unreviewed": 0
               }
             }
           ],
           "issues": [],
-          "casesComplete": true,
-          "casesScope": "reviewed-rooms",
+          "casesComplete": false,
+          "casesScope": "history-unopened",
           "casesUpdatedAt": "2026-10-30T09:16:20.562Z",
           "cases": [],
           "reviewEntries": [],
           "conversations": [],
-          "reviewScope": "해외 전체목록8건(일본어8, 영어·번체·간체0)의 최신 메시지는10월8일이며 관찰목록의30일 대상0입니다. 과거8방 본문은 열지 않았습니다. 국내30일 신청목록1건은 채팅방이 아닌 신청기록이며 SMS내역 배지1건은 현재 안전조건 미충족으로 본문을 열지 않았습니다. 해외0을 플랫폼전체 무오류·전국가 전수검수로 표현하지 않습니다. 국내 신청국가 표시는 실제 국적검증이 아닙니다.",
+          "reviewScope": "전체 해외목록8방의 최신 표시일과 국내신청목록만 확인했으며 방본문8개는 미검수입니다. 당일 전체분모는 미확인이고 0건·전체완료로 표시하지 않습니다.",
           "coverage": {
             "candidateRooms": 8,
             "reviewedRooms": 0,
             "excludedOutsideDate": 8,
             "uninspectedAttachments": null,
             "notes": [
-              "해외 전체목록8건(일본어8, 영어·번체·간체0)의 최신 메시지는10월8일이며 관찰목록의30일 대상0입니다. 과거8방 본문은 열지 않았습니다. 국내30일 신청목록1건은 채팅방이 아닌 신청기록이며 SMS내역 배지1건은 현재 안전조건 미충족으로 본문을 열지 않았습니다. 해외0을 플랫폼전체 무오류·전국가 전수검수로 표현하지 않습니다. 국내 신청국가 표시는 실제 국적검증이 아닙니다."
+              "해외 전체목록8건(일본어8, 영어·번체·간체0)의 최신 메시지는10월8일이며 관찰목록의30일 대상0입니다. 과거8방 본문은 열지 않았습니다. 국내30일 신청목록1건은 채팅방이 아닌 신청기록이며 SMS내역 배지1건은 현재 안전조건 미충족으로 본문을 열지 않았습니다. 해외0을 플랫폼전체 무오류·전국가 전수검수로 표현하지 않습니다. 국내 신청국가 표시는 실제 국적검증이 아닙니다.",
+              "해외목록8방의전체·서비스언어별목록끝을확인했지만방본문은0건열람입니다. 최신표시일10/8은각방에30일자동/이전이력이없다는증명이아닙니다.",
+              "현재보존된해외목록8방내가능범위0~8이며플랫폼전체분모는null입니다. 당일전체0/무오류/완료로표시하지않습니다.",
+              "국내30일신청1건과SMS배지1건은별도이며원문미열람입니다. 실제예약확정/채팅상담/의학적판정으로합산하지않았습니다.",
+              "로그인·목록접근은성공했고현재사이트차단증거는없습니다. 안전불명방을열지않은것과기술적접근실패를구분합니다."
             ]
           },
           "followUps": [],
@@ -3456,7 +4190,7 @@ window.SUPERVISION_DATA = {
             "basis": "언어목록과 국적 구분",
             "allCountryDailyAuditComplete": false,
             "denominatorKnown": false,
-            "scope": "해외 전체목록8건(일본어8, 영어·번체·간체0)의 최신 메시지는10월8일이며 관찰목록의30일 대상0입니다. 과거8방 본문은 열지 않았습니다. 국내30일 신청목록1건은 채팅방이 아닌 신청기록이며 SMS내역 배지1건은 현재 안전조건 미충족으로 본문을 열지 않았습니다. 해외0을 플랫폼전체 무오류·전국가 전수검수로 표현하지 않습니다. 국내 신청국가 표시는 실제 국적검증이 아닙니다.",
+            "scope": "전체 해외목록8방의 최신 표시일과 국내신청목록만 확인했으며 방본문8개는 미검수입니다. 당일 전체분모는 미확인이고 0건·전체완료로 표시하지 않습니다.",
             "legends": [
               "국적 미확인: 확인한 고객정보/원천에 국적정보가 없거나 해당 필드가 미확인인 분류입니다. 목록 ZZ아이콘만으로 판단하지 않습니다. 원문 미검수라는 뜻이 아니며 언어·이름으로 추정하지 않습니다.",
               "실제 미열람: 원문·첨부를 읽지 못한 범위입니다. 삭제 원문과 안전조건상 보호제외는 판정에서 분리합니다.",
@@ -3466,6 +4200,86 @@ window.SUPERVISION_DATA = {
             "rows": [],
             "notes": [
               "해외 전체목록8건(일본어8, 영어·번체·간체0)의 최신 메시지는10월8일이며 관찰목록의30일 대상0입니다. 과거8방 본문은 열지 않았습니다. 국내30일 신청목록1건은 채팅방이 아닌 신청기록이며 SMS내역 배지1건은 현재 안전조건 미충족으로 본문을 열지 않았습니다. 해외0을 플랫폼전체 무오류·전국가 전수검수로 표현하지 않습니다. 국내 신청국가 표시는 실제 국적검증이 아닙니다."
+            ]
+          },
+          "inquiryLanguageCoverage": {
+            "label": "10월30일 해외채팅·국내신청 확인범위",
+            "methodNote": "고객 원문을 열람하지 않았으므로 문의언어를 판단하지 않음. 서비스언어필터는 고객 문의언어/국적 근거가 아님.",
+            "denominatorKnown": false,
+            "totalTargetRooms": null,
+            "observedCandidateRooms": 8,
+            "confirmedTargetRooms": 0,
+            "knownTargetRoomLowerBound": 0,
+            "knownTargetRoomUpperBound": 8,
+            "accessAttemptedRooms": 0,
+            "openedRooms": 0,
+            "reviewedTargetRooms": 0,
+            "clinicalSourceRooms": 0,
+            "operatingOnlyRooms": 0,
+            "guardedNotOpenedRooms": 8,
+            "accessFailureRooms": 0,
+            "unresolvedDateRooms": 8,
+            "deletedOriginalUnreadUnits": null,
+            "providerIndividualMessageCount": null,
+            "retainedListRows": 8,
+            "unprocessedRetainedRows": 8,
+            "nationalitySourceNote": "실제 고객 국적필드 미검사. 해외/국내와 언어필터를 국적으로 바꾸지 않음.",
+            "nationalities": [
+              {
+                "code": "ZZ",
+                "name": "국적미확인",
+                "knownTargetRooms": null,
+                "readTargetRooms": 0,
+                "clinicalSourceRooms": 0,
+                "operatingOnlyRooms": 0,
+                "historicalUnopenedRooms": 0,
+                "uiUnits": 0,
+                "notes": [
+                  "전체해외목록8방이지만30일대화존재여부·실제국적은미확인입니다."
+                ]
+              }
+            ],
+            "languages": [
+              {
+                "code": "unknown",
+                "name": "미확인",
+                "knownTargetRooms": null,
+                "readTargetRooms": 0,
+                "reviewedTargetRooms": 0,
+                "clinicalReviewedRooms": 0,
+                "operatingOnlyRooms": 0,
+                "uiUnits": 0,
+                "guardedNotOpenedRooms": 8,
+                "unreadOriginalUnits": null,
+                "accessFailureRooms": 0,
+                "verdicts": null,
+                "notes": [
+                  "당일 고객 직접 문장이 없거나 현재 보호로 미열람한 방입니다. 자동카드·상품유입·직원문구·국적·이름으로 언어를 추정하지 않았습니다."
+                ]
+              },
+              {
+                "code": "multilingual",
+                "name": "다국어",
+                "knownTargetRooms": null,
+                "readTargetRooms": 0,
+                "reviewedTargetRooms": 0,
+                "clinicalReviewedRooms": 0,
+                "operatingOnlyRooms": 0,
+                "uiUnits": 0,
+                "guardedNotOpenedRooms": 0,
+                "unreadOriginalUnits": null,
+                "accessFailureRooms": 0,
+                "verdicts": null,
+                "notes": [
+                  "현재 실제 열람한 당일 고객 직접 문장에 한정한 실무 언어분류입니다. 브랜드명·차용어만으로 다국어로 분류하지 않았습니다."
+                ]
+              }
+            ],
+            "limitations": [
+              "해외목록8방의전체·서비스언어별목록끝을확인했지만방본문은0건열람입니다. 최신표시일10/8은각방에30일자동/이전이력이없다는증명이아닙니다.",
+              "현재보존된해외목록8방내가능범위0~8이며플랫폼전체분모는null입니다. 당일전체0/무오류/완료로표시하지않습니다.",
+              "국내30일신청1건과SMS배지1건은별도이며원문미열람입니다. 실제예약확정/채팅상담/의학적판정으로합산하지않았습니다.",
+              "로그인·목록접근은성공했고현재사이트차단증거는없습니다. 안전불명방을열지않은것과기술적접근실패를구분합니다."
             ]
           }
         },
