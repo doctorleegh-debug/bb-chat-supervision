@@ -43,10 +43,12 @@ function sanitizeApprovedPublicContactsForPrivacy(value) {
     'https://tw.beautyblossom.kr/22',
     'https://naver.me/5ap1E0ph',
     'https://maps.app.goo.gl/kNTF1bYCqKdDFiHg9',
-    'https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8'
+    'https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8',
+    'https://beautyblossom.imweb.me/112' // 병원 공식 시술 후 주의사항 안내 페이지(카카오 자동 안내)
   ]);
   return value.replace(/https?:\/\/[^\s<>"'`]+/gi, token => approved.has(token) ? '[공식 병원 링크]' : token)
-    .replace(/(?<=ID[：:])@beautyblossom_tw(?=$|[\s。！，、（）「」【】])/g, '[공식 병원 LINE]');
+    .replace(/(?<=ID[：:])@beautyblossom_tw(?=$|[\s。！，、（）「」【】])/g, '[공식 병원 LINE]')
+    .replace(/(?<=^|\n|ID[：:])@beautyblossom_jp(?=$|[\s。！，、（）「」【】])/g, '[공식 병원 LINE]'); // 직원 가이드 11의 일본 공식 LINE ID
 }
 // v2 consultation-unit contract. Structural public contract only; source truth and semantic evidence are separate publication gates.
 const QA_FINAL_VERDICTS = ['normal','normal-ops','fix','followup','conflict','no-reply','image','archive','auto'];
@@ -157,7 +159,7 @@ function validateQaMergedTargets(days) {
     const consult=sortExchanges(consultsOf(f)),autos=f.overlay.exchanges.filter(e=>e.verdict==='auto'),children=[];
     if(consult.length){const bar=node('div','filter-chips');bar.setAttribute('role','group');bar.setAttribute('aria-label','판정 필터');for(const [id,label,test] of reviewFilters){const b=node('button','filter-chip',label+' '+fmt(consult.filter(test).length));b.type='button';b.setAttribute('aria-pressed',String(reviewFilter===id));b.addEventListener('click',()=>{reviewFilter=id;renderFinalReviewLog(day,f);});bar.append(b);}children.push(bar);const shown=consult.filter(reviewFilters.find(([id])=>id===reviewFilter)[2]);children.push(...(shown.length?shown.map(e=>exchangeCard(e,'rl',day)):[node('p','empty-line','해당 없음')]));}
     else if(!f.stats.unavailable&&!autos.length)children.push(node('p','empty-line','확인한 상담 없음'));
-    if(autos.length){const group=node('details','auto-group'),list=node('ul','auto-list');group.append(node('summary','','자동 알림 '+fmt(autos.length)+'건'));for(const e of autos){const li=node('li');li.append(node('span','',finalCountryName(e.country)+(e.finalReplyDate?' · '+shortDate(e.finalReplyDate):'')));const link=privateLink(e.privateRecordUrl,'원장');if(link)li.append(link);list.append(li);}group.append(list);children.push(group);}
+    if(autos.length){const group=node('details','auto-group'),list=node('ul','auto-list');group.append(node('summary','','자동 알림 '+fmt(autos.length)+'건'));for(const [i,e] of autos.entries()){const li=node('li');li.append(node('span','',(autos.length>1?(i+1)+'. ':'')+finalCountryName(e.country)+(e.finalReplyDate?' · '+shortDate(e.finalReplyDate):'')));const link=privateLink(e.privateRecordUrl,'원장');if(link)li.append(link);list.append(li);}group.append(list);children.push(group);}
     children.push(...mergedLines(f));if(f.stats.unavailable)children.push(finalUnavailablePanel(day,f.overlay.unavailable.recordIds));replace('review-log-content',...children);}
   function renderFinalCases(day,f){const ex=f.overlay.exchanges,count=key=>ex.filter(e=>finalCaseTabs[key].includes(e.verdict)).length;
     setStatic('case-tab-suspectedError',{hidden:true});setStatic('case-intro',{hidden:true});setStatic('case-previous',{hidden:true});setStatic('case-next',{hidden:true});setStatic('case-count',{hidden:true});$('case-tabs').replaceChildren(...finalCaseTabOrder.map(key=>$('case-tab-'+key)),$('case-tab-suspectedError'));caseTabsReordered=true;
