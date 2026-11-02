@@ -50,3 +50,34 @@
 
 /* Actual relevant question/reply text, including original and Korean translation. */
 .qa-quote{white-space:pre-wrap;overflow-wrap:anywhere;word-break:break-word;max-height:none;height:auto;overflow:visible;text-overflow:clip;display:block;-webkit-line-clamp:unset}
+/* v2 consultation-unit report */
+.final-overview{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:15px;margin-top:15px}.final-overview .final-footnote{grid-column:1/-1}.final-overview .card h3{margin-bottom:12px}
+.kpi.kpi-compact{min-height:0;padding:16px 20px}.kpi.kpi-compact .kpi-value{font-size:30px;margin:6px 0 0}
+.final-footnote{font-size:11px;color:var(--muted);margin:2px 2px 0}
+.empty-line{font-size:13px;color:var(--muted);margin:6px 0}
+.flag-list{list-style:none;margin:0;padding:0;display:grid;gap:8px}.flag-link{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;width:100%;text-align:left;background:#fff;border:1px solid var(--line);border-radius:10px;padding:11px 13px;color:var(--ink);font-size:13px;line-height:1.6}.flag-link:hover{border-color:var(--purple)}.flag-where{font-weight:700}.flag-reason{flex-basis:100%;color:#5b5466;font-size:12px;overflow-wrap:anywhere}
+.issue-group-title{font-size:14px;margin:18px 0 10px}.issue-group-title:first-child{margin-top:0}
+.verdict-chip{display:inline-flex;align-items:center;gap:5px;font-size:11px;font-weight:700;padding:3px 9px;border-radius:999px;background:var(--teal-soft);color:#35675c;white-space:nowrap}.verdict-chip small{font-size:10px;font-weight:600;opacity:.85;border-left:1px solid currentColor;padding-left:5px}
+.verdict-chip.v-fix,.verdict-chip.v-no-reply{background:#f8e4e8;color:#9b2f40}.verdict-chip.v-followup,.verdict-chip.v-conflict{background:#fbefdd;color:#875917}.verdict-chip.v-normal-ops{background:var(--purple-soft);color:var(--purple)}.verdict-chip.v-image,.verdict-chip.v-archive,.verdict-chip.v-auto{background:#efedf2;color:#655c73}
+.fv-normal{background:#77a696}.fv-normal-ops{background:#a796bd}.fv-fix{background:#bb727f}.fv-followup{background:#c1a16d}.fv-conflict{background:#7f92b4}.fv-no-reply{background:#a48ab4}.fv-image{background:#b9b5c1}.fv-archive{background:#d6d2dc}.mini-fill.fv-normal{background:#77a696}.mini-fill.fv-normal-ops{background:#a796bd}.mini-fill.fv-fix{background:#bb727f}.mini-fill.fv-followup{background:#c1a16d}.mini-fill.fv-conflict{background:#7f92b4}.mini-fill.fv-no-reply{background:#a48ab4}.mini-fill.fv-image{background:#b9b5c1}.mini-fill.fv-archive{background:#d6d2dc}
+.filter-chips{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 16px}.filter-chip{border:1px solid var(--line);background:#fff;border-radius:999px;min-height:36px;padding:6px 14px;font-size:12px;color:#5b5466}.filter-chip[aria-pressed=true]{background:var(--purple);border-color:var(--purple);color:#fff;font-weight:700}
+.exchange-card{padding:20px 22px;margin-bottom:16px;border:1px solid var(--line)}.exchange-card.is-flagged{border-color:#d88d98}.exchange-card:focus{outline:3px solid #7b63a8;outline-offset:3px}
+.exchange-top{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin-bottom:10px}.exchange-top .case-country{font-size:26px;font-weight:750;line-height:1.3;color:var(--ink);overflow-wrap:anywhere}
+.exchange-head .case-classification{margin-bottom:14px}
+.exchange-grid .case-cell{border-color:var(--line)}.exchange-card.is-flagged .exchange-grid .case-cell{border-color:#e2b5bc}.exchange-grid .case-basis{background:#faf8fb}.exchange-card.is-flagged .case-basis{background:#fff3f4}
+.msg+.msg{margin-top:16px;padding-top:14px;border-top:1px solid #efecf2}
+.msg-date{display:inline-block;font-size:10px;font-weight:700;color:var(--purple);background:var(--purple-soft);border-radius:4px;padding:1px 7px;margin:0 0 7px}
+.msg-original{white-space:pre-wrap;overflow-wrap:anywhere;word-break:break-word;max-height:none;overflow:visible;font-size:13px;line-height:1.85;color:#2f2a38}
+.msg-ko{margin-top:9px;padding:8px 11px;background:#f6f4f8;border-left:3px solid #c4b5d0;border-radius:3px 7px 7px 3px}.msg-ko p{white-space:pre-wrap;overflow-wrap:anywhere;word-break:break-word;font-size:12px;line-height:1.8;color:#4d4558}.msg-ko-label{display:block;font-size:10px;font-weight:700;color:#8a7c99;margin-bottom:2px}
+.msg-image{display:inline-flex;font-size:10px;font-weight:700;color:#35675c;background:var(--teal-soft);border-radius:4px;padding:2px 8px;margin:0 0 7px}
+.msg-note{font-size:12px;color:#7d7787;background:#f6f5f7;border-radius:7px;padding:7px 10px;white-space:pre-wrap;overflow-wrap:anywhere}.msg-note+.msg-note,.msg+.msg-note,.msg-note+.msg{margin-top:10px}
+.exchange-dates{margin-top:12px;font-size:11px;font-weight:650;color:var(--purple)}
+.exchange-foot{margin-top:6px;text-align:right}.exchange-foot .qa-private-link,.auto-list .qa-private-link,.link-list .qa-private-link{display:inline-block;width:auto;min-height:32px;margin:0;padding:6px 2px;background:none;border:0;border-radius:0;font-size:12px;color:var(--purple)}
+.auto-group,.qa-unavailable-summary{margin-top:16px}.auto-group{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 16px}.auto-group summary{cursor:pointer;font-size:13px;font-weight:650}.auto-list,.link-list{margin:10px 0 0;padding-left:18px;font-size:12px;line-height:2}.auto-list li a{margin-left:8px}.link-list{display:flex;flex-wrap:wrap;gap:4px 14px;list-style:none;padding:0}
+.qa-unavailable-summary{padding:16px 18px}.qa-unavailable-summary summary{cursor:pointer;font-size:12px;color:var(--muted);margin-top:6px}
+.final-merged{font-size:12px;color:var(--muted);margin-top:12px}.notice-missing .date-link{margin-left:6px}
+td.country-name{font-size:17px;font-weight:750}tr.total-row td{font-weight:750;border-top:2px solid var(--line)}
+.coverage-line{font-size:14px;line-height:1.9;margin-bottom:6px}
+.stats-trend-bars .stats-bar-row{grid-template-columns:56px minmax(40px,1fr) auto}.stats-trend-bars .date-link{justify-self:start}.stats-trend-bars .stats-bar-row.selected strong{color:var(--purple)}
+@media(max-width:1200px){.final-overview{grid-template-columns:1fr}}
+@media(max-width:640px){.exchange-card{padding:16px 14px}.exchange-top .case-country{font-size:22px}.filter-chip{font-size:11px;padding:5px 11px}}

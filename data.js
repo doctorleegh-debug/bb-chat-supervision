@@ -41,8 +41,8 @@ window.SUPERVISION_DATA = {
         "accountVerified": true,
         "inboxVerified": true,
         "auditDate": "2026-11-01",
-        "summary": "2026-11-01 확인기록 47건 검수완료 · 정상 17 / 정정 3 / 확인사항 1 · 운영 26 / 보관 0 / 이미지내용제외 0 · 원문미확보 후보 31건",
-        "limit": "실제 확보한 답변의 검수 결과입니다. 전체 상담 수는 확인되지 않았습니다."
+        "summary": "2026-11-01 · 확인한 상담 32건 · 지적 3건",
+        "limit": "대화 본문을 확보한 상담만 포함합니다."
       },
       {
         "id": "kakao-clinic",
@@ -52,8 +52,8 @@ window.SUPERVISION_DATA = {
         "accountVerified": true,
         "inboxVerified": true,
         "auditDate": "2026-11-01",
-        "summary": "2026-11-01 대화 원문 미확보 · 정상 여부 판정 제외 · 원문미확보 후보 60건",
-        "limit": "실제 확보한 답변의 검수 결과입니다. 전체 상담 수는 확인되지 않았습니다."
+        "summary": "2026-11-01 · 대화 본문 미확보",
+        "limit": "대화 본문을 확보한 상담만 포함합니다."
       },
       {
         "id": "babitalk",
@@ -63,8 +63,8 @@ window.SUPERVISION_DATA = {
         "accountVerified": true,
         "inboxVerified": true,
         "auditDate": "2026-11-01",
-        "summary": "2026-11-01 대화 원문 미확보 · 정상 여부 판정 제외 · 원문미확보 후보 11건",
-        "limit": "실제 확보한 답변의 검수 결과입니다. 전체 상담 수는 확인되지 않았습니다."
+        "summary": "2026-11-01 · 대화 본문 미확보",
+        "limit": "대화 본문을 확보한 상담만 포함합니다."
       }
     ]
   },
@@ -273,8 +273,8 @@ window.SUPERVISION_DATA = {
           "customerKo": "문의 내용\n어떤 것이 궁금하신가요?\n이벤트 문의\n홍대 디자인 슬림라인 어깨 필러, 직각 어깨 필러, 스완 숄더 필러",
           "staffText": "ご連絡ありがとうございます🌸\nフィラーは気になる部分へボリュームを追加する施術です！\nご相談はお気軽にどうぞ😊\n\nこちらのイベントもご覧ください🙇✨\n\nhttps://jp.beautyblossom.kr/22/?q=YToyOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjtzOjQ6InBhZ2UiO2k6Mjt9&bmode=view&idx=173336689&t=board",
           "staffKo": "연락해 주셔서 감사합니다🌸\n필러는 신경 쓰이는 부위에 볼륨을 더하는 시술입니다!\n편하게 상담해 주세요😊\n\n이 이벤트도 확인해 주세요🙇✨\n\nhttps://jp.beautyblossom.kr/22/?q=YToyOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjtzOjQ6InBhZ2UiO2k6Mjt9&bmode=view&idx=173336689&t=board",
-          "rationale": "일치: 어깨필러 문의에 필러 설명과 이벤트 링크로 답했다. 보관된 어깨 24cc 안내의 브랜드별 세전 109만·139만·169만 원은 제공 수가표와 일치한다.",
-          "evidence": "raw/17.md L7896–L7904 sheet-1248865534!F6:J6\nB6 | 시즌 이벤트 |  |\nC6 | 상세내용 |  |\nD6 | 수식어 |  |\nE6 | 정상 |  |\nF6 | 정가 |  |\nG6 | VAT 전 |  |\nH6 | VAT 후 (최종) |  |\nI6 | 표기정가 |  |\nJ6 | 표기엔드가(VAT 전) |  |\n\nraw/17.md L8033 sheet-1248865534!B31\nB31 | 스윗 입술필러 1cc (아띠에르 18, 리쥬비엘 20, 스웨덴 레스틸렌 키스 33) |  |\n\nraw/17.md L8056 sheet-1248865534!B34\nB34 | 내츄럴 애교필러 1cc (아띠에르 20, 리쥬비엘 22, 독일 벨로테로 소프트 33) |  |\n\nraw/17.md L8222 sheet-1248865534!B56\nB56 | 디자인 풀페이스 필러 (아띠에르 129, 리쥬비엘 149) [벨라스트 삭제] |  |\n\nraw/17.md L8231 sheet-1248865534!B57\nB57 | ㄴ(특수부위 포함 무제한 풀페이스 필러) |  |\n\nraw/17.md L8034 sheet-1248865534!C31\nC31 | 아띠에르 18 |  |\n\nraw/17.md L8037 sheet-1248865534!F31\nF31 | 360,000 | =ROUND(E31, -4) |\n\nraw/17.md L8038 sheet-1248865534!G31\nG31 | 200,000 |  |\n\nraw/17.md L8039 sheet-1248865534!H31\nH31 | 220,000 | =G31+(G31*10%) |\n\nraw/17.md L8042 sheet-1248865534!C32\nC32 | 리쥬비엘 20 |  |\n\nraw/17.md L8044 sheet-1248865534!F32\nF32 | 400,000 | =ROUND(E32, -4) |\n\nraw/17.md L8045 sheet-1248865534!G32\nG32 | 220,000 |  |\n\nraw/17.md L8046 sheet-1248865534!H32\nH32 | 242,000 | =G32+(G32*10%) |\n\nraw/17.md L8049 sheet-1248865534!C33\nC33 | 스웨덴 레스틸렌 키스 33 |  |\n\nraw/17.md L8051 sheet-1248865534!F33\nF33 | 640,000 | =ROUND(E33, -4) |\n\nraw/17.md L8052 sheet-1248865534!G33\nG33 | 350,000 |  |\n\nraw/17.md L8053 sheet-1248865534!H33\nH33 | 385,000 | =G33+(G33*10%) |\n\nraw/17.md L8057 sheet-1248865534!C34\nC34 | 아띠에르 20 |  |\n\nraw/17.md L8060 sheet-1248865534!F34\nF34 | 450,000 | =ROUND(E34, -4) |\n\nraw/17.md L8061 sheet-1248865534!G34\nG34 | 250,000 |  |\n\nraw/17.md L8062 sheet-1248865534!H34\nH34 | 275,000 | =G34+(G34*10%) |\n\nraw/17.md L8065 sheet-1248865534!C35\nC35 | 리쥬비엘 22 |  |\n\nraw/17.md L8067 sheet-1248865534!F35\nF35 | 490,000 | =ROUND(E35, -4) |\n\nraw/17.md L8068 sheet-1248865534!G35\nG35 | 270,000 |  |\n\nraw/17.md L8069 sheet-1248865534!H35\nH35 | 297,000 | =G35+(G35*10%) |\n\nraw/17.md L8072 sheet-1248865534!C36\nC36 | 스위스 벨로테로 소프트 33 |  |\n\nraw/17.md L8074 sheet-1248865534!F36\nF36 | 710,000 | =ROUND(E36, -4) |\n\nraw/17.md L8075 sheet-1248865534!G36\nG36 | 390,000 |  |\n\nraw/17.md L8076 sheet-1248865534!H36\nH36 | 429,000 | =G36+(G36*10%) |\n\nraw/17.md L8080 sheet-1248865534!C37\nC37 | 아띠에르  |  |\n\nraw/17.md L8082 sheet-1248865534!F37\nF37 | 450,000 | =ROUND(E37, -4) |\n\nraw/17.md L8083 sheet-1248865534!G37\nG37 | 250,000 |  |\n\nraw/17.md L8084 sheet-1248865534!H37\nH37 | 275,000 | =G37+(G37*10%) |\n\nraw/17.md L8087 sheet-1248865534!C38\nC38 | 리쥬비엘  |  |\n\nraw/17.md L8089 sheet-1248865534!F38\nF38 | 550,000 | =ROUND(E38, -4) |\n\nraw/17.md L8090 sheet-1248865534!G38\nG38 | 300,000 |  |\n\nraw/17.md L8091 sheet-1248865534!H38\nH38 | 330,000 | =G38+(G38*10%) |\n\nraw/17.md L8094 sheet-1248865534!C39\nC39 | 스위스 벨로테로 소프트 / 레스틸렌 아이라이트 |  |\n\nraw/17.md L8096 sheet-1248865534!F39\nF39 | 650,000 | =ROUND(E39, -4) |\n\nraw/17.md L8097 sheet-1248865534!G39\nG39 | 360,000 |  |\n\nraw/17.md L8098 sheet-1248865534!H39\nH39 | 396,000 | =G39+(G39*10%) |\n\nraw/17.md L8102 sheet-1248865534!C40\nC40 | 아띠에르  |  |\n\nraw/17.md L8104 sheet-1248865534!F40\nF40 | 490,000 | =ROUND(E40, -4) |\n\nraw/17.md L8105 sheet-1248865534!G40\nG40 | 270,000 |  |\n\nraw/17.md L8106 sheet-1248865534!H40\nH40 | 297,000 | =G40+(G40*10%) |\n\nraw/17.md L8109 sheet-1248865534!C41\nC41 | 리쥬비엘  |  |\n\nraw/17.md L8111 sheet-1248865534!F41\nF41 | 560,000 | =ROUND(E41, -4) |\n\nraw/17.md L8112 sheet-1248865534!G41\nG41 | 310,000 |  |\n\nraw/17.md L8113 sheet-1248865534!H41\nH41 | 341,000 | =G41+(G41*10%) |\n\nraw/17.md L8116 sheet-1248865534!C42\nC42 | 스웨덴 레스틸렌 소프트 |  |\n\nraw/17.md L8118 sheet-1248865534!F42\nF42 | 710,000 | =ROUND(E42, -4) |\n\nraw/17.md L8119 sheet-1248865534!G42\nG42 | 390,000 |  |\n\nraw/17.md L8120 sheet-1248865534!H42\nH42 | 429,000 | =G42+(G42*10%) |\n\nraw/17.md L8123 sheet-1248865534!C43\nC43 | 미쥬코 1줄 추가 |  |\n\nraw/17.md L8125 sheet-1248865534!F43\nF43 | 180,000 | =ROUND(E43, -4) |\n\nraw/17.md L8126 sheet-1248865534!G43\nG43 | 100,000 |  |\n\nraw/17.md L8127 sheet-1248865534!H43\nH43 | 110,000 | =G43+(G43*10%) |\n\nraw/17.md L8131 sheet-1248865534!C44\nC44 | 아띠에르 39 |  |\n\nraw/17.md L8134 sheet-1248865534!F44\nF44 | 710,000 | =ROUND(E44, -4) |\n\nraw/17.md L8135 sheet-1248865534!G44\nG44 | 390,000 |  |\n\nraw/17.md L8136 sheet-1248865534!H44\nH44 | 429,000 | =G44+(G44*10%) |\n\nraw/17.md L8139 sheet-1248865534!C45\nC45 | 리쥬비엘 45 |  |\n\nraw/17.md L8141 sheet-1248865534!F45\nF45 | 820,000 | =ROUND(E45, -4) |\n\nraw/17.md L8142 sheet-1248865534!G45\nG45 | 450,000 |  |\n\nraw/17.md L8143 sheet-1248865534!H45\nH45 | 495,000 | =G45+(G45*10%) |\n\nraw/17.md L8146 sheet-1248865534!C46\nC46 | 수입 99 |  |\n\nraw/17.md L8148 sheet-1248865534!F46\nF46 | 1,800,000 | =ROUND(E46, -4) |\n\nraw/17.md L8149 sheet-1248865534!G46\nG46 | 990,000 |  |\n\nraw/17.md L8150 sheet-1248865534!H46\nH46 | 1,089,000 | =G46+(G46*10%) |\n\nraw/17.md L8154 sheet-1248865534!C47\nC47 | 아띠에르 |  |\n\nraw/17.md L8157 sheet-1248865534!F47\nF47 | 1,070,000 | =ROUND(E47, -4) |\n\nraw/17.md L8158 sheet-1248865534!G47\nG47 | 590,000 |  |\n\nraw/17.md L8159 sheet-1248865534!H47\nH47 | 649,000 | =G47+(G47*10%) |\n\nraw/17.md L8162 sheet-1248865534!C48\nC48 | 리쥬비엘  |  |\n\nraw/17.md L8164 sheet-1248865534!F48\nF48 | 1,180,000 | =ROUND(E48, -4) |\n\nraw/17.md L8165 sheet-1248865534!G48\nG48 | 650,000 |  |\n\nraw/17.md L8166 sheet-1248865534!H48\nH48 | 715,000 | =G48+(G48*10%) |\n\nraw/17.md L8169 sheet-1248865534!C49\nC49 | 수입 |  |\n\nraw/17.md L8171 sheet-1248865534!F49\nF49 | 1,800,000 | =ROUND(E49, -4) |\n\nraw/17.md L8172 sheet-1248865534!G49\nG49 | 990,000 |  |\n\nraw/17.md L8173 sheet-1248865534!H49\nH49 | 1,089,000 | =G49+(G49*10%) |\n\nraw/17.md L8177 sheet-1248865534!C50\nC50 | 아띠에르  |  |\n\nraw/17.md L8180 sheet-1248865534!F50\nF50 | 760,000 | =ROUND(E50, -4) |\n\nraw/17.md L8181 sheet-1248865534!G50\nG50 | 420,000 |  |\n\nraw/17.md L8182 sheet-1248865534!H50\nH50 | 462,000 | =G50+(G50*10%) |\n\nraw/17.md L8185 sheet-1248865534!C51\nC51 | 리쥬비엘 |  |\n\nraw/17.md L8187 sheet-1248865534!F51\nF51 | 840,000 | =ROUND(E51, -4) |\n\nraw/17.md L8188 sheet-1248865534!G51\nG51 | 460,000 |  |\n\nraw/17.md L8189 sheet-1248865534!H51\nH51 | 506,000 | =G51+(G51*10%) |\n\nraw/17.md L8192 sheet-1248865534!C52\nC52 | 스위스 벨로테로 소프트 |  |\n\nraw/17.md L8194 sheet-1248865534!F52\nF52 | 1,360,000 | =ROUND(E52, -4) |\n\nraw/17.md L8195 sheet-1248865534!G52\nG52 | 750,000 |  |\n\nraw/17.md L8196 sheet-1248865534!H52\nH52 | 825,000 | =G52+(G52*10%) |\n\nraw/17.md L8200 sheet-1248865534!C53\nC53 | 벨라스트 109 |  |\n\nraw/17.md L8203 sheet-1248865534!F53\nF53 | 1,980,000 | =ROUND(E53, -4) |\n\nraw/17.md L8204 sheet-1248865534!G53\nG53 | 1,090,000 |  |\n\nraw/17.md L8205 sheet-1248865534!H53\nH53 | 1,199,000 | =G53+(G53*10%) |\n\nraw/17.md L8208 sheet-1248865534!C54\nC54 | 아띠에르 139 |  |\n\nraw/17.md L8210 sheet-1248865534!F54\nF54 | 2,530,000 | =ROUND(E54, -4) |\n\nraw/17.md L8211 sheet-1248865534!G54\nG54 | 1,390,000 |  |\n\nraw/17.md L8212 sheet-1248865534!H54\nH54 | 1,529,000 | =G54+(G54*10%) |\n\nraw/17.md L8215 sheet-1248865534!C55\nC55 | 리쥬비엘 169 |  |\n\nraw/17.md L8217 sheet-1248865534!F55\nF55 | 3,070,000 | =ROUND(E55, -4) |\n\nraw/17.md L8218 sheet-1248865534!G55\nG55 | 1,690,000 |  |\n\nraw/17.md L8219 sheet-1248865534!H55\nH55 | 1,859,000 | =G55+(G55*10%) |\n\nraw/17.md L8223 sheet-1248865534!C56\nC56 | 아띠에르  |  |\n\nraw/17.md L8226 sheet-1248865534!F56\nF56 | 2,820,000 | =ROUND(E56, -4) |\n\nraw/17.md L8227 sheet-1248865534!G56\nG56 | 1,550,000 |  |\n\nraw/17.md L8228 sheet-1248865534!H56\nH56 | 1,705,000 | =G56+(G56*10%) |\n\nraw/17.md L8232 sheet-1248865534!C57\nC57 | 리쥬비엘  |  |\n\nraw/17.md L8234 sheet-1248865534!F57\nF57 | 3,180,000 | =ROUND(E57, -4) |\n\nraw/17.md L8235 sheet-1248865534!G57\nG57 | 1,750,000 |  |\n\nraw/17.md L8236 sheet-1248865534!H57\nH57 | 1,925,000 | =G57+(G57*10%) |\n\nraw/17.md L8239 sheet-1248865534!C58\nC58 | 수입필러 |  |\n\nraw/17.md L8241 sheet-1248865534!F58\nF58 | 6,180,000 | =ROUND(E58, -4) |\n\nraw/17.md L8242 sheet-1248865534!G58\nG58 | 3,400,000 |  |\n\nraw/17.md L8243 sheet-1248865534!H58\nH58 | 3,740,000 | =G58+(G58*10%) |\n적용 규칙: SOURCE-01, PRICE-01",
+          "rationale": "담당자는 필러가 볼륨이 부족한 부위에 주입해 입체감을 살리는 시술이라고 답했고 가이드 02의 필러 설명과 같다. 가격은 말하지 않고 이벤트 페이지 링크와 이미지를 보냈다.",
+          "evidence": "raw/02.md L769 필러 정의",
           "limit": "",
           "procedure": "어깨 필러",
           "questionCategory": "이벤트·가격",
@@ -2722,1182 +2722,1342 @@ window.SUPERVISION_DATA = {
             }
           ],
           "qaReviewFinalization": {
-            "schemaVersion": 1,
+            "schemaVersion": 2,
             "finalizedAt": "2026-11-02T08:34:55.803Z",
             "finalStatus": "completed",
             "sourceCoverage": "partial",
-            "records": [
-              {
-                "id": "MISS-G-20261101-001",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\nDo you provide CO2 laser treatments?\n\n한국어 번역:\nCO2 레이저 시술을 제공하시나요?\n\n원문:\nI have dark spots/freckles, a few acne scars that are stubbornly visible for weeks, large pores on T zone and fine lines around my eyes\n\n한국어 번역:\n잡티/주근깨가 있고, 몇 주 동안 끈질기게 눈에 띄는 여드름 흉터 몇 개, T존의 넓은 모공, 눈가 잔주름이 있어요\n\n원문:\nI’m not sure if I need Pico or CO2\n\n한국어 번역:\n피코가 필요한지 CO2가 필요한지 잘 모르겠어요\n\n원문:\nMaybe both??\n\n한국어 번역:\n둘 다일까요??",
-                "staffFinalResponse": "원문:\nHello! \nOur CO2 laser is mainly used for mole removal! 💗\n\nHowever, we offer several other laser treatments that can help with your skin concerns! ✨\n\n🌸 Pico Zoom Pass – Targets pigmentation, dark spots, and freckles.\n🌸 Pico Focus – Helps improve acne scars, enlarged pores, and overall skin texture.\n🌸 Pico Toning – Helps reduce uneven pigmentation and brighten overall skin tone.\nFor fine lines around the eyes, we also offer other treatments that focus on improving skin elasticity and wrinkles! 💗\nSince you have several different skin concerns, we'd recommend an in-person consultation so our medical team can assess your skin and suggest the most suitable combination of treatments! 😊🌸\n\n한국어 번역:\n안녕하세요! \n저희 CO2 레이저는 주로 점 제거에 사용합니다! 💗\n\n하지만 고객님의 피부 고민에 도움이 될 수 있는 다른 레이저 시술도 여러 가지 제공하고 있습니다! ✨\n\n🌸 피코 줌 패스 – 색소침착, 잡티, 주근깨를 대상으로 합니다.\n🌸 피코 포커스 – 여드름 흉터, 넓어진 모공, 전반적인 피부결 개선에 도움이 됩니다.\n🌸 피코 토닝 – 고르지 않은 색소침착을 줄이고 전반적인 피부톤을 밝게 하는 데 도움이 됩니다.\n눈가 잔주름의 경우 피부 탄력과 주름 개선에 초점을 맞춘 다른 시술도 제공하고 있습니다! 💗\n여러 가지 피부 고민이 있으시므로, 의료진이 피부를 평가하고 가장 적합한 시술 조합을 제안할 수 있도록 대면 상담을 권해 드립니다! 😊🌸",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "피코슈어의 색소 치료와 모공·흉터 모드를 나눠 설명하고 CO2의 점 제거 용도를 안내해, 직원 가이드의 시술 구분에 맞게 내원 상담으로 연결했다.",
-                "procedure": "CO2·피코슈어",
-                "questionCategory": "시술 선택",
-                "questionDate": "2026-11-01",
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K242:N252"
-              },
-              {
-                "id": "MISS-G-20261101-002",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A81:AF81"
-              },
-              {
-                "id": "MISS-G-20261101-003",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "직접 작성한 고객 질문은 없고 병원 문의 유입만 있다.",
-                "staffFinalResponse": "원문:\nHi~ If you have any question, please feel free to ask us anytime💕\n\n한국어 번역:\n안녕하세요~ 질문이 있으시면 언제든 편하게 문의해 주세요💕",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "추가 질문이 있으면 언제든 문의해 달라고 안내하며 응대를 마쳤다.",
-                "procedure": "확인되지 않음",
-                "questionCategory": "운영 안내",
-                "questionDate": null,
-                "responseEndedDate": "2026-11-02",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K253:N255"
-              },
-              {
-                "id": "MISS-G-20261101-004",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\nTell me more about this procedure\n\n한국어 번역:\n이 시술에 대해 더 자세히 알려 주세요",
-                "staffFinalResponse": "원문:\nPicoSure is a picosecond laser treatment mainly used for concerns such as pigmentation, freckles, sun spots, uneven skin tone, acne marks, and overall skin texture.\n\nAt our clinic, different PicoSure modes can be selected depending on your skin condition:\n\n• PicoSure Toning — focuses more on overall pigmentation and uneven skin tone\n• Zoom / Focus modes — can be used for more targeted pigment spots or texture concerns, depending on the area and skin condition\n\nBecause PicoSure delivers laser energy in very short pulses, it can target pigment while minimizing unnecessary heat exposure compared with some traditional laser methods.\n\nAfter treatment, you may have temporary redness, warmth, or mild sensitivity, and targeted spots can sometimes become temporarily darker before fading.\n\nThe most suitable mode and intensity will depend on whether your concern is mainly melasma, freckles, sun spots, acne marks, or texture, so the doctor will check your skin first and customize the treatment accordingly 🌸\n\n한국어 번역:\n피코슈어는 색소침착, 주근깨, 햇빛으로 인한 잡티, 고르지 않은 피부톤, 여드름 자국과 전반적인 피부결 등의 고민에 주로 사용하는 피코초 레이저 시술입니다.\n\n저희 병원에서는 피부 상태에 따라 서로 다른 피코슈어 모드를 선택할 수 있습니다.\n\n• 피코슈어 토닝: 전반적인 색소침착과 고르지 않은 피부톤에 더 중점을 둡니다.\n• 줌 / 포커스 모드: 부위와 피부 상태에 따라 특정 색소 병변이나 피부결 고민에 사용할 수 있습니다.\n\n피코슈어는 매우 짧은 펄스로 레이저 에너지를 전달하므로 일부 전통적인 레이저 방식과 비교해 불필요한 열 노출을 최소화하면서 색소를 표적으로 삼을 수 있습니다.\n\n시술 후 일시적인 붉어짐, 열감이나 가벼운 민감함이 있을 수 있으며, 집중 치료한 잡티는 옅어지기 전에 일시적으로 더 진해질 수 있습니다.\n\n가장 적합한 모드와 강도는 주된 고민이 기미, 주근깨, 햇빛에 의한 잡티, 여드름 자국 또는 피부결인지에 따라 달라지므로 의사가 먼저 피부를 확인하고 그에 맞춰 시술을 조정합니다 🌸",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "피코슈어 토닝과 줌·포커스의 목적을 구분하고 일시적 붉음·열감·색소 진해짐 및 진찰 후 강도 조절을 설명해, 직원 가이드의 모드별 상담 방향에 맞게 답했다.",
-                "procedure": "피코슈어",
-                "questionCategory": "시술 설명",
-                "questionDate": "2026-11-01",
-                "responseEndedDate": "2026-11-02",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K256:N260"
-              },
-              {
-                "id": "MISS-G-20261101-005",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A84:AF84"
-              },
-              {
-                "id": "MISS-G-20261101-006",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A85:AF85"
-              },
-              {
-                "id": "MISS-G-20261101-007",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\nติดต่อแอดมิน\n\n한국어 번역:\n관리자에게 연락",
-                "staffFinalResponse": "원문:\nสวัสดีค่ะ หากมีข้อสงสัยใดๆสามารถสอบถามได้เลยนะคะ ทางเรามีแอดมินไทยคอยบริการอยู่ตลอดเลยค่ะ😊🙏\n\n한국어 번역:\n안녕하세요. 궁금한 사항은 무엇이든 문의해 주세요. 저희는 태국어 관리자가 항상 응대하고 있습니다😊🙏",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "태국어 관리자 연결 요청에 태국어 담당자가 직접 문의를 받겠다고 답했다.",
-                "procedure": "주름 보톡스(유입)",
-                "questionCategory": "관리자 연결·예약",
-                "questionDate": "2026-11-01",
-                "responseEndedDate": "2026-11-02",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K261:N266"
-              },
-              {
-                "id": "MISS-G-20261101-008",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "직접 질문 없이 보톡스 행사 유입만 확인된다.",
-                "staffFinalResponse": "원문:\nสวัสดีค่ะ ตอนนี้ทางคลินิกมีโปรโมชั่นอยู่ตามภาพเลยนะคะ\n\nหากมีข้อสงสัยใดๆเพิ่มเติมสามารถแอดไลน์มาสอบถามได้เลยค่ะ มีแอดมินคนไทยและล่ามไทยให้บริการอยู่ตลอดนะคะะ 🥰🙏\n\n한국어 번역:\n안녕하세요. 현재 병원 행사 내용은 이미지와 같습니다.\n\n추가로 궁금하신 사항은 라인을 추가해 문의해 주세요. 태국인 관리자와 태국어 통역사가 항상 응대합니다 🥰🙏\n\n[이미지 응답]",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "행사 이미지를 보내고 추가 질문은 태국어 관리자·통역사에게 문의할 수 있다고 안내했다.",
-                "procedure": "주름 보톡스(유입)",
-                "questionCategory": "행사 안내",
-                "questionDate": null,
-                "responseEndedDate": "2026-11-02",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K267:N269"
-              },
-              {
-                "id": "MISS-G-20261101-009",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\nต้องการล่ามตอนเข้าคลินิก\n\n한국어 번역:\n클리닉에 방문할 때 통역이 필요합니다",
-                "staffFinalResponse": "원문:\nทางคลินิกมีล่ามไทยบริการฟรีตั้งแต่ปรึกษาตลอดการทำหัตถการเลยค่ะะ\n\n한국어 번역:\n병원에서 상담부터 시술 전 과정까지 무료 태국어 통역을 제공합니다.",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "내원 시 통역 요청에 상담부터 시술 전 과정까지 무료 태국어 통역을 제공한다고 직접 답했다.",
-                "procedure": "고우리(유입)",
-                "questionCategory": "통역",
-                "questionDate": "2026-11-01",
-                "responseEndedDate": "2026-11-02",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K270:N274"
-              },
-              {
-                "id": "MISS-G-20261101-010",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\nมีค่าบริการสำหรับล่ามไทยเพิ่มเติมมั๊ยคะ\n\n한국어 번역:\n태국어 통역에 대한 추가 요금이 있나요?",
-                "staffFinalResponse": "원문:\nเรามีล่ามไทยบริการฟรีตั้งแต่ปรึกษาจนจบการทำหัตถการเลยค่ะะ\n\n한국어 번역:\n상담부터 시술 종료까지 무료 태국어 통역을 제공합니다.",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "태국어 통역의 추가 비용 질문에 상담부터 시술 종료까지 무료라고 답했다.",
-                "procedure": "리쥬란 등",
-                "questionCategory": "통역 비용",
-                "questionDate": "2026-11-01",
-                "responseEndedDate": "2026-11-02",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K275:N276"
-              },
-              {
-                "id": "MISS-G-20261101-011",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A90:AF90"
-              },
-              {
-                "id": "MISS-G-20261101-012",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A91:AF91"
-              },
-              {
-                "id": "MISS-G-20261101-013",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\n好的 我想要做黃金微針 +音波拉提 可以同時預約兩個項目嗎 還是預約一個 拉提到現場再決定我適合嗎\n\n한국어 번역:\n네 저는 골드 마이크로니들 +초음파 리프팅을 하고 싶은데 두 항목을 동시에 예약할 수 있나요 아니면 하나만 예약하고 리프팅은 현장에서 저에게 적합한지 결정하나요\n\n원문:\n可以先詢問一下 弘大附近的什麼地鐵站 幾分鐘到達呢\n\n한국어 번역:\n먼저 여쭤봐도 될까요 홍대 근처 어느 지하철역이며 몇 분이면 도착하나요\n\n원문:\n比較好確定時間\n\n한국어 번역:\n시간을 정하기가 더 수월해서요",
-                "staffFinalResponse": "원문:\n可以啊！預約來院後我們都會先為您安排商談，商談後再決定想施作的療程就可以囉！\n\n한국어 번역:\n가능합니다！예약 후 내원하시면 먼저 상담을 마련해 드리니, 상담 후 원하시는 시술을 결정하시면 됩니다！\n\n원문:\n我們在合井站三號出口，一出來旁邊的大樓就是了，合井就是在弘大的下一站，搭地鐵的話就是2分鐘左右\n\n한국어 번역:\n저희는 합정역 삼 번 출구에 있습니다. 나오자마자 옆 건물이며, 합정은 홍대 다음 역으로 지하철을 타면 약 2분입니다\n\n원문:\n您要直接從弘大站9號出口步行過來也可以，大約需要10分鐘\n\n한국어 번역:\n홍대입구역 9번 출구에서 바로 걸어오셔도 되며, 약 10분 걸립니다",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "두 항목을 함께 예약한 뒤 현장에서 시술을 결정할 수 있다고 답하고, 합정역 3번 출구 위치와 홍대에서 오는 이동 시간을 구체적으로 안내했다.",
-                "procedure": "황금미세침·초음파 리프팅",
-                "questionCategory": "복수 시술 예약·오시는 길",
-                "questionDate": "2026-11-01",
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K277:N287"
-              },
-              {
-                "id": "MISS-G-20261101-014",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "당일 직접 질문 없이 겨드랑이 관리 상품 유입만 있다.",
-                "staffFinalResponse": "원문:\n您好，請問主要想要針對腋下那個部分進行改善呢？\n\n한국어 번역:\n안녕하세요. 겨드랑이의 어떤 부분을 주로 개선하고 싶으신가요?\n\n원문:\n這邊可以提供價格給您參考喔~\n\n한국어 번역:\n참고하실 수 있도록 가격을 제공해 드릴 수 있어요~",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "겨드랑이에서 개선하고 싶은 부분을 물은 뒤 참고 가격을 제공할 수 있다고 안내했다.",
-                "procedure": "여성 겨드랑이 관리(유입)",
-                "questionCategory": "가격 자료 안내",
-                "questionDate": null,
-                "responseEndedDate": "2026-11-02",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K288:N289"
-              },
-              {
-                "id": "MISS-G-20261101-015",
-                "status": "reviewed",
-                "disposition": "image-replied",
-                "customerQuestion": "원문:\n到院時需要中文翻譯服務\n\n한국어 번역:\n내원할 때 중국어 통역 서비스가 필요합니다\n\n원문:\n想問一下音波跟電波的價位\n\n한국어 번역:\n초음파와 고주파 가격을 여쭤보고 싶어요",
-                "staffFinalResponse": "[이미지 응답]\n\n원문:\n我們院內都有中文翻譯人員，這個不用擔心喔✅\n\n한국어 번역:\n병원에 중국어 통역 직원이 있으니 이 부분은 걱정하지 않으셔도 됩니다✅\n\n원문:\n電波跟音波有很多種，您也可以跟我們說一下最想改善的位置，再幫您初步推薦比較合適的療程喔🤍\n\n한국어 번역:\n고주파와 초음파에는 여러 종류가 있으므로 가장 개선하고 싶은 부위를 알려 주시면 우선 더 적합한 시술을 추천해 드릴게요🤍",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "중국어 통역 직원이 있다고 답하고 가격 이미지를 보냈으며, 초음파·고주파 종류를 좁히기 위해 개선 부위를 추가로 물었다.",
-                "procedure": "초음파·고주파 리프팅",
-                "questionCategory": "통역·가격",
-                "questionDate": "2026-11-01",
-                "responseEndedDate": "2026-11-02",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K290:N295"
-              },
-              {
-                "id": "MISS-G-20261101-016",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\n想要改善眉心間的皺紋和咀嚼肌\n\n如果預算可以 還想要加笑起來的魚尾紋\n\n한국어 번역:\n미간 주름과 저작근을 개선하고 싶어요\n\n예산이 되면 웃을 때 생기는 눈가 주름도 추가하고 싶어요",
-                "staffFinalResponse": "원문:\n除皺肉毒的話我們三部位是有組合價，會比較划算可以參考喔~\n\n한국어 번역:\n주름 보톡스는 세 부위 묶음 가격이 있어 더 경제적이니 참고하셔도 좋습니다~",
-                "outcome": "correction-needed",
-                "verdict": "suspectedError",
-                "explanation": "안내 보완 필요: 미간·저작근·눈가 문의에 주름 보톡스 3부위 묶음만 안내했다. 제공 가이드는 미간 주름과 사각턱·측두근을 다른 상품 분류로 안내한다.",
-                "procedure": "사각턱·주름 보톡스",
-                "questionCategory": "시술 부위·구성",
-                "questionDate": "2026-11-01",
-                "responseEndedDate": "2026-11-02",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K296:N297"
-              },
-              {
-                "id": "MISS-G-20261101-017",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "원문:\n好的\n\n한국어 번역:\n네",
-                "staffFinalResponse": "원문:\n後續如果還有任何問題，或是有想再了解的療程，都可以隨時跟我們說～  \n謝謝您🤍\n\n한국어 번역:\n이후 궁금한 사항이나 더 알고 싶은 시술이 있으시면 언제든 말씀해 주세요~  \n감사합니다🤍",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "고객의 수락에 추가 질문이나 더 알고 싶은 시술이 있으면 다시 문의해 달라고 답하며 마무리했다.",
-                "procedure": "침샘 보톡스(과거 문맥)",
-                "questionCategory": "대화 마무리",
-                "questionDate": "2026-11-01",
-                "responseEndedDate": "2026-11-02",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K298:N299"
-              },
-              {
-                "id": "MISS-G-20261101-018",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "필러 상품 유입만 있고 직접 질문 문장은 없다.",
-                "staffFinalResponse": "원문:\n玻尿酸填充的價格這邊可以先給您參考喔😊\n\n한국어 번역:\n히알루론산 필러 가격을 우선 참고하실 수 있도록 안내해 드립니다😊\n\n[이미지 응답]\n\n원문:\n您也可以跟我們說一下最想改善的位置，再幫您初步推薦比較合適的療程喔🤍\n\n한국어 번역:\n가장 개선하고 싶은 부위를 말씀해 주시면 우선 더 적합한 시술을 추천해 드릴게요🤍",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "필러 가격 이미지를 보내고 원하는 개선 부위를 알려 주면 적합한 시술을 추천하겠다고 안내했다.",
-                "procedure": "필러(유입)",
-                "questionCategory": "가격 자료 안내",
-                "questionDate": null,
-                "responseEndedDate": "2026-11-02",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K300:N302"
-              },
-              {
-                "id": "MISS-G-20261101-019",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "당일에는 사각턱 보톡스 상품 재유입만 있다.",
-                "staffFinalResponse": "[이미지 응답]\n\n원문:\n咀嚼肌肉毒的價格這邊可以先給您參考喔😊\n\n한국어 번역:\n사각턱 보톡스 가격을 우선 참고하실 수 있도록 안내해 드립니다😊\n\n원문:\n您也可以跟我們說一下最想改善的位置，再幫您初步推薦比較合適的療程喔🤍\n\n한국어 번역:\n가장 개선하고 싶은 부위를 말씀해 주시면 우선 더 적합한 시술을 추천해 드릴게요🤍",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "사각턱 보톡스 가격 이미지를 제공하고 개선하고 싶은 부위를 물어 상담을 이어갔다.",
-                "procedure": "사각턱 보톡스(유입)",
-                "questionCategory": "가격 자료 안내",
-                "questionDate": null,
-                "responseEndedDate": "2026-11-02",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K303:N304"
-              },
-              {
-                "id": "MISS-G-20261101-020",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\n瘦手臂適合打ONDA 100kj嗎？\n\n한국어 번역:\n팔을 가늘게 하는 데 ONDA 100kj를 받는 것이 적합한가요？\n\n원문:\n那臉部會建議施作多少kj呢？\n\n한국어 번역:\n그럼 얼굴에는 몇 kj 시술을 권하시나요？\n\n원문:\n嘴邊肉跟下巴\n\n한국어 번역:\n입가 살과 턱\n\n원문:\n請問[예약 일시 가림]，可以預約嗎？\n\n한국어 번역:\n[예약 일시 가림]에 예약할 수 있나요？",
-                "staffFinalResponse": "원문:\n如果主要想改善手臂脂肪跟蝴蝶袖線條，ONDA 100kJ 是可以考慮的喔😊\n\n한국어 번역:\n주로 팔 지방과 늘어진 팔뚝 라인을 개선하고 싶으시면 ONDA 100kJ를 고려하셔도 됩니다😊\n\n원문:\nONDA 主要是針對局部脂肪＋緊實度做改善，一般一邊手臂會建議施作100kJ，但實際還是依據手臂的脂肪厚度、範圍跟想改善的程度會有所差異喔～\n\n한국어 번역:\nONDA는 주로 국소 지방＋탄력 개선을 위한 것으로, 일반적으로 한쪽 팔에 100kJ 시술을 권장하지만 실제로는 팔 지방의 두께, 범위, 원하시는 개선 정도에 따라 달라집니다～\n\n원문:\n如果脂肪量比較多，可能會需要累積幾次療程，單次通常會有一些線條變化，但不太會一次就有非常大的圍度差異🤍\n\n한국어 번역:\n지방량이 많으면 여러 차례 시술을 누적해야 할 수 있습니다. 한 번에도 보통 어느 정도 라인 변화는 있지만 한 번만으로 둘레에 매우 큰 차이가 생기기는 어렵습니다🤍\n\n원문:\n如果主要想改善嘴邊肉＋雙下巴／下顎線，ONDA 通常可以先參考 60～80kJ 左右喔😊\n\n한국어 번역:\n주로 입가 살＋이중턱／턱선을 개선하고 싶으시면 ONDA는 보통 우선 60～80kJ 정도를 참고하시면 됩니다😊\n\n원문:\n不過 ONDA 不是單純能量越高效果就越好，還是會看您的臉部脂肪量、範圍跟凹陷程度來分配能量~\n\n한국어 번역:\n다만 ONDA는 단순히 에너지가 높을수록 효과가 좋은 것은 아니며, 얼굴 지방량, 범위, 꺼짐 정도를 보고 에너지를 배분합니다~\n\n원문:\n可以的喔~\n\n한국어 번역:\n가능합니다~\n\n원문:\n若需要預約的話，幫我們填寫表單，這邊就可以為您安排，謝謝😊\n\n한국어 번역:\n예약을 원하시면 양식을 작성해 주세요. 그러면 저희가 예약을 도와드릴 수 있습니다. 감사합니다😊",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "한쪽 팔 100kJ 안내는 직원 FAQ의 한쪽 최소 10만줄 권장과 일치하며, 얼굴 60~80kJ는 지방량·범위에 따라 조절하는 참고치로 설명했다. 예약 요청에도 가능하다고 답했다.",
-                "procedure": "온다",
-                "questionCategory": "부위별 에너지·예약",
-                "questionDate": "2026-11-01",
-                "responseEndedDate": "2026-11-02",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K305:N320"
-              },
-              {
-                "id": "MISS-G-20261101-021",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "직접 질문 없이 사각턱 보톡스 행사로 유입되었다.",
-                "staffFinalResponse": "원문:\nお問い合わせいただきありがとうございます😊\nエラボトックスの料金をご案内いたします✨\n\nエラボトックス（50単位基準）\n韓国製：43,500ウォン\nコアトックス：73,700ウォン\nゼオミン：143,000ウォン\nアラガン：197,000ウォン\n\nなお、必要な注入量は筋肉の発達具合や状態によって個人差がございます。正確な注入量は、ご来院後にカウンセリングを行ったうえでご案内いたします😊\n\nご不明な点や気になることがございましたら、いつでもお気軽にお問い合わせくださいませ。\n\nご予約をご希望の場合も、すぐにお取りできますので、どうぞお気軽にお申し付けください✨\n\n한국어 번역:\n문의해 주셔서 감사합니다😊\n사각턱 보톡스 요금을 안내해 드립니다✨\n\n사각턱 보톡스(50단위 기준)\n국산：43,500원\n코어톡스：73,700원\n제오민：143,000원\n앨러간：197,000원\n\n필요한 주입량은 근육 발달 정도와 상태에 따라 개인차가 있습니다. 정확한 주입량은 내원 후 상담을 거쳐 안내해 드립니다😊\n\n궁금하거나 신경 쓰이는 점이 있으시면 언제든 편하게 문의해 주세요.\n\n예약을 원하시면 바로 도와드릴 수 있으니 편하게 말씀해 주세요✨",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "사각턱 보톡스 50단위 기준 브랜드별 가격과 근육 상태에 따른 용량 조절을 안내했으며, 국산 43,500원·코어 73,700원은 제공 수가표와 일치한다.",
-                "procedure": "사각턱 보톡스(유입)",
-                "questionCategory": "가격·예약 안내",
-                "questionDate": null,
-                "responseEndedDate": "2026-11-02",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K321:N323"
-              },
-              {
-                "id": "MISS-G-20261101-022",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A101:AF101"
-              },
-              {
-                "id": "MISS-G-20261101-023",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\nราคาเพิ่มเติม\n\n한국어 번역:\n추가 가격\n\n원문:\nติดต่อแอดมิน\n\n한국어 번역:\n관리자에게 연락",
-                "staffFinalResponse": "원문:\nราคาที่คุณเห็นใน UNNI เป็นราคาที่รวมภาษี VAT เรียบร้อยแล้วค่ะ 😊\n\nหากไม่มีการเพิ่มหัตถการหรือการรักษาอื่นเพิ่มเติม ก็จะไม่มีค่าใช้จ่ายเพิ่มเติมนะคะ 🤍\n\n한국어 번역:\nUNNI에서 보시는 가격은 이미 VAT가 포함된 가격입니다 😊\n\n다른 시술이나 치료를 추가하지 않으시면 추가 비용은 없습니다 🤍\n\n원문:\nสวัสดีครับ ตอนนี้ทางคลินิกมีโปรโมชั่นอยู่ตามภาพเลยนะครับ\nหากมีข้อสงสัยใดๆเพิ่มเติมสามารถแอดไลน์มาสอบถามได้เลยครับ มีแอดมินคนไทยและล่ามไทยให้บริการอยู่ตลอดนะครับ🥰🙏\n\n한국어 번역:\n안녕하세요. 현재 클리닉의 프로모션은 사진과 같습니다\n추가로 궁금한 점이 있으시면 LINE을 추가하여 편하게 문의해 주세요. 태국인 관리자와 태국어 통역사가 항상 서비스를 제공하고 있습니다🥰🙏\n\n[이미지 응답]",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "앱 표시가격에 VAT가 포함되며 시술을 추가하지 않으면 추가 비용이 없다고 답하고, 관리자 연결 요청에도 태국어 안내를 이어갔다.",
-                "procedure": "슈링크(유입)",
-                "questionCategory": "추가 비용·관리자 연결",
-                "questionDate": "2026-11-01",
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K324:N331"
-              },
-              {
-                "id": "MISS-G-20261101-024",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "직접 질문 없이 사각턱 상품 유입만 있다.",
-                "staffFinalResponse": "원문:\n咀嚼肌肉毒 50u ，税后的价格给您参考~\n韩国hitoex 43,500\n韩国coretex 73,700\n德国净优明 143,000\n美国爱力根 197,000\n\n한국어 번역:\n저작근 보톡스 50u ，세후 가격을 참고해 주세요~\n한국hitoex 43,500\n한국coretex 73,700\n독일 제오민 143,000\n미국 앨러간 197,000",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "사각턱 보톡스 50단위의 세후 가격을 브랜드별로 안내했으며, 국산 43,500원·코어 73,700원은 제공 수가표와 일치한다.",
-                "procedure": "사각턱 보톡스",
-                "questionCategory": "브랜드별 가격 안내",
-                "questionDate": null,
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K332:N335"
-              },
-              {
-                "id": "MISS-G-20261101-025",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\n价钱包括针头？操作全脸还是局部？\n\n한국어 번역:\n가격에 바늘이 포함되나요？얼굴 전체에 하나요 아니면 일부에 하나요？",
-                "staffFinalResponse": "원문:\n价格是有包含探头的，300发的话是比较针对局部施作\n\n한국어 번역:\n가격에는 팁이 포함되어 있으며, 300샷은 비교적 국소 부위 시술입니다\n\n원문:\n希望全脸的话会建议500发以上，我们这边提供给您的价目表上，都是施作范围全脸的费用\n\n한국어 번역:\n얼굴 전체를 원하시면 500샷 이상을 권장합니다. 저희가 드린 가격표는 모두 얼굴 전체 시술 비용입니다",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "팁 포함 여부에 포함된다고 답하고 부분 300샷과 전안면 500샷 이상을 구분했으며, 전안면 약 500샷이라는 직원 FAQ와 맞는다.",
-                "procedure": "포텐자",
-                "questionCategory": "팁 포함·시술 범위",
-                "questionDate": "2026-11-01",
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K336:N345"
-              },
-              {
-                "id": "MISS-G-20261101-026",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\nHi I’d like to do a aqua or hydra facial, pico gensis laser, potenza and maybe something soothing. I’d also like to do laser hair removal on my mustache and chin - \n\nhow much would the bikini and legs be as well?\n\n한국어 번역:\n안녕하세요 아쿠아 또는 하이드라 페이셜, 피코 젠시스 레이저, 포텐자와 진정 관리도 받고 싶어요. 윗입술과 턱의 레이저 제모도 하고 싶어요 - \n\n비키니 부위와 다리도 하면 얼마인가요?\n\n원문:\nAwesome thank you! Do you have any promos going on for those treatments ?\n\n한국어 번역:\n좋네요 감사합니다! 그 시술들에 진행 중인 프로모션이 있나요 ?\n\n원문:\nPerfect thank you! Will there be anywhere I can put my luggage I won’t be checked into my hotel yet\n\n한국어 번역:\n좋아요 감사합니다! 아직 호텔 체크인을 하지 않은 상태일 텐데 짐을 둘 곳이 있을까요\n\n원문:\nLastly, will I be able to drink before and after the lasers? I want to make sure I am having the right before and after care :)\n\n한국어 번역:\n마지막으로 레이저 시술 전후에 술을 마셔도 될까요? 시술 전후 관리를 제대로 하고 싶어서요 :)",
-                "staffFinalResponse": "원문:\nHello! \nWe offer Aqua Peel, Genesis, Potenza, and soothing skincare treatments! \nYou can discuss the most suitable combination during your in-person consultation, and our medical team will help you plan your treatments based on your skin condition. ✨\n\nFor laser hair removal, here are the prices:\n🌸 Bikini Area: ₩71,500\n🌸 Legs: ₩132,000\n\nThese prices are per session! 😊\n\n한국어 번역:\n안녕하세요! \n저희는 아쿠아필, 제네시스, 포텐자, 진정 피부 관리를 제공하고 있습니다! \n대면 상담에서 가장 적합한 조합을 의논하실 수 있으며, 의료진이 고객님의 피부 상태에 따라 시술 계획을 세우도록 도와드립니다. ✨\n\n레이저 제모 가격은 다음과 같습니다:\n🌸 비키니 부위: ₩71,500\n🌸 다리: ₩132,000\n\n이 가격은 회당 기준입니다! 😊\n\n[이미지 응답]\n\n원문:\nHere is our promotion price list for your reference 🌸\n\n한국어 번역:\n참고하시도록 저희 프로모션 가격표를 보내드립니다 🌸\n\n원문:\nHello, this is Beauty Blossom Clinic! 😊\n\nWe recommend avoiding alcohol for at least 24 hours before your laser treatment and for approximately 1 week afterward, as alcohol may increase redness, swelling, and skin irritation.\nDrinking water is absolutely fine, and staying well-hydrated is encouraged! \nThe recommended aftercare may vary depending on the type of laser treatment.\n\n한국어 번역:\n안녕하세요, Beauty Blossom Clinic입니다! 😊\n\n음주는 붉어짐, 부기, 피부 자극을 증가시킬 수 있으므로 레이저 시술 전 최소 24시간과 시술 후 약 1주일 동안은 피하시는 것을 권장합니다.\n물은 마셔도 전혀 괜찮으며, 충분한 수분 섭취를 권장합니다! \n권장되는 사후 관리는 레이저 시술 종류에 따라 다를 수 있습니다.",
-                "outcome": "verification-needed",
-                "verdict": "needsVerification",
-                "explanation": "비키니 71,500원·다리 132,000원의 1회 제모비는 제공 수가표와 일치하고 시술 전후 금주에도 답했다. 함께 물은 짐 보관 가능 여부에는 추가 답변이 필요하다.",
-                "procedure": "복합 레이저·제모",
-                "questionCategory": "가격·음주·짐 보관",
-                "questionDate": "2026-11-01",
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K346:N358"
-              },
-              {
-                "id": "MISS-G-20261101-027",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "직접 고객 질문 없이 사각턱 상품 유입만 있다.",
-                "staffFinalResponse": "[이미지 응답]\n\n원문:\n咀嚼肌肉毒的價格這邊可以先給您參考喔😊\n\n한국어 번역:\n저작근 보톡스 가격을 먼저 참고하시도록 안내해 드릴게요😊\n\n원문:\n我們都可以先安排預約，現場諮詢時再決定施作療程，都會根據您的需求推薦合適的項目給您~\n\n한국어 번역:\n우선 예약을 잡고 현장 상담 때 시술을 결정하셔도 됩니다. 고객님의 필요에 따라 적합한 항목을 추천해 드립니다~\n\n원문:\n您也可以跟我們說一下最想改善的位置，再幫您初步推薦比較合適的療程喔🤍\n\n한국어 번역:\n가장 개선하고 싶은 부위도 말씀해 주시면, 더 적합한 시술을 우선 추천해 드릴게요🤍",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "사각턱 보톡스 가격 이미지를 보내고 먼저 예약한 뒤 현장 상담에서 시술을 결정할 수 있다고 안내했다.",
-                "procedure": "사각턱 보톡스(유입)",
-                "questionCategory": "가격·예약 안내",
-                "questionDate": null,
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K359:N365"
-              },
-              {
-                "id": "MISS-G-20261101-028",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\nIs the price for the Botox for all the three sections.?\n\n한국어 번역:\n보톡스 가격은 세 부위 모두에 대한 가격인가요.?",
-                "staffFinalResponse": "원문:\nYes It includes both wrinkle botox and skin botox!\n\n한국어 번역:\n네 주름 보톡스와 스킨 보톡스가 모두 포함됩니다!",
-                "outcome": "correction-needed",
-                "verdict": "suspectedError",
-                "explanation": "안내 보완 필요: 고객은 세 부위가 포함된 가격인지 물었는데, 담당자는 주름·스킨 보톡스가 모두 포함된다고 답했다. 제공 강남언니 수가표는 주름 보톡스 3부위와 풀페이스 스킨 보톡스를 별도 상품으로 안내하고 있다.",
-                "procedure": "주름·스킨 보톡스",
-                "questionCategory": "포함 범위·동반 예약",
-                "questionDate": "2026-11-01",
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K366:N376"
-              },
-              {
-                "id": "MISS-G-20261101-029",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "당일 신규 질문은 없고 예약된 방문에 대한 안내와 시술 후 관리 발송이 있다.",
-                "staffFinalResponse": "원문:\n🔥 インモードFX － 施術後の注意事項 🔥\n\n• 施術当日から軽い洗顔、シャワー、メイクが可能です。\n• 施術後、赤み、腫れ、熱感、圧痛などが生じる場合があります。また、吸引によってあざや内出血が生じることがありますが、ほとんどは時間の経過とともに徐々に薄くなります。\n• 施術後1週間は飲酒、喫煙、サウナ、激しい運動はお控えください🍷\n• 保湿と紫外線対策を心がけてください。また、しばらくの間は酸を含む製品、レチノール、角質ケア、マッサージ、カッサの使用はお控えください☀️\n• 水ぶくれが生じた場合や、強いほてり、明らかな痛みが続く場合は、すぐにクリニックまでご連絡ください📞\n\n⏳ 効果はいつ頃から現れますか？\n\n• インモード施術後のフェイスラインやハリ・弾力の改善効果は徐々に現れます。\n• 一般的に、施術後2～4週間ほどで変化を比較的実感しやすくなります。\n\n한국어 번역:\n🔥 인모드FX － 시술 후 주의사항 🔥\n\n• 시술 당일부터 가벼운 세안, 샤워, 메이크업이 가능합니다.\n• 시술 후 붉어짐, 부기, 열감, 압통 등이 생길 수 있습니다. 또한 흡입으로 인해 멍이나 피하출혈이 생길 수 있으나, 대부분은 시간이 지나면서 점차 옅어집니다.\n• 시술 후 1주일 동안은 음주, 흡연, 사우나, 격한 운동을 삼가 주세요🍷\n• 보습과 자외선 차단에 신경 써 주세요. 또한 당분간 산 성분이 포함된 제품, 레티놀, 각질 관리, 마사지, 괄사 사용을 삼가 주세요☀️\n• 물집이 생기거나 심한 화끈거림, 뚜렷한 통증이 지속되는 경우에는 즉시 클리닉으로 연락해 주세요📞\n\n⏳ 효과는 언제쯤 나타나나요?\n\n• 인모드 시술 후 얼굴선과 피부의 팽팽함·탄력 개선 효과는 서서히 나타납니다.\n• 일반적으로 시술 후 약 2～4주가 지나면 변화를 비교적 느끼기 쉬워집니다.\n\n원문:\n💉 ビューティーフィット／ブロッサムフィット注射 － 施術後の注意事項 💉\n\n• 注射部位に軽い腫れ、こわばり感、ヒリヒリ感、熱感、内出血などが生じる場合がありますが、ほとんどは1～3日程度で徐々に落ち着きます。\n• 施術4時間後から軽いシャワーや、施術部位を洗うことが可能です。強くこすったり押したりしないようご注意ください。\n• 施術後1週間は、飲酒、喫煙、サウナ、温泉、激しい運動はお控えください🍷\n• 普段通り十分な水分補給を心がけ、腫れや不快感が落ち着いてから通常の運動を徐々に再開してください💧\n• しばらくの間は、施術部位を強くマッサージしたり、カッサを使用したりせず、繰り返し刺激を与える行為もお控えください。\n• 赤み、腫れ、熱感、痛み、かゆみなどの症状が続いて悪化する場合や、その他明らかな異常がみられる場合はクリニックまでご連絡ください📞\n\n⏳ 効果はいつ頃から現れますか？\n\n• ボディラインの変化は徐々に現れ、一般的に複数回施術を受けることで、より変化を実感しやすくなります。\n\n한국어 번역:\n💉 뷰티핏／블라썸핏 주사 － 시술 후 주의사항 💉\n\n• 주사 부위에 가벼운 부기, 뻣뻣함, 따끔거림, 열감, 피하출혈 등이 생길 수 있으나, 대부분은 약 1～3일에 걸쳐 서서히 가라앉습니다.\n• 시술 4시간 후부터 가벼운 샤워나 시술 부위 세척이 가능합니다. 강하게 문지르거나 누르지 않도록 주의해 주세요.\n• 시술 후 1주일 동안은 음주, 흡연, 사우나, 온천, 격한 운동을 삼가 주세요🍷\n• 평소처럼 충분한 수분을 섭취하고, 부기와 불편감이 가라앉은 후 일반적인 운동을 서서히 재개해 주세요💧\n• 당분간 시술 부위를 강하게 마사지하거나 괄사를 사용하지 마시고, 반복적으로 자극을 주는 행동도 삼가 주세요.\n• 붉어짐, 부기, 열감, 통증, 가려움 등의 증상이 지속되어 악화되는 경우나 그 밖에 뚜렷한 이상이 보이는 경우에는 클리닉으로 연락해 주세요📞\n\n⏳ 효과는 언제쯤 나타나나요?\n\n• 바디라인의 변화는 서서히 나타나며, 일반적으로 여러 차례 시술을 받으면 변화를 더욱 느끼기 쉬워집니다.",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "인모드 후 멍·압통과 주사 후 일시적 부기, 1주 금주·열 자극 제한 및 증상 악화 시 병원 연락을 안내했다.",
-                "procedure": "인모드FX·블라썸핏",
-                "questionCategory": "시술 후 관리",
-                "questionDate": null,
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K377:N381"
-              },
-              {
-                "id": "MISS-G-20261101-030",
-                "status": "reviewed",
-                "disposition": "image-replied",
-                "customerQuestion": "원문:\n想請問索夫波 跟 美版 、雙頻電波差異在哪兒呢\n\n한국어 번역:\n소프웨이브와 미국판, 이중 주파수 고주파는 어떤 차이가 있는지 여쭤보고 싶습니다\n\n원문:\n想請問活動日期是到11/30，我們預計[방문 예정 시기 가림]會再來，有最新的活動價錢嗎\n\n한국어 번역:\n행사 기간이 11/30까지인데 저희는 [방문 예정 시기 가림]에 다시 올 예정입니다. 최신 행사 가격이 있을까요\n\n원문:\n能否傳您們施作的項目及費用，這幾次去體驗蠻好的，想多參考其他項目\n\n한국어 번역:\n시술 항목과 비용을 보내 주실 수 있을까요. 이번 몇 차례 방문 경험이 꽤 좋아서 다른 항목도 더 참고하고 싶습니다",
-                "staffFinalResponse": "[이미지 응답]\n\n원문:\n以上活動優惠給您參考，若有問題都可以再向我們詢問喔！\n\n한국어 번역:\n위 행사 혜택을 참고해 주시고, 궁금한 점이 있으면 언제든 저희에게 문의해 주세요!\n\n원문:\n我們12月會有新的活動優惠，但以上拉提類療程的活動基本上變動不大，所以一樣可以先參考看看喔！\n\n한국어 번역:\n저희는 12월에 새로운 행사 혜택이 있을 예정이지만 위 리프팅 시술의 행사는 기본적으로 변동이 크지 않으니 그대로 먼저 참고해 보셔도 됩니다!\n\n원문:\n謝謝～🥹🌸可以的！這邊先給您我們綜合活動的優惠，更多活動可以到官網查看唷！\n\n한국어 번역:\n감사합니다～🥹🌸가능합니다! 우선 저희 종합 행사 혜택을 보내 드리며, 더 많은 행사는 공식 홈페이지에서 확인하실 수 있습니다!\n\n[이미지 응답]\n\n[이미지 응답]\n\n원문:\nhttps://tw.beautyblossom.kr/22\n\n한국어 번역:\nhttps://tw.beautyblossom.kr/22",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "시술 비교와 가격 요청에 이미지·공식 가격 링크를 제공하고, 12월 새 행사는 추후 나오며 현재 리프팅 행사를 참고할 수 있다고 설명했다.",
-                "procedure": "소프웨이브·초음파·고주파",
-                "questionCategory": "시술 비교·행사 가격",
-                "questionDate": "2026-11-01",
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K382:N397"
-              },
-              {
-                "id": "MISS-G-20261101-031",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\nちなみに[방문일 가림]もしかしたら間に合わないかもしれないんですけどその場合[대체 방문일 가림]でも大丈夫ですか？\n\n한국어 번역:\n참고로 [방문일 가림] 어쩌면 시간에 맞추지 못할 수도 있는데 그 경우 [대체 방문일 가림]이어도 괜찮을까요?",
-                "staffFinalResponse": "원문:\nはい、可能でございます。\n日程やお時間の変更をご希望の場合は、いつでもお気軽にお申し付けくださいませ😊\n\n한국어 번역:\n네, 가능합니다.\n일정이나 시간 변경을 원하시면 언제든 편하게 말씀해 주세요😊",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "방문 일정 변경이 가능한지 묻는 질문에 가능하다고 직접 답하고 변경을 원하면 언제든 알려 달라고 안내했다.",
-                "procedure": "사각턱 보톡스",
-                "questionCategory": "예약 변경",
-                "questionDate": null,
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K398:N402"
-              },
-              {
-                "id": "MISS-G-20261101-032",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "당일 300샷 전안면 포텐자 상품 재유입만 있고 신규 직접 질문은 없다.",
-                "staffFinalResponse": "[이미지 응답]\n\n원문:\n黃金微針的價格這邊可以先給您參考喔😊\n\n한국어 번역:\n황금 미세침 가격을 먼저 참고하실 수 있도록 보내 드립니다😊\n\n원문:\n後續如果還有任何問題，或是有想再了解的療程，都可以隨時跟我們說～  \n謝謝您🤍\n\n한국어 번역:\n이후에도 궁금한 점이나 더 알아보고 싶은 시술이 있으면 언제든 저희에게 말씀해 주세요～  \n감사합니다🤍",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "포텐자 가격 이미지를 보내고 추가 질문이나 더 알고 싶은 시술을 문의해 달라고 마무리했다.",
-                "procedure": "포텐자(유입)",
-                "questionCategory": "가격 안내",
-                "questionDate": null,
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K403:N407"
-              },
-              {
-                "id": "MISS-G-20261101-033",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\n想先詢問音波下顎線的部分目前的活動價格～\n\n한국어 번역:\n먼저 초음파 턱선 부분의 현재 행사 가격을 여쭤보고 싶어요～\n\n원문:\n我們是排旅程的第三天施做 隔天回國～\n您覺得合適嗎～\n\n한국어 번역:\n저희는 여행 셋째 날에 시술받고 다음 날 귀국할 예정입니다～\n적절하다고 생각하시나요～",
-                "staffFinalResponse": "[이미지 응답]\n\n원문:\n海芙音波的價格這邊可以先給您參考喔😊\n\n한국어 번역:\n하이푸 초음파 가격을 먼저 참고하실 수 있도록 보내 드립니다😊\n\n원문:\n如果希望針對下顎線部分區域改善，可以考慮300發的部份~\n\n한국어 번역:\n턱선 일부 부위의 개선을 원하시면 300샷을 고려하셔도 됩니다~\n\n원문:\n大部分的客人都會選擇療程第一天或最後一天進行，所以您排最後一天也是可以的喔!\n\n한국어 번역:\n대부분의 고객님이 시술을 첫날이나 마지막 날에 받는 것을 선택하시므로 마지막 날로 잡으셔도 괜찮습니다!\n\n원문:\n我們都可以現場諮詢時再決定施作療程，都會根據您的需求推薦合適的項目給您~\n\n한국어 번역:\n현장 상담 때 시술을 결정하셔도 됩니다. 고객님의 필요에 따라 적합한 항목을 추천해 드립니다~",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "턱선 부분 초음파에는 300샷을 고려할 수 있다고 안내하고, 여행 중 시술 시점 질문에는 마지막 날 방문도 가능하며 시술은 현장 상담에서 결정한다고 답했다.",
-                "procedure": "초음파 리프팅·흉터 상담",
-                "questionCategory": "예약·발수·여행 일정",
-                "questionDate": "2026-11-01",
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K408:N420"
-              },
-              {
-                "id": "MISS-G-20261101-034",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "직접 질문 없는 주름 보톡스 유입이다.",
-                "staffFinalResponse": "[이미지 응답]\n\n원문:\nทางเราส่งตารางราคามาให้ดูเป็นข้อมูลประกอบนะคะ 😊 \nหากมีข้อสงสัยหรือต้องการสอบถามเพิ่มเติม สามารถทักมาสอบถามได้ตลอดเลยค่ะ ขอบคุณค่ะ 💖\n\n한국어 번역:\n참고하시도록 가격표를 보내 드립니다 😊 \n궁금한 점이 있거나 추가로 문의하고 싶으시면 언제든 연락해 주세요. 감사합니다 💖",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "보톡스 가격표 이미지를 보내고 궁금한 사항을 추가로 문의해 달라고 답했다.",
-                "procedure": "주름 보톡스(유입)",
-                "questionCategory": "가격 안내",
-                "questionDate": null,
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K421:N425"
-              },
-              {
-                "id": "MISS-G-20261101-035",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\n我想先約[예약 시간 가림]🙏🏻\n\n한국어 번역:\n우선 [예약 시간 가림]으로 예약하고 싶습니다🙏🏻",
-                "staffFinalResponse": "원문:\n這邊已經幫您完成預約囉😊  \n後續如果還有任何問題，或是有想再了解的療程，都可以隨時跟我們說～  \n謝謝您🤍\n\n한국어 번역:\n여기서 예약을 완료해 드렸습니다😊  \n이후에도 궁금한 점이나 더 알아보고 싶은 시술이 있으면 언제든 저희에게 말씀해 주세요～  \n감사합니다🤍",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "고객의 예약 희망에 예약을 완료했다고 답하고 추가 질문을 받을 수 있다고 안내했다.",
-                "procedure": "현장 상담",
-                "questionCategory": "예약 확정",
-                "questionDate": "2026-11-01",
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K426:N431"
-              },
-              {
-                "id": "MISS-G-20261101-036",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "직접 질문 없이 바디 조각주사 상품으로 유입되었다.",
-                "staffFinalResponse": "[이미지 응답]\n\n원문:\n身體雕刻針的價格這邊可以先給您參考喔😊\n\n한국어 번역:\n바디 조각 주사 가격을 먼저 참고하실 수 있도록 보내 드립니다😊\n\n원문:\n您也可以跟我們說一下最想改善的位置，再幫您初步推薦比較合適的療程喔🤍\n\n한국어 번역:\n가장 개선하고 싶은 부위도 말씀해 주시면 비교적 적합한 시술을 우선 추천해 드리겠습니다🤍",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "바디 조각주사 가격 이미지를 보내고 원하는 개선 부위를 물어 적합한 시술을 추천하겠다고 안내했다.",
-                "procedure": "바디 조각주사(유입)",
-                "questionCategory": "가격 안내",
-                "questionDate": null,
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K432:N437"
-              },
-              {
-                "id": "MISS-G-20261101-037",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\n酸痛感這麼還有\n\n한국어 번역:\n뻐근한 통증이 왜 아직 있나요\n\n원문:\n兩側臉頰\n\n한국어 번역:\n양쪽 볼\n\n원문:\n沒有有泛紅只有酸感\n\n한국어 번역:\n붉어짐은 없고 뻐근한 느낌만 있어요",
-                "staffFinalResponse": "원문:\n一般是約1-2周內狀況會逐漸緩解，但因為每個人體質和代謝情況不同，可能也會有差異\n\n한국어 번역:\n일반적으로 약 1-2주 내에 상태가 서서히 완화되지만 개인의 체질과 대사 상태가 다르기 때문에 차이가 있을 수 있습니다\n\n원문:\n您可以再持續幫我們觀察看看，狀況只要沒有變更嚴重，基本上都是會隨著時間慢慢恢復的~\n\n한국어 번역:\n계속 관찰해 주시면 됩니다. 상태가 더 심해지지만 않으면 기본적으로 시간이 지나면서 서서히 회복됩니다~\n\n원문:\n如果臉頰二側有泛紅或紅腫，您也可以拍照提供給我們看，幫您確認一下喔!\n\n한국어 번역:\n양쪽 볼에 붉어짐이나 붉은 부기가 있다면 사진을 찍어 보내 주셔도 됩니다. 확인해 드리겠습니다!\n\n원문:\n了解～由於當天您是施打LinearZ音波，主要是作用於肌膚深層肌肉層，能量傳達至肌肉層來刺激膠原蛋白新生與筋膜緊縮而產生痠痛感。\n您這周再觀察一下，若還是尚未改善可以再與我們聯繫哦！🥹🌸\n\n한국어 번역:\n알겠습니다～당일 고객님께서는 LinearZ 초음파 시술을 받으셨고, 주로 피부 깊은 근육층에 작용하며 에너지가 근육층에 전달되어 콜라겐 신생과 근막 수축을 자극하기 때문에 뻐근한 통증이 생깁니다.\n이번 주에 더 관찰해 보시고 여전히 개선되지 않으면 다시 연락해 주세요!🥹🌸",
-                "outcome": "correction-needed",
-                "verdict": "confirmedError",
-                "explanation": "직원 가이드는 리니어지의 진피·근막층을 구분하는데, 담당자는 심부 근육층에 에너지를 전달한다고 설명해 작용층 안내를 정정해야 한다. 경과를 관찰하고 호전되지 않으면 다시 연락하라는 안내는 적절하다.",
-                "procedure": "LinearZ",
-                "questionCategory": "시술 후 통증·작용 층",
-                "questionDate": "2026-11-01",
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K438:N445"
-              },
-              {
-                "id": "MISS-G-20261101-038",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "직접 질문 없이 전안면 포텐자 행사 유입만 있다.",
-                "staffFinalResponse": "[이미지 응답]\n\n원문:\nHello!  Here is our promotional price list for your reference.\nIf you have any questions or would like to make a reservation, please feel free to contact us anytime!ㅁ\n\n한국어 번역:\n안녕하세요! 참고하시도록 저희 프로모션 가격표를 보내 드립니다.\n궁금한 점이 있거나 예약을 원하시면 언제든 편하게 연락해 주세요!ㅁ",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "행사 가격 이미지를 보내고 질문이나 예약 문의가 있으면 연락해 달라고 안내했다.",
-                "procedure": "포텐자(유입)",
-                "questionCategory": "행사 안내",
-                "questionDate": null,
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K446:N450"
-              },
-              {
-                "id": "MISS-G-20261101-039",
-                "status": "reviewed",
-                "disposition": "image-replied",
-                "customerQuestion": "원문:\nPlease send me my estimated cost as per your kind recommendation\n\n한국어 번역:\n친절하게 추천해 주신 내용에 따른 제 예상 비용을 보내 주세요",
-                "staffFinalResponse": "[이미지 응답]\n\n원문:\nHere is our promotional price list for your reference.\n\n한국어 번역:\n참고하시도록 저희 프로모션 가격표를 보내 드립니다.\n\n원문:\nThe total cost really depends on your skin condition, the specific treatments recommended, and the number of sessions needed. \nSince you have several different skin concerns, we recommend an in-person consultation so our medical team can assess your skin and suggest the most suitable treatments for you. We'll provide you with a detailed quotation during your consultation, so you can decide which treatments you'd like to proceed with! 😊\n\n한국어 번역:\n총비용은 실제로 고객님의 피부 상태, 추천되는 구체적인 시술 및 필요한 시술 횟수에 따라 달라집니다. \n서로 다른 피부 고민이 여러 가지 있으시므로 저희 의료진이 피부를 평가하고 가장 적합한 시술을 제안해 드릴 수 있도록 대면 상담을 권해 드립니다. 상담 중에 상세 견적을 안내해 드리니 어떤 시술을 진행하실지 결정하실 수 있습니다! 😊",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "예상 총비용 요청에 행사 가격 이미지를 보내고, 피부 상태·선택 시술·필요 횟수를 확인한 뒤 상담에서 상세 견적을 제공한다고 답했다.",
-                "procedure": "복합 리프팅",
-                "questionCategory": "견적",
-                "questionDate": null,
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K451:N453"
-              },
-              {
-                "id": "MISS-G-20261101-040",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "상품 유입만 있고 직접 질문은 없다.",
-                "staffFinalResponse": "원문:\nHello! How may I help you ?\n\n한국어 번역:\n안녕하세요! 무엇을 도와드릴까요?",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "고객에게 무엇을 도와드릴지 물으며 상담을 시작했다.",
-                "procedure": "기초 피부관리(유입)",
-                "questionCategory": "문의 접수",
-                "questionDate": null,
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K454:N457"
-              },
-              {
-                "id": "MISS-G-20261101-041",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A120:AF120"
-              },
-              {
-                "id": "MISS-G-20261101-042",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\n會推薦黃金微針嗎\n\n한국어 번역:\n황금 미세침을 추천하시나요",
-                "staffFinalResponse": "원문:\n如果主要想改善毛孔粗大跟整體膚質，蠻推薦黃金微針的喔😊\n\n한국어 번역:\n주로 넓어진 모공과 전반적인 피부결을 개선하고 싶으시면 황금 미세침을 꽤 추천합니다😊\n\n원문:\n黃金微針可以針對毛孔、出油、膚質粗糙、細紋跟輕微凹凸感做改善，也可以依膚況搭配不同藥劑，讓整體膚質看起來更細緻、平滑一些✨\n\n한국어 번역:\n황금 미세침은 모공, 유분, 거친 피부결, 잔주름과 가벼운 요철감을 개선할 수 있고, 피부 상태에 따라 여러 약제를 함께 사용하여 전반적인 피부결이 더 섬세하고 매끄러워 보이도록 할 수도 있습니다✨\n\n원문:\n您也可以選擇黃金微針搭配麗珠蘭的組合，同時改善毛孔+修復肌膚，而且麗珠蘭機打的痛感也會比手打低喔~\n\n한국어 번역:\n황금 미세침과 리쥬란을 함께하는 조합을 선택하셔서 모공 개선+피부 회복을 동시에 하실 수도 있으며, 리쥬란 기계 주입은 수기 주입보다 통증도 적습니다~",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "모공·피부결 개선에 황금미세침을 추천한 부분은 모공·흉터 맞춤 치료를 설명하는 포텐자 가이드와 일치한다. 추가 선택지로 리쥬란 병합과 기계주입의 통증 차이를 안내했다.",
-                "procedure": "포텐자·리쥬란",
-                "questionCategory": "모공·피부결 추천",
-                "questionDate": "2026-11-01",
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K458:N466"
-              },
-              {
-                "id": "MISS-G-20261101-043",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "전날 상품 유입 이후 당일 신규 직접 질문은 없다.",
-                "staffFinalResponse": "[이미지 응답]\n\n원문:\n黃金微針的價格這邊可以先給您參考喔😊\n\n한국어 번역:\n황금 미세침 가격을 먼저 참고하실 수 있도록 보내 드립니다😊\n\n원문:\n您也可以跟我們說一下最想改善的位置，再幫您初步推薦比較合適的療程喔🤍\n\n한국어 번역:\n가장 개선하고 싶은 부위도 말씀해 주시면 비교적 적합한 시술을 우선 추천해 드리겠습니다🤍",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "포텐자 가격 이미지를 제공하고 가장 개선하고 싶은 부위를 물었다.",
-                "procedure": "포텐자(유입)",
-                "questionCategory": "가격 안내",
-                "questionDate": null,
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K467:N469"
-              },
-              {
-                "id": "MISS-G-20261101-044",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "전날 상품 유입 후 당일 신규 질문은 없다.",
-                "staffFinalResponse": "[이미지 응답]\n\n원문:\n若需要預約的話，幫我們填寫表單，這邊就可以為您安排，謝謝😊\n\n한국어 번역:\n예약이 필요하시면 양식을 작성해 주세요. 그러면 예약을 잡아 드릴 수 있습니다. 감사합니다😊",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "가격 이미지를 보내고 예약을 원하면 양식을 작성해 보내 달라고 안내했다.",
-                "procedure": "포텐자(유입)",
-                "questionCategory": "가격·예약 안내",
-                "questionDate": null,
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K470:N472"
-              },
-              {
-                "id": "MISS-G-20261101-045",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "원문:\n會準時到 謝謝\n\n한국어 번역:\n정시에 도착하겠습니다 감사합니다",
-                "staffFinalResponse": "원문:\n沒問題，謝謝您的回覆，晚點見囉😊\n\n한국어 번역:\n문제없습니다. 답변해 주셔서 감사합니다. 조금 후에 뵙겠습니다😊",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "예정대로 방문하겠다는 고객 답변에 감사하며 나중에 뵙겠다고 응대를 마쳤다.",
-                "procedure": "포텐자·쥬베룩(기존 예약)",
-                "questionCategory": "방문 확인",
-                "questionDate": null,
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K473:N474"
-              },
-              {
-                "id": "MISS-G-20261101-046",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "직접 질문 없는 보톡스 행사 유입이다.",
-                "staffFinalResponse": "원문:\nสวัสดีครับ ตอนนี้ทางคลินิกมีโปรโมชั่นอยู่ตามภาพเลยนะครับ\nหากมีข้อสงสัยใดๆเพิ่มเติมสามารถแอดไลน์มาสอบถามได้เลยครับ มีแอดมินคนไทยและล่ามไทยให้บริการอยู่ตลอดนะครับ🥰🙏\n\n한국어 번역:\n안녕하세요. 현재 클리닉에서는 사진과 같은 프로모션을 진행하고 있습니다\n추가로 궁금한 점이 있으면 LINE을 추가하여 문의해 주세요. 태국인 관리자와 태국어 통역사가 항상 서비스를 제공하고 있습니다🥰🙏\n\n[이미지 응답]",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "행사 이미지를 보내고 추가 질문은 태국어 관리자·통역사에게 문의할 수 있다고 안내했다.",
-                "procedure": "주름 보톡스(유입)",
-                "questionCategory": "행사 안내",
-                "questionDate": null,
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K475:N478"
-              },
-              {
-                "id": "MISS-G-20261101-047",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\nポテンツァとズームパス同じ日にできるんですか？\n\n한국어 번역:\n포텐자와 줌패스를 같은 날 할 수 있나요?",
-                "staffFinalResponse": "원문:\nはい、同日に同時に施術を受けていただくことが可能でございます。\nご予約をご希望でしょうか？😊\n\n한국어 번역:\n네, 같은 날 동시에 시술을 받으실 수 있습니다.\n예약을 원하시나요?😊",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "포텐자와 줌패스를 같은 날 받을 수 있는지 묻자 같은 날 함께 시술할 수 있다고 직접 답하고 예약 의사를 물었다.",
-                "procedure": "포텐자·피코 줌패스",
-                "questionCategory": "동일일 병합",
-                "questionDate": null,
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K479:N479"
-              },
-              {
-                "id": "MISS-G-20261101-048",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "전날 상품 유입 후 당일 신규 직접 질문은 없다.",
-                "staffFinalResponse": "원문:\nสวัสดีครับ ตอนนี้ทางคลินิกมีโปรโมชั่นอยู่ตามภาพเลยนะครับ\nหากมีข้อสงสัยใดๆเพิ่มเติมสามารถแอดไลน์มาสอบถามได้เลยครับ มีแอดมินคนไทยและล่ามไทยให้บริการอยู่ตลอดนะครับ🥰🙏\n\n한국어 번역:\n안녕하세요. 현재 클리닉의 프로모션은 사진과 같습니다.\n추가로 궁금한 점이 있으시면 LINE을 추가해 문의해 주세요. 태국인 관리자와 태국어 통역사가 항상 서비스를 제공하고 있습니다🥰🙏\n\n[이미지 응답]",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "행사 이미지를 보내고 태국어 관리자·통역사를 통한 추가 상담을 안내했다.",
-                "procedure": "주름 보톡스(유입)",
-                "questionCategory": "행사 안내",
-                "questionDate": null,
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K480:N480"
-              },
-              {
-                "id": "MISS-G-20261101-049",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "전날 상품 유입과 고객 측 이미지가 있으나 당일 신규 텍스트 질문은 없다.",
-                "staffFinalResponse": "원문:\nสวัสดีครับ ตอนนี้ทางคลินิกมีโปรโมชั่นอยู่ตามภาพเลยนะครับ\nหากมีข้อสงสัยใดๆเพิ่มเติมสามารถแอดไลน์มาสอบถามได้เลยครับ มีแอดมินคนไทยและล่ามไทยให้บริการอยู่ตลอดนะครับ🥰🙏\n\n한국어 번역:\n안녕하세요. 현재 클리닉의 프로모션은 사진과 같습니다.\n추가로 궁금한 점이 있으시면 LINE을 추가해 문의해 주세요. 태국인 관리자와 태국어 통역사가 항상 서비스를 제공하고 있습니다🥰🙏\n\n[이미지 응답]",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "행사 이미지를 보내고 추가 질문과 태국어 상담 경로를 안내했다.",
-                "procedure": "주름 보톡스(유입)",
-                "questionCategory": "행사 안내",
-                "questionDate": null,
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K481:N481"
-              },
-              {
-                "id": "MISS-G-20261101-050",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "당일 제모 상품 유입만 있고 직접 작성한 새 질문은 없다.",
-                "staffFinalResponse": "원문:\nご予約の際は、下記のフォームをご記入の上ご返信お願い致します✨\n\n1. お名前（ローマ字）：\n2. 生年月日：\n3. ご希望の施術：\n4. ご希望のご来院日時：\n\n한국어 번역:\n예약하실 때는 아래 양식을 작성하여 답장해 주시기 바랍니다✨\n\n1. 성함(로마자)：\n2. 생년월일：\n3. 희망 시술：\n4. 희망 내원 일시：",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "제모 상품 문의 유입에 예약을 원하면 이름·생년월일·희망 시술·방문일시 양식을 작성해 회신해 달라고 안내했다.",
-                "procedure": "브라질리언 제모(유입)",
-                "questionCategory": "예약 접수",
-                "questionDate": null,
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K482:N484"
-              },
-              {
-                "id": "MISS-G-20261101-051",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "코어톡스 상품 유입만 있고 직접 질문은 없다.",
-                "staffFinalResponse": "원문:\nご予約の際は、下記のフォームをご記入の上ご返信お願い致します✨\n\n1. お名前（ローマ字）：\n2. 生年月日：\n3. ご希望の施術：\n4. ご希望のご来院日時：\n\n한국어 번역:\n예약하실 때는 아래 양식을 작성하여 답장해 주시기 바랍니다✨\n\n1. 성함(로마자)：\n2. 생년월일：\n3. 희망 시술：\n4. 희망 내원 일시：",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "코어톡스 상품 문의 유입에 예약 정보 양식을 작성해 회신해 달라고 안내했다.",
-                "procedure": "코어톡스(유입)",
-                "questionCategory": "예약 접수",
-                "questionDate": null,
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K485:N488"
-              },
+            "exchanges": [
               {
                 "id": "MISS-G-20261101-052",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "당일 직접 고객 질문은 없다.",
-                "staffFinalResponse": "기존 예약에 대한 당일 방문·지도 자동 알림이 전송되었다.",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "방문 예정 고객에게 일정과 지도를 자동으로 안내한 기록이다.",
-                "procedure": "기존 동반 예약",
-                "questionCategory": "자동 방문 알림",
+                "recordIds": [
+                  "MISS-G-20261101-052"
+                ],
+                "kind": "auto",
+                "country": "TW",
+                "procedure": "확인되지 않음",
+                "category": "자동 방문 일정 알림",
+                "verdict": "auto",
+                "reason": "11월 1일 당일 방문 일정과 지도 자동 알림이 발송됐다.",
                 "questionDate": null,
-                "responseEndedDate": "2026-11-01",
+                "finalReplyDate": "2026-11-01",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (당일 새 질문 없음)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "note": "직원 직접 답변 없음 (당일 방문·지도 자동 알림)"
+                  }
+                ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K489:N489"
               },
               {
                 "id": "MISS-G-20261101-053",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "당일 직접 고객 질문은 없다.",
-                "staffFinalResponse": "기존 예약의 방문일·지도 자동 알림이 표시되었다.",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "방문 예정 고객에게 일정과 지도를 자동으로 안내한 기록이다.",
-                "procedure": "기존 예약",
-                "questionCategory": "자동 방문 알림",
+                "recordIds": [
+                  "MISS-G-20261101-053"
+                ],
+                "kind": "auto",
+                "country": "TW",
+                "procedure": "확인되지 않음",
+                "category": "자동 방문 일정 알림",
+                "verdict": "auto",
+                "reason": "11월 1일 당일 방문 일정과 지도 자동 알림이 발송됐다.",
                 "questionDate": null,
-                "responseEndedDate": "2026-11-01",
+                "finalReplyDate": "2026-11-01",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (당일 새 질문 없음)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "note": "직원 직접 답변 없음 (당일 방문·지도 자동 알림)"
+                  }
+                ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K490:N490"
               },
               {
-                "id": "MISS-G-20261101-054",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A133:AF133"
+                "id": "MISS-G-20261101-028",
+                "recordIds": [
+                  "MISS-G-20261101-028"
+                ],
+                "kind": "consult",
+                "country": "US",
+                "procedure": "주름 보톡스·스킨 보톡스",
+                "category": "가격 포함 범위",
+                "verdict": "fix",
+                "severity": "suspected",
+                "reason": "고객은 이마·미간·미소 세 부위가 한 가격에 포함되는지 물었는데 담당자는 주름 보톡스와 스킨 보톡스가 모두 포함된다고 답했다. 강남언니 수가표는 주름보톡스(국) 3부위 74,900원과 국산 풀페이스 스킨 보톡스 128,700원을 별도 상품으로 둔다.",
+                "questionDate": "2026-11-01",
+                "finalReplyDate": "2026-11-01",
+                "customer": [
+                  {
+                    "date": "2026-11-01",
+                    "original": "Is the price for the Botox for all the three sections.?",
+                    "ko": "보톡스 가격은 세 부위 모두에 대한 가격인가요.?"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-01",
+                    "original": "Yes It includes both wrinkle botox and skin botox!",
+                    "ko": "네 주름 보톡스와 스킨 보톡스가 모두 포함됩니다!"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K366:N376"
               },
               {
-                "id": "MISS-G-20261101-055",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A134:AF134"
+                "id": "MISS-G-20261101-030",
+                "recordIds": [
+                  "MISS-G-20261101-030"
+                ],
+                "kind": "consult",
+                "country": "TW",
+                "procedure": "소프웨이브·울쎄라·세르프",
+                "category": "시술 비교·행사 가격",
+                "verdict": "fix",
+                "severity": "confirmed",
+                "reason": "담당자는 소프웨이브가 피부 최상층 표층에 작용한다고 답했는데 가이드 02는 소프웨이브가 진피 중층에 열에너지를 전달한다고 안내한다.",
+                "questionDate": "2026-11-01",
+                "finalReplyDate": "2026-11-01",
+                "customer": [
+                  {
+                    "date": "2026-11-01",
+                    "original": "想請問索夫波 跟 美版 、雙頻電波差異在哪兒呢",
+                    "ko": "소프웨이브와 미국판, 이중 주파수 고주파는 어떤 차이가 있는지 여쭤보고 싶습니다"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "想請問活動日期是到11/30，我們預計[방문 예정 시기 가림]會再來，有最新的活動價錢嗎",
+                    "ko": "행사 기간이 11/30까지인데 저희는 [방문 예정 시기 가림]에 다시 올 예정입니다. 최신 행사 가격이 있을까요"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "能否傳您們施作的項目及費用，這幾次去體驗蠻好的，想多參考其他項目",
+                    "ko": "시술 항목과 비용을 보내 주실 수 있을까요. 이번 몇 차례 방문 경험이 꽤 좋아서 다른 항목도 더 참고하고 싶습니다"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-01",
+                    "original": "您好，索夫波施打於肌膚最上層的表層，主要是增加肌膚彈力、淡化細紋的效果；\n美國音波主要施打於肌膚深層的肌膜層，主要是拉提下垂肌肉、修飾輪廓線的效果；\n雙頻電波則可以同時作用於肌膚淺層及深層，增加肌膚彈力外也能有修飾輪廓線的效果喔！",
+                    "ko": "안녕하세요, 소프웨이브는 피부의 가장 위쪽 표층에 시술하여 주로 피부 탄력을 높이고 잔주름을 완화하는 효과가 있습니다;\n미국 초음파는 주로 피부 깊은 근막층에 시술하여 처진 근육을 끌어올리고 윤곽선을 다듬는 효과가 있습니다;\n이중 주파수 고주파는 피부의 얕은 층과 깊은 층에 동시에 작용할 수 있어 피부 탄력을 높이는 것 외에도 윤곽선을 다듬는 효과가 있습니다!"
+                  },
+                  {
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "以上活動優惠給您參考，若有問題都可以再向我們詢問喔！",
+                    "ko": "위 행사 혜택을 참고해 주시고, 궁금한 점이 있으면 언제든 저희에게 문의해 주세요!"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "我們12月會有新的活動優惠，但以上拉提類療程的活動基本上變動不大，所以一樣可以先參考看看喔！",
+                    "ko": "저희는 12월에 새로운 행사 혜택이 있을 예정이지만 위 리프팅 시술의 행사는 기본적으로 변동이 크지 않으니 그대로 먼저 참고해 보셔도 됩니다!"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "謝謝～🥹🌸可以的！這邊先給您我們綜合活動的優惠，更多活動可以到官網查看唷！",
+                    "ko": "감사합니다～🥹🌸가능합니다! 우선 저희 종합 행사 혜택을 보내 드리며, 더 많은 행사는 공식 홈페이지에서 확인하실 수 있습니다!\n\n[이미지 응답]",
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "https://tw.beautyblossom.kr/22",
+                    "ko": "https://tw.beautyblossom.kr/22"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K382:N397"
               },
               {
-                "id": "MISS-G-20261101-056",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A135:AF135"
+                "id": "MISS-G-20261101-013",
+                "recordIds": [
+                  "MISS-G-20261101-013"
+                ],
+                "kind": "ops",
+                "country": "TW",
+                "procedure": "골드 미세침(포텐자)·HIFU 리프팅",
+                "category": "복수 시술 예약·오시는 길",
+                "verdict": "normal-ops",
+                "reason": "두 시술은 예약 후 내원 상담에서 정하면 된다고 답하고 합정역 3번 출구 옆 건물, 홍대입구역에서 지하철 약 2분·도보 약 10분이라고 안내했다. 가이드 06은 합정역 3번 출구 앞에 있다고 안내하며 담당자의 답과 같다.",
+                "questionDate": "2026-11-01",
+                "finalReplyDate": "2026-11-01",
+                "customer": [
+                  {
+                    "date": "2026-11-01",
+                    "original": "好的 我想要做黃金微針 +音波拉提 可以同時預約兩個項目嗎 還是預約一個 拉提到現場再決定我適合嗎",
+                    "ko": "네 저는 골드 마이크로니들 +초음파 리프팅을 하고 싶은데 두 항목을 동시에 예약할 수 있나요 아니면 하나만 예약하고 리프팅은 현장에서 저에게 적합한지 결정하나요"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "可以先詢問一下 弘大附近的什麼地鐵站 幾分鐘到達呢",
+                    "ko": "먼저 여쭤봐도 될까요 홍대 근처 어느 지하철역이며 몇 분이면 도착하나요"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "比較好確定時間",
+                    "ko": "시간을 정하기가 더 수월해서요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-01",
+                    "original": "可以啊！預約來院後我們都會先為您安排商談，商談後再決定想施作的療程就可以囉！",
+                    "ko": "가능합니다！예약 후 내원하시면 먼저 상담을 마련해 드리니, 상담 후 원하시는 시술을 결정하시면 됩니다！"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "我們在合井站三號出口，一出來旁邊的大樓就是了，合井就是在弘大的下一站，搭地鐵的話就是2分鐘左右",
+                    "ko": "저희는 합정역 삼 번 출구에 있습니다. 나오자마자 옆 건물이며, 합정은 홍대 다음 역으로 지하철을 타면 약 2분입니다"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "您要直接從弘大站9號出口步行過來也可以，大約需要10分鐘",
+                    "ko": "홍대입구역 9번 출구에서 바로 걸어오셔도 되며, 약 10분 걸립니다"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K277:N287"
               },
               {
-                "id": "MISS-G-20261101-057",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A136:AF136"
+                "id": "MISS-G-20261101-001",
+                "recordIds": [
+                  "MISS-G-20261101-001"
+                ],
+                "kind": "consult",
+                "country": "US",
+                "procedure": "CO2 레이저·피코(줌패스·포커스·토닝)",
+                "category": "시술 선택(색소·흉터·모공·잔주름)",
+                "verdict": "normal",
+                "reason": "담당자는 CO2 레이저를 주로 점 제거에 쓴다고 하고 잡티·주근깨에 피코줌패스, 여드름 흉터·모공·피부결에 피코포커스를 안내했다. 가이드 02는 CO2를 점·쥐젖 등 병변 제거 시술로, 피코줌패스를 색소 치료로 설명하고 가이드 01은 포커스 모드를 피부결·모공·흉터 치료로 구분해 담당자 안내와 같다.",
+                "questionDate": "2026-11-01",
+                "finalReplyDate": "2026-11-01",
+                "customer": [
+                  {
+                    "date": "2026-11-01",
+                    "original": "Do you provide CO2 laser treatments?",
+                    "ko": "CO2 레이저 시술을 제공하시나요?"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "I have dark spots/freckles, a few acne scars that are stubbornly visible for weeks, large pores on T zone and fine lines around my eyes",
+                    "ko": "잡티/주근깨가 있고, 몇 주 동안 끈질기게 눈에 띄는 여드름 흉터 몇 개, T존의 넓은 모공, 눈가 잔주름이 있어요"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "I’m not sure if I need Pico or CO2",
+                    "ko": "피코가 필요한지 CO2가 필요한지 잘 모르겠어요"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "Maybe both??",
+                    "ko": "둘 다일까요??"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-01",
+                    "original": "Hello! \nOur CO2 laser is mainly used for mole removal! 💗\n\nHowever, we offer several other laser treatments that can help with your skin concerns! ✨\n\n🌸 Pico Zoom Pass – Targets pigmentation, dark spots, and freckles.\n🌸 Pico Focus – Helps improve acne scars, enlarged pores, and overall skin texture.\n🌸 Pico Toning – Helps reduce uneven pigmentation and brighten overall skin tone.\nFor fine lines around the eyes, we also offer other treatments that focus on improving skin elasticity and wrinkles! 💗\nSince you have several different skin concerns, we'd recommend an in-person consultation so our medical team can assess your skin and suggest the most suitable combination of treatments! 😊🌸",
+                    "ko": "안녕하세요! \n저희 CO2 레이저는 주로 점 제거에 사용합니다! 💗\n\n하지만 고객님의 피부 고민에 도움이 될 수 있는 다른 레이저 시술도 여러 가지 제공하고 있습니다! ✨\n\n🌸 피코 줌 패스 – 색소침착, 잡티, 주근깨를 대상으로 합니다.\n🌸 피코 포커스 – 여드름 흉터, 넓어진 모공, 전반적인 피부결 개선에 도움이 됩니다.\n🌸 피코 토닝 – 고르지 않은 색소침착을 줄이고 전반적인 피부톤을 밝게 하는 데 도움이 됩니다.\n눈가 잔주름의 경우 피부 탄력과 주름 개선에 초점을 맞춘 다른 시술도 제공하고 있습니다! 💗\n여러 가지 피부 고민이 있으시므로, 의료진이 피부를 평가하고 가장 적합한 시술 조합을 제안할 수 있도록 대면 상담을 권해 드립니다! 😊🌸"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K242:N252"
               },
               {
-                "id": "MISS-G-20261101-058",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
+                "id": "MISS-G-20261101-029",
+                "recordIds": [
+                  "MISS-G-20261101-029"
+                ],
+                "kind": "consult",
+                "country": "JP",
+                "procedure": "인모드FX·블라썸핏 주사",
+                "category": "시술 후 주의사항",
+                "verdict": "normal",
+                "reason": "내원 후 인모드FX와 뷰티핏/블라썸핏 주사의 시술 후 주의사항을 보냈다. 두 문구 모두 가이드 09의 일본어 주의사항 문구와 같다.",
                 "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A137:AF137"
-              },
-              {
-                "id": "MISS-G-20261101-059",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A138:AF138"
-              },
-              {
-                "id": "MISS-G-20261101-060",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A139:AF139"
-              },
-              {
-                "id": "MISS-G-20261101-061",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A140:AF140"
-              },
-              {
-                "id": "MISS-G-20261101-062",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A141:AF141"
-              },
-              {
-                "id": "MISS-G-20261101-063",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A142:AF142"
-              },
-              {
-                "id": "MISS-G-20261101-064",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A143:AF143"
+                "finalReplyDate": "2026-11-01",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (예약 방문 안내와 시술 후 관리 발송)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-01",
+                    "original": "🔥 インモードFX － 施術後の注意事項 🔥\n\n• 施術当日から軽い洗顔、シャワー、メイクが可能です。\n• 施術後、赤み、腫れ、熱感、圧痛などが生じる場合があります。また、吸引によってあざや内出血が生じることがありますが、ほとんどは時間の経過とともに徐々に薄くなります。\n• 施術後1週間は飲酒、喫煙、サウナ、激しい運動はお控えください🍷\n• 保湿と紫外線対策を心がけてください。また、しばらくの間は酸を含む製品、レチノール、角質ケア、マッサージ、カッサの使用はお控えください☀️\n• 水ぶくれが生じた場合や、強いほてり、明らかな痛みが続く場合は、すぐにクリニックまでご連絡ください📞\n\n⏳ 効果はいつ頃から現れますか？\n\n• インモード施術後のフェイスラインやハリ・弾力の改善効果は徐々に現れます。\n• 一般的に、施術後2～4週間ほどで変化を比較的実感しやすくなります。",
+                    "ko": "🔥 인모드FX － 시술 후 주의사항 🔥\n\n• 시술 당일부터 가벼운 세안, 샤워, 메이크업이 가능합니다.\n• 시술 후 붉어짐, 부기, 열감, 압통 등이 생길 수 있습니다. 또한 흡입으로 인해 멍이나 피하출혈이 생길 수 있으나, 대부분은 시간이 지나면서 점차 옅어집니다.\n• 시술 후 1주일 동안은 음주, 흡연, 사우나, 격한 운동을 삼가 주세요🍷\n• 보습과 자외선 차단에 신경 써 주세요. 또한 당분간 산 성분이 포함된 제품, 레티놀, 각질 관리, 마사지, 괄사 사용을 삼가 주세요☀️\n• 물집이 생기거나 심한 화끈거림, 뚜렷한 통증이 지속되는 경우에는 즉시 클리닉으로 연락해 주세요📞\n\n⏳ 효과는 언제쯤 나타나나요?\n\n• 인모드 시술 후 얼굴선과 피부의 팽팽함·탄력 개선 효과는 서서히 나타납니다.\n• 일반적으로 시술 후 약 2～4주가 지나면 변화를 비교적 느끼기 쉬워집니다."
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "💉 ビューティーフィット／ブロッサムフィット注射 － 施術後の注意事項 💉\n\n• 注射部位に軽い腫れ、こわばり感、ヒリヒリ感、熱感、内出血などが生じる場合がありますが、ほとんどは1～3日程度で徐々に落ち着きます。\n• 施術4時間後から軽いシャワーや、施術部位を洗うことが可能です。強くこすったり押したりしないようご注意ください。\n• 施術後1週間は、飲酒、喫煙、サウナ、温泉、激しい運動はお控えください🍷\n• 普段通り十分な水分補給を心がけ、腫れや不快感が落ち着いてから通常の運動を徐々に再開してください💧\n• しばらくの間は、施術部位を強くマッサージしたり、カッサを使用したりせず、繰り返し刺激を与える行為もお控えください。\n• 赤み、腫れ、熱感、痛み、かゆみなどの症状が続いて悪化する場合や、その他明らかな異常がみられる場合はクリニックまでご連絡ください📞\n\n⏳ 効果はいつ頃から現れますか？\n\n• ボディラインの変化は徐々に現れ、一般的に複数回施術を受けることで、より変化を実感しやすくなります。",
+                    "ko": "💉 뷰티핏／블라썸핏 주사 － 시술 후 주의사항 💉\n\n• 주사 부위에 가벼운 부기, 뻣뻣함, 따끔거림, 열감, 피하출혈 등이 생길 수 있으나, 대부분은 약 1～3일에 걸쳐 서서히 가라앉습니다.\n• 시술 4시간 후부터 가벼운 샤워나 시술 부위 세척이 가능합니다. 강하게 문지르거나 누르지 않도록 주의해 주세요.\n• 시술 후 1주일 동안은 음주, 흡연, 사우나, 온천, 격한 운동을 삼가 주세요🍷\n• 평소처럼 충분한 수분을 섭취하고, 부기와 불편감이 가라앉은 후 일반적인 운동을 서서히 재개해 주세요💧\n• 당분간 시술 부위를 강하게 마사지하거나 괄사를 사용하지 마시고, 반복적으로 자극을 주는 행동도 삼가 주세요.\n• 붉어짐, 부기, 열감, 통증, 가려움 등의 증상이 지속되어 악화되는 경우나 그 밖에 뚜렷한 이상이 보이는 경우에는 클리닉으로 연락해 주세요📞\n\n⏳ 효과는 언제쯤 나타나나요?\n\n• 바디라인의 변화는 서서히 나타나며, 일반적으로 여러 차례 시술을 받으면 변화를 더욱 느끼기 쉬워집니다."
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K377:N381"
               },
               {
                 "id": "MISS-G-20261101-065",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "당일 직접 질문 없이 기존 예약 알림만 있다.",
-                "staffFinalResponse": "당일 방문 예정과 지도 자동 안내가 전송되었다.",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "방문 예정 고객에게 일정과 지도를 자동으로 안내한 기록이다.",
-                "procedure": "사각턱 보톡스(기존 예약)",
-                "questionCategory": "자동 방문 알림",
+                "recordIds": [
+                  "MISS-G-20261101-065"
+                ],
+                "kind": "auto",
+                "country": "JP",
+                "procedure": "사각턱 보톡스",
+                "category": "방문 당일 자동 알림",
+                "verdict": "auto",
+                "reason": "방문 당일 일정과 지도를 자동 알림으로 보냈다.",
                 "questionDate": null,
-                "responseEndedDate": "2026-11-01",
+                "finalReplyDate": "2026-11-01",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (예약 일정 자동 안내)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "note": "직원 직접 답변 없음 (당일 방문·지도 자동 알림)"
+                  }
+                ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K491:N491"
               },
               {
-                "id": "MISS-G-20261101-066",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
+                "id": "MISS-G-20261101-003",
+                "recordIds": [
+                  "MISS-G-20261101-003"
+                ],
+                "kind": "inflow",
+                "country": "ID",
+                "procedure": "확인되지 않음",
+                "category": "병원 문의 유입",
+                "verdict": "normal-ops",
+                "reason": "병원 문의 유입에 궁금한 점은 언제든 문의해 달라고 안내했다.",
                 "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A145:AF145"
+                "finalReplyDate": "2026-11-02",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (상품·이벤트 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-02",
+                    "original": "Hi~ If you have any question, please feel free to ask us anytime💕",
+                    "ko": "안녕하세요~ 질문이 있으시면 언제든 편하게 문의해 주세요💕"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K253:N255"
               },
               {
-                "id": "MISS-G-20261101-067",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A146:AF146"
+                "id": "MISS-G-20261101-004",
+                "recordIds": [
+                  "MISS-G-20261101-004"
+                ],
+                "kind": "consult",
+                "country": "AU",
+                "procedure": "피코슈어",
+                "category": "시술 설명",
+                "verdict": "normal",
+                "reason": "담당자는 피코슈어 토닝과 줌·포커스 모드의 목적을 나누고, 주된 고민에 따라 의사가 먼저 피부를 확인해 모드와 강도를 정한다고 답했다. 가이드 01도 토닝·줌패스·포커스를 구분하고 진료로 먼저 확인한다고 안내하며 담당자의 답과 같다.",
+                "questionDate": "2026-11-01",
+                "finalReplyDate": "2026-11-02",
+                "customer": [
+                  {
+                    "date": "2026-11-01",
+                    "original": "Tell me more about this procedure",
+                    "ko": "이 시술에 대해 더 자세히 알려 주세요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-02",
+                    "original": "PicoSure is a picosecond laser treatment mainly used for concerns such as pigmentation, freckles, sun spots, uneven skin tone, acne marks, and overall skin texture.\n\nAt our clinic, different PicoSure modes can be selected depending on your skin condition:\n\n• PicoSure Toning — focuses more on overall pigmentation and uneven skin tone\n• Zoom / Focus modes — can be used for more targeted pigment spots or texture concerns, depending on the area and skin condition\n\nBecause PicoSure delivers laser energy in very short pulses, it can target pigment while minimizing unnecessary heat exposure compared with some traditional laser methods.\n\nAfter treatment, you may have temporary redness, warmth, or mild sensitivity, and targeted spots can sometimes become temporarily darker before fading.\n\nThe most suitable mode and intensity will depend on whether your concern is mainly melasma, freckles, sun spots, acne marks, or texture, so the doctor will check your skin first and customize the treatment accordingly 🌸",
+                    "ko": "피코슈어는 색소침착, 주근깨, 햇빛으로 인한 잡티, 고르지 않은 피부톤, 여드름 자국과 전반적인 피부결 등의 고민에 주로 사용하는 피코초 레이저 시술입니다.\n\n저희 병원에서는 피부 상태에 따라 서로 다른 피코슈어 모드를 선택할 수 있습니다.\n\n• 피코슈어 토닝: 전반적인 색소침착과 고르지 않은 피부톤에 더 중점을 둡니다.\n• 줌 / 포커스 모드: 부위와 피부 상태에 따라 특정 색소 병변이나 피부결 고민에 사용할 수 있습니다.\n\n피코슈어는 매우 짧은 펄스로 레이저 에너지를 전달하므로 일부 전통적인 레이저 방식과 비교해 불필요한 열 노출을 최소화하면서 색소를 표적으로 삼을 수 있습니다.\n\n시술 후 일시적인 붉어짐, 열감이나 가벼운 민감함이 있을 수 있으며, 집중 치료한 잡티는 옅어지기 전에 일시적으로 더 진해질 수 있습니다.\n\n가장 적합한 모드와 강도는 주된 고민이 기미, 주근깨, 햇빛에 의한 잡티, 여드름 자국 또는 피부결인지에 따라 달라지므로 의사가 먼저 피부를 확인하고 그에 맞춰 시술을 조정합니다 🌸"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K256:N260"
               },
               {
-                "id": "MISS-G-20261101-068",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A147:AF147"
+                "id": "MISS-G-20261101-007",
+                "recordIds": [
+                  "MISS-G-20261101-007"
+                ],
+                "kind": "ops",
+                "country": "TH",
+                "procedure": "주름 보톡스",
+                "category": "관리자 연결",
+                "verdict": "normal-ops",
+                "reason": "관리자 연결 요청에 태국어 관리자가 항상 응대하니 무엇이든 문의해 달라고 답했다.",
+                "questionDate": "2026-11-01",
+                "finalReplyDate": "2026-11-02",
+                "customer": [
+                  {
+                    "date": "2026-11-01",
+                    "original": "ติดต่อแอดมิน",
+                    "ko": "관리자에게 연락"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-02",
+                    "original": "สวัสดีค่ะ หากมีข้อสงสัยใดๆสามารถสอบถามได้เลยนะคะ ทางเรามีแอดมินไทยคอยบริการอยู่ตลอดเลยค่ะ😊🙏",
+                    "ko": "안녕하세요. 궁금한 사항은 무엇이든 문의해 주세요. 저희는 태국어 관리자가 항상 응대하고 있습니다😊🙏"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K261:N266"
               },
               {
-                "id": "MISS-G-20261101-069",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
+                "id": "MISS-G-20261101-008",
+                "recordIds": [
+                  "MISS-G-20261101-008"
+                ],
+                "kind": "inflow",
+                "country": "TH",
+                "procedure": "주름 보톡스",
+                "category": "행사 안내",
+                "verdict": "image",
+                "reason": "태국어 행사 이미지를 보내고 LINE으로 태국인 관리자·통역사에게 추가 문의할 수 있다고 안내했다.",
                 "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A148:AF148"
+                "finalReplyDate": "2026-11-02",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (상품·이벤트 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-02",
+                    "original": "สวัสดีค่ะ ตอนนี้ทางคลินิกมีโปรโมชั่นอยู่ตามภาพเลยนะคะ\n\nหากมีข้อสงสัยใดๆเพิ่มเติมสามารถแอดไลน์มาสอบถามได้เลยค่ะ มีแอดมินคนไทยและล่ามไทยให้บริการอยู่ตลอดนะคะะ 🥰🙏",
+                    "ko": "안녕하세요. 현재 병원 행사 내용은 이미지와 같습니다.\n\n추가로 궁금하신 사항은 라인을 추가해 문의해 주세요. 태국인 관리자와 태국어 통역사가 항상 응대합니다 🥰🙏",
+                    "image": true
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K267:N269"
               },
               {
-                "id": "MISS-G-20261101-070",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A149:AF149"
+                "id": "MISS-G-20261101-009",
+                "recordIds": [
+                  "MISS-G-20261101-009"
+                ],
+                "kind": "ops",
+                "country": "TH",
+                "procedure": "고우리",
+                "category": "태국어 통역",
+                "verdict": "normal-ops",
+                "reason": "내원 시 통역이 필요하다는 요청에 상담부터 시술까지 무료 태국어 통역을 제공한다고 답했다.",
+                "questionDate": "2026-11-01",
+                "finalReplyDate": "2026-11-02",
+                "customer": [
+                  {
+                    "date": "2026-11-01",
+                    "original": "ต้องการล่ามตอนเข้าคลินิก",
+                    "ko": "클리닉에 방문할 때 통역이 필요합니다"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-02",
+                    "original": "ทางคลินิกมีล่ามไทยบริการฟรีตั้งแต่ปรึกษาตลอดการทำหัตถการเลยค่ะะ",
+                    "ko": "병원에서 상담부터 시술 전 과정까지 무료 태국어 통역을 제공합니다."
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K270:N274"
               },
               {
-                "id": "MISS-G-20261101-071",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A150:AF150"
+                "id": "MISS-G-20261101-010",
+                "recordIds": [
+                  "MISS-G-20261101-010"
+                ],
+                "kind": "ops",
+                "country": "TH",
+                "procedure": "리쥬란",
+                "category": "태국어 통역 비용",
+                "verdict": "normal-ops",
+                "reason": "태국어 통역 추가 요금을 묻자 상담부터 시술 종료까지 태국어 통역은 무료라고 답했다.",
+                "questionDate": "2026-11-01",
+                "finalReplyDate": "2026-11-02",
+                "customer": [
+                  {
+                    "date": "2026-11-01",
+                    "original": "มีค่าบริการสำหรับล่ามไทยเพิ่มเติมมั๊ยคะ",
+                    "ko": "태국어 통역에 대한 추가 요금이 있나요?"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-02",
+                    "original": "เรามีล่ามไทยบริการฟรีตั้งแต่ปรึกษาจนจบการทำหัตถการเลยค่ะะ",
+                    "ko": "상담부터 시술 종료까지 무료 태국어 통역을 제공합니다."
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K275:N276"
               },
               {
-                "id": "MISS-G-20261101-072",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
+                "id": "MISS-G-20261101-014",
+                "recordIds": [
+                  "MISS-G-20261101-014"
+                ],
+                "kind": "inflow",
+                "country": "TW",
+                "procedure": "여성 겨드랑이 관리",
+                "category": "개선 부위 확인",
+                "verdict": "normal-ops",
+                "reason": "겨드랑이 관리 상품 유입에 어떤 부분을 개선하고 싶은지 묻고 참고 가격을 제공할 수 있다고 안내했다.",
                 "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A151:AF151"
+                "finalReplyDate": "2026-11-02",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (상품·이벤트 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-02",
+                    "original": "您好，請問主要想要針對腋下那個部分進行改善呢？",
+                    "ko": "안녕하세요. 겨드랑이의 어떤 부분을 주로 개선하고 싶으신가요?"
+                  },
+                  {
+                    "date": "2026-11-02",
+                    "original": "這邊可以提供價格給您參考喔~",
+                    "ko": "참고하실 수 있도록 가격을 제공해 드릴 수 있어요~"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K288:N289"
               },
               {
-                "id": "MISS-G-20261101-073",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A152:AF152"
+                "id": "MISS-G-20261101-015",
+                "recordIds": [
+                  "MISS-G-20261101-015"
+                ],
+                "kind": "consult",
+                "country": "TW",
+                "procedure": "초음파·고주파 리프팅",
+                "category": "중국어 통역·가격",
+                "verdict": "image",
+                "reason": "중국어 통역 직원이 있다고 답하고, 초음파·고주파 가격 질문에는 프로모션 이미지를 보내며 개선 부위를 알려 주면 시술을 추천하겠다고 답했다.",
+                "questionDate": "2026-11-01",
+                "finalReplyDate": "2026-11-02",
+                "customer": [
+                  {
+                    "date": "2026-11-01",
+                    "original": "到院時需要中文翻譯服務",
+                    "ko": "내원할 때 중국어 통역 서비스가 필요합니다"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "想問一下音波跟電波的價位",
+                    "ko": "초음파와 고주파 가격을 여쭤보고 싶어요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-02",
+                    "original": "我們院內都有中文翻譯人員，這個不用擔心喔✅",
+                    "ko": "병원에 중국어 통역 직원이 있으니 이 부분은 걱정하지 않으셔도 됩니다✅"
+                  },
+                  {
+                    "date": "2026-11-02",
+                    "original": "電波跟音波有很多種，您也可以跟我們說一下最想改善的位置，再幫您初步推薦比較合適的療程喔🤍",
+                    "ko": "고주파와 초음파에는 여러 종류가 있으므로 가장 개선하고 싶은 부위를 알려 주시면 우선 더 적합한 시술을 추천해 드릴게요🤍"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K290:N295"
               },
               {
-                "id": "MISS-G-20261101-074",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A153:AF153"
+                "id": "MISS-G-20261101-017",
+                "recordIds": [
+                  "MISS-G-20261101-017"
+                ],
+                "kind": "ops",
+                "country": "TW",
+                "procedure": "침샘 보톡스",
+                "category": "대화 마무리",
+                "verdict": "normal-ops",
+                "reason": "고객의 \"네\"에 더 궁금한 점이나 알고 싶은 시술이 있으면 언제든 말해 달라고 답하며 마무리했다.",
+                "questionDate": "2026-11-01",
+                "finalReplyDate": "2026-11-02",
+                "customer": [
+                  {
+                    "date": "2026-11-01",
+                    "original": "好的",
+                    "ko": "네"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-02",
+                    "original": "後續如果還有任何問題，或是有想再了解的療程，都可以隨時跟我們說～  \n謝謝您🤍",
+                    "ko": "이후 궁금한 사항이나 더 알고 싶은 시술이 있으시면 언제든 말씀해 주세요~  \n감사합니다🤍"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K298:N299"
               },
               {
-                "id": "MISS-G-20261101-075",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
+                "id": "MISS-G-20261101-018",
+                "recordIds": [
+                  "MISS-G-20261101-018"
+                ],
+                "kind": "inflow",
+                "country": "TW",
+                "procedure": "필러",
+                "category": "가격 자료 안내",
+                "verdict": "image",
+                "reason": "필러 가격 이미지를 보내고 개선하고 싶은 부위를 알려 주면 시술을 추천하겠다고 안내했다.",
                 "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A154:AF154"
+                "finalReplyDate": "2026-11-02",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (상품·이벤트 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-02",
+                    "original": "玻尿酸填充的價格這邊可以先給您參考喔😊",
+                    "ko": "히알루론산 필러 가격을 우선 참고하실 수 있도록 안내해 드립니다😊",
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-02",
+                    "original": "您也可以跟我們說一下最想改善的位置，再幫您初步推薦比較合適的療程喔🤍",
+                    "ko": "가장 개선하고 싶은 부위를 말씀해 주시면 우선 더 적합한 시술을 추천해 드릴게요🤍"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K300:N302"
               },
               {
-                "id": "MISS-G-20261101-076",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
+                "id": "MISS-G-20261101-019",
+                "recordIds": [
+                  "MISS-G-20261101-019"
+                ],
+                "kind": "inflow",
+                "country": "TW",
+                "procedure": "사각턱 보톡스",
+                "category": "가격 자료 안내",
+                "verdict": "image",
+                "reason": "사각턱 보톡스 가격 이미지를 보내고 개선하고 싶은 부위를 알려 주면 시술을 추천하겠다고 안내했다.",
                 "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A155:AF155"
+                "finalReplyDate": "2026-11-02",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (상품·이벤트 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-02",
+                    "original": "咀嚼肌肉毒的價格這邊可以先給您參考喔😊",
+                    "ko": "사각턱 보톡스 가격을 우선 참고하실 수 있도록 안내해 드립니다😊"
+                  },
+                  {
+                    "date": "2026-11-02",
+                    "original": "您也可以跟我們說一下最想改善的位置，再幫您初步推薦比較合適的療程喔🤍",
+                    "ko": "가장 개선하고 싶은 부위를 말씀해 주시면 우선 더 적합한 시술을 추천해 드릴게요🤍"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K303:N304"
               },
               {
-                "id": "MISS-G-20261101-077",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A156:AF156"
+                "id": "MISS-G-20261101-020",
+                "recordIds": [
+                  "MISS-G-20261101-020"
+                ],
+                "kind": "consult",
+                "country": "TW",
+                "procedure": "온다",
+                "category": "부위별 용량·예약",
+                "verdict": "normal",
+                "reason": "담당자는 팔은 한쪽에 100kJ를 권장한다고 답했으며 가이드 06 질문96의 팔뚝 한 쪽당 10만줄 이상 권장과 같다. 입가 살·이중턱에는 60~80kJ를 참고치로 안내했고 수가표 10의 페이스 온다 60KJ·80KJ 상품과 맞으며, 예약 요청에는 가능하다고 답하고 예약 양식을 안내했다.",
+                "questionDate": "2026-11-01",
+                "finalReplyDate": "2026-11-02",
+                "customer": [
+                  {
+                    "date": "2026-11-01",
+                    "original": "瘦手臂適合打ONDA 100kj嗎？",
+                    "ko": "팔을 가늘게 하는 데 ONDA 100kj를 받는 것이 적합한가요？"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "那臉部會建議施作多少kj呢？",
+                    "ko": "그럼 얼굴에는 몇 kj 시술을 권하시나요？"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "嘴邊肉跟下巴",
+                    "ko": "입가 살과 턱"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "請問[예약 일시 가림]，可以預約嗎？",
+                    "ko": "[예약 일시 가림]에 예약할 수 있나요？"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-01",
+                    "original": "如果主要想改善手臂脂肪跟蝴蝶袖線條，ONDA 100kJ 是可以考慮的喔😊",
+                    "ko": "주로 팔 지방과 늘어진 팔뚝 라인을 개선하고 싶으시면 ONDA 100kJ를 고려하셔도 됩니다😊"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "ONDA 主要是針對局部脂肪＋緊實度做改善，一般一邊手臂會建議施作100kJ，但實際還是依據手臂的脂肪厚度、範圍跟想改善的程度會有所差異喔～",
+                    "ko": "ONDA는 주로 국소 지방＋탄력 개선을 위한 것으로, 일반적으로 한쪽 팔에 100kJ 시술을 권장하지만 실제로는 팔 지방의 두께, 범위, 원하시는 개선 정도에 따라 달라집니다～"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "如果脂肪量比較多，可能會需要累積幾次療程，單次通常會有一些線條變化，但不太會一次就有非常大的圍度差異🤍",
+                    "ko": "지방량이 많으면 여러 차례 시술을 누적해야 할 수 있습니다. 한 번에도 보통 어느 정도 라인 변화는 있지만 한 번만으로 둘레에 매우 큰 차이가 생기기는 어렵습니다🤍"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "如果主要想改善嘴邊肉＋雙下巴／下顎線，ONDA 通常可以先參考 60～80kJ 左右喔😊",
+                    "ko": "주로 입가 살＋이중턱／턱선을 개선하고 싶으시면 ONDA는 보통 우선 60～80kJ 정도를 참고하시면 됩니다😊"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "不過 ONDA 不是單純能量越高效果就越好，還是會看您的臉部脂肪量、範圍跟凹陷程度來分配能量~",
+                    "ko": "다만 ONDA는 단순히 에너지가 높을수록 효과가 좋은 것은 아니며, 얼굴 지방량, 범위, 꺼짐 정도를 보고 에너지를 배분합니다~"
+                  },
+                  {
+                    "date": "2026-11-02",
+                    "original": "可以的喔~",
+                    "ko": "가능합니다~"
+                  },
+                  {
+                    "date": "2026-11-02",
+                    "original": "若需要預約的話，幫我們填寫表單，這邊就可以為您安排，謝謝😊",
+                    "ko": "예약을 원하시면 양식을 작성해 주세요. 그러면 저희가 예약을 도와드릴 수 있습니다. 감사합니다😊"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K305:N320"
               },
               {
-                "id": "MISS-G-20261101-078",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
+                "id": "MISS-G-20261101-021",
+                "recordIds": [
+                  "MISS-G-20261101-021"
+                ],
+                "kind": "inflow",
+                "country": "JP",
+                "procedure": "사각턱 보톡스",
+                "category": "브랜드별 가격",
+                "verdict": "normal",
+                "reason": "담당자가 안내한 사각턱 보톡스 국산 43,500원·코어톡스 73,700원·제오민 143,000원·앨러간 197,000원은 수가표 10의 사각턱 보톡스 정가와 같다. 주입량은 근육 상태에 따라 내원 상담 후 정한다고 덧붙였다.",
                 "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A157:AF157"
+                "finalReplyDate": "2026-11-02",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (상품·이벤트 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-02",
+                    "original": "お問い合わせいただきありがとうございます😊\nエラボトックスの料金をご案内いたします✨\n\nエラボトックス（50単位基準）\n韓国製：43,500ウォン\nコアトックス：73,700ウォン\nゼオミン：143,000ウォン\nアラガン：197,000ウォン\n\nなお、必要な注入量は筋肉の発達具合や状態によって個人差がございます。正確な注入量は、ご来院後にカウンセリングを行ったうえでご案内いたします😊\n\nご不明な点や気になることがございましたら、いつでもお気軽にお問い合わせくださいませ。\n\nご予約をご希望の場合も、すぐにお取りできますので、どうぞお気軽にお申し付けください✨",
+                    "ko": "문의해 주셔서 감사합니다😊\n사각턱 보톡스 요금을 안내해 드립니다✨\n\n사각턱 보톡스(50단위 기준)\n국산：43,500원\n코어톡스：73,700원\n제오민：143,000원\n앨러간：197,000원\n\n필요한 주입량은 근육 발달 정도와 상태에 따라 개인차가 있습니다. 정확한 주입량은 내원 후 상담을 거쳐 안내해 드립니다😊\n\n궁금하거나 신경 쓰이는 점이 있으시면 언제든 편하게 문의해 주세요.\n\n예약을 원하시면 바로 도와드릴 수 있으니 편하게 말씀해 주세요✨"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K321:N323"
+              },
+              {
+                "id": "MISS-G-20261101-023",
+                "recordIds": [
+                  "MISS-G-20261101-023"
+                ],
+                "kind": "consult",
+                "country": "TH",
+                "procedure": "슈링크 유니버스",
+                "category": "추가 비용·관리자 연결",
+                "verdict": "normal",
+                "reason": "추가 비용 질문에 강남언니 표시 가격은 VAT 포함이며 시술을 추가하지 않으면 추가 비용이 없다고 답했다. 수가표 10의 강남언니 가격은 VAT 후 금액(슈링크 300샷 VAT 후 132,000원)으로 정리돼 있어 담당자의 답과 같고, 관리자 연결 요청에는 행사 이미지와 태국어 관리자 LINE 문의 경로를 안내했다.",
+                "questionDate": "2026-11-01",
+                "finalReplyDate": "2026-11-01",
+                "customer": [
+                  {
+                    "date": "2026-11-01",
+                    "original": "ราคาเพิ่มเติม",
+                    "ko": "추가 가격"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "ติดต่อแอดมิน",
+                    "ko": "관리자에게 연락"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-01",
+                    "original": "ราคาที่คุณเห็นใน UNNI เป็นราคาที่รวมภาษี VAT เรียบร้อยแล้วค่ะ 😊\n\nหากไม่มีการเพิ่มหัตถการหรือการรักษาอื่นเพิ่มเติม ก็จะไม่มีค่าใช้จ่ายเพิ่มเติมนะคะ 🤍",
+                    "ko": "UNNI에서 보시는 가격은 이미 VAT가 포함된 가격입니다 😊\n\n다른 시술이나 치료를 추가하지 않으시면 추가 비용은 없습니다 🤍"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "สวัสดีครับ ตอนนี้ทางคลินิกมีโปรโมชั่นอยู่ตามภาพเลยนะครับ\nหากมีข้อสงสัยใดๆเพิ่มเติมสามารถแอดไลน์มาสอบถามได้เลยครับ มีแอดมินคนไทยและล่ามไทยให้บริการอยู่ตลอดนะครับ🥰🙏",
+                    "ko": "안녕하세요. 현재 클리닉의 프로모션은 사진과 같습니다\n추가로 궁금한 점이 있으시면 LINE을 추가하여 편하게 문의해 주세요. 태국인 관리자와 태국어 통역사가 항상 서비스를 제공하고 있습니다🥰🙏",
+                    "image": true
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K324:N331"
+              },
+              {
+                "id": "MISS-G-20261101-024",
+                "recordIds": [
+                  "MISS-G-20261101-024"
+                ],
+                "kind": "inflow",
+                "country": "CN",
+                "procedure": "사각턱 보톡스",
+                "category": "브랜드별 가격",
+                "verdict": "normal",
+                "reason": "담당자가 안내한 사각턱 보톡스 50u 세후 가격 국산 43,500·코어 73,700·제오민 143,000·앨러간 197,000은 수가표 10의 사각턱 보톡스 정가와 같다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-01",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (상품·이벤트 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-01",
+                    "original": "咀嚼肌肉毒 50u ，税后的价格给您参考~\n韩国hitoex 43,500\n韩国coretex 73,700\n德国净优明 143,000\n美国爱力根 197,000",
+                    "ko": "저작근 보톡스 50u ，세후 가격을 참고해 주세요~\n한국hitoex 43,500\n한국coretex 73,700\n독일 제오민 143,000\n미국 앨러간 197,000"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K332:N335"
+              },
+              {
+                "id": "MISS-G-20261101-025",
+                "recordIds": [
+                  "MISS-G-20261101-025"
+                ],
+                "kind": "consult",
+                "country": "MY",
+                "procedure": "포텐자",
+                "category": "팁 포함 여부·시술 범위",
+                "verdict": "normal",
+                "reason": "담당자는 가격에 팁이 포함되고 300샷은 부분 시술, 전안면은 500샷 이상을 권한다고 답했다. 수가표 10은 포텐자를 DDR팁 포함으로 표기하고 가이드 06 질문71은 얼굴 전체 기준 약 500샷으로 안내해 담당자의 답과 같다.",
+                "questionDate": "2026-11-01",
+                "finalReplyDate": "2026-11-01",
+                "customer": [
+                  {
+                    "date": "2026-11-01",
+                    "original": "价钱包括针头？操作全脸还是局部？",
+                    "ko": "가격에 바늘이 포함되나요？얼굴 전체에 하나요 아니면 일부에 하나요？"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-01",
+                    "original": "价格是有包含探头的，300发的话是比较针对局部施作",
+                    "ko": "가격에는 팁이 포함되어 있으며, 300샷은 비교적 국소 부위 시술입니다"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "希望全脸的话会建议500发以上，我们这边提供给您的价目表上，都是施作范围全脸的费用",
+                    "ko": "얼굴 전체를 원하시면 500샷 이상을 권장합니다. 저희가 드린 가격표는 모두 얼굴 전체 시술 비용입니다"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K336:N345"
+              },
+              {
+                "id": "MISS-G-20261101-026",
+                "recordIds": [
+                  "MISS-G-20261101-026"
+                ],
+                "kind": "consult",
+                "country": "US",
+                "procedure": "아쿠아필·제네시스·포텐자·레이저 제모",
+                "category": "가격·프로모션·짐 보관·음주",
+                "verdict": "followup",
+                "reason": "비키니 71,500원·다리 132,000원(1회)은 수가표 10의 여성 제모 1회 가격과 같고, 프로모션 가격표를 보냈으며 레이저 전 24시간·후 약 1주 금주도 안내했다. 고객이 물은 짐 보관 가능 여부에는 답하지 않았다.",
+                "questionDate": "2026-11-01",
+                "finalReplyDate": "2026-11-01",
+                "customer": [
+                  {
+                    "date": "2026-11-01",
+                    "original": "Hi I’d like to do a aqua or hydra facial, pico gensis laser, potenza and maybe something soothing. I’d also like to do laser hair removal on my mustache and chin - \n\nhow much would the bikini and legs be as well?",
+                    "ko": "안녕하세요 아쿠아 또는 하이드라 페이셜, 피코 젠시스 레이저, 포텐자와 진정 관리도 받고 싶어요. 윗입술과 턱의 레이저 제모도 하고 싶어요 - \n\n비키니 부위와 다리도 하면 얼마인가요?"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "Awesome thank you! Do you have any promos going on for those treatments ?",
+                    "ko": "좋네요 감사합니다! 그 시술들에 진행 중인 프로모션이 있나요 ?"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "Perfect thank you! Will there be anywhere I can put my luggage I won’t be checked into my hotel yet",
+                    "ko": "좋아요 감사합니다! 아직 호텔 체크인을 하지 않은 상태일 텐데 짐을 둘 곳이 있을까요"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "Lastly, will I be able to drink before and after the lasers? I want to make sure I am having the right before and after care :)",
+                    "ko": "마지막으로 레이저 시술 전후에 술을 마셔도 될까요? 시술 전후 관리를 제대로 하고 싶어서요 :)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-01",
+                    "original": "Hello! \nWe offer Aqua Peel, Genesis, Potenza, and soothing skincare treatments! \nYou can discuss the most suitable combination during your in-person consultation, and our medical team will help you plan your treatments based on your skin condition. ✨\n\nFor laser hair removal, here are the prices:\n🌸 Bikini Area: ₩71,500\n🌸 Legs: ₩132,000\n\nThese prices are per session! 😊",
+                    "ko": "안녕하세요! \n저희는 아쿠아필, 제네시스, 포텐자, 진정 피부 관리를 제공하고 있습니다! \n대면 상담에서 가장 적합한 조합을 의논하실 수 있으며, 의료진이 고객님의 피부 상태에 따라 시술 계획을 세우도록 도와드립니다. ✨\n\n레이저 제모 가격은 다음과 같습니다:\n🌸 비키니 부위: ₩71,500\n🌸 다리: ₩132,000\n\n이 가격은 회당 기준입니다! 😊",
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "Here is our promotion price list for your reference 🌸",
+                    "ko": "참고하시도록 저희 프로모션 가격표를 보내드립니다 🌸"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "Hello, this is Beauty Blossom Clinic! 😊\n\nWe recommend avoiding alcohol for at least 24 hours before your laser treatment and for approximately 1 week afterward, as alcohol may increase redness, swelling, and skin irritation.\nDrinking water is absolutely fine, and staying well-hydrated is encouraged! \nThe recommended aftercare may vary depending on the type of laser treatment.",
+                    "ko": "안녕하세요, Beauty Blossom Clinic입니다! 😊\n\n음주는 붉어짐, 부기, 피부 자극을 증가시킬 수 있으므로 레이저 시술 전 최소 24시간과 시술 후 약 1주일 동안은 피하시는 것을 권장합니다.\n물은 마셔도 전혀 괜찮으며, 충분한 수분 섭취를 권장합니다! \n권장되는 사후 관리는 레이저 시술 종류에 따라 다를 수 있습니다."
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K346:N358"
+              },
+              {
+                "id": "MISS-G-20261101-027",
+                "recordIds": [
+                  "MISS-G-20261101-027"
+                ],
+                "kind": "inflow",
+                "country": "TW",
+                "procedure": "사각턱 보톡스",
+                "category": "가격 자료·예약 안내",
+                "verdict": "image",
+                "reason": "사각턱 보톡스 가격 이미지를 보내고 먼저 예약한 뒤 현장 상담에서 시술을 정할 수 있다고 안내했다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-01",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (상품·이벤트 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "咀嚼肌肉毒的價格這邊可以先給您參考喔😊",
+                    "ko": "저작근 보톡스 가격을 먼저 참고하시도록 안내해 드릴게요😊"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "我們都可以先安排預約，現場諮詢時再決定施作療程，都會根據您的需求推薦合適的項目給您~",
+                    "ko": "우선 예약을 잡고 현장 상담 때 시술을 결정하셔도 됩니다. 고객님의 필요에 따라 적합한 항목을 추천해 드립니다~"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "您也可以跟我們說一下最想改善的位置，再幫您初步推薦比較合適的療程喔🤍",
+                    "ko": "가장 개선하고 싶은 부위도 말씀해 주시면, 더 적합한 시술을 우선 추천해 드릴게요🤍"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K359:N365"
+              },
+              {
+                "id": "MISS-G-20261101-032",
+                "recordIds": [
+                  "MISS-G-20261101-032"
+                ],
+                "kind": "inflow",
+                "country": "TW",
+                "procedure": "포텐자",
+                "category": "가격 자료 안내",
+                "verdict": "image",
+                "reason": "포텐자 가격 이미지를 보내고 더 궁금한 점이나 알고 싶은 시술이 있으면 언제든 말해 달라고 안내했다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-01",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (상품·이벤트 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "黃金微針的價格這邊可以先給您參考喔😊",
+                    "ko": "황금 미세침 가격을 먼저 참고하실 수 있도록 보내 드립니다😊"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "後續如果還有任何問題，或是有想再了解的療程，都可以隨時跟我們說～  \n謝謝您🤍",
+                    "ko": "이후에도 궁금한 점이나 더 알아보고 싶은 시술이 있으면 언제든 저희에게 말씀해 주세요～  \n감사합니다🤍"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K403:N407"
+              },
+              {
+                "id": "MISS-G-20261101-033",
+                "recordIds": [
+                  "MISS-G-20261101-033"
+                ],
+                "kind": "consult",
+                "country": "TW",
+                "procedure": "슈링크 유니버스(하이푸)",
+                "category": "턱선 행사 가격·여행 중 시술 시점",
+                "verdict": "normal",
+                "reason": "턱선 행사 가격 질문에 가격 이미지를 보내고 턱선 부분 개선에는 300샷을 고려할 수 있다고 답했으며, 수가표 10에 슈링크 300샷 상품이 있다. 여행 셋째 날 시술 후 다음 날 귀국 일정에는 마지막 날 시술도 가능하고 시술은 현장 상담에서 정한다고 답했다.",
+                "questionDate": "2026-11-01",
+                "finalReplyDate": "2026-11-01",
+                "customer": [
+                  {
+                    "date": "2026-11-01",
+                    "original": "想先詢問音波下顎線的部分目前的活動價格～",
+                    "ko": "먼저 초음파 턱선 부분의 현재 행사 가격을 여쭤보고 싶어요～"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "我們是排旅程的第三天施做 隔天回國～\n您覺得合適嗎～",
+                    "ko": "저희는 여행 셋째 날에 시술받고 다음 날 귀국할 예정입니다～\n적절하다고 생각하시나요～"
+                  }
+                ],
+                "staff": [
+                  {
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "海芙音波的價格這邊可以先給您參考喔😊",
+                    "ko": "하이푸 초음파 가격을 먼저 참고하실 수 있도록 보내 드립니다😊"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "如果希望針對下顎線部分區域改善，可以考慮300發的部份~",
+                    "ko": "턱선 일부 부위의 개선을 원하시면 300샷을 고려하셔도 됩니다~"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "大部分的客人都會選擇療程第一天或最後一天進行，所以您排最後一天也是可以的喔!",
+                    "ko": "대부분의 고객님이 시술을 첫날이나 마지막 날에 받는 것을 선택하시므로 마지막 날로 잡으셔도 괜찮습니다!"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "我們都可以現場諮詢時再決定施作療程，都會根據您的需求推薦合適的項目給您~",
+                    "ko": "현장 상담 때 시술을 결정하셔도 됩니다. 고객님의 필요에 따라 적합한 항목을 추천해 드립니다~"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K408:N420"
+              },
+              {
+                "id": "MISS-G-20261101-034",
+                "recordIds": [
+                  "MISS-G-20261101-034"
+                ],
+                "kind": "inflow",
+                "country": "TH",
+                "procedure": "주름 보톡스",
+                "category": "가격 자료 안내",
+                "verdict": "image",
+                "reason": "가격표 이미지를 보내고 궁금한 점은 언제든 문의해 달라고 안내했다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-01",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (상품·이벤트 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "ทางเราส่งตารางราคามาให้ดูเป็นข้อมูลประกอบนะคะ 😊 \nหากมีข้อสงสัยหรือต้องการสอบถามเพิ่มเติม สามารถทักมาสอบถามได้ตลอดเลยค่ะ ขอบคุณค่ะ 💖",
+                    "ko": "참고하시도록 가격표를 보내 드립니다 😊 \n궁금한 점이 있거나 추가로 문의하고 싶으시면 언제든 연락해 주세요. 감사합니다 💖"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K421:N425"
+              },
+              {
+                "id": "MISS-G-20261101-036",
+                "recordIds": [
+                  "MISS-G-20261101-036"
+                ],
+                "kind": "inflow",
+                "country": "TW",
+                "procedure": "바디 조각주사",
+                "category": "가격 자료 안내",
+                "verdict": "image",
+                "reason": "바디 조각주사 가격 이미지를 보내고 개선하고 싶은 부위를 알려 주면 시술을 추천하겠다고 안내했다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-01",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (상품·이벤트 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "身體雕刻針的價格這邊可以先給您參考喔😊",
+                    "ko": "바디 조각 주사 가격을 먼저 참고하실 수 있도록 보내 드립니다😊"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "您也可以跟我們說一下最想改善的位置，再幫您初步推薦比較合適的療程喔🤍",
+                    "ko": "가장 개선하고 싶은 부위도 말씀해 주시면 비교적 적합한 시술을 우선 추천해 드리겠습니다🤍"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K432:N437"
+              },
+              {
+                "id": "MISS-G-20261101-038",
+                "recordIds": [
+                  "MISS-G-20261101-038"
+                ],
+                "kind": "inflow",
+                "country": "SG",
+                "procedure": "포텐자",
+                "category": "행사 안내",
+                "verdict": "image",
+                "reason": "프로모션 가격표 이미지를 보내고 문의·예약은 언제든 연락해 달라고 안내했다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-01",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (상품·이벤트 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "Hello!  Here is our promotional price list for your reference.\nIf you have any questions or would like to make a reservation, please feel free to contact us anytime!ㅁ",
+                    "ko": "안녕하세요! 참고하시도록 저희 프로모션 가격표를 보내 드립니다.\n궁금한 점이 있거나 예약을 원하시면 언제든 편하게 연락해 주세요!ㅁ"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K446:N450"
+              },
+              {
+                "id": "MISS-G-20261101-040",
+                "recordIds": [
+                  "MISS-G-20261101-040"
+                ],
+                "kind": "inflow",
+                "country": "IT",
+                "procedure": "기초 피부관리",
+                "category": "문의 접수",
+                "verdict": "normal-ops",
+                "reason": "기초 피부관리 상품 유입에 무엇을 도와드릴지 물었다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-01",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (상품·이벤트 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-01",
+                    "original": "Hello! How may I help you ?",
+                    "ko": "안녕하세요! 무엇을 도와드릴까요?"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K454:N457"
+              },
+              {
+                "id": "MISS-G-20261101-046",
+                "recordIds": [
+                  "MISS-G-20261101-046"
+                ],
+                "kind": "inflow",
+                "country": "TH",
+                "procedure": "주름 보톡스",
+                "category": "행사 안내",
+                "verdict": "image",
+                "reason": "태국어 행사 이미지를 보내고 LINE으로 태국인 관리자·통역사에게 추가 문의할 수 있다고 안내했다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-01",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (상품·이벤트 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-01",
+                    "original": "สวัสดีครับ ตอนนี้ทางคลินิกมีโปรโมชั่นอยู่ตามภาพเลยนะครับ\nหากมีข้อสงสัยใดๆเพิ่มเติมสามารถแอดไลน์มาสอบถามได้เลยครับ มีแอดมินคนไทยและล่ามไทยให้บริการอยู่ตลอดนะครับ🥰🙏",
+                    "ko": "안녕하세요. 현재 클리닉에서는 사진과 같은 프로모션을 진행하고 있습니다\n추가로 궁금한 점이 있으면 LINE을 추가하여 문의해 주세요. 태국인 관리자와 태국어 통역사가 항상 서비스를 제공하고 있습니다🥰🙏",
+                    "image": true
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K475:N478"
+              },
+              {
+                "id": "MISS-G-20261101-050",
+                "recordIds": [
+                  "MISS-G-20261101-050"
+                ],
+                "kind": "inflow",
+                "country": "JP",
+                "procedure": "브라질리언 제모",
+                "category": "예약 양식 안내",
+                "verdict": "normal-ops",
+                "reason": "제모 상품 유입에 예약을 원하면 이름·생년월일·희망 시술·희망 내원 일시 양식을 작성해 회신해 달라고 안내했다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-01",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (상품·이벤트 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-01",
+                    "original": "ご予約の際は、下記のフォームをご記入の上ご返信お願い致します✨\n\n1. お名前（ローマ字）：\n2. 生年月日：\n3. ご希望の施術：\n4. ご希望のご来院日時：",
+                    "ko": "예약하실 때는 아래 양식을 작성하여 답장해 주시기 바랍니다✨\n\n1. 성함(로마자)：\n2. 생년월일：\n3. 희망 시술：\n4. 희망 내원 일시："
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K482:N484"
+              },
+              {
+                "id": "MISS-G-20261101-051",
+                "recordIds": [
+                  "MISS-G-20261101-051"
+                ],
+                "kind": "inflow",
+                "country": "JP",
+                "procedure": "코어톡스",
+                "category": "예약 양식 안내",
+                "verdict": "normal-ops",
+                "reason": "코어톡스 상품 유입에 예약을 원하면 이름·생년월일·희망 시술·희망 내원 일시 양식을 작성해 회신해 달라고 안내했다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-01",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (상품·이벤트 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-01",
+                    "original": "ご予約の際は、下記のフォームをご記入の上ご返信お願い致します✨\n\n1. お名前（ローマ字）：\n2. 生年月日：\n3. ご希望の施術：\n4. ご希望のご来院日時：",
+                    "ko": "예약하실 때는 아래 양식을 작성하여 답장해 주시기 바랍니다✨\n\n1. 성함(로마자)：\n2. 생년월일：\n3. 희망 시술：\n4. 희망 내원 일시："
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K485:N488"
               }
-            ]
+            ],
+            "merged": [
+              {
+                "recordId": "MISS-G-20261101-031",
+                "intoDate": "2026-10-31",
+                "intoId": "MISS-G-20261031-031"
+              },
+              {
+                "recordId": "MISS-G-20261101-045",
+                "intoDate": "2026-10-31",
+                "intoId": "MISS-G-20261031-045"
+              },
+              {
+                "recordId": "MISS-G-20261101-035",
+                "intoDate": "2026-10-31",
+                "intoId": "MISS-G-20261031-035"
+              },
+              {
+                "recordId": "MISS-G-20261101-016",
+                "intoDate": "2026-10-31",
+                "intoId": "MISS-G-20261031-016"
+              },
+              {
+                "recordId": "MISS-G-20261101-037",
+                "intoDate": "2026-10-31",
+                "intoId": "MISS-G-20261031-037"
+              },
+              {
+                "recordId": "MISS-G-20261101-039",
+                "intoDate": "2026-10-31",
+                "intoId": "MISS-G-20261031-039"
+              },
+              {
+                "recordId": "MISS-G-20261101-042",
+                "intoDate": "2026-10-31",
+                "intoId": "MISS-G-20261031-042"
+              },
+              {
+                "recordId": "MISS-G-20261101-043",
+                "intoDate": "2026-10-31",
+                "intoId": "MISS-G-20261031-043"
+              },
+              {
+                "recordId": "MISS-G-20261101-044",
+                "intoDate": "2026-10-31",
+                "intoId": "MISS-G-20261031-044"
+              },
+              {
+                "recordId": "MISS-G-20261101-047",
+                "intoDate": "2026-10-31",
+                "intoId": "MISS-G-20261031-047"
+              },
+              {
+                "recordId": "MISS-G-20261101-048",
+                "intoDate": "2026-10-31",
+                "intoId": "MISS-G-20261031-048"
+              },
+              {
+                "recordId": "MISS-G-20261101-049",
+                "intoDate": "2026-10-31",
+                "intoId": "MISS-G-20261031-049"
+              }
+            ],
+            "unavailable": {
+              "recordIds": [
+                "MISS-G-20261101-002",
+                "MISS-G-20261101-005",
+                "MISS-G-20261101-006",
+                "MISS-G-20261101-011",
+                "MISS-G-20261101-012",
+                "MISS-G-20261101-022",
+                "MISS-G-20261101-041",
+                "MISS-G-20261101-054",
+                "MISS-G-20261101-055",
+                "MISS-G-20261101-056",
+                "MISS-G-20261101-057",
+                "MISS-G-20261101-058",
+                "MISS-G-20261101-059",
+                "MISS-G-20261101-060",
+                "MISS-G-20261101-061",
+                "MISS-G-20261101-062",
+                "MISS-G-20261101-063",
+                "MISS-G-20261101-064",
+                "MISS-G-20261101-066",
+                "MISS-G-20261101-067",
+                "MISS-G-20261101-068",
+                "MISS-G-20261101-069",
+                "MISS-G-20261101-070",
+                "MISS-G-20261101-071",
+                "MISS-G-20261101-072",
+                "MISS-G-20261101-073",
+                "MISS-G-20261101-074",
+                "MISS-G-20261101-075",
+                "MISS-G-20261101-076",
+                "MISS-G-20261101-077",
+                "MISS-G-20261101-078"
+              ]
+            }
           }
         },
         {
@@ -6056,1182 +6216,1351 @@ window.SUPERVISION_DATA = {
             }
           ],
           "qaReviewFinalization": {
-            "schemaVersion": 1,
+            "schemaVersion": 2,
             "finalizedAt": "2026-11-02T08:34:55.803Z",
             "finalStatus": "completed",
             "sourceCoverage": "partial",
-            "records": [
-              {
-                "id": "MISS-G-20261031-001",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "직접 질문 없이 이벤트와 일정 제안이 접수됐다.",
-                "staffFinalResponse": "원문:\nHello 😊\nOur chat consultation is currently outside of operating hours.\n\nPlease leave your message,\nand if you share your WhatsApp ID, we will add you and get in touch with you as soon as possible.\n\nWe’ll get back to you during our business hours 🌸\n\nFor inquiries or reservations,\nfeel free to contact us on WhatsApp.\nID: +82 10-7215-7511\n\n한국어 번역:\n안녕하세요 😊\n현재는 채팅 상담 운영 시간이 아닙니다.\n\n메시지를 남겨 주시고,\nWhatsApp ID를 알려 주시면 저희가 추가한 뒤 최대한 빨리 연락드리겠습니다.\n\n영업시간에 답변드리겠습니다 🌸\n\n문의 또는 예약은\n편하게 WhatsApp으로 연락해 주세요.\nID: +82 10-7215-7511",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "고객의 직접 질문 없이 이벤트와 일정 제안이 접수됐고, 직원은 영업시간에 회신하겠다는 접수 안내를 보냈다.",
-                "procedure": "피코슈어(이벤트 유입)",
-                "questionCategory": "인사·상담 접수",
-                "questionDate": null,
-                "responseEndedDate": "2026-10-31",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K2:N6"
-              },
-              {
-                "id": "MISS-G-20261031-002",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A3:AF3"
-              },
-              {
-                "id": "MISS-G-20261031-003",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A4:AF4"
-              },
-              {
-                "id": "MISS-G-20261031-004",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A5:AF5"
-              },
-              {
-                "id": "MISS-G-20261031-005",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A6:AF6"
-              },
-              {
-                "id": "MISS-G-20261031-006",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A7:AF7"
-              },
-              {
-                "id": "MISS-G-20261031-007",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A8:AF8"
-              },
-              {
-                "id": "MISS-G-20261031-008",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A9:AF9"
-              },
-              {
-                "id": "MISS-G-20261031-009",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A10:AF10"
-              },
-              {
-                "id": "MISS-G-20261031-010",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A11:AF11"
-              },
-              {
-                "id": "MISS-G-20261031-011",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A12:AF12"
-              },
-              {
-                "id": "MISS-G-20261031-012",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A13:AF13"
-              },
-              {
-                "id": "MISS-G-20261031-013",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\n300發可以改善法令紋跟雙下巴嗎？\n\n한국어 번역:\n300샷으로 팔자주름과 이중턱을 개선할 수 있나요？\n\n원문:\n好的 我想要做黃金微針 +音波拉提 可以同時預約兩個項目嗎 還是預約一個 拉提到現場再決定我適合嗎\n\n한국어 번역:\n네 저는 골드 마이크로니들 +초음파 리프팅을 하고 싶은데 두 항목을 동시에 예약할 수 있나요 아니면 하나만 예약하고 리프팅은 현장에서 저에게 적합한지 결정하나요\n\n원문:\n可以先詢問一下 弘大附近的什麼地鐵站 幾分鐘到達呢\n\n한국어 번역:\n먼저 여쭤봐도 될까요 홍대 근처 어느 지하철역이며 몇 분이면 도착하나요\n\n원문:\n比較好確定時間\n\n한국어 번역:\n시간을 정하기가 더 수월해서요",
-                "staffFinalResponse": "원문:\n300發就是比較針對局部區域做加強，也需要依據您目前狀況及希望改善的程度來評估是否足夠~\n\n한국어 번역:\n300샷은 비교적 국소 부위를 집중적으로 보강하는 것으로, 충분한지는 현재 상태와 원하시는 개선 정도에 따라 평가해야 합니다~\n\n원문:\n如果比較重視拉提效果跟維持時間，也可以一起參考美國音波，整體拉提感通常會再更明顯一些🤍\n\n한국어 번역:\n리프팅 효과와 유지 기간을 더 중요하게 생각하신다면 미국 초음파도 함께 참고해 보셔도 좋습니다. 전반적인 리프팅 느낌이 보통 좀 더 뚜렷합니다🤍\n\n원문:\n我們都可以先安排預約，現場諮詢時再決定施作療程，都會根據您的需求推薦合適的項目給您~\n\n한국어 번역:\n우선 예약을 잡고 현장 상담 때 시술을 결정하셔도 됩니다. 고객님의 필요에 따라 적합한 항목을 추천해 드립니다~\n\n원문:\n可以啊！預約來院後我們都會先為您安排商談，商談後再決定想施作的療程就可以囉！\n\n한국어 번역:\n가능합니다！예약 후 내원하시면 먼저 상담을 마련해 드리니, 상담 후 원하시는 시술을 결정하시면 됩니다！\n\n원문:\n我們在合井站三號出口，一出來旁邊的大樓就是了，合井就是在弘大的下一站，搭地鐵的話就是2分鐘左右\n\n한국어 번역:\n저희는 합정역 삼 번 출구에 있습니다. 나오자마자 옆 건물이며, 합정은 홍대 다음 역으로 지하철을 타면 약 2분입니다\n\n원문:\n您要直接從弘大站9號出口步行過來也可以，大約需要10分鐘\n\n한국어 번역:\n홍대입구역 9번 출구에서 바로 걸어오셔도 되며, 약 10분 걸립니다",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "300샷은 국소 보강용이며 상태와 개선 목표에 따라 충분한지 평가한다는 답변은 직원 가이드 02의 피부 두께·처짐에 따른 샷 수 결정 안내와 일치한다. 병행 시술은 예약 후 대면 상담에서 결정할 수 있다고 답하고, 합정역과 홍대역에서 오는 경로도 안내했다.",
-                "procedure": "초음파 리프팅",
-                "questionCategory": "샷 수·효과·시술 선택",
-                "questionDate": "2026-10-31",
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K7:N14"
-              },
-              {
-                "id": "MISS-G-20261031-014",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A15:AF15"
-              },
-              {
-                "id": "MISS-G-20261031-015",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A16:AF16"
-              },
-              {
-                "id": "MISS-G-20261031-016",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\n請問有咀嚼肌+皺眉頭除皺的嗎\n\n한국어 번역:\n저작근+미간 주름 제거도 있나요\n\n원문:\n想要改善眉心間的皺紋和咀嚼肌\n\n如果預算可以 還想要加笑起來的魚尾紋\n\n한국어 번역:\n미간 주름과 저작근을 개선하고 싶어요\n\n예산이 되면 웃을 때 생기는 눈가 주름도 추가하고 싶어요",
-                "staffFinalResponse": "원문:\n咀嚼肌和除皺肉毒的價格這邊可以先給您參考喔😊\n\n한국어 번역:\n저작근과 주름 보톡스 가격을 먼저 참고하시도록 안내해 드릴게요😊\n\n원문:\n除皺肉毒的話我們三部位是有組合價，會比較划算可以參考喔~\n\n한국어 번역:\n주름 보톡스는 세 부위 묶음 가격이 있어 더 저렴하니 참고하셔도 돼요~",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "직원은 저작근·주름 보톡스 가격 자료를 구분해 제공하고, 미간·눈가 개선 희망에 주름 3부위 묶음 상품을 안내했다. 직원 가이드 02는 미간·눈가를 주름보톡스 부위로 설명하며, 3부위 상품에 저작근까지 포함된다고 답한 문장은 없다.",
-                "procedure": "사각턱·주름 보톡스",
-                "questionCategory": "제공 여부·예산",
-                "questionDate": "2026-10-31",
-                "responseEndedDate": "2026-11-02",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K15:N22"
-              },
-              {
-                "id": "MISS-G-20261031-017",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A18:AF18"
-              },
-              {
-                "id": "MISS-G-20261031-018",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A19:AF19"
-              },
-              {
-                "id": "MISS-G-20261031-019",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A20:AF20"
-              },
-              {
-                "id": "MISS-G-20261031-020",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A21:AF21"
-              },
-              {
-                "id": "MISS-G-20261031-021",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A22:AF22"
-              },
-              {
-                "id": "MISS-G-20261031-022",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A23:AF23"
-              },
-              {
-                "id": "MISS-G-20261031-023",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A24:AF24"
-              },
-              {
-                "id": "MISS-G-20261031-024",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A25:AF25"
-              },
-              {
-                "id": "MISS-G-20261031-025",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A26:AF26"
-              },
-              {
-                "id": "MISS-G-20261031-026",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A27:AF27"
-              },
-              {
-                "id": "MISS-G-20261031-027",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A28:AF28"
-              },
-              {
-                "id": "MISS-G-20261031-028",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A29:AF29"
-              },
-              {
-                "id": "MISS-G-20261031-029",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "원문:\nありがとございます✨\nよろしくお願いいたします😊\n\n한국어 번역:\n감사합니다✨\n잘 부탁드립니다😊",
-                "staffFinalResponse": "원문:\n下記の日程でご予約確定致しました🌸\n\n📅 日付：[예약일]\n⏰ 時間：[예약시간]\n\n📍 場所：ソウル市麻浦区（マポ）ヤンファロ66、6階\n\n地図URL：\n\nNaver Map : https://naver.me/5ap1E0ph\nGoogle : https://maps.app.goo.gl/kNTF1bYCqKdDFiHg9\n\nご来店の際は、外国人登録証またはパスポートをお持ちください✨\n\n\n＊ご予約当日に施術を受けずカウンセリングのみ行った場合、カウンセリング料金10,000ウォンが発生致します。\n\n＊ポイントのご利用について\n恐れ入りますが、ポイントのご使用はアプリ決済時のみ可能であり、現状、外国籍のお客さまのアプリ決済には未対応と承知しております。その為店頭決済ではポイントをご利用いただけません事予めご了承お願い致します。\n\n한국어 번역:\n아래 일정으로 예약이 확정되었습니다🌸\n\n📅 날짜：[예약일]\n⏰ 시간：[예약시간]\n\n📍 장소：서울시 마포구 양화로66, 6층\n\n지도 URL：\n\nNaver Map : https://naver.me/5ap1E0ph\nGoogle : https://maps.app.goo.gl/kNTF1bYCqKdDFiHg9\n\n방문하실 때는 외국인등록증 또는 여권을 지참해 주세요✨\n\n\n＊예약 당일 시술을 받지 않고 상담만 진행하신 경우, 상담료 10,000원이 발생합니다.\n\n＊포인트 이용에 관하여\n죄송하지만 포인트 사용은 앱 결제 시에만 가능하며, 현재 외국 국적 고객님의 앱 결제는 지원되지 않는 것으로 알고 있습니다. 따라서 현장 결제에서는 포인트를 이용하실 수 없음을 미리 양해 부탁드립니다.",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "직원은 예약 확정과 지참 서류를 안내했으며, 상담만 진행할 때 10,000원이 발생한다는 설명은 직원 가이드 08의 예약 안내와 일치한다.",
-                "procedure": "인모드(이벤트 유입)",
-                "questionCategory": "예약 확정",
-                "questionDate": "2026-10-31",
-                "responseEndedDate": "2026-10-31",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K23:N32"
-              },
-              {
-                "id": "MISS-G-20261031-030",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "원문:\n是\n\n한국어 번역:\n네",
-                "staffFinalResponse": "원문:\n沒問題，謝謝您的回覆，期待您的到來😊\n\n한국어 번역:\n문제없습니다. 답변해 주셔서 감사합니다. 방문을 기다리겠습니다😊",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "방문 확인에 고객이 참석 의사를 답하자 직원은 회신에 감사하며 방문을 기다린다고 답했다.",
-                "procedure": "시술 확인되지 않음",
-                "questionCategory": "방문 확인",
-                "questionDate": "2026-10-31",
-                "responseEndedDate": "2026-10-31",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K33:N36"
-              },
+            "exchanges": [
               {
                 "id": "MISS-G-20261031-031",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\nちなみに[방문일 가림]もしかしたら間に合わないかもしれないんですけどその場合[대체 예약일]でも大丈夫ですか？\n\n한국어 번역:\n참고로 [방문일 가림] 어쩌면 시간에 맞추지 못할 수도 있는데 그 경우 [대체 예약일]이어도 괜찮을까요?",
-                "staffFinalResponse": "원문:\nはい、可能でございます。\n日程やお時間の変更をご希望の場合は、いつでもお気軽にお申し付けくださいませ😊\n\n한국어 번역:\n네, 가능합니다.\n일정이나 시간 변경을 원하시면 언제든 편하게 말씀해 주세요😊",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "예정일에 맞추지 못하면 다른 날 방문해도 되는지 묻자 직원은 가능하다고 답하고, 날짜·시간 변경을 원하면 알려 달라고 안내했다.",
+                "recordIds": [
+                  "MISS-G-20261031-031"
+                ],
+                "kind": "ops",
+                "country": "JP",
                 "procedure": "사각턱 보톡스",
-                "questionCategory": "일정 변경 가능 여부",
+                "category": "방문일 변경",
+                "verdict": "normal-ops",
+                "reason": "예약일에 못 맞추면 다른 날 방문해도 되는지 묻자 담당자는 가능하다고 답하고 날짜·시간 변경을 원하면 언제든 알려 달라고 안내했다. 일정 변경에 대한 운영 응대다.",
                 "questionDate": "2026-10-31",
-                "responseEndedDate": "2026-11-01",
+                "finalReplyDate": "2026-11-01",
+                "customer": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "ちなみに[방문일 가림]もしかしたら間に合わないかもしれないんですけどその場合[대체 예약일]でも大丈夫ですか？",
+                    "ko": "참고로 [방문일 가림] 어쩌면 시간에 맞추지 못할 수도 있는데 그 경우 [대체 예약일]이어도 괜찮을까요?"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-01",
+                    "original": "はい、可能でございます。\n日程やお時間の変更をご希望の場合は、いつでもお気軽にお申し付けくださいませ😊",
+                    "ko": "네, 가능합니다.\n일정이나 시간 변경을 원하시면 언제든 편하게 말씀해 주세요😊"
+                  }
+                ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K37:N39"
               },
               {
-                "id": "MISS-G-20261031-032",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A33:AF33"
-              },
-              {
-                "id": "MISS-G-20261031-033",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A34:AF34"
-              },
-              {
-                "id": "MISS-G-20261031-034",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A35:AF35"
-              },
-              {
-                "id": "MISS-G-20261031-035",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\n請問如果是[예약일]的話，可以約早上嗎～\n\n한국어 번역:\n혹시 [예약일]이면 오전으로 예약할 수 있을까요～\n\n원문:\n我想先約[예약시간]🙏🏻\n\n한국어 번역:\n우선 [예약시간]으로 예약하고 싶습니다🙏🏻\n\n원문:\n✍️ 預約資訊填寫\n若需要預約的話，再麻煩您填寫以下資訊並傳給我們，謝謝😊\n\n・護照英文姓名（姓氏在前/統一大寫）：[고객명]\n・生日（西元 YYYY/MM/DD）：[생년월일]\n・希望療程：現場諮詢\n・預約日期&時間：[예약일시]\n・是否希望進行皮膚檢測：是\n※ 不確定療程也沒關係，可填「現場諮詢」\n👭 若有同行的朋友，請每位分別填寫一份預約資訊喔！\n\n한국어 번역:\n✍️ 예약 정보 작성\n예약이 필요하시면 아래 정보를 작성하여 저희에게 보내 주세요. 감사합니다😊\n\n・여권 영문 성명（성을 앞에/모두 대문자로）：[고객명]\n・생년월일（서기 YYYY/MM/DD）：[생년월일]\n・희망 시술：현장 상담\n・예약 날짜&시간：[예약일시]\n・피부 검사를 원하시는지：네\n※ 시술을 정하지 못하셔도 괜찮습니다. 「현장 상담」으로 작성하셔도 됩니다\n👭 동행 친구가 있으면 각자 예약 정보를 한 부씩 작성해 주세요!",
-                "staffFinalResponse": "원문:\n[예약일]的話早上十點到下午六點，這之間也都可以為您安排喔~\n\n한국어 번역:\n[예약일]이면 오전 10시부터 오후 6시 사이에도 모두 예약해 드릴 수 있습니다~\n\n원문:\n🌸 Beauty Blossom 預約完成 ✅\n\n📅 預約日期：[예약일]\n⏰ 預約時間：[예약시간]\n👤 預約人數：1位\n\n📍 診所地址\n首爾特別市麻浦區楊花路66號\nMedione Medical Center 6樓\n（合井站3號出口）\n💡 英文／韓文地址及地圖導航，可至 LINE 選單點選「地址」查看。\n\n📌 來院前請留意\n・來院時請務必攜帶護照，以便辦理登記。\n・如需更改或取消預約，請提前透過 LINE 與我們聯繫。\n・若當天僅進行諮詢、未接受療程，將收取 ₩10,000 諮詢費。\n\n感謝您的預約，期待您的到來💗\n\n한국어 번역:\n🌸 Beauty Blossom 예약 완료 ✅\n\n📅 예약 날짜：[예약일]\n⏰ 예약 시간：[예약시간]\n👤 예약 인원：1명\n\n📍 클리닉 주소\n서울특별시 마포구 양화로66\nMedione Medical Center 6층\n（합정역3번 출구）\n💡 영문／한글 주소 및 지도 길안내는 LINE 메뉴에서 「주소」를 눌러 확인하실 수 있습니다.\n\n📌 내원 전 유의사항\n・내원 시 등록을 위해 반드시 여권을 지참해 주세요.\n・예약 변경이나 취소가 필요하면 미리 LINE으로 연락해 주세요.\n・당일 상담만 진행하고 시술을 받지 않으시면 ₩10,000의 상담료가 부과됩니다.\n\n예약해 주셔서 감사합니다. 방문을 기다리겠습니다💗\n\n원문:\n這邊已經幫您完成預約囉😊  \n後續如果還有任何問題，或是有想再了解的療程，都可以隨時跟我們說～  \n謝謝您🤍\n\n한국어 번역:\n여기서 예약을 완료해 드렸습니다😊  \n이후에도 궁금한 점이나 더 알아보고 싶은 시술이 있으면 언제든 저희에게 말씀해 주세요～  \n감사합니다🤍",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "직원은 가능한 예약 시간대를 제시하고 고객이 선택한 시간으로 다음 날 예약 완료를 안내했다. 정보 확인 후 예약하는 절차는 직원 가이드 08과 일치한다.",
-                "procedure": "현장 상담",
-                "questionCategory": "예약 시간",
-                "questionDate": "2026-10-31",
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K40:N45"
-              },
-              {
-                "id": "MISS-G-20261031-036",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A37:AF37"
-              },
-              {
-                "id": "MISS-G-20261031-037",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\n請問我打這麼多天\n\n한국어 번역:\n여쭤볼게요 제가 시술받은 지 이렇게 여러 날이 지났는데\n\n원문:\n酸痛感這麼還有\n\n한국어 번역:\n뻐근한 통증이 왜 아직 있나요\n\n원문:\n兩側臉頰\n\n한국어 번역:\n양쪽 볼\n\n원문:\n沒有有泛紅只有酸感\n\n한국어 번역:\n붉어짐은 없고 뻐근한 느낌만 있어요",
-                "staffFinalResponse": "원문:\n🔊 音波拉提（美國音波二代 / 海芙音波 / LinearZ 等）－術後注意事項 🔊\n\n• 當天可輕柔洗臉、淋浴及化妝。\n• 術後可能有輕微泛紅、腫脹、壓痛、刺麻感或緊繃感，通常會逐漸緩解。\n• 術後 1 週內避免飲酒、吸菸、桑拿、汗蒸及劇烈運動。 🍷\n• 加強保濕與防曬，暫時避免酸類、A 醇、去角質、按摩及刮痧。 ☀️\n• 若出現持續加重的疼痛、明顯腫脹、感覺異常或水泡，請聯絡診所。 📞\n\n⏳ 效果什麼時候開始出現？\n• 一般約 4–8 週後可較明顯感受到緊緻與輪廓變化。\n• 約 2–3 個月後效果通常會更加明顯。\n\n한국어 번역:\n🔊 초음파 리프팅（미국 초음파 2세대 / 하이푸 초음파 / LinearZ 등）－시술 후 주의사항 🔊\n\n• 당일 부드러운 세안, 샤워 및 메이크업이 가능합니다.\n• 시술 후 가벼운 붉어짐, 부기, 압통, 따끔거리거나 저린 느낌 또는 당김이 있을 수 있으며, 보통 서서히 완화됩니다.\n• 시술 후 1주 이내에는 음주, 흡연, 사우나, 찜질 및 격한 운동을 피하세요. 🍷\n• 보습과 자외선 차단을 강화하고, 산 성분, 레티놀, 각질 제거, 마사지 및 괄사는 잠시 피하세요. ☀️\n• 통증이 계속 심해지거나 뚜렷한 부기, 감각 이상 또는 물집이 나타나면 클리닉에 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n• 일반적으로 약 4–8주 후에 피부의 탄탄함과 윤곽 변화를 비교적 뚜렷하게 느낄 수 있습니다.\n• 약 2–3개월 후에는 효과가 보통 더욱 뚜렷해집니다.\n\n원문:\n因為您施作的發數比較多，恢復時間可能會較長一點，目前大概是哪個部位痠痛感比較嚴重呢？\n\n한국어 번역:\n고객님께서 받으신 샷 수가 비교적 많아서 회복 시간이 조금 더 길 수 있습니다. 현재 대략 어느 부위의 뻐근한 통증이 더 심하신가요?\n\n원문:\n一般是約1-2周內狀況會逐漸緩解，但因為每個人體質和代謝情況不同，可能也會有差異\n\n한국어 번역:\n일반적으로 약 1-2주 내에 상태가 서서히 완화되지만 개인의 체질과 대사 상태가 다르기 때문에 차이가 있을 수 있습니다\n\n원문:\n您可以再持續幫我們觀察看看，狀況只要沒有變更嚴重，基本上都是會隨著時間慢慢恢復的~\n\n한국어 번역:\n계속 관찰해 주시면 됩니다. 상태가 더 심해지지만 않으면 기본적으로 시간이 지나면서 서서히 회복됩니다~\n\n원문:\n如果臉頰二側有泛紅或紅腫，您也可以拍照提供給我們看，幫您確認一下喔!\n\n한국어 번역:\n양쪽 볼에 붉어짐이나 붉은 부기가 있다면 사진을 찍어 보내 주셔도 됩니다. 확인해 드리겠습니다!\n\n원문:\n了解～由於當天您是施打LinearZ音波，主要是作用於肌膚深層肌肉層，能量傳達至肌肉層來刺激膠原蛋白新生與筋膜緊縮而產生痠痛感。\n您這周再觀察一下，若還是尚未改善可以再與我們聯繫哦！🥹🌸\n\n한국어 번역:\n알겠습니다～당일 고객님께서는 LinearZ 초음파 시술을 받으셨고, 주로 피부 깊은 근육층에 작용하며 에너지가 근육층에 전달되어 콜라겐 신생과 근막 수축을 자극하기 때문에 뻐근한 통증이 생깁니다.\n이번 주에 더 관찰해 보시고 여전히 개선되지 않으면 다시 연락해 주세요!🥹🌸",
-                "outcome": "correction-needed",
-                "verdict": "confirmedError",
-                "explanation": "지속되는 양쪽 볼의 뻐근함에 경과 관찰과 미호전 시 재연락을 안내한 내용은 직원 가이드 02·09의 주의사항과 일치한다. 리니어지가 심부 근육층에 작용하고 그 층에 에너지를 전달한다는 설명은 가이드 02의 진피·근막층 구분과 달라 정정해야 한다.",
-                "procedure": "리니어지",
-                "questionCategory": "시술 후 지속 통증",
-                "questionDate": "2026-10-31",
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K46:N53"
-              },
-              {
-                "id": "MISS-G-20261031-038",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A39:AF39"
-              },
-              {
-                "id": "MISS-G-20261031-039",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\nHello, I am a 56-year-old woman from Malaysia and will be visiting Seoul from [체류 기간].\n\nI have attached my recent makeup-free photos for your assessment.\n\nI would like to improve the following concerns:\n\n1. Double chin – reduce excess fat and improve jawline definition.\n2. Facial sagging – lift and tighten my cheeks and lower face.\n3. Drooping eyelids – achieve a more refreshed and youthful appearance.\n4. Eyebrow and lip pigmentation – natural-looking powder brows and lip blushing.\n5. Hair concerns – thinning hair, receding hairline and oily scalp.\n\nCould you please recommend the most suitable treatments, procedures or products for my condition, together with the estimated prices, expected results and recovery time?\n\nI prefer noticeable but natural-looking improvements.\n\nI will be in Seoul from [체류 기간]. Please also suggest the ideal treatment schedule during my stay, including whether the procedures can be completed within this period.\n\nThank you. I look forward to your recommendations!\n\n한국어 번역:\n안녕하세요, 저는 말레이시아에서 온 56세 여성이며 [체류 기간]에 서울을 방문할 예정입니다.\n\n평가를 위해 최근에 찍은 화장하지 않은 사진을 첨부했습니다.\n\n다음과 같은 고민을 개선하고 싶습니다：\n\n1. 이중턱 – 과도한 지방을 줄이고 턱선을 더욱 또렷하게 하고 싶습니다.\n2. 얼굴 처짐 – 볼과 얼굴 아래쪽을 리프팅하고 탄탄하게 하고 싶습니다.\n3. 처진 눈꺼풀 – 더욱 생기 있고 젊어 보이는 모습을 원합니다.\n4. 눈썹 및 입술 색소 시술 – 자연스러워 보이는 파우더 눈썹과 입술 블러싱을 원합니다.\n5. 모발 고민 – 머리숱 감소, 뒤로 물러나는 헤어라인, 지성 두피입니다.\n\n제 상태에 가장 적합한 치료, 시술 또는 제품을 예상 가격, 기대 효과 및 회복 기간과 함께 추천해 주시겠어요?\n\n눈에 띄지만 자연스러워 보이는 개선을 선호합니다.\n\n[체류 기간] 동안 서울에 있을 예정입니다. 이 기간 내에 시술을 마칠 수 있는지도 포함하여 체류 중 이상적인 시술 일정도 제안해 주세요.\n\n감사합니다. 추천을 기다리겠습니다!\n\n원문:\nPlease send me my estimated cost as per your kind recommendation\n\n한국어 번역:\n친절하게 추천해 주신 내용에 따른 제 예상 비용을 보내 주세요",
-                "staffFinalResponse": "원문:\nHello! 🌸 Thank you for reaching out to Beauty Blossom \n\nBased on the concerns you've mentioned, here are some treatments that may be suitable for you:\n\n1. Double Chin & Jawline Definition\nWe offer treatments such as ONDA, Ultherapy Prime, and fat-dissolving injections, which may help reduce localized fat and improve jawline definition.\n\n2. Facial Sagging & Skin Tightening\nWe offer Ultherapy Prime, Thermage FLX, and XERF, which are designed to improve skin firmness and facial contours.\n\n3. Drooping Eyelids\nWe offer Eye Thermage FLX / XERF EYE and Eye Ultherapy Prime, which may help improve mild skin laxity around the eyes. However, the suitability of these treatments will depend on your eye condition.\n\n4. Eyebrow & Lip Pigmentation\nUnfortunately, we do not currently offer semi-permanent makeup services such as powder brows or lip blushing.\n\n5. Hair Thinning & Scalp Concerns\nWe would recommend visiting a specialized hair or scalp clinic for a more detailed assessment, as these concerns may require different treatments.\n\nRegarding Prices & Recovery Time\nWe can share our treatment price list with you for reference. However, the final treatment combination, number of shots, and total cost will depend on your skin condition and the doctor's assessment.\nMost of our non-surgical lifting treatments require minimal downtime, although temporary redness, swelling, or tenderness may occur.\n\n한국어 번역:\n안녕하세요! 🌸 Beauty Blossom에 연락해 주셔서 감사합니다 \n\n말씀해 주신 고민을 바탕으로 고객님께 적합할 수 있는 시술 몇 가지를 안내해 드립니다：\n\n1. 이중턱 및 턱선 개선\n저희는 ONDA, Ultherapy Prime, 지방분해 주사 등의 시술을 제공하며, 국소 지방을 줄이고 턱선을 더욱 또렷하게 하는 데 도움이 될 수 있습니다.\n\n2. 얼굴 처짐 및 피부 탄력\n저희는 Ultherapy Prime, Thermage FLX, XERF를 제공하며, 이는 피부의 탄탄함과 얼굴 윤곽을 개선하도록 설계되었습니다.\n\n3. 처진 눈꺼풀\n저희는 Eye Thermage FLX / XERF EYE 및 Eye Ultherapy Prime을 제공하며, 눈가의 가벼운 피부 처짐 개선에 도움이 될 수 있습니다. 다만 이러한 시술의 적합성은 고객님의 눈 상태에 따라 달라집니다.\n\n4. 눈썹 및 입술 색소 시술\n죄송하지만 현재 파우더 눈썹이나 입술 블러싱 같은 반영구 화장 서비스는 제공하지 않습니다.\n\n5. 머리숱 감소 및 두피 고민\n이러한 고민에는 다른 치료가 필요할 수 있으므로 더욱 자세한 평가를 위해 모발 또는 두피 전문 클리닉 방문을 권해 드립니다.\n\n가격 및 회복 기간에 관하여\n참고하시도록 시술 가격표를 보내 드릴 수 있습니다. 다만 최종 시술 조합, 샷 수 및 총비용은 고객님의 피부 상태와 의사의 평가에 따라 달라집니다.\n저희 비수술 리프팅 시술 대부분은 회복에 필요한 일상 중단 기간이 짧지만, 일시적인 붉어짐, 부기 또는 압통이 생길 수 있습니다.\n\n원문:\nHere is our promotional price list for your reference.\n\n한국어 번역:\n참고하시도록 저희 프로모션 가격표를 보내 드립니다.\n\n원문:\nThe total cost really depends on your skin condition, the specific treatments recommended, and the number of sessions needed. \nSince you have several different skin concerns, we recommend an in-person consultation so our medical team can assess your skin and suggest the most suitable treatments for you. We'll provide you with a detailed quotation during your consultation, so you can decide which treatments you'd like to proceed with! 😊\n\n한국어 번역:\n총비용은 실제로 고객님의 피부 상태, 추천되는 구체적인 시술 및 필요한 시술 횟수에 따라 달라집니다. \n서로 다른 피부 고민이 여러 가지 있으시므로 저희 의료진이 피부를 평가하고 가장 적합한 시술을 제안해 드릴 수 있도록 대면 상담을 권해 드립니다. 상담 중에 상세 견적을 안내해 드리니 어떤 시술을 진행하실지 결정하실 수 있습니다! 😊",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "직원은 이중턱·처짐·눈가 고민별 대안을 나누어 제시하고, 피부 상태와 대면 평가에 따라 시술 구성·샷 수·견적을 정한다고 답했다. 온다와 울쎄라의 상태별 시술 계획은 직원 가이드 02와 일치하며, 반영구 화장 미제공과 모발 전문 진료 권고도 별도로 안내했다.",
-                "procedure": "온다·울쎄라피·써마지·세르프",
-                "questionCategory": "복합 고민·추천·견적",
-                "questionDate": "2026-10-31",
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K54:N61"
-              },
-              {
-                "id": "MISS-G-20261031-040",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A41:AF41"
-              },
-              {
-                "id": "MISS-G-20261031-041",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A42:AF42"
-              },
-              {
-                "id": "MISS-G-20261031-042",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\n想更詳細了解施術／手術內容\n\n한국어 번역:\n시술／수술 내용을 더 자세히 알고 싶습니다\n\n원문:\n我想改善毛孔和膚質\n\n한국어 번역:\n모공과 피부결을 개선하고 싶어요\n\n원문:\n會推薦黃金微針嗎\n\n한국어 번역:\n황금 미세침을 추천하시나요",
-                "staffFinalResponse": "원문:\n如果主要想改善毛孔粗大跟整體膚質，蠻推薦黃金微針的喔😊\n\n한국어 번역:\n주로 넓어진 모공과 전반적인 피부결을 개선하고 싶으시면 황금 미세침을 꽤 추천합니다😊\n\n원문:\n黃金微針可以針對毛孔、出油、膚質粗糙、細紋跟輕微凹凸感做改善，也可以依膚況搭配不同藥劑，讓整體膚質看起來更細緻、平滑一些✨\n\n한국어 번역:\n황금 미세침은 모공, 유분, 거친 피부결, 잔주름과 가벼운 요철감을 개선할 수 있고, 피부 상태에 따라 여러 약제를 함께 사용하여 전반적인 피부결이 더 섬세하고 매끄러워 보이도록 할 수도 있습니다✨\n\n원문:\n您也可以選擇黃金微針搭配麗珠蘭的組合，同時改善毛孔+修復肌膚，而且麗珠蘭機打的痛感也會比手打低喔~\n\n한국어 번역:\n황금 미세침과 리쥬란을 함께하는 조합을 선택하셔서 모공 개선+피부 회복을 동시에 하실 수도 있으며, 리쥬란 기계 주입은 수기 주입보다 통증도 적습니다~",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "모공·피부결 고민에 포텐자와 피부 상태별 약제 조합을 추천한 내용은 직원 가이드 02의 맞춤형 미세침 고주파 안내와 일치한다. 리쥬란 기계 주입이 손주사보다 덜 아프다는 답변도 직원 FAQ 06의 펌핑팁 통증 설명과 일치한다.",
-                "procedure": "리쥬란·포텐자",
-                "questionCategory": "시술 설명·모공·피부결",
-                "questionDate": "2026-10-31",
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K62:N66"
-              },
-              {
-                "id": "MISS-G-20261031-043",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "직접 고객 질문 없이 이벤트 유입이 남았다.",
-                "staffFinalResponse": "원문:\n黃金微針的價格這邊可以先給您參考喔😊\n\n한국어 번역:\n황금 미세침 가격을 먼저 참고하실 수 있도록 보내 드립니다😊\n\n원문:\n您也可以跟我們說一下最想改善的位置，再幫您初步推薦比較合適的療程喔🤍\n\n한국어 번역:\n가장 개선하고 싶은 부위도 말씀해 주시면 비교적 적합한 시술을 우선 추천해 드리겠습니다🤍",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "직원은 포텐자 가격을 참고하도록 안내하고 개선을 원하는 부위를 물었다.",
-                "procedure": "포텐자(이벤트 유입)",
-                "questionCategory": "상담 접수·가격 안내",
-                "questionDate": null,
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K67:N69"
-              },
-              {
-                "id": "MISS-G-20261031-044",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\n您好，我想預約\n\n한국어 번역:\n안녕하세요, 예약하고 싶습니다",
-                "staffFinalResponse": "원문:\n✍️ 預約資訊填寫\n若需要預約的話，再麻煩您填寫以下資訊並傳給我們，謝謝😊\n\n・護照英文姓名（姓氏在前/統一大寫）：\n・生日（西元 YYYY/MM/DD）：\n・希望療程：\n・預約日期&時間：\n・是否希望進行皮膚檢測：\n※ 不確定療程也沒關係，可填「現場諮詢」\n👭 若有同行的朋友，請每位分別填寫一份預約資訊喔！\n\n📌 預約前請留意\n收到您的資訊後，我們會盡快確認並協助安排預約。\n\n한국어 번역:\n✍️ 예약 정보 작성\n예약이 필요하시면 아래 정보를 작성하여 저희에게 보내 주세요. 감사합니다😊\n\n・여권 영문 성명（성을 앞에/모두 대문자로）：\n・생년월일（서기 YYYY/MM/DD）：\n・희망 시술：\n・예약 날짜&시간：\n・피부 검사를 원하시는지：\n※ 시술을 정하지 못하셔도 괜찮습니다. 「현장 상담」으로 작성하셔도 됩니다\n👭 동행 친구가 있으면 각자 예약 정보를 한 부씩 작성해 주세요!\n\n📌 예약 전 유의사항\n고객님의 정보를 받으면 최대한 빨리 확인하여 예약을 도와드리겠습니다.\n\n원문:\n若需要預約的話，幫我們填寫表單，這邊就可以為您安排，謝謝😊\n\n한국어 번역:\n예약이 필요하시면 양식을 작성해 주세요. 그러면 예약을 잡아 드릴 수 있습니다. 감사합니다😊",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "예약을 원한다는 고객에게 직원은 예약 양식을 작성하면 일정을 잡아 주겠다고 답했다. 성명·생년월일·희망 시술·방문 일정을 받는 절차는 직원 가이드 08과 일치한다.",
-                "procedure": "시술 확인되지 않음",
-                "questionCategory": "예약 방법",
-                "questionDate": "2026-10-31",
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K70:N74"
-              },
-              {
                 "id": "MISS-G-20261031-045",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "원문:\n會準時到 謝謝\n\n한국어 번역:\n정시에 도착하겠습니다 감사합니다",
-                "staffFinalResponse": "원문:\n沒問題，謝謝您的回覆，晚點見囉😊\n\n한국어 번역:\n문제없습니다. 답변해 주셔서 감사합니다. 조금 후에 뵙겠습니다😊",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "정시에 도착하겠다는 고객의 회신에 직원은 감사 인사와 방문 확인으로 답했다.",
-                "procedure": "시술 확인되지 않음",
-                "questionCategory": "방문 확인",
+                "recordIds": [
+                  "MISS-G-20261031-045"
+                ],
+                "kind": "ops",
+                "country": "TW",
+                "procedure": "확인되지 않음",
+                "category": "방문 확인",
+                "verdict": "normal-ops",
+                "reason": "전날 방문 확인 메시지에 고객이 시간 맞춰 오겠다고 답하자 담당자는 회신에 감사하며 이따 뵙겠다고 답했다.",
                 "questionDate": "2026-10-31",
-                "responseEndedDate": "2026-11-01",
+                "finalReplyDate": "2026-11-01",
+                "customer": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "會準時到 謝謝",
+                    "ko": "정시에 도착하겠습니다 감사합니다"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-01",
+                    "original": "沒問題，謝謝您的回覆，晚點見囉😊",
+                    "ko": "문제없습니다. 답변해 주셔서 감사합니다. 조금 후에 뵙겠습니다😊"
+                  }
+                ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K75:N78"
               },
               {
-                "id": "MISS-G-20261031-046",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A47:AF47"
-              },
-              {
-                "id": "MISS-G-20261031-047",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\nズームパスのメニューって他にもありますか？\n\n한국어 번역:\n줌패스 메뉴는 다른 것도 있나요?\n\n원문:\n特にそばかすが気になります。\nなので色素レーザー2種が良いかなって思ってます。\nけど、肌のニキビ跡なのか毛穴開きなのか分からないんですけど凹凸が気になるんですけど\n同時にはできないですよね？\n\n한국어 번역:\n특히 주근깨가 신경 쓰입니다.\n그래서 색소 레이저 2종이 좋을까 생각하고 있습니다.\n그런데 피부의 여드름 흉터인지 모공이 넓어진 것인지 모르겠지만 울퉁불퉁한 것이 신경 쓰이는데\n동시에 할 수는 없겠지요?\n\n원문:\nあと鼻の毛穴の黒ずみも気になります。\nおすすめの施術はありますか？\n\n한국어 번역:\n그리고 코 모공의 검은 때도 신경 쓰입니다.\n추천하는 시술이 있나요?\n\n원문:\nポテンツァとズームパス同じ日にできるんですか？\n\n한국어 번역:\n포텐자와 줌패스를 같은 날 할 수 있나요?",
-                "staffFinalResponse": "원문:\nニキビ跡や毛穴の開きによるお肌の凹凸が気になる場合は、ポテンツァがおすすめです。毛穴やニキビ跡の改善を目指す施術となっております😊\n\n鼻の毛穴の黒ずみには、アクアピールがおすすめです✨ 毛穴の汚れや皮脂、古い角質を取り除き、すっきりとしたお肌に整える施術です。\n\nこちらの施術は、同じ日にまとめて受けていただくことも可能ですので、ご安心くださいませ🥰\n\nご来院の際にお肌の状態を確認しながら、より適した施術をご案内することもできますので、お気軽にご相談くださいね🌸\n\n한국어 번역:\n여드름 흉터나 넓어진 모공으로 인한 피부의 울퉁불퉁함이 신경 쓰이시면 포텐자를 추천합니다. 모공이나 여드름 흉터 개선을 목표로 하는 시술입니다😊\n\n코 모공의 검은 때에는 아쿠아필을 추천합니다✨ 모공의 노폐물과 피지, 오래된 각질을 제거해 깨끗한 피부로 정돈하는 시술입니다.\n\n이 시술들은 같은 날 한꺼번에 받으실 수도 있으니 안심해 주세요🥰\n\n내원하실 때 피부 상태를 확인하면서 더 적합한 시술을 안내해 드릴 수도 있으니 편하게 상담해 주세요🌸\n\n원문:\nアクアピールは1回77,000ウォンでございます😊✨\n\n한국어 번역:\n아쿠아필은 1회 77,000원입니다😊✨\n\n원문:\nはい、同日に同時に施術を受けていただくことが可能でございます。\nご予約をご希望でしょうか？😊\n\n한국어 번역:\n네, 같은 날 동시에 시술을 받으실 수 있습니다.\n예약을 원하시나요?😊",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "모공·흉터에 포텐자, 코 피지·각질에 아쿠아필을 추천한 설명은 직원 가이드 02·01의 시술 용도와 일치한다. 포텐자와 줌패스의 당일 병행 가능 여부에는 다음 날 가능하다고 직접 답했다.",
-                "procedure": "피코줌패스·포텐자·아쿠아필",
-                "questionCategory": "색소·모공·병행·가격",
-                "questionDate": "2026-10-31",
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K79:N92"
-              },
-              {
-                "id": "MISS-G-20261031-048",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "직접 질문 없이 이벤트 유입이 확인된다.",
-                "staffFinalResponse": "원문:\nสวัสดีครับ ตอนนี้ทางคลินิกมีโปรโมชั่นอยู่ตามภาพเลยนะครับ\nหากมีข้อสงสัยใดๆเพิ่มเติมสามารถแอดไลน์มาสอบถามได้เลยครับ มีแอดมินคนไทยและล่ามไทยให้บริการอยู่ตลอดนะครับ🥰🙏\n[이미지 응답]\n\n한국어 번역:\n안녕하세요. 현재 클리닉의 프로모션은 사진과 같습니다.\n추가로 궁금한 점이 있으시면 LINE을 추가해 문의해 주세요. 태국인 관리자와 태국어 통역사가 항상 서비스를 제공하고 있습니다🥰🙏\n[이미지 응답]",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "직원은 프로모션 이미지를 참고하도록 안내하고 태국인 상담 담당자·태국어 통역 이용 경로를 설명했다.",
-                "procedure": "주름 보톡스(이벤트 유입)",
-                "questionCategory": "병원 소개·상담 경로",
-                "questionDate": null,
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K93:N95"
-              },
-              {
-                "id": "MISS-G-20261031-049",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "직접 질문 문장은 없고 이미지 그룹이 남아 있다.",
-                "staffFinalResponse": "원문:\nสวัสดีครับ ตอนนี้ทางคลินิกมีโปรโมชั่นอยู่ตามภาพเลยนะครับ\nหากมีข้อสงสัยใดๆเพิ่มเติมสามารถแอดไลน์มาสอบถามได้เลยครับ มีแอดมินคนไทยและล่ามไทยให้บริการอยู่ตลอดนะครับ🥰🙏\n[이미지 응답]\n\n한국어 번역:\n안녕하세요. 현재 클리닉의 프로모션은 사진과 같습니다.\n추가로 궁금한 점이 있으시면 LINE을 추가해 문의해 주세요. 태국인 관리자와 태국어 통역사가 항상 서비스를 제공하고 있습니다🥰🙏\n[이미지 응답]",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "직원은 프로모션 안내와 태국어 상담·통역 문의 방법으로 응대했다.",
-                "procedure": "주름 보톡스(이벤트 유입)",
-                "questionCategory": "영업시간 외 접수·프로모션",
-                "questionDate": null,
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K96:N100"
-              },
-              {
-                "id": "MISS-G-20261031-050",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A51:AF51"
-              },
-              {
-                "id": "MISS-G-20261031-051",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A52:AF52"
-              },
-              {
                 "id": "MISS-G-20261031-052",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "당일 새 고객 질문은 없다.",
-                "staffFinalResponse": "원문:\n您好，這裡是麗朵 Beauty Blossom 皮膚科🌸\n想跟您確認一下，[방문일 가림] [3位] 於 [예약시간] 的預約是否會如期前來呢？😊\n\n📍診所位於合井站 3 號出口旁的大樓，抵達後直接至 6 樓櫃台報到即可。\n詳細地址及地圖導航，可至 LINE 選單點選「地址」查看。\n\n若行程有任何變動，再麻煩提前告訴我們～\n期待[방문일 가림]與您見面✨\n\n한국어 번역:\n안녕하세요, 麗朵 Beauty Blossom 피부과입니다🌸\n[방문일 가림] [3분]의 [예약시간] 예약에 예정대로 오시는지 확인하고 싶습니다😊\n\n📍클리닉은 합정역 3번 출구 옆 건물에 있습니다. 도착하시면 바로 6층 데스크에서 접수해 주세요.\n자세한 주소와 지도 길찾기는 LINE 메뉴에서 「주소」를 선택해 확인하실 수 있습니다.\n\n일정에 변동이 있으면 미리 알려 주세요～\n[방문일 가림] 뵙기를 기대하겠습니다✨",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "직원은 예정 방문 여부를 확인하면서 합정역 인근 위치와 6층 접수 방법, 일정 변경 시 사전 연락을 안내했다.",
-                "procedure": "시술 확인되지 않음",
-                "questionCategory": "방문 예정 확인",
+                "recordIds": [
+                  "MISS-G-20261031-052"
+                ],
+                "kind": "ops",
+                "country": "TW",
+                "procedure": "확인되지 않음",
+                "category": "방문 예정 확인",
+                "verdict": "normal-ops",
+                "reason": "담당자가 다음 날 3명 예약에 예정대로 오는지 묻고 합정역 3번 출구 옆 건물 6층 접수와 일정 변경 시 사전 연락을 안내했다. 가이드 11의 대만 예약 완료 문구도 병원 위치를 합정역 3번 출구 Medione Medical Center 6층으로 안내해 같다.",
                 "questionDate": null,
-                "responseEndedDate": "2026-10-31",
+                "finalReplyDate": "2026-10-31",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (당일 새 질문 없음)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "您好，這裡是麗朵 Beauty Blossom 皮膚科🌸\n想跟您確認一下，[방문일 가림] [3位] 於 [예약시간] 的預約是否會如期前來呢？😊\n\n📍診所位於合井站 3 號出口旁的大樓，抵達後直接至 6 樓櫃台報到即可。\n詳細地址及地圖導航，可至 LINE 選單點選「地址」查看。\n\n若行程有任何變動，再麻煩提前告訴我們～\n期待[방문일 가림]與您見面✨",
+                    "ko": "안녕하세요, 麗朵 Beauty Blossom 피부과입니다🌸\n[방문일 가림] [3位]의 [예약시간] 예약에 예정대로 오시는지 확인하고 싶습니다😊\n\n📍클리닉은 합정역 3번 출구 옆 건물에 있습니다. 도착하시면 바로 6층 데스크에서 접수해 주세요.\n자세한 주소와 지도 길찾기는 LINE 메뉴에서 「주소」를 선택해 확인하실 수 있습니다.\n\n일정에 변동이 있으면 미리 알려 주세요～\n[방문일 가림] 뵙기를 기대하겠습니다✨"
+                  }
+                ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K101:N102"
               },
               {
                 "id": "MISS-G-20261031-053",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "당일 새 고객 질문은 없다.",
-                "staffFinalResponse": "원문:\n您好，這裡是麗朵 Beauty Blossom 皮膚科🌸\n想跟您確認一下，[방문일 가림] [1位] 於 [예약시간] 的預約是否會如期前來呢？😊\n\n📍診所位於合井站 3 號出口旁的大樓，抵達後直接至 6 樓櫃台報到即可。\n詳細地址及地圖導航，可至 LINE 選單點選「地址」查看。\n\n若行程有任何變動，再麻煩提前告訴我們～\n期待[방문일 가림]與您見面✨\n\n한국어 번역:\n안녕하세요, 麗朵 Beauty Blossom 피부과입니다🌸\n[방문일 가림] [1분]의 [예약시간] 예약에 예정대로 오시는지 확인하고 싶습니다😊\n\n📍클리닉은 합정역 3번 출구 옆 건물에 있습니다. 도착하시면 바로 6층 데스크에서 접수해 주세요.\n자세한 주소와 지도 길찾기는 LINE 메뉴에서 「주소」를 선택해 확인하실 수 있습니다.\n\n일정에 변동이 있으면 미리 알려 주세요～\n[방문일 가림] 뵙기를 기대하겠습니다✨",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "직원은 예정 방문 확인과 6층 접수 방법을 안내하고, 일정이 바뀌면 미리 알려 달라고 요청했다.",
-                "procedure": "시술 확인되지 않음",
-                "questionCategory": "방문 예정 확인",
+                "recordIds": [
+                  "MISS-G-20261031-053"
+                ],
+                "kind": "ops",
+                "country": "TW",
+                "procedure": "확인되지 않음",
+                "category": "방문 예정 확인",
+                "verdict": "normal-ops",
+                "reason": "담당자가 다음 날 1명 예약에 예정대로 오는지 묻고 합정역 3번 출구 옆 건물 6층 접수와 일정 변경 시 사전 연락을 안내했다. 가이드 11의 대만 예약 완료 문구도 병원 위치를 합정역 3번 출구 Medione Medical Center 6층으로 안내해 같다.",
                 "questionDate": null,
-                "responseEndedDate": "2026-10-31",
+                "finalReplyDate": "2026-10-31",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (당일 새 질문 없음)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "您好，這裡是麗朵 Beauty Blossom 皮膚科🌸\n想跟您確認一下，[방문일 가림] [1位] 於 [예약시간] 的預約是否會如期前來呢？😊\n\n📍診所位於合井站 3 號出口旁的大樓，抵達後直接至 6 樓櫃台報到即可。\n詳細地址及地圖導航，可至 LINE 選單點選「地址」查看。\n\n若行程有任何變動，再麻煩提前告訴我們～\n期待[방문일 가림]與您見面✨",
+                    "ko": "안녕하세요, 麗朵 Beauty Blossom 피부과입니다🌸\n[방문일 가림] [1位]의 [예약시간] 예약에 예정대로 오시는지 확인하고 싶습니다😊\n\n📍클리닉은 합정역 3번 출구 옆 건물에 있습니다. 도착하시면 바로 6층 데스크에서 접수해 주세요.\n자세한 주소와 지도 길찾기는 LINE 메뉴에서 「주소」를 선택해 확인하실 수 있습니다.\n\n일정에 변동이 있으면 미리 알려 주세요～\n[방문일 가림] 뵙기를 기대하겠습니다✨"
+                  }
+                ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K103:N104"
               },
               {
-                "id": "MISS-G-20261031-054",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "직접 질문 문장 없이 이벤트 유입이 확인된다.",
-                "staffFinalResponse": "원문:\nこちらの料金表をご参考までにお送りいたします😊\n\nご不明な点がございましたら、いつでもお気軽にお問い合わせください。ありがとうございます！\n\n한국어 번역:\n참고하시도록 이 가격표를 보내드립니다😊\n\n궁금한 점이 있으시면 언제든 편하게 문의해 주세요. 감사합니다!",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "직원은 가격표를 참고하도록 보내고 궁금한 점은 추가로 문의해 달라고 안내했다.",
-                "procedure": "소프웨이브(이벤트 유입)",
-                "questionCategory": "가격 자료 제공",
-                "questionDate": null,
-                "responseEndedDate": "2026-10-31",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K105:N109"
+                "id": "MISS-G-20261031-035",
+                "recordIds": [
+                  "MISS-G-20261031-035"
+                ],
+                "kind": "ops",
+                "country": "TW",
+                "procedure": "현장 상담",
+                "category": "예약 시간·예약 완료",
+                "verdict": "normal-ops",
+                "reason": "희망일 오전 예약 가능 여부에 담당자는 오전 10시부터 오후 6시까지 가능하다고 답했고, 고객이 예약 정보를 보내자 예약 완료 문구로 날짜·주소·여권 지참·상담료 10,000원을 안내했다. 예약 완료 문구는 가이드 11의 대만 예약 완료 템플릿과 같다.",
+                "questionDate": "2026-10-31",
+                "finalReplyDate": "2026-11-01",
+                "customer": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "請問如果是[예약일]的話，可以約早上嗎～",
+                    "ko": "혹시 [예약일]이면 오전으로 예약할 수 있을까요～"
+                  },
+                  {
+                    "date": "2026-10-31",
+                    "original": "我想先約[예약시간]🙏🏻",
+                    "ko": "우선 [예약시간]으로 예약하고 싶습니다🙏🏻"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "✍️ 預約資訊填寫\n若需要預約的話，再麻煩您填寫以下資訊並傳給我們，謝謝😊\n\n・護照英文姓名（姓氏在前/統一大寫）：[고객명]\n・生日（西元 YYYY/MM/DD）：[생년월일]\n・希望療程：現場諮詢\n・預約日期&時間：[예약일시]\n・是否希望進行皮膚檢測：是\n※ 不確定療程也沒關係，可填「現場諮詢」\n👭 若有同行的朋友，請每位分別填寫一份預約資訊喔！",
+                    "ko": "✍️ 예약 정보 작성\n예약이 필요하시면 아래 정보를 작성하여 저희에게 보내 주세요. 감사합니다😊\n\n・여권 영문 성명（성을 앞에/모두 대문자로）：[고객명]\n・생년월일（서기 YYYY/MM/DD）：[생년월일]\n・희망 시술：현장 상담\n・예약 날짜&시간：[예약일시]\n・피부 검사를 원하시는지：네\n※ 시술을 정하지 못하셔도 괜찮습니다. 「현장 상담」으로 작성하셔도 됩니다\n👭 동행 친구가 있으면 각자 예약 정보를 한 부씩 작성해 주세요!"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "[예약일]的話早上十點到下午六點，這之間也都可以為您安排喔~",
+                    "ko": "[예약일]이면 오전 10시부터 오후 6시 사이에도 모두 예약해 드릴 수 있습니다~"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "🌸 Beauty Blossom 預約完成 ✅\n\n📅 預約日期：[예약일]\n⏰ 預約時間：[예약시간]\n👤 預約人數：1位\n\n📍 診所地址\n首爾特別市麻浦區楊花路66號\nMedione Medical Center 6樓\n（合井站3號出口）\n💡 英文／韓文地址及地圖導航，可至 LINE 選單點選「地址」查看。\n\n📌 來院前請留意\n・來院時請務必攜帶護照，以便辦理登記。\n・如需更改或取消預約，請提前透過 LINE 與我們聯繫。\n・若當天僅進行諮詢、未接受療程，將收取 ₩10,000 諮詢費。\n\n感謝您的預約，期待您的到來💗",
+                    "ko": "🌸 Beauty Blossom 예약 완료 ✅\n\n📅 예약 날짜：[예약일]\n⏰ 예약 시간：[예약시간]\n👤 예약 인원：1명\n\n📍 클리닉 주소\n서울특별시 마포구 양화로66\nMedione Medical Center 6층\n（합정역3번 출구）\n💡 영문／한글 주소 및 지도 길안내는 LINE 메뉴에서 「주소」를 눌러 확인하실 수 있습니다.\n\n📌 내원 전 유의사항\n・내원 시 등록을 위해 반드시 여권을 지참해 주세요.\n・예약 변경이나 취소가 필요하면 미리 LINE으로 연락해 주세요.\n・당일 상담만 진행하고 시술을 받지 않으시면 ₩10,000의 상담료가 부과됩니다.\n\n예약해 주셔서 감사합니다. 방문을 기다리겠습니다💗"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "這邊已經幫您完成預約囉😊  \n後續如果還有任何問題，或是有想再了解的療程，都可以隨時跟我們說～  \n謝謝您🤍",
+                    "ko": "여기서 예약을 완료해 드렸습니다😊  \n이후에도 궁금한 점이나 더 알아보고 싶은 시술이 있으면 언제든 저희에게 말씀해 주세요～  \n감사합니다🤍"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K40:N45"
+              },
+              {
+                "id": "MISS-G-20261031-030",
+                "recordIds": [
+                  "MISS-G-20261031-030"
+                ],
+                "kind": "ops",
+                "country": "TW",
+                "procedure": "골드 미세침(포텐자)",
+                "category": "방문 확인",
+                "verdict": "normal-ops",
+                "reason": "10월 30일 담당자의 방문 확인 문의에 고객이 10월 31일 '네'라고 답하자 회신에 감사하며 방문을 기다리겠다고 답했다.",
+                "questionDate": "2026-10-31",
+                "finalReplyDate": "2026-10-31",
+                "customer": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "是",
+                    "ko": "네"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "沒問題，謝謝您的回覆，期待您的到來😊",
+                    "ko": "문제없습니다. 답변해 주셔서 감사합니다. 방문을 기다리겠습니다😊"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K33:N36"
+              },
+              {
+                "id": "MISS-G-20261031-061",
+                "recordIds": [
+                  "MISS-G-20261031-061"
+                ],
+                "kind": "ops",
+                "country": "TW",
+                "procedure": "리쥬란·릴리이드 M",
+                "category": "예약 변경",
+                "verdict": "normal-ops",
+                "reason": "예약 변경 요청에 변경하겠다고 답하고 예약 완료 안내문을 보냈다. 안내문은 가이드 11의 중국어 번체 예약 완료 문구와 같다.",
+                "questionDate": "2026-10-31",
+                "finalReplyDate": "2026-10-31",
+                "customer": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "改約[변경 예약일]",
+                    "ko": "[변경 예약일]로 예약 변경"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "[예약일시비공개]",
+                    "ko": "[예약일시비공개]"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "好的，那這邊為您修改預約喔~",
+                    "ko": "네, 그럼 예약을 변경해 드리겠습니다~"
+                  },
+                  {
+                    "date": "2026-10-31",
+                    "original": "🌸 Beauty Blossom 預約完成 ✅\n\n📅 預約日期：[예약일시비공개]\n⏰ 預約時間：[예약일시비공개]\n👤 預約人數：2位\n\n📍 診所地址\n首爾特別市麻浦區楊花路66號\nMedione Medical Center 6樓\n（合井站3號出口）\n💡 英文／韓文地址及地圖導航，可至 LINE 選單點選「地址」查看。\n\n📌 來院前請留意\n・來院時請務必攜帶護照，以便辦理登記。\n・如需更改或取消預約，請提前透過 LINE 與我們聯繫。\n・若當天僅進行諮詢、未接受療程，將收取 ₩10,000 諮詢費。\n\n感謝您的預約，期待您的到來💗",
+                    "ko": "🌸 Beauty Blossom 예약 완료 ✅\n\n📅 예약 날짜：[예약일시비공개]\n⏰ 예약 시간：[예약일시비공개]\n👤 예약 인원：2명\n\n📍 병원 주소\n서울특별시 마포구 양화로66\nMedione Medical Center 6층\n（합정역3번 출구）\n💡 영문／한국어 주소와 지도 길찾기는 LINE 메뉴에서 「주소」를 눌러 확인하실 수 있습니다.\n\n📌 내원 전 유의사항\n・접수를 위해 내원 시 반드시 여권을 지참해 주세요.\n・예약 변경이나 취소가 필요하면 미리 LINE으로 연락해 주세요.\n・당일 상담만 받고 시술을 받지 않으면 ₩10,000 상담료가 부과됩니다.\n\n예약해 주셔서 감사합니다. 방문을 기다리겠습니다💗"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K168:N174"
+              },
+              {
+                "id": "MISS-G-20261031-060",
+                "recordIds": [
+                  "MISS-G-20261031-060"
+                ],
+                "kind": "ops",
+                "country": "US",
+                "procedure": "사각턱 보톡스",
+                "category": "지각·이동 안내",
+                "verdict": "normal-ops",
+                "reason": "교통 체증으로 늦는다는 고객에게 괜찮으니 서두르지 말고 오라고 답했다.",
+                "questionDate": "2026-10-31",
+                "finalReplyDate": "2026-10-31",
+                "customer": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "Hi, so sorry I am on the way! The traffic is bad right now...",
+                    "ko": "안녕하세요, 정말 죄송해요. 가고 있습니다! 지금 교통 체증이 심하네요..."
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "No worries at all! Please take your time and travel safely. We look forward to seeing you! 😊",
+                    "ko": "전혀 괜찮습니다! 서두르지 마시고 안전하게 오세요. 뵙기를 기다리겠습니다! 😊"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K164:N167"
+              },
+              {
+                "id": "MISS-G-20261031-013",
+                "recordIds": [
+                  "MISS-G-20261031-013"
+                ],
+                "kind": "consult",
+                "country": "TW",
+                "procedure": "HIFU 리프팅(300샷)",
+                "category": "샷 수·효과",
+                "verdict": "normal",
+                "reason": "300샷으로 팔자주름·이중턱이 개선되는지 묻자 국소 보강용이며 충분한지는 현재 상태와 원하는 개선 정도로 평가한다고 답했다. 가이드 02·01은 피부 두께와 처짐 정도에 따라 샷 수가 달라지고 샷 수는 시술 범위와 계획에 따라 정한다고 안내하며 담당자의 답과 같다.",
+                "questionDate": "2026-10-31",
+                "finalReplyDate": "2026-10-31",
+                "customer": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "300發可以改善法令紋跟雙下巴嗎？",
+                    "ko": "300샷으로 팔자주름과 이중턱을 개선할 수 있나요？"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "300發就是比較針對局部區域做加強，也需要依據您目前狀況及希望改善的程度來評估是否足夠~",
+                    "ko": "300샷은 비교적 국소 부위를 집중적으로 보강하는 것으로, 충분한지는 현재 상태와 원하시는 개선 정도에 따라 평가해야 합니다~"
+                  },
+                  {
+                    "date": "2026-10-31",
+                    "original": "如果比較重視拉提效果跟維持時間，也可以一起參考美國音波，整體拉提感通常會再更明顯一些🤍",
+                    "ko": "리프팅 효과와 유지 기간을 더 중요하게 생각하신다면 미국 초음파도 함께 참고해 보셔도 좋습니다. 전반적인 리프팅 느낌이 보통 좀 더 뚜렷합니다🤍"
+                  },
+                  {
+                    "date": "2026-10-31",
+                    "original": "我們都可以先安排預約，現場諮詢時再決定施作療程，都會根據您的需求推薦合適的項目給您~",
+                    "ko": "우선 예약을 잡고 현장 상담 때 시술을 결정하셔도 됩니다. 고객님의 필요에 따라 적합한 항목을 추천해 드립니다~"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K7:N14"
+              },
+              {
+                "id": "MISS-G-20261031-072",
+                "recordIds": [
+                  "MISS-G-20261031-072"
+                ],
+                "kind": "ops",
+                "country": "TW",
+                "procedure": "HIFU 리프팅(300샷)",
+                "category": "방문 확인 회신",
+                "verdict": "normal-ops",
+                "reason": "방문 확인 문의에 고객이 10월 30일 오겠다고 답하자 10월 31일 회신에 감사하며 이따 뵙겠다고 답했다.",
+                "questionDate": "2026-10-30",
+                "finalReplyDate": "2026-10-31",
+                "customer": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "會到喔～",
+                    "ko": "방문할게요～"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "沒問題，謝謝您的回覆，晚點見囉😊",
+                    "ko": "문제없어요, 답변해 주셔서 감사합니다. 이따 뵐게요😊"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K229:N230"
               },
               {
                 "id": "MISS-G-20261031-055",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\n臉部毛孔\n\n한국어 번역:\n얼굴 모공\n\n원문:\n請問有價格參考嗎謝謝\n\n한국어 번역:\n참고할 가격이 있나요? 감사합니다\n\n원문:\n我有看到這個活動 請問這是有嗎謝謝\n\n한국어 번역:\n이 이벤트를 봤는데, 이것도 있나요? 감사합니다\n\n원문:\n請問黃金微針會一次有改善 還是要定期施打才有改變\n\n한국어 번역:\n골드 마이크로니들은 한 번으로 개선되나요, 아니면 정기적으로 받아야 변화가 있나요\n\n원문:\n做這項目也可以改善我的膚況嗎\n\n한국어 번역:\n이 시술을 해도 제 피부 상태가 개선될 수 있나요\n\n원문:\n那我想先預約黃金微針300發\n\n한국어 번역:\n그럼 우선 골드 마이크로니들 300샷을 예약하고 싶습니다\n\n원문:\n[고객명]\n[생년월일]\n黃金微針300發\n[예약일시]\n\n한국어 번역:\n[고객명]\n[생년월일]\n골드 마이크로니들 300샷\n[예약일시]\n\n원문:\n請問你們的店舖位置\n\n한국어 번역:\n병원 위치가 어디인가요\n\n원문:\n請問去的時候講中文可以通嗎\n\n한국어 번역:\n방문했을 때 중국어로 의사소통할 수 있나요",
-                "staffFinalResponse": "원문:\n如果比較在意 毛孔＋出油，可以考慮 毛孔探頭，針對皮脂分泌跟毛孔做加強。\n\n한국어 번역:\n모공＋유분이 더 신경 쓰이시면 모공 팁을 고려하실 수 있습니다. 피지 분비와 모공에 집중해 강화합니다.\n\n원문:\n如果 凹痘疤、膚質凹凸感比較明顯，會更推薦參考 Pumping探頭＋Juvelook Skin，會比單純毛孔模式更著重在凹疤、毛孔跟整體膚質的改善🤍\n\n한국어 번역:\n패인 여드름 흉터나 피부의 울퉁불퉁함이 더 뚜렷하다면 Pumping 팁＋Juvelook Skin을 참고하시도록 더 추천합니다. 단순 모공 모드보다 패인 흉터, 모공, 전반적인 피부결 개선에 더 중점을 둡니다🤍\n\n원문:\n有的喔，價目表這邊再提供一次給您參考~\n\n한국어 번역:\n네, 있습니다. 가격표를 다시 한번 참고하시도록 보내드립니다~\n\n원문:\n您在unni上看到的活動來院也都是一樣的價格喔!\n\n한국어 번역:\nunni에서 보신 이벤트는 내원하셔도 모두 같은 가격입니다!\n\n원문:\n黃金微針做一次通常就會有一些改善喔😊\n\n한국어 번역:\n골드 마이크로니들은 한 번만 받아도 보통 어느 정도 개선이 있습니다😊\n\n원문:\n但如果主要想改善的是毛孔粗大、凹痘疤、細紋或膚質不平整，通常還是需要累積幾次療程，效果會比較明顯、也比較穩定～\n\n한국어 번역:\n다만 주로 개선하고 싶은 것이 넓어진 모공, 패인 여드름 흉터, 잔주름 또는 고르지 않은 피부결이라면 보통 몇 차례 시술을 누적해야 효과가 더 뚜렷하고 안정적입니다～\n\n원문:\n實際需要做幾次會依原本的毛孔、痘疤深度跟膚況不同，通常不會建議只看單次效果就判斷療程有沒有用喔🤍\n\n한국어 번역:\n실제로 필요한 횟수는 원래 모공, 여드름 흉터 깊이, 피부 상태에 따라 다르므로 보통 1회 효과만 보고 시술이 효과가 있는지 판단하는 것은 권하지 않습니다🤍\n\n원문:\n我們診所內有常駐的中文翻譯人員，可以提供中文諮詢及翻譯服務，請您放心唷！🌸\n\n한국어 번역:\n저희 클리닉에는 상주 중국어 통역 직원이 있어 중국어 상담 및 통역 서비스를 제공하니 안심해 주세요!🌸\n\n원문:\n已為您完成預約！💗\n\n📅 預約日期：[예약일]\n🕓 預約時間：[예약시간]\n👤 預約姓名：[고객명]\n\n期待[예약일]與您見面！🥰\n\n如果還有任何問題，都歡迎隨時與我們聯繫唷！💕\n\n한국어 번역:\n예약을 완료해 드렸습니다!💗\n\n📅 예약 날짜：[예약일]\n🕓 예약 시간：[예약시간]\n👤 예약 성함：[고객명]\n\n[예약일]에 뵙기를 기대하겠습니다!🥰\n\n다른 질문이 있으시면 언제든 저희에게 연락해 주세요!💕\n\n원문:\n📍 診所地址\n首爾市麻浦區楊花路66號，Medione醫療中心6樓、8樓\n\n🚇 地鐵合井站3號出口正前方  \n🏥 請先至6樓櫃檯報到\n\n한국어 번역:\n📍 클리닉 주소\n서울시 마포구 양화로66번지, Medione 의료센터 6층, 8층\n\n🚇 지하철 합정역 3번 출구 바로 앞  \n🏥 먼저 6층 데스크에서 접수해 주세요",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "모공팁과 스킨부스터 병행 펌핑팁을 구분하고 모공·흉터는 피부 상태에 따라 반복 시술이 필요하다고 답한 내용은 직원 FAQ 06 및 가이드 02와 일치한다. 가격표 재제공, 중국어 통역, 예약 확정과 위치 문의에도 각각 답했다.",
-                "procedure": "포텐자·쥬베룩 스킨",
-                "questionCategory": "팁·효과·횟수·예약",
+                "recordIds": [
+                  "MISS-G-20261031-055"
+                ],
+                "kind": "consult",
+                "country": "TW",
+                "procedure": "포텐자(골드 미세침) 300샷",
+                "category": "가격·횟수·예약·위치·통역",
+                "verdict": "normal",
+                "reason": "1회에도 개선이 있지만 모공·흉터는 여러 번 누적해야 효과가 뚜렷하다고 답했고, 가이드 02는 포텐자를 4주 간격 3~5회 이상 반복하도록 안내한다. 강남언니 이벤트가 현장에서도 같은 가격이라는 답은 가이드 06과 같고, 주소 메디원 6층·8층과 6층 접수 안내는 가이드 07과 같다.",
                 "questionDate": "2026-10-31",
-                "responseEndedDate": "2026-10-31",
+                "finalReplyDate": "2026-10-31",
+                "customer": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "請問有價格參考嗎謝謝",
+                    "ko": "참고할 가격이 있나요? 감사합니다"
+                  },
+                  {
+                    "date": "2026-10-31",
+                    "original": "我有看到這個活動 請問這是有嗎謝謝",
+                    "ko": "이 이벤트를 봤는데, 이것도 있나요? 감사합니다"
+                  },
+                  {
+                    "date": "2026-10-31",
+                    "original": "請問黃金微針會一次有改善 還是要定期施打才有改變",
+                    "ko": "골드 마이크로니들은 한 번으로 개선되나요, 아니면 정기적으로 받아야 변화가 있나요"
+                  },
+                  {
+                    "date": "2026-10-31",
+                    "original": "做這項目也可以改善我的膚況嗎",
+                    "ko": "이 시술을 해도 제 피부 상태가 개선될 수 있나요"
+                  },
+                  {
+                    "date": "2026-10-31",
+                    "original": "那我想先預約黃金微針300發",
+                    "ko": "그럼 우선 골드 마이크로니들 300샷을 예약하고 싶습니다"
+                  },
+                  {
+                    "date": "2026-10-31",
+                    "original": "[고객명]\n[생년월일]\n黃金微針300發\n[예약일시]",
+                    "ko": "[고객명]\n[생년월일]\n골드 마이크로니들 300샷\n[예약일시]"
+                  },
+                  {
+                    "date": "2026-10-31",
+                    "original": "請問你們的店舖位置",
+                    "ko": "병원 위치가 어디인가요"
+                  },
+                  {
+                    "date": "2026-10-31",
+                    "original": "請問去的時候講中文可以通嗎",
+                    "ko": "방문했을 때 중국어로 의사소통할 수 있나요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "有的喔，價目表這邊再提供一次給您參考~",
+                    "ko": "네, 있습니다. 가격표를 다시 한번 참고하시도록 보내드립니다~"
+                  },
+                  {
+                    "date": "2026-10-31",
+                    "original": "您在unni上看到的活動來院也都是一樣的價格喔!",
+                    "ko": "unni에서 보신 이벤트는 내원하셔도 모두 같은 가격입니다!"
+                  },
+                  {
+                    "date": "2026-10-31",
+                    "original": "黃金微針做一次通常就會有一些改善喔😊",
+                    "ko": "골드 마이크로니들은 한 번만 받아도 보통 어느 정도 개선이 있습니다😊"
+                  },
+                  {
+                    "date": "2026-10-31",
+                    "original": "但如果主要想改善的是毛孔粗大、凹痘疤、細紋或膚質不平整，通常還是需要累積幾次療程，效果會比較明顯、也比較穩定～",
+                    "ko": "다만 주로 개선하고 싶은 것이 넓어진 모공, 패인 여드름 흉터, 잔주름 또는 고르지 않은 피부결이라면 보통 몇 차례 시술을 누적해야 효과가 더 뚜렷하고 안정적입니다～"
+                  },
+                  {
+                    "date": "2026-10-31",
+                    "original": "實際需要做幾次會依原本的毛孔、痘疤深度跟膚況不同，通常不會建議只看單次效果就判斷療程有沒有用喔🤍",
+                    "ko": "실제로 필요한 횟수는 원래 모공, 여드름 흉터 깊이, 피부 상태에 따라 다르므로 보통 1회 효과만 보고 시술이 효과가 있는지 판단하는 것은 권하지 않습니다🤍"
+                  },
+                  {
+                    "date": "2026-10-31",
+                    "original": "我們診所內有常駐的中文翻譯人員，可以提供中文諮詢及翻譯服務，請您放心唷！🌸",
+                    "ko": "저희 클리닉에는 상주 중국어 통역 직원이 있어 중국어 상담 및 통역 서비스를 제공하니 안심해 주세요!🌸"
+                  },
+                  {
+                    "date": "2026-10-31",
+                    "original": "已為您完成預約！💗\n\n📅 預約日期：[예약일]\n🕓 預約時間：[예약시간]\n👤 預約姓名：[고객명]\n\n期待[예약일]與您見面！🥰\n\n如果還有任何問題，都歡迎隨時與我們聯繫唷！💕",
+                    "ko": "예약을 완료해 드렸습니다!💗\n\n📅 예약 날짜：[예약일]\n🕓 예약 시간：[예약시간]\n👤 예약 성함：[고객명]\n\n[예약일]에 뵙기를 기대하겠습니다!🥰\n\n다른 질문이 있으시면 언제든 저희에게 연락해 주세요!💕"
+                  },
+                  {
+                    "date": "2026-10-31",
+                    "original": "📍 診所地址\n首爾市麻浦區楊花路66號，Medione醫療中心6樓、8樓\n\n🚇 地鐵合井站3號出口正前方  \n🏥 請先至6樓櫃檯報到",
+                    "ko": "📍 클리닉 주소\n서울시 마포구 양화로66번지, Medione 의료센터 6층, 8층\n\n🚇 지하철 합정역 3번 출구 바로 앞  \n🏥 먼저 6층 데스크에서 접수해 주세요"
+                  }
+                ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K110:N137"
               },
               {
-                "id": "MISS-G-20261031-056",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\nHello, I would like to inquire about a few details regarding your services:\n\n1. Do you have any available slots on [희망 예약일], around [희망 예약시간]? (Or would it be possible to apply the numbing cream around [희망 마취시간]?)\n\n2. Could you please let me know the price for Ulthera Prime (approx. 400–600 lines)?\n\n3. Do you provide a Thai interpreter for the appointment?\n\n4. How long does the entire procedure usually take?\n\n5. Do you offer a face-to-face consultation prior to the treatment to evaluate my face, check suitability, and suggest additional or alternative options if needed?\n\nThank you!\n\n한국어 번역:\n안녕하세요, 귀원의 서비스에 대해 몇 가지 자세한 내용을 문의하고 싶습니다.\n\n1. [희망 예약일] [희망 예약시간]경에 예약 가능한 시간이 있나요? (또는 [희망 마취시간]경에 마취 크림을 바를 수 있을까요?)\n\n2. Ulthera Prime(약 400–600라인)의 가격을 알려 주시겠어요?\n\n3. 예약 시 태국어 통역사를 제공하나요?\n\n4. 전체 시술은 보통 얼마나 걸리나요?\n\n5. 시술 전에 얼굴을 평가하고 적합성을 확인하며, 필요한 경우 추가 또는 대안 시술을 제안하는 대면 상담을 제공하나요?\n\n감사합니다!",
-                "staffFinalResponse": "원문:\nสวัสดีค่ะ 😊🌸\nขอบคุณที่สนใจและติดต่อ Beauty Blossom Clinic นะคะ 💕\n\n 1. วันและเวลานัดหมาย\n\nสำหรับวันที่ [예약 가능일] ทางคลินิกมีคิวว่างเวลา [예약 가능시간] น. ค่ะ\n\nหากคุณลูกค้าต้องการทายาชาในเวลา [마취 희망시간] น. สามารถเข้ามาที่คลินิกเวลา [예약 가능시간] น. เพื่อเตรียมตัวก่อน หรือเข้ามาเวลา [마취 희망시간] น. เพื่อทายาชาก่อนและรับคำปรึกษาระหว่างรอยาชาออกฤทธิ์ได้ค่ะ 😊\n\n2. ราคา Ultherapy Prime\n\nทางคลินิกมีแพ็กเกจให้เลือก 2 แบบค่ะ\n\nUltherapy Prime 300 shots\n- ราคาไม่รวม VAT: 1,090,000 วอน\n- **ราคารวม VAT 10%: 1,199,000 วอน**\n\nUltherapy Prime 600 shots\n- ราคาไม่รวม VAT: 1,990,000 วอน\n- **ราคารวม VAT 10%: 2,189,000 วอน**\n\n3. บริการล่ามภาษาไทย\n\nทางคลินิกมีเจ้าหน้าที่ล่ามภาษาไทยประจำอยู่ค่ะ สามารถให้บริการแปลภาษาไทยระหว่างการปรึกษาและทำหัตถการได้ ไม่ต้องกังวลเรื่องการสื่อสารเลยนะคะ 💕\n\n4. ระยะเวลาในการทำหัตถการ\n\nโดยปกติจะใช้เวลาประมาณ 1–1.5 ชั่วโมง ตั้งแต่ขั้นตอนการปรึกษาจนถึงการทำหัตถการเสร็จสิ้นค่ะ 😊\n\n5. การปรึกษาก่อนทำหัตถการ\n\nแน่นอนค่ะ! ก่อนทำหัตถการ ทางคลินิกจะมีการตรวจประเมินสภาพผิวและรูปหน้าของคุณลูกค้า พร้อมให้คำปรึกษาแบบตัวต่อตัวค่ะ\n\nเราจะช่วยประเมินว่า Ultherapy Prime เหมาะสมกับปัญหาที่คุณลูกค้ากังวลหรือไม่ และสามารถแนะนำหัตถการอื่น ๆ หรือการทำร่วมกันตามความเหมาะสมได้ค่ะ\n\nคุณลูกค้าสามารถปรึกษาและสอบถามได้อย่างเต็มที่เลยนะคะ ไม่ต้องกังวลค่ะ 🥰\n\nหากสะดวกเข้ามาในวันที่ [예약 가능일] เวลา [예약 가능시간] น.ามารถแจ้งเราได้เลยนะคะ ทางเรายินดีดำเนินการจองคิวให้ค่ะ\n\nขอบคุณมากค่ะ หวังว่าจะได้ต้อนรับคุณลูกค้าที่ Beauty Blossom Clinic นะคะ 🌸💕\n\n한국어 번역:\n안녕하세요 😊🌸\nBeauty Blossom Clinic에 관심을 가지고 연락해 주셔서 감사합니다 💕\n\n 1. 예약 날짜와 시간\n\n[희망 예약일]에는 클리닉에 [예약 가능시간] 예약 가능 시간이 있습니다.\n\n고객님께서 [마취 희망시간]에 마취제를 바르고 싶으시면 [예약 가능시간]에 클리닉에 오셔서 미리 준비하시거나, [마취 희망시간]에 오셔서 먼저 마취제를 바른 후 마취제가 작용하기를 기다리는 동안 상담을 받으실 수 있습니다 😊\n\n2. Ultherapy Prime 가격\n\n클리닉에는 선택 가능한 패키지가 2가지 있습니다\n\nUltherapy Prime 300 shots\n- VAT 별도 가격: 1,090,000원\n- **VAT 10% 포함 가격: 1,199,000원**\n\nUltherapy Prime 600 shots\n- VAT 별도 가격: 1,990,000원\n- **VAT 10% 포함 가격: 2,189,000원**\n\n3. 태국어 통역 서비스\n\n클리닉에는 태국어 통역 직원이 상주합니다. 상담 및 시술 중 태국어 통역 서비스를 제공하므로 의사소통은 걱정하지 않으셔도 됩니다 💕\n\n4. 시술 소요 시간\n\n보통 상담 단계부터 시술 완료까지 약 1–1.5시간이 걸립니다 😊\n\n5. 시술 전 상담\n\n물론입니다! 시술 전에 클리닉에서 고객님의 피부 상태와 얼굴형을 평가하고 일대일 상담을 진행합니다.\n\nUltherapy Prime이 고객님이 고민하는 문제에 적합한지 평가해 드리며, 적절한 경우 다른 시술이나 병행 시술도 추천해 드릴 수 있습니다.\n\n충분히 상담하고 질문하셔도 되니 걱정하지 마세요 🥰\n\n[예약 가능일] [예약 가능시간]에 방문이 가능하시면 알려 주세요. 기꺼이 예약을 진행해 드리겠습니다.\n\n정말 감사합니다. Beauty Blossom Clinic에서 고객님을 맞이할 수 있기를 바랍니다 🌸💕",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "울쎄라피 프라임 300샷 1,090,000원·VAT 포함 1,199,000원, 600샷 1,990,000원·VAT 포함 2,189,000원은 직원 수가자료 17과 일치한다. 직원은 태국어 통역, 상담부터 종료까지 1~1.5시간, 시술 전 얼굴·피부 평가도 항목별로 안내했다.",
-                "procedure": "울쎄라피 프라임",
-                "questionCategory": "가격·세금·통역·소요 시간",
+                "id": "MISS-G-20261031-001",
+                "recordIds": [
+                  "MISS-G-20261031-001"
+                ],
+                "kind": "inflow",
+                "country": "US",
+                "procedure": "피코슈어 토닝·피코 지우개(이벤트 유입)",
+                "category": "업무시간 외 자동 응답",
+                "verdict": "auto",
+                "reason": "이벤트 유입과 일정 제안 직후 채팅 운영시간 외 자동 응답이 발송됐다.",
                 "questionDate": "2026-10-31",
-                "responseEndedDate": "2026-10-31",
+                "finalReplyDate": "2026-10-31",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (이벤트 유입과 일정 제안)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "Hello 😊\nOur chat consultation is currently outside of operating hours.\n\nPlease leave your message,\nand if you share your WhatsApp ID, we will add you and get in touch with you as soon as possible.\n\nWe’ll get back to you during our business hours 🌸\n\nFor inquiries or reservations,\nfeel free to contact us on WhatsApp.\nID: +82 10-7215-7511",
+                    "ko": "안녕하세요 😊\n현재는 채팅 상담 운영 시간이 아닙니다.\n\n메시지를 남겨 주시고,\nWhatsApp ID를 알려 주시면 저희가 추가한 뒤 최대한 빨리 연락드리겠습니다.\n\n영업시간에 답변드리겠습니다 🌸\n\n문의 또는 예약은\n편하게 WhatsApp으로 연락해 주세요.\nID: +82 10-7215-7511"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K2:N6"
+              },
+              {
+                "id": "MISS-G-20261031-016",
+                "recordIds": [
+                  "MISS-G-20261031-016"
+                ],
+                "kind": "consult",
+                "country": "TW",
+                "procedure": "사각턱(저작근)·주름 보톡스",
+                "category": "시술 가능 여부·부위 구성·가격",
+                "verdict": "normal",
+                "reason": "10월 31일 저작근·주름 보톡스 가격 이미지를 보냈고, 미간·저작근에 눈가 추가 희망에는 주름 보톡스 3부위 묶음가가 더 경제적이라고 안내했다. 수가표는 주름 보톡스 3부위(이마·미간·눈가 등 중 선택)를 74,900원, 1부위를 32,900원으로 기재해 묶음 상품 안내와 같다.",
+                "questionDate": "2026-10-31",
+                "finalReplyDate": "2026-11-02",
+                "customer": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "請問有咀嚼肌+皺眉頭除皺的嗎",
+                    "ko": "저작근+미간 주름 제거도 있나요"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "想要改善眉心間的皺紋和咀嚼肌\n\n如果預算可以 還想要加笑起來的魚尾紋",
+                    "ko": "미간 주름과 저작근을 개선하고 싶어요\n\n예산이 되면 웃을 때 생기는 눈가 주름도 추가하고 싶어요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "咀嚼肌和除皺肉毒的價格這邊可以先給您參考喔😊",
+                    "ko": "저작근과 주름 보톡스 가격을 먼저 참고하시도록 안내해 드릴게요😊"
+                  },
+                  {
+                    "date": "2026-11-02",
+                    "original": "除皺肉毒的話我們三部位是有組合價，會比較划算可以參考喔~",
+                    "ko": "주름 보톡스는 세 부위 묶음 가격이 있어 더 저렴하니 참고하셔도 돼요~"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K15:N22"
+              },
+              {
+                "id": "MISS-G-20261031-029",
+                "recordIds": [
+                  "MISS-G-20261031-029"
+                ],
+                "kind": "ops",
+                "country": "JP",
+                "procedure": "인모드·뷰티핏(이벤트 유입)",
+                "category": "예약 완료 안내",
+                "verdict": "normal-ops",
+                "reason": "예약 완료 안내에 일시·위치·지도 링크·신분증 지참·상담만 받을 때 상담비 10,000원·포인트 사용 제한을 담았다. 가이드 11의 일본어 예약 안내 문구와 같다.",
+                "questionDate": "2026-10-31",
+                "finalReplyDate": "2026-10-31",
+                "customer": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "ありがとございます✨\nよろしくお願いいたします😊",
+                    "ko": "감사합니다✨\n잘 부탁드립니다😊"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "下記の日程でご予約確定致しました🌸\n\n📅 日付：[예약일]\n⏰ 時間：[예약시간]\n\n📍 場所：ソウル市麻浦区（マポ）ヤンファロ66、6階\n\n地図URL：\n\nNaver Map : https://naver.me/5ap1E0ph\nGoogle : https://maps.app.goo.gl/kNTF1bYCqKdDFiHg9\n\nご来店の際は、外国人登録証またはパスポートをお持ちください✨\n\n\n＊ご予約当日に施術を受けずカウンセリングのみ行った場合、カウンセリング料金10,000ウォンが発生致します。\n\n＊ポイントのご利用について\n恐れ入りますが、ポイントのご使用はアプリ決済時のみ可能であり、現状、外国籍のお客さまのアプリ決済には未対応と承知しております。その為店頭決済ではポイントをご利用いただけません事予めご了承お願い致します。",
+                    "ko": "아래 일정으로 예약이 확정되었습니다🌸\n\n📅 날짜：[예약일]\n⏰ 시간：[예약시간]\n\n📍 장소：서울시 마포구 양화로66, 6층\n\n지도 URL：\n\nNaver Map : https://naver.me/5ap1E0ph\nGoogle : https://maps.app.goo.gl/kNTF1bYCqKdDFiHg9\n\n방문하실 때는 외국인등록증 또는 여권을 지참해 주세요✨\n\n\n＊예약 당일 시술을 받지 않고 상담만 진행하신 경우, 상담료 10,000원이 발생합니다.\n\n＊포인트 이용에 관하여\n죄송하지만 포인트 사용은 앱 결제 시에만 가능하며, 현재 외국 국적 고객님의 앱 결제는 지원되지 않는 것으로 알고 있습니다. 따라서 현장 결제에서는 포인트를 이용하실 수 없음을 미리 양해 부탁드립니다."
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K23:N32"
+              },
+              {
+                "id": "MISS-G-20261031-037",
+                "recordIds": [
+                  "MISS-G-20261031-037"
+                ],
+                "kind": "consult",
+                "country": "TW",
+                "procedure": "리니어지(LinearZ)",
+                "category": "시술 후 지속되는 뻐근함",
+                "verdict": "fix",
+                "severity": "confirmed",
+                "reason": "가이드 02는 리니어지가 근막층과 진피층 등 깊이를 구분해 에너지를 전달한다고 안내하는데 담당자는 피부 깊은 근육층에 작용해 근육층에 에너지가 전달된다고 답했다. 주의사항 문구와 경과 관찰 후 미호전 시 재연락 안내는 가이드 09·02와 같다.",
+                "questionDate": "2026-10-31",
+                "finalReplyDate": "2026-11-01",
+                "customer": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "請問我打這麼多天",
+                    "ko": "여쭤볼게요 제가 시술받은 지 이렇게 여러 날이 지났는데"
+                  },
+                  {
+                    "date": "2026-10-31",
+                    "original": "酸痛感這麼還有",
+                    "ko": "뻐근한 통증이 왜 아직 있나요"
+                  },
+                  {
+                    "date": "2026-10-31",
+                    "original": "兩側臉頰",
+                    "ko": "양쪽 볼"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "沒有有泛紅只有酸感",
+                    "ko": "붉어짐은 없고 뻐근한 느낌만 있어요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "🔊 音波拉提（美國音波二代 / 海芙音波 / LinearZ 等）－術後注意事項 🔊\n\n• 當天可輕柔洗臉、淋浴及化妝。\n• 術後可能有輕微泛紅、腫脹、壓痛、刺麻感或緊繃感，通常會逐漸緩解。\n• 術後 1 週內避免飲酒、吸菸、桑拿、汗蒸及劇烈運動。 🍷\n• 加強保濕與防曬，暫時避免酸類、A 醇、去角質、按摩及刮痧。 ☀️\n• 若出現持續加重的疼痛、明顯腫脹、感覺異常或水泡，請聯絡診所。 📞\n\n⏳ 效果什麼時候開始出現？\n• 一般約 4–8 週後可較明顯感受到緊緻與輪廓變化。\n• 約 2–3 個月後效果通常會更加明顯。",
+                    "ko": "🔊 초음파 리프팅（미국 초음파 2세대 / 하이푸 초음파 / LinearZ 등）－시술 후 주의사항 🔊\n\n• 당일 부드러운 세안, 샤워 및 메이크업이 가능합니다.\n• 시술 후 가벼운 붉어짐, 부기, 압통, 따끔거리거나 저린 느낌 또는 당김이 있을 수 있으며, 보통 서서히 완화됩니다.\n• 시술 후 1주 이내에는 음주, 흡연, 사우나, 찜질 및 격한 운동을 피하세요. 🍷\n• 보습과 자외선 차단을 강화하고, 산 성분, 레티놀, 각질 제거, 마사지 및 괄사는 잠시 피하세요. ☀️\n• 통증이 계속 심해지거나 뚜렷한 부기, 감각 이상 또는 물집이 나타나면 클리닉에 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n• 일반적으로 약 4–8주 후에 피부의 탄탄함과 윤곽 변화를 비교적 뚜렷하게 느낄 수 있습니다.\n• 약 2–3개월 후에는 효과가 보통 더욱 뚜렷해집니다."
+                  },
+                  {
+                    "date": "2026-10-31",
+                    "original": "因為您施作的發數比較多，恢復時間可能會較長一點，目前大概是哪個部位痠痛感比較嚴重呢？",
+                    "ko": "고객님께서 받으신 샷 수가 비교적 많아서 회복 시간이 조금 더 길 수 있습니다. 현재 대략 어느 부위의 뻐근한 통증이 더 심하신가요?"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "一般是約1-2周內狀況會逐漸緩解，但因為每個人體質和代謝情況不同，可能也會有差異",
+                    "ko": "일반적으로 약 1-2주 내에 상태가 서서히 완화되지만 개인의 체질과 대사 상태가 다르기 때문에 차이가 있을 수 있습니다"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "您可以再持續幫我們觀察看看，狀況只要沒有變更嚴重，基本上都是會隨著時間慢慢恢復的~",
+                    "ko": "계속 관찰해 주시면 됩니다. 상태가 더 심해지지만 않으면 기본적으로 시간이 지나면서 서서히 회복됩니다~"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "如果臉頰二側有泛紅或紅腫，您也可以拍照提供給我們看，幫您確認一下喔!",
+                    "ko": "양쪽 볼에 붉어짐이나 붉은 부기가 있다면 사진을 찍어 보내 주셔도 됩니다. 확인해 드리겠습니다!"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "了解～由於當天您是施打LinearZ音波，主要是作用於肌膚深層肌肉層，能量傳達至肌肉層來刺激膠原蛋白新生與筋膜緊縮而產生痠痛感。\n您這周再觀察一下，若還是尚未改善可以再與我們聯繫哦！🥹🌸",
+                    "ko": "알겠습니다～당일 고객님께서는 LinearZ 초음파 시술을 받으셨고, 주로 피부 깊은 근육층에 작용하며 에너지가 근육층에 전달되어 콜라겐 신생과 근막 수축을 자극하기 때문에 뻐근한 통증이 생깁니다.\n이번 주에 더 관찰해 보시고 여전히 개선되지 않으면 다시 연락해 주세요!🥹🌸"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K46:N53"
+              },
+              {
+                "id": "MISS-G-20261031-039",
+                "recordIds": [
+                  "MISS-G-20261031-039"
+                ],
+                "kind": "consult",
+                "country": "MY",
+                "procedure": "온다·울쎄라피 프라임·써마지 FLX·세르프·아이 리프팅",
+                "category": "복합 고민 추천·견적·일정",
+                "verdict": "followup",
+                "reason": "고민별 시술(온다·울쎄라피 프라임·지방분해 주사, 써마지 FLX·세르프, 아이써마지·아이세르프·아이울쎄라)과 반영구 화장 미제공, 모발 전문 클리닉 권유, 가격표 이미지와 대면 상담 후 상세 견적을 안내했으며 시술 구성은 가이드 02·07과 같다. 고객이 함께 물은 서울 체류 기간 내 시술 일정과 기간 내 완료 가능 여부에는 답하지 않았다.",
+                "questionDate": "2026-10-31",
+                "finalReplyDate": "2026-11-01",
+                "customer": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "Hello, I am a 56-year-old woman from Malaysia and will be visiting Seoul from [체류 기간].\n\nI have attached my recent makeup-free photos for your assessment.\n\nI would like to improve the following concerns:\n\n1. Double chin – reduce excess fat and improve jawline definition.\n2. Facial sagging – lift and tighten my cheeks and lower face.\n3. Drooping eyelids – achieve a more refreshed and youthful appearance.\n4. Eyebrow and lip pigmentation – natural-looking powder brows and lip blushing.\n5. Hair concerns – thinning hair, receding hairline and oily scalp.\n\nCould you please recommend the most suitable treatments, procedures or products for my condition, together with the estimated prices, expected results and recovery time?\n\nI prefer noticeable but natural-looking improvements.\n\nI will be in Seoul from [체류 기간]. Please also suggest the ideal treatment schedule during my stay, including whether the procedures can be completed within this period.\n\nThank you. I look forward to your recommendations!",
+                    "ko": "안녕하세요, 저는 말레이시아에서 온 56세 여성이며 [체류 기간]에 서울을 방문할 예정입니다.\n\n평가를 위해 최근에 찍은 화장하지 않은 사진을 첨부했습니다.\n\n다음과 같은 고민을 개선하고 싶습니다：\n\n1. 이중턱 – 과도한 지방을 줄이고 턱선을 더욱 또렷하게 하고 싶습니다.\n2. 얼굴 처짐 – 볼과 얼굴 아래쪽을 리프팅하고 탄탄하게 하고 싶습니다.\n3. 처진 눈꺼풀 – 더욱 생기 있고 젊어 보이는 모습을 원합니다.\n4. 눈썹 및 입술 색소 시술 – 자연스러워 보이는 파우더 눈썹과 입술 블러싱을 원합니다.\n5. 모발 고민 – 머리숱 감소, 뒤로 물러나는 헤어라인, 지성 두피입니다.\n\n제 상태에 가장 적합한 치료, 시술 또는 제품을 예상 가격, 기대 효과 및 회복 기간과 함께 추천해 주시겠어요?\n\n눈에 띄지만 자연스러워 보이는 개선을 선호합니다.\n\n[체류 기간] 동안 서울에 있을 예정입니다. 이 기간 내에 시술을 마칠 수 있는지도 포함하여 체류 중 이상적인 시술 일정도 제안해 주세요.\n\n감사합니다. 추천을 기다리겠습니다!"
+                  },
+                  {
+                    "date": "2026-10-31",
+                    "original": "Please send me my estimated cost as per your kind recommendation",
+                    "ko": "친절하게 추천해 주신 내용에 따른 제 예상 비용을 보내 주세요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "Hello! 🌸 Thank you for reaching out to Beauty Blossom \n\nBased on the concerns you've mentioned, here are some treatments that may be suitable for you:\n\n1. Double Chin & Jawline Definition\nWe offer treatments such as ONDA, Ultherapy Prime, and fat-dissolving injections, which may help reduce localized fat and improve jawline definition.\n\n2. Facial Sagging & Skin Tightening\nWe offer Ultherapy Prime, Thermage FLX, and XERF, which are designed to improve skin firmness and facial contours.\n\n3. Drooping Eyelids\nWe offer Eye Thermage FLX / XERF EYE and Eye Ultherapy Prime, which may help improve mild skin laxity around the eyes. However, the suitability of these treatments will depend on your eye condition.\n\n4. Eyebrow & Lip Pigmentation\nUnfortunately, we do not currently offer semi-permanent makeup services such as powder brows or lip blushing.\n\n5. Hair Thinning & Scalp Concerns\nWe would recommend visiting a specialized hair or scalp clinic for a more detailed assessment, as these concerns may require different treatments.\n\nRegarding Prices & Recovery Time\nWe can share our treatment price list with you for reference. However, the final treatment combination, number of shots, and total cost will depend on your skin condition and the doctor's assessment.\nMost of our non-surgical lifting treatments require minimal downtime, although temporary redness, swelling, or tenderness may occur.",
+                    "ko": "안녕하세요! 🌸 Beauty Blossom에 연락해 주셔서 감사합니다 \n\n말씀해 주신 고민을 바탕으로 고객님께 적합할 수 있는 시술 몇 가지를 안내해 드립니다：\n\n1. 이중턱 및 턱선 개선\n저희는 ONDA, Ultherapy Prime, 지방분해 주사 등의 시술을 제공하며, 국소 지방을 줄이고 턱선을 더욱 또렷하게 하는 데 도움이 될 수 있습니다.\n\n2. 얼굴 처짐 및 피부 탄력\n저희는 Ultherapy Prime, Thermage FLX, XERF를 제공하며, 이는 피부의 탄탄함과 얼굴 윤곽을 개선하도록 설계되었습니다.\n\n3. 처진 눈꺼풀\n저희는 Eye Thermage FLX / XERF EYE 및 Eye Ultherapy Prime을 제공하며, 눈가의 가벼운 피부 처짐 개선에 도움이 될 수 있습니다. 다만 이러한 시술의 적합성은 고객님의 눈 상태에 따라 달라집니다.\n\n4. 눈썹 및 입술 색소 시술\n죄송하지만 현재 파우더 눈썹이나 입술 블러싱 같은 반영구 화장 서비스는 제공하지 않습니다.\n\n5. 머리숱 감소 및 두피 고민\n이러한 고민에는 다른 치료가 필요할 수 있으므로 더욱 자세한 평가를 위해 모발 또는 두피 전문 클리닉 방문을 권해 드립니다.\n\n가격 및 회복 기간에 관하여\n참고하시도록 시술 가격표를 보내 드릴 수 있습니다. 다만 최종 시술 조합, 샷 수 및 총비용은 고객님의 피부 상태와 의사의 평가에 따라 달라집니다.\n저희 비수술 리프팅 시술 대부분은 회복에 필요한 일상 중단 기간이 짧지만, 일시적인 붉어짐, 부기 또는 압통이 생길 수 있습니다."
+                  },
+                  {
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "Here is our promotional price list for your reference.",
+                    "ko": "참고하시도록 저희 프로모션 가격표를 보내 드립니다."
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "The total cost really depends on your skin condition, the specific treatments recommended, and the number of sessions needed. \nSince you have several different skin concerns, we recommend an in-person consultation so our medical team can assess your skin and suggest the most suitable treatments for you. We'll provide you with a detailed quotation during your consultation, so you can decide which treatments you'd like to proceed with! 😊",
+                    "ko": "총비용은 실제로 고객님의 피부 상태, 추천되는 구체적인 시술 및 필요한 시술 횟수에 따라 달라집니다. \n서로 다른 피부 고민이 여러 가지 있으시므로 저희 의료진이 피부를 평가하고 가장 적합한 시술을 제안해 드릴 수 있도록 대면 상담을 권해 드립니다. 상담 중에 상세 견적을 안내해 드리니 어떤 시술을 진행하실지 결정하실 수 있습니다! 😊"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K54:N61"
+              },
+              {
+                "id": "MISS-G-20261031-042",
+                "recordIds": [
+                  "MISS-G-20261031-042"
+                ],
+                "kind": "consult",
+                "country": "TW",
+                "procedure": "포텐자(황금 미세침)·리쥬란",
+                "category": "모공·피부결 시술 추천",
+                "verdict": "normal",
+                "reason": "담당자는 모공·피부결 개선에 포텐자(황금 미세침)를 추천하고 피부 상태에 따라 약제를 함께 쓸 수 있으며 리쥬란 기계 주입이 손 주사보다 덜 아프다고 안내했다. 가이드 02는 포텐자를 모공·흉터·피부결 맞춤 치료로, 가이드 06은 펌핑팁 약물 주입이 손주사 대비 통증이 적다고 안내해 담당자 답과 같다.",
+                "questionDate": "2026-10-31",
+                "finalReplyDate": "2026-11-01",
+                "customer": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "想更詳細了解施術／手術內容",
+                    "ko": "시술／수술 내용을 더 자세히 알고 싶습니다"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "我想改善毛孔和膚質",
+                    "ko": "모공과 피부결을 개선하고 싶어요"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "會推薦黃金微針嗎",
+                    "ko": "황금 미세침을 추천하시나요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-01",
+                    "original": "如果主要想改善毛孔粗大跟整體膚質，蠻推薦黃金微針的喔😊",
+                    "ko": "주로 넓어진 모공과 전반적인 피부결을 개선하고 싶으시면 황금 미세침을 꽤 추천합니다😊"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "黃金微針可以針對毛孔、出油、膚質粗糙、細紋跟輕微凹凸感做改善，也可以依膚況搭配不同藥劑，讓整體膚質看起來更細緻、平滑一些✨",
+                    "ko": "황금 미세침은 모공, 유분, 거친 피부결, 잔주름과 가벼운 요철감을 개선할 수 있고, 피부 상태에 따라 여러 약제를 함께 사용하여 전반적인 피부결이 더 섬세하고 매끄러워 보이도록 할 수도 있습니다✨"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "您也可以選擇黃金微針搭配麗珠蘭的組合，同時改善毛孔+修復肌膚，而且麗珠蘭機打的痛感也會比手打低喔~",
+                    "ko": "황금 미세침과 리쥬란을 함께하는 조합을 선택하셔서 모공 개선+피부 회복을 동시에 하실 수도 있으며, 리쥬란 기계 주입은 수기 주입보다 통증도 적습니다~"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K62:N66"
+              },
+              {
+                "id": "MISS-G-20261031-043",
+                "recordIds": [
+                  "MISS-G-20261031-043"
+                ],
+                "kind": "inflow",
+                "country": "TW",
+                "procedure": "포텐자(이벤트 유입)",
+                "category": "가격 안내",
+                "verdict": "image",
+                "reason": "포텐자 이벤트 유입에 가격 이미지를 보내고 가장 개선하고 싶은 부위를 물었다.",
+                "questionDate": "2026-10-31",
+                "finalReplyDate": "2026-11-01",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (상품·이벤트 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "黃金微針的價格這邊可以先給您參考喔😊",
+                    "ko": "황금 미세침 가격을 먼저 참고하실 수 있도록 보내 드립니다😊"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "您也可以跟我們說一下最想改善的位置，再幫您初步推薦比較合適的療程喔🤍",
+                    "ko": "가장 개선하고 싶은 부위도 말씀해 주시면 비교적 적합한 시술을 우선 추천해 드리겠습니다🤍"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K67:N69"
+              },
+              {
+                "id": "MISS-G-20261031-044",
+                "recordIds": [
+                  "MISS-G-20261031-044"
+                ],
+                "kind": "ops",
+                "country": "TW",
+                "procedure": "포텐자(이벤트 유입)",
+                "category": "예약 방법",
+                "verdict": "normal-ops",
+                "reason": "예약을 원한다는 고객에게 이미지와 함께 예약 정보 양식(여권 영문 성명·생년월일·희망 시술·예약 일시·피부 검사 희망)을 보내고 작성하면 예약을 잡아 주겠다고 안내했다. 가이드 11의 중국어 번체 예약 양식과 같다.",
+                "questionDate": "2026-10-31",
+                "finalReplyDate": "2026-11-01",
+                "customer": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "您好，我想預約",
+                    "ko": "안녕하세요, 예약하고 싶습니다"
+                  }
+                ],
+                "staff": [
+                  {
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "✍️ 預約資訊填寫\n若需要預約的話，再麻煩您填寫以下資訊並傳給我們，謝謝😊\n\n・護照英文姓名（姓氏在前/統一大寫）：\n・生日（西元 YYYY/MM/DD）：\n・希望療程：\n・預約日期&時間：\n・是否希望進行皮膚檢測：\n※ 不確定療程也沒關係，可填「現場諮詢」\n👭 若有同行的朋友，請每位分別填寫一份預約資訊喔！\n\n📌 預約前請留意\n收到您的資訊後，我們會盡快確認並協助安排預約。",
+                    "ko": "✍️ 예약 정보 작성\n예약이 필요하시면 아래 정보를 작성하여 저희에게 보내 주세요. 감사합니다😊\n\n・여권 영문 성명（성을 앞에/모두 대문자로）：\n・생년월일（서기 YYYY/MM/DD）：\n・희망 시술：\n・예약 날짜&시간：\n・피부 검사를 원하시는지：\n※ 시술을 정하지 못하셔도 괜찮습니다. 「현장 상담」으로 작성하셔도 됩니다\n👭 동행 친구가 있으면 각자 예약 정보를 한 부씩 작성해 주세요!\n\n📌 예약 전 유의사항\n고객님의 정보를 받으면 최대한 빨리 확인하여 예약을 도와드리겠습니다."
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "若需要預約的話，幫我們填寫表單，這邊就可以為您安排，謝謝😊",
+                    "ko": "예약이 필요하시면 양식을 작성해 주세요. 그러면 예약을 잡아 드릴 수 있습니다. 감사합니다😊"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K70:N74"
+              },
+              {
+                "id": "MISS-G-20261031-047",
+                "recordIds": [
+                  "MISS-G-20261031-047"
+                ],
+                "kind": "consult",
+                "country": "JP",
+                "procedure": "피코줌패스·포텐자·아쿠아필",
+                "category": "색소·모공 시술 추천·가격·당일 병행",
+                "verdict": "normal",
+                "reason": "담당자는 여드름 흉터·모공 요철에 포텐자, 코 모공 피지·각질에 아쿠아필을 추천하고 아쿠아필 1회 77,000원, 포텐자와 줌패스 당일 동시 시술 가능을 안내했다. 가이드 02·01의 시술 용도, 수가표 강남언니 시트의 아쿠아필 1회 77,000원, 포텐자 당일 피코줌패스 등 레이저 병행 패키지 구성과 같다.",
+                "questionDate": "2026-10-31",
+                "finalReplyDate": "2026-11-01",
+                "customer": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "ズームパスのメニューって他にもありますか？",
+                    "ko": "줌패스 메뉴는 다른 것도 있나요?"
+                  },
+                  {
+                    "date": "2026-10-31",
+                    "original": "特にそばかすが気になります。\nなので色素レーザー2種が良いかなって思ってます。\nけど、肌のニキビ跡なのか毛穴開きなのか分からないんですけど凹凸が気になるんですけど\n同時にはできないですよね？",
+                    "ko": "특히 주근깨가 신경 쓰입니다.\n그래서 색소 레이저 2종이 좋을까 생각하고 있습니다.\n그런데 피부의 여드름 흉터인지 모공이 넓어진 것인지 모르겠지만 울퉁불퉁한 것이 신경 쓰이는데\n동시에 할 수는 없겠지요?"
+                  },
+                  {
+                    "date": "2026-10-31",
+                    "original": "あと鼻の毛穴の黒ずみも気になります。\nおすすめの施術はありますか？",
+                    "ko": "그리고 코 모공의 검은 때도 신경 쓰입니다.\n추천하는 시술이 있나요?"
+                  },
+                  {
+                    "date": "2026-10-31",
+                    "original": "ポテンツァとズームパス同じ日にできるんですか？",
+                    "ko": "포텐자와 줌패스를 같은 날 할 수 있나요?"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "ニキビ跡や毛穴の開きによるお肌の凹凸が気になる場合は、ポテンツァがおすすめです。毛穴やニキビ跡の改善を目指す施術となっております😊\n\n鼻の毛穴の黒ずみには、アクアピールがおすすめです✨ 毛穴の汚れや皮脂、古い角質を取り除き、すっきりとしたお肌に整える施術です。\n\nこちらの施術は、同じ日にまとめて受けていただくことも可能ですので、ご安心くださいませ🥰\n\nご来院の際にお肌の状態を確認しながら、より適した施術をご案内することもできますので、お気軽にご相談くださいね🌸",
+                    "ko": "여드름 흉터나 넓어진 모공으로 인한 피부의 울퉁불퉁함이 신경 쓰이시면 포텐자를 추천합니다. 모공이나 여드름 흉터 개선을 목표로 하는 시술입니다😊\n\n코 모공의 검은 때에는 아쿠아필을 추천합니다✨ 모공의 노폐물과 피지, 오래된 각질을 제거해 깨끗한 피부로 정돈하는 시술입니다.\n\n이 시술들은 같은 날 한꺼번에 받으실 수도 있으니 안심해 주세요🥰\n\n내원하실 때 피부 상태를 확인하면서 더 적합한 시술을 안내해 드릴 수도 있으니 편하게 상담해 주세요🌸"
+                  },
+                  {
+                    "date": "2026-10-31",
+                    "original": "アクアピールは1回77,000ウォンでございます😊✨",
+                    "ko": "아쿠아필은 1회 77,000원입니다😊✨"
+                  },
+                  {
+                    "date": "2026-11-01",
+                    "original": "はい、同日に同時に施術を受けていただくことが可能でございます。\nご予約をご希望でしょうか？😊",
+                    "ko": "네, 같은 날 동시에 시술을 받으실 수 있습니다.\n예약을 원하시나요?😊"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K79:N92"
+              },
+              {
+                "id": "MISS-G-20261031-048",
+                "recordIds": [
+                  "MISS-G-20261031-048"
+                ],
+                "kind": "inflow",
+                "country": "TH",
+                "procedure": "주름 보톡스",
+                "category": "행사 안내",
+                "verdict": "image",
+                "reason": "태국어 행사 이미지를 보내고 LINE으로 태국인 관리자·통역사에게 추가 문의할 수 있다고 안내했다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-01",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (상품·이벤트 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-01",
+                    "original": "สวัสดีครับ ตอนนี้ทางคลินิกมีโปรโมชั่นอยู่ตามภาพเลยนะครับ\nหากมีข้อสงสัยใดๆเพิ่มเติมสามารถแอดไลน์มาสอบถามได้เลยครับ มีแอดมินคนไทยและล่ามไทยให้บริการอยู่ตลอดนะครับ🥰🙏",
+                    "ko": "안녕하세요. 현재 클리닉의 프로모션은 사진과 같습니다.\n추가로 궁금한 점이 있으시면 LINE을 추가해 문의해 주세요. 태국인 관리자와 태국어 통역사가 항상 서비스를 제공하고 있습니다🥰🙏\n[이미지 응답]",
+                    "image": true
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K93:N95"
+              },
+              {
+                "id": "MISS-G-20261031-049",
+                "recordIds": [
+                  "MISS-G-20261031-049"
+                ],
+                "kind": "inflow",
+                "country": "TH",
+                "procedure": "주름 보톡스",
+                "category": "행사 안내",
+                "verdict": "image",
+                "reason": "태국어 행사 이미지를 보내고 LINE으로 태국인 관리자·통역사에게 추가 문의할 수 있다고 안내했다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-01",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (이미지 전송)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-01",
+                    "original": "สวัสดีครับ ตอนนี้ทางคลินิกมีโปรโมชั่นอยู่ตามภาพเลยนะครับ\nหากมีข้อสงสัยใดๆเพิ่มเติมสามารถแอดไลน์มาสอบถามได้เลยครับ มีแอดมินคนไทยและล่ามไทยให้บริการอยู่ตลอดนะครับ🥰🙏",
+                    "ko": "안녕하세요. 현재 클리닉의 프로모션은 사진과 같습니다.\n추가로 궁금한 점이 있으시면 LINE을 추가해 문의해 주세요. 태국인 관리자와 태국어 통역사가 항상 서비스를 제공하고 있습니다🥰🙏\n[이미지 응답]",
+                    "image": true
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K96:N100"
+              },
+              {
+                "id": "MISS-G-20261031-054",
+                "recordIds": [
+                  "MISS-G-20261031-054"
+                ],
+                "kind": "inflow",
+                "country": "JP",
+                "procedure": "소프웨이브",
+                "category": "가격 자료 안내",
+                "verdict": "image",
+                "reason": "가격표 이미지를 보내고 궁금한 점은 언제든 문의해 달라고 안내했다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-10-31",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (상품·이벤트 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "こちらの料金表をご参考までにお送りいたします😊\n\nご不明な点がございましたら、いつでもお気軽にお問い合わせください。ありがとうございます！",
+                    "ko": "참고하시도록 이 가격표를 보내드립니다😊\n\n궁금한 점이 있으시면 언제든 편하게 문의해 주세요. 감사합니다!"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K105:N109"
+              },
+              {
+                "id": "MISS-G-20261031-056",
+                "recordIds": [
+                  "MISS-G-20261031-056"
+                ],
+                "kind": "consult",
+                "country": "TH",
+                "procedure": "울쎄라피 프라임",
+                "category": "예약 가능 시간·가격·통역·소요 시간·사전 상담",
+                "verdict": "normal",
+                "reason": "담당자가 안내한 울쎄라피 프라임 300샷 1,090,000원(VAT 포함 1,199,000원)·600샷 1,990,000원(VAT 포함 2,189,000원)은 수가표 17과 같다. 상담부터 시술 완료까지 약 1~1.5시간이라는 답은 가이드 06 질문111의 울쎄라 소요시간(약 1시간~1시간 30분)과 같고, 예약 시간·태국어 통역·시술 전 대면 상담에도 항목별로 답했다.",
+                "questionDate": "2026-10-31",
+                "finalReplyDate": "2026-10-31",
+                "customer": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "Hello, I would like to inquire about a few details regarding your services:\n\n1. Do you have any available slots on [희망 예약일], around [희망 예약시간]? (Or would it be possible to apply the numbing cream around [희망 마취시간]?)\n\n2. Could you please let me know the price for Ulthera Prime (approx. 400–600 lines)?\n\n3. Do you provide a Thai interpreter for the appointment?\n\n4. How long does the entire procedure usually take?\n\n5. Do you offer a face-to-face consultation prior to the treatment to evaluate my face, check suitability, and suggest additional or alternative options if needed?\n\nThank you!",
+                    "ko": "안녕하세요, 귀원의 서비스에 대해 몇 가지 자세한 내용을 문의하고 싶습니다.\n\n1. [희망 예약일] [희망 예약시간]경에 예약 가능한 시간이 있나요? (또는 [희망 마취시간]경에 마취 크림을 바를 수 있을까요?)\n\n2. Ulthera Prime(약 400–600라인)의 가격을 알려 주시겠어요?\n\n3. 예약 시 태국어 통역사를 제공하나요?\n\n4. 전체 시술은 보통 얼마나 걸리나요?\n\n5. 시술 전에 얼굴을 평가하고 적합성을 확인하며, 필요한 경우 추가 또는 대안 시술을 제안하는 대면 상담을 제공하나요?\n\n감사합니다!"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "สวัสดีค่ะ 😊🌸\nขอบคุณที่สนใจและติดต่อ Beauty Blossom Clinic นะคะ 💕\n\n 1. วันและเวลานัดหมาย\n\nสำหรับวันที่ [예약 가능일] ทางคลินิกมีคิวว่างเวลา [예약 가능시간] น. ค่ะ\n\nหากคุณลูกค้าต้องการทายาชาในเวลา [마취 희망시간] น. สามารถเข้ามาที่คลินิกเวลา [예약 가능시간] น. เพื่อเตรียมตัวก่อน หรือเข้ามาเวลา [마취 희망시간] น. เพื่อทายาชาก่อนและรับคำปรึกษาระหว่างรอยาชาออกฤทธิ์ได้ค่ะ 😊\n\n2. ราคา Ultherapy Prime\n\nทางคลินิกมีแพ็กเกจให้เลือก 2 แบบค่ะ\n\nUltherapy Prime 300 shots\n- ราคาไม่รวม VAT: 1,090,000 วอน\n- **ราคารวม VAT 10%: 1,199,000 วอน**\n\nUltherapy Prime 600 shots\n- ราคาไม่รวม VAT: 1,990,000 วอน\n- **ราคารวม VAT 10%: 2,189,000 วอน**\n\n3. บริการล่ามภาษาไทย\n\nทางคลินิกมีเจ้าหน้าที่ล่ามภาษาไทยประจำอยู่ค่ะ สามารถให้บริการแปลภาษาไทยระหว่างการปรึกษาและทำหัตถการได้ ไม่ต้องกังวลเรื่องการสื่อสารเลยนะคะ 💕\n\n4. ระยะเวลาในการทำหัตถการ\n\nโดยปกติจะใช้เวลาประมาณ 1–1.5 ชั่วโมง ตั้งแต่ขั้นตอนการปรึกษาจนถึงการทำหัตถการเสร็จสิ้นค่ะ 😊\n\n5. การปรึกษาก่อนทำหัตถการ\n\nแน่นอนค่ะ! ก่อนทำหัตถการ ทางคลินิกจะมีการตรวจประเมินสภาพผิวและรูปหน้าของคุณลูกค้า พร้อมให้คำปรึกษาแบบตัวต่อตัวค่ะ\n\nเราจะช่วยประเมินว่า Ultherapy Prime เหมาะสมกับปัญหาที่คุณลูกค้ากังวลหรือไม่ และสามารถแนะนำหัตถการอื่น ๆ หรือการทำร่วมกันตามความเหมาะสมได้ค่ะ\n\nคุณลูกค้าสามารถปรึกษาและสอบถามได้อย่างเต็มที่เลยนะคะ ไม่ต้องกังวลค่ะ 🥰\n\nหากสะดวกเข้ามาในวันที่ [예약 가능일] เวลา [예약 가능시간] น.ามารถแจ้งเราได้เลยนะคะ ทางเรายินดีดำเนินการจองคิวให้ค่ะ\n\nขอบคุณมากค่ะ หวังว่าจะได้ต้อนรับคุณลูกค้าที่ Beauty Blossom Clinic นะคะ 🌸💕",
+                    "ko": "안녕하세요 😊🌸\nBeauty Blossom Clinic에 관심을 가지고 연락해 주셔서 감사합니다 💕\n\n 1. 예약 날짜와 시간\n\n[예약 가능일]에는 클리닉에 [예약 가능시간] 예약 가능 시간이 있습니다.\n\n고객님께서 [마취 희망시간]에 마취제를 바르고 싶으시면 [예약 가능시간]에 클리닉에 오셔서 미리 준비하시거나, [마취 희망시간]에 오셔서 먼저 마취제를 바른 후 마취제가 작용하기를 기다리는 동안 상담을 받으실 수 있습니다 😊\n\n2. Ultherapy Prime 가격\n\n클리닉에는 선택 가능한 패키지가 2가지 있습니다\n\nUltherapy Prime 300 shots\n- VAT 별도 가격: 1,090,000원\n- **VAT 10% 포함 가격: 1,199,000원**\n\nUltherapy Prime 600 shots\n- VAT 별도 가격: 1,990,000원\n- **VAT 10% 포함 가격: 2,189,000원**\n\n3. 태국어 통역 서비스\n\n클리닉에는 태국어 통역 직원이 상주합니다. 상담 및 시술 중 태국어 통역 서비스를 제공하므로 의사소통은 걱정하지 않으셔도 됩니다 💕\n\n4. 시술 소요 시간\n\n보통 상담 단계부터 시술 완료까지 약 1–1.5시간이 걸립니다 😊\n\n5. 시술 전 상담\n\n물론입니다! 시술 전에 클리닉에서 고객님의 피부 상태와 얼굴형을 평가하고 일대일 상담을 진행합니다.\n\nUltherapy Prime이 고객님이 고민하는 문제에 적합한지 평가해 드리며, 적절한 경우 다른 시술이나 병행 시술도 추천해 드릴 수 있습니다.\n\n충분히 상담하고 질문하셔도 되니 걱정하지 마세요 🥰\n\n[예약 가능일] [예약 가능시간]에 방문이 가능하시면 알려 주세요. 기꺼이 예약을 진행해 드리겠습니다.\n\n정말 감사합니다. Beauty Blossom Clinic에서 고객님을 맞이할 수 있기를 바랍니다 🌸💕"
+                  }
+                ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K138:N150"
               },
               {
                 "id": "MISS-G-20261031-057",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "직접 질문 없이 희망 일정 제안이 접수됐다.",
-                "staffFinalResponse": "원문:\nยืนยันการจองเรียบร้อยแล้วนะคะ 😊🌸\n\nขอบคุณที่ไว้วางใจและเลือกใช้บริการกับ Beauty Blossom Clinic ค่ะ 💕\n\nหากมีข้อสงสัยหรือต้องการสอบถามข้อมูลเพิ่มเติม สามารถติดต่อเราได้ตลอดเลยนะคะ\n\nแล้วพบกันในวันนัดหมายค่ะ 🥰✨\n\n한국어 번역:\n예약이 확정되었습니다 😊🌸\n\nBeauty Blossom Clinic을 믿고 선택해 주셔서 감사합니다 💕\n\n궁금한 점이 있거나 추가 정보가 필요하시면 언제든 연락해 주세요\n\n예약일에 뵙겠습니다 🥰✨",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "고객의 희망 일정 제안에 직원은 예약이 확정됐다고 알리고 예약일에 만나겠다고 안내했다.",
-                "procedure": "주름 보톡스(이벤트 유입)",
-                "questionCategory": "예약 확정",
+                "recordIds": [
+                  "MISS-G-20261031-057"
+                ],
+                "kind": "ops",
+                "country": "TH",
+                "procedure": "주름 보톡스",
+                "category": "예약 확정",
+                "verdict": "normal-ops",
+                "reason": "고객이 앱에서 제안한 일정에 예약 확정을 알리고 예약일에 뵙겠다고 안내했다.",
                 "questionDate": null,
-                "responseEndedDate": "2026-10-31",
+                "finalReplyDate": "2026-10-31",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (앱에서 일정 제안)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "ยืนยันการจองเรียบร้อยแล้วนะคะ 😊🌸\n\nขอบคุณที่ไว้วางใจและเลือกใช้บริการกับ Beauty Blossom Clinic ค่ะ 💕\n\nหากมีข้อสงสัยหรือต้องการสอบถามข้อมูลเพิ่มเติม สามารถติดต่อเราได้ตลอดเลยนะคะ\n\nแล้วพบกันในวันนัดหมายค่ะ 🥰✨",
+                    "ko": "예약이 확정되었습니다 😊🌸\n\nBeauty Blossom Clinic을 믿고 선택해 주셔서 감사합니다 💕\n\n궁금한 점이 있거나 추가 정보가 필요하시면 언제든 연락해 주세요\n\n예약일에 뵙겠습니다 🥰✨"
+                  }
+                ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K151:N156"
               },
               {
                 "id": "MISS-G-20261031-058",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "당일 직접 질문 없이 이벤트가 유입됐다.",
-                "staffFinalResponse": "원문:\nHello!  Here is our promotional price list for your reference.\nIf you have any questions or would like to make a reservation, please feel free to contact us anytime!ㅁ\n[이미지 응답]\n\n한국어 번역:\n안녕하세요!  참고하시도록 프로모션 가격표를 보내드립니다.\n궁금한 점이 있거나 예약을 원하시면 언제든 편하게 연락해 주세요!ㅁ\n[이미지 응답]",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "직원은 입술 필러 이벤트 유입에 프로모션 가격 자료와 추가 문의·예약 방법을 안내했다.",
-                "procedure": "입술 필러(이벤트 유입)",
-                "questionCategory": "프로모션 안내",
+                "recordIds": [
+                  "MISS-G-20261031-058"
+                ],
+                "kind": "inflow",
+                "country": "DK",
+                "procedure": "입술 필러",
+                "category": "행사 안내",
+                "verdict": "image",
+                "reason": "프로모션 가격표 이미지를 보내고 문의·예약은 언제든 연락해 달라고 안내했다.",
                 "questionDate": null,
-                "responseEndedDate": "2026-10-31",
+                "finalReplyDate": "2026-10-31",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (상품·이벤트 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "Hello!  Here is our promotional price list for your reference.\nIf you have any questions or would like to make a reservation, please feel free to contact us anytime!ㅁ",
+                    "ko": "안녕하세요!  참고하시도록 프로모션 가격표를 보내드립니다.\n궁금한 점이 있거나 예약을 원하시면 언제든 편하게 연락해 주세요!ㅁ\n[이미지 응답]",
+                    "image": true
+                  }
+                ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K157:N159"
               },
               {
                 "id": "MISS-G-20261031-059",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "직접 질문 없이 입술 필러 이벤트가 유입됐다.",
-                "staffFinalResponse": "원문:\n這邊發唇部玻尿酸相關活動優惠給您參考，有什麼問題再咨詢哦~\n[이미지 응답]\n\n한국어 번역:\n입술 히알루론산 필러 관련 이벤트 혜택을 참고하시도록 보내드립니다. 궁금한 점이 있으면 다시 상담해 주세요~\n[이미지 응답]",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "직원은 입술 필러 관련 이벤트 혜택을 보내고 추가 질문을 받겠다고 안내했다.",
-                "procedure": "입술 필러(이벤트 유입)",
-                "questionCategory": "이벤트 안내",
+                "recordIds": [
+                  "MISS-G-20261031-059"
+                ],
+                "kind": "inflow",
+                "country": "TW",
+                "procedure": "입술 필러",
+                "category": "행사 안내",
+                "verdict": "image",
+                "reason": "입술 필러 행사 이미지를 보내고 궁금한 점은 다시 문의해 달라고 안내했다.",
                 "questionDate": null,
-                "responseEndedDate": "2026-10-31",
+                "finalReplyDate": "2026-10-31",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (상품·이벤트 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "這邊發唇部玻尿酸相關活動優惠給您參考，有什麼問題再咨詢哦~",
+                    "ko": "입술 히알루론산 필러 관련 이벤트 혜택을 참고하시도록 보내드립니다. 궁금한 점이 있으면 다시 상담해 주세요~\n[이미지 응답]",
+                    "image": true
+                  }
+                ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K160:N163"
               },
               {
-                "id": "MISS-G-20261031-060",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\nHi, so sorry I am on the way! The traffic is bad right now...\n\n한국어 번역:\n안녕하세요, 정말 죄송해요. 가고 있습니다! 지금 교통 체증이 심하네요...",
-                "staffFinalResponse": "원문:\nNo worries at all! Please take your time and travel safely. We look forward to seeing you! 😊\n\n한국어 번역:\n전혀 괜찮습니다! 서두르지 마시고 안전하게 오세요. 뵙기를 기다리겠습니다! 😊",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "교통 체증으로 늦는다는 고객에게 직원은 괜찮으니 안전하게 오라고 답했다.",
-                "procedure": "시술 확인되지 않음",
-                "questionCategory": "지각·이동 안내",
-                "questionDate": "2026-10-31",
-                "responseEndedDate": "2026-10-31",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K164:N167"
-              },
-              {
-                "id": "MISS-G-20261031-061",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\n改約[변경 예약일]\n\n한국어 번역:\n[변경 예약일]로 예약 변경\n\n원문:\n[변경 예약시간]\n\n한국어 번역:\n[변경 예약시간]",
-                "staffFinalResponse": "원문:\n好的，那這邊為您修改預約喔~\n\n한국어 번역:\n네, 그럼 예약을 변경해 드리겠습니다~\n\n원문:\n🌸 Beauty Blossom 預約完成 ✅\n\n📅 預約日期：[변경 예약일]\n⏰ 預約時間：[변경 예약시간]\n👤 預約人數：2位\n\n📍 診所地址\n首爾特別市麻浦區楊花路66號\nMedione Medical Center 6樓\n（合井站3號出口）\n💡 英文／韓文地址及地圖導航，可至 LINE 選單點選「地址」查看。\n\n📌 來院前請留意\n・來院時請務必攜帶護照，以便辦理登記。\n・如需更改或取消預約，請提前透過 LINE 與我們聯繫。\n・若當天僅進行諮詢、未接受療程，將收取 ₩10,000 諮詢費。\n\n感謝您的預約，期待您的到來💗\n\n한국어 번역:\n🌸 Beauty Blossom 예약 완료 ✅\n\n📅 예약 날짜：[변경 예약일]\n⏰ 예약 시간：[변경 예약시간]\n👤 예약 인원：2분\n\n📍 클리닉 주소\n서울특별시 마포구 양화로66번지\nMedione Medical Center 6층\n(합정역3번 출구)\n💡 영문／한국어 주소 및 지도 길찾기는 LINE 메뉴에서 「주소」를 선택하여 확인하실 수 있습니다.\n\n📌 내원 전 유의 사항\n・접수를 위해 내원 시 반드시 여권을 지참해 주세요.\n・예약 변경이나 취소가 필요하시면 사전에 LINE으로 연락해 주세요.\n・당일 상담만 진행하고 시술을 받지 않으시면 ₩10,000의 상담료가 부과됩니다.\n\n예약해 주셔서 감사드리며, 방문을 기다리겠습니다💗",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "직원은 요청한 변경 일정으로 예약 완료를 안내했다. 상담만 진행하면 10,000원이 발생한다는 설명도 직원 가이드 08과 일치한다.",
-                "procedure": "리쥬란·릴리이드 M(예약 유입)",
-                "questionCategory": "예약 변경",
-                "questionDate": "2026-10-31",
-                "responseEndedDate": "2026-10-31",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K168:N174"
-              },
-              {
                 "id": "MISS-G-20261031-062",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\n護照英文姓名（姓氏在前/統一大寫）：[고객명]\n・生日（西元 YYYY/MM/DD）：[생년월일]\n・希望療程：ONDA\n・預約日期&時間：[희망 예약일시]\n・是否希望進行皮膚檢測：yes\n\n\n因為是[항공편 출발시간]的飛機，不知道有沒有空檔可預約\n\n한국어 번역:\n여권 영문 성명(성 먼저/모두 대문자)：[고객명]\n・생일(서기 YYYY/MM/DD)：[생년월일]\n・희망 시술：ONDA\n・예약 날짜&시간：[희망 예약일시]\n・피부 검사를 희망하시는지：예\n\n\n[항공편 출발시간] 비행기라서 예약 가능한 빈 시간이 있을지 모르겠습니다\n\n원문:\n是的\n\n한국어 번역:\n네",
-                "staffFinalResponse": "원문:\n若您希望[방문일 가림]來院的話，[내원 마감 시각 가림]前直接幫我們過來就可以了喔~\n\n한국어 번역:\n[방문일 가림] 내원을 원하시면 [내원 마감 시각 가림] 전에 바로 와 주시면 됩니다~\n\n원문:\n報到時可以跟櫃台說一下您希望最晚離院的時間，會幫您備註\n\n한국어 번역:\n접수하실 때 데스크에 늦어도 몇 시에는 나가야 하시는지 말씀해 주시면 메모해 드리겠습니다",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "항공편 때문에 당일 방문 가능 시간을 묻자 직원은 내원 가능한 마감 시각을 제시하고, 늦어도 나가야 하는 시각을 접수 데스크에 알리도록 답했다.",
+                "recordIds": [
+                  "MISS-G-20261031-062"
+                ],
+                "kind": "ops",
+                "country": "TW",
                 "procedure": "온다",
-                "questionCategory": "당일 내원·출발 시간",
+                "category": "당일 예약·출국 일정",
+                "verdict": "normal-ops",
+                "reason": "항공편 때문에 당일 예약이 가능한지 묻자 담당자는 정해진 시각 전에 바로 내원하면 되고 접수 때 늦어도 나가야 하는 시각을 말하면 메모하겠다고 답했다. 가이드 06 질문216은 주말 마지막 예약을 오후 3시30분으로 안내하며 담당자가 제시한 내원 시각은 그보다 이르다.",
                 "questionDate": "2026-10-31",
-                "responseEndedDate": "2026-10-31",
+                "finalReplyDate": "2026-10-31",
+                "customer": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "護照英文姓名（姓氏在前/統一大寫）：[고객명]\n・生日（西元 YYYY/MM/DD）：[생년월일]\n・希望療程：ONDA\n・預約日期&時間：[희망 예약일시]\n・是否希望進行皮膚檢測：yes\n\n\n因為是[항공편 출발시간]的飛機，不知道有沒有空檔可預約",
+                    "ko": "여권 영문 성명(성 먼저/모두 대문자)：[고객명]\n・생일(서기 YYYY/MM/DD)：[생년월일]\n・희망 시술：ONDA\n・예약 날짜&시간：[희망 예약일시]\n・피부 검사를 희망하시는지：예\n\n\n[항공편 출발시간] 비행기라서 예약 가능한 빈 시간이 있을지 모르겠습니다"
+                  },
+                  {
+                    "date": "2026-10-31",
+                    "original": "是的",
+                    "ko": "네"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "若您希望[방문일 가림]來院的話，[내원 마감 시각 가림]前直接幫我們過來就可以了喔~",
+                    "ko": "[방문일 가림] 내원을 원하시면 [내원 마감 시각 가림] 전에 바로 와 주시면 됩니다~"
+                  },
+                  {
+                    "date": "2026-10-31",
+                    "original": "報到時可以跟櫃台說一下您希望最晚離院的時間，會幫您備註",
+                    "ko": "접수하실 때 데스크에 늦어도 몇 시에는 나가야 하시는지 말씀해 주시면 메모해 드리겠습니다"
+                  }
+                ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K175:N185"
               },
               {
                 "id": "MISS-G-20261031-063",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\n我原本有預約約，但是不小心預約約到江南那是在[기존 예약시간]，那我有辦法改成弘大嗎\n\n한국어 번역:\n원래 예약이 있었는데, 실수로 강남으로 예약했고 그게 [기존 예약시간]인데, 홍대로 변경할 수 있을까요",
-                "staffFinalResponse": "원문:\n我們只有弘大合井一間本店喔~\n\n한국어 번역:\n저희는 홍대 합정에 본점 한 곳만 있어요~\n\n원문:\n沒有江南分店呢><\n\n한국어 번역:\n강남 지점은 없어요><",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "강남 예약을 홍대로 바꿀 수 있는지 묻자 직원은 홍대·합정 본점 한 곳만 운영하며 강남 지점은 없다고 답해 지점 착오를 바로잡았다.",
-                "procedure": "시술 확인되지 않음",
-                "questionCategory": "지점 착오",
+                "recordIds": [
+                  "MISS-G-20261031-063"
+                ],
+                "kind": "ops",
+                "country": "TW",
+                "procedure": "확인되지 않음",
+                "category": "지점 문의",
+                "verdict": "normal-ops",
+                "reason": "강남으로 잘못 예약했으니 홍대로 바꿀 수 있는지 묻자 담당자는 홍대 합정 본점 한 곳만 있고 강남 지점은 없다고 답했다. 공식 홈페이지도 병원 위치를 합정역 3번 출구 앞 메디원메디컬센터 한 곳으로 안내하고 있다.",
                 "questionDate": "2026-10-31",
-                "responseEndedDate": "2026-10-31",
+                "finalReplyDate": "2026-10-31",
+                "customer": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "我原本有預約約，但是不小心預約約到江南那是在[기존 예약시간]，那我有辦法改成弘大嗎",
+                    "ko": "원래 예약이 있었는데, 실수로 강남으로 예약했고 그게 [기존 예약시간]인데, 홍대로 변경할 수 있을까요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "我們只有弘大合井一間本店喔~",
+                    "ko": "저희는 홍대 합정에 본점 한 곳만 있어요~"
+                  },
+                  {
+                    "date": "2026-10-31",
+                    "original": "沒有江南分店呢><",
+                    "ko": "강남 지점은 없어요><"
+                  }
+                ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K186:N191"
               },
               {
-                "id": "MISS-G-20261031-064",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A65:AF65"
-              },
-              {
                 "id": "MISS-G-20261031-065",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\n通訳について知りたいです\n\n한국어 번역:\n통역에 대해 알고 싶습니다",
-                "staffFinalResponse": "원문:\nお問い合わせいただきありがとうございます😊\n\n当院には日本語で対応可能なスタッフと日本語で対応できる室長もおりますので、カウンセリングの際も日本語でご案内することが可能です💗\n\n한국어 번역:\n문의해 주셔서 감사합니다😊\n\n저희 병원에는 일본어로 응대할 수 있는 직원과 일본어로 응대할 수 있는 실장도 있으므로, 상담 시에도 일본어로 안내해 드릴 수 있습니다💗",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "통역 문의에 직원은 일본어 가능한 직원과 실장이 있어 상담을 일본어로 안내할 수 있다고 직접 답했다.",
-                "procedure": "시술 확인되지 않음",
-                "questionCategory": "일본어 상담 지원",
+                "recordIds": [
+                  "MISS-G-20261031-065"
+                ],
+                "kind": "ops",
+                "country": "JP",
+                "procedure": "사각턱 보톡스",
+                "category": "일본어 통역",
+                "verdict": "normal-ops",
+                "reason": "통역 문의에 일본어 가능한 직원과 실장이 있어 상담도 일본어로 안내할 수 있다고 답했다.",
                 "questionDate": "2026-10-31",
-                "responseEndedDate": "2026-10-31",
+                "finalReplyDate": "2026-10-31",
+                "customer": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "通訳について知りたいです",
+                    "ko": "통역에 대해 알고 싶습니다"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "お問い合わせいただきありがとうございます😊\n\n当院には日本語で対応可能なスタッフと日本語で対応できる室長もおりますので、カウンセリングの際も日本語でご案内することが可能です💗",
+                    "ko": "문의해 주셔서 감사합니다😊\n\n저희 병원에는 일본어로 응대할 수 있는 직원과 일본어로 응대할 수 있는 실장도 있으므로, 상담 시에도 일본어로 안내해 드릴 수 있습니다💗"
+                  }
+                ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K192:N200"
               },
               {
                 "id": "MISS-G-20261031-066",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "직접 고객 질문 없이 이벤트 유입이 남았다.",
-                "staffFinalResponse": "원문:\nこんにちは😊💗\nこちらが当院の料金表でございますので、ぜひご参考になさってくださいね✨\n\n当院のご予約受付時間は、平日 10:00〜18:00、土日 10:00〜15:00となっております✨\n\nほかにも気になる施術やご不明な点などございましたら、いつでもお気軽にご相談くださいね💗\n[이미지 응답]\n\n한국어 번역:\n안녕하세요😊💗\n이것이 저희 병원 가격표이니 꼭 참고해 주세요✨\n\n저희 병원의 예약 접수 시간은 평일 10:00〜18:00, 토일 10:00〜15:00입니다✨\n\n그 밖에도 관심 있는 시술이나 궁금한 점 등이 있으시면 언제든 편하게 상담해 주세요💗\n[이미지 응답]",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "직원은 가격표와 평일 10~18시·주말 10~15시 예약 접수 시간을 안내했다.",
-                "procedure": "스킨 보톡스(이벤트 유입)",
-                "questionCategory": "가격표·예약 접수 시간",
+                "recordIds": [
+                  "MISS-G-20261031-066"
+                ],
+                "kind": "inflow",
+                "country": "JP",
+                "procedure": "스킨 보톡스",
+                "category": "가격표·예약 가능 시간",
+                "verdict": "fix",
+                "severity": "suspected",
+                "reason": "담당자는 가격표 이미지와 함께 예약 접수 시간을 평일 10:00~18:00, 토일 10:00~15:00으로 안내했다. 가이드 11의 일본어 영업시간 템플릿은 평일 10:00~20:00, 주말·대체공휴일 10:00~16:30 운영과 마감 30분 전까지 예약 가능을 안내하고, 가이드 06 질문216은 마지막 예약을 평일 19:30·주말 15:30으로 안내한다.",
                 "questionDate": null,
-                "responseEndedDate": "2026-10-31",
+                "finalReplyDate": "2026-10-31",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (상품·이벤트 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "こんにちは😊💗\nこちらが当院の料金表でございますので、ぜひご参考になさってくださいね✨\n\n当院のご予約受付時間は、平日 10:00〜18:00、土日 10:00〜15:00となっております✨\n\nほかにも気になる施術やご不明な点などございましたら、いつでもお気軽にご相談くださいね💗",
+                    "ko": "안녕하세요😊💗\n이것이 저희 병원 가격표이니 꼭 참고해 주세요✨\n\n저희 병원의 예약 접수 시간은 평일 10:00〜18:00, 토일 10:00〜15:00입니다✨\n\n그 밖에도 관심 있는 시술이나 궁금한 점 등이 있으시면 언제든 편하게 상담해 주세요💗\n[이미지 응답]",
+                    "image": true
+                  }
+                ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K201:N204"
               },
               {
-                "id": "MISS-G-20261031-067",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\n予定が変更になって来院が難しくなったためキャンセルしたいです。すみません\n次回利用させていただきます\n\n한국어 번역:\n일정이 변경되어 방문이 어려워져서 취소하고 싶습니다. 죄송합니다\n다음에 이용하겠습니다",
-                "staffFinalResponse": "원문:\nご連絡いただきありがとうございます😊今回はご予約をキャンセルさせていただきます。\n\nまた韓国にお越しの際や、ご都合が合う際には、ぜひお気軽にご連絡ください✨\n\n한국어 번역:\n연락해 주셔서 감사합니다😊이번 예약은 취소해 드리겠습니다.\n\n다시 한국에 오실 때나 시간이 맞으실 때에는 꼭 편하게 연락해 주세요✨",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "10월 30일 일정 변경으로 취소를 요청한 고객에게 직원은 10월 31일 예약을 취소하겠다고 답하고 추후 방문 시 연락을 안내했다.",
-                "procedure": "시술 확인되지 않음",
-                "questionCategory": "예약 취소",
-                "questionDate": null,
-                "responseEndedDate": "2026-10-31",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K205:N205"
-              },
-              {
                 "id": "MISS-G-20261031-068",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "당일 새 질문 없이 온다 이벤트 유입이 확인된다.",
-                "staffFinalResponse": "원문:\nONDA的價格這邊可以先給您參考喔😊\n\n한국어 번역:\nONDA 가격은 여기서 먼저 참고하실 수 있도록 드릴게요😊\n\n원문:\n後續如果還有任何問題，或是有想再了解的療程，都可以隨時跟我們說～  \n謝謝您🤍\n\n한국어 번역:\n이후에도 궁금한 점이 있거나 더 알아보고 싶은 시술이 있으시면 언제든 저희에게 말씀해 주세요～  \n감사합니다🤍",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "직원은 온다 가격 자료를 참고하도록 안내하고 추가로 궁금한 시술이 있으면 문의해 달라고 답했다.",
+                "recordIds": [
+                  "MISS-G-20261031-068"
+                ],
+                "kind": "inflow",
+                "country": "TW",
                 "procedure": "온다",
-                "questionCategory": "가격 자료·예약 알림",
+                "category": "가격 자료 안내",
+                "verdict": "image",
+                "reason": "온다 가격 이미지를 보내고 더 궁금한 시술이 있으면 언제든 말해 달라고 안내했다.",
                 "questionDate": null,
-                "responseEndedDate": "2026-10-31",
+                "finalReplyDate": "2026-10-31",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (상품·이벤트 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "ONDA的價格這邊可以先給您參考喔😊",
+                    "ko": "ONDA 가격은 여기서 먼저 참고하실 수 있도록 드릴게요😊"
+                  },
+                  {
+                    "date": "2026-10-31",
+                    "original": "後續如果還有任何問題，或是有想再了解的療程，都可以隨時跟我們說～  \n謝謝您🤍",
+                    "ko": "이후에도 궁금한 점이 있거나 더 알아보고 싶은 시술이 있으시면 언제든 저희에게 말씀해 주세요～  \n감사합니다🤍"
+                  }
+                ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K206:N211"
               },
               {
                 "id": "MISS-G-20261031-069",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\n到院時需要中文翻譯服務\n\n한국어 번역:\n내원할 때 중국어 통역 서비스가 필요합니다",
-                "staffFinalResponse": "원문:\n我們院內都有中文翻譯人員，這個不用擔心喔✅\n\n한국어 번역:\n저희 병원 안에는 중국어 통역 직원이 있으니, 이 부분은 걱정하지 않으셔도 돼요✅",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "방문 시 중국어 통역이 필요하다는 요청에 직원은 원내에 중국어 통역 직원이 있다고 답했다.",
-                "procedure": "피코 레이저",
-                "questionCategory": "중국어 통역",
+                "recordIds": [
+                  "MISS-G-20261031-069"
+                ],
+                "kind": "ops",
+                "country": "TW",
+                "procedure": "피코슈어",
+                "category": "중국어 통역",
+                "verdict": "normal-ops",
+                "reason": "내원 시 중국어 통역이 필요하다는 요청에 원내에 중국어 통역 직원이 있다고 답했다.",
                 "questionDate": "2026-10-31",
-                "responseEndedDate": "2026-10-31",
+                "finalReplyDate": "2026-10-31",
+                "customer": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "到院時需要中文翻譯服務",
+                    "ko": "내원할 때 중국어 통역 서비스가 필요합니다"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "我們院內都有中文翻譯人員，這個不用擔心喔✅",
+                    "ko": "저희 병원 안에는 중국어 통역 직원이 있으니, 이 부분은 걱정하지 않으셔도 돼요✅"
+                  }
+                ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K212:N220"
               },
               {
                 "id": "MISS-G-20261031-070",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "직접 질문 없이 온다 이벤트 유입이 남았다.",
-                "staffFinalResponse": "원문:\nONDA的價格這邊可以先給您參考喔😊\n\n한국어 번역:\nONDA 가격은 여기서 먼저 참고하실 수 있도록 드릴게요😊\n\n원문:\n您也可以跟我們說一下最想改善的位置，再幫您初步推薦比較合適的療程喔🤍\n\n한국어 번역:\n가장 개선하고 싶은 부위를 저희에게 말씀해 주셔도 돼요. 그러면 우선 더 적합한 시술을 추천해 드릴게요🤍",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "직원은 온다 가격 자료를 제공하고 개선을 원하는 부위를 물어 후속 상담을 안내했다.",
-                "procedure": "온다(이벤트 유입)",
-                "questionCategory": "가격 자료·개선 부위 확인",
+                "recordIds": [
+                  "MISS-G-20261031-070"
+                ],
+                "kind": "inflow",
+                "country": "TW",
+                "procedure": "온다",
+                "category": "가격 자료 안내",
+                "verdict": "image",
+                "reason": "온다 가격 이미지를 보내고 가장 개선하고 싶은 부위를 알려 주면 시술을 추천하겠다고 안내했다.",
                 "questionDate": null,
-                "responseEndedDate": "2026-10-31",
+                "finalReplyDate": "2026-10-31",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (상품·이벤트 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "ONDA的價格這邊可以先給您參考喔😊",
+                    "ko": "ONDA 가격은 여기서 먼저 참고하실 수 있도록 드릴게요😊"
+                  },
+                  {
+                    "date": "2026-10-31",
+                    "original": "您也可以跟我們說一下最想改善的位置，再幫您初步推薦比較合適的療程喔🤍",
+                    "ko": "가장 개선하고 싶은 부위를 저희에게 말씀해 주셔도 돼요. 그러면 우선 더 적합한 시술을 추천해 드릴게요🤍"
+                  }
+                ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K221:N226"
               },
               {
-                "id": "MISS-G-20261031-071",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "직접 질문 문장 없이 병원 문의 유입이 남았다.",
-                "staffFinalResponse": "원문:\n您好，請問需要協助您預約嗎？或者有其他問題都可以詢問喔!\n\n한국어 번역:\n안녕하세요, 예약을 도와드릴까요? 아니면 다른 궁금한 점이 있으셔도 문의하셔도 돼요!\n\n원문:\n您也可以跟我們說一下最想改善的位置，再幫您初步推薦比較合適的療程喔🤍\n\n한국어 번역:\n가장 개선하고 싶은 부위를 저희에게 말씀해 주셔도 돼요. 그러면 우선 더 적합한 시술을 추천해 드릴게요🤍",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "직원은 예약 도움이 필요한지와 개선을 원하는 부위를 물어 상담을 접수했다.",
-                "procedure": "시술 확인되지 않음",
-                "questionCategory": "예약·상담 접수",
-                "questionDate": null,
-                "responseEndedDate": "2026-10-31",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K227:N228"
-              },
-              {
-                "id": "MISS-G-20261031-072",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "원문:\n會到喔～\n\n한국어 번역:\n방문할게요～",
-                "staffFinalResponse": "원문:\n沒問題，謝謝您的回覆，晚點見囉😊\n\n한국어 번역:\n문제없어요, 답변해 주셔서 감사합니다. 이따 뵐게요😊",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "10월 30일 방문하겠다는 고객의 회신에 직원은 10월 31일 감사 인사와 방문 확인으로 답했다.",
-                "procedure": "시술 확인되지 않음",
-                "questionCategory": "방문 확인 회신",
-                "questionDate": null,
-                "responseEndedDate": "2026-10-31",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K229:N230"
-              },
-              {
-                "id": "MISS-G-20261031-073",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "전날 일정 제안 UI가 접수됐다.",
-                "staffFinalResponse": "원문:\nYour reservation has been scheduled for the following date and time:\n\n📅 Day :  [예약일]\n⏰ Time : [예약시간]\n\n📍Location : 66 Yanghwa-ro, Mapo, Seoul, 6F  \n\nLink for location \n* Naver Map : https://naver.me/5ap1E0ph\n* Google : https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 Please bring your Alien Registration Card or Passport with you.\n\nWe look forward to meeting you soon.🥰\n\nThank you 🙂\n\nBeauty Blossom Global Clinic Team🌸\n\n한국어 번역:\n예약이 다음 날짜와 시간으로 잡혔습니다:\n\n📅 날짜 :  [예약일]\n⏰ 시간 : [예약시간]\n\n📍위치 : 66 Yanghwa-ro, Mapo, Seoul, 6F (서울 마포 양화로 66, 6층)  \n\n위치 링크 \n* Naver Map : https://naver.me/5ap1E0ph\n* Google : https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 외국인등록증이나 여권을 지참해 주세요.\n\n곧 만나 뵙기를 기대하겠습니다.🥰\n\n감사합니다 🙂\n\nBeauty Blossom Global Clinic Team (Beauty Blossom 글로벌 클리닉 팀)🌸",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "고객이 제안한 선택지 중 한 일정으로 직원이 예약 확정을 안내하고 위치와 외국인등록증·여권 지참을 설명했다.",
-                "procedure": "겨드랑이 관리(이벤트 유입)",
-                "questionCategory": "예약 확정",
-                "questionDate": null,
-                "responseEndedDate": "2026-10-31",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K231:N232"
-              },
-              {
                 "id": "MISS-G-20261031-074",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "직접 질문 없이 이벤트 유입이 남았다.",
-                "staffFinalResponse": "원문:\nHi~ Here is our promotion for your reference✨\n\nIf you have any question, please feel free to ask us anytime💕\n[이미지 응답]\n\n한국어 번역:\n안녕하세요~ 참고하실 수 있도록 저희 프로모션을 보내드립니다✨\n\n궁금한 점이 있으시면 언제든 편하게 문의해 주세요💕\n[이미지 응답]",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "직원은 피코슈어 이벤트 유입에 프로모션 자료를 안내하고 추가 질문을 받겠다고 답했다.",
-                "procedure": "피코슈어(이벤트 유입)",
-                "questionCategory": "프로모션 안내",
+                "recordIds": [
+                  "MISS-G-20261031-074"
+                ],
+                "kind": "inflow",
+                "country": "CA",
+                "procedure": "피코슈어",
+                "category": "행사 안내",
+                "verdict": "image",
+                "reason": "프로모션 이미지를 보내고 궁금한 점은 언제든 문의해 달라고 안내했다.",
                 "questionDate": null,
-                "responseEndedDate": "2026-10-31",
+                "finalReplyDate": "2026-10-31",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (상품·이벤트 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "Hi~ Here is our promotion for your reference✨\n\nIf you have any question, please feel free to ask us anytime💕",
+                    "ko": "안녕하세요~ 참고하실 수 있도록 저희 프로모션을 보내드립니다✨\n\n궁금한 점이 있으시면 언제든 편하게 문의해 주세요💕\n[이미지 응답]",
+                    "image": true
+                  }
+                ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K233:N236"
-              },
-              {
-                "id": "MISS-G-20261031-075",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "전날 이벤트 접수 후 새 고객 질문은 없다.",
-                "staffFinalResponse": "원문:\nHi~ Here is our promotion for your reference✨\n\nIf you have any question, please feel free to ask us anytime💕\n[이미지 응답]\n\n한국어 번역:\n안녕하세요~ 참고하실 수 있도록 저희 프로모션을 보내드립니다✨\n\n궁금한 점이 있으시면 언제든 편하게 문의해 주세요💕\n[이미지 응답]",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "직원은 전날 접수된 피코슈어 이벤트에 프로모션 자료를 보내고 추가 질문을 받겠다고 답했다.",
-                "procedure": "피코슈어(이벤트 유입)",
-                "questionCategory": "프로모션 안내",
-                "questionDate": null,
-                "responseEndedDate": "2026-10-31",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K237:N237"
-              },
-              {
-                "id": "MISS-G-20261031-076",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "전날 이벤트 접수 후 당일 새 질문은 없다.",
-                "staffFinalResponse": "원문:\nสวัสดีค่ะ ตอนนี้ทางคลินิกมีโปรโมชั่นอยู่ตามภาพเลยนะคะ\n\nหากมีข้อสงสัยใดๆเพิ่มเติมสามารถแอดไลน์มาสอบถามได้เลยค่ะ มีแอดมินคนไทยและล่ามไทยให้บริการอยู่ตลอดนะคะะ 🥰🙏\n[이미지 응답]\n\n한국어 번역:\n안녕하세요. 현재 클리닉에는 사진과 같은 프로모션이 있습니다.\n\n추가로 궁금한 점이 있으시면 LINE을 추가하여 문의하셔도 됩니다. 태국인 관리자와 태국어 통역사가 항상 서비스를 제공하고 있어요 🥰🙏\n[이미지 응답]",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "직원은 인모드 이벤트에 프로모션 자료와 태국인 상담 담당자·태국어 통역 문의 경로를 안내했다.",
-                "procedure": "인모드(이벤트 유입)",
-                "questionCategory": "프로모션·태국어 상담",
-                "questionDate": null,
-                "responseEndedDate": "2026-10-31",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K238:N238"
-              },
-              {
-                "id": "MISS-G-20261031-077",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "전날 이벤트 유입 후 당일 새 질문은 없다.",
-                "staffFinalResponse": "원문:\nHi~ If you have any question, please feel free to ask us anytime💕\n\n한국어 번역:\n안녕하세요~ 궁금한 점이 있으시면 언제든 편하게 문의해 주세요💕",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "직원은 수염 제모 이벤트 접수 후 궁금한 점이 있으면 언제든 문의해 달라는 인사로 응대했다.",
-                "procedure": "수염 제모(이벤트 유입)",
-                "questionCategory": "인사·추가 문의 접수",
-                "questionDate": null,
-                "responseEndedDate": "2026-10-31",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K239:N239"
-              },
-              {
-                "id": "MISS-G-20261031-078",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\n你好，請問[희망 방문일 가림]可以預約嗎？\n\n한국어 번역:\n안녕하세요, [희망 방문일 가림] 예약할 수 있을까요?",
-                "staffFinalResponse": "원문:\n您好，若您希望[방문일 가림]來院的話，最晚建議於[내원 마감 시각 가림]前抵達，以確保諮詢+施作時間充足喔~\n\n한국어 번역:\n안녕하세요, [방문일 가림] 내원을 원하시면 상담+시술 시간이 충분하도록 늦어도 [내원 마감 시각 가림] 전에는 도착하시는 것을 권장해요~",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "직원은 상담과 시술에 필요한 시간을 고려해 내원 가능한 시간대를 안내했다.",
-                "procedure": "인모드(이벤트 유입)",
-                "questionCategory": "당일 예약 시간",
-                "questionDate": null,
-                "responseEndedDate": "2026-10-31",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K240:N241"
               }
-            ]
+            ],
+            "merged": [
+              {
+                "recordId": "MISS-G-20261031-067",
+                "intoDate": "2026-10-30",
+                "intoId": "G-20261030-037"
+              },
+              {
+                "recordId": "MISS-G-20261031-076",
+                "intoDate": "2026-10-30",
+                "intoId": "G-20261030-038"
+              },
+              {
+                "recordId": "MISS-G-20261031-071",
+                "intoDate": "2026-10-30",
+                "intoId": "G-20261030-040"
+              },
+              {
+                "recordId": "MISS-G-20261031-078",
+                "intoDate": "2026-10-30",
+                "intoId": "G-20261030-043"
+              },
+              {
+                "recordId": "MISS-G-20261031-073",
+                "intoDate": "2026-10-30",
+                "intoId": "G-20261030-044"
+              },
+              {
+                "recordId": "MISS-G-20261031-075",
+                "intoDate": "2026-10-30",
+                "intoId": "G-20261030-045"
+              },
+              {
+                "recordId": "MISS-G-20261031-077",
+                "intoDate": "2026-10-30",
+                "intoId": "G-20261030-046"
+              }
+            ],
+            "unavailable": {
+              "recordIds": [
+                "MISS-G-20261031-002",
+                "MISS-G-20261031-003",
+                "MISS-G-20261031-004",
+                "MISS-G-20261031-005",
+                "MISS-G-20261031-006",
+                "MISS-G-20261031-007",
+                "MISS-G-20261031-008",
+                "MISS-G-20261031-009",
+                "MISS-G-20261031-010",
+                "MISS-G-20261031-011",
+                "MISS-G-20261031-012",
+                "MISS-G-20261031-014",
+                "MISS-G-20261031-015",
+                "MISS-G-20261031-017",
+                "MISS-G-20261031-018",
+                "MISS-G-20261031-019",
+                "MISS-G-20261031-020",
+                "MISS-G-20261031-021",
+                "MISS-G-20261031-022",
+                "MISS-G-20261031-023",
+                "MISS-G-20261031-024",
+                "MISS-G-20261031-025",
+                "MISS-G-20261031-026",
+                "MISS-G-20261031-027",
+                "MISS-G-20261031-028",
+                "MISS-G-20261031-032",
+                "MISS-G-20261031-033",
+                "MISS-G-20261031-034",
+                "MISS-G-20261031-036",
+                "MISS-G-20261031-038",
+                "MISS-G-20261031-040",
+                "MISS-G-20261031-041",
+                "MISS-G-20261031-046",
+                "MISS-G-20261031-050",
+                "MISS-G-20261031-051",
+                "MISS-G-20261031-064"
+              ]
+            }
           }
         },
         {
@@ -10261,867 +10590,1837 @@ window.SUPERVISION_DATA = {
             }
           ],
           "qaReviewFinalization": {
-            "schemaVersion": 1,
+            "schemaVersion": 2,
             "finalizedAt": "2026-11-02T08:34:55.803Z",
             "finalStatus": "completed",
             "sourceCoverage": "partial",
-            "records": [
-              {
-                "id": "G-20261030-042",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\n想更詳細了解施術／手術內容\n한국어 번역:\n시술／수술 내용을 더 자세히 알고 싶어요\n\n원문:\n臉部毛孔\n한국어 번역:\n얼굴 모공",
-                "staffFinalResponse": "원문:\n黃金微針的價格這邊可以先給您參考喔😊\n한국어 번역:\n골드 미세침 가격을 먼저 참고하시도록 안내해 드릴게요😊\n\n원문:\n您也可以跟我們說一下最想改善的位置，再幫您初步推薦比較合適的療程喔🤍\n한국어 번역:\n가장 개선하고 싶은 부위를 알려 주시면 우선 더 적합한 시술을 추천해 드릴게요🤍\n\n원문:\n如果比較在意 毛孔＋出油，可以考慮 毛孔探頭，針對皮脂分泌跟毛孔做加強。\n한국어 번역:\n모공과 유분이 더 신경 쓰인다면 모공 팁을 고려할 수 있으며 피지 분비와 모공을 집중 관리합니다.\n\n원문:\n如果 凹痘疤、膚質凹凸感比較明顯，會更推薦參考 Pumping探頭＋Juvelook Skin，會比單純毛孔模式更著重在凹疤、毛孔跟整體膚質的改善🤍\n한국어 번역:\n패인 여드름 흉터와 울퉁불퉁한 피부결이 뚜렷하다면 펌핑 팁＋쥬베룩 스킨을 더 권해 드립니다. 단순 모공 모드보다 패인 흉터, 모공, 전반적인 피부결 개선에 더 중점을 둡니다🤍\n\n원문:\n您在unni上看到的活動來院也都是一樣的價格喔!\n한국어 번역:\nunni에서 보신 이벤트는 내원하셔도 모두 동일한 가격입니다!\n\n원문:\n黃金微針做一次通常就會有一些改善喔😊\n한국어 번역:\n골드 미세침은 한 번만 받아도 보통 어느 정도 개선이 있습니다😊\n\n원문:\n但如果主要想改善的是毛孔粗大、凹痘疤、細紋或膚質不平整，通常還是需要累積幾次療程，效果會比較明顯、也比較穩定～\n한국어 번역:\n다만 주로 넓은 모공, 패인 여드름 흉터, 잔주름 또는 고르지 않은 피부결을 개선하려면 보통 여러 차례 시술을 누적해야 효과가 더 뚜렷하고 안정적입니다～\n\n원문:\n實際需要做幾次會依原本的毛孔、痘疤深度跟膚況不同，通常不會建議只看單次效果就判斷療程有沒有用喔🤍\n한국어 번역:\n실제 필요한 횟수는 원래 모공, 흉터 깊이와 피부 상태에 따라 다릅니다. 일반적으로 한 번의 효과만 보고 시술이 유효한지 판단하는 것은 권하지 않습니다🤍",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "모공·유분과 패인 흉터를 구분해 팁을 설명하고 필요한 횟수는 피부 상태에 따라 달라진다고 답했다. 포텐자 가이드의 고민·팁·모드별 구분 및 진료 후 횟수 안내 원칙에 맞는 정상 안내다.",
-                "procedure": "포텐자",
-                "questionCategory": "효과·횟수·예약",
-                "questionDate": "2026-10-30",
-                "responseEndedDate": "2026-10-31",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A2:Z2"
-              },
-              {
-                "id": "G-20261030-035",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "원문:\nHi, so sorry I am on the way! The traffic is bad right now...\n한국어 번역:\n안녕하세요, 정말 죄송해요. 가는 중입니다! 지금 교통이 많이 막혀요...",
-                "staffFinalResponse": "원문:\nNo worries at all! Please take your time and travel safely. We look forward to seeing you! 😊\n한국어 번역:\n전혀 괜찮습니다! 서두르지 마시고 안전하게 오세요. 뵙기를 기다리겠습니다! 😊",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "이동 중 교통 지연을 알린 고객에게 서두르지 말고 안전하게 오라고 답하며 내원 안내를 마쳤다.",
-                "procedure": "사각턱 보톡스 상품 유입",
-                "questionCategory": "내원 안내",
-                "questionDate": null,
-                "responseEndedDate": "2026-10-31",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A3:Z3"
-              },
-              {
-                "id": "G-20261030-030",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "원문:\n改約[예약일시비공개]\n한국어 번역:\n[예약일시비공개]로 예약을 변경해 주세요\n\n원문:\n[예약일시비공개]\n한국어 번역:\n[예약일시비공개]",
-                "staffFinalResponse": "원문:\n好的，那這邊為您修改預約喔~\n한국어 번역:\n네, 그럼 이쪽에서 예약을 변경해 드릴게요~\n\n원문:\n🌸 Beauty Blossom 預約完成 ✅\n\n📅 預約日期：[예약일시비공개]\n⏰ 預約時間：[예약일시비공개]\n👤 預約人數：2位\n\n📍 診所地址\n首爾特別市麻浦區楊花路66號\nMedione Medical Center 6樓\n（合井站3號出口）\n💡 英文／韓文地址及地圖導航，可至 LINE 選單點選「地址」查看。\n\n📌 來院前請留意\n・來院時請務必攜帶護照，以便辦理登記。\n・如需更改或取消預約，請提前透過 LINE 與我們聯繫。\n・若當天僅進行諮詢、未接受療程，將收取 ₩10,000 諮詢費。\n\n感謝您的預約，期待您的到來💗\n한국어 번역:\n🌸 Beauty Blossom 예약 완료 ✅\n\n📅 예약 날짜：[예약일시비공개]\n⏰ 예약 시간：[예약일시비공개]\n👤 예약 인원：2명\n\n📍 병원 주소\n서울특별시 마포구 양화로66\nMedione Medical Center 6층\n（합정역3번 출구）\n💡 영문／한국어 주소와 지도 길찾기는 LINE 메뉴에서 「주소」를 눌러 확인하실 수 있습니다.\n\n📌 내원 전 유의사항\n・접수를 위해 내원 시 반드시 여권을 지참해 주세요.\n・예약 변경이나 취소가 필요하면 미리 LINE으로 연락해 주세요.\n・당일 상담만 받고 시술을 받지 않으면 ₩10,000 상담료가 부과됩니다.\n\n예약해 주셔서 감사합니다. 방문을 기다리겠습니다💗",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "예약 변경 요청에 변경하겠다고 답하고 새 예약 확정문을 보냈다. 변경 수락과 확정 안내로 마친 운영 응대다.",
-                "procedure": "확인되지 않음",
-                "questionCategory": "예약 변경",
-                "questionDate": null,
-                "responseEndedDate": "2026-10-31",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A4:Z4"
-              },
-              {
-                "id": "G-20261030-037",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "원문:\n予定が変更になって来院が難しくなったためキャンセルしたいです。すみません\n次回利用させていただきます\n한국어 번역:\n일정이 변경되어 내원이 어려워져서 취소하고 싶습니다. 죄송합니다\n다음에 이용하겠습니다",
-                "staffFinalResponse": "원문:\nご連絡いただきありがとうございます😊今回はご予約をキャンセルさせていただきます。\n\nまた韓国にお越しの際や、ご都合が合う際には、ぜひお気軽にご連絡ください✨\n한국어 번역:\n연락해 주셔서 감사합니다😊이번 예약은 취소해 드리겠습니다.\n\n다시 한국에 오시거나 일정이 맞으실 때 편하게 연락해 주세요✨",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "일정 변경으로 취소를 요청한 고객에게 예약을 취소하겠다고 명시하고 재방문 때 연락해 달라고 답했다. 취소 요청에 대한 정상 운영 응대다.",
-                "procedure": "제모·피코 토닝",
-                "questionCategory": "예약 취소",
-                "questionDate": "2026-10-30",
-                "responseEndedDate": "2026-10-31",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A5:Z5"
-              },
-              {
-                "id": "G-20261030-029",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "원문:\n是\n한국어 번역:\n네",
-                "staffFinalResponse": "원문:\n沒問題，謝謝您的回覆，期待您的到來😊\n한국어 번역:\n네, 답변 감사합니다. 방문을 기다리겠습니다😊",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "방문 여부에 고객이 긍정으로 답하자 회신에 감사하며 방문을 기다리겠다고 응대를 마쳤다.",
-                "procedure": "골드 미세침 예약 문맥",
-                "questionCategory": "방문 확인",
-                "questionDate": null,
-                "responseEndedDate": "2026-10-31",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A6:Z6"
-              },
-              {
-                "id": "G-20261030-039",
-                "status": "reviewed",
-                "disposition": "archived-only",
-                "customerQuestion": "30일 보관본에는 고객 직접 질문 없이 상품 유입만 있다.",
-                "staffFinalResponse": "원문:\n您好，這裡是Beauty Blossom🌸\n非常感謝您使用我們的線上諮詢服務😊\n\n若您有任何疑問或想進一步諮詢，歡迎直接加入我們的LINE官方帳號與我們聯繫!\n歡迎加入我們的官方LINE：\nID：@beautyblossom_tw\n한국어 번역:\n안녕하세요, Beauty Blossom입니다🌸\n저희 온라인 상담 서비스를 이용해 주셔서 정말 감사합니다😊\n\n궁금한 점이 있거나 더 자세한 상담을 원하시면 저희 LINE 공식 계정을 추가하여 연락해 주세요!\n저희 공식 LINE을 추가해 주세요:\nID：@beautyblossom_tw",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "병원 인사와 공식 LINE 연락 경로를 안내했다. 보관 응답만 표시하고 기존 archived-only 제외를 유지한다.",
-                "procedure": "주름 보톡스 상품 유입",
-                "questionCategory": "연락 경로",
-                "questionDate": null,
-                "responseEndedDate": "2026-10-30",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A7:Z7"
-              },
-              {
-                "id": "G-20261030-040",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "병원 문의 유입만 있고 직접 작성한 질문은 없다.",
-                "staffFinalResponse": "원문:\n您好，請問需要協助您預約嗎？或者有其他問題都可以詢問喔!\n한국어 번역:\n안녕하세요, 예약을 도와드릴까요? 다른 궁금한 점이 있으면 물어보셔도 됩니다!\n\n원문:\n您也可以跟我們說一下最想改善的位置，再幫您初步推薦比較合適的療程喔🤍\n한국어 번역:\n가장 개선하고 싶은 부위를 알려 주시면 우선 더 적합한 시술을 추천해 드릴게요🤍",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "예약 도움이 필요한지 묻고 개선 희망 부위를 알려 달라고 안내했다. 구체 시술 선택 전 상담 목적을 확인하는 운영 응대다.",
-                "procedure": "확인되지 않음",
-                "questionCategory": "상담 유도",
-                "questionDate": null,
-                "responseEndedDate": "2026-10-31",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A8:Z8"
-              },
-              {
-                "id": "G-20261030-041",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\n不好意思～想請問打完音波能夠化妝嗎\n한국어 번역:\n죄송한데～초음파 시술 후 화장해도 되는지 여쭤보고 싶어요",
-                "staffFinalResponse": "원문:\n可以的，手法盡量輕柔不要大力的話，當天是可以正常上妝的喔!\n한국어 번역:\n네, 동작을 최대한 부드럽게 하고 세게 힘을 주지 않으면 당일에도 평소처럼 화장하셔도 됩니다!\n\n원문:\n[예약일시비공개]療程結束後，我們也都會發送注意事項給您，音波的話因為不會有傷口，所以正常洗臉化妝都是沒問題的喔!\n한국어 번역:\n[예약일시비공개] 시술이 끝나면 주의사항도 보내드리겠습니다. 초음파는 상처가 생기지 않아서 평소처럼 세안과 화장을 하셔도 문제없습니다!\n\n원문:\n若有問題也都可以再詢問~\n한국어 번역:\n궁금한 점이 있으면 또 물어보셔도 됩니다~",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "초음파 시술 당일 화장을 묻자 부드럽게 하고 세게 힘주지 않으면 가능하다고 답했다. 당일 가벼운 세안·화장을 허용하는 HIFU 가이드와 일치한다.",
-                "procedure": "울트라포머 초음파 리프팅",
-                "questionCategory": "시술 후 화장",
-                "questionDate": "2026-10-30",
-                "responseEndedDate": "2026-10-31",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A9:Z9"
-              },
-              {
-                "id": "G-20261030-044",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "직접 임상 질문 없이 일정 제안 카드가 있다.",
-                "staffFinalResponse": "원문:\nYour reservation has been scheduled for the following date and time:\n\n📅 Day :  [예약일시비공개]\n⏰ Time : [예약일시비공개]\n\n📍Location : 66 Yanghwa-ro, Mapo, Seoul, 6F  \n\nLink for location \n* Naver Map : [링크비공개]\n* Google : [링크비공개]\n\n💳 Please bring your Alien Registration Card or Passport with you.\n\nWe look forward to meeting you soon.🥰\n\nThank you 🙂\n\nBeauty Blossom Global Clinic Team🌸\n한국어 번역:\n다음 날짜와 시간으로 예약되었습니다:\n\n📅 날짜 :  [예약일시비공개]\n⏰ 시간 : [예약일시비공개]📍위치 : 서울 마포구 양화로66, 6층  \n\n위치 링크 \n* Naver Map : [링크비공개]\n* Google : [링크비공개]\n\n💳 외국인등록증 또는 여권을 지참해 주세요.\n\n곧 뵙기를 기대합니다.🥰\n\n감사합니다 🙂\n\nBeauty Blossom 글로벌 클리닉 팀🌸",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "예약 확정을 알리고 병원 위치와 신분증 지참을 안내하며 운영 응대를 마쳤다.",
-                "procedure": "여성 겨드랑이 관리 상품 유입",
-                "questionCategory": "예약",
-                "questionDate": null,
-                "responseEndedDate": "2026-10-31",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A10:Z10"
-              },
-              {
-                "id": "G-20261030-045",
-                "status": "reviewed",
-                "disposition": "image-replied",
-                "customerQuestion": "직접 질문 없이 피코 상품 유입 표시가 있다.",
-                "staffFinalResponse": "원문:\nHi~ Here is our promotion for your reference✨\n\nIf you have any question, please feel free to ask us anytime💕\n한국어 번역:\n안녕하세요~ 참고하실 수 있도록 프로모션을 안내해 드립니다✨\n\n궁금한 점이 있으면 언제든지 편하게 물어보세요💕\n\n[이미지 응답]",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "프로모션을 참고하도록 보내고 궁금한 점은 언제든 문의하라고 답했다. 이미지 전송과 추가 상담 안내가 있는 응대다.",
-                "procedure": "피코 상품 유입",
-                "questionCategory": "프로모션",
-                "questionDate": null,
-                "responseEndedDate": "2026-10-31",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A11:Z11"
-              },
-              {
-                "id": "G-20261030-038",
-                "status": "reviewed",
-                "disposition": "image-replied",
-                "customerQuestion": "직접 질문 없이 인모드 상품 유입 표시가 있다.",
-                "staffFinalResponse": "원문:\nสวัสดีค่ะ ตอนนี้ทางคลินิกมีโปรโมชั่นอยู่ตามภาพเลยนะคะ\n\nหากมีข้อสงสัยใดๆเพิ่มเติมสามารถแอดไลน์มาสอบถามได้เลยค่ะ มีแอดมินคนไทยและล่ามไทยให้บริการอยู่ตลอดนะคะะ 🥰🙏\n한국어 번역:\n안녕하세요, 현재 병원에서 이미지와 같은 프로모션을 진행하고 있습니다.\n\n추가로 궁금한 점이 있으면 LINE을 추가하여 문의해 주세요. 태국인 상담 담당자와 태국어 통역사가 항상 서비스를 제공하고 있습니다 🥰🙏\n\n[이미지 응답]",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "프로모션 이미지와 함께 태국어 담당자·통역 및 추가 문의 경로를 안내했다. 이미지 응답 뒤 연락 방법을 제공한 응대다.",
-                "procedure": "인모드 상품 유입",
-                "questionCategory": "프로모션·통역",
-                "questionDate": null,
-                "responseEndedDate": "2026-10-31",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A12:Z12"
-              },
-              {
-                "id": "G-20261030-046",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "직접 질문 없이 제모 상품 유입만 있다.",
-                "staffFinalResponse": "원문:\nHi~ If you have any question, please feel free to ask us anytime💕\n한국어 번역:\n안녕하세요~ 궁금한 점이 있으면 언제든 편하게 물어보세요💕",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "궁금한 점은 언제든 물어보라고 답하며 상담 접수를 안내했다.",
-                "procedure": "남성 수염 제모 상품 유입",
-                "questionCategory": "상담 유도",
-                "questionDate": null,
-                "responseEndedDate": "2026-10-31",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A13:Z13"
-              },
-              {
-                "id": "G-20261030-043",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "원문:\n你好，請問[예약일시비공개]可以預約嗎？\n한국어 번역:\n안녕하세요, [예약일시비공개] 예약할 수 있을까요?",
-                "staffFinalResponse": "원문:\n您好，若您希望今天來院的話，最晚建議於[예약일시비공개]前抵達，以確保諮詢+施作時間充足喔~\n한국어 번역:\n안녕하세요, 오늘 내원을 원하시면 상담과 시술 시간을 충분히 확보할 수 있도록 늦어도 [예약일시비공개] 전까지 도착하시는 것을 권해 드립니다~",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "예약 가능 여부를 묻자 상담·시술 시간을 확보할 수 있도록 도착 마감시간을 안내했다. 내원 가능 조건을 구체적으로 설명한 운영 응대다.",
-                "procedure": "인모드 상품 유입",
-                "questionCategory": "예약 시간",
-                "questionDate": "2026-10-30",
-                "responseEndedDate": "2026-10-31",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A14:Z14"
-              },
-              {
-                "id": "G-20261030-028",
-                "status": "reviewed",
-                "disposition": "image-replied",
-                "customerQuestion": "원문:\n到院時需要中文翻譯服務\n한국어 번역:\n내원할 때 중국어 통역 서비스가 필요해요\n\n원문:\n咀嚼肌 斜方肌肉毒 眼部肉毒 電波 法令紋填補\n한국어 번역:\n저작근 보톡스, 승모근 보톡스, 눈가 보톡스, 고주파, 팔자주름 필러\n\n원문:\n可以給我其他報價嗎 謝謝\n한국어 번역:\n다른 가격도 알려 주실 수 있을까요 감사합니다",
-                "staffFinalResponse": "원문:\n我們院內都有中文翻譯人員，這個不用擔心喔✅\n한국어 번역:\n저희 병원에는 중국어 통역 직원이 있으니 이 부분은 걱정하지 않으셔도 됩니다✅\n\n[이미지 응답]\n\n[이미지 응답]\n\n원문:\n因為電波有很多種，不確定您要哪一種，請問主要希望改善的部位是哪裡呢？\n한국어 번역:\n고주파에는 여러 종류가 있어서 어느 것을 원하시는지 모르겠습니다. 주로 개선하고 싶은 부위가 어디인가요?\n\n[이미지 응답]\n\n원문:\n法令紋玻尿酸填補的話可以參考這個價目表\n한국어 번역:\n팔자주름 히알루론산 필러는 이 가격표를 참고하시면 됩니다",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "중국어 통역 요청에는 직원이 있다고 직접 답하고 가격 요청에는 이미지로 응답했다. 고주파 종류를 정하기 위해 개선 부위를 되묻고 팔자 필러는 가격표를 참고하도록 안내했다.",
-                "procedure": "보톡스·고주파·팔자 필러",
-                "questionCategory": "통역·가격",
-                "questionDate": "2026-10-30",
-                "responseEndedDate": "2026-10-30",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A15:Z15"
-              },
-              {
-                "id": "G-20261030-031",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\nHi there :( I missed my bus and don’t think I will get there on time. Could I do [예약일시비공개] instead please [예약일시비공개]?\n한국어 번역:\n안녕하세요 :( 버스를 놓쳐서 제시간에 도착하지 못할 것 같아요. 대신 [예약일시비공개] [예약일시비공개]에 가능할까요?\n\n원문:\nI’m so sorry for the troubke\n한국어 번역:\n불편을 드려서 정말 죄송해요\n\n원문:\nTrouble*\n한국어 번역:\n불편*\n\n원문:\nWhat is the earliest available time you have on [예약일시비공개] and what is the latest available time? Is [예약일시비공개] okay?\n한국어 번역:\n[예약일시비공개]에 가능한 가장 이른 시간과 가장 늦은 시간이 언제인가요? [예약일시비공개] 괜찮을까요?\n\n원문:\nWhat about [예약일시비공개]?\n한국어 번역:\n[예약일시비공개]은요?\n\n원문:\nDo you think if we start our appointment at [예약일시비공개] that I’ll be done within 1.5 hours?\n한국어 번역:\n[예약일시비공개]에 예약을 시작하면 1.5시간 안에 끝날 수 있을까요?\n\n원문:\nIf yes, may I book for [예약일시비공개]?\n한국어 번역:\n그렇다면 [예약일시비공개]으로 예약해도 될까요?",
-                "staffFinalResponse": "원문:\nNo worries at all 😊 **[예약일시비공개] is already fully booked** 🙏  \nWould **[예약일시비공개]** be okay for you instead? 😊\n한국어 번역:\n전혀 괜찮습니다 😊 **[예약일시비공개]은 이미 예약이 마감되었습니다** 🙏  \n대신 **[예약일시비공개]** 괜찮으실까요? 😊\n\n원문:\n[예약일시비공개], our earliest available appointment is [예약일시비공개] 😊\n한국어 번역:\n[예약일시비공개] 가장 이른 예약 가능 시간은 [예약일시비공개]입니다 😊\n\n원문:\nSorry, [예약일시비공개] is also fully booked 🙏 the earliest slot on [예약일시비공개] is [예약일시비공개]\n한국어 번역:\n죄송하지만 [예약일시비공개]도 예약이 마감되었습니다 🙏 [예약일시비공개] 가장 이른 시간은 [예약일시비공개]입니다\n\n원문:\nDepending on the waiting time, your treatment can usually be completed within an hour and a half. ^^\n한국어 번역:\n대기시간에 따라 다르지만 보통 1.5시간 이내에 시술을 마칠 수 있습니다. ^^",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "일정 변경 가능 시간을 조율하고 1.5시간 안에 마칠 수 있는지에는 대기시간에 따라 다르지만 보통 가능하다고 답했다. 대기 조건을 포함한 소요시간 안내다.",
-                "procedure": "겨드랑이 제모·미백·얼굴 레이저",
-                "questionCategory": "예약 변경·소요시간",
-                "questionDate": "2026-10-30",
-                "responseEndedDate": "2026-10-30",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A16:Z16"
-              },
-              {
-                "id": "G-20261030-001",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "직접 질문 없이 상품 유입 표시가 있다.",
-                "staffFinalResponse": "원문:\nHi~ If you have any question, please feel free to ask us anytime💕\n한국어 번역:\n안녕하세요~ 궁금한 점이 있으면 언제든 편하게 물어보세요💕",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "궁금한 점을 언제든 문의하라고 답하며 상담 경로를 열어 두었다.",
-                "procedure": "여성 겨드랑이 관리 상품 유입",
-                "questionCategory": "상담 유도",
-                "questionDate": null,
-                "responseEndedDate": "2026-10-30",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A17:Z17"
-              },
-              {
-                "id": "G-20261030-027",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\n您好，目前的話 咀嚼肌部分跟斜方肌部分想改善 也想做onda改善手臂\n한국어 번역:\n안녕하세요, 지금은 저작근과 승모근 부분을 개선하고 싶고 팔도 onda로 개선하고 싶어요\n\n원문:\n可是我沒有做到臉部保養的部分，請問有推薦做皮膚檢測嗎？\n한국어 번역:\n그런데 저는 얼굴 관리 부분은 하지 않는데, 피부 검사를 받는 것을 추천하시나요?",
-                "staffFinalResponse": "원문:\n斜方肌可以參考身體肉毒的部分，施打劑量還是要依您實際肌肉大小來評估~\n한국어 번역:\n승모근은 바디 보톡스 부분을 참고하시면 됩니다. 주사 용량은 실제 근육 크기에 따라 평가해야 합니다~\n\n원문:\nONDA的話手臂一般會施作100-200KJ，也是看您脂肪量評估\n한국어 번역:\nONDA는 팔에 일반적으로 100-200KJ를 시술하며 이 역시 지방량에 따라 평가합니다\n\n원문:\n您好，進行肌膚檢測的話，依據不同療程施作總金額，肌膚檢測費用也會有差異，這邊先提供給您參考，謝謝！\n一般檢測費用為₩55,000\n療程費用達30萬以上，檢測費用為₩27,500\n療程費用達50萬以上，檢測費用為₩11,000\n療程費用達100萬以上，檢測費用免費\n한국어 번역:\n안녕하세요, 피부 검사를 받으시면 시술 총금액에 따라 피부 검사 비용도 달라집니다. 먼저 참고하시도록 안내해 드립니다. 감사합니다!\n일반 검사 비용은 ₩55,000\n시술 비용 30만 이상이면 검사 비용 ₩27,500\n시술 비용 50만 이상이면 검사 비용 ₩11,000\n시술 비용 100만 이상이면 검사 무료\n\n원문:\n因為肌膚檢測主要是針對臉部肌膚狀況進行精細的評估，若您此次預計施作肉毒和身體onda，肌膚檢測就是可以作為之後臉部改善的參考依據~\n한국어 번역:\n피부 검사는 주로 얼굴 피부 상태를 정밀하게 평가하는 것이므로, 이번에 보톡스와 바디 onda를 받으실 예정이라면 피부 검사는 향후 얼굴 개선을 위한 참고 자료로 활용하실 수 있습니다~\n\n원문:\n您也可以現場再決定是否要做檢測喔~\n한국어 번역:\n현장에서 검사를 받을지 결정하셔도 됩니다~",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "승모근 용량은 근육 크기, 팔 ONDA 에너지는 지방량에 따라 평가한다고 답하고 피부 검사는 현장 선택으로 안내했다. 검사비 55,000·27,500·11,000원과 100만원 이상 무료 조건은 중국어 가이드와 일치한다.",
-                "procedure": "저작근·승모근 보톡스·팔 ONDA",
-                "questionCategory": "용량·피부검사·예약",
-                "questionDate": "2026-10-30",
-                "responseEndedDate": "2026-10-30",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A18:Z18"
-              },
-              {
-                "id": "G-20261030-032",
-                "status": "reviewed",
-                "disposition": "image-replied",
-                "customerQuestion": "직접 질문 없이 상품 유입 표시가 있다.",
-                "staffFinalResponse": "원문:\nสวัสดีค่ะ ตอนนี้ทางคลินิกมีโปรโมชั่นอยู่ตามภาพเลยนะคะ\n\nหากมีข้อสงสัยใดๆเพิ่มเติมสามารถแอดไลน์มาสอบถามได้เลยค่ะ มีแอดมินคนไทยและล่ามไทยให้บริการอยู่ตลอดนะคะะ 🥰🙏\n한국어 번역:\n안녕하세요, 현재 병원에서 이미지와 같은 프로모션을 진행하고 있습니다.\n\n추가로 궁금한 점이 있으면 LINE을 추가하여 문의해 주세요. 태국인 상담 담당자와 태국어 통역사가 항상 서비스를 제공하고 있습니다 🥰🙏\n\n[이미지 응답]",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "프로모션 이미지와 태국어 담당자·통역 안내를 제공하고 LINE 추가 문의를 안내했다.",
-                "procedure": "스킨보톡스 상품 유입",
-                "questionCategory": "프로모션·통역",
-                "questionDate": null,
-                "responseEndedDate": "2026-10-30",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A19:Z19"
-              },
-              {
-                "id": "G-20261030-002",
-                "status": "reviewed",
-                "disposition": "archived-only",
-                "customerQuestion": "원문:\nมีล่ามไทยไหม หรือเครื่อง Ai ตรวจหน้า\n한국어 번역:\n태국어 통역사나 AI 얼굴 검사 기기가 있나요",
-                "staffFinalResponse": "원문:\nมีล่ามไทย และเครื่อง AI ตรวจหน้าด้วยค่ะะ\n한국어 번역:\n태국어 통역사와 AI 얼굴 검사 기기도 있습니다",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "태국어 통역과 AI 얼굴 검사 기기가 있는지에 둘 다 있다고 답했다. 보관 응답을 표시하며 기존 archived-only 제외를 유지한다.",
-                "procedure": "피부 분석",
-                "questionCategory": "태국어 통역·장비",
-                "questionDate": null,
-                "responseEndedDate": "2026-10-30",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A20:Z20"
-              },
-              {
-                "id": "G-20261030-003",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\nHi hello usually how many cc of skinvive is needed?\n한국어 번역:\n안녕하세요 보통 skinvive는 몇 cc가 필요한가요?\n\n원문:\nI have eczema history. Right now my face is stable, no flare up. But it’s really dry so I’m thinking to do either hb plus or skinvive\n한국어 번역:\n습진 병력이 있어요. 지금 얼굴은 안정적이고 증상이 악화된 상태는 아니에요. 그런데 정말 건조해서 hb plus나 skinvive 중 하나를 생각하고 있어요\n\n원문:\nDo you have skin analysis?\n한국어 번역:\n피부 분석을 제공하나요?\n\n원문:\nWill the doctor be the one who do the consultation?\n한국어 번역:\n상담은 의사가 직접 하나요?\n\n원문:\nYes given my eczema condition I would like the doctor to the consultation and recommend the treatment (:\n한국어 번역:\n네 습진 상태를 고려해서 의사가 상담하고 시술을 추천해 주셨으면 해요 (:",
-                "staffFinalResponse": "원문:\nHi 😊 The amount of SKINVIVE needed depends on the treatment area, your skin condition, and the result you’re looking for.\n한국어 번역:\n안녕하세요 😊 필요한 SKINVIVE 양은 시술 부위, 피부 상태, 원하시는 결과에 따라 달라집니다.\n\n원문:\nSKINVIVE comes in 1 cc per syringe, and the doctor will recommend the appropriate amount after checking your skin. For a larger area such as both cheeks, several cc may be needed for a more even overall result, but it doesn’t mean everyone needs the same amount.\n한국어 번역:\nSKINVIVE는 주사기당 1 cc이며 의사가 피부를 확인한 후 적절한 양을 추천합니다. 양 볼처럼 넓은 부위에는 전체적으로 더 균일한 결과를 위해 여러 cc가 필요할 수 있지만 모든 분께 같은 양이 필요하다는 뜻은 아닙니다.\n\n원문:\nThank you for letting us know 😊 Since you have a history of eczema, even if your skin is currently stable, we would recommend having the doctor check your skin condition first before deciding on the treatment.\n\nFor very dry skin, both Rejuran HB and Skinvive can be considered for hydration and overall skin quality. However, because eczema-prone skin can be more sensitive, the most suitable option will depend on your current skin barrier condition and whether there is any hidden irritation.\n\nIf there is no active flare-up, treatment may still be possible, but the doctor will confirm this during the consultation and recommend the gentler option for your skin 🌸\n한국어 번역:\n알려 주셔서 감사합니다 😊 습진 병력이 있으시므로 현재 피부가 안정적이더라도 시술을 결정하기 전에 먼저 의사가 피부 상태를 확인하는 것을 권해 드립니다.\n\n매우 건조한 피부에는 Rejuran HB와 Skinvive 모두 보습과 전반적인 피부 질 개선을 위해 고려할 수 있습니다. 다만 습진이 생기기 쉬운 피부는 더 민감할 수 있으므로 가장 적합한 선택은 현재 피부 장벽 상태와 겉으로 드러나지 않는 자극 유무에 따라 달라집니다.\n\n현재 증상이 활발하게 악화된 상태가 아니라면 시술이 가능할 수도 있지만, 의사가 상담에서 이를 확인하고 피부에 더 순한 방법을 추천할 것입니다 🌸\n\n원문:\nYes, we offer a 3D Skin Analysis (Eve-V Muse) to assess your skin condition in detail.💕\n\nThe pricing is as follows:\n* Basic: ₩55,000\n* ₩27,500 if your treatment exceeds ₩300,000\n* ₩11,000 if your treatment exceeds ₩500,000\n한국어 번역:\n네, 피부 상태를 자세히 평가하는 3D 피부 분석（Eve-V Muse）을 제공합니다.💕\n\n가격은 다음과 같습니다:\n* 기본: ₩55,000\n* 시술 금액이 ₩300,000을 초과하면 ₩27,500\n* 시술 금액이 ₩500,000을 초과하면 ₩11,000\n\n원문:\nIf you would like to consult with the doctor, we would be happy to arrange it for you.\n한국어 번역:\n의사와 상담하시기를 원하시면 기꺼이 예약해 드리겠습니다.\n\n원문:\nSure, What date and time would you prefer for your appointment?\n한국어 번역:\n네, 예약은 어느 날짜와 시간을 원하시나요?",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "습진 병력과 건조함을 듣고 의사가 피부 장벽·자극 상태를 확인한 뒤 시술과 용량을 정하도록 안내했다. 피부 분석비 55,000원과 시술금액별 27,500·11,000원은 영문 가이드와 일치한다.",
-                "procedure": "스킨바이브·리쥬란 HB",
-                "questionCategory": "용량·습진·의사 상담",
-                "questionDate": "2026-10-30",
-                "responseEndedDate": "2026-10-30",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A21:Z21"
-              },
-              {
-                "id": "G-20261030-033",
-                "status": "reviewed",
-                "disposition": "image-replied",
-                "customerQuestion": "직접 고객 질문 없이 피코 상품 유입 표시가 있다.",
-                "staffFinalResponse": "원문:\nHi~ Here is our promotion for your reference✨\n\nIf you have any question, please feel free to ask us anytime💕\n한국어 번역:\n안녕하세요~ 참고하실 수 있도록 프로모션을 안내해 드립니다✨\n\n궁금한 점이 있으면 언제든지 편하게 물어보세요💕\n\n[이미지 응답]",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "참고용 프로모션 이미지를 보내고 추가 질문은 언제든 해 달라고 답했다.",
-                "procedure": "피코 상품 유입",
-                "questionCategory": "프로모션",
-                "questionDate": null,
-                "responseEndedDate": "2026-10-30",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A22:Z22"
-              },
-              {
-                "id": "G-20261030-004",
-                "status": "reviewed",
-                "disposition": "image-replied",
-                "customerQuestion": "당일 직접 질문은 없으며 이전 날짜 예약 취소 문맥이 있다.",
-                "staffFinalResponse": "[이미지 응답]\n\n원문:\nIf you have any questions or need further information, please feel free to reach out to us anytime!\n\nThank you! 🌸\n한국어 번역:\n궁금한 점이나 더 필요한 정보가 있으면 언제든지 편하게 연락해 주세요!\n\n감사합니다! 🌸",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "프로모션 이미지와 추가 문의 안내를 보내 응대를 마쳤다.",
-                "procedure": "피코 상품 유입",
-                "questionCategory": "프로모션",
-                "questionDate": null,
-                "responseEndedDate": "2026-10-30",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A23:Z23"
-              },
-              {
-                "id": "G-20261030-005",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "직접 질문 없이 할인 조건이 적힌 상품 유입이 있다.",
-                "staffFinalResponse": "원문:\n您好，主要是想要針對腋下哪個部分進行改善呢？\n한국어 번역:\n안녕하세요, 겨드랑이의 어떤 부분을 주로 개선하고 싶으신가요?\n\n원문:\n您也可以跟我們說一下最想改善的位置，再幫您初步推薦比較合適的療程喔🤍\n한국어 번역:\n가장 개선하고 싶은 부위를 알려 주시면 우선 더 적합한 시술을 추천해 드릴게요🤍",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "겨드랑이에서 개선하려는 부분을 먼저 물었다. 구체 시술을 권하기 전에 상담 목적을 확인한 운영 응대다.",
-                "procedure": "여성 겨드랑이 관리 상품 유입",
-                "questionCategory": "개선 부위 확인",
-                "questionDate": null,
-                "responseEndedDate": "2026-10-30",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A24:Z24"
-              },
-              {
-                "id": "G-20261030-006",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\nAre there any extra fees?\n한국어 번역:\n추가 비용이 있나요?\n\n원문:\nPrices for wrinkle Botox, forehead, between brows, smile, and skin Botox? \n\nAlso looking for skin treatment I have a lot of tiny bumps and redness on cheeks\n한국어 번역:\n주름 보톡스, 이마, 미간, 미소 부위, 스킨 보톡스의 가격은 얼마인가요? \n\n볼에 작은 돌기와 붉은기가 많아서 피부 시술도 알아보고 있어요\n\n원문:\nIs the price for the Botox for all the three sections.?\n한국어 번역:\n보톡스 가격이 세 부위를 모두 포함한 가격인가요?",
-                "staffFinalResponse": "원문:\nThe prices shown on Gangnam Unni already include VAT 😊\n\nThere are no additional VAT charges on top of the listed price.\nIf you only come for a consultation without receiving treatment, there may be a consultation fee of ₩10,000, but if you proceed with treatment on the same day, the consultation fee is waived 🌸\n한국어 번역:\n강남언니에 표시된 가격에는 VAT가 이미 포함되어 있습니다 😊\n\n표시 가격에 별도의 VAT가 추가되지 않습니다.\n시술 없이 상담만 받으러 오시면 ₩10,000의 상담료가 있을 수 있지만, 당일 시술을 진행하면 상담료가 면제됩니다 🌸\n\n[이미지 응답]\n\n원문:\nHere is our promotion for your reference✨\n\nIf you have any question, please feel free to ask us anytime💕\n한국어 번역:\n참고하실 수 있도록 프로모션을 안내해 드립니다✨\n\n궁금한 점이 있으면 언제든 편하게 물어보세요💕\n\n원문:\nHere is our wrinkle Botox, forehead, between brows, smile, and skin Botox Prices for your reference✨\n한국어 번역:\n참고하시도록 주름 보톡스, 이마, 미간, 미소 부위, 스킨 보톡스 가격을 안내해 드립니다✨\n\n[이미지 응답]\n\n원문:\nIf you have a lot of tiny bumps and redness on the cheeks, we would recommend checking the skin first before choosing a treatment 😊\n\nDepending on whether the bumps are from clogged pores, active acne, irritation, or skin barrier sensitivity, the suitable treatment can be different.\n\nFor the redness, we can also assess whether a redness-focused laser would be appropriate. Since you have both bumps and redness, our expert can check which issue should be treated first and recommend a gentler combination that won’t irritate your skin unnecessarily 🌸\n한국어 번역:\n볼에 작은 돌기와 붉은기가 많다면 시술을 선택하기 전에 먼저 피부 상태를 확인하는 것을 권합니다 😊\n\n돌기가 모공 막힘, 활동성 여드름, 자극, 피부 장벽 민감성 중 무엇 때문인지에 따라 적합한 시술이 달라질 수 있습니다.\n\n붉은기에는 홍조 중심 레이저가 적절한지도 평가할 수 있습니다. 돌기와 붉은기가 함께 있으므로 저희 전문가가 어떤 문제를 먼저 치료해야 할지 확인하고, 피부를 불필요하게 자극하지 않는 더 순한 조합을 추천할 수 있습니다 🌸\n\n원문:\nYes It includes both wrinkle botox and skin botox!\n한국어 번역:\n네, 주름 보톡스와 스킨 보톡스를 모두 포함합니다!",
-                "outcome": "correction-needed",
-                "verdict": "suspectedError",
-                "explanation": "안내 보완 필요: 고객은 세 부위가 포함된 가격인지 물었는데, 담당자는 주름·스킨 보톡스가 모두 포함된다고 답했다. 제공 강남언니 수가표는 주름 보톡스 3부위와 풀페이스 스킨 보톡스를 별도 상품으로 안내하고 있다.",
-                "procedure": "주름·스킨 보톡스·볼 돌기·홍조",
-                "questionCategory": "추가비용·구성·피부평가",
-                "questionDate": "2026-10-30",
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A25:Z25"
-              },
-              {
-                "id": "G-20261030-007",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\nPlease confirm [예약일시비공개].\n한국어 번역:\n[예약일시비공개]으로 확정해 주세요.",
-                "staffFinalResponse": "원문:\nทางคลินิกขอยืนยันการนัดหมายของคุณตามวันและเวลาดังต่อไปนี้ค่ะ 🌸\n\n📅 วันที่：[예약일시비공개]\n⏰ เวลา：[예약일시비공개]\n\n📍 สถานที่：โซล เขตมาพอ (Mapo) ถนนยางฮวาโร 66 ชั้น 6\n\nแผนที่：\nNaver Map : [링크비공개]\n\nGoogle : [링크비공개]\n\nกรุณานำ บัตรประจำตัวชาวต่างชาติ (ARC) หรือ หนังสือเดินทาง (Passport) มาด้วยในวันเข้ารับบริการนะคะ ✨\n\n＊กรณีเข้ารับคำปรึกษาเท่านั้นโดยไม่ทำหัตถการในวันนัด\nจะมีค่าปรึกษา 10,000 วอน\n＊หากประสงค์ให้แพทย์ผู้อำนวยการคลินิกเป็นผู้ทำหัตถการ\nจะมีค่าใช้จ่ายเพิ่มเติม 20% ของราคาหัตถการ\n한국어 번역:\n다음 날짜와 시간으로 고객님의 예약을 확인해 드립니다 🌸\n\n📅 날짜：[예약일시비공개]\n⏰ 시간：[예약일시비공개]\n\n📍 장소：서울 마포구 양화로 66, 6층\n\n지도：\nNaver Map : [링크비공개]\n\nGoogle : [링크비공개]\n\n방문 당일 외국인등록증（ARC）또는 여권（Passport）을 지참해 주세요 ✨\n\n＊예약일에 시술 없이 상담만 받는 경우\n상담료 10,000원이 발생합니다\n＊대표원장의 시술을 원하시는 경우\n시술 가격의 20%가 추가됩니다",
-                "outcome": "verification-needed",
-                "verdict": "needsVerification",
-                "explanation": "예약 확정문에 대표원장 시술 시 20% 추가만 안내했다. 가이드는 앱 이벤트 지정 불가·원내가 결제 시 지정 가능·최소 지정비 50,000원을 함께 규정하므로 해당 채널과 적용 조건을 추가 안내해야 한다.",
-                "procedure": "Elravie Re2O 상품 유입",
-                "questionCategory": "예약·대표원장 지정",
-                "questionDate": "2026-10-30",
-                "responseEndedDate": "2026-10-30",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A26:Z26"
-              },
-              {
-                "id": "G-20261030-008",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "직접 질문 없이 사각턱 상품 유입이 있다.",
-                "staffFinalResponse": "원문:\nHi~ Here are our Masseter Botox prices for your reference 🌸\n* Korean Botox (50U): ₩43,500\n* Coretox (50U): ₩73,700\n* Xeomin (50U): ₩143,000\n* Allergan Botox (50U): ₩197,000\n한국어 번역:\n안녕하세요~ 참고하시도록 저작근 보톡스 가격을 안내해 드립니다 🌸\n* 한국산 보톡스 (50U): ₩43,500\n* 코어톡스 (50U): ₩73,700\n* 제오민 (50U): ₩143,000\n* 앨러간 보톡스 (50U): ₩197,000\n\n원문:\nIf you have any question, please feel free to ask us anytime💕\n한국어 번역:\n궁금한 점이 있으면 언제든 편하게 물어보세요💕",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "사각턱 50U의 국산·코어톡스·제오민·앨러간 가격을 각각 43,500·73,700·143,000·197,000원으로 안내했다. 동일 브랜드·부위·용량의 수가표 금액과 모두 일치한다.",
-                "procedure": "사각턱 보톡스 50U",
-                "questionCategory": "브랜드별 가격",
-                "questionDate": null,
-                "responseEndedDate": "2026-10-30",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A27:Z27"
-              },
-              {
-                "id": "G-20261030-009",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\n您好，我想諮詢方案～\n臉部：黃金微針+喬雅露（但不確定適不適合，是朋友推薦）\n身體：斜方肌、手臂 曲線調整（應該會希望是斜方肌肉毒+手臂 inmode ）\n한국어 번역:\n안녕하세요, 시술 조합을 상담하고 싶어요～\n얼굴：골드 미세침+쥬베룩（친구가 추천했지만 맞을지는 모르겠어요）\n몸：승모근, 팔 라인 조정（아마 승모근 보톡스+팔 inmode를 원할 것 같아요）",
-                "staffFinalResponse": "[이미지 응답]\n\n[이미지 응답]\n\n[이미지 응답]\n\n원문:\n臉部｜黃金微針＋喬雅露\n這個組合主要比較適合改善 毛孔粗大、痘疤、膚質粗糙、細紋跟整體膚質，黃金微針可以刺激膠原、改善毛孔跟凹凸感，再搭配喬雅露加強膚質跟彈性。\n한국어 번역:\n얼굴｜골드 미세침＋쥬베룩\n이 조합은 주로 넓은 모공, 여드름 흉터, 거친 피부결, 잔주름, 전반적인 피부 질 개선에 비교적 적합합니다. 골드 미세침은 콜라겐을 자극하고 모공과 울퉁불퉁한 느낌을 개선할 수 있으며, 쥬베룩을 함께 사용하면 피부 질과 탄력을 강화합니다.\n\n원문:\n身體｜斜方肌＋手臂線條\n如果斜方肌是因為肌肉比較發達、肩頸看起來比較厚，可以考慮 斜方肌肉毒，讓肩頸線條看起來更柔和～\n\n手臂如果主要是 脂肪比較明顯、線條不順或有些鬆弛，可以考慮 Body INMODE 做局部脂肪跟緊實改善。\n한국어 번역:\n몸｜승모근＋팔 라인\n승모근이 발달하여 어깨와 목이 두꺼워 보이는 경우 승모근 보톡스를 고려하여 어깨와 목 라인이 더 부드러워 보이게 할 수 있습니다～\n\n팔에 지방이 뚜렷하거나 라인이 매끄럽지 않거나 약간 처짐이 있다면 Body INMODE로 국소 지방과 탄력을 개선하는 것을 고려할 수 있습니다.\n\n원문:\n因為每個人膚況和在意的點不一樣，朋友推薦不一定會適合您，還是建議現場評估會比較準確喔~\n한국어 번역:\n사람마다 피부 상태와 신경 쓰는 부분이 다르므로 친구가 추천한 시술이 꼭 맞지는 않을 수 있습니다. 현장에서 평가받는 것이 더 정확합니다~",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "얼굴의 모공·흉터 개선과 몸의 근육·지방·탄력 목적을 나눠 설명하고 친구 추천과 별개로 현장 평가를 권했다. 포텐자 가이드의 고민·팁·피부 상태별 구분 원칙에 맞는 안내다.",
-                "procedure": "골드 미세침·쥬베룩·승모근 보톡스·팔 인모드",
-                "questionCategory": "적합성·예약",
-                "questionDate": "2026-10-30",
-                "responseEndedDate": "2026-11-01",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A28:Z28"
-              },
-              {
-                "id": "G-20261030-010",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "당일 고객 질문 원문은 없고 병원 발신 예약 확인만 있다.",
-                "staffFinalResponse": "원문:\n您好，不好意思沒有回覆到您的訊息🥹\n想請問是否已經有在LINE上跟我們預約[예약일시비공개]這個時段了呢～\n若確認沒問題的話，之後繼續在LINE上跟我們聯繫就可以囉！🌸\n한국어 번역:\n안녕하세요, 메시지에 답변을 못 드려 죄송합니다🥹\n혹시 LINE에서 이미 [예약일시비공개] 시간대로 저희와 예약하셨는지 여쭤보고 싶습니다～\n확인 후 문제가 없으면 이후에는 계속 LINE으로 연락해 주시면 됩니다!🌸",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "답변 지연을 사과하고 LINE 예약 여부를 확인한 뒤 이후 LINE 연락을 안내했다. 실제 답변은 예약 여부 확인과 연락 경로 안내다.",
-                "procedure": "확인되지 않음",
-                "questionCategory": "LINE 예약 확인",
-                "questionDate": null,
-                "responseEndedDate": "2026-10-30",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A29:Z29"
-              },
-              {
-                "id": "G-20261030-011",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "이전 날짜의 추가 가격 문의가 있고 당일 새 질문은 없다.",
-                "staffFinalResponse": "원문:\nสนใจจองคิวสามารถแจ้งได้เลยนะคะะ 🙏\n한국어 번역:\n예약을 원하시면 알려 주세요 🙏",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "예약을 원하면 알려 달라고 답하며 예약 의사를 확인했다.",
-                "procedure": "확인되지 않음",
-                "questionCategory": "예약 유도",
-                "questionDate": null,
-                "responseEndedDate": "2026-10-30",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A30:Z30"
-              },
-              {
-                "id": "G-20261030-012",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "원문:\nPlease delete my appointment. Thank you\n한국어 번역:\n제 예약을 취소해 주세요. 감사합니다",
-                "staffFinalResponse": "원문:\nthank you for letting us know 😊\n\nIf you would like to visit us another time, please feel free to contact us anytime. We’ll be happy to assist you 🌸\n한국어 번역:\n알려 주셔서 감사합니다 😊\n\n다른 때 방문하시려면 언제든 편하게 연락해 주세요. 기꺼이 도와드리겠습니다 🌸",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "취소 요청에 알려 줘서 고맙다고 답하고 추후 방문 때 연락해 달라고 마쳤다. 함께 저장된 취소기록과 맞는 운영 응대다.",
-                "procedure": "확인되지 않음",
-                "questionCategory": "예약 취소",
-                "questionDate": "2026-10-30",
-                "responseEndedDate": "2026-10-30",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A31:Z31"
-              },
-              {
-                "id": "G-20261030-013",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\nขอโปรฟิลเลอรวย์+fat ด้วยค่ะ\n한국어 번역:\n필러+fat 프로모션도 알려 주세요\n\n원문:\nต้องการฉีดโบท็อก3จุด ฟิลเลอร์ร่องแก้ม fat เหนียง+ลิฟกรอบหน้า\n한국어 번역:\n보톡스3부위, 팔자주름 필러, 이중턱 fat+턱선 리프팅을 받고 싶어요\n\n원문:\nต้องการทราบราคาด้วยนะคะ มีไฟล์บินกลับ[예약일시비공개]  จะทำก่อนกลับ\n한국어 번역:\n가격도 알고 싶어요. 돌아가는 비행기가 [예약일시비공개]에 있어서 돌아가기 전에 시술하려고요\n\n원문:\nไปก่อนเวลาได้ไหมคะ\n한국어 번역:\n예약 시간보다 일찍 가도 될까요?\n\n원문:\nต้องการล่ามตอนเข้าคลินิก\n한국어 번역:\n병원에 방문할 때 통역사가 필요해요",
-                "staffFinalResponse": "원문:\nสวัสดีครับ ตอนนี้ทางคลินิกมีโปรโมชั่นอยู่ตามภาพเลยนะครับ\nหากมีข้อสงสัยใดๆเพิ่มเติมสามารถแอดไลน์มาสอบถามได้เลยครับ มีแอดมินคนไทยและล่ามไทยให้บริการอยู่ตลอดนะครับ🥰🙏\n한국어 번역:\n안녕하세요, 현재 병원에서 이미지와 같은 프로모션을 진행하고 있습니다.\n추가로 궁금한 점이 있으면 LINE을 추가하여 문의해 주세요. 태국인 상담 담당자와 태국어 통역사가 항상 서비스를 제공하고 있습니다🥰🙏\n\n[이미지 응답]\n\n원문:\nสวัสดีค่ะ Beauty Blossom Clinic ยินดีให้บริการครับ😊\n\nทางคลินิกของเรามีล่ามภาษาไทยคอยให้บริการนะครับ คุณลูกค้าไม่ต้องกังวลเรื่องการสื่อสารเลยครับ💕\n\nล่ามสามารถช่วยแปลภาษาและอำนวยความสะดวกให้คุณลูกค้าได้ทั้งในขั้นตอนการปรึกษาแพทย์และการทำหัตถการครับ สามารถเข้ามาใช้บริการได้อย่างสบายใจเลยนะครับ🥰\n\nขอบคุณครับ!🌸\n한국어 번역:\n안녕하세요, Beauty Blossom Clinic입니다. 기쁘게 도와드리겠습니다😊\n\n저희 병원에는 태국어 통역사가 있으니 의사소통은 전혀 걱정하지 않으셔도 됩니다💕\n\n의사 상담과 시술 과정 모두에서 통역사가 통역과 편의를 도와드리니 안심하고 방문하셔도 됩니다🥰\n\n감사합니다!🌸\n\n[이미지 응답]\n\n원문:\nทางคลินิกขอยืนยันการนัดหมายของคุณตามวันและเวลาดังต่อไปนี้ค่ะ 🌸\n\n📅 วันที่：[예약일시비공개]\n⏰ เวลา：[예약일시비공개]\n\n📍 สถานที่：โซล เขตมาพอ (Mapo) ถนนยางฮวาโร 66 ชั้น 6\n\nแผนที่：\nNaver Map : [링크비공개]\n\nGoogle : [링크비공개]\n\nกรุณานำ บัตรประจำตัวชาวต่างชาติ (ARC) หรือ หนังสือเดินทาง (Passport) มาด้วยในวันเข้ารับบริการนะคะ ✨\n\n＊กรณีเข้ารับคำปรึกษาเท่านั้นโดยไม่ทำหัตถการในวันนัด\nจะมีค่าปรึกษา 10,000 วอน\n＊หากประสงค์ให้แพทย์ผู้อำนวยการคลินิกเป็นผู้ทำหัตถการ\nจะมีค่าใช้จ่ายเพิ่มเติม 20% ของราคาหัตถการ\n한국어 번역:\n다음 날짜와 시간으로 고객님의 예약을 확인해 드립니다 🌸\n\n📅 날짜：[예약일시비공개]\n⏰ 시간：[예약일시비공개]\n\n📍 장소：서울 마포구 양화로 66, 6층\n\n지도：\nNaver Map : [링크비공개]\n\nGoogle : [링크비공개]\n\n방문 당일 외국인등록증（ARC）또는 여권（Passport）을 지참해 주세요 ✨\n\n＊예약일에 시술 없이 상담만 받는 경우\n상담료 10,000원이 발생합니다\n＊대표원장의 시술을 원하시는 경우\n시술 가격의 20%가 추가됩니다\n\n원문:\nได้เลยค่ะ 😊 สามารถขึ้นมาแจ้งชื่อที่เคาน์เตอร์ต้อนรับชั้น 6 ได้เลยนะคะ 💖\n한국어 번역:\n네 가능합니다 😊 6층 접수 데스크로 올라오셔서 성함을 말씀해 주세요 💖",
-                "outcome": "source-conflict",
-                "verdict": "sourceConflict",
-                "explanation": "조기 방문에는 가능하며 6층 접수에서 성함을 말하라고 직접 답했다. 예약 확정문의 대표원장 20% 안내는 한국어 지정비 가이드와 같지만 태국어 템플릿의 10%와 달라 자료충돌을 유지한다.",
-                "procedure": "보톡스·팔자 필러·이중턱 지방 시술",
-                "questionCategory": "시술·가격·통역·예약",
-                "questionDate": "2026-10-30",
-                "responseEndedDate": "2026-10-30",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A32:Z32"
-              },
-              {
-                "id": "G-20261030-014",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "원문:\nCan I make appointment for do botox at [예약일시비공개]. please\n한국어 번역:\n[예약일시비공개]에 보톡스 예약할 수 있을까요\n\n원문:\nfo [예약일시비공개] please\n한국어 번역:\n[예약일시비공개] 부탁드려요\n\n원문:\ntime:[예약일시비공개]\n한국어 번역:\n시간:[예약일시비공개]",
-                "staffFinalResponse": "원문:\nJust to confirm, would you like to visit our clinic [예약일시비공개] for a Botox treatment? 😊💕\n한국어 번역:\n확인차 여쭤보면, [예약일시비공개]에 보톡스 시술을 받으러 저희 병원에 오시려는 것이 맞으신가요? 😊💕\n\n원문:\nYour appointment has been confirmed! 😊💕\nWe look forward to seeing you [예약일시비공개]! 🌸\n한국어 번역:\n예약이 확정되었습니다! 😊💕\n[예약일시비공개] 뵙기를 기대하겠습니다! 🌸\n\n원문:\nSee you soon! 😊💕\n한국어 번역:\n곧 뵙겠습니다! 😊💕",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "보톡스 예약 희망 일정을 재확인하고 예약이 확정되었다고 답한 뒤 방문 인사로 마쳤다.",
-                "procedure": "보톡스",
-                "questionCategory": "예약",
-                "questionDate": "2026-10-30",
-                "responseEndedDate": "2026-10-30",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A33:Z33"
-              },
-              {
-                "id": "G-20261030-015",
-                "status": "reviewed",
-                "disposition": "image-replied",
-                "customerQuestion": "당일 새 문자 질문 없이 안내가 이뤄진 기록이다.",
-                "staffFinalResponse": "[이미지 응답]\n\n원문:\nIf you have any questions or need further information, please feel free to reach out to us anytime!\n\nThank you! 🌸\n한국어 번역:\n궁금한 점이나 더 필요한 정보가 있으면 언제든지 편하게 연락해 주세요!\n\n감사합니다! 🌸",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "프로모션 이미지를 보내고 추가 질문이나 필요한 정보가 있으면 연락해 달라고 답했다.",
-                "procedure": "얼굴 필러(상품 유입)",
-                "questionCategory": "이미지·상담 접수",
-                "questionDate": null,
-                "responseEndedDate": "2026-10-30",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A34:Z34"
-              },
-              {
-                "id": "G-20261030-016",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "당일 새 문자 질문 없이 안내가 이뤄진 기록이다.",
-                "staffFinalResponse": "원문:\nHi! May I know which type of Botox treatment you’re interested in? And if you’d like to make an appointment, feel free to let me know. And this is our website for your reference.  Thank you. [링크비공개]\n한국어 번역:\n안녕하세요! 어떤 종류의 보톡스 시술에 관심 있으신지 알 수 있을까요? 예약을 원하시면 편하게 말씀해 주세요. 그리고 참고하시도록 저희 웹사이트를 안내해 드립니다. 감사합니다. [링크비공개]",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "관심 있는 보톡스 종류와 예약 의사를 묻고 병원 웹사이트를 안내했다. 종류를 확인하는 상담 접수 응대다.",
-                "procedure": "보톡스(상품 유입)",
-                "questionCategory": "상담 접수",
-                "questionDate": null,
-                "responseEndedDate": "2026-10-30",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A35:Z35"
-              },
-              {
-                "id": "G-20261030-017",
-                "status": "reviewed",
-                "disposition": "image-replied",
-                "customerQuestion": "원문:\n我再參考一下喔 謝謝\n한국어 번역:\n좀 더 참고해 볼게요 감사합니다",
-                "staffFinalResponse": "[이미지 응답]\n\n원문:\n咀嚼肌的價格這邊可以先給您參考喔😊\n한국어 번역:\n저작근 가격을 먼저 참고하시도록 안내해 드릴게요😊\n\n원문:\n您也可以跟我們說一下最想改善的位置，再幫您初步推薦比較合適的療程喔🤍\n한국어 번역:\n가장 개선하고 싶은 부위를 알려 주시면 우선 더 적합한 시술을 추천해 드릴게요🤍\n\n원문:\n如果還有任何問題，或是有想再了解的療程，都可以隨時跟我們說～  \n謝謝您🤍\n한국어 번역:\n궁금한 점이나 더 알아보고 싶은 시술이 있으면 언제든지 말씀해 주세요～  \n감사합니다🤍",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "가격 이미지와 개선 희망 부위 확인 뒤 고객이 더 참고하겠다고 하자 추가 문의를 안내하며 인사로 마쳤다.",
-                "procedure": "저작근 보톡스",
-                "questionCategory": "가격 참고·응대 종료",
-                "questionDate": "2026-10-30",
-                "responseEndedDate": "2026-10-30",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A36:Z36"
-              },
-              {
-                "id": "G-20261030-019",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\ni am interested in pico and possible micro needling for my freckles and aging skin\n한국어 번역:\n주근깨와 노화된 피부 때문에 피코와 가능하다면 미세침 시술에 관심이 있어요\n\n원문:\nis that the same as pico or is that the recommendation?\n한국어 번역:\n그게 피코와 같은 건가요 아니면 추천해 주시는 건가요?\n\n원문:\ni want to reduce freckles and melasma\n한국어 번역:\n주근깨와 기미를 줄이고 싶어요",
-                "staffFinalResponse": "원문:\nHi~ Here is our promotion for your reference✨\n\nIf you have any question, please feel free to ask us anytime💕\n한국어 번역:\n안녕하세요~ 참고하실 수 있도록 프로모션을 안내해 드립니다✨\n\n궁금한 점이 있으면 언제든지 편하게 물어보세요💕\n\n[이미지 응답]\n\n원문:\nhere is our pico laser promotion for your reference~\n한국어 번역:\n참고하시도록 피코 레이저 프로모션을 안내해 드립니다~\n\n[이미지 응답]\n\n원문:\nIf your main concerns are freckles and melasma, we can recommend a pigmentation-focused laser treatment after checking your skin condition 😊\n\nFor freckles and sun spots, PicoSure may be a good option. For melasma, the doctor will need to assess the type and depth of pigmentation first, since melasma should be treated more carefully and usually with gentler settings.\n\nWhen you come in, we can check whether PicoSure Toning, Zoom/Focus, or a combination treatment would be most suitable for you 🌸\n한국어 번역:\n주요 고민이 주근깨와 기미라면 피부 상태를 확인한 뒤 색소 중심 레이저 시술을 추천해 드릴 수 있습니다 😊\n\n주근깨와 일광흑자에는 PicoSure가 좋은 선택일 수 있습니다. 기미는 더 신중하게, 보통 더 순한 설정으로 치료해야 하므로 먼저 의사가 색소의 유형과 깊이를 평가해야 합니다.\n\n방문하시면 PicoSure Toning, Zoom/Focus 또는 복합 시술 중 무엇이 가장 적합한지 확인해 드릴 수 있습니다 🌸",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "주근깨·기미에는 먼저 의사가 색소 종류와 깊이를 평가하고 피코슈어 모드를 선택한다고 답했다. 색소·피부 상태에 따라 모드와 계획을 정한다는 가이드와 일치한다.",
-                "procedure": "피코슈어·미세침",
-                "questionCategory": "색소·시술 추천",
-                "questionDate": "2026-10-30",
-                "responseEndedDate": "2026-10-30",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A37:Z37"
-              },
-              {
-                "id": "G-20261030-020",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "당일 새 문자 질문 없이 안내가 이뤄진 기록이다.",
-                "staffFinalResponse": "원문:\nYour reservation has been scheduled for the following date and time:\n\n📅 Day :  [예약일시비공개]\n⏰ Time : [예약일시비공개]\n\n📍Location : 66 Yanghwa-ro, Mapo, Seoul, 6F  \n\nLink for location \n* Naver Map : [링크비공개]\n* Google : [링크비공개]\n\n💳 Please bring your Alien Registration Card or Passport with you.\n\nWe look forward to meeting you soon.🥰\n\nThank you 🙂\n\nBeauty Blossom Global Clinic Team🌸\n한국어 번역:\n다음 날짜와 시간으로 예약되었습니다:\n\n📅 날짜 :  [예약일시비공개]\n⏰ 시간 : [예약일시비공개]\n\n📍위치 : 서울 마포구 양화로 66, 6층  \n\n위치 링크 \n* Naver Map : [링크비공개]\n* Google : [링크비공개]\n\n💳 외국인등록증 또는 여권을 지참해 주세요.\n\n곧 뵙기를 기대합니다.🥰\n\n감사합니다 🙂\n\nBeauty Blossom 글로벌 클리닉 팀🌸",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "예약을 확정하고 위치·지도·외국인등록증 또는 여권 지참을 안내하며 운영 응대를 마쳤다.",
-                "procedure": "사각턱 보톡스(상품 유입)",
-                "questionCategory": "예약 확정",
-                "questionDate": null,
-                "responseEndedDate": "2026-10-30",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A38:Z38"
-              },
-              {
-                "id": "G-20261030-034",
-                "status": "reviewed",
-                "disposition": "image-replied",
-                "customerQuestion": "당일 새 문자 질문 없이 안내가 이뤄진 기록이다.",
-                "staffFinalResponse": "원문:\nHi~ Here is our promotion for your reference✨\n\nIf you have any question, please feel free to ask us anytime💕\n한국어 번역:\n안녕하세요~ 참고하실 수 있도록 프로모션을 안내해 드립니다✨\n\n궁금한 점이 있으면 언제든지 편하게 물어보세요💕\n\n[이미지 응답]",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "참고용 프로모션 이미지와 추가 문의 안내를 보냈다.",
-                "procedure": "주름 보톡스(상품 유입)",
-                "questionCategory": "프로모션",
-                "questionDate": null,
-                "responseEndedDate": "2026-10-30",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A39:Z39"
-              },
-              {
-                "id": "G-20261030-021",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "당일 새 질문은 없다. 이전에 결제수단을 문의하고 방문 인사를 했다.",
-                "staffFinalResponse": "원문:\n[예약일시비공개]はご予約日です🌸\n\n📅 日付：[예약일시비공개]\n⏰ 時間：[예약일시비공개]\n\n📍 場所：ソウル市麻浦区（マポ）ヤンファロ66、6階\n\n地図URL：\n\nNaver Map : [링크비공개]\nGoogle : [링크비공개]\n\nご来店の際は、外国人登録証またはパスポートをお持ちください✨\n\n\n＊ご予約当日に施術を受けずカウンセリングのみ行った場合、カウンセリング料金10,000ウォンが発生致します。\n한국어 번역:\n[예약일시비공개]은 예약일입니다🌸\n\n📅 날짜：[예약일시비공개]\n⏰ 시간：[예약일시비공개]\n\n📍 장소：서울시 마포구 양화로66, 6층\n\n지도 URL：\n\nNaver Map : [링크비공개]\nGoogle : [링크비공개]\n\n방문 시 외국인등록증 또는 여권을 지참해 주세요✨\n\n\n＊예약 당일 시술을 받지 않고 상담만 받는 경우 상담료 10,000원이 발생합니다.",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "예약 재안내와 위치·신분증 지참, 시술 없이 상담만 받을 때의 1만원을 안내했다. 일본어 방문 안내 템플릿과 일치하는 운영 응대다.",
-                "procedure": "확인되지 않음",
-                "questionCategory": "예약 재안내",
-                "questionDate": null,
-                "responseEndedDate": "2026-10-30",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A40:Z40"
-              },
-              {
-                "id": "G-20261030-022",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "원문:\n承知致しました!\n当日は自分の身分証明書だけ持参すれば大丈夫でしょうか？🙇‍♀️\n한국어 번역:\n알겠습니다!\n당일에는 제 신분증만 지참하면 될까요？🙇‍♀️",
-                "staffFinalResponse": "원문:\n[예약일시비공개]はご予約日です🌸\n\n📅 日付：[예약일시비공개]\n⏰ 時間：[예약일시비공개]\n\n📍 場所：ソウル市麻浦区（マポ）ヤンファロ66、6階\n\n地図URL：\n\nNaver Map : [링크비공개]\nGoogle : [링크비공개]\n\nご来店の際は、外国人登録証またはパスポートをお持ちください✨\n\n\n＊ご予約当日に施術を受けずカウンセリングのみ行った場合、カウンセリング料金10,000ウォンが発生致します。\n한국어 번역:\n[예약일시비공개]은 예약일입니다🌸\n\n📅 날짜：[예약일시비공개]\n⏰ 시간：[예약일시비공개]\n\n📍 장소：서울시 마포구 양화로66, 6층\n\n지도 URL：\n\nNaver Map : [링크비공개]\nGoogle : [링크비공개]\n\n방문 시 외국인등록증 또는 여권을 지참해 주세요✨\n\n\n＊예약 당일 시술을 받지 않고 상담만 받는 경우 상담료 10,000원이 발생합니다.",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "신분증 지참 문의와 관련해 외국인등록증 또는 여권을 지참하라고 안내했다. 예약일·위치·상담만 받을 때 1만원 안내도 일본어 템플릿과 일치한다.",
-                "procedure": "확인되지 않음",
-                "questionCategory": "예약 재안내",
-                "questionDate": null,
-                "responseEndedDate": "2026-10-30",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A41:Z41"
-              },
-              {
-                "id": "G-20261030-023",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "당일 새 문자 질문 없이 안내가 이뤄진 기록이다.",
-                "staffFinalResponse": "원문:\n[예약일시비공개]はご予約日です🌸\n\n📅 日付：[예약일시비공개]\n⏰ 時間：[예약일시비공개]\n\n📍 場所：ソウル市麻浦区（マポ）ヤンファロ66、6階\n\n地図URL：\n\nNaver Map : [링크비공개]\nGoogle : [링크비공개]\n\nご来店の際は、外国人登録証またはパスポートをお持ちください✨\n\n\n＊ご予約当日に施術を受けずカウンセリングのみ行った場合、カウンセリング料金10,000ウォンが発生致します。\n한국어 번역:\n[예약일시비공개]은 예약일입니다🌸\n\n📅 날짜：[예약일시비공개]\n⏰ 시간：[예약일시비공개]\n\n📍 장소：서울시 마포구 양화로66, 6층\n\n지도 URL：\n\nNaver Map : [링크비공개]\nGoogle : [링크비공개]\n\n방문 시 외국인등록증 또는 여권을 지참해 주세요✨\n\n\n＊예약 당일 시술을 받지 않고 상담만 받는 경우 상담료 10,000원이 발생합니다.",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "기존 예약의 일정·위치·지참서류와 상담만 받을 때의 1만원을 재안내했다. 일본어 방문 안내 템플릿과 일치하는 운영 응대다.",
-                "procedure": "확인되지 않음",
-                "questionCategory": "예약 재안내",
-                "questionDate": null,
-                "responseEndedDate": "2026-10-30",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A42:Z42"
-              },
-              {
-                "id": "G-20261030-024",
-                "status": "reviewed",
-                "disposition": "image-replied",
-                "customerQuestion": "원문:\n不好意思不小心按到\n한국어 번역:\n죄송해요 실수로 눌렀어요",
-                "staffFinalResponse": "[이미지 응답]\n\n원문:\n除皺肉毒的價格這邊可以先給您參考喔😊\n한국어 번역:\n주름 보톡스 가격을 먼저 참고하시도록 안내해 드릴게요😊\n\n원문:\n您也可以跟我們說一下最想改善的位置，再幫您初步推薦比較合適的療程喔🤍\n한국어 번역:\n가장 개선하고 싶은 부위를 알려 주시면 우선 더 적합한 시술을 추천해 드릴게요🤍",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "실수로 눌렀다는 고객 고지 뒤 주름 보톡스 가격 이미지를 보내고 개선 희망 부위를 물었다. 추가 상담을 유도한 운영 응대다.",
-                "procedure": "주름 보톡스(상품 유입)",
-                "questionCategory": "오접수·프로모션",
-                "questionDate": "2026-10-30",
-                "responseEndedDate": "2026-10-30",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A43:Z43"
-              },
-              {
-                "id": "G-20261030-025",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "원문:\n施術の相談がしたいです\n한국어 번역:\n시술 상담을 받고 싶어요",
-                "staffFinalResponse": "원문:\nご連絡ありがとうございます🌸\n当院はカンナムオンニの価格そのままでご提供しております！\n気になることはお気軽にご相談ください😊\n한국어 번역:\n연락 주셔서 감사합니다🌸\n저희 병원은 강남언니 가격 그대로 제공하고 있습니다!\n궁금한 점은 편하게 상담해 주세요😊",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "시술 상담 희망에 강남언니 표시가격 그대로 제공하며 궁금한 점을 상담해 달라고 답했다. 구체 시술 선택 전 상담 접수를 안내한 응대다.",
-                "procedure": "사각턱 보톡스(상품 유입)",
-                "questionCategory": "상담 접수",
-                "questionDate": "2026-10-30",
-                "responseEndedDate": "2026-10-30",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A44:Z44"
-              },
-              {
-                "id": "G-20261030-026",
-                "status": "reviewed",
-                "disposition": "image-replied",
-                "customerQuestion": "당일 새 문자 질문 없이 안내가 이뤄진 기록이다.",
-                "staffFinalResponse": "[이미지 응답]\n\n원문:\nONDA 的價格這邊可以先給您參考喔😊\n한국어 번역:\nONDA 가격을 먼저 참고하시도록 안내해 드릴게요😊\n\n원문:\nONDA 主要是針對局部脂肪、身體線條跟緊實度做改善，像手臂、腹部、腰側、大腿都很常施作～\n한국어 번역:\nONDA는 주로 국소 지방, 바디 라인, 탄력을 개선하는 시술이며 팔, 복부, 옆구리, 허벅지 등에 많이 시술합니다～\n\n원문:\n您也可以跟我們說一下最想改善的位置，再幫您初步推薦比較合適的療程喔🤍\n한국어 번역:\n가장 개선하고 싶은 부위를 알려 주시면 우선 더 적합한 시술을 추천해 드릴게요🤍",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "ONDA의 국소 지방·바디 라인·탄력 목적과 팔·복부·옆구리·허벅지 적용을 설명하고 희망 부위를 물었다. 지방 분포와 탄력 상태를 확인해 범위를 정하는 ONDA 가이드와 맞는 목적 안내다.",
-                "procedure": "ONDA",
-                "questionCategory": "시술 설명·가격 안내",
-                "questionDate": null,
-                "responseEndedDate": "2026-10-30",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A45:Z45"
-              },
-              {
-                "id": "G-20261030-036",
-                "status": "reviewed",
-                "disposition": "image-replied",
-                "customerQuestion": "당일 새 문자 질문 없이 안내가 이뤄진 기록이다.",
-                "staffFinalResponse": "원문:\nสวัสดีครับ ตอนนี้ทางคลินิกมีโปรโมชั่นอยู่ตามภาพเลยนะครับ\nหากมีข้อสงสัยใดๆเพิ่มเติมสามารถแอดไลน์มาสอบถามได้เลยครับ มีแอดมินคนไทยและล่ามไทยให้บริการอยู่ตลอดนะครับ🥰🙏\n한국어 번역:\n안녕하세요, 현재 병원에서 이미지와 같은 프로모션을 진행하고 있습니다.\n추가로 궁금한 점이 있으면 LINE을 추가하여 문의해 주세요. 태국인 상담 담당자와 태국어 통역사가 항상 서비스를 제공하고 있습니다🥰🙏\n\n[이미지 응답]",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "프로모션 이미지와 태국어 상담·통역을 안내하고 LINE으로 추가 문의를 받겠다고 답했다.",
-                "procedure": "확인되지 않음",
-                "questionCategory": "프로모션·언어 안내",
-                "questionDate": null,
-                "responseEndedDate": "2026-10-30",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A46:Z46"
-              },
+            "exchanges": [
               {
                 "id": "AUTO-046",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "새 질문 없이 예약 일정이 자동 안내된 운영 기록이다.",
-                "staffFinalResponse": "직원 직접 답변은 없고 D-Day 자동 방문 일정 알림이 저장돼 있다.",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "당일 기록은 자동 방문 일정 알림이다. 고객의 직접 질문과 직원 직접 답변이 아닌 일정 통지로 분류한다.",
+                "recordIds": [
+                  "AUTO-046"
+                ],
+                "kind": "auto",
+                "country": "ES",
                 "procedure": "확인되지 않음",
-                "questionCategory": "자동 방문 일정 알림",
+                "category": "자동 방문 일정 알림",
+                "verdict": "auto",
+                "reason": "10월 30일 D-Day 방문 일정 자동 알림이 발송됐다.",
                 "questionDate": null,
-                "responseEndedDate": "2026-10-30",
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (예약 일정 자동 안내)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "note": "직원 직접 답변 없음 (D-Day 자동 방문 일정 알림)"
+                  }
+                ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A47:Z47"
               },
               {
                 "id": "AUTO-047",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "새 질문 없이 예약 일정이 자동 안내된 운영 기록이다.",
-                "staffFinalResponse": "직원 직접 답변은 없고 D-1 자동 방문 일정 알림이 저장돼 있다.",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "당일 기록은 자동 방문 일정 알림이다. 고객의 직접 질문과 직원 직접 답변이 아닌 일정 통지로 분류한다.",
+                "recordIds": [
+                  "AUTO-047"
+                ],
+                "kind": "auto",
+                "country": "TH",
                 "procedure": "확인되지 않음",
-                "questionCategory": "자동 방문 일정 알림",
+                "category": "자동 방문 일정 알림",
+                "verdict": "auto",
+                "reason": "10월 30일 D-1 방문 일정 자동 알림이 발송됐다.",
                 "questionDate": null,
-                "responseEndedDate": "2026-10-30",
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (예약 일정 자동 안내)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "note": "직원 직접 답변 없음 (D-1 자동 방문 일정 알림)"
+                  }
+                ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A48:Z48"
               },
               {
                 "id": "AUTO-048",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "원문:\nちなみに[방문일 가림]もしかしたら間に合わないかもしれないんですけどその場合[예약일시비공개]でも大丈夫ですか？\n한국어 번역:\n참고로 [방문일 가림] 못 맞출 수도 있는데 그 경우 [예약일시비공개]도 괜찮을까요?",
-                "staffFinalResponse": "원문:\nはい、可能でございます。\n日程やお時間の変更をご希望の場合は、いつでもお気軽にお申し付けくださいませ😊\n한국어 번역:\n네, 가능합니다. 날짜나 시간 변경을 원하시면 언제든 편하게 말씀해 주세요.\n\n원문:\nこんにちは、ビューティーブロッサムクリニックです😊🌸\nお昼のひととき、いかがお過ごしでしょうか。\n\n[방문일 가림]ご予約をいただいておりますが、ご予定に変更なく、ご来院いただけますでしょうか？✨\n한국어 번역:\n안녕하세요, 뷰티블라썸클리닉입니다. 점심시간 잘 보내고 계신가요? [방문일 가림] 예약하셨는데 예정 변경 없이 방문 가능하실까요?",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "당일은 자동 일정 알림이며, 후속 일정 변경 질문에는 변경 가능하다고 답하고 예정대로 방문할지 재확인했다. 일정 조율에 대한 운영 응대다.",
+                "recordIds": [
+                  "AUTO-048"
+                ],
+                "kind": "auto",
+                "country": "JP",
                 "procedure": "확인되지 않음",
-                "questionCategory": "자동 방문 일정 알림",
+                "category": "자동 방문 일정 알림",
+                "verdict": "auto",
+                "reason": "10월 30일 D-2 방문 일정 자동 알림이 발송됐다.",
                 "questionDate": null,
-                "responseEndedDate": "2026-11-01",
+                "finalReplyDate": "2026-10-30",
+                "customer": [],
+                "staff": [],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A49:Z49"
               },
               {
                 "id": "AUTO-049",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "새 질문 없이 예약 일정이 자동 안내된 운영 기록이다.",
-                "staffFinalResponse": "직원 직접 답변은 없고 D-2 자동 방문 일정 알림이 저장돼 있다.",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "당일 기록은 자동 방문 일정 알림이다. 고객의 직접 질문과 직원 직접 답변이 아닌 일정 통지로 분류한다.",
+                "recordIds": [
+                  "AUTO-049"
+                ],
+                "kind": "auto",
+                "country": "JP",
                 "procedure": "확인되지 않음",
-                "questionCategory": "자동 방문 일정 알림",
+                "category": "자동 방문 일정 알림",
+                "verdict": "auto",
+                "reason": "10월 30일 D-2 방문 일정 자동 알림이 발송됐다.",
                 "questionDate": null,
-                "responseEndedDate": "2026-10-30",
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (예약 일정 자동 안내)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "note": "직원 직접 답변 없음 (D-2 자동 방문 일정 알림)"
+                  }
+                ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A50:Z50"
               },
               {
                 "id": "AUTO-050",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "새 질문 없이 예약 일정이 자동 안내된 운영 기록이다.",
-                "staffFinalResponse": "직원 직접 답변은 없고 D-7 자동 방문 일정 알림이 저장돼 있다.",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "당일 기록은 자동 방문 일정 알림이다. 고객의 직접 질문과 직원 직접 답변이 아닌 일정 통지로 분류한다.",
+                "recordIds": [
+                  "AUTO-050"
+                ],
+                "kind": "auto",
+                "country": "TH",
                 "procedure": "확인되지 않음",
-                "questionCategory": "자동 방문 일정 알림",
+                "category": "자동 방문 일정 알림",
+                "verdict": "auto",
+                "reason": "10월 30일 D-7 방문 일정 자동 알림이 발송됐다.",
                 "questionDate": null,
-                "responseEndedDate": "2026-10-30",
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (예약 일정 자동 안내)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "note": "직원 직접 답변 없음 (D-7 자동 방문 일정 알림)"
+                  }
+                ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A51:Z51"
               },
               {
                 "id": "AUTO-051",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "새 질문 없이 예약 일정이 자동 안내된 운영 기록이다.",
-                "staffFinalResponse": "직원 직접 답변은 없고 D-Day 자동 방문 일정 알림이 저장돼 있다.",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "당일 기록은 자동 방문 일정 알림이다. 고객의 직접 질문과 직원 직접 답변이 아닌 일정 통지로 분류한다.",
+                "recordIds": [
+                  "AUTO-051"
+                ],
+                "kind": "auto",
+                "country": "MY",
                 "procedure": "확인되지 않음",
-                "questionCategory": "자동 방문 일정 알림",
+                "category": "자동 방문 일정 알림",
+                "verdict": "auto",
+                "reason": "10월 30일 D-Day 방문 일정 자동 알림이 발송됐다.",
                 "questionDate": null,
-                "responseEndedDate": "2026-10-30",
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (예약 일정 자동 안내)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "note": "직원 직접 답변 없음 (D-Day 자동 방문 일정 알림)"
+                  }
+                ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A52:Z52"
               },
               {
                 "id": "AUTO-052",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "새 질문 없이 예약 일정이 자동 안내된 운영 기록이다.",
-                "staffFinalResponse": "직원 직접 답변은 없고 D-7 자동 방문 일정 알림이 저장돼 있다.",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "당일 기록은 자동 방문 일정 알림이다. 고객의 직접 질문과 직원 직접 답변이 아닌 일정 통지로 분류한다.",
+                "recordIds": [
+                  "AUTO-052"
+                ],
+                "kind": "auto",
+                "country": "AU",
                 "procedure": "확인되지 않음",
-                "questionCategory": "자동 방문 일정 알림",
+                "category": "자동 방문 일정 알림",
+                "verdict": "auto",
+                "reason": "10월 30일 D-7 방문 일정 자동 알림이 발송됐다.",
                 "questionDate": null,
-                "responseEndedDate": "2026-10-30",
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (예약 일정 자동 안내)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "note": "직원 직접 답변 없음 (D-7 자동 방문 일정 알림)"
+                  }
+                ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A53:Z53"
               },
               {
                 "id": "AUTO-053",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "원문:\n您好 請問兩人一起施作是否有優惠呢？\n한국어 번역:\n안녕하세요 두 명이 함께 시술받으면 할인이 있나요？\n\n원문:\n會準時到 謝謝\n한국어 번역:\n시간에 맞춰 갈게요. 감사합니다.",
-                "staffFinalResponse": "원문:\n同行優惠這邊給您參考一下喔~\n한국어 번역:\n동행 할인 안내를 참고해 주세요.\n\n원문:\n沒問題，謝謝您的回覆，晚點見囉😊\n한국어 번역:\n네, 회신 감사합니다. 조금 후에 뵐게요.",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "두 명 동행 할인 질문에 할인 자료를 안내했고, 이후 방문 의사 회신에는 감사와 만남 인사로 답했다. 당일 자동 알림과 별도로 확인되는 운영 응대다.",
+                "recordIds": [
+                  "AUTO-053"
+                ],
+                "kind": "auto",
+                "country": "TW",
                 "procedure": "확인되지 않음",
-                "questionCategory": "자동 방문 일정 알림",
+                "category": "자동 방문 일정 알림",
+                "verdict": "auto",
+                "reason": "10월 30일 D-2 방문 일정 자동 알림이 발송됐다.",
                 "questionDate": null,
-                "responseEndedDate": "2026-11-01",
+                "finalReplyDate": "2026-10-30",
+                "customer": [],
+                "staff": [],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A54:Z54"
               },
               {
                 "id": "AUTO-054",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "새 질문 없이 예약 일정이 자동 안내된 운영 기록이다.",
-                "staffFinalResponse": "원문:\n您好，這裡是麗朵 Beauty Blossom 皮膚科🌸\n想跟您確認一下，[방문일 가림] [3位] 於 [예약일시비공개] 的預約是否會如期前來呢？😊\n\n📍診所位於合井站 3 號出口旁的大樓，抵達後直接至 6 樓櫃台報到即可。\n詳細地址及地圖導航，可至 LINE 選單點選「地址」查看。\n\n若行程有任何變動，再麻煩提前告訴我們～\n期待[방문일 가림]與您見面✨\n한국어 번역:\n안녕하세요, 뷰티블라썸 피부과입니다. [방문일 가림] 3명 [예약일시비공개] 예약에 예정대로 방문하실지 확인드립니다. 병원은 합정역 3번 출구 옆 건물이며 도착하면 6층 접수에서 등록해 주세요. 상세 주소와 지도는 LINE 메뉴의 주소에서 확인하실 수 있습니다. 일정 변경이 있으면 미리 알려 주세요. [방문일 가림] 뵙기를 기대합니다.",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "당일 자동 일정 알림 뒤 다음날 방문 여부와 6층 접수를 재안내했다. 방문 확인을 요청하는 운영 응대다.",
+                "recordIds": [
+                  "AUTO-054"
+                ],
+                "kind": "auto",
+                "country": "TW",
                 "procedure": "확인되지 않음",
-                "questionCategory": "자동 방문 일정 알림",
+                "category": "자동 방문 일정 알림",
+                "verdict": "auto",
+                "reason": "10월 30일 D-2 방문 일정 자동 알림이 발송됐다.",
                 "questionDate": null,
-                "responseEndedDate": "2026-10-31",
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (예약 일정 자동 안내)"
+                  }
+                ],
+                "staff": [],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A55:Z55"
               },
               {
                 "id": "AUTO-055",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "원문:\n您好～我想先詢問一下～\n\n目前有興趣的療程：\n\n1. 黃金微針＋喬雅露（₩380,000）\n2. 水飛梭（₩77,000）\n\n想請問這三項療程是否適合同一天施作？會不會容易有皮膚過度刺激的問題？\n\n另外，我的預約時間是[예약일시비공개]，當天晚上 [예약일시비공개] 需要搭飛機，希望能在 [예약일시비공개] 前完成療程，想確認時間上是否來得及。\n\n再麻煩您協助確認，謝謝！\n한국어 번역:\n안녕하세요～먼저 여쭤보고 싶어요～\n\n현재 관심 있는 시술：\n\n1. 골드 미세침＋쥬베룩（₩380,000）\n2. 아쿠아필（水飛梭）（₩77,000）\n\n이 세 가지 시술을 같은 날 받아도 괜찮을까요? 피부에 과도한 자극이 생기기 쉽지는 않을까요？\n\n또 제 예약 시간은 [예약일시비공개]이고 당일 저녁 [예약일시비공개]에 비행기를 타야 해서 [예약일시비공개] 전에 시술을 마치고 싶어요. 시간상 가능한지 확인하고 싶습니다.\n\n확인 부탁드립니다. 감사합니다！",
-                "staffFinalResponse": "원문:\n您好～😊\n水飛梭＋黃金微針搭配喬雅露原則上是可以安排同一天施作的喔～\n한국어 번역:\n안녕하세요. 아쿠아필+골드 미세침과 쥬베룩은 원칙적으로 같은 날 시술을 배정할 수 있습니다.\n\n원문:\n您預約 [예약일시비공개] 希望 [예약일시비공개] 前完成的話，原則上是可以沒有問題的，這邊也會先幫您備註離院時間～\n한국어 번역:\n[예약일시비공개] 예약으로[예약일시비공개]전 종료를 원하시면 원칙적으로 가능합니다. 퇴원 시간을 먼저 메모해 두겠습니다.",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "같은 날 복합 시술과 비행 전 종료 가능 여부에 원칙적으로 가능하며 퇴원 시간을 메모하겠다고 답했다. 해당 답변은 10월 26일의 일정 조율이고 10월 30일 기록은 자동 알림이다.",
+                "recordIds": [
+                  "AUTO-055"
+                ],
+                "kind": "auto",
+                "country": "TW",
                 "procedure": "확인되지 않음",
-                "questionCategory": "자동 방문 일정 알림",
+                "category": "자동 방문 일정 알림",
+                "verdict": "auto",
+                "reason": "10월 30일 D-2 방문 일정 자동 알림이 발송됐다.",
                 "questionDate": null,
-                "responseEndedDate": "2026-10-31",
+                "finalReplyDate": "2026-10-30",
+                "customer": [],
+                "staff": [],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A56:Z56"
               },
               {
                 "id": "AUTO-056",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "새 질문 없이 예약 일정이 자동 안내된 운영 기록이다.",
-                "staffFinalResponse": "직원 직접 답변은 없고 D-Day 자동 방문 일정 알림이 저장돼 있다.",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "당일 기록은 자동 방문 일정 알림이다. 고객의 직접 질문과 직원 직접 답변이 아닌 일정 통지로 분류한다.",
+                "recordIds": [
+                  "AUTO-056"
+                ],
+                "kind": "auto",
+                "country": "TW",
                 "procedure": "확인되지 않음",
-                "questionCategory": "자동 방문 일정 알림",
+                "category": "자동 방문 일정 알림",
+                "verdict": "auto",
+                "reason": "10월 30일 D-Day 방문 일정 자동 알림이 발송됐다.",
                 "questionDate": null,
-                "responseEndedDate": "2026-10-30",
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (예약 일정 자동 안내)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "note": "직원 직접 답변 없음 (D-Day 자동 방문 일정 알림)"
+                  }
+                ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A57:Z57"
               },
               {
-                "id": "G-20261030-018",
-                "status": "reviewed",
-                "disposition": "archived-only",
-                "customerQuestion": "당일 새 문자 질문 없이 안내가 이뤄진 기록이다.",
-                "staffFinalResponse": "원문:\nสวัสดีค่ะลูกค้า ขออนุญาตคอนเฟิร์มนัด[예약일시비공개] นะคะะ🥰✨\n한국어 번역:\n안녕하세요, 고객님. [예약일시비공개] 예약을 확인드리고자 합니다🥰✨",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "예약을 확인하고자 한다는 병원 인사가 있다. 보관 응답을 표시하며 기존 archived-only 제외를 유지한다.",
-                "procedure": "확인되지 않음",
-                "questionCategory": "과거 예약 확인",
+                "id": "G-20261030-001",
+                "recordIds": [
+                  "G-20261030-001"
+                ],
+                "kind": "inflow",
+                "country": "GB",
+                "procedure": "여성 겨드랑이 관리(보톡스·토닝·제모)",
+                "category": "상품 유입 후 상담 안내",
+                "verdict": "normal-ops",
+                "reason": "여성 겨드랑이 관리 상품으로 유입된 고객에게 담당자는 궁금한 점을 언제든 물어보라고 안내했다.",
                 "questionDate": null,
-                "responseEndedDate": "2026-10-30",
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (상품·이벤트 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "Hi~ If you have any question, please feel free to ask us anytime💕",
+                    "ko": "안녕하세요~ 궁금한 점이 있으면 언제든 편하게 물어보세요💕"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A17:Z17"
+              },
+              {
+                "id": "G-20261030-002",
+                "recordIds": [
+                  "G-20261030-002"
+                ],
+                "kind": "consult",
+                "country": "TH",
+                "procedure": "피부 분석",
+                "category": "태국어 통역·피부 분석 장비",
+                "verdict": "archive",
+                "reason": "태국어 통역사와 AI 얼굴 검사 기기가 있는지 묻자 둘 다 있다고 답한 보관 대화다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "มีล่ามไทยไหม หรือเครื่อง Ai ตรวจหน้า",
+                    "ko": "태국어 통역사나 AI 얼굴 검사 기기가 있나요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "มีล่ามไทย และเครื่อง AI ตรวจหน้าด้วยค่ะะ",
+                    "ko": "태국어 통역사와 AI 얼굴 검사 기기도 있습니다"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A20:Z20"
+              },
+              {
+                "id": "G-20261030-003",
+                "recordIds": [
+                  "G-20261030-003"
+                ],
+                "kind": "consult",
+                "country": "SG",
+                "procedure": "스킨바이브·리쥬란 HB",
+                "category": "필요 용량·습진 병력·피부 분석·의사 상담",
+                "verdict": "normal",
+                "reason": "담당자는 스킨바이브가 1cc 단위이고 필요한 양은 의사가 피부를 보고 정한다고 답했으며, 수가표 10도 스킨바이브를 1cc·2cc 상품으로 둔다. 습진 병력에는 의사가 피부 상태를 먼저 확인한 뒤 시술을 정하도록 안내했다. Eve-V 피부 분석 비용 55,000원(시술 30만 원을 넘으면 27,500원, 50만 원을 넘으면 11,000원)은 가이드 08과 같다.",
+                "questionDate": "2026-10-30",
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "Hi hello usually how many cc of skinvive is needed?",
+                    "ko": "안녕하세요 보통 skinvive는 몇 cc가 필요한가요?"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "I have eczema history. Right now my face is stable, no flare up. But it’s really dry so I’m thinking to do either hb plus or skinvive",
+                    "ko": "습진 병력이 있어요. 지금 얼굴은 안정적이고 증상이 악화된 상태는 아니에요. 그런데 정말 건조해서 hb plus나 skinvive 중 하나를 생각하고 있어요"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "Do you have skin analysis?",
+                    "ko": "피부 분석을 제공하나요?"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "Will the doctor be the one who do the consultation?",
+                    "ko": "상담은 의사가 직접 하나요?"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "Yes given my eczema condition I would like the doctor to the consultation and recommend the treatment (:",
+                    "ko": "네 습진 상태를 고려해서 의사가 상담하고 시술을 추천해 주셨으면 해요 (:"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "Hi 😊 The amount of SKINVIVE needed depends on the treatment area, your skin condition, and the result you’re looking for.",
+                    "ko": "안녕하세요 😊 필요한 SKINVIVE 양은 시술 부위, 피부 상태, 원하시는 결과에 따라 달라집니다."
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "SKINVIVE comes in 1 cc per syringe, and the doctor will recommend the appropriate amount after checking your skin. For a larger area such as both cheeks, several cc may be needed for a more even overall result, but it doesn’t mean everyone needs the same amount.",
+                    "ko": "SKINVIVE는 주사기당 1 cc이며 의사가 피부를 확인한 후 적절한 양을 추천합니다. 양 볼처럼 넓은 부위에는 전체적으로 더 균일한 결과를 위해 여러 cc가 필요할 수 있지만 모든 분께 같은 양이 필요하다는 뜻은 아닙니다."
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "Thank you for letting us know 😊 Since you have a history of eczema, even if your skin is currently stable, we would recommend having the doctor check your skin condition first before deciding on the treatment.\n\nFor very dry skin, both Rejuran HB and Skinvive can be considered for hydration and overall skin quality. However, because eczema-prone skin can be more sensitive, the most suitable option will depend on your current skin barrier condition and whether there is any hidden irritation.\n\nIf there is no active flare-up, treatment may still be possible, but the doctor will confirm this during the consultation and recommend the gentler option for your skin 🌸",
+                    "ko": "알려 주셔서 감사합니다 😊 습진 병력이 있으시므로 현재 피부가 안정적이더라도 시술을 결정하기 전에 먼저 의사가 피부 상태를 확인하는 것을 권해 드립니다.\n\n매우 건조한 피부에는 Rejuran HB와 Skinvive 모두 보습과 전반적인 피부 질 개선을 위해 고려할 수 있습니다. 다만 습진이 생기기 쉬운 피부는 더 민감할 수 있으므로 가장 적합한 선택은 현재 피부 장벽 상태와 겉으로 드러나지 않는 자극 유무에 따라 달라집니다.\n\n현재 증상이 활발하게 악화된 상태가 아니라면 시술이 가능할 수도 있지만, 의사가 상담에서 이를 확인하고 피부에 더 순한 방법을 추천할 것입니다 🌸"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "Yes, we offer a 3D Skin Analysis (Eve-V Muse) to assess your skin condition in detail.💕\n\nThe pricing is as follows:\n* Basic: ₩55,000\n* ₩27,500 if your treatment exceeds ₩300,000\n* ₩11,000 if your treatment exceeds ₩500,000",
+                    "ko": "네, 피부 상태를 자세히 평가하는 3D 피부 분석（Eve-V Muse）을 제공합니다.💕\n\n가격은 다음과 같습니다:\n* 기본: ₩55,000\n* 시술 금액이 ₩300,000을 초과하면 ₩27,500\n* 시술 금액이 ₩500,000을 초과하면 ₩11,000"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "If you would like to consult with the doctor, we would be happy to arrange it for you.",
+                    "ko": "의사와 상담하시기를 원하시면 기꺼이 예약해 드리겠습니다."
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "Sure, What date and time would you prefer for your appointment?",
+                    "ko": "네, 예약은 어느 날짜와 시간을 원하시나요?"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A21:Z21"
+              },
+              {
+                "id": "G-20261030-004",
+                "recordIds": [
+                  "G-20261030-004"
+                ],
+                "kind": "inflow",
+                "country": "US",
+                "procedure": "피코슈어 토닝·피코 이레이저",
+                "category": "프로모션 안내",
+                "verdict": "conflict",
+                "reason": "피코 이벤트로 유입된 고객에게 프로모션 이미지를 보내고 추가 문의를 안내했다. 가격표 이미지의 색소 패키지 VAT 전 금액이 가이드 10 이벤트 시트와 다르다. 듀얼색소(색소 2종) 10회는 195만원(가이드 199만원), 트리플(색소 3종) 1·5·10회는 33만·137만·249만원(가이드 35만·145만·259만원)이다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (이전 날짜에 예약 취소 문의가 있었음)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "If you have any questions or need further information, please feel free to reach out to us anytime!\n\nThank you! 🌸",
+                    "ko": "궁금한 점이나 더 필요한 정보가 있으면 언제든지 편하게 연락해 주세요!\n\n감사합니다! 🌸"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A23:Z23"
+              },
+              {
+                "id": "G-20261030-005",
+                "recordIds": [
+                  "G-20261030-005"
+                ],
+                "kind": "inflow",
+                "country": "TW",
+                "procedure": "여성 겨드랑이 관리(보톡스·미백·제모)",
+                "category": "개선 부위 확인",
+                "verdict": "normal-ops",
+                "reason": "여성 겨드랑이 관리 상품으로 유입된 고객에게 담당자는 가장 개선하고 싶은 부위를 알려 주면 맞는 시술을 추천하겠다고 안내했다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (상품·이벤트 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "您好，主要是想要針對腋下哪個部分進行改善呢？",
+                    "ko": "안녕하세요, 겨드랑이의 어떤 부분을 주로 개선하고 싶으신가요?"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "您也可以跟我們說一下最想改善的位置，再幫您初步推薦比較合適的療程喔🤍",
+                    "ko": "가장 개선하고 싶은 부위를 알려 주시면 우선 더 적합한 시술을 추천해 드릴게요🤍"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A24:Z24"
+              },
+              {
+                "id": "G-20261030-006",
+                "recordIds": [
+                  "G-20261030-006"
+                ],
+                "kind": "consult",
+                "country": "US",
+                "procedure": "주름 보톡스·스킨 보톡스·볼 돌기·홍조",
+                "category": "추가 비용·가격·피부 시술 추천",
+                "verdict": "followup",
+                "reason": "담당자는 강남언니 표시가에 VAT가 포함되고 시술 없이 상담만 받으면 10,000원 상담료가 있다고 답했다. 두 안내는 수가표의 강남언니 판매가(VAT 후)와 가이드 08과 같다. 다만 함께 보낸 주름·스킨 보톡스 가격표 이미지에는 VAT 별도로 적혀 있는데 어느 채널 가격인지 구분해 알리지 않았다.",
+                "questionDate": "2026-10-30",
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "Are there any extra fees?",
+                    "ko": "추가 비용이 있나요?"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "Prices for wrinkle Botox, forehead, between brows, smile, and skin Botox? \n\nAlso looking for skin treatment I have a lot of tiny bumps and redness on cheeks",
+                    "ko": "주름 보톡스, 이마, 미간, 미소 부위, 스킨 보톡스의 가격은 얼마인가요? \n\n볼에 작은 돌기와 붉은기가 많아서 피부 시술도 알아보고 있어요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "The prices shown on Gangnam Unni already include VAT 😊\n\nThere are no additional VAT charges on top of the listed price.\nIf you only come for a consultation without receiving treatment, there may be a consultation fee of ₩10,000, but if you proceed with treatment on the same day, the consultation fee is waived 🌸",
+                    "ko": "강남언니에 표시된 가격에는 VAT가 이미 포함되어 있습니다 😊\n\n표시 가격에 별도의 VAT가 추가되지 않습니다.\n시술 없이 상담만 받으러 오시면 ₩10,000의 상담료가 있을 수 있지만, 당일 시술을 진행하면 상담료가 면제됩니다 🌸",
+                    "image": true
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "Here is our promotion for your reference✨\n\nIf you have any question, please feel free to ask us anytime💕",
+                    "ko": "참고하실 수 있도록 프로모션을 안내해 드립니다✨\n\n궁금한 점이 있으면 언제든 편하게 물어보세요💕"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "Here is our wrinkle Botox, forehead, between brows, smile, and skin Botox Prices for your reference✨",
+                    "ko": "참고하시도록 주름 보톡스, 이마, 미간, 미소 부위, 스킨 보톡스 가격을 안내해 드립니다✨",
+                    "image": true
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "If you have a lot of tiny bumps and redness on the cheeks, we would recommend checking the skin first before choosing a treatment 😊\n\nDepending on whether the bumps are from clogged pores, active acne, irritation, or skin barrier sensitivity, the suitable treatment can be different.\n\nFor the redness, we can also assess whether a redness-focused laser would be appropriate. Since you have both bumps and redness, our expert can check which issue should be treated first and recommend a gentler combination that won’t irritate your skin unnecessarily 🌸",
+                    "ko": "볼에 작은 돌기와 붉은기가 많다면 시술을 선택하기 전에 먼저 피부 상태를 확인하는 것을 권합니다 😊\n\n돌기가 모공 막힘, 활동성 여드름, 자극, 피부 장벽 민감성 중 무엇 때문인지에 따라 적합한 시술이 달라질 수 있습니다.\n\n붉은기에는 홍조 중심 레이저가 적절한지도 평가할 수 있습니다. 돌기와 붉은기가 함께 있으므로 저희 전문가가 어떤 문제를 먼저 치료해야 할지 확인하고, 피부를 불필요하게 자극하지 않는 더 순한 조합을 추천할 수 있습니다 🌸"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A25:Z25"
+              },
+              {
+                "id": "G-20261030-007",
+                "recordIds": [
+                  "G-20261030-007"
+                ],
+                "kind": "ops",
+                "country": "TH",
+                "procedure": "엘라비에 리투오(Elravie Re2O)",
+                "category": "예약 완료 안내·대표원장 지정 비용",
+                "verdict": "conflict",
+                "reason": "담당자는 태국어 예약 완료 문구에서 대표원장 시술을 원하면 시술가의 20%가 추가된다고 안내했다. 가이드 08 한국어 안내는 대표원장 지정 20%(최소 50,000원)이고 가이드 08·11의 태국어 예약 문구는 10%로 적혀 있어 자료끼리 다르다.",
+                "questionDate": "2026-10-30",
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "Please confirm [예약일시비공개].",
+                    "ko": "[예약일시비공개]으로 확정해 주세요."
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "ทางคลินิกขอยืนยันการนัดหมายของคุณตามวันและเวลาดังต่อไปนี้ค่ะ 🌸\n\n📅 วันที่：[예약일시비공개]\n⏰ เวลา：[예약일시비공개]\n\n📍 สถานที่：โซล เขตมาพอ (Mapo) ถนนยางฮวาโร 66 ชั้น 6\n\nแผนที่：\nNaver Map : https://naver.me/5ap1E0ph\n\nGoogle : [링크비공개]\n\nกรุณานำ บัตรประจำตัวชาวต่างชาติ (ARC) หรือ หนังสือเดินทาง (Passport) มาด้วยในวันเข้ารับบริการนะคะ ✨\n\n＊กรณีเข้ารับคำปรึกษาเท่านั้นโดยไม่ทำหัตถการในวันนัด\nจะมีค่าปรึกษา 10,000 วอน\n＊หากประสงค์ให้แพทย์ผู้อำนวยการคลินิกเป็นผู้ทำหัตถการ\nจะมีค่าใช้จ่ายเพิ่มเติม 20% ของราคาหัตถการ",
+                    "ko": "다음 날짜와 시간으로 고객님의 예약을 확인해 드립니다 🌸\n\n📅 날짜：[예약일시비공개]\n⏰ 시간：[예약일시비공개]\n\n📍 장소：서울 마포구 양화로 66, 6층\n\n지도：\nNaver Map : https://naver.me/5ap1E0ph\n\nGoogle : [링크비공개]\n\n방문 당일 외국인등록증（ARC）또는 여권（Passport）을 지참해 주세요 ✨\n\n＊예약일에 시술 없이 상담만 받는 경우\n상담료 10,000원이 발생합니다\n＊대표원장의 시술을 원하시는 경우\n시술 가격의 20%가 추가됩니다"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A26:Z26"
+              },
+              {
+                "id": "G-20261030-008",
+                "recordIds": [
+                  "G-20261030-008"
+                ],
+                "kind": "inflow",
+                "country": "RU",
+                "procedure": "사각턱 보톡스 50U",
+                "category": "브랜드별 가격",
+                "verdict": "normal",
+                "reason": "사각턱 보톡스 상품으로 유입된 고객에게 50U 기준 국산 43,500원, 코어톡스 73,700원, 제오민 143,000원, 앨러간 197,000원을 안내했다. 수가표의 사각턱B 50u VAT 후 금액(국산 43,500·코어 73,700·제오민 143,000·앨러간 197,000원)과 같다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (상품·이벤트 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "Hi~ Here are our Masseter Botox prices for your reference 🌸\n* Korean Botox (50U): ₩43,500\n* Coretox (50U): ₩73,700\n* Xeomin (50U): ₩143,000\n* Allergan Botox (50U): ₩197,000",
+                    "ko": "안녕하세요~ 참고하시도록 저작근 보톡스 가격을 안내해 드립니다 🌸\n* 한국산 보톡스 (50U): ₩43,500\n* 코어톡스 (50U): ₩73,700\n* 제오민 (50U): ₩143,000\n* 앨러간 보톡스 (50U): ₩197,000"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "If you have any question, please feel free to ask us anytime💕",
+                    "ko": "궁금한 점이 있으면 언제든 편하게 물어보세요💕"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A27:Z27"
+              },
+              {
+                "id": "G-20261030-009",
+                "recordIds": [
+                  "G-20261030-009"
+                ],
+                "kind": "consult",
+                "country": "TW",
+                "procedure": "골드 미세침·쥬베룩·승모근 보톡스·바디 인모드",
+                "category": "시술 조합 적합성",
+                "verdict": "normal",
+                "reason": "담당자는 골드 미세침+쥬베룩을 모공·여드름 흉터·피부결·잔주름 개선용으로, 승모근 보톡스를 발달한 근육 부피를 줄이는 시술로, 바디 인모드를 국소 지방·탄력 개선용으로 설명했다. 가이드 01·02의 포텐자 미세침, 쥬베룩 스킨, 바디보톡스, 바디 인모드 설명과 같고 적합성은 현장 평가로 정하도록 안내했다.",
+                "questionDate": "2026-10-30",
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "您好，我想諮詢方案～\n臉部：黃金微針+喬雅露（但不確定適不適合，是朋友推薦）\n身體：斜方肌、手臂 曲線調整（應該會希望是斜方肌肉毒+手臂 inmode ）",
+                    "ko": "안녕하세요, 시술 조합을 상담하고 싶어요～\n얼굴：골드 미세침+쥬베룩（친구가 추천했지만 맞을지는 모르겠어요）\n몸：승모근, 팔 라인 조정（아마 승모근 보톡스+팔 inmode를 원할 것 같아요）"
+                  }
+                ],
+                "staff": [
+                  {
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "臉部｜黃金微針＋喬雅露\n這個組合主要比較適合改善 毛孔粗大、痘疤、膚質粗糙、細紋跟整體膚質，黃金微針可以刺激膠原、改善毛孔跟凹凸感，再搭配喬雅露加強膚質跟彈性。",
+                    "ko": "얼굴｜골드 미세침＋쥬베룩\n이 조합은 주로 넓은 모공, 여드름 흉터, 거친 피부결, 잔주름, 전반적인 피부 질 개선에 비교적 적합합니다. 골드 미세침은 콜라겐을 자극하고 모공과 울퉁불퉁한 느낌을 개선할 수 있으며, 쥬베룩을 함께 사용하면 피부 질과 탄력을 강화합니다."
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "身體｜斜方肌＋手臂線條\n如果斜方肌是因為肌肉比較發達、肩頸看起來比較厚，可以考慮 斜方肌肉毒，讓肩頸線條看起來更柔和～\n\n手臂如果主要是 脂肪比較明顯、線條不順或有些鬆弛，可以考慮 Body INMODE 做局部脂肪跟緊實改善。",
+                    "ko": "몸｜승모근＋팔 라인\n승모근이 발달하여 어깨와 목이 두꺼워 보이는 경우 승모근 보톡스를 고려하여 어깨와 목 라인이 더 부드러워 보이게 할 수 있습니다～\n\n팔에 지방이 뚜렷하거나 라인이 매끄럽지 않거나 약간 처짐이 있다면 Body INMODE로 국소 지방과 탄력을 개선하는 것을 고려할 수 있습니다."
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "因為每個人膚況和在意的點不一樣，朋友推薦不一定會適合您，還是建議現場評估會比較準確喔~",
+                    "ko": "사람마다 피부 상태와 신경 쓰는 부분이 다르므로 친구가 추천한 시술이 꼭 맞지는 않을 수 있습니다. 현장에서 평가받는 것이 더 정확합니다~"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A28:Z28"
+              },
+              {
+                "id": "G-20261030-010",
+                "recordIds": [
+                  "G-20261030-010"
+                ],
+                "kind": "ops",
+                "country": "TW",
+                "procedure": "확인되지 않음",
+                "category": "LINE 예약 확인",
+                "verdict": "normal-ops",
+                "reason": "담당자는 답변이 늦은 것을 사과하고 LINE으로 이미 예약했는지 물은 뒤 이후 LINE으로 연락하도록 안내했다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (병원이 보낸 예약 확인만 있음)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "您好，不好意思沒有回覆到您的訊息🥹\n想請問是否已經有在LINE上跟我們預約[예약일시비공개]這個時段了呢～\n若確認沒問題的話，之後繼續在LINE上跟我們聯繫就可以囉！🌸",
+                    "ko": "안녕하세요, 메시지에 답변을 못 드려 죄송합니다🥹\n혹시 LINE에서 이미 [예약일시비공개] 시간대로 저희와 예약하셨는지 여쭤보고 싶습니다～\n확인 후 문제가 없으면 이후에는 계속 LINE으로 연락해 주시면 됩니다!🌸"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A29:Z29"
+              },
+              {
+                "id": "G-20261030-011",
+                "recordIds": [
+                  "G-20261030-011"
+                ],
+                "kind": "ops",
+                "country": "TH",
+                "procedure": "확인되지 않음",
+                "category": "예약 안내",
+                "verdict": "normal-ops",
+                "reason": "담당자는 예약을 원하면 알려 달라고 안내했다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (이전 날짜에 추가 가격 문의가 있었음)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "สนใจจองคิวสามารถแจ้งได้เลยนะคะะ 🙏",
+                    "ko": "예약을 원하시면 알려 주세요 🙏"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A30:Z30"
+              },
+              {
+                "id": "G-20261030-012",
+                "recordIds": [
+                  "G-20261030-012"
+                ],
+                "kind": "ops",
+                "country": "DE",
+                "procedure": "풀페이스 포텐자 500샷(취소된 예약)",
+                "category": "예약 취소",
+                "verdict": "normal-ops",
+                "reason": "예약 취소 요청에 담당자는 알려 줘서 고맙다고 답하고 다른 때 방문하려면 연락해 달라고 안내했으며, 같은 날 예약 취소 처리 기록이 남았다.",
+                "questionDate": "2026-10-30",
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "Please delete my appointment. Thank you",
+                    "ko": "제 예약을 취소해 주세요. 감사합니다"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "thank you for letting us know 😊\n\nIf you would like to visit us another time, please feel free to contact us anytime. We’ll be happy to assist you 🌸",
+                    "ko": "알려 주셔서 감사합니다 😊\n\n다른 때 방문하시려면 언제든 편하게 연락해 주세요. 기꺼이 도와드리겠습니다 🌸"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A31:Z31"
+              },
+              {
+                "id": "G-20261030-013",
+                "recordIds": [
+                  "G-20261030-013"
+                ],
+                "kind": "consult",
+                "country": "TH",
+                "procedure": "보톡스 3부위·팔자 필러·이중턱 지방 시술·턱선 리프팅",
+                "category": "프로모션·통역·예약·조기 방문",
+                "verdict": "conflict",
+                "reason": "프로모션 요청에는 프로모션 이미지로, 통역 요청에는 태국어 통역사가 상담과 시술 과정을 돕는다고, 일찍 와도 되는지에는 가능하며 6층 접수에서 이름을 말하라고 답했다. 예약 완료 문구의 대표원장 시술 20% 추가는 가이드 08 한국어 안내(20%, 최소 50,000원)와 같지만 가이드 08·11의 태국어 예약 문구는 10%로 적혀 있어 자료끼리 다르다.",
+                "questionDate": "2026-10-30",
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "date": "2026-10-29",
+                    "original": "ต้องการล่ามตอนเข้าคลินิก",
+                    "ko": "병원에 방문할 때 통역사가 필요해요"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "ขอโปรฟิลเลอรวย์+fat ด้วยค่ะ",
+                    "ko": "필러+fat 프로모션도 알려 주세요"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "ต้องการฉีดโบท็อก3จุด ฟิลเลอร์ร่องแก้ม fat เหนียง+ลิฟกรอบหน้า",
+                    "ko": "보톡스3부위, 팔자주름 필러, 이중턱 fat+턱선 리프팅을 받고 싶어요"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "ต้องการทราบราคาด้วยนะคะ มีไฟล์บินกลับ[예약일시비공개]  จะทำก่อนกลับ",
+                    "ko": "가격도 알고 싶어요. 돌아가는 비행기가 [예약일시비공개]에 있어서 돌아가기 전에 시술하려고요"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "ไปก่อนเวลาได้ไหมคะ",
+                    "ko": "예약 시간보다 일찍 가도 될까요?"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "สวัสดีครับ ตอนนี้ทางคลินิกมีโปรโมชั่นอยู่ตามภาพเลยนะครับ\nหากมีข้อสงสัยใดๆเพิ่มเติมสามารถแอดไลน์มาสอบถามได้เลยครับ มีแอดมินคนไทยและล่ามไทยให้บริการอยู่ตลอดนะครับ🥰🙏",
+                    "ko": "안녕하세요, 현재 병원에서 이미지와 같은 프로모션을 진행하고 있습니다.\n추가로 궁금한 점이 있으면 LINE을 추가하여 문의해 주세요. 태국인 상담 담당자와 태국어 통역사가 항상 서비스를 제공하고 있습니다🥰🙏",
+                    "image": true
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "สวัสดีค่ะ Beauty Blossom Clinic ยินดีให้บริการครับ😊\n\nทางคลินิกของเรามีล่ามภาษาไทยคอยให้บริการนะครับ คุณลูกค้าไม่ต้องกังวลเรื่องการสื่อสารเลยครับ💕\n\nล่ามสามารถช่วยแปลภาษาและอำนวยความสะดวกให้คุณลูกค้าได้ทั้งในขั้นตอนการปรึกษาแพทย์และการทำหัตถการครับ สามารถเข้ามาใช้บริการได้อย่างสบายใจเลยนะครับ🥰\n\nขอบคุณครับ!🌸",
+                    "ko": "안녕하세요, Beauty Blossom Clinic입니다. 기쁘게 도와드리겠습니다😊\n\n저희 병원에는 태국어 통역사가 있으니 의사소통은 전혀 걱정하지 않으셔도 됩니다💕\n\n의사 상담과 시술 과정 모두에서 통역사가 통역과 편의를 도와드리니 안심하고 방문하셔도 됩니다🥰\n\n감사합니다!🌸",
+                    "image": true
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "ทางคลินิกขอยืนยันการนัดหมายของคุณตามวันและเวลาดังต่อไปนี้ค่ะ 🌸\n\n📅 วันที่：[예약일시비공개]\n⏰ เวลา：[예약일시비공개]\n\n📍 สถานที่：โซล เขตมาพอ (Mapo) ถนนยางฮวาโร 66 ชั้น 6\n\nแผนที่：\nNaver Map : https://naver.me/5ap1E0ph\n\nGoogle : [링크비공개]\n\nกรุณานำ บัตรประจำตัวชาวต่างชาติ (ARC) หรือ หนังสือเดินทาง (Passport) มาด้วยในวันเข้ารับบริการนะคะ ✨\n\n＊กรณีเข้ารับคำปรึกษาเท่านั้นโดยไม่ทำหัตถการในวันนัด\nจะมีค่าปรึกษา 10,000 วอน\n＊หากประสงค์ให้แพทย์ผู้อำนวยการคลินิกเป็นผู้ทำหัตถการ\nจะมีค่าใช้จ่ายเพิ่มเติม 20% ของราคาหัตถการ",
+                    "ko": "다음 날짜와 시간으로 고객님의 예약을 확인해 드립니다 🌸\n\n📅 날짜：[예약일시비공개]\n⏰ 시간：[예약일시비공개]\n\n📍 장소：서울 마포구 양화로 66, 6층\n\n지도：\nNaver Map : https://naver.me/5ap1E0ph\n\nGoogle : [링크비공개]\n\n방문 당일 외국인등록증（ARC）또는 여권（Passport）을 지참해 주세요 ✨\n\n＊예약일에 시술 없이 상담만 받는 경우\n상담료 10,000원이 발생합니다\n＊대표원장의 시술을 원하시는 경우\n시술 가격의 20%가 추가됩니다"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "ได้เลยค่ะ 😊 สามารถขึ้นมาแจ้งชื่อที่เคาน์เตอร์ต้อนรับชั้น 6 ได้เลยนะคะ 💖",
+                    "ko": "네 가능합니다 😊 6층 접수 데스크로 올라오셔서 성함을 말씀해 주세요 💖"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A32:Z32"
+              },
+              {
+                "id": "G-20261030-014",
+                "recordIds": [
+                  "G-20261030-014"
+                ],
+                "kind": "ops",
+                "country": "SG",
+                "procedure": "보톡스(사각턱 보톡스 상품 유입)",
+                "category": "예약",
+                "verdict": "normal-ops",
+                "reason": "보톡스 예약 요청에 담당자는 희망 일시를 다시 확인하고 예약 완료를 알린 뒤 방문 인사로 마쳤다.",
+                "questionDate": "2026-10-30",
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "Can I make appointment for do botox at [예약일시비공개]. please",
+                    "ko": "[예약일시비공개]에 보톡스 예약할 수 있을까요"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "fo [예약일시비공개] please",
+                    "ko": "[예약일시비공개] 부탁드려요"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "time:[예약일시비공개]",
+                    "ko": "시간:[예약일시비공개]"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "Just to confirm, would you like to visit our clinic [예약일시비공개] for a Botox treatment? 😊💕",
+                    "ko": "확인차 여쭤보면, [예약일시비공개]에 보톡스 시술을 받으러 저희 병원에 오시려는 것이 맞으신가요? 😊💕"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "Your appointment has been confirmed! 😊💕\nWe look forward to seeing you [예약일시비공개]! 🌸",
+                    "ko": "예약이 확정되었습니다! 😊💕\n[예약일시비공개] 뵙기를 기대하겠습니다! 🌸"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "See you soon! 😊💕",
+                    "ko": "곧 뵙겠습니다! 😊💕"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A33:Z33"
+              },
+              {
+                "id": "G-20261030-015",
+                "recordIds": [
+                  "G-20261030-015"
+                ],
+                "kind": "inflow",
+                "country": "CA",
+                "procedure": "디자인 얼굴 필러",
+                "category": "프로모션 안내",
+                "verdict": "fix",
+                "reason": "얼굴 필러 이벤트로 유입된 고객에게 바디주사·바디보톡스·ONDA·인모드 가격표 이미지를 보냈다. 보낸 자료에 얼굴 필러 항목이 없어 문의한 시술과 자료가 맞지 않는다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (당일 새 질문 없음)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "If you have any questions or need further information, please feel free to reach out to us anytime!\n\nThank you! 🌸",
+                    "ko": "궁금한 점이나 더 필요한 정보가 있으면 언제든지 편하게 연락해 주세요!\n\n감사합니다! 🌸"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A34:Z34",
+                "severity": "confirmed"
+              },
+              {
+                "id": "G-20261030-016",
+                "recordIds": [
+                  "G-20261030-016"
+                ],
+                "kind": "inflow",
+                "country": "FI",
+                "procedure": "주름 보톡스(상품 유입)",
+                "category": "상담 접수",
+                "verdict": "normal-ops",
+                "reason": "주름 보톡스 상품으로 유입된 고객에게 담당자는 관심 있는 보톡스 종류와 예약 의사를 묻고 병원 웹사이트를 안내했다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (당일 새 질문 없음)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "Hi! May I know which type of Botox treatment you’re interested in? And if you’d like to make an appointment, feel free to let me know. And this is our website for your reference.  Thank you. [링크비공개]",
+                    "ko": "안녕하세요! 어떤 종류의 보톡스 시술에 관심 있으신지 알 수 있을까요? 예약을 원하시면 편하게 말씀해 주세요. 그리고 참고하시도록 저희 웹사이트를 안내해 드립니다. 감사합니다. [링크비공개]"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A35:Z35"
+              },
+              {
+                "id": "G-20261030-017",
+                "recordIds": [
+                  "G-20261030-017"
+                ],
+                "kind": "consult",
+                "country": "TW",
+                "procedure": "사각턱(저작근) 보톡스",
+                "category": "가격 안내",
+                "verdict": "conflict",
+                "reason": "저작근 보톡스 가격 이미지를 보내고 개선하고 싶은 부위를 물었으며, 고객이 더 참고하겠다고 하자 추가 문의를 안내하며 마쳤다. 가격표 이미지에 제오민 50U가 143,000원, 대만달러 약 3,088(환율 41)로 함께 적혀 있다. 143,000을 41로 나누면 약 3,488이라 환산액이 맞지 않는다.",
+                "questionDate": "2026-10-30",
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "我再參考一下喔 謝謝",
+                    "ko": "좀 더 참고해 볼게요 감사합니다"
+                  }
+                ],
+                "staff": [
+                  {
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "咀嚼肌的價格這邊可以先給您參考喔😊",
+                    "ko": "저작근 가격을 먼저 참고하시도록 안내해 드릴게요😊"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "您也可以跟我們說一下最想改善的位置，再幫您初步推薦比較合適的療程喔🤍",
+                    "ko": "가장 개선하고 싶은 부위를 알려 주시면 우선 더 적합한 시술을 추천해 드릴게요🤍"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "如果還有任何問題，或是有想再了解的療程，都可以隨時跟我們說～  \n謝謝您🤍",
+                    "ko": "궁금한 점이나 더 알아보고 싶은 시술이 있으면 언제든지 말씀해 주세요～  \n감사합니다🤍"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A36:Z36"
+              },
+              {
+                "id": "G-20261030-018",
+                "recordIds": [
+                  "G-20261030-018"
+                ],
+                "kind": "ops",
+                "country": "TH",
+                "procedure": "확인되지 않음",
+                "category": "예약 확인",
+                "verdict": "archive",
+                "reason": "담당자가 예약 일정을 확인하겠다고 인사한 보관 대화다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (당일 새 질문 없음)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "สวัสดีค่ะลูกค้า ขออนุญาตคอนเฟิร์มนัด[예약일시비공개] นะคะะ🥰✨",
+                    "ko": "안녕하세요, 고객님. [예약일시비공개] 예약을 확인드리고자 합니다🥰✨"
+                  }
+                ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A58:Z58"
+              },
+              {
+                "id": "G-20261030-019",
+                "recordIds": [
+                  "G-20261030-019"
+                ],
+                "kind": "consult",
+                "country": "US",
+                "procedure": "피코슈어",
+                "category": "주근깨·기미 시술 추천",
+                "verdict": "conflict",
+                "reason": "주근깨·기미 문의에 담당자는 주근깨에는 피코슈어를 권하고, 기미는 의사가 색소 유형과 깊이를 먼저 평가해 더 순한 설정으로 치료하며 토닝·줌/포커스 중 맞는 방식을 정한다고 답했다. 가이드 02는 색소의 종류와 깊이, 피부 상태에 따라 피코슈어 모드와 시술 계획이 달라진다고 안내해 같다. 함께 보낸 피코 프로모션 이미지도 색소 패키지 VAT 전 금액이 가이드 10 이벤트 시트와 다르다(듀얼색소 10회 195만원 대 199만원, 트리플 1·5·10회 33만·137만·249만원 대 35만·145만·259만원).",
+                "questionDate": "2026-10-30",
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "i am interested in pico and possible micro needling for my freckles and aging skin",
+                    "ko": "주근깨와 노화된 피부 때문에 피코와 가능하다면 미세침 시술에 관심이 있어요"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "is that the same as pico or is that the recommendation?",
+                    "ko": "그게 피코와 같은 건가요 아니면 추천해 주시는 건가요?"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "i want to reduce freckles and melasma",
+                    "ko": "주근깨와 기미를 줄이고 싶어요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "Hi~ Here is our promotion for your reference✨\n\nIf you have any question, please feel free to ask us anytime💕",
+                    "ko": "안녕하세요~ 참고하실 수 있도록 프로모션을 안내해 드립니다✨\n\n궁금한 점이 있으면 언제든지 편하게 물어보세요💕",
+                    "image": true
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "here is our pico laser promotion for your reference~",
+                    "ko": "참고하시도록 피코 레이저 프로모션을 안내해 드립니다~",
+                    "image": true
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "If your main concerns are freckles and melasma, we can recommend a pigmentation-focused laser treatment after checking your skin condition 😊\n\nFor freckles and sun spots, PicoSure may be a good option. For melasma, the doctor will need to assess the type and depth of pigmentation first, since melasma should be treated more carefully and usually with gentler settings.\n\nWhen you come in, we can check whether PicoSure Toning, Zoom/Focus, or a combination treatment would be most suitable for you 🌸",
+                    "ko": "주요 고민이 주근깨와 기미라면 피부 상태를 확인한 뒤 색소 중심 레이저 시술을 추천해 드릴 수 있습니다 😊\n\n주근깨와 일광흑자에는 PicoSure가 좋은 선택일 수 있습니다. 기미는 더 신중하게, 보통 더 순한 설정으로 치료해야 하므로 먼저 의사가 색소의 유형과 깊이를 평가해야 합니다.\n\n방문하시면 PicoSure Toning, Zoom/Focus 또는 복합 시술 중 무엇이 가장 적합한지 확인해 드릴 수 있습니다 🌸"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A37:Z37"
+              },
+              {
+                "id": "G-20261030-020",
+                "recordIds": [
+                  "G-20261030-020"
+                ],
+                "kind": "ops",
+                "country": "US",
+                "procedure": "사각턱 보톡스",
+                "category": "예약 완료 안내",
+                "verdict": "followup",
+                "reason": "고객이 앱에서 제안한 일정으로 예약을 잡고 영문 예약 안내문으로 일정·위치·신분증 지참을 안내했다. 가이드 08의 영문 예약 안내문에 있는 '상담만 받고 시술하지 않으면 상담료 KRW 10,000' 안내가 빠졌다.",
+                "questionDate": "2026-10-30",
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (당일 새 질문 없음)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "Your reservation has been scheduled for the following date and time:\n\n📅 Day :  [예약일시비공개]\n⏰ Time : [예약일시비공개]\n\n📍Location : 66 Yanghwa-ro, Mapo, Seoul, 6F  \n\nLink for location \n* Naver Map : https://naver.me/5ap1E0ph\n* Google : https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 Please bring your Alien Registration Card or Passport with you.\n\nWe look forward to meeting you soon.🥰\n\nThank you 🙂\n\nBeauty Blossom Global Clinic Team🌸",
+                    "ko": "다음 날짜와 시간으로 예약되었습니다:\n\n📅 날짜 :  [예약일시비공개]\n⏰ 시간 : [예약일시비공개]\n\n📍위치 : 서울 마포구 양화로 66, 6층  \n\n위치 링크 \n* Naver Map : https://naver.me/5ap1E0ph\n* Google : https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 외국인등록증 또는 여권을 지참해 주세요.\n\n곧 뵙기를 기대합니다.🥰\n\n감사합니다 🙂\n\nBeauty Blossom 글로벌 클리닉 팀🌸"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A38:Z38"
+              },
+              {
+                "id": "G-20261030-021",
+                "recordIds": [
+                  "G-20261030-021"
+                ],
+                "kind": "ops",
+                "country": "JP",
+                "procedure": "확인되지 않음",
+                "category": "방문일 안내",
+                "verdict": "normal-ops",
+                "reason": "방문 당일 일정·위치·외국인등록증 또는 여권 지참과 상담만 받을 때 상담료 10,000원을 안내했다. 가이드 11의 일본어 방문일 안내 문구와 같다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (이전에 결제수단 문의와 방문 인사가 있었음)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "[예약일시비공개]はご予約日です🌸\n\n📅 日付：[예약일시비공개]\n⏰ 時間：[예약일시비공개]\n\n📍 場所：ソウル市麻浦区（マポ）ヤンファロ66、6階\n\n地図URL：\n\nNaver Map : https://naver.me/5ap1E0ph\nGoogle : https://maps.app.goo.gl/kNTF1bYCqKdDFiHg9\n\nご来店の際は、外国人登録証またはパスポートをお持ちください✨\n\n\n＊ご予約当日に施術を受けずカウンセリングのみ行った場合、カウンセリング料金10,000ウォンが発生致します。",
+                    "ko": "[예약일시비공개]은 예약일입니다🌸\n\n📅 날짜：[예약일시비공개]\n⏰ 시간：[예약일시비공개]\n\n📍 장소：서울시 마포구 양화로66, 6층\n\n지도 URL：\n\nNaver Map : https://naver.me/5ap1E0ph\nGoogle : https://maps.app.goo.gl/kNTF1bYCqKdDFiHg9\n\n방문 시 외국인등록증 또는 여권을 지참해 주세요✨\n\n\n＊예약 당일 시술을 받지 않고 상담만 받는 경우 상담료 10,000원이 발생합니다."
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A40:Z40"
+              },
+              {
+                "id": "G-20261030-022",
+                "recordIds": [
+                  "G-20261030-022"
+                ],
+                "kind": "ops",
+                "country": "JP",
+                "procedure": "확인되지 않음",
+                "category": "방문일 안내",
+                "verdict": "normal-ops",
+                "reason": "방문 당일 일정·위치·외국인등록증 또는 여권 지참과 상담만 받을 때 상담료 10,000원을 안내했다. 가이드 11의 일본어 방문일 안내 문구와 같다. 고객이 10월 20일에 물은 신분증 지참 문의에도 이 안내가 외국인등록증 또는 여권을 가져오라고 답한다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "date": "2026-10-20",
+                    "original": "承知致しました!\n当日は自分の身分証明書だけ持参すれば大丈夫でしょうか？🙇‍♀️",
+                    "ko": "알겠습니다!\n당일에는 제 신분증만 지참하면 될까요？🙇‍♀️"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "[예약일시비공개]はご予約日です🌸\n\n📅 日付：[예약일시비공개]\n⏰ 時間：[예약일시비공개]\n\n📍 場所：ソウル市麻浦区（マポ）ヤンファロ66、6階\n\n地図URL：\n\nNaver Map : https://naver.me/5ap1E0ph\nGoogle : https://maps.app.goo.gl/kNTF1bYCqKdDFiHg9\n\nご来店の際は、外国人登録証またはパスポートをお持ちください✨\n\n\n＊ご予約当日に施術を受けずカウンセリングのみ行った場合、カウンセリング料金10,000ウォンが発生致します。",
+                    "ko": "[예약일시비공개]은 예약일입니다🌸\n\n📅 날짜：[예약일시비공개]\n⏰ 시간：[예약일시비공개]\n\n📍 장소：서울시 마포구 양화로66, 6층\n\n지도 URL：\n\nNaver Map : https://naver.me/5ap1E0ph\nGoogle : https://maps.app.goo.gl/kNTF1bYCqKdDFiHg9\n\n방문 시 외국인등록증 또는 여권을 지참해 주세요✨\n\n\n＊예약 당일 시술을 받지 않고 상담만 받는 경우 상담료 10,000원이 발생합니다."
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A41:Z41"
+              },
+              {
+                "id": "G-20261030-023",
+                "recordIds": [
+                  "G-20261030-023"
+                ],
+                "kind": "ops",
+                "country": "JP",
+                "procedure": "확인되지 않음",
+                "category": "방문일 안내",
+                "verdict": "normal-ops",
+                "reason": "방문 당일 일정·위치·외국인등록증 또는 여권 지참과 상담만 받을 때 상담료 10,000원을 안내했다. 가이드 11의 일본어 방문일 안내 문구와 같다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (당일 새 질문 없음)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "[예약일시비공개]はご予約日です🌸\n\n📅 日付：[예약일시비공개]\n⏰ 時間：[예약일시비공개]\n\n📍 場所：ソウル市麻浦区（マポ）ヤンファロ66、6階\n\n地図URL：\n\nNaver Map : https://naver.me/5ap1E0ph\nGoogle : https://maps.app.goo.gl/kNTF1bYCqKdDFiHg9\n\nご来店の際は、外国人登録証またはパスポートをお持ちください✨\n\n\n＊ご予約当日に施術を受けずカウンセリングのみ行った場合、カウンセリング料金10,000ウォンが発生致します。",
+                    "ko": "[예약일시비공개]은 예약일입니다🌸\n\n📅 날짜：[예약일시비공개]\n⏰ 시간：[예약일시비공개]\n\n📍 장소：서울시 마포구 양화로66, 6층\n\n지도 URL：\n\nNaver Map : https://naver.me/5ap1E0ph\nGoogle : https://maps.app.goo.gl/kNTF1bYCqKdDFiHg9\n\n방문 시 외국인등록증 또는 여권을 지참해 주세요✨\n\n\n＊예약 당일 시술을 받지 않고 상담만 받는 경우 상담료 10,000원이 발생합니다."
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A42:Z42"
+              },
+              {
+                "id": "G-20261030-024",
+                "recordIds": [
+                  "G-20261030-024"
+                ],
+                "kind": "consult",
+                "country": "TW",
+                "procedure": "주름 보톡스",
+                "category": "가격 안내",
+                "verdict": "image",
+                "reason": "실수로 눌렀다는 고객에게 주름 보톡스 가격 이미지를 보내고 개선하고 싶은 부위를 물었다.",
+                "questionDate": "2026-10-30",
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "不好意思不小心按到",
+                    "ko": "죄송해요 실수로 눌렀어요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "除皺肉毒的價格這邊可以先給您參考喔😊",
+                    "ko": "주름 보톡스 가격을 먼저 참고하시도록 안내해 드릴게요😊"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "您也可以跟我們說一下最想改善的位置，再幫您初步推薦比較合適的療程喔🤍",
+                    "ko": "가장 개선하고 싶은 부위를 알려 주시면 우선 더 적합한 시술을 추천해 드릴게요🤍"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A43:Z43"
+              },
+              {
+                "id": "G-20261030-025",
+                "recordIds": [
+                  "G-20261030-025"
+                ],
+                "kind": "consult",
+                "country": "JP",
+                "procedure": "사각턱 보톡스",
+                "category": "상담 문의·가격 조건",
+                "verdict": "normal",
+                "reason": "담당자는 강남언니 가격 그대로 제공한다고 답하고 궁금한 점을 물어 달라고 했다. 가이드 06은 강남언니 가격과 현장 결제 금액이 동일하다고 안내하며 담당자의 답과 같다.",
+                "questionDate": "2026-10-30",
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "施術の相談がしたいです",
+                    "ko": "시술 상담을 받고 싶어요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "ご連絡ありがとうございます🌸\n当院はカンナムオンニの価格そのままでご提供しております！\n気になることはお気軽にご相談ください😊",
+                    "ko": "연락 주셔서 감사합니다🌸\n저희 병원은 강남언니 가격 그대로 제공하고 있습니다!\n궁금한 점은 편하게 상담해 주세요😊"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A44:Z44"
+              },
+              {
+                "id": "G-20261030-026",
+                "recordIds": [
+                  "G-20261030-026"
+                ],
+                "kind": "inflow",
+                "country": "TW",
+                "procedure": "ONDA(바디)",
+                "category": "가격 안내",
+                "verdict": "image",
+                "reason": "ONDA 가격 이미지를 보내고 ONDA가 국소 지방·바디 라인·탄력 개선 시술이라고 설명한 뒤 개선 희망 부위를 물었다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (당일 새 질문 없음)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "ONDA 的價格這邊可以先給您參考喔😊",
+                    "ko": "ONDA 가격을 먼저 참고하시도록 안내해 드릴게요😊"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "ONDA 主要是針對局部脂肪、身體線條跟緊實度做改善，像手臂、腹部、腰側、大腿都很常施作～",
+                    "ko": "ONDA는 주로 국소 지방, 바디 라인, 탄력을 개선하는 시술이며 팔, 복부, 옆구리, 허벅지 등에 많이 시술합니다～"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "您也可以跟我們說一下最想改善的位置，再幫您初步推薦比較合適的療程喔🤍",
+                    "ko": "가장 개선하고 싶은 부위를 알려 주시면 우선 더 적합한 시술을 추천해 드릴게요🤍"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A45:Z45"
+              },
+              {
+                "id": "G-20261030-027",
+                "recordIds": [
+                  "G-20261030-027"
+                ],
+                "kind": "consult",
+                "country": "TW",
+                "procedure": "사각턱·승모근 보톡스, 팔 ONDA",
+                "category": "용량·피부 검사 비용",
+                "verdict": "normal",
+                "reason": "승모근 용량은 근육 크기, 팔 ONDA 에너지는 지방량에 따라 정한다고 답했고 가이드 16·02의 안내와 같다. 피부 검사비 55,000원과 30만·50만·100만원 이상 시 27,500원·11,000원·무료 안내는 가이드 08과 같다.",
+                "questionDate": "2026-10-30",
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "您好，目前的話 咀嚼肌部分跟斜方肌部分想改善 也想做onda改善手臂",
+                    "ko": "안녕하세요, 지금은 저작근과 승모근 부분을 개선하고 싶고 팔도 onda로 개선하고 싶어요"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "可是我沒有做到臉部保養的部分，請問有推薦做皮膚檢測嗎？",
+                    "ko": "그런데 저는 얼굴 관리 부분은 하지 않는데, 피부 검사를 받는 것을 추천하시나요?"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "斜方肌可以參考身體肉毒的部分，施打劑量還是要依您實際肌肉大小來評估~",
+                    "ko": "승모근은 바디 보톡스 부분을 참고하시면 됩니다. 주사 용량은 실제 근육 크기에 따라 평가해야 합니다~"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "ONDA的話手臂一般會施作100-200KJ，也是看您脂肪量評估",
+                    "ko": "ONDA는 팔에 일반적으로 100-200KJ를 시술하며 이 역시 지방량에 따라 평가합니다"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "您好，進行肌膚檢測的話，依據不同療程施作總金額，肌膚檢測費用也會有差異，這邊先提供給您參考，謝謝！\n一般檢測費用為₩55,000\n療程費用達30萬以上，檢測費用為₩27,500\n療程費用達50萬以上，檢測費用為₩11,000\n療程費用達100萬以上，檢測費用免費",
+                    "ko": "안녕하세요, 피부 검사를 받으시면 시술 총금액에 따라 피부 검사 비용도 달라집니다. 먼저 참고하시도록 안내해 드립니다. 감사합니다!\n일반 검사 비용은 ₩55,000\n시술 비용 30만 이상이면 검사 비용 ₩27,500\n시술 비용 50만 이상이면 검사 비용 ₩11,000\n시술 비용 100만 이상이면 검사 무료"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "因為肌膚檢測主要是針對臉部肌膚狀況進行精細的評估，若您此次預計施作肉毒和身體onda，肌膚檢測就是可以作為之後臉部改善的參考依據~",
+                    "ko": "피부 검사는 주로 얼굴 피부 상태를 정밀하게 평가하는 것이므로, 이번에 보톡스와 바디 onda를 받으실 예정이라면 피부 검사는 향후 얼굴 개선을 위한 참고 자료로 활용하실 수 있습니다~"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "您也可以現場再決定是否要做檢測喔~",
+                    "ko": "현장에서 검사를 받을지 결정하셔도 됩니다~"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A18:Z18"
+              },
+              {
+                "id": "G-20261030-028",
+                "recordIds": [
+                  "G-20261030-028"
+                ],
+                "kind": "consult",
+                "country": "TW",
+                "procedure": "보톡스(저작근·승모근·눈가)·고주파·팔자 필러",
+                "category": "통역·가격",
+                "verdict": "conflict",
+                "reason": "중국어 통역 직원이 있다고 답하고 보톡스·필러 가격은 가격표 이미지로 안내했으며 고주파는 개선 부위를 되물었다. 가격표 이미지에 제오민 50U가 143,000원, 대만달러 약 3,088(환율 41)로 함께 적혀 있다. 143,000을 41로 나누면 약 3,488이라 환산액이 맞지 않는다.",
+                "questionDate": "2026-10-30",
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "到院時需要中文翻譯服務",
+                    "ko": "내원할 때 중국어 통역 서비스가 필요해요"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "咀嚼肌 斜方肌肉毒 眼部肉毒 電波 法令紋填補",
+                    "ko": "저작근 보톡스, 승모근 보톡스, 눈가 보톡스, 고주파, 팔자주름 필러"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "可以給我其他報價嗎 謝謝",
+                    "ko": "다른 가격도 알려 주실 수 있을까요 감사합니다"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "我們院內都有中文翻譯人員，這個不用擔心喔✅",
+                    "ko": "저희 병원에는 중국어 통역 직원이 있으니 이 부분은 걱정하지 않으셔도 됩니다✅\n\n[이미지 응답]",
+                    "image": true
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "因為電波有很多種，不確定您要哪一種，請問主要希望改善的部位是哪裡呢？",
+                    "ko": "고주파에는 여러 종류가 있어서 어느 것을 원하시는지 모르겠습니다. 주로 개선하고 싶은 부위가 어디인가요?",
+                    "image": true
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "法令紋玻尿酸填補的話可以參考這個價目表",
+                    "ko": "팔자주름 히알루론산 필러는 이 가격표를 참고하시면 됩니다"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A15:Z15"
+              },
+              {
+                "id": "G-20261030-031",
+                "recordIds": [
+                  "G-20261030-031"
+                ],
+                "kind": "ops",
+                "country": "US",
+                "procedure": "겨드랑이 제모·미백·얼굴 레이저",
+                "category": "예약 변경·소요 시간",
+                "verdict": "followup",
+                "reason": "마감된 시간을 알리고 가장 이른 가능 시간을 안내했으며 1.5시간 안에 끝나는지에는 대기 시간에 따라 보통 가능하다고 답했다. 고객이 마지막에 요청한 변경 예약 완료 여부와 물어본 가장 늦은 예약 가능 시간에는 답하지 않았다.",
+                "questionDate": "2026-10-30",
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "Hi there :( I missed my bus and don’t think I will get there on time. Could I do [예약일시비공개] instead please [예약일시비공개]?",
+                    "ko": "안녕하세요 :( 버스를 놓쳐서 제시간에 도착하지 못할 것 같아요. 대신 [예약일시비공개] [예약일시비공개]에 가능할까요?"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "I’m so sorry for the troubke",
+                    "ko": "불편을 드려서 정말 죄송해요"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "Trouble*",
+                    "ko": "불편*"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "What is the earliest available time you have on [예약일시비공개] and what is the latest available time? Is [예약일시비공개] okay?",
+                    "ko": "[예약일시비공개]에 가능한 가장 이른 시간과 가장 늦은 시간이 언제인가요? [예약일시비공개] 괜찮을까요?"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "What about [예약일시비공개]?",
+                    "ko": "[예약일시비공개]은요?"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "Do you think if we start our appointment at [예약일시비공개] that I’ll be done within 1.5 hours?",
+                    "ko": "[예약일시비공개]에 예약을 시작하면 1.5시간 안에 끝날 수 있을까요?"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "If yes, may I book for [예약일시비공개]?",
+                    "ko": "그렇다면 [예약일시비공개]으로 예약해도 될까요?"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "No worries at all 😊 **[예약일시비공개] is already fully booked** 🙏  \nWould **[예약일시비공개]** be okay for you instead? 😊",
+                    "ko": "전혀 괜찮습니다 😊 **[예약일시비공개]은 이미 예약이 마감되었습니다** 🙏  \n대신 **[예약일시비공개]** 괜찮으실까요? 😊"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "[예약일시비공개], our earliest available appointment is [예약일시비공개] 😊",
+                    "ko": "[예약일시비공개] 가장 이른 예약 가능 시간은 [예약일시비공개]입니다 😊"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "Sorry, [예약일시비공개] is also fully booked 🙏 the earliest slot on [예약일시비공개] is [예약일시비공개]",
+                    "ko": "죄송하지만 [예약일시비공개]도 예약이 마감되었습니다 🙏 [예약일시비공개] 가장 이른 시간은 [예약일시비공개]입니다"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "Depending on the waiting time, your treatment can usually be completed within an hour and a half. ^^",
+                    "ko": "대기시간에 따라 다르지만 보통 1.5시간 이내에 시술을 마칠 수 있습니다. ^^"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A16:Z16"
+              },
+              {
+                "id": "G-20261030-032",
+                "recordIds": [
+                  "G-20261030-032"
+                ],
+                "kind": "inflow",
+                "country": "TH",
+                "procedure": "스킨 보톡스",
+                "category": "프로모션·통역",
+                "verdict": "image",
+                "reason": "프로모션 이미지를 보내고 태국인 상담 담당자와 태국어 통역이 있는 LINE으로 문의하라고 안내했다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (상품·이벤트 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "สวัสดีค่ะ ตอนนี้ทางคลินิกมีโปรโมชั่นอยู่ตามภาพเลยนะคะ\n\nหากมีข้อสงสัยใดๆเพิ่มเติมสามารถแอดไลน์มาสอบถามได้เลยค่ะ มีแอดมินคนไทยและล่ามไทยให้บริการอยู่ตลอดนะคะะ 🥰🙏",
+                    "ko": "안녕하세요, 현재 병원에서 이미지와 같은 프로모션을 진행하고 있습니다.\n\n추가로 궁금한 점이 있으면 LINE을 추가하여 문의해 주세요. 태국인 상담 담당자와 태국어 통역사가 항상 서비스를 제공하고 있습니다 🥰🙏",
+                    "image": true
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A19:Z19"
+              },
+              {
+                "id": "G-20261030-033",
+                "recordIds": [
+                  "G-20261030-033"
+                ],
+                "kind": "inflow",
+                "country": "US",
+                "procedure": "피코 토닝",
+                "category": "프로모션",
+                "verdict": "conflict",
+                "reason": "프로모션 이미지를 보내고 궁금한 점은 언제든 물어 달라고 안내했다. 가격표 이미지의 색소 패키지 VAT 전 금액이 가이드 10 이벤트 시트와 다르다. 듀얼색소(색소 2종) 10회는 195만원(가이드 199만원), 트리플(색소 3종) 1·5·10회는 33만·137만·249만원(가이드 35만·145만·259만원)이다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (상품·이벤트 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "Hi~ Here is our promotion for your reference✨\n\nIf you have any question, please feel free to ask us anytime💕",
+                    "ko": "안녕하세요~ 참고하실 수 있도록 프로모션을 안내해 드립니다✨\n\n궁금한 점이 있으면 언제든지 편하게 물어보세요💕",
+                    "image": true
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A22:Z22"
+              },
+              {
+                "id": "G-20261030-034",
+                "recordIds": [
+                  "G-20261030-034"
+                ],
+                "kind": "inflow",
+                "country": "IT",
+                "procedure": "주름 보톡스",
+                "category": "프로모션",
+                "verdict": "image",
+                "reason": "프로모션 이미지를 보내고 궁금한 점은 언제든 물어 달라고 안내했다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (당일 새 질문 없음)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "Hi~ Here is our promotion for your reference✨\n\nIf you have any question, please feel free to ask us anytime💕",
+                    "ko": "안녕하세요~ 참고하실 수 있도록 프로모션을 안내해 드립니다✨\n\n궁금한 점이 있으면 언제든지 편하게 물어보세요💕",
+                    "image": true
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A39:Z39"
+              },
+              {
+                "id": "G-20261030-036",
+                "recordIds": [
+                  "G-20261030-036"
+                ],
+                "kind": "inflow",
+                "country": "TH",
+                "procedure": "확인되지 않음",
+                "category": "프로모션·통역",
+                "verdict": "image",
+                "reason": "프로모션 이미지를 보내고 태국인 상담 담당자와 태국어 통역이 있는 LINE으로 문의하라고 안내했다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (당일 새 질문 없음)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "สวัสดีครับ ตอนนี้ทางคลินิกมีโปรโมชั่นอยู่ตามภาพเลยนะครับ\nหากมีข้อสงสัยใดๆเพิ่มเติมสามารถแอดไลน์มาสอบถามได้เลยครับ มีแอดมินคนไทยและล่ามไทยให้บริการอยู่ตลอดนะครับ🥰🙏",
+                    "ko": "안녕하세요, 현재 병원에서 이미지와 같은 프로모션을 진행하고 있습니다.\n추가로 궁금한 점이 있으면 LINE을 추가하여 문의해 주세요. 태국인 상담 담당자와 태국어 통역사가 항상 서비스를 제공하고 있습니다🥰🙏",
+                    "image": true
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A46:Z46"
+              },
+              {
+                "id": "G-20261030-037",
+                "recordIds": [
+                  "G-20261030-037"
+                ],
+                "kind": "ops",
+                "country": "JP",
+                "procedure": "겨드랑이 제모·피코 토닝",
+                "category": "예약 취소",
+                "verdict": "normal-ops",
+                "reason": "10월 30일 취소 요청에 10월 31일 이번 예약을 취소하겠다고 답하고 다시 올 때 연락해 달라고 안내했다. 가이드 11의 예약 취소 안내 문구와 내용이 같다.",
+                "questionDate": "2026-10-30",
+                "finalReplyDate": "2026-10-31",
+                "customer": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "予定が変更になって来院が難しくなったためキャンセルしたいです。すみません\n次回利用させていただきます",
+                    "ko": "일정이 변경되어 방문이 어려워져서 취소하고 싶습니다. 죄송합니다\n다음에 이용하겠습니다"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "ご連絡いただきありがとうございます😊今回はご予約をキャンセルさせていただきます。\n\nまた韓国にお越しの際や、ご都合が合う際には、ぜひお気軽にご連絡ください✨",
+                    "ko": "연락해 주셔서 감사합니다😊이번 예약은 취소해 드리겠습니다.\n\n다시 한국에 오실 때나 시간이 맞으실 때에는 꼭 편하게 연락해 주세요✨"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A5:Z5"
+              },
+              {
+                "id": "G-20261030-038",
+                "recordIds": [
+                  "G-20261030-038"
+                ],
+                "kind": "inflow",
+                "country": "TH",
+                "procedure": "인모드",
+                "category": "프로모션·통역",
+                "verdict": "image",
+                "reason": "10월 30일 인모드 이벤트 유입에 10월 31일 프로모션 이미지를 보내고 태국인 상담 담당자와 태국어 통역이 있는 LINE으로 문의하라고 안내했다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-10-31",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (상품·이벤트 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "สวัสดีค่ะ ตอนนี้ทางคลินิกมีโปรโมชั่นอยู่ตามภาพเลยนะคะ\n\nหากมีข้อสงสัยใดๆเพิ่มเติมสามารถแอดไลน์มาสอบถามได้เลยค่ะ มีแอดมินคนไทยและล่ามไทยให้บริการอยู่ตลอดนะคะะ 🥰🙏",
+                    "ko": "안녕하세요. 현재 클리닉에는 사진과 같은 프로모션이 있습니다.\n\n추가로 궁금한 점이 있으시면 LINE을 추가하여 문의하셔도 됩니다. 태국인 관리자와 태국어 통역사가 항상 서비스를 제공하고 있어요 🥰🙏\n[이미지 응답]",
+                    "image": true
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A12:Z12"
+              },
+              {
+                "id": "G-20261030-039",
+                "recordIds": [
+                  "G-20261030-039"
+                ],
+                "kind": "inflow",
+                "country": "TW",
+                "procedure": "주름 보톡스",
+                "category": "연락 경로",
+                "verdict": "archive",
+                "reason": "주름 보톡스 이벤트 유입에 인사와 공식 LINE 계정을 안내한 보관 대화다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (상품·이벤트 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "您好，這裡是Beauty Blossom🌸\n非常感謝您使用我們的線上諮詢服務😊\n\n若您有任何疑問或想進一步諮詢，歡迎直接加入我們的LINE官方帳號與我們聯繫!\n歡迎加入我們的官方LINE：\nID：@beautyblossom_tw",
+                    "ko": "안녕하세요, Beauty Blossom입니다🌸\n저희 온라인 상담 서비스를 이용해 주셔서 정말 감사합니다😊\n\n궁금한 점이 있거나 더 자세한 상담을 원하시면 저희 LINE 공식 계정을 추가하여 연락해 주세요!\n저희 공식 LINE을 추가해 주세요:\nID：@beautyblossom_tw"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A7:Z7"
+              },
+              {
+                "id": "G-20261030-040",
+                "recordIds": [
+                  "G-20261030-040"
+                ],
+                "kind": "inflow",
+                "country": "TW",
+                "procedure": "확인되지 않음",
+                "category": "상담 접수",
+                "verdict": "normal-ops",
+                "reason": "10월 30일 병원 문의 유입에 10월 31일 예약 도움이 필요한지와 개선하고 싶은 부위를 물었다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-10-31",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (상품·이벤트 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "您好，請問需要協助您預約嗎？或者有其他問題都可以詢問喔!",
+                    "ko": "안녕하세요, 예약을 도와드릴까요? 아니면 다른 궁금한 점이 있으셔도 문의하셔도 돼요!"
+                  },
+                  {
+                    "date": "2026-10-31",
+                    "original": "您也可以跟我們說一下最想改善的位置，再幫您初步推薦比較合適的療程喔🤍",
+                    "ko": "가장 개선하고 싶은 부위를 저희에게 말씀해 주셔도 돼요. 그러면 우선 더 적합한 시술을 추천해 드릴게요🤍"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A8:Z8"
+              },
+              {
+                "id": "G-20261030-041",
+                "recordIds": [
+                  "G-20261030-041"
+                ],
+                "kind": "consult",
+                "country": "TW",
+                "procedure": "HIFU 리프팅(300샷)",
+                "category": "시술 후 화장",
+                "verdict": "normal",
+                "reason": "시술 당일 부드럽게 하면 평소처럼 화장해도 되고 상처가 없어 세안·화장에 문제가 없다고 답했다. 가이드 02는 HIFU 리프팅(슈링크·울쎄라) 당일 가벼운 세안 및 화장이 가능하다고 안내하며 담당자의 답과 같다.",
+                "questionDate": "2026-10-30",
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "不好意思～想請問打完音波能夠化妝嗎",
+                    "ko": "죄송한데～초음파 시술 후 화장해도 되는지 여쭤보고 싶어요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "可以的，手法盡量輕柔不要大力的話，當天是可以正常上妝的喔!",
+                    "ko": "네, 동작을 최대한 부드럽게 하고 세게 힘을 주지 않으면 당일에도 평소처럼 화장하셔도 됩니다!"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "[예약일시비공개]療程結束後，我們也都會發送注意事項給您，音波的話因為不會有傷口，所以正常洗臉化妝都是沒問題的喔!",
+                    "ko": "[예약일시비공개] 시술이 끝나면 주의사항도 보내드리겠습니다. 초음파는 상처가 생기지 않아서 평소처럼 세안과 화장을 하셔도 문제없습니다!"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "若有問題也都可以再詢問~",
+                    "ko": "궁금한 점이 있으면 또 물어보셔도 됩니다~"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A9:Z9"
+              },
+              {
+                "id": "G-20261030-042",
+                "recordIds": [
+                  "G-20261030-042"
+                ],
+                "kind": "consult",
+                "country": "TW",
+                "procedure": "포텐자(골드 미세침)·쥬베룩 스킨",
+                "category": "시술 상담·팁 선택",
+                "verdict": "normal",
+                "reason": "골드 미세침 가격을 보내고 모공·유분은 모공 팁, 패인 흉터·피부결은 펌핑 팁과 쥬베룩 스킨을 권했다. 가이드 06은 모공팁은 모공·피부결, 펌핑팁은 스킨부스터와 함께 진행한다고 안내하며 담당자의 답과 같다.",
+                "questionDate": "2026-10-30",
+                "finalReplyDate": "2026-10-31",
+                "customer": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "想更詳細了解施術／手術內容",
+                    "ko": "시술／수술 내용을 더 자세히 알고 싶어요"
+                  },
+                  {
+                    "date": "2026-10-31",
+                    "original": "臉部毛孔",
+                    "ko": "얼굴 모공"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "黃金微針的價格這邊可以先給您參考喔😊",
+                    "ko": "골드 미세침 가격을 먼저 참고하시도록 안내해 드릴게요😊"
+                  },
+                  {
+                    "date": "2026-10-30",
+                    "original": "您也可以跟我們說一下最想改善的位置，再幫您初步推薦比較合適的療程喔🤍",
+                    "ko": "가장 개선하고 싶은 부위를 알려 주시면 우선 더 적합한 시술을 추천해 드릴게요🤍"
+                  },
+                  {
+                    "date": "2026-10-31",
+                    "original": "如果比較在意 毛孔＋出油，可以考慮 毛孔探頭，針對皮脂分泌跟毛孔做加強。",
+                    "ko": "모공＋유분이 더 신경 쓰이시면 모공 팁을 고려하실 수 있습니다. 피지 분비와 모공에 집중해 강화합니다."
+                  },
+                  {
+                    "date": "2026-10-31",
+                    "original": "如果 凹痘疤、膚質凹凸感比較明顯，會更推薦參考 Pumping探頭＋Juvelook Skin，會比單純毛孔模式更著重在凹疤、毛孔跟整體膚質的改善🤍",
+                    "ko": "패인 여드름 흉터나 피부의 울퉁불퉁함이 더 뚜렷하다면 Pumping 팁＋Juvelook Skin을 참고하시도록 더 추천합니다. 단순 모공 모드보다 패인 흉터, 모공, 전반적인 피부결 개선에 더 중점을 둡니다🤍"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A2:Z2"
+              },
+              {
+                "id": "G-20261030-043",
+                "recordIds": [
+                  "G-20261030-043"
+                ],
+                "kind": "ops",
+                "country": "TW",
+                "procedure": "인모드",
+                "category": "당일 예약 시간",
+                "verdict": "normal-ops",
+                "reason": "10월 30일 다음 날 예약을 묻자 10월 31일 상담과 시술 시간을 충분히 두도록 내원 마감 시각 전까지 도착하라고 안내했다. 가이드 07은 주말 진료를 10:00~16:30으로 안내하며 담당자의 안내와 맞는다.",
+                "questionDate": "2026-10-30",
+                "finalReplyDate": "2026-10-31",
+                "customer": [
+                  {
+                    "date": "2026-10-30",
+                    "original": "你好，請問[희망 방문일 가림]可以預約嗎？",
+                    "ko": "안녕하세요, [희망 방문일 가림] 예약할 수 있을까요?"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "您好，若您希望[방문일 가림]來院的話，最晚建議於[내원 마감 시각 가림]前抵達，以確保諮詢+施作時間充足喔~",
+                    "ko": "안녕하세요, [방문일 가림] 내원을 원하시면 상담+시술 시간이 충분하도록 늦어도 [내원 마감 시각 가림] 전에는 도착하시는 것을 권장해요~"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A14:Z14"
+              },
+              {
+                "id": "G-20261030-044",
+                "recordIds": [
+                  "G-20261030-044"
+                ],
+                "kind": "inflow",
+                "country": "US",
+                "procedure": "겨드랑이 관리(제모·보톡스·토닝)",
+                "category": "예약 완료 안내",
+                "verdict": "followup",
+                "reason": "담당자는 예약 일시·위치·지도 링크·외국인등록증 또는 여권 지참을 영문 예약 안내로 보냈다. 가이드 08 영문 예약 안내 문구에는 상담만 받고 시술하지 않으면 상담비 10,000원이 발생한다는 항목이 있는데 담당자 문구에는 빠졌다.",
+                "questionDate": "2026-10-30",
+                "finalReplyDate": "2026-10-31",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (앱에서 일정 제안)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "Your reservation has been scheduled for the following date and time:\n\n📅 Day :  [예약일]\n⏰ Time : [예약시간]\n\n📍Location : 66 Yanghwa-ro, Mapo, Seoul, 6F  \n\nLink for location \n* Naver Map : https://naver.me/5ap1E0ph\n* Google : https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 Please bring your Alien Registration Card or Passport with you.\n\nWe look forward to meeting you soon.🥰\n\nThank you 🙂\n\nBeauty Blossom Global Clinic Team🌸",
+                    "ko": "예약이 다음 날짜와 시간으로 잡혔습니다:\n\n📅 날짜 :  [예약일]\n⏰ 시간 : [예약시간]\n\n📍위치 : 66 Yanghwa-ro, Mapo, Seoul, 6F (서울 마포 양화로 66, 6층)  \n\n위치 링크 \n* Naver Map : https://naver.me/5ap1E0ph\n* Google : https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 외국인등록증이나 여권을 지참해 주세요.\n\n곧 만나 뵙기를 기대하겠습니다.🥰\n\n감사합니다 🙂\n\nBeauty Blossom Global Clinic Team (Beauty Blossom 글로벌 클리닉 팀)🌸"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A10:Z10"
+              },
+              {
+                "id": "G-20261030-045",
+                "recordIds": [
+                  "G-20261030-045"
+                ],
+                "kind": "inflow",
+                "country": "AU",
+                "procedure": "피코슈어 토닝·피코 지우개(이벤트 유입)",
+                "category": "프로모션 안내",
+                "verdict": "image",
+                "reason": "피코 이벤트 유입에 프로모션 이미지를 보내고 추가 문의를 받겠다고 안내했다.",
+                "questionDate": "2026-10-30",
+                "finalReplyDate": "2026-10-31",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (상품·이벤트 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "Hi~ Here is our promotion for your reference✨\n\nIf you have any question, please feel free to ask us anytime💕",
+                    "ko": "안녕하세요~ 참고하실 수 있도록 저희 프로모션을 보내드립니다✨\n\n궁금한 점이 있으시면 언제든 편하게 문의해 주세요💕\n[이미지 응답]",
+                    "image": true
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A11:Z11"
+              },
+              {
+                "id": "G-20261030-046",
+                "recordIds": [
+                  "G-20261030-046"
+                ],
+                "kind": "inflow",
+                "country": "AU",
+                "procedure": "남성 수염 제모(이벤트 유입)",
+                "category": "인사·문의 접수",
+                "verdict": "normal-ops",
+                "reason": "고객의 직접 질문 없이 수염 제모 이벤트로 들어온 상담에 궁금한 점을 언제든 문의하라는 인사로 응대했다.",
+                "questionDate": "2026-10-30",
+                "finalReplyDate": "2026-10-31",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음 (상품·이벤트 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-10-31",
+                    "original": "Hi~ If you have any question, please feel free to ask us anytime💕",
+                    "ko": "안녕하세요~ 궁금한 점이 있으시면 언제든 편하게 문의해 주세요💕"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A13:Z13"
               }
-            ]
+            ],
+            "merged": [
+              {
+                "recordId": "G-20261030-029",
+                "intoDate": "2026-10-31",
+                "intoId": "MISS-G-20261031-030"
+              },
+              {
+                "recordId": "G-20261030-030",
+                "intoDate": "2026-10-31",
+                "intoId": "MISS-G-20261031-061"
+              },
+              {
+                "recordId": "G-20261030-035",
+                "intoDate": "2026-10-31",
+                "intoId": "MISS-G-20261031-060"
+              }
+            ],
+            "unavailable": {
+              "recordIds": []
+            }
           }
         },
         {
@@ -11328,8 +12627,8 @@ window.SUPERVISION_DATA = {
               "customerKo": "문의 내용\n어떤 것이 궁금하신가요?\n이벤트 문의\n홍대 디자인 슬림라인 어깨 필러, 직각 어깨 필러, 스완 숄더 필러",
               "staffText": "ご連絡ありがとうございます🌸\nフィラーは気になる部分へボリュームを追加する施術です！\nご相談はお気軽にどうぞ😊\n\nこちらのイベントもご覧ください🙇✨\n\nhttps://jp.beautyblossom.kr/22/?q=YToyOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjtzOjQ6InBhZ2UiO2k6Mjt9&bmode=view&idx=173336689&t=board",
               "staffKo": "연락해 주셔서 감사합니다🌸\n필러는 신경 쓰이는 부위에 볼륨을 더하는 시술입니다!\n편하게 상담해 주세요😊\n\n이 이벤트도 확인해 주세요🙇✨\n\nhttps://jp.beautyblossom.kr/22/?q=YToyOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjtzOjQ6InBhZ2UiO2k6Mjt9&bmode=view&idx=173336689&t=board",
-              "rationale": "일치: 어깨필러 문의에 필러 설명과 이벤트 링크로 답했다. 보관된 어깨 24cc 안내의 브랜드별 세전 109만·139만·169만 원은 제공 수가표와 일치한다.",
-              "evidence": "raw/17.md L7896–L7904 sheet-1248865534!F6:J6\nB6 | 시즌 이벤트 |  |\nC6 | 상세내용 |  |\nD6 | 수식어 |  |\nE6 | 정상 |  |\nF6 | 정가 |  |\nG6 | VAT 전 |  |\nH6 | VAT 후 (최종) |  |\nI6 | 표기정가 |  |\nJ6 | 표기엔드가(VAT 전) |  |\n\nraw/17.md L8033 sheet-1248865534!B31\nB31 | 스윗 입술필러 1cc (아띠에르 18, 리쥬비엘 20, 스웨덴 레스틸렌 키스 33) |  |\n\nraw/17.md L8056 sheet-1248865534!B34\nB34 | 내츄럴 애교필러 1cc (아띠에르 20, 리쥬비엘 22, 독일 벨로테로 소프트 33) |  |\n\nraw/17.md L8222 sheet-1248865534!B56\nB56 | 디자인 풀페이스 필러 (아띠에르 129, 리쥬비엘 149) [벨라스트 삭제] |  |\n\nraw/17.md L8231 sheet-1248865534!B57\nB57 | ㄴ(특수부위 포함 무제한 풀페이스 필러) |  |\n\nraw/17.md L8034 sheet-1248865534!C31\nC31 | 아띠에르 18 |  |\n\nraw/17.md L8037 sheet-1248865534!F31\nF31 | 360,000 | =ROUND(E31, -4) |\n\nraw/17.md L8038 sheet-1248865534!G31\nG31 | 200,000 |  |\n\nraw/17.md L8039 sheet-1248865534!H31\nH31 | 220,000 | =G31+(G31*10%) |\n\nraw/17.md L8042 sheet-1248865534!C32\nC32 | 리쥬비엘 20 |  |\n\nraw/17.md L8044 sheet-1248865534!F32\nF32 | 400,000 | =ROUND(E32, -4) |\n\nraw/17.md L8045 sheet-1248865534!G32\nG32 | 220,000 |  |\n\nraw/17.md L8046 sheet-1248865534!H32\nH32 | 242,000 | =G32+(G32*10%) |\n\nraw/17.md L8049 sheet-1248865534!C33\nC33 | 스웨덴 레스틸렌 키스 33 |  |\n\nraw/17.md L8051 sheet-1248865534!F33\nF33 | 640,000 | =ROUND(E33, -4) |\n\nraw/17.md L8052 sheet-1248865534!G33\nG33 | 350,000 |  |\n\nraw/17.md L8053 sheet-1248865534!H33\nH33 | 385,000 | =G33+(G33*10%) |\n\nraw/17.md L8057 sheet-1248865534!C34\nC34 | 아띠에르 20 |  |\n\nraw/17.md L8060 sheet-1248865534!F34\nF34 | 450,000 | =ROUND(E34, -4) |\n\nraw/17.md L8061 sheet-1248865534!G34\nG34 | 250,000 |  |\n\nraw/17.md L8062 sheet-1248865534!H34\nH34 | 275,000 | =G34+(G34*10%) |\n\nraw/17.md L8065 sheet-1248865534!C35\nC35 | 리쥬비엘 22 |  |\n\nraw/17.md L8067 sheet-1248865534!F35\nF35 | 490,000 | =ROUND(E35, -4) |\n\nraw/17.md L8068 sheet-1248865534!G35\nG35 | 270,000 |  |\n\nraw/17.md L8069 sheet-1248865534!H35\nH35 | 297,000 | =G35+(G35*10%) |\n\nraw/17.md L8072 sheet-1248865534!C36\nC36 | 스위스 벨로테로 소프트 33 |  |\n\nraw/17.md L8074 sheet-1248865534!F36\nF36 | 710,000 | =ROUND(E36, -4) |\n\nraw/17.md L8075 sheet-1248865534!G36\nG36 | 390,000 |  |\n\nraw/17.md L8076 sheet-1248865534!H36\nH36 | 429,000 | =G36+(G36*10%) |\n\nraw/17.md L8080 sheet-1248865534!C37\nC37 | 아띠에르  |  |\n\nraw/17.md L8082 sheet-1248865534!F37\nF37 | 450,000 | =ROUND(E37, -4) |\n\nraw/17.md L8083 sheet-1248865534!G37\nG37 | 250,000 |  |\n\nraw/17.md L8084 sheet-1248865534!H37\nH37 | 275,000 | =G37+(G37*10%) |\n\nraw/17.md L8087 sheet-1248865534!C38\nC38 | 리쥬비엘  |  |\n\nraw/17.md L8089 sheet-1248865534!F38\nF38 | 550,000 | =ROUND(E38, -4) |\n\nraw/17.md L8090 sheet-1248865534!G38\nG38 | 300,000 |  |\n\nraw/17.md L8091 sheet-1248865534!H38\nH38 | 330,000 | =G38+(G38*10%) |\n\nraw/17.md L8094 sheet-1248865534!C39\nC39 | 스위스 벨로테로 소프트 / 레스틸렌 아이라이트 |  |\n\nraw/17.md L8096 sheet-1248865534!F39\nF39 | 650,000 | =ROUND(E39, -4) |\n\nraw/17.md L8097 sheet-1248865534!G39\nG39 | 360,000 |  |\n\nraw/17.md L8098 sheet-1248865534!H39\nH39 | 396,000 | =G39+(G39*10%) |\n\nraw/17.md L8102 sheet-1248865534!C40\nC40 | 아띠에르  |  |\n\nraw/17.md L8104 sheet-1248865534!F40\nF40 | 490,000 | =ROUND(E40, -4) |\n\nraw/17.md L8105 sheet-1248865534!G40\nG40 | 270,000 |  |\n\nraw/17.md L8106 sheet-1248865534!H40\nH40 | 297,000 | =G40+(G40*10%) |\n\nraw/17.md L8109 sheet-1248865534!C41\nC41 | 리쥬비엘  |  |\n\nraw/17.md L8111 sheet-1248865534!F41\nF41 | 560,000 | =ROUND(E41, -4) |\n\nraw/17.md L8112 sheet-1248865534!G41\nG41 | 310,000 |  |\n\nraw/17.md L8113 sheet-1248865534!H41\nH41 | 341,000 | =G41+(G41*10%) |\n\nraw/17.md L8116 sheet-1248865534!C42\nC42 | 스웨덴 레스틸렌 소프트 |  |\n\nraw/17.md L8118 sheet-1248865534!F42\nF42 | 710,000 | =ROUND(E42, -4) |\n\nraw/17.md L8119 sheet-1248865534!G42\nG42 | 390,000 |  |\n\nraw/17.md L8120 sheet-1248865534!H42\nH42 | 429,000 | =G42+(G42*10%) |\n\nraw/17.md L8123 sheet-1248865534!C43\nC43 | 미쥬코 1줄 추가 |  |\n\nraw/17.md L8125 sheet-1248865534!F43\nF43 | 180,000 | =ROUND(E43, -4) |\n\nraw/17.md L8126 sheet-1248865534!G43\nG43 | 100,000 |  |\n\nraw/17.md L8127 sheet-1248865534!H43\nH43 | 110,000 | =G43+(G43*10%) |\n\nraw/17.md L8131 sheet-1248865534!C44\nC44 | 아띠에르 39 |  |\n\nraw/17.md L8134 sheet-1248865534!F44\nF44 | 710,000 | =ROUND(E44, -4) |\n\nraw/17.md L8135 sheet-1248865534!G44\nG44 | 390,000 |  |\n\nraw/17.md L8136 sheet-1248865534!H44\nH44 | 429,000 | =G44+(G44*10%) |\n\nraw/17.md L8139 sheet-1248865534!C45\nC45 | 리쥬비엘 45 |  |\n\nraw/17.md L8141 sheet-1248865534!F45\nF45 | 820,000 | =ROUND(E45, -4) |\n\nraw/17.md L8142 sheet-1248865534!G45\nG45 | 450,000 |  |\n\nraw/17.md L8143 sheet-1248865534!H45\nH45 | 495,000 | =G45+(G45*10%) |\n\nraw/17.md L8146 sheet-1248865534!C46\nC46 | 수입 99 |  |\n\nraw/17.md L8148 sheet-1248865534!F46\nF46 | 1,800,000 | =ROUND(E46, -4) |\n\nraw/17.md L8149 sheet-1248865534!G46\nG46 | 990,000 |  |\n\nraw/17.md L8150 sheet-1248865534!H46\nH46 | 1,089,000 | =G46+(G46*10%) |\n\nraw/17.md L8154 sheet-1248865534!C47\nC47 | 아띠에르 |  |\n\nraw/17.md L8157 sheet-1248865534!F47\nF47 | 1,070,000 | =ROUND(E47, -4) |\n\nraw/17.md L8158 sheet-1248865534!G47\nG47 | 590,000 |  |\n\nraw/17.md L8159 sheet-1248865534!H47\nH47 | 649,000 | =G47+(G47*10%) |\n\nraw/17.md L8162 sheet-1248865534!C48\nC48 | 리쥬비엘  |  |\n\nraw/17.md L8164 sheet-1248865534!F48\nF48 | 1,180,000 | =ROUND(E48, -4) |\n\nraw/17.md L8165 sheet-1248865534!G48\nG48 | 650,000 |  |\n\nraw/17.md L8166 sheet-1248865534!H48\nH48 | 715,000 | =G48+(G48*10%) |\n\nraw/17.md L8169 sheet-1248865534!C49\nC49 | 수입 |  |\n\nraw/17.md L8171 sheet-1248865534!F49\nF49 | 1,800,000 | =ROUND(E49, -4) |\n\nraw/17.md L8172 sheet-1248865534!G49\nG49 | 990,000 |  |\n\nraw/17.md L8173 sheet-1248865534!H49\nH49 | 1,089,000 | =G49+(G49*10%) |\n\nraw/17.md L8177 sheet-1248865534!C50\nC50 | 아띠에르  |  |\n\nraw/17.md L8180 sheet-1248865534!F50\nF50 | 760,000 | =ROUND(E50, -4) |\n\nraw/17.md L8181 sheet-1248865534!G50\nG50 | 420,000 |  |\n\nraw/17.md L8182 sheet-1248865534!H50\nH50 | 462,000 | =G50+(G50*10%) |\n\nraw/17.md L8185 sheet-1248865534!C51\nC51 | 리쥬비엘 |  |\n\nraw/17.md L8187 sheet-1248865534!F51\nF51 | 840,000 | =ROUND(E51, -4) |\n\nraw/17.md L8188 sheet-1248865534!G51\nG51 | 460,000 |  |\n\nraw/17.md L8189 sheet-1248865534!H51\nH51 | 506,000 | =G51+(G51*10%) |\n\nraw/17.md L8192 sheet-1248865534!C52\nC52 | 스위스 벨로테로 소프트 |  |\n\nraw/17.md L8194 sheet-1248865534!F52\nF52 | 1,360,000 | =ROUND(E52, -4) |\n\nraw/17.md L8195 sheet-1248865534!G52\nG52 | 750,000 |  |\n\nraw/17.md L8196 sheet-1248865534!H52\nH52 | 825,000 | =G52+(G52*10%) |\n\nraw/17.md L8200 sheet-1248865534!C53\nC53 | 벨라스트 109 |  |\n\nraw/17.md L8203 sheet-1248865534!F53\nF53 | 1,980,000 | =ROUND(E53, -4) |\n\nraw/17.md L8204 sheet-1248865534!G53\nG53 | 1,090,000 |  |\n\nraw/17.md L8205 sheet-1248865534!H53\nH53 | 1,199,000 | =G53+(G53*10%) |\n\nraw/17.md L8208 sheet-1248865534!C54\nC54 | 아띠에르 139 |  |\n\nraw/17.md L8210 sheet-1248865534!F54\nF54 | 2,530,000 | =ROUND(E54, -4) |\n\nraw/17.md L8211 sheet-1248865534!G54\nG54 | 1,390,000 |  |\n\nraw/17.md L8212 sheet-1248865534!H54\nH54 | 1,529,000 | =G54+(G54*10%) |\n\nraw/17.md L8215 sheet-1248865534!C55\nC55 | 리쥬비엘 169 |  |\n\nraw/17.md L8217 sheet-1248865534!F55\nF55 | 3,070,000 | =ROUND(E55, -4) |\n\nraw/17.md L8218 sheet-1248865534!G55\nG55 | 1,690,000 |  |\n\nraw/17.md L8219 sheet-1248865534!H55\nH55 | 1,859,000 | =G55+(G55*10%) |\n\nraw/17.md L8223 sheet-1248865534!C56\nC56 | 아띠에르  |  |\n\nraw/17.md L8226 sheet-1248865534!F56\nF56 | 2,820,000 | =ROUND(E56, -4) |\n\nraw/17.md L8227 sheet-1248865534!G56\nG56 | 1,550,000 |  |\n\nraw/17.md L8228 sheet-1248865534!H56\nH56 | 1,705,000 | =G56+(G56*10%) |\n\nraw/17.md L8232 sheet-1248865534!C57\nC57 | 리쥬비엘  |  |\n\nraw/17.md L8234 sheet-1248865534!F57\nF57 | 3,180,000 | =ROUND(E57, -4) |\n\nraw/17.md L8235 sheet-1248865534!G57\nG57 | 1,750,000 |  |\n\nraw/17.md L8236 sheet-1248865534!H57\nH57 | 1,925,000 | =G57+(G57*10%) |\n\nraw/17.md L8239 sheet-1248865534!C58\nC58 | 수입필러 |  |\n\nraw/17.md L8241 sheet-1248865534!F58\nF58 | 6,180,000 | =ROUND(E58, -4) |\n\nraw/17.md L8242 sheet-1248865534!G58\nG58 | 3,400,000 |  |\n\nraw/17.md L8243 sheet-1248865534!H58\nH58 | 3,740,000 | =G58+(G58*10%) |\n적용 규칙: SOURCE-01, PRICE-01",
+              "rationale": "담당자는 필러가 볼륨이 부족한 부위에 주입해 입체감을 살리는 시술이라고 답했고 가이드 02의 필러 설명과 같다. 가격은 말하지 않고 이벤트 페이지 링크와 이미지를 보냈다.",
+              "evidence": "raw/02.md L769 필러 정의",
               "limit": "",
               "procedure": "어깨 필러",
               "questionCategory": "이벤트·가격",
@@ -13536,912 +14835,76 @@ window.SUPERVISION_DATA = {
             }
           ],
           "qaReviewFinalization": {
-            "schemaVersion": 1,
+            "schemaVersion": 2,
             "finalizedAt": "2026-11-02T08:34:55.803Z",
             "finalStatus": "completed",
             "sourceCoverage": "partial",
-            "records": [
-              {
-                "id": "MISS-K-20261101-001",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A229:AF229"
-              },
-              {
-                "id": "MISS-K-20261101-002",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A230:AF230"
-              },
-              {
-                "id": "MISS-K-20261101-003",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A231:AF231"
-              },
-              {
-                "id": "MISS-K-20261101-004",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A232:AF232"
-              },
-              {
-                "id": "MISS-K-20261101-005",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A233:AF233"
-              },
-              {
-                "id": "MISS-K-20261101-006",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A234:AF234"
-              },
-              {
-                "id": "MISS-K-20261101-007",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A235:AF235"
-              },
-              {
-                "id": "MISS-K-20261101-008",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A236:AF236"
-              },
-              {
-                "id": "MISS-K-20261101-009",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A237:AF237"
-              },
-              {
-                "id": "MISS-K-20261101-010",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A238:AF238"
-              },
-              {
-                "id": "MISS-K-20261101-011",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A239:AF239"
-              },
-              {
-                "id": "MISS-K-20261101-012",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A240:AF240"
-              },
-              {
-                "id": "MISS-K-20261101-013",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A241:AF241"
-              },
-              {
-                "id": "MISS-K-20261101-014",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A242:AF242"
-              },
-              {
-                "id": "MISS-K-20261101-015",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A243:AF243"
-              },
-              {
-                "id": "MISS-K-20261101-016",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A244:AF244"
-              },
-              {
-                "id": "MISS-K-20261101-017",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A245:AF245"
-              },
-              {
-                "id": "MISS-K-20261101-018",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A246:AF246"
-              },
-              {
-                "id": "MISS-K-20261101-019",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A247:AF247"
-              },
-              {
-                "id": "MISS-K-20261101-020",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A248:AF248"
-              },
-              {
-                "id": "MISS-K-20261101-021",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A249:AF249"
-              },
-              {
-                "id": "MISS-K-20261101-022",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A250:AF250"
-              },
-              {
-                "id": "MISS-K-20261101-023",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A251:AF251"
-              },
-              {
-                "id": "MISS-K-20261101-024",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A252:AF252"
-              },
-              {
-                "id": "MISS-K-20261101-025",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A253:AF253"
-              },
-              {
-                "id": "MISS-K-20261101-026",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A254:AF254"
-              },
-              {
-                "id": "MISS-K-20261101-027",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A255:AF255"
-              },
-              {
-                "id": "MISS-K-20261101-028",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A256:AF256"
-              },
-              {
-                "id": "MISS-K-20261101-029",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A257:AF257"
-              },
-              {
-                "id": "MISS-K-20261101-030",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A258:AF258"
-              },
-              {
-                "id": "MISS-K-20261101-031",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A259:AF259"
-              },
-              {
-                "id": "MISS-K-20261101-032",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A260:AF260"
-              },
-              {
-                "id": "MISS-K-20261101-033",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A261:AF261"
-              },
-              {
-                "id": "MISS-K-20261101-034",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A262:AF262"
-              },
-              {
-                "id": "MISS-K-20261101-035",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A263:AF263"
-              },
-              {
-                "id": "MISS-K-20261101-036",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A264:AF264"
-              },
-              {
-                "id": "MISS-K-20261101-037",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A265:AF265"
-              },
-              {
-                "id": "MISS-K-20261101-038",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A266:AF266"
-              },
-              {
-                "id": "MISS-K-20261101-039",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A267:AF267"
-              },
-              {
-                "id": "MISS-K-20261101-040",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A268:AF268"
-              },
-              {
-                "id": "MISS-K-20261101-041",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A269:AF269"
-              },
-              {
-                "id": "MISS-K-20261101-042",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A270:AF270"
-              },
-              {
-                "id": "MISS-K-20261101-043",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A271:AF271"
-              },
-              {
-                "id": "MISS-K-20261101-044",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A272:AF272"
-              },
-              {
-                "id": "MISS-K-20261101-045",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A273:AF273"
-              },
-              {
-                "id": "MISS-K-20261101-046",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A274:AF274"
-              },
-              {
-                "id": "MISS-K-20261101-047",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A275:AF275"
-              },
-              {
-                "id": "MISS-K-20261101-048",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A276:AF276"
-              },
-              {
-                "id": "MISS-K-20261101-049",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A277:AF277"
-              },
-              {
-                "id": "MISS-K-20261101-050",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A278:AF278"
-              },
-              {
-                "id": "MISS-K-20261101-051",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A279:AF279"
-              },
-              {
-                "id": "MISS-K-20261101-052",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A280:AF280"
-              },
-              {
-                "id": "MISS-K-20261101-053",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A281:AF281"
-              },
-              {
-                "id": "MISS-K-20261101-054",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A282:AF282"
-              },
-              {
-                "id": "MISS-K-20261101-055",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A283:AF283"
-              },
-              {
-                "id": "MISS-K-20261101-056",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A284:AF284"
-              },
-              {
-                "id": "MISS-K-20261101-057",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A285:AF285"
-              },
-              {
-                "id": "MISS-K-20261101-058",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A286:AF286"
-              },
-              {
-                "id": "MISS-K-20261101-059",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A287:AF287"
-              },
-              {
-                "id": "MISS-K-20261101-060",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A288:AF288"
-              }
-            ]
+            "exchanges": [],
+            "merged": [],
+            "unavailable": {
+              "recordIds": [
+                "MISS-K-20261101-001",
+                "MISS-K-20261101-002",
+                "MISS-K-20261101-003",
+                "MISS-K-20261101-004",
+                "MISS-K-20261101-005",
+                "MISS-K-20261101-006",
+                "MISS-K-20261101-007",
+                "MISS-K-20261101-008",
+                "MISS-K-20261101-009",
+                "MISS-K-20261101-010",
+                "MISS-K-20261101-011",
+                "MISS-K-20261101-012",
+                "MISS-K-20261101-013",
+                "MISS-K-20261101-014",
+                "MISS-K-20261101-015",
+                "MISS-K-20261101-016",
+                "MISS-K-20261101-017",
+                "MISS-K-20261101-018",
+                "MISS-K-20261101-019",
+                "MISS-K-20261101-020",
+                "MISS-K-20261101-021",
+                "MISS-K-20261101-022",
+                "MISS-K-20261101-023",
+                "MISS-K-20261101-024",
+                "MISS-K-20261101-025",
+                "MISS-K-20261101-026",
+                "MISS-K-20261101-027",
+                "MISS-K-20261101-028",
+                "MISS-K-20261101-029",
+                "MISS-K-20261101-030",
+                "MISS-K-20261101-031",
+                "MISS-K-20261101-032",
+                "MISS-K-20261101-033",
+                "MISS-K-20261101-034",
+                "MISS-K-20261101-035",
+                "MISS-K-20261101-036",
+                "MISS-K-20261101-037",
+                "MISS-K-20261101-038",
+                "MISS-K-20261101-039",
+                "MISS-K-20261101-040",
+                "MISS-K-20261101-041",
+                "MISS-K-20261101-042",
+                "MISS-K-20261101-043",
+                "MISS-K-20261101-044",
+                "MISS-K-20261101-045",
+                "MISS-K-20261101-046",
+                "MISS-K-20261101-047",
+                "MISS-K-20261101-048",
+                "MISS-K-20261101-049",
+                "MISS-K-20261101-050",
+                "MISS-K-20261101-051",
+                "MISS-K-20261101-052",
+                "MISS-K-20261101-053",
+                "MISS-K-20261101-054",
+                "MISS-K-20261101-055",
+                "MISS-K-20261101-056",
+                "MISS-K-20261101-057",
+                "MISS-K-20261101-058",
+                "MISS-K-20261101-059",
+                "MISS-K-20261101-060"
+              ]
+            }
           }
         },
         {
@@ -16114,912 +16577,76 @@ window.SUPERVISION_DATA = {
             }
           ],
           "qaReviewFinalization": {
-            "schemaVersion": 1,
+            "schemaVersion": 2,
             "finalizedAt": "2026-11-02T08:34:55.803Z",
             "finalStatus": "completed",
             "sourceCoverage": "partial",
-            "records": [
-              {
-                "id": "MISS-K-20261031-001",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A158:AF158"
-              },
-              {
-                "id": "MISS-K-20261031-002",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A159:AF159"
-              },
-              {
-                "id": "MISS-K-20261031-003",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A160:AF160"
-              },
-              {
-                "id": "MISS-K-20261031-004",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A161:AF161"
-              },
-              {
-                "id": "MISS-K-20261031-005",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A162:AF162"
-              },
-              {
-                "id": "MISS-K-20261031-006",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A163:AF163"
-              },
-              {
-                "id": "MISS-K-20261031-007",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A164:AF164"
-              },
-              {
-                "id": "MISS-K-20261031-008",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A165:AF165"
-              },
-              {
-                "id": "MISS-K-20261031-009",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A166:AF166"
-              },
-              {
-                "id": "MISS-K-20261031-010",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A167:AF167"
-              },
-              {
-                "id": "MISS-K-20261031-011",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A168:AF168"
-              },
-              {
-                "id": "MISS-K-20261031-012",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A169:AF169"
-              },
-              {
-                "id": "MISS-K-20261031-013",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A170:AF170"
-              },
-              {
-                "id": "MISS-K-20261031-014",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A171:AF171"
-              },
-              {
-                "id": "MISS-K-20261031-015",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A172:AF172"
-              },
-              {
-                "id": "MISS-K-20261031-016",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A173:AF173"
-              },
-              {
-                "id": "MISS-K-20261031-017",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A174:AF174"
-              },
-              {
-                "id": "MISS-K-20261031-018",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A175:AF175"
-              },
-              {
-                "id": "MISS-K-20261031-019",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A176:AF176"
-              },
-              {
-                "id": "MISS-K-20261031-020",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A177:AF177"
-              },
-              {
-                "id": "MISS-K-20261031-021",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A178:AF178"
-              },
-              {
-                "id": "MISS-K-20261031-022",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A179:AF179"
-              },
-              {
-                "id": "MISS-K-20261031-023",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A180:AF180"
-              },
-              {
-                "id": "MISS-K-20261031-024",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A181:AF181"
-              },
-              {
-                "id": "MISS-K-20261031-025",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A182:AF182"
-              },
-              {
-                "id": "MISS-K-20261031-026",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A183:AF183"
-              },
-              {
-                "id": "MISS-K-20261031-027",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A184:AF184"
-              },
-              {
-                "id": "MISS-K-20261031-028",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A185:AF185"
-              },
-              {
-                "id": "MISS-K-20261031-029",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A186:AF186"
-              },
-              {
-                "id": "MISS-K-20261031-030",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A187:AF187"
-              },
-              {
-                "id": "MISS-K-20261031-031",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A188:AF188"
-              },
-              {
-                "id": "MISS-K-20261031-032",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A189:AF189"
-              },
-              {
-                "id": "MISS-K-20261031-033",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A190:AF190"
-              },
-              {
-                "id": "MISS-K-20261031-034",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A191:AF191"
-              },
-              {
-                "id": "MISS-K-20261031-035",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A192:AF192"
-              },
-              {
-                "id": "MISS-K-20261031-036",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A193:AF193"
-              },
-              {
-                "id": "MISS-K-20261031-037",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A194:AF194"
-              },
-              {
-                "id": "MISS-K-20261031-038",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A195:AF195"
-              },
-              {
-                "id": "MISS-K-20261031-039",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A196:AF196"
-              },
-              {
-                "id": "MISS-K-20261031-040",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A197:AF197"
-              },
-              {
-                "id": "MISS-K-20261031-041",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A198:AF198"
-              },
-              {
-                "id": "MISS-K-20261031-042",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A199:AF199"
-              },
-              {
-                "id": "MISS-K-20261031-043",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A200:AF200"
-              },
-              {
-                "id": "MISS-K-20261031-044",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A201:AF201"
-              },
-              {
-                "id": "MISS-K-20261031-045",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A202:AF202"
-              },
-              {
-                "id": "MISS-K-20261031-046",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A203:AF203"
-              },
-              {
-                "id": "MISS-K-20261031-047",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A204:AF204"
-              },
-              {
-                "id": "MISS-K-20261031-048",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A205:AF205"
-              },
-              {
-                "id": "MISS-K-20261031-049",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A206:AF206"
-              },
-              {
-                "id": "MISS-K-20261031-050",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A207:AF207"
-              },
-              {
-                "id": "MISS-K-20261031-051",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A208:AF208"
-              },
-              {
-                "id": "MISS-K-20261031-052",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A209:AF209"
-              },
-              {
-                "id": "MISS-K-20261031-053",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A210:AF210"
-              },
-              {
-                "id": "MISS-K-20261031-054",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A211:AF211"
-              },
-              {
-                "id": "MISS-K-20261031-055",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A212:AF212"
-              },
-              {
-                "id": "MISS-K-20261031-056",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A213:AF213"
-              },
-              {
-                "id": "MISS-K-20261031-057",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A214:AF214"
-              },
-              {
-                "id": "MISS-K-20261031-058",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A215:AF215"
-              },
-              {
-                "id": "MISS-K-20261031-059",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A216:AF216"
-              },
-              {
-                "id": "MISS-K-20261031-060",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A217:AF217"
-              }
-            ]
+            "exchanges": [],
+            "merged": [],
+            "unavailable": {
+              "recordIds": [
+                "MISS-K-20261031-001",
+                "MISS-K-20261031-002",
+                "MISS-K-20261031-003",
+                "MISS-K-20261031-004",
+                "MISS-K-20261031-005",
+                "MISS-K-20261031-006",
+                "MISS-K-20261031-007",
+                "MISS-K-20261031-008",
+                "MISS-K-20261031-009",
+                "MISS-K-20261031-010",
+                "MISS-K-20261031-011",
+                "MISS-K-20261031-012",
+                "MISS-K-20261031-013",
+                "MISS-K-20261031-014",
+                "MISS-K-20261031-015",
+                "MISS-K-20261031-016",
+                "MISS-K-20261031-017",
+                "MISS-K-20261031-018",
+                "MISS-K-20261031-019",
+                "MISS-K-20261031-020",
+                "MISS-K-20261031-021",
+                "MISS-K-20261031-022",
+                "MISS-K-20261031-023",
+                "MISS-K-20261031-024",
+                "MISS-K-20261031-025",
+                "MISS-K-20261031-026",
+                "MISS-K-20261031-027",
+                "MISS-K-20261031-028",
+                "MISS-K-20261031-029",
+                "MISS-K-20261031-030",
+                "MISS-K-20261031-031",
+                "MISS-K-20261031-032",
+                "MISS-K-20261031-033",
+                "MISS-K-20261031-034",
+                "MISS-K-20261031-035",
+                "MISS-K-20261031-036",
+                "MISS-K-20261031-037",
+                "MISS-K-20261031-038",
+                "MISS-K-20261031-039",
+                "MISS-K-20261031-040",
+                "MISS-K-20261031-041",
+                "MISS-K-20261031-042",
+                "MISS-K-20261031-043",
+                "MISS-K-20261031-044",
+                "MISS-K-20261031-045",
+                "MISS-K-20261031-046",
+                "MISS-K-20261031-047",
+                "MISS-K-20261031-048",
+                "MISS-K-20261031-049",
+                "MISS-K-20261031-050",
+                "MISS-K-20261031-051",
+                "MISS-K-20261031-052",
+                "MISS-K-20261031-053",
+                "MISS-K-20261031-054",
+                "MISS-K-20261031-055",
+                "MISS-K-20261031-056",
+                "MISS-K-20261031-057",
+                "MISS-K-20261031-058",
+                "MISS-K-20261031-059",
+                "MISS-K-20261031-060"
+              ]
+            }
           }
         },
         {
@@ -18782,1077 +18409,375 @@ window.SUPERVISION_DATA = {
             }
           ],
           "qaReviewFinalization": {
-            "schemaVersion": 1,
+            "schemaVersion": 2,
             "finalizedAt": "2026-11-02T08:34:55.803Z",
             "finalStatus": "completed",
             "sourceCoverage": "partial",
-            "records": [
-              {
-                "id": "K-CAND-001",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A59:Z59"
-              },
-              {
-                "id": "K-CAND-002",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A60:Z60"
-              },
-              {
-                "id": "K-CAND-003",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A61:Z61"
-              },
-              {
-                "id": "K-CAND-004",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A62:Z62"
-              },
-              {
-                "id": "K-CAND-005",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A63:Z63"
-              },
-              {
-                "id": "K-CAND-006",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A64:Z64"
-              },
-              {
-                "id": "K-CAND-007",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A65:Z65"
-              },
-              {
-                "id": "K-CAND-008",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A66:Z66"
-              },
-              {
-                "id": "K-CAND-009",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A67:Z67"
-              },
-              {
-                "id": "K-CAND-010",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A68:Z68"
-              },
-              {
-                "id": "K-CAND-011",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A69:Z69"
-              },
-              {
-                "id": "K-CAND-012",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A70:Z70"
-              },
-              {
-                "id": "K-CAND-013",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A71:Z71"
-              },
-              {
-                "id": "K-CAND-014",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A72:Z72"
-              },
-              {
-                "id": "K-CAND-015",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A73:Z73"
-              },
+            "exchanges": [
               {
                 "id": "K-CAND-016",
-                "status": "reviewed",
-                "disposition": "archived-only",
-                "customerQuestion": "원문: Hello\n한국어: 안녕하세요",
-                "staffFinalResponse": "채팅 운영시간\n\n월요일\n10:00 ~ 20:00\n화요일\n10:00 ~ 20:00\n수요일\n10:00 ~ 20:00\n목요일\n10:00 ~ 20:00\n금요일\n10:00 ~ 20:00\n토요일\n10:00 ~ 16:30\n일요일\n10:00 ~ 16:30\n\n위 운영시간 내에 채팅이 가능합니다.\n\n안녕하세요.\n아름다움의 시작, 뷰티블라썸의원입니다 🤍\n진료 시간 외에 문의는 순차적으로 확인 후 답변 드리고 있습니다.\n잠시만 기다려주세요 :)",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "보관 기록의 고객 발화는 “Hello”이며 병원은 평일 10:00~20:00·주말 10:00~16:30 운영시간과 진료시간 외 순차 회신을 안내했다. 공식 홈페이지의 진료시간과 일치한다. 보호 보관 사례로 현행 상담 판정·정상 건수에서 제외한다.",
+                "recordIds": [
+                  "K-CAND-016"
+                ],
+                "kind": "ops",
+                "country": null,
                 "procedure": "확인되지 않음",
-                "questionCategory": "인사·운영시간",
+                "category": "인사·운영시간",
+                "verdict": "archive",
+                "reason": "보관 대화에서 고객의 인사(Hello)에 채팅 운영시간과 진료시간 외 순차 답변 안내가 회신됐다.",
                 "questionDate": null,
-                "responseEndedDate": null,
+                "finalReplyDate": null,
+                "customer": [
+                  {
+                    "original": "Hello",
+                    "ko": "안녕하세요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "original": "채팅 운영시간\n\n월요일\n10:00 ~ 20:00\n화요일\n10:00 ~ 20:00\n수요일\n10:00 ~ 20:00\n목요일\n10:00 ~ 20:00\n금요일\n10:00 ~ 20:00\n토요일\n10:00 ~ 16:30\n일요일\n10:00 ~ 16:30\n\n위 운영시간 내에 채팅이 가능합니다.\n\n안녕하세요.\n아름다움의 시작, 뷰티블라썸의원입니다 🤍\n진료 시간 외에 문의는 순차적으로 확인 후 답변 드리고 있습니다.\n잠시만 기다려주세요 :)",
+                    "lang": "ko"
+                  }
+                ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A74:Z74"
               },
               {
-                "id": "K-CAND-017",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A75:Z75"
+                "id": "K-CAND-051",
+                "recordIds": [
+                  "K-CAND-051"
+                ],
+                "kind": "ops",
+                "country": null,
+                "procedure": "해당없음(기업 제안)",
+                "category": "마케팅 제안·담당 부서 연결",
+                "verdict": "normal-ops",
+                "reason": "업체의 마케팅 제안서 전달·담당자 연결 요청에 마케팅 담당 메일로 보내면 마케팅팀이 확인 후 연락한다고 안내했다.",
+                "questionDate": "2026-10-30",
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "original": "안녕하세요 다름이 아니라 저희는 국내 최초 샤오홍슈 MCN파트너 [회사명]라는 회사입니다!\n원장님께 중화권 고객 유치 관련해서 제안서 한번 남겨드리고 싶어서 연락드렸는데요!\n\n혹시 관련해서 마케팅이나 경영쪽으로 관리하고 계신 담당자님 계시면 연결가능하실까요`?",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "original": "❤️안녕하세요, 아름다움의 시작 뷰티블라썸의원입니다❤️\r\n\r\n마케팅 관련 내용은 아래 메일로 전송 부탁드립니다.\r\n\r\n[담당자 이메일]\r\n\r\n마케팅팀에서 확인 후 연락 드리겠습니다.\r\n감사합니다.",
+                    "lang": "ko"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A108:Z108"
               },
               {
-                "id": "K-CAND-018",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A76:Z76"
+                "id": "kakao-20261030-review-001",
+                "recordIds": [
+                  "kakao-20261030-review-001"
+                ],
+                "kind": "consult",
+                "country": null,
+                "procedure": "세르프(XERF)",
+                "category": "가격·VAT",
+                "verdict": "normal",
+                "reason": "담당자는 세르프 300·600·900샷을 1,199,000·2,079,000·2,849,000원, VAT 포함으로 안내했다. 수가표 리프팅 시트의 세르프 300·600·900(시트마스크+LED 포함) VAT 후 금액이 각각 같다.",
+                "questionDate": "2026-10-30",
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "original": "세르프 가격 좀 알려주세요",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "original": "안녕하세요, 뷰티블라썸의원입니다 😊\r\n\r\n고객님, 세르프 리프팅 시술 가격 안내드립니다! 💕\r\n\r\n🌸 **세르프(XERF) 리프팅**\r\n\r\n* 300샷 : **1,199,000원**\r\n* 600샷 : **2,079,000원**\r\n* 900샷 : **2,849,000원**\r\n\r\n위 금액은 모두 **부가세(VAT)가 포함된 금액**입니다.\r\n\r\n추가로 궁금하신 사항이나 예약을 희망하시면 편하게 말씀해 주세요! 😊\r\n\r\n감사합니다!🌸",
+                    "lang": "ko"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A104:Z104"
               },
               {
-                "id": "K-CAND-019",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A77:Z77"
+                "id": "kakao-20261030-review-003",
+                "recordIds": [
+                  "kakao-20261030-review-003"
+                ],
+                "kind": "consult",
+                "country": null,
+                "procedure": "레스틸렌 턱끝 필러",
+                "category": "가격·VAT",
+                "verdict": "normal",
+                "reason": "담당자는 레스틸렌 턱필러 1cc를 360,000원, VAT 포함으로 안내했다. 가이드 06은 레스틸렌을 수입 필러로 안내하고, 수가표는 수입 필러 1cc(턱끝 포함)를 360,000원(VAT 전 327,273원)으로 기재해 담당자 안내와 같다.",
+                "questionDate": "2026-10-30",
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "original": "안녕하세요~ 턱필러 레스틸렌 가격 얼마인가요?\n\nVat별도인가요??",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "original": "안녕하세요, 뷰티블라썸의원입니다 😊\r\n\r\n고객님, 문의하신 **레스틸렌 턱필러 가격** 안내드립니다! 💕\r\n\r\n🌸 **레스틸렌 턱필러 (수입 필러)**\r\n\r\n* 1cc : **360,000원**\r\n\r\n필요한 용량은 고객님의 턱 모양과 원하시는 디자인에 따라 달라질 수 있으며, 내원 후 상담을 통해 자세히 안내받으실 수 있습니다. 😊\r\n\r\n추가로 궁금하신 사항이나 예약을 희망하시면 편하게 말씀해 주세요!\r\n\r\n감사합니다!🌸\n\n안녕하세요, 뷰티블라썸의원입니다 😊\r\n\r\n네, 고객님! 안내드린 **레스틸렌 턱필러 1cc 360,000원은 부가세(VAT)가 포함된 금액**입니다. 💕\r\n\r\n감사합니다!🌸",
+                    "lang": "ko"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A124:Z124"
               },
               {
-                "id": "K-CAND-020",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A78:Z78"
-              },
-              {
-                "id": "K-CAND-021",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A79:Z79"
-              },
-              {
-                "id": "K-CAND-022",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A80:Z80"
-              },
-              {
-                "id": "K-CAND-023",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A81:Z81"
-              },
-              {
-                "id": "K-CAND-024",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A82:Z82"
-              },
-              {
-                "id": "K-CAND-025",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A83:Z83"
-              },
-              {
-                "id": "K-CAND-027",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A84:Z84"
-              },
-              {
-                "id": "K-CAND-028",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A85:Z85"
+                "id": "kakao-20261030-review-004",
+                "recordIds": [
+                  "kakao-20261030-review-004"
+                ],
+                "kind": "ops",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "시술 후 경과 보고",
+                "verdict": "normal-ops",
+                "reason": "장벽크림을 발라 괜찮아졌다는 경과 보고에 감사 인사와 이전 시술 이력 미확인 안내에 대한 사과, 증상 재발 시 연락 안내로 응대했다. 시술·가격 정보는 담지 않은 운영 응대다.",
+                "questionDate": "2026-10-30",
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "original": "지금은 장벽크림 계속 발라줘서 괜찮아졌어요~",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "original": "안녕하세요, 뷰티블라썸의원입니다 😊\r\n\r\n[고객명]님, 피부 상태가 괜찮아지셨다니 다행입니다. 경과 알려주셔서 감사합니다!\r\n앞서 본원 시술 이력을 확인하지 못한 채 안내드려 혼란을 드린 점 다시 한번 죄송합니다.\r\n\r\n혹시 다시 불편한 증상이 생기거나 궁금하신 점이 있으시면 편하게 연락해 주세요.\r\n\r\n감사합니다!🌸",
+                    "lang": "ko"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A129:Z129"
               },
               {
                 "id": "kakao-20261030-review-005",
-                "status": "reviewed",
-                "disposition": "image-replied",
-                "customerQuestion": "세르프 얼마인가용",
-                "staffFinalResponse": "[이미지 응답]\n\n안녕하세요 뷰티블라썸입니다. 저희 현재 진행하고 있는 이벤트 금액 첨부해드리니 참고 부탁드립니다^^\n궁금하신 사항 있으시면 편하게 문의주세요!",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "직원은 세르프 가격 문의에 이벤트 금액 이미지를 보내고 추가 문의를 받겠다고 답했다.",
+                "recordIds": [
+                  "kakao-20261030-review-005"
+                ],
+                "kind": "consult",
+                "country": null,
                 "procedure": "세르프(XERF)",
-                "questionCategory": "가격",
+                "category": "가격",
+                "verdict": "image",
+                "reason": "세르프 가격 문의에 현재 이벤트 금액 이미지를 보내 안내했다.",
                 "questionDate": "2026-10-30",
-                "responseEndedDate": "2026-10-31",
+                "finalReplyDate": "2026-10-31",
+                "customer": [
+                  {
+                    "original": "세르프 얼마인가용",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "original": "안녕하세요 뷰티블라썸입니다. 저희 현재 진행하고 있는 이벤트 금액 첨부해드리니 참고 부탁드립니다^^\n궁금하신 사항 있으시면 편하게 문의주세요!",
+                    "lang": "ko",
+                    "image": true
+                  }
+                ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A86:Z86"
               },
               {
                 "id": "kakao-20261030-review-006",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "🩷빠른 예약을 위해 아래 질문에 답변 부탁드립니다🩷\n\n-내원 경로(검색/소개/추천인 등):\n-성함/생년월일/연락처:[고객명] [생년월일]/[연락처]\n-예약 날짜 및 시간:[예약일시]\n-원하시는 시술 및 상담:보톡스 미간 이마 콧볼\n\n확인 후 예약 도와드리겠습니다. \n\n상담만 진행 하실경우 상담비 만원 발생 됩니다.\n미리 고지드리는점 양해 부탁드립니다 감사합니다  :D",
-                "staffFinalResponse": "안녕하세요, 뷰티블라썸의원입니다🌸\n고객님의 예약이 정상적으로 확정되었습니다!\n\n예약해 주셔서 감사드리며, 예약하신 일정에 맞춰 방문 부탁드립니다. 변경 사항이 있으실 경우 미리 연락 주시면 확인 도와드리겠습니다:)\n\n그럼 예약일에 뵙겠습니다. 감사합니다!",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "고객은 미간·이마·콧볼 보톡스 예약 양식을 제출했고 병원은 10월 31일 예약 정상 확정 및 변경 시 사전 연락을 회신했다. 학습 예약확정 문구의 확정 통지·변경 연락 안내와 일치하는 운영 응대다.",
+                "recordIds": [
+                  "kakao-20261030-review-006"
+                ],
+                "kind": "ops",
+                "country": null,
                 "procedure": "보톡스(미간·이마·콧볼)",
-                "questionCategory": "예약 신청",
+                "category": "예약 신청",
+                "verdict": "normal-ops",
+                "reason": "고객이 작성한 예약 양식에 예약 완료와 변경 시 미리 연락해 달라는 카카오 예약 안내 문구로 응대했다.",
                 "questionDate": "2026-10-30",
-                "responseEndedDate": "2026-10-31",
+                "finalReplyDate": "2026-10-31",
+                "customer": [
+                  {
+                    "original": "🩷빠른 예약을 위해 아래 질문에 답변 부탁드립니다🩷\n\n-내원 경로(검색/소개/추천인 등):\n-성함/생년월일/연락처:[고객명] [생년월일]/[연락처]\n-예약 날짜 및 시간:[예약일시]\n-원하시는 시술 및 상담:보톡스 미간 이마 콧볼\n\n확인 후 예약 도와드리겠습니다. \n\n상담만 진행 하실경우 상담비 만원 발생 됩니다.\n미리 고지드리는점 양해 부탁드립니다 감사합니다  :D",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "original": "안녕하세요, 뷰티블라썸의원입니다🌸\n고객님의 예약이 정상적으로 확정되었습니다!\n\n예약해 주셔서 감사드리며, 예약하신 일정에 맞춰 방문 부탁드립니다. 변경 사항이 있으실 경우 미리 연락 주시면 확인 도와드리겠습니다:)\n\n그럼 예약일에 뵙겠습니다. 감사합니다!",
+                    "lang": "ko"
+                  }
+                ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A87:Z87"
               },
               {
-                "id": "K-CAND-031",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A88:Z88"
-              },
-              {
-                "id": "K-CAND-032",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A89:Z89"
-              },
-              {
-                "id": "K-CAND-033",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A90:Z90"
-              },
-              {
-                "id": "K-CAND-034",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A91:Z91"
-              },
-              {
-                "id": "K-CAND-035",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A92:Z92"
-              },
-              {
-                "id": "K-CAND-036",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A93:Z93"
-              },
-              {
-                "id": "K-CAND-037",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A94:Z94"
-              },
-              {
-                "id": "K-CAND-038",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A95:Z95"
-              },
-              {
-                "id": "K-CAND-039",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A96:Z96"
-              },
-              {
                 "id": "kakao-20261030-review-007",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "안녕하세요 [예약일] 시술예약부탁드립니다\n기존에 결제해놓은 시술건으로 [희망 예약시각]로 가능할까요?\n\n[고객명] [생년월일] [연락처]\n\n네 그렇게 부탁드릴게요~",
-                "staffFinalResponse": "안녕하세요, 뷰티블라썸의원입니다 😊\r\n\r\n고객님, **색소 3종 + 소노케어 시술을 결제하신 것으로 확인되었습니다!**\r\n\r\n혹시 **[예약시각]로 예약** 도와드려도 괜찮으실까요?\r\n\r\n확인해 주시면 해당 시간으로 예약 도와드리겠습니다. 💕\r\n\r\n감사합니다!🌸\n\n안녕하세요, 뷰티블라썸의원입니다🌸\r\n고객님의 예약이 정상적으로 확정되었습니다!\r\n\r\n예약해 주셔서 감사드리며, 예약하신 일정에 맞춰 방문 부탁드립니다. 변경 사항이 있으실 경우 미리 연락 주시면 확인 도와드리겠습니다:)\r\n\r\n그럼 예약일에 뵙겠습니다. 감사합니다!",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "기결제 시술 예약 요청에 병원은 색소 3종+소노케어 결제내역을 확인하고 대안 시간을 제시했다. 고객의 “네 그렇게 부탁드릴게요~” 뒤 예약확정을 회신했다. 예약확정·변경 연락 안내가 학습 예약확정 문구와 일치한다.",
+                "recordIds": [
+                  "kakao-20261030-review-007"
+                ],
+                "kind": "ops",
+                "country": null,
                 "procedure": "색소 3종·소노케어",
-                "questionCategory": "예약 신청",
+                "category": "예약 신청",
+                "verdict": "normal-ops",
+                "reason": "기결제 시술 예약 요청에 색소 3종+소노케어 결제 내역을 확인해 가능한 시간을 제안했고, 고객 동의 후 카카오 예약 안내 문구로 예약 완료를 알렸다.",
                 "questionDate": "2026-10-30",
-                "responseEndedDate": "2026-10-30",
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "original": "안녕하세요 [예약일] 시술예약부탁드립니다\n기존에 결제해놓은 시술건으로 [희망 예약시각]로 가능할까요?\n\n[고객명] [생년월일] [연락처]\n\n네 그렇게 부탁드릴게요~",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "original": "안녕하세요, 뷰티블라썸의원입니다 😊\r\n\r\n고객님, **색소 3종 + 소노케어 시술을 결제하신 것으로 확인되었습니다!**\r\n\r\n혹시 **[예약시각]로 예약** 도와드려도 괜찮으실까요?\r\n\r\n확인해 주시면 해당 시간으로 예약 도와드리겠습니다. 💕\r\n\r\n감사합니다!🌸\n\n안녕하세요, 뷰티블라썸의원입니다🌸\r\n고객님의 예약이 정상적으로 확정되었습니다!\r\n\r\n예약해 주셔서 감사드리며, 예약하신 일정에 맞춰 방문 부탁드립니다. 변경 사항이 있으실 경우 미리 연락 주시면 확인 도와드리겠습니다:)\r\n\r\n그럼 예약일에 뵙겠습니다. 감사합니다!",
+                    "lang": "ko"
+                  }
+                ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A97:Z97"
               },
               {
-                "id": "K-CAND-041",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A98:Z98"
-              },
-              {
-                "id": "K-CAND-042",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A99:Z99"
-              },
-              {
                 "id": "kakao-20261030-review-008",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "안녕하세요!\n타투 제거 예약하려고 하는데 [예약일시] 예약될까요~?\n\n네!!",
-                "staffFinalResponse": "안녕하세요!\r\n네 [예약일시] 예약 가능하십니다! :)\r\n그때로 예약 도와드릴까요?\n\n안녕하세요, 뷰티블라썸의원입니다🌸\r\n고객님의 예약이 정상적으로 확정되었습니다!\r\n\r\n예약해 주셔서 감사드리며, 예약하신 일정에 맞춰 방문 부탁드립니다. 변경 사항이 있으실 경우 미리 연락 주시면 확인 도와드리겠습니다:)\r\n\r\n그럼 예약일에 뵙겠습니다. 감사합니다!",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "타투 제거 예약 가능 여부를 묻자 병원이 가능하다고 답하고 동의를 구했다. 고객의 “네!!” 뒤 예약 정상 확정과 변경 연락 안내로 마쳤으며 학습 예약확정 문구와 일치한다.",
+                "recordIds": [
+                  "kakao-20261030-review-008"
+                ],
+                "kind": "ops",
+                "country": null,
                 "procedure": "타투 제거",
-                "questionCategory": "예약 신청",
+                "category": "예약 신청",
+                "verdict": "normal-ops",
+                "reason": "타투 제거 희망 일시가 가능하다고 답하고 고객 동의 후 카카오 예약 안내 문구로 예약 완료를 알렸다.",
                 "questionDate": "2026-10-30",
-                "responseEndedDate": "2026-10-30",
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "original": "안녕하세요!\n타투 제거 예약하려고 하는데 [예약일시] 예약될까요~?\n\n네!!",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "original": "안녕하세요!\r\n네 [예약일시] 예약 가능하십니다! :)\r\n그때로 예약 도와드릴까요?\n\n안녕하세요, 뷰티블라썸의원입니다🌸\r\n고객님의 예약이 정상적으로 확정되었습니다!\r\n\r\n예약해 주셔서 감사드리며, 예약하신 일정에 맞춰 방문 부탁드립니다. 변경 사항이 있으실 경우 미리 연락 주시면 확인 도와드리겠습니다:)\r\n\r\n그럼 예약일에 뵙겠습니다. 감사합니다!",
+                    "lang": "ko"
+                  }
+                ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A100:Z100"
               },
               {
-                "id": "K-CAND-044",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A101:Z101"
-              },
-              {
-                "id": "K-CAND-045",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A102:Z102"
-              },
-              {
-                "id": "K-CAND-046",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A103:Z103"
-              },
-              {
-                "id": "kakao-20261030-review-001",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "세르프 가격 좀 알려주세요",
-                "staffFinalResponse": "안녕하세요, 뷰티블라썸의원입니다 😊\r\n\r\n고객님, 세르프 리프팅 시술 가격 안내드립니다! 💕\r\n\r\n🌸 **세르프(XERF) 리프팅**\r\n\r\n* 300샷 : **1,199,000원**\r\n* 600샷 : **2,079,000원**\r\n* 900샷 : **2,849,000원**\r\n\r\n위 금액은 모두 **부가세(VAT)가 포함된 금액**입니다.\r\n\r\n추가로 궁금하신 사항이나 예약을 희망하시면 편하게 말씀해 주세요! 😊\r\n\r\n감사합니다!🌸",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "세르프 300·600·900샷 안내액 1,199,000·2,079,000·2,849,000원은 학습 수가표 17.md B117:B119의 샷수별 H열 VAT 포함액과 각각 일치한다. 해당 행에는 시트마스크+LED 구성이 함께 적혀 있으며 직원 답변은 샷수와 금액·VAT를 안내했다.",
-                "procedure": "세르프(XERF)",
-                "questionCategory": "가격·VAT",
-                "questionDate": "2026-10-30",
-                "responseEndedDate": "2026-10-30",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A104:Z104"
-              },
-              {
-                "id": "K-CAND-048",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A105:Z105"
-              },
-              {
-                "id": "K-CAND-049",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A106:Z106"
-              },
-              {
-                "id": "K-CAND-050",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A107:Z107"
-              },
-              {
-                "id": "K-CAND-051",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "안녕하세요 다름이 아니라 저희는 국내 최초 샤오홍슈 MCN파트너 [회사명]라는 회사입니다!\n원장님께 중화권 고객 유치 관련해서 제안서 한번 남겨드리고 싶어서 연락드렸는데요!\n\n혹시 관련해서 마케팅이나 경영쪽으로 관리하고 계신 담당자님 계시면 연결가능하실까요`?",
-                "staffFinalResponse": "❤️안녕하세요, 아름다움의 시작 뷰티블라썸의원입니다❤️\r\n\r\n마케팅 관련 내용은 아래 메일로 전송 부탁드립니다.\r\n\r\n[담당자 이메일]\r\n\r\n마케팅팀에서 확인 후 연락 드리겠습니다.\r\n감사합니다.",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "기업이 중화권 고객 유치 제안서 전달과 마케팅·경영 담당자 연결을 요청했다. 병원은 마케팅 담당 메일로 전송하면 팀 확인 후 연락한다고 회신했다. 실제 요청 목적에 맞는 부서 전달 안내이며 환자 시술상담 집계에서는 제외한다.",
-                "procedure": "해당없음(기업 제안)",
-                "questionCategory": "마케팅 제안·담당부서 연결",
-                "questionDate": "2026-10-30",
-                "responseEndedDate": "2026-10-30",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A108:Z108"
-              },
-              {
-                "id": "K-CAND-052",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A109:Z109"
-              },
-              {
-                "id": "K-CAND-053",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A110:Z110"
-              },
-              {
-                "id": "K-CAND-054",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A111:Z111"
-              },
-              {
-                "id": "K-CAND-055",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A112:Z112"
-              },
-              {
-                "id": "K-CAND-056",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A113:Z113"
-              },
-              {
-                "id": "K-CAND-057",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A114:Z114"
-              },
-              {
-                "id": "K-CAND-058",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A115:Z115"
-              },
-              {
-                "id": "K-CAND-059",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A116:Z116"
-              },
-              {
-                "id": "K-CAND-060",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A117:Z117"
-              },
-              {
-                "id": "K-CAND-061",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A118:Z118"
-              },
-              {
                 "id": "kakao-20261030-review-009",
-                "status": "reviewed",
-                "disposition": "archived-only",
-                "customerQuestion": "저 [예약시각]으로 시간바꿀수잇울까요? 🙏🏻\n\n🩷이번달 이벤트",
-                "staffFinalResponse": "안녕하세요, 뷰티블라썸의원입니다🌸\n고객님의 예약이 정상적으로 확정되었습니다!\n\n예약해 주셔서 감사드리며, 예약하신 일정에 맞춰 방문 부탁드립니다. 변경 사항이 있으실 경우 미리 연락 주시면 확인 도와드리겠습니다:)\n\n그럼 예약일에 뵙겠습니다. 감사합니다!\n\n\n이번달 이벤트가 궁금하시다면?\n🩷아래 버튼을 클릭해주세요🩷",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "보관 기록의 예약시간 변경 요청에는 정상 예약확정, 이후 “이번달 이벤트” 선택에는 아래 버튼 클릭 안내 카드가 회신되어 있다. 보호 보관 사례로 현행 상담 판정·정상 건수에서 제외한다.",
+                "recordIds": [
+                  "kakao-20261030-review-009"
+                ],
+                "kind": "ops",
+                "country": null,
                 "procedure": "확인되지 않음",
-                "questionCategory": "예약 변경·이벤트",
+                "category": "예약 변경·이벤트",
+                "verdict": "archive",
+                "reason": "보관 대화에서 예약 시간 변경 요청에 예약 완료 안내가, 이번 달 이벤트 선택에 버튼 안내 카드가 회신됐다.",
                 "questionDate": null,
-                "responseEndedDate": null,
+                "finalReplyDate": null,
+                "customer": [
+                  {
+                    "original": "저 [예약시각]으로 시간바꿀수잇울까요? 🙏🏻\n\n🩷이번달 이벤트",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "original": "안녕하세요, 뷰티블라썸의원입니다🌸\n고객님의 예약이 정상적으로 확정되었습니다!\n\n예약해 주셔서 감사드리며, 예약하신 일정에 맞춰 방문 부탁드립니다. 변경 사항이 있으실 경우 미리 연락 주시면 확인 도와드리겠습니다:)\n\n그럼 예약일에 뵙겠습니다. 감사합니다!\n\n\n이번달 이벤트가 궁금하시다면?\n🩷아래 버튼을 클릭해주세요🩷",
+                    "lang": "ko"
+                  }
+                ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A119:Z119"
               },
               {
-                "id": "K-CAND-063",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A120:Z120"
-              },
-              {
-                "id": "K-CAND-064",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A121:Z121"
-              },
-              {
-                "id": "K-CAND-065",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A122:Z122"
-              },
-              {
-                "id": "K-CAND-066",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A123:Z123"
-              },
-              {
-                "id": "kakao-20261030-review-003",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "안녕하세요~ 턱필러 레스틸렌 가격 얼마인가요?\n\nVat별도인가요??",
-                "staffFinalResponse": "안녕하세요, 뷰티블라썸의원입니다 😊\r\n\r\n고객님, 문의하신 **레스틸렌 턱필러 가격** 안내드립니다! 💕\r\n\r\n🌸 **레스틸렌 턱필러 (수입 필러)**\r\n\r\n* 1cc : **360,000원**\r\n\r\n필요한 용량은 고객님의 턱 모양과 원하시는 디자인에 따라 달라질 수 있으며, 내원 후 상담을 통해 자세히 안내받으실 수 있습니다. 😊\r\n\r\n추가로 궁금하신 사항이나 예약을 희망하시면 편하게 말씀해 주세요!\r\n\r\n감사합니다!🌸\n\n안녕하세요, 뷰티블라썸의원입니다 😊\r\n\r\n네, 고객님! 안내드린 **레스틸렌 턱필러 1cc 360,000원은 부가세(VAT)가 포함된 금액**입니다. 💕\r\n\r\n감사합니다!🌸",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "직원은 레스틸렌 턱필러 1cc를 360,000원·VAT 포함으로 안내했다. 제공 일반 수가표는 수입 턱끝필러 1cc를 VAT 포함 360,000원으로 기재하고 있으며, 해당 행의 제품 표기는 수입 필러다.",
-                "procedure": "레스틸렌 턱필러",
-                "questionCategory": "가격·용량·VAT",
-                "questionDate": "2026-10-30",
-                "responseEndedDate": "2026-10-30",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A124:Z124"
-              },
-              {
-                "id": "K-CAND-068",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A125:Z125"
-              },
-              {
-                "id": "K-CAND-069",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A126:Z126"
-              },
-              {
-                "id": "K-CAND-070",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A127:Z127"
-              },
-              {
                 "id": "kakao-20261030-review-010",
-                "status": "reviewed",
-                "disposition": "operating-ended",
-                "customerQuestion": "개인 사정으로 인해 [예약일] 방문이 어려울 것 같아 예약 취소 부탁드립니다 갑작스럽게 연락드려 죄송합니다",
-                "staffFinalResponse": "안녕하세요, 뷰티블라썸의원입니다 😊\r\n\r\n네, 고객님! [예약일] 예약은 취소 도와드리겠습니다. 미리 연락 주셔서 감사드리며, 다음에 편하신 일정으로 다시 문의해 주세요 :)\r\n\r\n감사합니다!🌸",
-                "outcome": "not-applicable",
-                "verdict": null,
-                "explanation": "고객의 방문 취소 요청에 병원은 해당 예약 취소를 도와드리겠다고 수락하고 편한 일정으로 재문의하도록 회신했다. 학습 예약확정 안내의 변경·취소 연락 절차에 맞는 운영 응대다.",
+                "recordIds": [
+                  "kakao-20261030-review-010"
+                ],
+                "kind": "ops",
+                "country": null,
                 "procedure": "확인되지 않음",
-                "questionCategory": "예약 취소",
+                "category": "예약 취소",
+                "verdict": "normal-ops",
+                "reason": "방문 취소 요청에 해당 예약 취소를 진행하겠다고 답하고 편한 일정으로 다시 문의하도록 안내했다.",
                 "questionDate": "2026-10-30",
-                "responseEndedDate": "2026-10-30",
+                "finalReplyDate": "2026-10-30",
+                "customer": [
+                  {
+                    "original": "개인 사정으로 인해 [예약일] 방문이 어려울 것 같아 예약 취소 부탁드립니다 갑작스럽게 연락드려 죄송합니다",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "original": "안녕하세요, 뷰티블라썸의원입니다 😊\r\n\r\n네, 고객님! [예약일] 예약은 취소 도와드리겠습니다. 미리 연락 주셔서 감사드리며, 다음에 편하신 일정으로 다시 문의해 주세요 :)\r\n\r\n감사합니다!🌸",
+                    "lang": "ko"
+                  }
+                ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A128:Z128"
-              },
-              {
-                "id": "kakao-20261030-review-004",
-                "status": "reviewed",
-                "disposition": "answered",
-                "customerQuestion": "지금은 장벽크림 계속 발라줘서 괜찮아졌어요~",
-                "staffFinalResponse": "안녕하세요, 뷰티블라썸의원입니다 😊\r\n\r\n[고객명]님, 피부 상태가 괜찮아지셨다니 다행입니다. 경과 알려주셔서 감사합니다!\r\n앞서 본원 시술 이력을 확인하지 못한 채 안내드려 혼란을 드린 점 다시 한번 죄송합니다.\r\n\r\n혹시 다시 불편한 증상이 생기거나 궁금하신 점이 있으시면 편하게 연락해 주세요.\r\n\r\n감사합니다!🌸",
-                "outcome": "normal",
-                "verdict": "appropriate",
-                "explanation": "장벽크림 사용 후 호전됐다는 경과보고에 병원은 감사와 재불편 시 연락 안내를 회신했다. 동시에 이전 본원 시술 이력을 확인하지 못하고 안내해 혼란을 줬다고 직접 사과했다. 최종 경과 응대는 고객 보고에 맞으며, 이전 이력 확인 누락은 직원이 인정한 운영 개선점으로 보존한다.",
-                "procedure": "확인되지 않음(피부 경과)",
-                "questionCategory": "시술 후 경과·이력 확인",
-                "questionDate": "2026-10-30",
-                "responseEndedDate": "2026-10-30",
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A129:Z129"
               }
-            ]
+            ],
+            "merged": [],
+            "unavailable": {
+              "recordIds": [
+                "K-CAND-001",
+                "K-CAND-002",
+                "K-CAND-003",
+                "K-CAND-004",
+                "K-CAND-005",
+                "K-CAND-006",
+                "K-CAND-007",
+                "K-CAND-008",
+                "K-CAND-009",
+                "K-CAND-010",
+                "K-CAND-011",
+                "K-CAND-012",
+                "K-CAND-013",
+                "K-CAND-014",
+                "K-CAND-015",
+                "K-CAND-017",
+                "K-CAND-018",
+                "K-CAND-019",
+                "K-CAND-020",
+                "K-CAND-021",
+                "K-CAND-022",
+                "K-CAND-023",
+                "K-CAND-024",
+                "K-CAND-025",
+                "K-CAND-027",
+                "K-CAND-028",
+                "K-CAND-031",
+                "K-CAND-032",
+                "K-CAND-033",
+                "K-CAND-034",
+                "K-CAND-035",
+                "K-CAND-036",
+                "K-CAND-037",
+                "K-CAND-038",
+                "K-CAND-039",
+                "K-CAND-041",
+                "K-CAND-042",
+                "K-CAND-044",
+                "K-CAND-045",
+                "K-CAND-046",
+                "K-CAND-048",
+                "K-CAND-049",
+                "K-CAND-050",
+                "K-CAND-052",
+                "K-CAND-053",
+                "K-CAND-054",
+                "K-CAND-055",
+                "K-CAND-056",
+                "K-CAND-057",
+                "K-CAND-058",
+                "K-CAND-059",
+                "K-CAND-060",
+                "K-CAND-061",
+                "K-CAND-063",
+                "K-CAND-064",
+                "K-CAND-065",
+                "K-CAND-066",
+                "K-CAND-068",
+                "K-CAND-069",
+                "K-CAND-070"
+              ]
+            }
           }
         },
         {
@@ -20729,177 +19654,27 @@ window.SUPERVISION_DATA = {
             }
           ],
           "qaReviewFinalization": {
-            "schemaVersion": 1,
+            "schemaVersion": 2,
             "finalizedAt": "2026-11-02T08:34:55.803Z",
             "finalStatus": "completed",
             "sourceCoverage": "partial",
-            "records": [
-              {
-                "id": "MISS-B-20261101-001",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A289:AF289"
-              },
-              {
-                "id": "MISS-B-20261101-002",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A290:AF290"
-              },
-              {
-                "id": "MISS-B-20261101-003",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A291:AF291"
-              },
-              {
-                "id": "MISS-B-20261101-004",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A292:AF292"
-              },
-              {
-                "id": "MISS-B-20261101-005",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A293:AF293"
-              },
-              {
-                "id": "MISS-B-20261101-006",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A294:AF294"
-              },
-              {
-                "id": "MISS-B-20261101-007",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A295:AF295"
-              },
-              {
-                "id": "MISS-B-20261101-008",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A296:AF296"
-              },
-              {
-                "id": "MISS-B-20261101-009",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A297:AF297"
-              },
-              {
-                "id": "MISS-B-20261101-010",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A298:AF298"
-              },
-              {
-                "id": "MISS-B-20261101-011",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A299:AF299"
-              }
-            ]
+            "exchanges": [],
+            "merged": [],
+            "unavailable": {
+              "recordIds": [
+                "MISS-B-20261101-001",
+                "MISS-B-20261101-002",
+                "MISS-B-20261101-003",
+                "MISS-B-20261101-004",
+                "MISS-B-20261101-005",
+                "MISS-B-20261101-006",
+                "MISS-B-20261101-007",
+                "MISS-B-20261101-008",
+                "MISS-B-20261101-009",
+                "MISS-B-20261101-010",
+                "MISS-B-20261101-011"
+              ]
+            }
           }
         },
         {
@@ -21249,177 +20024,27 @@ window.SUPERVISION_DATA = {
             }
           ],
           "qaReviewFinalization": {
-            "schemaVersion": 1,
+            "schemaVersion": 2,
             "finalizedAt": "2026-11-02T08:34:55.803Z",
             "finalStatus": "completed",
             "sourceCoverage": "partial",
-            "records": [
-              {
-                "id": "MISS-B-20261031-001",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A218:AF218"
-              },
-              {
-                "id": "MISS-B-20261031-002",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A219:AF219"
-              },
-              {
-                "id": "MISS-B-20261031-003",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A220:AF220"
-              },
-              {
-                "id": "MISS-B-20261031-004",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A221:AF221"
-              },
-              {
-                "id": "MISS-B-20261031-005",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A222:AF222"
-              },
-              {
-                "id": "MISS-B-20261031-006",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A223:AF223"
-              },
-              {
-                "id": "MISS-B-20261031-007",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A224:AF224"
-              },
-              {
-                "id": "MISS-B-20261031-008",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A225:AF225"
-              },
-              {
-                "id": "MISS-B-20261031-009",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A226:AF226"
-              },
-              {
-                "id": "MISS-B-20261031-010",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A227:AF227"
-              },
-              {
-                "id": "MISS-B-20261031-011",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A228:AF228"
-              }
-            ]
+            "exchanges": [],
+            "merged": [],
+            "unavailable": {
+              "recordIds": [
+                "MISS-B-20261031-001",
+                "MISS-B-20261031-002",
+                "MISS-B-20261031-003",
+                "MISS-B-20261031-004",
+                "MISS-B-20261031-005",
+                "MISS-B-20261031-006",
+                "MISS-B-20261031-007",
+                "MISS-B-20261031-008",
+                "MISS-B-20261031-009",
+                "MISS-B-20261031-010",
+                "MISS-B-20261031-011"
+              ]
+            }
           }
         },
         {
@@ -21899,177 +20524,27 @@ window.SUPERVISION_DATA = {
             }
           ],
           "qaReviewFinalization": {
-            "schemaVersion": 1,
+            "schemaVersion": 2,
             "finalizedAt": "2026-11-02T08:34:55.803Z",
             "finalStatus": "completed",
             "sourceCoverage": "partial",
-            "records": [
-              {
-                "id": "B-CAND-001",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A130:Z130"
-              },
-              {
-                "id": "B-CAND-002",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A131:Z131"
-              },
-              {
-                "id": "B-CAND-003",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A132:Z132"
-              },
-              {
-                "id": "B-CAND-004",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A133:Z133"
-              },
-              {
-                "id": "B-CAND-005",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A134:Z134"
-              },
-              {
-                "id": "B-CAND-006",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A135:Z135"
-              },
-              {
-                "id": "B-CAND-007",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A136:Z136"
-              },
-              {
-                "id": "B-CAND-008",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A137:Z137"
-              },
-              {
-                "id": "B-CAND-009",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A138:Z138"
-              },
-              {
-                "id": "B-CAND-010",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A139:Z139"
-              },
-              {
-                "id": "B-CAND-011",
-                "status": "source-unavailable",
-                "disposition": "source-unavailable",
-                "customerQuestion": "해당일 고객 질문 원문이 확보되지 않았다.",
-                "staffFinalResponse": "해당일 담당자 답변 원문이 확보되지 않았다.",
-                "outcome": "unavailable",
-                "verdict": null,
-                "explanation": "질문과 답변 원문이 없어 정상 여부 판정에서 제외했다.",
-                "procedure": "자료 없음",
-                "questionCategory": "원문 미확보",
-                "questionDate": null,
-                "responseEndedDate": null,
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A140:Z140"
-              }
-            ]
+            "exchanges": [],
+            "merged": [],
+            "unavailable": {
+              "recordIds": [
+                "B-CAND-001",
+                "B-CAND-002",
+                "B-CAND-003",
+                "B-CAND-004",
+                "B-CAND-005",
+                "B-CAND-006",
+                "B-CAND-007",
+                "B-CAND-008",
+                "B-CAND-009",
+                "B-CAND-010",
+                "B-CAND-011"
+              ]
+            }
           }
         },
         {
