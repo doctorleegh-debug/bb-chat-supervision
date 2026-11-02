@@ -656,7 +656,7 @@ function validateQaMergedTargets(days) {
     const cases = statsCaseInfo(day);
     const items = [[Array.isArray(day?.inquiryLanguageCoverage?.nationalities)?'상담본문 범위 상담방':semanticIncomplete(day)?'수집 상담방':'검토 상담방', statValue(day?.eligibleRooms, '개'), semanticIncomplete(day)?semanticScopeNote(day):'일일 검토 대상 상담방 · eligibleRooms', ''], ['병원답변', statValue(day?.staffMessages, '건'), '메시지 수 · 개별 담당자 미확인', 'teal'], ['확정 오답', cases.label('confirmedError'), '세부 사례 · 의심·자료충돌 제외', 'red'], ['답변누락', cases.label('missingAnswer'), '담당자 답변이 전혀 없는 사례만', 'red'], ['확인필요', cases.label('needsVerification'), '세부 사례 · 확정 오류 아님', 'amber'], ['자료충돌', cases.label('sourceConflict'), '세부 사례 · 확정 오류 아님', '']];
     replace('stats-kpis', ...items.map(([label, value, note, color]) => { const card = node('article', 'kpi ' + color); card.append(node('h3', 'kpi-label', label), node('div', 'kpi-value stats-value', value), node('p', 'kpi-note', note)); return card; }));
-    $('stats-case-note').textContent = '오안내의심 ' + cases.label('suspectedError') + ' · 한 상담방에 여러 사례가 있을 수 있습니다. ' + (cases.complete ? (day.status==='partial'?'검수한 '+fmt(day.reviewedRooms)+'개 상담 범위의 사례 집계 완료. 미검수 범위는 별도입니다.':'사례 집계 완료.') : '사례 집계중 · 현재 확인된 사례만 표시합니다.');
+    $('stats-case-note').textContent = '오안내의심 ' + cases.label('suspectedError') + ' · 한 상담방에 여러 사례가 있을 수 있습니다. ' + (cases.complete ? (day.status==='partial'?'검수한 '+fmt(day.reviewedRooms)+'개 상담 범위의 사례 집계 완료.':'사례 집계 완료.') : '사례 집계중 · 현재 확인된 사례만 표시합니다.');
     renderFollowUps(day, 'stats-followups'); renderKnowledge(day,'stats-knowledge');
     if (!days.length) replace('stats-trend', empty('게시된 일별 집계 없음'));
     else {
