@@ -1,7 +1,7 @@
 window.SUPERVISION_DATA = {
   "meta": {
     "title": "뷰티블라썸 상담 품질 감독",
-    "updatedAt": "2026-10-31T07:02:40.941Z",
+    "updatedAt": "2026-11-01T23:52:08.060Z",
     "timeZone": "Asia/Seoul",
     "sheetUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit",
     "schedule": {
@@ -37,34 +37,34 @@ window.SUPERVISION_DATA = {
         "id": "gangnamunni",
         "name": "강남언니",
         "status": "report-partial",
-        "checkedAt": "2026-10-31T07:02:40.941Z",
+        "checkedAt": "2026-11-01T23:30:03.378Z",
         "accountVerified": true,
         "inboxVerified": true,
         "auditDate": "2026-10-30",
-        "summary": "2026-10-30 당일 근거 57방 · 실제 당일열람 56방 / 전체분모 미확인 · 부분 집계",
-        "limit": "검수 범위: 기존36방 판정·공개 사례 원문과 한국어 번역은 좁은 기존 승인범위로 보존하고 신규10방을 추가한 누적46방입니다. 현재30일 본문 재열람45방과 보호된 태국 과거자료1방을 구분합니다. 현재 실제 국적필드45방·12국가이며 누적 태국8에는 현재7+역사1이 포함됩니다. 후보56·안전열람55 중30일45방, 이미지38표시, UI278단위(본문253+운영카드22+삭제원문미열람3)입니다. 제공자 개별 메시지수는 미집계입니다. 신규 적정9는 행정/접수범위8과 동일범주 지침을 대조한 일반후관리 가시답변1이며, 야간 시술상세문의1은 확인필요·부분범위입니다. 신규10방 모두31일 연속이나31일 답변을30일 상담완료로 보지 않습니다. 전국가/전상태 분모는 미확인·전체partial이며 과거 수집 차이의 구체 원인 또는 직원 답변누락은 미입증입니다. 실제 확인한 점검 범위에 한정하며, 상시 즉시 감시·푸시 수신은 검증되지 않았습니다."
+        "summary": "2026-10-30 관련 검수내역 57행 · 당일확인 57 / 포함미확인 0 · 임상·운영·미열람 별도, 전체분모 미확인",
+        "limit": "검수 범위: 검수내역 57행: 기존 상담 판정46행과 운영전용11행. 11월2일 안전한54방을 재대조했고 신규보호2방과 기존보호1방은 열지 않았습니다. 실제 당일 UI285단위(삭제3 포함), 이전 저장범위 UI289단위와 다릅니다. 원문·발화별 완전 번역은 각 행의 제한 원장에 있습니다. 이전 판정범위: 기존36방 판정·공개 사례 원문과 한국어 번역은 좁은 기존 승인범위로 보존하고 신규10방을 추가한 누적46방입니다. 당시30일 본문 재열람45방과 보호된 태국 과거자료1방을 구분합니다. 당시 실제 국적필드45방·12국가이며 누적 태국8에는 당시7+역사1이 포함됩니다. 후보56·안전열람55 중30일45방, 이미지38표시, UI278단위(본문253+운영카드22+삭제원문미열람3)입니다. 제공자 개별 메시지수는 미집계입니다. 신규 적정9는 행정/접수범위8과 동일범주 지침을 대조한 일반후관리 가시답변1이며, 야간 시술상세문의1은 확인필요·부분범위입니다. 신규10방 모두31일 연속이나31일 답변을30일 상담완료로 보지 않습니다. 전국가/전상태 분모는 미확인·전체partial이며 과거 수집 차이의 구체 원인 또는 직원 답변누락은 미입증입니다. 실제 확인한 점검 범위에 한정하며, 상시 즉시 감시·푸시 수신은 검증되지 않았습니다."
       },
       {
         "id": "kakao-clinic",
         "name": "카카오톡(병원계정)",
         "status": "report-partial",
-        "checkedAt": "2026-10-31T07:02:31.723Z",
+        "checkedAt": "2026-11-01T23:44:43.821Z",
         "accountVerified": true,
         "inboxVerified": true,
         "auditDate": "2026-10-30",
-        "summary": "2026-10-30 당일 근거 44방 · 실제 당일열람 9방 / 전체분모 미확인 · 부분 집계",
-        "limit": "검수 범위: 저장된30일11방 중 환자9방만 분모로 삼았습니다(제한범위 적정6·확인필요3: 동일조건 가격1+야간부분범위2). 야간2는 실질 상담·가격/예약확정 검수완료가 아닙니다. 기업제안1방과 목적불명1방은 환자에서 제외합니다. 전체49 UI단위와 환자39 UI단위(문자34+카드5)는 의료메시지수/사람답변수와 다릅니다. 환자9방의 카드5개·전체11방의 카드6개는 표시문자만 읽었으며 버튼·목적지·연결이미지는 열지 않았습니다. 카드 미열람 총수는 미확인입니다. 삭제원문1개 미열람, 보호44방(30일확실34·가능10)은 국적 미검사로 국적미확인9에 합산하지 않습니다. 검토9방의 실제국적은 본문에 없어 미확인이며 이름·언어로 추정하지 않았습니다. casesComplete는 해석한 가시문자 부분집합과 기존 가격사례만 의미하며 전체카드·삭제·전일전수 완료가 아닙니다. 전체partial입니다. 실제 확인한 점검 범위에 한정하며, 상시 즉시 감시·푸시 수신은 검증되지 않았습니다."
+        "summary": "2026-10-30 관련 검수내역 71행 · 당일확인 44 / 포함미확인 27 · 임상·운영·미열람 별도, 전체분모 미확인",
+        "limit": "검수 범위: 검수내역71행: 알려진당일44방(본문9방·미열람35방)과 날짜포함미확인27방. 현재 대조시점과 과거 보관자료를 행별로 구분합니다. 11월2일 안전한9방을 실제 재열람했고 메시지41개·삭제표시1개가 이전캡처와 정확히 일치했습니다. 사람답변41개나 전체분모가 아닙니다. 이전 판정범위: 저장된30일11방 중 환자9방만 분모로 삼았습니다(제한범위 적정6·확인필요3: 동일조건 가격1+야간부분범위2). 야간2는 실질 상담·가격/예약확정 검수완료가 아닙니다. 기업제안1방과 목적불명1방은 환자에서 제외합니다. 전체49 UI단위와 환자39 UI단위(문자34+카드5)는 의료메시지수/사람답변수와 다릅니다. 환자9방의 카드5개·전체11방의 카드6개는 표시문자만 읽었으며 버튼·목적지·연결이미지는 열지 않았습니다. 카드 미열람 총수는 미확인입니다. 삭제원문1개 미열람, 보호44방(30일확실34·가능10)은 국적 미검사로 국적미확인9에 합산하지 않습니다. 검토9방의 실제국적은 본문에 없어 미확인이며 이름·언어로 추정하지 않았습니다. casesComplete는 해석한 가시문자 부분집합과 기존 가격사례만 의미하며 전체카드·삭제·전일전수 완료가 아닙니다. 전체partial입니다. 실제 확인한 점검 범위에 한정하며, 상시 즉시 감시·푸시 수신은 검증되지 않았습니다."
       },
       {
         "id": "babitalk",
         "name": "바비톡",
         "status": "report-partial",
-        "checkedAt": "2026-10-31T06:33:46.346Z",
+        "checkedAt": "2026-11-01T23:30:56.400Z",
         "accountVerified": true,
         "inboxVerified": true,
         "auditDate": "2026-10-30",
-        "summary": "2026-10-30 당일 근거 0방 · 실제 당일열람 0방 / 전체분모 미확인 · 부분 집계",
-        "limit": "검수 범위: 전체 해외목록8방의 최신 표시일과 국내신청목록만 확인했으며 방본문8개는 미검수입니다. 당일 전체분모는 미확인이고 0건·전체완료로 표시하지 않습니다. 실제 확인한 점검 범위에 한정하며, 상시 즉시 감시·푸시 수신은 검증되지 않았습니다."
+        "summary": "2026-10-30 관련 검수내역 11행 · 당일확인 0 / 포함미확인 11 · 임상·운영·미열람 별도, 전체분모 미확인",
+        "limit": "검수 범위: 검수내역11행: 11월2일 현재 해외목록11개, 모두 안전한 본문 열람조건을 확인하지 못해 미열람입니다. 10월30일 포함여부·실제국적·고객문의언어·전체분모는 미확인입니다. 이전10월31일 목록8개 관찰과 구분하며 국내신청·SMS는 별도입니다. 이전 판정범위: 전체 해외목록8방의 최신 표시일과 국내신청목록만 확인했으며 방본문8개는 미검수입니다. 당일 전체분모는 미확인이고 0건·전체완료로 표시하지 않습니다. 실제 확인한 점검 범위에 한정하며, 상시 즉시 감시·푸시 수신은 검증되지 않았습니다."
       }
     ]
   },
@@ -564,7 +564,7 @@ window.SUPERVISION_DATA = {
   "platformReports": {
     "gangnamunni": {
       "name": "강남언니",
-      "updatedAt": "2026-10-31T07:02:40.941Z",
+      "updatedAt": "2026-11-01T23:52:07.972Z",
       "days": [
         {
           "platform": "gangnamunni",
@@ -782,7 +782,7 @@ window.SUPERVISION_DATA = {
               "count": 6
             }
           ],
-          "casesComplete": true,
+          "casesComplete": false,
           "casesScope": "reviewed-rooms",
           "casesUpdatedAt": "2026-10-30T23:42:14.945Z",
           "cases": [
@@ -793,34 +793,12 @@ window.SUPERVISION_DATA = {
               "title": "얼굴필러 문의에 바디 시술표 첨부",
               "procedure": "얼굴필러",
               "questionCategory": "응대자료·문의주제 대응",
-              "customerMessages": [
-                {
-                  "kind": "context",
-                  "original": "Beauty Blossom Design Face Filler — Forehead, Nose, Smile Lines & Chin Customized Treatment at Hongd",
-                  "ko": "뷰티블라썸 얼굴 디자인 필러 — 이마·코·팔자주름·턱 맞춤 시술, Hongd에서"
-                }
-              ],
-              "staffMessages": [
-                {
-                  "kind": "imageOnly",
-                  "original": "",
-                  "ko": ""
-                },
-                {
-                  "kind": "text",
-                  "original": "If you have any questions or need further information, please feel free to reach out to us anytime!\n\nThank you! 🌸",
-                  "ko": "질문이나 추가로 필요한 정보가 있으면 언제든지 편하게 연락해 주세요!\n\n감사합니다!"
-                }
-              ],
+              "structuralReason": "얼굴필러 이벤트 유입에 실제 전송된 자료는 바디주사·바디보톡스·ONDA·Inmode 표였습니다. 얼굴필러 항목이 없어 응대자료 선택 불일치로 판정했습니다. 본문과 정상 원본 미리보기를 직접 대조하고 독립 검토로 재확인했습니다.",
               "rationale": "얼굴필러 이벤트 유입에 실제 전송된 자료는 바디주사·바디보톡스·ONDA·Inmode 표였습니다. 얼굴필러 항목이 없어 응대자료 선택 불일치로 판정했습니다.",
               "evidence": "본문과 정상 원본 미리보기를 직접 대조하고 독립 검토로 재확인했습니다.",
               "limit": "좁은 범위의 자료 오전송1건입니다. 개인별 의학적 진단·작성자 신원·실제 청구 오류는 단정하지 않습니다. 유입 제목 끝은 저장된 표시 그대로이며 복원하지 않았습니다.",
-              "quoteScopeNote": "해당 사례와 관련된 문자 메시지 단위 전체와 완전한 한국어 번역입니다. 유입정보는 직접 고객발화와 구분하며, 개인정보만 명시적으로 가렸습니다. 이미지 응답은 존재만 표시하고 원본·첨부·무관한 전체 대화는 공개하지 않습니다.",
-              "quoteFormat": "full-messages-v1",
-              "customerText": "Beauty Blossom Design Face Filler — Forehead, Nose, Smile Lines & Chin Customized Treatment at Hongd",
-              "customerKo": "뷰티블라썸 얼굴 디자인 필러 — 이마·코·팔자주름·턱 맞춤 시술, Hongd에서",
-              "staffText": "If you have any questions or need further information, please feel free to reach out to us anytime!\n\nThank you! 🌸",
-              "staffKo": "질문이나 추가로 필요한 정보가 있으면 언제든지 편하게 연락해 주세요!\n\n감사합니다!"
+              "quoteDisclosure": "restricted",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A34:Z34"
             },
             {
               "id": "G-20261030-case-002",
@@ -829,39 +807,12 @@ window.SUPERVISION_DATA = {
               "title": "공통 교근 가격 이미지의 환산 표기 불일치",
               "procedure": "교근 보톡스",
               "questionCategory": "자료표기·통화 환산",
-              "customerMessages": [
-                {
-                  "kind": "context",
-                  "original": "弘大_Beauty Blossom 麗朵 V-Line 咀嚼肌肉毒",
-                  "ko": "홍대 뷰티블라썸 리둬 V라인 교근 보톡스 이벤트 유입정보"
-                }
-              ],
-              "staffMessages": [
-                {
-                  "kind": "text",
-                  "original": "咀嚼肌的價格這邊可以先給您參考喔😊",
-                  "ko": "교근 보톡스 가격은 먼저 이 자료를 참고하실 수 있습니다."
-                },
-                {
-                  "kind": "imageOnly",
-                  "original": "",
-                  "ko": ""
-                },
-                {
-                  "kind": "text",
-                  "original": "您也可以跟我們說一下最想改善的位置，再幫您初步推薦比較合適的療程喔🤍",
-                  "ko": "가장 개선하고 싶은 부위도 말씀해 주시면 더 적합한 시술을 우선 추천해 드릴 수 있습니다."
-                }
-              ],
+              "structuralReason": "이미지의 제오민50U는143,000원, 대만달러 약3,088, 환율41로 함께 표시되어 있습니다.143,000÷41은약3,488로 표기가 맞지 않습니다. 정상 미리보기에서 가격·환산율·VAT별도 문구를 읽고 계산했습니다. 같은 자료가3방에 노출되었으며 공통 원인은1건입니다.",
               "rationale": "이미지의 제오민50U는143,000원, 대만달러 약3,088, 환율41로 함께 표시되어 있습니다.143,000÷41은약3,488로 표기가 맞지 않습니다.",
               "evidence": "정상 미리보기에서 가격·환산율·VAT별도 문구를 읽고 계산했습니다. 같은 자료가3방에 노출되었으며 공통 원인은1건입니다.",
               "limit": "방별 대표판정 자료문제3과 공통원인1은 다른 단위입니다. 직원의 직접작성·실제결제 오류는 미입증입니다. 한 방의 별도 RF자료 유효기간 적용은 확인필요이며 자동 정정·발송하지 않았습니다.",
-              "quoteScopeNote": "해당 사례와 관련된 문자 메시지 단위 전체와 완전한 한국어 번역입니다. 유입정보는 직접 고객발화와 구분하며, 개인정보만 명시적으로 가렸습니다. 이미지 응답은 존재만 표시하고 원본·첨부·무관한 전체 대화는 공개하지 않습니다.",
-              "quoteFormat": "full-messages-v1",
-              "customerText": "弘大_Beauty Blossom 麗朵 V-Line 咀嚼肌肉毒",
-              "customerKo": "홍대 뷰티블라썸 리둬 V라인 교근 보톡스 이벤트 유입정보",
-              "staffText": "咀嚼肌的價格這邊可以先給您參考喔😊\n\n您也可以跟我們說一下最想改善的位置，再幫您初步推薦比較合適的療程喔🤍",
-              "staffKo": "교근 보톡스 가격은 먼저 이 자료를 참고하실 수 있습니다.\n\n가장 개선하고 싶은 부위도 말씀해 주시면 더 적합한 시술을 우선 추천해 드릴 수 있습니다."
+              "quoteDisclosure": "restricted",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A15:Z15"
             },
             {
               "id": "G-20261030-case-003",
@@ -870,34 +821,12 @@ window.SUPERVISION_DATA = {
               "title": "피코 자료 일부 금액·구성·버전 대응 확인",
               "procedure": "피코 색소 레이저",
               "questionCategory": "자료금액·구성·적용조건",
-              "customerMessages": [
-                {
-                  "kind": "context",
-                  "original": "Beauty Blossom Picosure Toning & Pico Eraser — at Hongdae",
-                  "ko": "홍대 뷰티블라썸 피코슈어 토닝·피코 이레이저 이벤트 유입정보"
-                }
-              ],
-              "staffMessages": [
-                {
-                  "kind": "imageOnly",
-                  "original": "",
-                  "ko": ""
-                },
-                {
-                  "kind": "text",
-                  "original": "Hi~ Here is our promotion for your reference✨\n\nIf you have any question, please feel free to ask us anytime💕",
-                  "ko": "안녕하세요. 참고하실 수 있도록 저희 프로모션을 안내드립니다.\n\n질문이 있으시면 언제든지 편하게 문의해 주세요."
-                }
-              ],
+              "structuralReason": "실제 읽은 가격표와 제공 원본의 동일 명칭·회차 일부4행에 표시금액 차이가 있습니다. 이미지의 VAT미포함 금액은 원본 VAT전 열과 비교했습니다. 듀얼색소10회1.95M/원본1.99M, 트리플1·5·10회330k·1.37M·2.49M/원본350k·1.45M·2.59M. 같은 내용의 자료는3방에서 확인했습니다.",
               "rationale": "실제 읽은 가격표와 제공 원본의 동일 명칭·회차 일부4행에 표시금액 차이가 있습니다. 이미지의 VAT미포함 금액은 원본 VAT전 열과 비교했습니다.",
               "evidence": "듀얼색소10회1.95M/원본1.99M, 트리플1·5·10회330k·1.37M·2.49M/원본350k·1.45M·2.59M. 같은 내용의 자료는3방에서 확인했습니다.",
               "limit": "관리 포함·구성·자료버전과 BBL/V레이저 용어 대응이 전부 같다고 단정하지 않았습니다. 확인필요이지 확정 직원가격오류가 아닙니다. 증정항목은 Trablanc으로 고해상도 확인했습니다.",
-              "quoteScopeNote": "해당 사례와 관련된 문자 메시지 단위 전체와 완전한 한국어 번역입니다. 유입정보는 직접 고객발화와 구분하며, 개인정보만 명시적으로 가렸습니다. 이미지 응답은 존재만 표시하고 원본·첨부·무관한 전체 대화는 공개하지 않습니다.",
-              "quoteFormat": "full-messages-v1",
-              "customerText": "Beauty Blossom Picosure Toning & Pico Eraser — at Hongdae",
-              "customerKo": "홍대 뷰티블라썸 피코슈어 토닝·피코 이레이저 이벤트 유입정보",
-              "staffText": "Hi~ Here is our promotion for your reference✨\n\nIf you have any question, please feel free to ask us anytime💕",
-              "staffKo": "안녕하세요. 참고하실 수 있도록 저희 프로모션을 안내드립니다.\n\n질문이 있으시면 언제든지 편하게 문의해 주세요."
+              "quoteDisclosure": "restricted",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A22:Z22"
             },
             {
               "id": "G-20261030-case-004",
@@ -906,44 +835,12 @@ window.SUPERVISION_DATA = {
               "title": "채널 가격과 홍보표 VAT 적용범위 구분 필요",
               "procedure": "주름·스킨 보톡스",
               "questionCategory": "가격·부가세",
-              "customerMessages": [
-                {
-                  "kind": "text",
-                  "original": "Are there any extra fees?",
-                  "ko": "추가 비용이 있나요?"
-                }
-              ],
-              "staffMessages": [
-                {
-                  "kind": "text",
-                  "original": "The prices shown on Gangnam Unni already include VAT 😊\n\nThere are no additional VAT charges on top of the listed price.\nIf you only come for a consultation without receiving treatment, there may be a consultation fee of ₩10,000, but if you proceed with treatment on the same day, the consultation fee is waived 🌸",
-                  "ko": "강남언니에 표시된 가격에는 이미 부가세가 포함되어 있습니다. 표시 가격에 부가세가 추가되지 않습니다. 시술 없이 상담만 받으러 오면 상담비 10,000원이 있을 수 있지만 당일 시술하면 상담비가 면제됩니다."
-                },
-                {
-                  "kind": "text",
-                  "original": "Here is our promotion for your reference✨\n\nIf you have any question, please feel free to ask us anytime💕",
-                  "ko": "참고하실 수 있도록 프로모션을 보내드립니다. 질문이 있으면 언제든지 편하게 문의해 주세요."
-                },
-                {
-                  "kind": "text",
-                  "original": "Here is our wrinkle Botox, forehead, between brows, smile, and skin Botox Prices for your reference✨",
-                  "ko": "주름 보톡스, 이마, 미간, 스마일 부위와 스킨보톡스 가격을 참고하시도록 보내드립니다."
-                },
-                {
-                  "kind": "imageOnly",
-                  "original": "",
-                  "ko": ""
-                }
-              ],
+              "structuralReason": "강남언니 표시금액이VAT포함이라는 응답은 제공 원본과 맞습니다. 함께 보낸 실제 홍보 이미지의VAT별도 표기가 어느 상품·채널에 적용되는지 구분이 명확하지 않습니다. 응답 전체와 실제 가격표2개를 읽고 채널/VAT 조건을 구분했습니다.",
               "rationale": "강남언니 표시금액이VAT포함이라는 응답은 제공 원본과 맞습니다. 함께 보낸 실제 홍보 이미지의VAT별도 표기가 어느 상품·채널에 적용되는지 구분이 명확하지 않습니다.",
               "evidence": "응답 전체와 실제 가격표2개를 읽고 채널/VAT 조건을 구분했습니다.",
               "limit": "확인필요이며 실제 VAT추가청구나 거짓 가격안내를 확정하지 않습니다. 뒤의 피부증상·임상대화는 이 가격 사례와 무관하여 공개하지 않습니다.",
-              "quoteScopeNote": "해당 사례와 관련된 문자 메시지 단위 전체와 완전한 한국어 번역입니다. 유입정보는 직접 고객발화와 구분하며, 개인정보만 명시적으로 가렸습니다. 이미지 응답은 존재만 표시하고 원본·첨부·무관한 전체 대화는 공개하지 않습니다.",
-              "quoteFormat": "full-messages-v1",
-              "customerText": "Are there any extra fees?",
-              "customerKo": "추가 비용이 있나요?",
-              "staffText": "The prices shown on Gangnam Unni already include VAT 😊\n\nThere are no additional VAT charges on top of the listed price.\nIf you only come for a consultation without receiving treatment, there may be a consultation fee of ₩10,000, but if you proceed with treatment on the same day, the consultation fee is waived 🌸\n\nHere is our promotion for your reference✨\n\nIf you have any question, please feel free to ask us anytime💕\n\nHere is our wrinkle Botox, forehead, between brows, smile, and skin Botox Prices for your reference✨",
-              "staffKo": "강남언니에 표시된 가격에는 이미 부가세가 포함되어 있습니다. 표시 가격에 부가세가 추가되지 않습니다. 시술 없이 상담만 받으러 오면 상담비 10,000원이 있을 수 있지만 당일 시술하면 상담비가 면제됩니다.\n\n참고하실 수 있도록 프로모션을 보내드립니다. 질문이 있으면 언제든지 편하게 문의해 주세요.\n\n주름 보톡스, 이마, 미간, 스마일 부위와 스킨보톡스 가격을 참고하시도록 보내드립니다."
+              "quoteDisclosure": "restricted",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A25:Z25"
             },
             {
               "id": "G-20261030-case-005",
@@ -952,29 +849,12 @@ window.SUPERVISION_DATA = {
               "title": "턱밑지방 요청에 적용할 가격 옵션 확인",
               "procedure": "턱밑지방 관리",
               "questionCategory": "상품·부위별 가격조건",
-              "customerMessages": [
-                {
-                  "kind": "text",
-                  "original": "ต้องการทราบราคาด้วยนะคะ [개인 이동일정 가림]  จะทำก่อนกลับ",
-                  "ko": "가격도 알고 싶습니다. [개인 이동일정 가림] 돌아가기 전에 시술하려고 합니다."
-                }
-              ],
-              "staffMessages": [
-                {
-                  "kind": "imageOnly",
-                  "original": "",
-                  "ko": ""
-                }
-              ],
+              "structuralReason": "가격질문 뒤에 실제 가격표3개가 전달되어 읽었습니다. 요청한 턱밑지방에 적용되는 구체 상품·브랜드·용량·채널 조건은 명확화가 필요합니다. 보톡스표2개와 필러표1개를 정상 미리보기로 확인했습니다.",
               "rationale": "가격질문 뒤에 실제 가격표3개가 전달되어 읽었습니다. 요청한 턱밑지방에 적용되는 구체 상품·브랜드·용량·채널 조건은 명확화가 필요합니다.",
               "evidence": "보톡스표2개와 필러표1개를 정상 미리보기로 확인했습니다.",
               "limit": "답변이 없거나 첨부를 못 읽은 사례가 아닙니다. 다른 부위·상품의 가격을 같다고 가정한 오류나 개인별 시술적합성은 확정하지 않습니다.",
-              "quoteScopeNote": "해당 사례와 관련된 문자 메시지 단위 전체와 완전한 한국어 번역입니다. 유입정보는 직접 고객발화와 구분하며, 개인정보만 명시적으로 가렸습니다. 이미지 응답은 존재만 표시하고 원본·첨부·무관한 전체 대화는 공개하지 않습니다.",
-              "quoteFormat": "full-messages-v1",
-              "customerText": "ต้องการทราบราคาด้วยนะคะ [개인 이동일정 가림]  จะทำก่อนกลับ",
-              "customerKo": "가격도 알고 싶습니다. [개인 이동일정 가림] 돌아가기 전에 시술하려고 합니다.",
-              "staffText": "",
-              "staffKo": ""
+              "quoteDisclosure": "restricted",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A32:Z32"
             },
             {
               "id": "G-20261030-case-006",
@@ -983,29 +863,12 @@ window.SUPERVISION_DATA = {
               "title": "최종 예약요청에 대한 확정 회신 확인",
               "procedure": "확인되지 않음",
               "questionCategory": "예약확정·예상소요시간",
-              "customerMessages": [
-                {
-                  "kind": "text",
-                  "original": "If yes, may I book for [예약시각 가림] on [예약요일 가림]?",
-                  "ko": "그렇다면 [예약요일 가림] [예약시각 가림]로 예약할 수 있을까요?"
-                }
-              ],
-              "staffMessages": [
-                {
-                  "kind": "text",
-                  "original": "Depending on the waiting time, your treatment can usually be completed within an hour and a half. ^^",
-                  "ko": "대기시간에 따라 보통1시간반 이내에 시술을 마칠 수 있습니다. ^^"
-                }
-              ],
+              "structuralReason": "최종 응답은 대기시간에 따른 예상소요시간 설명입니다. 고객이 요청한 새 일정의 명시적 확정 회신은 확인한 원문에 없습니다. 관련 질문과 최종 답변을 정상 화면에서 읽었습니다. 삭제 원문1단위는 복원하거나 추정하지 않았습니다.",
               "rationale": "최종 응답은 대기시간에 따른 예상소요시간 설명입니다. 고객이 요청한 새 일정의 명시적 확정 회신은 확인한 원문에 없습니다.",
               "evidence": "관련 질문과 최종 답변을 정상 화면에서 읽었습니다. 삭제 원문1단위는 복원하거나 추정하지 않았습니다.",
               "limit": "응답 자체는 있어 답변누락이 아닙니다. 별도 예약성공·실패나 실제 시술시간 부족을 단정하지 않습니다. 개인 예약일시와 무관한 과거대화는 공개하지 않습니다.",
-              "quoteScopeNote": "해당 사례와 관련된 문자 메시지 단위 전체와 완전한 한국어 번역입니다. 유입정보는 직접 고객발화와 구분하며, 개인정보만 명시적으로 가렸습니다. 이미지 응답은 존재만 표시하고 원본·첨부·무관한 전체 대화는 공개하지 않습니다.",
-              "quoteFormat": "full-messages-v1",
-              "customerText": "If yes, may I book for [예약시각 가림] on [예약요일 가림]?",
-              "customerKo": "그렇다면 [예약요일 가림] [예약시각 가림]로 예약할 수 있을까요?",
-              "staffText": "Depending on the waiting time, your treatment can usually be completed within an hour and a half. ^^",
-              "staffKo": "대기시간에 따라 보통1시간반 이내에 시술을 마칠 수 있습니다. ^^"
+              "quoteDisclosure": "restricted",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A16:Z16"
             }
           ],
           "conversations": [],
@@ -1491,7 +1354,7 @@ window.SUPERVISION_DATA = {
               "note": "이벤트 유입과 연락 안내만 확인한 행정 접수범위 적정입니다. 의료상담 완료가 아닙니다. 신규10방 모두31일에도 이어지며 과거 수집 차이의 정확한 원인과 직원 답변누락은 미입증입니다."
             }
           ],
-          "reviewScope": "기존36방 판정·공개 사례 원문과 한국어 번역은 좁은 기존 승인범위로 보존하고 신규10방을 추가한 누적46방입니다. 현재30일 본문 재열람45방과 보호된 태국 과거자료1방을 구분합니다. 현재 실제 국적필드45방·12국가이며 누적 태국8에는 현재7+역사1이 포함됩니다. 후보56·안전열람55 중30일45방, 이미지38표시, UI278단위(본문253+운영카드22+삭제원문미열람3)입니다. 제공자 개별 메시지수는 미집계입니다. 신규 적정9는 행정/접수범위8과 동일범주 지침을 대조한 일반후관리 가시답변1이며, 야간 시술상세문의1은 확인필요·부분범위입니다. 신규10방 모두31일 연속이나31일 답변을30일 상담완료로 보지 않습니다. 전국가/전상태 분모는 미확인·전체partial이며 과거 수집 차이의 구체 원인 또는 직원 답변누락은 미입증입니다.",
+          "reviewScope": "검수내역 57행: 기존 상담 판정46행과 운영전용11행. 11월2일 안전한54방을 재대조했고 신규보호2방과 기존보호1방은 열지 않았습니다. 실제 당일 UI285단위(삭제3 포함), 이전 저장범위 UI289단위와 다릅니다. 원문·발화별 완전 번역은 각 행의 제한 원장에 있습니다. 이전 판정범위: 기존36방 판정·공개 사례 원문과 한국어 번역은 좁은 기존 승인범위로 보존하고 신규10방을 추가한 누적46방입니다. 당시30일 본문 재열람45방과 보호된 태국 과거자료1방을 구분합니다. 당시 실제 국적필드45방·12국가이며 누적 태국8에는 당시7+역사1이 포함됩니다. 후보56·안전열람55 중30일45방, 이미지38표시, UI278단위(본문253+운영카드22+삭제원문미열람3)입니다. 제공자 개별 메시지수는 미집계입니다. 신규 적정9는 행정/접수범위8과 동일범주 지침을 대조한 일반후관리 가시답변1이며, 야간 시술상세문의1은 확인필요·부분범위입니다. 신규10방 모두31일 연속이나31일 답변을30일 상담완료로 보지 않습니다. 전국가/전상태 분모는 미확인·전체partial이며 과거 수집 차이의 구체 원인 또는 직원 답변누락은 미입증입니다.",
           "coverage": {
             "candidateRooms": 56,
             "reviewedRooms": 46,
@@ -1502,11 +1365,12 @@ window.SUPERVISION_DATA = {
             "excludedOutsideDate": 10,
             "uninspectedAttachments": null,
             "notes": [
-              "기존36방 판정·공개 사례 원문과 한국어 번역은 좁은 기존 승인범위로 보존하고 신규10방을 추가한 누적46방입니다. 현재30일 본문 재열람45방과 보호된 태국 과거자료1방을 구분합니다. 현재 실제 국적필드45방·12국가이며 누적 태국8에는 현재7+역사1이 포함됩니다. 후보56·안전열람55 중30일45방, 이미지38표시, UI278단위(본문253+운영카드22+삭제원문미열람3)입니다. 제공자 개별 메시지수는 미집계입니다. 신규 적정9는 행정/접수범위8과 동일범주 지침을 대조한 일반후관리 가시답변1이며, 야간 시술상세문의1은 확인필요·부분범위입니다. 신규10방 모두31일 연속이나31일 답변을30일 상담완료로 보지 않습니다. 전국가/전상태 분모는 미확인·전체partial이며 과거 수집 차이의 구체 원인 또는 직원 답변누락은 미입증입니다.",
-              "이미지38표시는 저장된 시각검토 근거에 연결했습니다. 고유파일수·새 다운로드수와 다릅니다. 삭제3은 미열람이며 보호방의 현재 미관찰내용은 알 수 없습니다.",
-              "casesComplete는 기존 공개 사례의 명시된 검토범위 보존만 뜻하며 전체 대화/삭제/보호범위 완전성 또는 신규범위 전체 검토 완료가 아닙니다.",
-              "기존 국가별 관리원장에30일279행(278UI표시단위+보호메타1)을 실제 저장하고8,370셀 전체XLSX 재독으로 대조했습니다. 기존29일121행과 원래값·서식은 보존됐고 기록키 중복은0입니다. 삭제3·보호1은 미검수 표시 그대로입니다.",
-              "전체언어 재감사: 보존목록5425개 물리슬롯 끝까지 관찰했지만 고유방수나 당일분모는 아닙니다. 처리기록795행, 실제 고유채널775개 성공. 목록 메타키와 처리기록이 연결되지 않은 4630행은 고유 미검수방수로 단정하지 않습니다. 현재 당일 직접열람56방·289UI단위 = 기존45방·278단위 + 자동 운영카드전용11방·11단위입니다. 보호된 기존자료1방을 별도로 유지하여 알려진 이력 하한57방입니다. UI단위는 제공자 개별 메시지 수가 아닙니다. 기존 상담판정46방은 적정35·확정오류1·자료충돌3·확인필요7로 보존합니다. 언어별 판정은 현재 재열람45방의 기존 한정판정만 연결했으며 보호역사1방의 판정은 기존원장에만 남깁니다. 새 운영카드11방에 임상 적정/오류 판정을 생성하지 않습니다. 처리기록 내 보호15행과 선택미확인2행이 있습니다. 보호 중 알려진 과거 당일방1개 외 나머지의 당일 포함 여부·언어·국적은 미확인이라 당일 국가/언어분모에 확정 편입하지 않습니다. 전체 미검수방수는 미확인입니다."
+              "검수내역 57행: 기존 상담 판정46행과 운영전용11행. 11월2일 안전한54방을 재대조했고 신규보호2방과 기존보호1방은 열지 않았습니다. 실제 당일 UI285단위(삭제3 포함), 이전 저장범위 UI289단위와 다릅니다. 원문·발화별 완전 번역은 각 행의 제한 원장에 있습니다.",
+              "이전 10월31일 집계 기록: 기존36방 판정·공개 사례 원문과 한국어 번역은 좁은 기존 승인범위로 보존하고 신규10방을 추가한 누적46방입니다. 당시30일 본문 재열람45방과 보호된 태국 과거자료1방을 구분합니다. 당시 실제 국적필드45방·12국가이며 누적 태국8에는 당시7+역사1이 포함됩니다. 후보56·안전열람55 중30일45방, 이미지38표시, UI278단위(본문253+운영카드22+삭제원문미열람3)입니다. 제공자 개별 메시지수는 미집계입니다. 신규 적정9는 행정/접수범위8과 동일범주 지침을 대조한 일반후관리 가시답변1이며, 야간 시술상세문의1은 확인필요·부분범위입니다. 신규10방 모두31일 연속이나31일 답변을30일 상담완료로 보지 않습니다. 전국가/전상태 분모는 미확인·전체partial이며 과거 수집 차이의 구체 원인 또는 직원 답변누락은 미입증입니다.",
+              "이전 10월31일 집계 기록: 이미지38표시는 저장된 시각검토 근거에 연결했습니다. 고유파일수·새 다운로드수와 다릅니다. 삭제3은 미열람이며 보호방의 당시 미관찰내용은 알 수 없습니다.",
+              "이전 10월31일 집계 기록: casesComplete는 기존 공개 사례의 명시된 검토범위 보존만 뜻하며 전체 대화/삭제/보호범위 완전성 또는 신규범위 전체 검토 완료가 아닙니다.",
+              "이전 10월31일 집계 기록: 기존 국가별 관리원장에30일279행(278UI표시단위+보호메타1)을 실제 저장하고8,370셀 전체XLSX 재독으로 대조했습니다. 기존29일121행과 원래값·서식은 보존됐고 기록키 중복은0입니다. 삭제3·보호1은 미검수 표시 그대로입니다.",
+              "이전 10월31일 집계 기록: 전체언어 재감사: 보존목록5425개 물리슬롯 끝까지 관찰했지만 고유방수나 당일분모는 아닙니다. 처리기록795행, 실제 고유채널775개 성공. 목록 메타키와 처리기록이 연결되지 않은 4630행은 고유 미검수방수로 단정하지 않습니다. 당시 당일 직접열람56방·289UI단위 = 기존45방·278단위 + 자동 운영카드전용11방·11단위입니다. 보호된 기존자료1방을 별도로 유지하여 알려진 이력 하한57방입니다. UI단위는 제공자 개별 메시지 수가 아닙니다. 기존 상담판정46방은 적정35·확정오류1·자료충돌3·확인필요7로 보존합니다. 언어별 판정은 당시 재열람45방의 기존 한정판정만 연결했으며 보호역사1방의 판정은 기존원장에만 남깁니다. 새 운영카드11방에 임상 적정/오류 판정을 생성하지 않습니다. 처리기록 내 보호15행과 선택미확인2행이 있습니다. 보호 중 알려진 과거 당일방1개 외 나머지의 당일 포함 여부·언어·국적은 미확인이라 당일 국가/언어분모에 확정 편입하지 않습니다. 전체 미검수방수는 미확인입니다."
             ]
           },
           "followUps": [],
@@ -1713,9 +1577,9 @@ window.SUPERVISION_DATA = {
               }
             ],
             "notes": [
-              "기존36방 판정·공개 사례 원문과 한국어 번역은 좁은 기존 승인범위로 보존하고 신규10방을 추가한 누적46방입니다. 현재30일 본문 재열람45방과 보호된 태국 과거자료1방을 구분합니다. 현재 실제 국적필드45방·12국가이며 누적 태국8에는 현재7+역사1이 포함됩니다. 후보56·안전열람55 중30일45방, 이미지38표시, UI278단위(본문253+운영카드22+삭제원문미열람3)입니다. 제공자 개별 메시지수는 미집계입니다. 신규 적정9는 행정/접수범위8과 동일범주 지침을 대조한 일반후관리 가시답변1이며, 야간 시술상세문의1은 확인필요·부분범위입니다. 신규10방 모두31일 연속이나31일 답변을30일 상담완료로 보지 않습니다. 전국가/전상태 분모는 미확인·전체partial이며 과거 수집 차이의 구체 원인 또는 직원 답변누락은 미입증입니다.",
-              "원장 미반영은 실제 기존30일0행→279행 누적으로 보완했습니다. 신규10방의 과거 구체 누락발생 단계와 직원 답변누락은 미입증입니다.",
-              "새 국적탭은 현재 확인된 실제필드28개 코드를 별도 표시하고 전체분모는 미확인입니다. 기존 한정판정과 자동카드전용 추가분모는 합치지 않습니다."
+              "10월31일 보존집계: 기존36방 판정·공개 사례 원문과 한국어 번역은 좁은 기존 승인범위로 보존하고 신규10방을 추가한 누적46방입니다. 당시30일 본문 재열람45방과 보호된 태국 과거자료1방을 구분합니다. 당시 실제 국적필드45방·12국가이며 누적 태국8에는 당시7+역사1이 포함됩니다. 후보56·안전열람55 중30일45방, 이미지38표시, UI278단위(본문253+운영카드22+삭제원문미열람3)입니다. 제공자 개별 메시지수는 미집계입니다. 신규 적정9는 행정/접수범위8과 동일범주 지침을 대조한 일반후관리 가시답변1이며, 야간 시술상세문의1은 확인필요·부분범위입니다. 신규10방 모두31일 연속이나31일 답변을30일 상담완료로 보지 않습니다. 전국가/전상태 분모는 미확인·전체partial이며 과거 수집 차이의 구체 원인 또는 직원 답변누락은 미입증입니다.",
+              "10월31일 보존집계: 원장 미반영은 실제 기존30일0행→279행 누적으로 보완했습니다. 신규10방의 과거 구체 누락발생 단계와 직원 답변누락은 미입증입니다.",
+              "10월31일 보존집계: 새 국적탭은 당시 확인된 실제필드28개 코드를 별도 표시하고 전체분모는 미확인입니다. 기존 한정판정과 자동카드전용 추가분모는 합치지 않습니다."
             ]
           },
           "inquiryLanguageCoverage": {
@@ -2312,6 +2176,1435 @@ window.SUPERVISION_DATA = {
               "count": 2,
               "scope": "30일 자동카드전용 추가방, 문의언어 미확인",
               "assessment": "일정표기·당일구분 정합만 확인. 실제 발송로그/예약이행/임상상담 완료를 증명하지 않음"
+            }
+          ],
+          "qaAuditPrivacy": "restricted-originals",
+          "qaAuditCheckedAt": "2026-11-01T23:30:03.378Z",
+          "qaAuditRecords": [
+            {
+              "id": "G-20261030-042",
+              "country": "TW",
+              "consultationAt": "2026-10-30T21:58:00+09:00",
+              "language": "zh",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-10-30T21:58:00+09:00",
+                "lastAt": "2026-10-30T21:58:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": "2026-10-30T21:58:00+09:00",
+                "lastAt": "2026-10-30T21:58:00+09:00"
+              },
+              "verdict": "needsVerification",
+              "reason": "포텐자 · 시술상세문의·야간부분범위: 시술 내용을 자세히 알고 싶다는 질문 뒤 야간안내만 확인했습니다. 실질 시술설명 완료가 아니므로 확인필요·부분범위입니다. 확정 답변누락이나 직원 과실로 단정하지 않습니다. 신규10방 모두31일에도 이어지며 과거 수집 차이의 정확한 원인과 직원 답변누락은 미입증입니다. 기존 확인필요 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A2:Z2",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 1개, 병원발신 3개(개인담당자 미확인), 이미지표시 1개, 링크표시 1개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-035",
+              "country": "US",
+              "consultationAt": "2026-10-30T01:05:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-10-30T01:06:00+09:00",
+                "lastAt": "2026-10-30T01:06:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 6,
+                "firstAt": "2026-10-30T01:05:00+09:00",
+                "lastAt": "2026-10-30T13:00:00+09:00"
+              },
+              "verdict": "appropriate",
+              "reason": "교근 보톡스 · 일정 응답 확인: 기존 화면의 일정응답 기록을 대조했습니다. 개인 예약정보와 실제 진료이행은 공개하거나 보증하지 않습니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A3:Z3",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 1개, 병원발신 6개(개인담당자 미확인), 이미지표시 1개, 링크표시 1개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-030",
+              "country": "TW",
+              "consultationAt": "2026-10-30T14:30:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-10-30T14:30:00+09:00",
+                "lastAt": "2026-10-30T19:44:00+09:00"
+              },
+              "verdict": "appropriate",
+              "reason": "확인되지 않음 · 예약 재확인: 기존 화면의 일정응답 기록을 대조했습니다. 개인 예약정보와 실제 진료이행은 공개하거나 보증하지 않습니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A4:Z4",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 0개, 병원발신 2개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 3개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-037",
+              "country": "JP",
+              "consultationAt": "2026-10-30T22:09:00+09:00",
+              "language": "ja",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-10-30T22:09:00+09:00",
+                "lastAt": "2026-10-30T22:09:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-10-30T22:09:00+09:00",
+                "lastAt": "2026-10-30T22:09:00+09:00"
+              },
+              "verdict": "appropriate",
+              "reason": "확인되지 않음 · 취소요청·야간접수: 취소요청과 영업시간외 안내가 보입니다. 접수안내 범위만 적정이며 당일 취소처리·상담완료를 뜻하지 않습니다. 신규10방 모두31일에도 이어지며 과거 수집 차이의 정확한 원인과 직원 답변누락은 미입증입니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A5:Z5",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 1개, 병원발신 1개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 3개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-029",
+              "country": "TW",
+              "consultationAt": "2026-10-30T10:00:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-10-30T10:00:00+09:00",
+                "lastAt": "2026-10-30T19:45:00+09:00"
+              },
+              "verdict": "appropriate",
+              "reason": "확인되지 않음 · 예약 재확인: 기존 화면의 일정응답 기록을 대조했습니다. 개인 예약정보와 실제 진료이행은 공개하거나 보증하지 않습니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A6:Z6",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 0개, 병원발신 2개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 3개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-039",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "appropriate",
+              "reason": "주름 보톡스 · 이벤트유입·접수안내: 이벤트 유입과 연락 안내만 확인한 행정 접수범위 적정입니다. 의료상담 완료가 아닙니다. 신규10방 모두31일에도 이어지며 과거 수집 차이의 정확한 원인과 직원 답변누락은 미입증입니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A7:Z7",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-040",
+              "country": "TW",
+              "consultationAt": "2026-10-30T23:32:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-10-30T23:32:00+09:00",
+                "lastAt": "2026-10-30T23:32:00+09:00"
+              },
+              "verdict": "appropriate",
+              "reason": "확인되지 않음 · 병원유입·접수안내: 병원 유입과 연락 안내만 확인한 행정 접수범위 적정입니다. 의료상담 완료가 아닙니다. 신규10방 모두31일에도 이어지며 과거 수집 차이의 정확한 원인과 직원 답변누락은 미입증입니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A8:Z8",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 0개, 병원발신 2개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-041",
+              "country": "TW",
+              "consultationAt": "2026-10-30T00:35:00+09:00",
+              "language": "zh",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 7,
+                "firstAt": "2026-10-30T00:35:00+09:00",
+                "lastAt": "2026-10-30T21:58:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 14,
+                "firstAt": "2026-10-30T00:35:00+09:00",
+                "lastAt": "2026-10-30T21:58:00+09:00"
+              },
+              "verdict": "appropriate",
+              "reason": "초음파리프팅 · 예약·시술후 화장안내: 예약·길안내 및 초음파리프팅 당일 화장 질문에 대한 가시 답변 범위를 검토했습니다. 부드럽게 하고 세게 문지르지 말라는 답변은 제공된 동일범주 초음파리프팅/HIFU 후관리의 당일 가벼운 세안·화장 가능 지침과 일치합니다. 개인 시술적합성·실제 시술이행·모든 상황의 무위험성을 보증하지 않습니다. 삭제원문1개는 미열람이며 복원하지 않았습니다. 예약정보는 공개하지 않습니다. 신규10방 모두31일에도 이어지며 과거 수집 차이의 정확한 원인과 직원 답변누락은 미입증입니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A9:Z9",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 7개, 병원발신 14개(개인담당자 미확인), 이미지표시 2개, 링크표시 1개, 삭제표시 1개, 전일문맥 1개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-044",
+              "country": "US",
+              "consultationAt": "2026-10-30T21:34:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-10-30T21:34:00+09:00",
+                "lastAt": "2026-10-30T21:34:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": "2026-10-30T21:34:00+09:00",
+                "lastAt": "2026-10-30T21:34:00+09:00"
+              },
+              "verdict": "appropriate",
+              "reason": "겨드랑이 관리 · 일정제안·야간접수: 일정제안 카드와 연락·야간안내의 접수범위만 적정입니다. 실제 예약확정·의료상담 완료는 미평가입니다. 신규10방 모두31일에도 이어지며 과거 수집 차이의 정확한 원인과 직원 답변누락은 미입증입니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A10:Z10",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 1개, 병원발신 3개(개인담당자 미확인), 이미지표시 1개, 링크표시 1개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-045",
+              "country": "AU",
+              "consultationAt": "2026-10-30T22:43:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-10-30T22:43:00+09:00",
+                "lastAt": "2026-10-30T22:43:00+09:00"
+              },
+              "verdict": "appropriate",
+              "reason": "피코 색소레이저 · 이벤트유입·접수안내: 이벤트 유입과 연락 안내만 확인한 행정 접수범위 적정입니다. 의료상담 완료가 아닙니다. 신규10방 모두31일에도 이어지며 과거 수집 차이의 정확한 원인과 직원 답변누락은 미입증입니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A11:Z11",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 0개, 병원발신 2개(개인담당자 미확인), 이미지표시 1개, 링크표시 1개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-038",
+              "country": "TH",
+              "consultationAt": "2026-10-30T22:31:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-10-30T22:31:00+09:00",
+                "lastAt": "2026-10-30T22:31:00+09:00"
+              },
+              "verdict": "appropriate",
+              "reason": "인모드 · 이벤트유입·접수안내: 이벤트 유입정보와 병원 소개·연락 안내 범위만 적정입니다. 개별 시술 적합성·가격 설명 완료는 미평가입니다. 신규10방 모두31일에도 이어지며 과거 수집 차이의 정확한 원인과 직원 답변누락은 미입증입니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A12:Z12",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 0개, 병원발신 2개(개인담당자 미확인), 이미지표시 1개, 링크표시 1개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-046",
+              "country": "AU",
+              "consultationAt": "2026-10-30T20:18:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-10-30T20:18:00+09:00",
+                "lastAt": "2026-10-30T20:18:00+09:00"
+              },
+              "verdict": "appropriate",
+              "reason": "수염 제모 · 이벤트유입·접수안내: 이벤트 유입과 연락 안내만 확인한 행정 접수범위 적정입니다. 의료상담 완료가 아닙니다. 신규10방 모두31일에도 이어지며 과거 수집 차이의 정확한 원인과 직원 답변누락은 미입증입니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A13:Z13",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 0개, 병원발신 2개(개인담당자 미확인), 이미지표시 1개, 링크표시 1개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-043",
+              "country": "TW",
+              "consultationAt": "2026-10-30T21:36:00+09:00",
+              "language": "zh",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-10-30T21:37:00+09:00",
+                "lastAt": "2026-10-30T21:37:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": "2026-10-30T21:36:00+09:00",
+                "lastAt": "2026-10-30T21:37:00+09:00"
+              },
+              "verdict": "appropriate",
+              "reason": "인모드 · 예약문의·야간접수: 예약 가능 여부 질문과 야간안내의 접수범위만 적정입니다. 예약확정·실질 의료상담 완료가 아닙니다. 신규10방 모두31일에도 이어지며 과거 수집 차이의 정확한 원인과 직원 답변누락은 미입증입니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A14:Z14",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 1개, 병원발신 3개(개인담당자 미확인), 이미지표시 1개, 링크표시 1개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-028",
+              "country": "TW",
+              "consultationAt": "2026-10-30T18:49:00+09:00",
+              "language": "zh",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": "2026-10-30T18:49:00+09:00",
+                "lastAt": "2026-10-30T18:55:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 8,
+                "firstAt": "2026-10-30T18:49:00+09:00",
+                "lastAt": "2026-10-30T18:56:00+09:00"
+              },
+              "verdict": "sourceConflict",
+              "reason": "보톡스·RF리프팅·필러 · 시술·가격자료: 관련 사례의 확인한 응답범위 판정입니다. 공통자료는 원인과 노출 상담 수를 구분합니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다. 기존 자료충돌 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A15:Z15",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 3개, 병원발신 8개(개인담당자 미확인), 이미지표시 7개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-031",
+              "country": "US",
+              "consultationAt": "2026-10-30T10:02:00+09:00",
+              "language": "en",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 10,
+                "firstAt": "2026-10-30T14:41:00+09:00",
+                "lastAt": "2026-10-30T17:56:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 8,
+                "firstAt": "2026-10-30T10:02:00+09:00",
+                "lastAt": "2026-10-30T18:24:00+09:00"
+              },
+              "verdict": "needsVerification",
+              "reason": "확인되지 않음 · 예약확정·예상소요시간: 관련 사례의 확인한 응답범위 판정입니다. 공통자료는 원인과 노출 상담 수를 구분합니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다. 기존 확인필요 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A16:Z16",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 10개, 병원발신 8개(개인담당자 미확인), 이미지표시 0개, 링크표시 2개, 삭제표시 1개, 전일문맥 2개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-001",
+              "country": "GB",
+              "consultationAt": "2026-10-30T17:38:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": "2026-10-30T17:38:00+09:00",
+                "lastAt": "2026-10-30T17:48:00+09:00"
+              },
+              "verdict": "appropriate",
+              "reason": "여성 겨드랑이 관리(유입정보) · 상담 시작: 고객 직접 질문 없이 상품 유입 카드와 상담 요청 안내. 당일 텍스트상 미응답 지적 없음. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A17:Z17",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 0개, 병원발신 3개(개인담당자 미확인), 이미지표시 1개, 링크표시 1개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-027",
+              "country": "TW",
+              "consultationAt": "2026-10-30T09:51:00+09:00",
+              "language": "zh",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 6,
+                "firstAt": "2026-10-30T17:11:00+09:00",
+                "lastAt": "2026-10-30T17:29:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 16,
+                "firstAt": "2026-10-30T09:51:00+09:00",
+                "lastAt": "2026-10-30T17:44:00+09:00"
+              },
+              "verdict": "sourceConflict",
+              "reason": "교근·승모근 보톡스·ONDA · 시술·용량·자료안내: 관련 사례의 확인한 응답범위 판정입니다. 공통자료는 원인과 노출 상담 수를 구분합니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다. 기존 자료충돌 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A18:Z18",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 6개, 병원발신 16개(개인담당자 미확인), 이미지표시 3개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-032",
+              "country": "TH",
+              "consultationAt": "2026-10-30T16:52:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": "2026-10-30T16:52:00+09:00",
+                "lastAt": "2026-10-30T16:52:00+09:00"
+              },
+              "verdict": "appropriate",
+              "reason": "스킨보톡스 · 이벤트·가격자료: 보이는 응답과 실제 가격표는 일치합니다. 삭제 원문1단위는 미검수로 판정에서 제외합니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A19:Z19",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 0개, 병원발신 3개(개인담당자 미확인), 이미지표시 2개, 링크표시 1개, 삭제표시 1개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-002",
+              "country": "TH",
+              "consultationAt": null,
+              "language": "th",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "appropriate",
+              "reason": "Eve-V Muse 피부진단 · 통역·장비 유무: 태국어 통역 및 AI 피부진단 유무 질문에 둘 다 있다고 답변. 실제 문의에 응대가 있으며 의료 효과·금액 주장 없음. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A20:Z20",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-003",
+              "country": "SG",
+              "consultationAt": "2026-10-30T12:12:00+09:00",
+              "language": "en",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 6,
+                "firstAt": "2026-10-30T12:13:00+09:00",
+                "lastAt": "2026-10-30T16:39:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 8,
+                "firstAt": "2026-10-30T12:12:00+09:00",
+                "lastAt": "2026-10-30T16:44:00+09:00"
+              },
+              "verdict": "appropriate",
+              "reason": "SKINVIVE·리쥬란 HB·피부진단 · 용량·피부질환 이력·진단비: 제공 자료의 조건부 의사평가·상담비 안내를 대조했습니다. 개별 진단·시술결과 보장은 판정하지 않습니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A21:Z21",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 6개, 병원발신 8개(개인담당자 미확인), 이미지표시 1개, 링크표시 1개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-033",
+              "country": "US",
+              "consultationAt": "2026-10-30T15:26:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": "2026-10-30T15:26:00+09:00",
+                "lastAt": "2026-10-30T15:30:00+09:00"
+              },
+              "verdict": "needsVerification",
+              "reason": "피코 색소레이저 · 이벤트·가격자료: 관련 사례의 확인한 응답범위 판정입니다. 공통자료는 원인과 노출 상담 수를 구분합니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다. 기존 확인필요 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A22:Z22",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 0개, 병원발신 3개(개인담당자 미확인), 이미지표시 2개, 링크표시 1개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-004",
+              "country": "US",
+              "consultationAt": "2026-10-30T15:10:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 4,
+                "firstAt": "2026-10-30T15:10:00+09:00",
+                "lastAt": "2026-10-30T15:18:00+09:00"
+              },
+              "verdict": "needsVerification",
+              "reason": "피코슈어(유입정보) · 프로모션·가격: 관련 사례의 확인한 응답범위 판정입니다. 공통자료는 원인과 노출 상담 수를 구분합니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다. 기존 확인필요 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A23:Z23",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 0개, 병원발신 4개(개인담당자 미확인), 이미지표시 2개, 링크표시 1개, 삭제표시 0개, 전일문맥 1개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-005",
+              "country": "TW",
+              "consultationAt": "2026-10-30T15:03:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 4,
+                "firstAt": "2026-10-30T15:03:00+09:00",
+                "lastAt": "2026-10-30T15:12:00+09:00"
+              },
+              "verdict": "appropriate",
+              "reason": "여성 겨드랑이 관리(유입정보) · 개선부위 확인: 직접 고객질문은 없으며 겨드랑이 개선 희망부위를 물어 추가 상담 유도. 이벤트 제목의 동반 할인조건을 임의 적용하지 않음. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A24:Z24",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 0개, 병원발신 4개(개인담당자 미확인), 이미지표시 1개, 링크표시 1개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-006",
+              "country": "US",
+              "consultationAt": "2026-10-30T14:55:00+09:00",
+              "language": "en",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-10-30T14:56:00+09:00",
+                "lastAt": "2026-10-30T14:59:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 7,
+                "firstAt": "2026-10-30T14:55:00+09:00",
+                "lastAt": "2026-10-30T15:01:00+09:00"
+              },
+              "verdict": "needsVerification",
+              "reason": "주름·스킨보톡스 및 피부상담 · 추가비용·가격·홍조: 관련 사례의 확인한 응답범위 판정입니다. 공통자료는 원인과 노출 상담 수를 구분합니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다. 기존 확인필요 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A25:Z25",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 2개, 병원발신 7개(개인담당자 미확인), 이미지표시 3개, 링크표시 1개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-007",
+              "country": "TH",
+              "consultationAt": "2026-10-30T00:45:00+09:00",
+              "language": "en",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-10-30T00:46:00+09:00",
+                "lastAt": "2026-10-30T14:54:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 7,
+                "firstAt": "2026-10-30T00:45:00+09:00",
+                "lastAt": "2026-10-30T14:56:00+09:00"
+              },
+              "verdict": "appropriate",
+              "reason": "Elravie Re2O(유입정보) · 예약확정·지정비: 원문·실제 첨부를 제공자료와 대조한 명시된 응답범위의 판정입니다. 개별 시술적합성·모든 과거대화의 무오류 보장이 아닙니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A26:Z26",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 2개, 병원발신 7개(개인담당자 미확인), 이미지표시 2개, 링크표시 3개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-008",
+              "country": "RU",
+              "consultationAt": "2026-10-30T14:29:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 4,
+                "firstAt": "2026-10-30T14:29:00+09:00",
+                "lastAt": "2026-10-30T14:46:00+09:00"
+              },
+              "verdict": "appropriate",
+              "reason": "사각턱 보톡스 · 브랜드별 가격·용량: 동일 브랜드50U 금액과 실제 채널의 국산/Coretox옵션·VAT포함을 대조했습니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A27:Z27",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 0개, 병원발신 4개(개인담당자 미확인), 이미지표시 1개, 링크표시 1개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-009",
+              "country": "TW",
+              "consultationAt": "2026-10-30T12:41:00+09:00",
+              "language": "zh",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": "2026-10-30T12:41:00+09:00",
+                "lastAt": "2026-10-30T14:38:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 13,
+                "firstAt": "2026-10-30T12:41:00+09:00",
+                "lastAt": "2026-10-30T14:40:00+09:00"
+              },
+              "verdict": "appropriate",
+              "reason": "황금미세침·쥬베룩·승모근보톡스·팔 INMODE · 시술조합·예약가능시간: 원문·실제 첨부를 제공자료와 대조한 명시된 응답범위의 판정입니다. 개별 시술적합성·모든 과거대화의 무오류 보장이 아닙니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A28:Z28",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 3개, 병원발신 13개(개인담당자 미확인), 이미지표시 6개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-010",
+              "country": "TW",
+              "consultationAt": "2026-10-30T13:56:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-10-30T13:56:00+09:00",
+                "lastAt": "2026-10-30T13:56:00+09:00"
+              },
+              "verdict": "appropriate",
+              "reason": "포텐자(유입정보) · 예약경로 재확인: 과거 일정제안을 보고 당일 LINE에서 이미 예약했는지 확인하는 병원 답변. 실제 LINE 예약완료는 확인 안 됨. 이 메시지로 전일 이슈 해결이나 신규 누락을 만들지 않음. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A29:Z29",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 0개, 병원발신 1개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-011",
+              "country": "TH",
+              "consultationAt": "2026-10-30T13:54:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-10-30T13:54:00+09:00",
+                "lastAt": "2026-10-30T13:54:00+09:00"
+              },
+              "verdict": "appropriate",
+              "reason": "코어톡스(유입정보) · 예약의향 안내: 과거 가격문의에 이미지 응대가 이미 존재. 당일은 예약 희망시 알려달라는 후속 안내만 검토, 과거 이미지 금액을 검증했다고 하지 않음. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A30:Z30",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 0개, 병원발신 1개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 1개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-012",
+              "country": "DE",
+              "consultationAt": "2026-10-30T12:00:00+09:00",
+              "language": "en",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-10-30T13:39:00+09:00",
+                "lastAt": "2026-10-30T13:39:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": "2026-10-30T12:00:00+09:00",
+                "lastAt": "2026-10-30T13:52:00+09:00"
+              },
+              "verdict": "appropriate",
+              "reason": "포텐자(유입정보) · 예약취소: 고객 취소요청 후 병원 확인답변과 시스템 취소기록이 모두 실제 존재. 고객 요청에 응대했고 일정 변경을 대신 수행하지 않음. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A31:Z31",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 1개, 병원발신 3개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-013",
+              "country": "TH",
+              "consultationAt": "2026-10-30T09:48:00+09:00",
+              "language": "th",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 7,
+                "firstAt": "2026-10-30T09:49:00+09:00",
+                "lastAt": "2026-10-30T12:52:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 14,
+                "firstAt": "2026-10-30T09:48:00+09:00",
+                "lastAt": "2026-10-30T12:55:00+09:00"
+              },
+              "verdict": "needsVerification",
+              "reason": "보톡스·팔자필러·턱밑 지방·윤곽 · 복합시술 가격·예약·도착: 관련 사례의 확인한 응답범위 판정입니다. 공통자료는 원인과 노출 상담 수를 구분합니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다. 기존 확인필요 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A32:Z32",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 7개, 병원발신 14개(개인담당자 미확인), 이미지표시 3개, 링크표시 2개, 삭제표시 0개, 전일문맥 1개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-014",
+              "country": "SG",
+              "consultationAt": "2026-10-30T11:42:00+09:00",
+              "language": "en",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 6,
+                "firstAt": "2026-10-30T11:49:00+09:00",
+                "lastAt": "2026-10-30T12:28:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 8,
+                "firstAt": "2026-10-30T11:42:00+09:00",
+                "lastAt": "2026-10-30T12:30:00+09:00"
+              },
+              "verdict": "appropriate",
+              "reason": "보톡스(정확 제품 미정) · 당일예약: 고객이 요청한 일정과 병원 재확인·시스템 확정 표시가 일치합니다. 인적사항 양식·구체 예약 일정은 공개하지 않습니다. 특정 브랜드·용량·금액 판단은 없으며 국적은 실제 계정 국적 라벨을 사용했습니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A33:Z33",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 6개, 병원발신 8개(개인담당자 미확인), 이미지표시 1개, 링크표시 1개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-015",
+              "country": "CA",
+              "consultationAt": "2026-10-30T12:11:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 4,
+                "firstAt": "2026-10-30T12:11:00+09:00",
+                "lastAt": "2026-10-30T12:25:00+09:00"
+              },
+              "verdict": "confirmedError",
+              "reason": "필러(유입정보) · 프로모션·가격: 관련 사례의 확인한 응답범위 판정입니다. 공통자료는 원인과 노출 상담 수를 구분합니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다. 기존 확정 오류(기존 한정판정) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A34:Z34",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 0개, 병원발신 4개(개인담당자 미확인), 이미지표시 2개, 링크표시 1개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-016",
+              "country": "FI",
+              "consultationAt": "2026-10-30T11:12:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": "2026-10-30T11:12:00+09:00",
+                "lastAt": "2026-10-30T11:19:00+09:00"
+              },
+              "verdict": "appropriate",
+              "reason": "주름보톡스(유입정보) · 시술종류·예약의향: 원하는 보톡스 종류를 묻고 공개 병원 웹페이지를 제공. 금액 안내가 없어 제품단위 가격판정 없음. 단축링크 목적지 오류를 추정하지 않음. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A35:Z35",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 0개, 병원발신 3개(개인담당자 미확인), 이미지표시 1개, 링크표시 2개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-017",
+              "country": "TW",
+              "consultationAt": "2026-10-30T09:52:00+09:00",
+              "language": "zh",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-10-30T10:14:00+09:00",
+                "lastAt": "2026-10-30T10:14:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 4,
+                "firstAt": "2026-10-30T09:52:00+09:00",
+                "lastAt": "2026-10-30T10:15:00+09:00"
+              },
+              "verdict": "sourceConflict",
+              "reason": "사각턱 보톡스 · 가격참고·추가질문: 관련 사례의 확인한 응답범위 판정입니다. 공통자료는 원인과 노출 상담 수를 구분합니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다. 기존 자료충돌 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A36:Z36",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 1개, 병원발신 4개(개인담당자 미확인), 이미지표시 1개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-019",
+              "country": "US",
+              "consultationAt": "2026-10-30T00:40:00+09:00",
+              "language": "en",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 4,
+                "firstAt": "2026-10-30T00:40:00+09:00",
+                "lastAt": "2026-10-30T10:05:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 6,
+                "firstAt": "2026-10-30T00:40:00+09:00",
+                "lastAt": "2026-10-30T10:08:00+09:00"
+              },
+              "verdict": "needsVerification",
+              "reason": "피코슈어·미세침 · 기미·주근깨 치료추천: 관련 사례의 확인한 응답범위 판정입니다. 공통자료는 원인과 노출 상담 수를 구분합니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다. 기존 확인필요 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A37:Z37",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 4개, 병원발신 6개(개인담당자 미확인), 이미지표시 6개, 링크표시 1개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-020",
+              "country": "US",
+              "consultationAt": "2026-10-30T02:45:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-10-30T02:48:00+09:00",
+                "lastAt": "2026-10-30T02:48:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 5,
+                "firstAt": "2026-10-30T02:45:00+09:00",
+                "lastAt": "2026-10-30T10:06:00+09:00"
+              },
+              "verdict": "appropriate",
+              "reason": "사각턱 보톡스(유입정보) · 예약확정: 고객 제안 일정과 시스템 확정·병원 안내가 일치합니다. 표시된 위치·지참 안내는 제공 예약 템플릿과 부합합니다. 특정 제품·금액 안내는 없고 구체 예약 일정은 공개하지 않습니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A38:Z38",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 1개, 병원발신 5개(개인담당자 미확인), 이미지표시 1개, 링크표시 3개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-034",
+              "country": "IT",
+              "consultationAt": "2026-10-30T01:13:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": "2026-10-30T01:13:00+09:00",
+                "lastAt": "2026-10-30T10:04:00+09:00"
+              },
+              "verdict": "appropriate",
+              "reason": "주름 보톡스 · 이벤트·가격자료: 원문·실제 첨부를 제공자료와 대조한 명시된 응답범위의 판정입니다. 개별 시술적합성·모든 과거대화의 무오류 보장이 아닙니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A39:Z39",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 0개, 병원발신 3개(개인담당자 미확인), 이미지표시 2개, 링크표시 1개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-021",
+              "country": "JP",
+              "consultationAt": "2026-10-30T09:59:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-10-30T09:59:00+09:00",
+                "lastAt": "2026-10-30T13:00:00+09:00"
+              },
+              "verdict": "appropriate",
+              "reason": "주름보톡스(유입정보) · 예약당일 안내: 당일 안내 일정이 기존 확정·시스템 표시와 일치합니다. 상담만 1만원 문구는 제공 일본어 예약 템플릿과 부합합니다. 자동일정 시스템과 병원 메시지를 구분했습니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A40:Z40",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 0개, 병원발신 2개(개인담당자 미확인), 이미지표시 0개, 링크표시 2개, 삭제표시 0개, 전일문맥 2개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-022",
+              "country": "JP",
+              "consultationAt": "2026-10-30T09:59:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-10-30T09:59:00+09:00",
+                "lastAt": "2026-10-30T12:00:00+09:00"
+              },
+              "verdict": "appropriate",
+              "reason": "사각턱보톡스(유입정보) · 예약당일 안내: 당일 안내 일정이 기존 확정·시스템 표시와 일치합니다. 과거 대화를 오늘 신규사례로 삼지 않았습니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A41:Z41",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 0개, 병원발신 2개(개인담당자 미확인), 이미지표시 0개, 링크표시 2개, 삭제표시 0개, 전일문맥 3개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-023",
+              "country": "JP",
+              "consultationAt": "2026-10-30T09:58:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-10-30T09:58:00+09:00",
+                "lastAt": "2026-10-30T11:30:00+09:00"
+              },
+              "verdict": "appropriate",
+              "reason": "사각턱보톡스(유입정보) · 예약당일 안내: 당일 안내 일정이 기존 확정·시스템 표시와 일치합니다. 과거 포인트 규정을 오늘 재검증했다는 주장은 하지 않습니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A42:Z42",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 0개, 병원발신 2개(개인담당자 미확인), 이미지표시 0개, 링크표시 2개, 삭제표시 0개, 전일문맥 1개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-024",
+              "country": "TW",
+              "consultationAt": "2026-10-30T02:59:00+09:00",
+              "language": "zh",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-10-30T03:00:00+09:00",
+                "lastAt": "2026-10-30T03:00:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 6,
+                "firstAt": "2026-10-30T02:59:00+09:00",
+                "lastAt": "2026-10-30T09:58:00+09:00"
+              },
+              "verdict": "appropriate",
+              "reason": "주름보톡스(유입정보) · 잘못 클릭·가격참고: 원문·실제 첨부를 제공자료와 대조한 명시된 응답범위의 판정입니다. 개별 시술적합성·모든 과거대화의 무오류 보장이 아닙니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A43:Z43",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 1개, 병원발신 6개(개인담당자 미확인), 이미지표시 2개, 링크표시 1개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-025",
+              "country": "JP",
+              "consultationAt": "2026-10-30T00:44:00+09:00",
+              "language": "ja",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-10-30T00:45:00+09:00",
+                "lastAt": "2026-10-30T00:45:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 4,
+                "firstAt": "2026-10-30T00:44:00+09:00",
+                "lastAt": "2026-10-30T09:58:00+09:00"
+              },
+              "verdict": "appropriate",
+              "reason": "사각턱보톡스(유입정보) · 시술상담·채널가격 안내: 시술 상담 희망에 강남언니 표시가격대로 제공하고 추가문의하라는 병원응대. 구체 부위·용량/금액 비교는 없으며 즉시 치료확정/고정효과 약속도 없음. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A44:Z44",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 1개, 병원발신 4개(개인담당자 미확인), 이미지표시 1개, 링크표시 1개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-026",
+              "country": "TW",
+              "consultationAt": "2026-10-30T00:19:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 6,
+                "firstAt": "2026-10-30T00:19:00+09:00",
+                "lastAt": "2026-10-30T09:54:00+09:00"
+              },
+              "verdict": "appropriate",
+              "reason": "ONDA · 시술대상·가격참고: 원문·실제 첨부를 제공자료와 대조한 명시된 응답범위의 판정입니다. 개별 시술적합성·모든 과거대화의 무오류 보장이 아닙니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A45:Z45",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 0개, 병원발신 6개(개인담당자 미확인), 이미지표시 2개, 링크표시 1개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-036",
+              "country": "TH",
+              "consultationAt": "2026-10-30T09:47:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-10-30T09:47:00+09:00",
+                "lastAt": "2026-10-30T09:47:00+09:00"
+              },
+              "verdict": "appropriate",
+              "reason": "코어톡스 보톡스 · 이벤트·가격자료: 원문·실제 첨부를 제공자료와 대조한 명시된 응답범위의 판정입니다. 개별 시술적합성·모든 과거대화의 무오류 보장이 아닙니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A46:Z46",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 0개, 병원발신 1개(개인담당자 미확인), 이미지표시 1개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "AUTO-046",
+              "country": "ES",
+              "consultationAt": "2026-10-30T15:00:00+09:00",
+              "language": "unknown",
+              "sourceState": "operating-only",
+              "question": {
+                "state": "operating-only",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "operating-only",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "당일 운영성 카드가 실제 표시된 기록입니다. 고객 직접 상담·임상 적정/오류 판정에 합산하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A47:Z47",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "AUTO-047",
+              "country": "TH",
+              "consultationAt": "2026-10-30T13:00:00+09:00",
+              "language": "unknown",
+              "sourceState": "operating-only",
+              "question": {
+                "state": "operating-only",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "operating-only",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "당일 운영성 카드가 실제 표시된 기록입니다. 고객 직접 상담·임상 적정/오류 판정에 합산하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A48:Z48",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 1개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "AUTO-048",
+              "country": "JP",
+              "consultationAt": "2026-10-30T14:30:00+09:00",
+              "language": "unknown",
+              "sourceState": "operating-only",
+              "question": {
+                "state": "operating-only",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "operating-only",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "당일 운영성 카드가 실제 표시된 기록입니다. 고객 직접 상담·임상 적정/오류 판정에 합산하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A49:Z49",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 1개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "AUTO-049",
+              "country": "JP",
+              "consultationAt": "2026-10-30T15:00:00+09:00",
+              "language": "unknown",
+              "sourceState": "operating-only",
+              "question": {
+                "state": "operating-only",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "operating-only",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "당일 운영성 카드가 실제 표시된 기록입니다. 고객 직접 상담·임상 적정/오류 판정에 합산하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A50:Z50",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "AUTO-050",
+              "country": "TH",
+              "consultationAt": "2026-10-30T14:00:00+09:00",
+              "language": "unknown",
+              "sourceState": "operating-only",
+              "question": {
+                "state": "operating-only",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "operating-only",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "당일 운영성 카드가 실제 표시된 기록입니다. 고객 직접 상담·임상 적정/오류 판정에 합산하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A51:Z51",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 1개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "AUTO-051",
+              "country": "MY",
+              "consultationAt": "2026-10-30T08:00:00+09:00",
+              "language": "unknown",
+              "sourceState": "operating-only",
+              "question": {
+                "state": "operating-only",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "operating-only",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "당일 운영성 카드가 실제 표시된 기록입니다. 고객 직접 상담·임상 적정/오류 판정에 합산하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A52:Z52",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "AUTO-052",
+              "country": "AU",
+              "consultationAt": "2026-10-30T09:03:00+09:00",
+              "language": "unknown",
+              "sourceState": "operating-only",
+              "question": {
+                "state": "operating-only",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "operating-only",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "당일 운영성 카드가 실제 표시된 기록입니다. 고객 직접 상담·임상 적정/오류 판정에 합산하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A53:Z53",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 1개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "AUTO-053",
+              "country": "TW",
+              "consultationAt": "2026-10-30T10:30:00+09:00",
+              "language": "unknown",
+              "sourceState": "operating-only",
+              "question": {
+                "state": "operating-only",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "operating-only",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "당일 운영성 카드가 실제 표시된 기록입니다. 고객 직접 상담·임상 적정/오류 판정에 합산하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A54:Z54",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 1개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "AUTO-054",
+              "country": "TW",
+              "consultationAt": "2026-10-30T11:00:00+09:00",
+              "language": "unknown",
+              "sourceState": "operating-only",
+              "question": {
+                "state": "operating-only",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "operating-only",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "당일 운영성 카드가 실제 표시된 기록입니다. 고객 직접 상담·임상 적정/오류 판정에 합산하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A55:Z55",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "AUTO-055",
+              "country": "TW",
+              "consultationAt": "2026-10-30T10:30:00+09:00",
+              "language": "unknown",
+              "sourceState": "operating-only",
+              "question": {
+                "state": "operating-only",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "operating-only",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "당일 운영성 카드가 실제 표시된 기록입니다. 고객 직접 상담·임상 적정/오류 판정에 합산하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A56:Z56",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 1개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "AUTO-056",
+              "country": "TW",
+              "consultationAt": "2026-10-30T08:30:00+09:00",
+              "language": "unknown",
+              "sourceState": "operating-only",
+              "question": {
+                "state": "operating-only",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "operating-only",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "당일 운영성 카드가 실제 표시된 기록입니다. 고객 직접 상담·임상 적정/오류 판정에 합산하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A57:Z57",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "G-20261030-018",
+              "country": "TH",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "appropriate",
+              "reason": "확인되지 않음 · 예약전일 확인: 과거 예약확인과 당일 재안내 일정이 일치합니다. 시술종류는 확인되지 않았습니다. 이 방의 이전 전체 가격·진료를 승인하는 것이 아닙니다. 기존 승인 판정의 명시된 좁은 범위만 유지하며 전체 의료상담 완료 판정이 아닙니다. 현재는 고객최종발화 보호로 재열람하지 않았고 과거30일 저장자료만 유지합니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A58:Z58",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
             }
           ]
         },
@@ -3057,7 +4350,7 @@ window.SUPERVISION_DATA = {
     },
     "kakao-clinic": {
       "name": "카카오톡(병원계정)",
-      "updatedAt": "2026-10-31T07:02:31.723Z",
+      "updatedAt": "2026-11-01T23:52:08.038Z",
       "days": [
         {
           "platform": "kakao-clinic",
@@ -3107,7 +4400,7 @@ window.SUPERVISION_DATA = {
               "count": 1
             }
           ],
-          "casesComplete": true,
+          "casesComplete": false,
           "casesScope": "reviewed-rooms",
           "casesUpdatedAt": "2026-10-30T23:42:14.945Z",
           "cases": [
@@ -3118,39 +4411,12 @@ window.SUPERVISION_DATA = {
               "title": "레스틸렌 턱필러의 동일 채널 적용근거 확인",
               "procedure": "레스틸렌 턱필러",
               "questionCategory": "가격·VAT·채널",
-              "customerMessages": [
-                {
-                  "kind": "text",
-                  "original": "안녕하세요~ 턱필러 레스틸렌 가격 얼마인가요?",
-                  "ko": "안녕하세요~ 턱필러 레스틸렌 가격 얼마인가요?"
-                },
-                {
-                  "kind": "text",
-                  "original": "Vat별도인가요??",
-                  "ko": "Vat별도인가요??"
-                }
-              ],
-              "staffMessages": [
-                {
-                  "kind": "text",
-                  "original": "안녕하세요, 뷰티블라썸의원입니다 😊\r\r고객님, 문의하신 **레스틸렌 턱필러 가격** 안내드립니다! 💕\r\r🌸 **레스틸렌 턱필러 (수입 필러)**\r\r* 1cc : **360,000원**\r\r필요한 용량은 고객님의 턱 모양과 원하시는 디자인에 따라 달라질 수 있으며, 내원 후 상담을 통해 자세히 안내받으실 수 있습니다. 😊\r\r추가로 궁금하신 사항이나 예약을 희망하시면 편하게 말씀해 주세요!\r\r감사합니다!🌸",
-                  "ko": "안녕하세요, 뷰티블라썸의원입니다 😊\r\r고객님, 문의하신 **레스틸렌 턱필러 가격** 안내드립니다! 💕\r\r🌸 **레스틸렌 턱필러 (수입 필러)**\r\r* 1cc : **360,000원**\r\r필요한 용량은 고객님의 턱 모양과 원하시는 디자인에 따라 달라질 수 있으며, 내원 후 상담을 통해 자세히 안내받으실 수 있습니다. 😊\r\r추가로 궁금하신 사항이나 예약을 희망하시면 편하게 말씀해 주세요!\r\r감사합니다!🌸"
-                },
-                {
-                  "kind": "text",
-                  "original": "안녕하세요, 뷰티블라썸의원입니다 😊\r\r네, 고객님! 안내드린 **레스틸렌 턱필러 1cc 360,000원은 부가세(VAT)가 포함된 금액**입니다. 💕\r\r감사합니다!🌸",
-                  "ko": "안녕하세요, 뷰티블라썸의원입니다 😊\r\r네, 고객님! 안내드린 **레스틸렌 턱필러 1cc 360,000원은 부가세(VAT)가 포함된 금액**입니다. 💕\r\r감사합니다!🌸"
-                }
-              ],
+              "structuralReason": "턱1cc360,000원VAT포함이라는 답변을 실제 읽었습니다. 같은 브랜드·부위·카카오 적용조건의 제공근거가 부족하여 확인필요입니다. 제공표와 실제 응답을 비교하되 다른 채널의 일반수입옵션·다른부위 가격을 강제로 같게 보지 않았습니다.",
               "rationale": "턱1cc360,000원VAT포함이라는 답변을 실제 읽었습니다. 같은 브랜드·부위·카카오 적용조건의 제공근거가 부족하여 확인필요입니다.",
               "evidence": "제공표와 실제 응답을 비교하되 다른 채널의 일반수입옵션·다른부위 가격을 강제로 같게 보지 않았습니다.",
               "limit": "직원 확정 가격오류·가정 할인·개별 필요용량은 확정하지 않습니다. 이름·연락처·예약신청은 이 가격사례와 무관하여 공개하지 않습니다.",
-              "quoteScopeNote": "가격·VAT 질문과 답변의 관련 메시지 단위 전체입니다. 한국어 원문은 그대로 한국어 본문으로 함께 표시하며 무관한 신상·예약대화는 제외합니다.",
-              "quoteFormat": "full-messages-v1",
-              "customerText": "안녕하세요~ 턱필러 레스틸렌 가격 얼마인가요?\n\nVat별도인가요??",
-              "customerKo": "안녕하세요~ 턱필러 레스틸렌 가격 얼마인가요?\n\nVat별도인가요??",
-              "staffText": "안녕하세요, 뷰티블라썸의원입니다 😊\r\r고객님, 문의하신 **레스틸렌 턱필러 가격** 안내드립니다! 💕\r\r🌸 **레스틸렌 턱필러 (수입 필러)**\r\r* 1cc : **360,000원**\r\r필요한 용량은 고객님의 턱 모양과 원하시는 디자인에 따라 달라질 수 있으며, 내원 후 상담을 통해 자세히 안내받으실 수 있습니다. 😊\r\r추가로 궁금하신 사항이나 예약을 희망하시면 편하게 말씀해 주세요!\r\r감사합니다!🌸\n\n안녕하세요, 뷰티블라썸의원입니다 😊\r\r네, 고객님! 안내드린 **레스틸렌 턱필러 1cc 360,000원은 부가세(VAT)가 포함된 금액**입니다. 💕\r\r감사합니다!🌸",
-              "staffKo": "안녕하세요, 뷰티블라썸의원입니다 😊\r\r고객님, 문의하신 **레스틸렌 턱필러 가격** 안내드립니다! 💕\r\r🌸 **레스틸렌 턱필러 (수입 필러)**\r\r* 1cc : **360,000원**\r\r필요한 용량은 고객님의 턱 모양과 원하시는 디자인에 따라 달라질 수 있으며, 내원 후 상담을 통해 자세히 안내받으실 수 있습니다. 😊\r\r추가로 궁금하신 사항이나 예약을 희망하시면 편하게 말씀해 주세요!\r\r감사합니다!🌸\n\n안녕하세요, 뷰티블라썸의원입니다 😊\r\r네, 고객님! 안내드린 **레스틸렌 턱필러 1cc 360,000원은 부가세(VAT)가 포함된 금액**입니다. 💕\r\r감사합니다!🌸"
+              "quoteDisclosure": "restricted",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A124:Z124"
             }
           ],
           "reviewEntries": [
@@ -3247,65 +4513,8 @@ window.SUPERVISION_DATA = {
               "note": "가시 예약/변경/취소 응답의 문맥 범위만 적정입니다. 실제 CRM등록·시술실행·개별 의료적합성은 검증하지 않았습니다. 카드문자만 확인하고 버튼·목적지·연결이미지는 열지 않았습니다."
             }
           ],
-          "conversations": [
-            {
-              "id": "kakao-20261030-review-001",
-              "country": "ZZ",
-              "procedure": "세르프(XERF)",
-              "questionCategory": "가격·부가세",
-              "verdict": "appropriate",
-              "messages": [
-                {
-                  "speaker": "customer",
-                  "kind": "text",
-                  "original": "세르프 가격 좀 알려주세요",
-                  "ko": "세르프 가격 좀 알려주세요"
-                },
-                {
-                  "speaker": "staff",
-                  "kind": "text",
-                  "original": "안녕하세요, 뷰티블라썸의원입니다 😊\r\r고객님, 세르프 리프팅 시술 가격 안내드립니다! 💕\r\r🌸 **세르프(XERF) 리프팅**\r\r* 300샷 : **1,199,000원**\r* 600샷 : **2,079,000원**\r* 900샷 : **2,849,000원**\r\r위 금액은 모두 **부가세(VAT)가 포함된 금액**입니다.\r\r추가로 궁금하신 사항이나 예약을 희망하시면 편하게 말씀해 주세요! 😊\r\r감사합니다!🌸",
-                  "ko": "안녕하세요, 뷰티블라썸의원입니다 😊\r\r고객님, 세르프 리프팅 시술 가격 안내드립니다! 💕\r\r🌸 **세르프(XERF) 리프팅**\r\r* 300샷 : **1,199,000원**\r* 600샷 : **2,079,000원**\r* 900샷 : **2,849,000원**\r\r위 금액은 모두 **부가세(VAT)가 포함된 금액**입니다.\r\r추가로 궁금하신 사항이나 예약을 희망하시면 편하게 말씀해 주세요! 😊\r\r감사합니다!🌸"
-                }
-              ],
-              "rationale": "300·600·900샷의VAT포함금액은 제공 일반리프팅 원본과 일치합니다. 주장하지 않은 모든 부가혜택의 이행까지 통과조건으로 추가하지 않았습니다."
-            },
-            {
-              "id": "kakao-20261030-review-003",
-              "country": "ZZ",
-              "procedure": "레스틸렌 턱필러",
-              "questionCategory": "가격·용량·부가세",
-              "verdict": "needsVerification",
-              "messages": [
-                {
-                  "speaker": "customer",
-                  "kind": "text",
-                  "original": "안녕하세요~ 턱필러 레스틸렌 가격 얼마인가요?",
-                  "ko": "안녕하세요~ 턱필러 레스틸렌 가격 얼마인가요?"
-                },
-                {
-                  "speaker": "staff",
-                  "kind": "text",
-                  "original": "안녕하세요, 뷰티블라썸의원입니다 😊\r\r고객님, 문의하신 **레스틸렌 턱필러 가격** 안내드립니다! 💕\r\r🌸 **레스틸렌 턱필러 (수입 필러)**\r\r* 1cc : **360,000원**\r\r필요한 용량은 고객님의 턱 모양과 원하시는 디자인에 따라 달라질 수 있으며, 내원 후 상담을 통해 자세히 안내받으실 수 있습니다. 😊\r\r추가로 궁금하신 사항이나 예약을 희망하시면 편하게 말씀해 주세요!\r\r감사합니다!🌸",
-                  "ko": "안녕하세요, 뷰티블라썸의원입니다 😊\r\r고객님, 문의하신 **레스틸렌 턱필러 가격** 안내드립니다! 💕\r\r🌸 **레스틸렌 턱필러 (수입 필러)**\r\r* 1cc : **360,000원**\r\r필요한 용량은 고객님의 턱 모양과 원하시는 디자인에 따라 달라질 수 있으며, 내원 후 상담을 통해 자세히 안내받으실 수 있습니다. 😊\r\r추가로 궁금하신 사항이나 예약을 희망하시면 편하게 말씀해 주세요!\r\r감사합니다!🌸"
-                },
-                {
-                  "speaker": "customer",
-                  "kind": "text",
-                  "original": "Vat별도인가요??",
-                  "ko": "Vat별도인가요??"
-                },
-                {
-                  "speaker": "staff",
-                  "kind": "text",
-                  "original": "안녕하세요, 뷰티블라썸의원입니다 😊\r\r네, 고객님! 안내드린 **레스틸렌 턱필러 1cc 360,000원은 부가세(VAT)가 포함된 금액**입니다. 💕\r\r감사합니다!🌸",
-                  "ko": "안녕하세요, 뷰티블라썸의원입니다 😊\r\r네, 고객님! 안내드린 **레스틸렌 턱필러 1cc 360,000원은 부가세(VAT)가 포함된 금액**입니다. 💕\r\r감사합니다!🌸"
-                }
-              ],
-              "rationale": "턱1cc360,000원VAT포함이라는 답변을 실제 읽었습니다. 같은 브랜드·부위·카카오 적용조건의 제공근거가 부족하여 확인필요입니다."
-            }
-          ],
-          "reviewScope": "저장된30일11방 중 환자9방만 분모로 삼았습니다(제한범위 적정6·확인필요3: 동일조건 가격1+야간부분범위2). 야간2는 실질 상담·가격/예약확정 검수완료가 아닙니다. 기업제안1방과 목적불명1방은 환자에서 제외합니다. 전체49 UI단위와 환자39 UI단위(문자34+카드5)는 의료메시지수/사람답변수와 다릅니다. 환자9방의 카드5개·전체11방의 카드6개는 표시문자만 읽었으며 버튼·목적지·연결이미지는 열지 않았습니다. 카드 미열람 총수는 미확인입니다. 삭제원문1개 미열람, 보호44방(30일확실34·가능10)은 국적 미검사로 국적미확인9에 합산하지 않습니다. 검토9방의 실제국적은 본문에 없어 미확인이며 이름·언어로 추정하지 않았습니다. casesComplete는 해석한 가시문자 부분집합과 기존 가격사례만 의미하며 전체카드·삭제·전일전수 완료가 아닙니다. 전체partial입니다.",
+          "conversations": [],
+          "reviewScope": "검수내역71행: 알려진당일44방(본문9방·미열람35방)과 날짜포함미확인27방. 현재 대조시점과 과거 보관자료를 행별로 구분합니다. 11월2일 안전한9방을 실제 재열람했고 메시지41개·삭제표시1개가 이전캡처와 정확히 일치했습니다. 사람답변41개나 전체분모가 아닙니다. 이전 판정범위: 저장된30일11방 중 환자9방만 분모로 삼았습니다(제한범위 적정6·확인필요3: 동일조건 가격1+야간부분범위2). 야간2는 실질 상담·가격/예약확정 검수완료가 아닙니다. 기업제안1방과 목적불명1방은 환자에서 제외합니다. 전체49 UI단위와 환자39 UI단위(문자34+카드5)는 의료메시지수/사람답변수와 다릅니다. 환자9방의 카드5개·전체11방의 카드6개는 표시문자만 읽었으며 버튼·목적지·연결이미지는 열지 않았습니다. 카드 미열람 총수는 미확인입니다. 삭제원문1개 미열람, 보호44방(30일확실34·가능10)은 국적 미검사로 국적미확인9에 합산하지 않습니다. 검토9방의 실제국적은 본문에 없어 미확인이며 이름·언어로 추정하지 않았습니다. casesComplete는 해석한 가시문자 부분집합과 기존 가격사례만 의미하며 전체카드·삭제·전일전수 완료가 아닙니다. 전체partial입니다.",
           "coverage": {
             "candidateRooms": 56,
             "reviewedRooms": 9,
@@ -3316,14 +4525,15 @@ window.SUPERVISION_DATA = {
             "excludedOutsideDate": 1,
             "uninspectedAttachments": null,
             "notes": [
-              "저장된30일11방 중 환자9방만 분모로 삼았습니다(제한범위 적정6·확인필요3: 동일조건 가격1+야간부분범위2). 야간2는 실질 상담·가격/예약확정 검수완료가 아닙니다. 기업제안1방과 목적불명1방은 환자에서 제외합니다. 전체49 UI단위와 환자39 UI단위(문자34+카드5)는 의료메시지수/사람답변수와 다릅니다. 환자9방의 카드5개·전체11방의 카드6개는 표시문자만 읽었으며 버튼·목적지·연결이미지는 열지 않았습니다. 카드 미열람 총수는 미확인입니다. 삭제원문1개 미열람, 보호44방(30일확실34·가능10)은 국적 미검사로 국적미확인9에 합산하지 않습니다. 검토9방의 실제국적은 본문에 없어 미확인이며 이름·언어로 추정하지 않았습니다. casesComplete는 해석한 가시문자 부분집합과 기존 가격사례만 의미하며 전체카드·삭제·전일전수 완료가 아닙니다. 전체partial입니다.",
-              "후보56방은 실제 관찰 목록입니다. 보호44방과 30일 본문 없는1방을 구분합니다. 30일 기업제안1방·목적불명1방은 환자9방 분모에서 제외합니다.",
-              "9행 모두 제한범위 실제문자 검토를 기록하되 임상설명 완료9로 해석하지 않습니다. 환자9행 중6행은 제한범위 적정이고3행은 확인필요이며, 이 중 야간2행의 실질 가격·예약상담은 검토완료로 보지 않습니다.",
-              "보존목록16656방의메타데이터끝확인과전체대화본문전수검수는다릅니다. 현재10방열람,30일본문9방(환자8+기업1),본문41UI단위입니다.",
-              "최근후보72방중보호62방은열지않았습니다. 목록30일42방중35방미열람,31일최신보호27방의30일포함여부미확인입니다. 후보창상한72와전체분모를혼동하지않습니다.",
-              "기존환자판정9방(적정6/확인필요3)은보존하고현재재열람환자8방의한정판정(적정5/확인필요3)과구분합니다. 기업제안1방은별도이고새임상판정을생성하지않았습니다.",
-              "단일문자검색검증1건은검색을지운안전목록선택으로해소했습니다. 본문배열불일치1건은비교기의배열누락처리문제로수정후현재8메시지의본문·시각·화자일치를확인했습니다. 사이트차단/직원오류가아닙니다.",
-              "링크·연결이미지의실제목적지와전체첨부수는미검수입니다. 전체분모null·partial을유지합니다."
+              "검수내역71행: 알려진당일44방(본문9방·미열람35방)과 날짜포함미확인27방. 현재 대조시점과 과거 보관자료를 행별로 구분합니다. 11월2일 안전한9방을 실제 재열람했고 메시지41개·삭제표시1개가 이전캡처와 정확히 일치했습니다. 사람답변41개나 전체분모가 아닙니다.",
+              "이전 10월31일 집계 기록: 저장된30일11방 중 환자9방만 분모로 삼았습니다(제한범위 적정6·확인필요3: 동일조건 가격1+야간부분범위2). 야간2는 실질 상담·가격/예약확정 검수완료가 아닙니다. 기업제안1방과 목적불명1방은 환자에서 제외합니다. 전체49 UI단위와 환자39 UI단위(문자34+카드5)는 의료메시지수/사람답변수와 다릅니다. 환자9방의 카드5개·전체11방의 카드6개는 표시문자만 읽었으며 버튼·목적지·연결이미지는 열지 않았습니다. 카드 미열람 총수는 미확인입니다. 삭제원문1개 미열람, 보호44방(30일확실34·가능10)은 국적 미검사로 국적미확인9에 합산하지 않습니다. 검토9방의 실제국적은 본문에 없어 미확인이며 이름·언어로 추정하지 않았습니다. casesComplete는 해석한 가시문자 부분집합과 기존 가격사례만 의미하며 전체카드·삭제·전일전수 완료가 아닙니다. 전체partial입니다.",
+              "이전 10월31일 집계 기록: 후보56방은 실제 관찰 목록입니다. 보호44방과 30일 본문 없는1방을 구분합니다. 30일 기업제안1방·목적불명1방은 환자9방 분모에서 제외합니다.",
+              "이전 10월31일 집계 기록: 9행 모두 제한범위 실제문자 검토를 기록하되 임상설명 완료9로 해석하지 않습니다. 환자9행 중6행은 제한범위 적정이고3행은 확인필요이며, 이 중 야간2행의 실질 가격·예약상담은 검토완료로 보지 않습니다.",
+              "이전 10월31일 집계 기록: 보존목록16656방의메타데이터끝확인과전체대화본문전수검수는다릅니다. 당시10방열람,30일본문9방(환자8+기업1),본문41UI단위입니다.",
+              "이전 10월31일 집계 기록: 최근후보72방중보호62방은열지않았습니다. 목록30일42방중35방미열람,31일최신보호27방의30일포함여부미확인입니다. 후보창상한72와전체분모를혼동하지않습니다.",
+              "이전 10월31일 집계 기록: 기존환자판정9방(적정6/확인필요3)은보존하고당시재열람환자8방의한정판정(적정5/확인필요3)과구분합니다. 기업제안1방은별도이고새임상판정을생성하지않았습니다.",
+              "이전 10월31일 집계 기록: 단일문자검색검증1건은검색을지운안전목록선택으로해소했습니다. 본문배열불일치1건은비교기의배열누락처리문제로수정후당시8메시지의본문·시각·화자일치를확인했습니다. 사이트차단/직원오류가아닙니다.",
+              "이전 10월31일 집계 기록: 링크·연결이미지의실제목적지와전체첨부수는미검수입니다. 전체분모null·partial을유지합니다."
             ]
           },
           "followUps": [],
@@ -3368,8 +4578,8 @@ window.SUPERVISION_DATA = {
               }
             ],
             "notes": [
-              "저장된30일11방 중 환자9방만 분모로 삼았습니다(제한범위 적정6·확인필요3: 동일조건 가격1+야간부분범위2). 야간2는 실질 상담·가격/예약확정 검수완료가 아닙니다. 기업제안1방과 목적불명1방은 환자에서 제외합니다. 전체49 UI단위와 환자39 UI단위(문자34+카드5)는 의료메시지수/사람답변수와 다릅니다. 환자9방의 카드5개·전체11방의 카드6개는 표시문자만 읽었으며 버튼·목적지·연결이미지는 열지 않았습니다. 카드 미열람 총수는 미확인입니다. 삭제원문1개 미열람, 보호44방(30일확실34·가능10)은 국적 미검사로 국적미확인9에 합산하지 않습니다. 검토9방의 실제국적은 본문에 없어 미확인이며 이름·언어로 추정하지 않았습니다. casesComplete는 해석한 가시문자 부분집합과 기존 가격사례만 의미하며 전체카드·삭제·전일전수 완료가 아닙니다. 전체partial입니다.",
-              "카드 미열람 수는 미확인이므로 null로 유지하며 0으로 집계하지 않습니다."
+              "10월31일 보존집계: 저장된30일11방 중 환자9방만 분모로 삼았습니다(제한범위 적정6·확인필요3: 동일조건 가격1+야간부분범위2). 야간2는 실질 상담·가격/예약확정 검수완료가 아닙니다. 기업제안1방과 목적불명1방은 환자에서 제외합니다. 전체49 UI단위와 환자39 UI단위(문자34+카드5)는 의료메시지수/사람답변수와 다릅니다. 환자9방의 카드5개·전체11방의 카드6개는 표시문자만 읽었으며 버튼·목적지·연결이미지는 열지 않았습니다. 카드 미열람 총수는 미확인입니다. 삭제원문1개 미열람, 보호44방(30일확실34·가능10)은 국적 미검사로 국적미확인9에 합산하지 않습니다. 검토9방의 실제국적은 본문에 없어 미확인이며 이름·언어로 추정하지 않았습니다. casesComplete는 해석한 가시문자 부분집합과 기존 가격사례만 의미하며 전체카드·삭제·전일전수 완료가 아닙니다. 전체partial입니다.",
+              "10월31일 보존집계: 카드 미열람 수는 미확인이므로 null로 유지하며 0으로 집계하지 않습니다."
             ]
           },
           "inquiryLanguageCoverage": {
@@ -3490,6 +4700,1785 @@ window.SUPERVISION_DATA = {
               "count": 1,
               "scope": "30일 한국어 고객문장·7UI단위 실제열람",
               "assessment": "환자 임상상담/적정·오류 집계에 합산하지 않음"
+            }
+          ],
+          "qaAuditPrivacy": "restricted-originals",
+          "qaAuditCheckedAt": "2026-11-01T23:44:43.821Z",
+          "qaAuditRecords": [
+            {
+              "id": "K-CAND-001",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A59:Z59",
+              "scopeNote": "10월30일 포함 여부 미확인인 목록 후보 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown"
+            },
+            {
+              "id": "K-CAND-002",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A60:Z60",
+              "scopeNote": "10월30일 포함 여부 미확인인 목록 후보 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown"
+            },
+            {
+              "id": "K-CAND-003",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A61:Z61",
+              "scopeNote": "10월30일 포함 여부 미확인인 목록 후보 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown"
+            },
+            {
+              "id": "K-CAND-004",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A62:Z62",
+              "scopeNote": "10월30일 포함 여부 미확인인 목록 후보 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown"
+            },
+            {
+              "id": "K-CAND-005",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A63:Z63",
+              "scopeNote": "10월30일 포함 여부 미확인인 목록 후보 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown"
+            },
+            {
+              "id": "K-CAND-006",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A64:Z64",
+              "scopeNote": "10월30일 포함 여부 미확인인 목록 후보 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown"
+            },
+            {
+              "id": "K-CAND-007",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A65:Z65",
+              "scopeNote": "10월30일 포함 여부 미확인인 목록 후보 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown"
+            },
+            {
+              "id": "K-CAND-008",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A66:Z66",
+              "scopeNote": "10월30일 포함 여부 미확인인 목록 후보 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown"
+            },
+            {
+              "id": "K-CAND-009",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A67:Z67",
+              "scopeNote": "10월30일 포함 여부 미확인인 목록 후보 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown"
+            },
+            {
+              "id": "K-CAND-010",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A68:Z68",
+              "scopeNote": "10월30일 포함 여부 미확인인 목록 후보 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown"
+            },
+            {
+              "id": "K-CAND-011",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A69:Z69",
+              "scopeNote": "10월30일 포함 여부 미확인인 목록 후보 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown"
+            },
+            {
+              "id": "K-CAND-012",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A70:Z70",
+              "scopeNote": "10월30일 포함 여부 미확인인 목록 후보 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown"
+            },
+            {
+              "id": "K-CAND-013",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A71:Z71",
+              "scopeNote": "10월30일 포함 여부 미확인인 목록 후보 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown"
+            },
+            {
+              "id": "K-CAND-014",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A72:Z72",
+              "scopeNote": "10월30일 포함 여부 미확인인 목록 후보 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown"
+            },
+            {
+              "id": "K-CAND-015",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A73:Z73",
+              "scopeNote": "10월30일 포함 여부 미확인인 목록 후보 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown"
+            },
+            {
+              "id": "K-CAND-016",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A74:Z74",
+              "scopeNote": "10월30일 포함 여부 미확인인 목록 후보 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown"
+            },
+            {
+              "id": "K-CAND-017",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A75:Z75",
+              "scopeNote": "10월30일 포함 여부 미확인인 목록 후보 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown"
+            },
+            {
+              "id": "K-CAND-018",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A76:Z76",
+              "scopeNote": "10월30일 포함 여부 미확인인 목록 후보 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown"
+            },
+            {
+              "id": "K-CAND-019",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A77:Z77",
+              "scopeNote": "10월30일 포함 여부 미확인인 목록 후보 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown"
+            },
+            {
+              "id": "K-CAND-020",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A78:Z78",
+              "scopeNote": "10월30일 포함 여부 미확인인 목록 후보 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown"
+            },
+            {
+              "id": "K-CAND-021",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A79:Z79",
+              "scopeNote": "10월30일 포함 여부 미확인인 목록 후보 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown"
+            },
+            {
+              "id": "K-CAND-022",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A80:Z80",
+              "scopeNote": "10월30일 포함 여부 미확인인 목록 후보 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown"
+            },
+            {
+              "id": "K-CAND-023",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A81:Z81",
+              "scopeNote": "10월30일 포함 여부 미확인인 목록 후보 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown"
+            },
+            {
+              "id": "K-CAND-024",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A82:Z82",
+              "scopeNote": "10월30일 포함 여부 미확인인 목록 후보 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown"
+            },
+            {
+              "id": "K-CAND-025",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A83:Z83",
+              "scopeNote": "10월30일 포함 여부 미확인인 목록 후보 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown"
+            },
+            {
+              "id": "K-CAND-027",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A84:Z84",
+              "scopeNote": "10월30일 포함 여부 미확인인 목록 후보 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown"
+            },
+            {
+              "id": "K-CAND-028",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A85:Z85",
+              "scopeNote": "10월30일 포함 여부 미확인인 목록 후보 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown"
+            },
+            {
+              "id": "kakao-20261030-review-005",
+              "country": null,
+              "consultationAt": "2026-10-30T23:59:00+09:00",
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-10-30T23:59:00+09:00",
+                "lastAt": "2026-10-30T23:59:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-10-30T23:59:00+09:00",
+                "lastAt": "2026-10-30T23:59:00+09:00"
+              },
+              "verdict": "needsVerification",
+              "reason": "세르프XERF · 가격문의/야간접수: 야간 가격문의와 자동접수만 확인했습니다. 가격설명은 미완료 검토이며 확인필요·부분범위입니다. 다음날 이미지를30일 답변으로 승격하거나 답변누락으로 단정하지 않습니다. 카드문자만 확인하고 버튼·목적지·연결이미지는 열지 않았습니다. 기존 확인필요 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A86:Z86",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 1개, 병원발신 2개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "kakao-20261030-review-006",
+              "country": null,
+              "consultationAt": "2026-10-30T21:49:00+09:00",
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-10-30T21:49:00+09:00",
+                "lastAt": "2026-10-30T21:51:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": "2026-10-30T21:49:00+09:00",
+                "lastAt": "2026-10-30T21:51:00+09:00"
+              },
+              "verdict": "needsVerification",
+              "reason": "보톡스 · 예약접수/야간자동응답: 야간 예약요청·접수폼·운영카드 문자만 확인했습니다. 실제예약확정·실질 의료상담은 검수완료가 아니며 확인필요·부분범위입니다. 카드문자만 확인하고 버튼·목적지·연결이미지는 열지 않았습니다. 기존 확인필요 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A87:Z87",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 2개, 병원발신 3개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "K-CAND-031",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A88:Z88",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "K-CAND-032",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A89:Z89",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "K-CAND-033",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A90:Z90",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "K-CAND-034",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A91:Z91",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "K-CAND-035",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A92:Z92",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "K-CAND-036",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A93:Z93",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "K-CAND-037",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A94:Z94",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "K-CAND-038",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A95:Z95",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "K-CAND-039",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A96:Z96",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "kakao-20261030-review-007",
+              "country": null,
+              "consultationAt": "2026-10-30T17:11:00+09:00",
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-10-30T17:11:00+09:00",
+                "lastAt": "2026-10-30T17:37:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-10-30T17:21:00+09:00",
+                "lastAt": "2026-10-30T17:48:00+09:00"
+              },
+              "verdict": "appropriate",
+              "reason": "색소관리 · 기결제시술예약: 가시 예약/변경/취소 응답의 문맥 범위만 적정입니다. 실제 CRM등록·시술실행·개별 의료적합성은 검증하지 않았습니다. 카드문자만 확인하고 버튼·목적지·연결이미지는 열지 않았습니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A97:Z97",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 2개, 병원발신 2개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "K-CAND-041",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A98:Z98",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "K-CAND-042",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A99:Z99",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "kakao-20261030-review-008",
+              "country": null,
+              "consultationAt": "2026-10-30T17:29:00+09:00",
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-10-30T17:29:00+09:00",
+                "lastAt": "2026-10-30T17:34:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-10-30T17:34:00+09:00",
+                "lastAt": "2026-10-30T17:34:00+09:00"
+              },
+              "verdict": "appropriate",
+              "reason": "타투제거예약 · 예약가능일시/확정: 가시 예약/변경/취소 응답의 문맥 범위만 적정입니다. 실제 CRM등록·시술실행·개별 의료적합성은 검증하지 않았습니다. 카드문자만 확인하고 버튼·목적지·연결이미지는 열지 않았습니다. 삭제원문1개는 미열람이며 복원하지 않았습니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A100:Z100",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 2개, 병원발신 2개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 1개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "K-CAND-044",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A101:Z101",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "K-CAND-045",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A102:Z102",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "K-CAND-046",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A103:Z103",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "kakao-20261030-review-001",
+              "country": null,
+              "consultationAt": "2026-10-30T16:09:00+09:00",
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-10-30T16:09:00+09:00",
+                "lastAt": "2026-10-30T16:09:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-10-30T16:19:00+09:00",
+                "lastAt": "2026-10-30T16:19:00+09:00"
+              },
+              "verdict": "appropriate",
+              "reason": "세르프XERF300/600/900샷 · 가격/VAT: 300·600·900샷의VAT포함금액은 제공 일반리프팅 원본과 일치합니다. 주장하지 않은 모든 부가혜택의 이행까지 통과조건으로 추가하지 않았습니다. 카드문자만 확인하고 버튼·목적지·연결이미지는 열지 않았습니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A104:Z104",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 1개, 병원발신 1개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "K-CAND-048",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A105:Z105",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "K-CAND-049",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A106:Z106",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "K-CAND-050",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A107:Z107",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "K-CAND-051",
+              "country": null,
+              "consultationAt": "2026-10-30T15:02:00+09:00",
+              "language": "ko",
+              "sourceState": "operating-only",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": "2026-10-30T15:02:00+09:00",
+                "lastAt": "2026-10-30T15:15:00+09:00"
+              },
+              "answer": {
+                "state": "operating-only",
+                "messageCount": 4,
+                "firstAt": "2026-10-30T15:02:00+09:00",
+                "lastAt": "2026-10-30T15:17:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "실제 기업제안·서비스 안내 대화입니다. 환자 상담 및 임상 판정에 합산하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A108:Z108",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 3개, 병원발신 4개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "enterprise",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "K-CAND-052",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A109:Z109",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "K-CAND-053",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A110:Z110",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "K-CAND-054",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A111:Z111",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "K-CAND-055",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A112:Z112",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "K-CAND-056",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A113:Z113",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "K-CAND-057",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A114:Z114",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "K-CAND-058",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A115:Z115",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "K-CAND-059",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A116:Z116",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "K-CAND-060",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A117:Z117",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "K-CAND-061",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A118:Z118",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "kakao-20261030-review-009",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "appropriate",
+              "reason": "기존예약시간변경(시술종류30일확인불가) · 예약변경·이벤트봇: 가시 예약/변경/취소 응답의 문맥 범위만 적정입니다. 실제 CRM등록·시술실행·개별 의료적합성은 검증하지 않았습니다. 카드문자만 확인하고 버튼·목적지·연결이미지는 열지 않았습니다. 숨은 후속봇 이력의 읽음 안전 미확인으로 향후 재열람은 보류합니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A119:Z119",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "K-CAND-063",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A120:Z120",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "K-CAND-064",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A121:Z121",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "K-CAND-065",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A122:Z122",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "K-CAND-066",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A123:Z123",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "kakao-20261030-review-003",
+              "country": null,
+              "consultationAt": "2026-10-30T10:07:00+09:00",
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 4,
+                "firstAt": "2026-10-30T10:07:00+09:00",
+                "lastAt": "2026-10-30T11:16:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 4,
+                "firstAt": "2026-10-30T10:07:00+09:00",
+                "lastAt": "2026-10-30T11:21:00+09:00"
+              },
+              "verdict": "needsVerification",
+              "reason": "레스틸렌 턱필러1cc · 가격/VAT: 턱1cc360,000원VAT포함이라는 답변을 실제 읽었습니다. 같은 브랜드·부위·카카오 적용조건의 제공근거가 부족하여 확인필요입니다. 카드문자만 확인하고 버튼·목적지·연결이미지는 열지 않았습니다. 기존 확인필요 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A124:Z124",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 4개, 병원발신 4개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "K-CAND-068",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A125:Z125",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "K-CAND-069",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A126:Z126",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "K-CAND-070",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A127:Z127",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "kakao-20261030-review-010",
+              "country": null,
+              "consultationAt": "2026-10-30T09:56:00+09:00",
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-10-30T09:56:00+09:00",
+                "lastAt": "2026-10-30T09:56:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": "2026-10-30T09:56:00+09:00",
+                "lastAt": "2026-10-30T09:57:00+09:00"
+              },
+              "verdict": "appropriate",
+              "reason": "기존예약취소(시술종류30일미확인) · 고객사정취소: 가시 예약/변경/취소 응답의 문맥 범위만 적정입니다. 실제 CRM등록·시술실행·개별 의료적합성은 검증하지 않았습니다. 카드문자만 확인하고 버튼·목적지·연결이미지는 열지 않았습니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A128:Z128",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 1개, 병원발신 3개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
+            },
+            {
+              "id": "kakao-20261030-review-004",
+              "country": null,
+              "consultationAt": "2026-10-30T02:49:00+09:00",
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-10-30T02:49:00+09:00",
+                "lastAt": "2026-10-30T02:49:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": "2026-10-30T02:49:00+09:00",
+                "lastAt": "2026-10-30T09:22:00+09:00"
+              },
+              "verdict": "appropriate",
+              "reason": "이전시술 특정불가 · 호전 경과/사과/후속문의: 보이는 경과확인·사과·문의응대와 운영카드 범위 검토입니다. 실제 치료결과 판정은 아닙니다. 카드문자만 확인하고 버튼·목적지·연결이미지는 열지 않았습니다. 기존 적정(기존 확인범위) 판정을 유지하며 새 임상판정을 만들지 않았습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A129:Z129",
+              "scopeNote": "10월30일 포함이 확인된 저장 범위 · 11월2일 실제 안전 재열람 · 확인된 고객발신 1개, 병원발신 3개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed"
             }
           ]
         },
@@ -4018,7 +7007,7 @@ window.SUPERVISION_DATA = {
     },
     "babitalk": {
       "name": "바비톡",
-      "updatedAt": "2026-10-31T06:33:46.346Z",
+      "updatedAt": "2026-11-01T23:52:08.059Z",
       "days": [
         {
           "platform": "babitalk",
@@ -4143,18 +7132,19 @@ window.SUPERVISION_DATA = {
           "cases": [],
           "reviewEntries": [],
           "conversations": [],
-          "reviewScope": "전체 해외목록8방의 최신 표시일과 국내신청목록만 확인했으며 방본문8개는 미검수입니다. 당일 전체분모는 미확인이고 0건·전체완료로 표시하지 않습니다.",
+          "reviewScope": "검수내역11행: 11월2일 현재 해외목록11개, 모두 안전한 본문 열람조건을 확인하지 못해 미열람입니다. 10월30일 포함여부·실제국적·고객문의언어·전체분모는 미확인입니다. 이전10월31일 목록8개 관찰과 구분하며 국내신청·SMS는 별도입니다. 이전 판정범위: 전체 해외목록8방의 최신 표시일과 국내신청목록만 확인했으며 방본문8개는 미검수입니다. 당일 전체분모는 미확인이고 0건·전체완료로 표시하지 않습니다.",
           "coverage": {
             "candidateRooms": 8,
             "reviewedRooms": 0,
             "excludedOutsideDate": 8,
             "uninspectedAttachments": null,
             "notes": [
-              "해외 전체목록8건(일본어8, 영어·번체·간체0)의 최신 메시지는10월8일이며 관찰목록의30일 대상0입니다. 과거8방 본문은 열지 않았습니다. 국내30일 신청목록1건은 채팅방이 아닌 신청기록이며 SMS내역 배지1건은 현재 안전조건 미충족으로 본문을 열지 않았습니다. 해외0을 플랫폼전체 무오류·전국가 전수검수로 표현하지 않습니다. 국내 신청국가 표시는 실제 국적검증이 아닙니다.",
-              "해외목록8방의전체·서비스언어별목록끝을확인했지만방본문은0건열람입니다. 최신표시일10/8은각방에30일자동/이전이력이없다는증명이아닙니다.",
-              "현재보존된해외목록8방내가능범위0~8이며플랫폼전체분모는null입니다. 당일전체0/무오류/완료로표시하지않습니다.",
-              "국내30일신청1건과SMS배지1건은별도이며원문미열람입니다. 실제예약확정/채팅상담/의학적판정으로합산하지않았습니다.",
-              "로그인·목록접근은성공했고현재사이트차단증거는없습니다. 안전불명방을열지않은것과기술적접근실패를구분합니다."
+              "검수내역11행: 11월2일 현재 해외목록11개, 모두 안전한 본문 열람조건을 확인하지 못해 미열람입니다. 10월30일 포함여부·실제국적·고객문의언어·전체분모는 미확인입니다. 이전10월31일 목록8개 관찰과 구분하며 국내신청·SMS는 별도입니다.",
+              "이전 10월31일 집계 기록: 해외 전체목록8건(일본어8, 영어·번체·간체0)의 최신 메시지는10월8일이며 관찰목록의30일 대상0입니다. 과거8방 본문은 열지 않았습니다. 국내30일 신청목록1건은 채팅방이 아닌 신청기록이며 SMS내역 배지1건은 당시 안전조건 미충족으로 본문을 열지 않았습니다. 해외0을 플랫폼전체 무오류·전국가 전수검수로 표현하지 않습니다. 국내 신청국가 표시는 실제 국적검증이 아닙니다.",
+              "이전 10월31일 집계 기록: 해외목록8방의전체·서비스언어별목록끝을확인했지만방본문은0건열람입니다. 최신표시일10/8은각방에30일자동/이전이력이없다는증명이아닙니다.",
+              "이전 10월31일 집계 기록: 당시보존된해외목록8방내가능범위0~8이며플랫폼전체분모는null입니다. 당일전체0/무오류/완료로표시하지않습니다.",
+              "이전 10월31일 집계 기록: 국내30일신청1건과SMS배지1건은별도이며원문미열람입니다. 실제예약확정/채팅상담/의학적판정으로합산하지않았습니다.",
+              "이전 10월31일 집계 기록: 로그인·목록접근은성공했고당시사이트차단증거는없습니다. 안전불명방을열지않은것과기술적접근실패를구분합니다."
             ]
           },
           "followUps": [],
@@ -4199,7 +7189,7 @@ window.SUPERVISION_DATA = {
             ],
             "rows": [],
             "notes": [
-              "해외 전체목록8건(일본어8, 영어·번체·간체0)의 최신 메시지는10월8일이며 관찰목록의30일 대상0입니다. 과거8방 본문은 열지 않았습니다. 국내30일 신청목록1건은 채팅방이 아닌 신청기록이며 SMS내역 배지1건은 현재 안전조건 미충족으로 본문을 열지 않았습니다. 해외0을 플랫폼전체 무오류·전국가 전수검수로 표현하지 않습니다. 국내 신청국가 표시는 실제 국적검증이 아닙니다."
+              "10월31일 보존집계: 해외 전체목록8건(일본어8, 영어·번체·간체0)의 최신 메시지는10월8일이며 관찰목록의30일 대상0입니다. 과거8방 본문은 열지 않았습니다. 국내30일 신청목록1건은 채팅방이 아닌 신청기록이며 SMS내역 배지1건은 당시 안전조건 미충족으로 본문을 열지 않았습니다. 해외0을 플랫폼전체 무오류·전국가 전수검수로 표현하지 않습니다. 국내 신청국가 표시는 실제 국적검증이 아닙니다."
             ]
           },
           "inquiryLanguageCoverage": {
@@ -4281,7 +7271,286 @@ window.SUPERVISION_DATA = {
               "국내30일신청1건과SMS배지1건은별도이며원문미열람입니다. 실제예약확정/채팅상담/의학적판정으로합산하지않았습니다.",
               "로그인·목록접근은성공했고현재사이트차단증거는없습니다. 안전불명방을열지않은것과기술적접근실패를구분합니다."
             ]
-          }
+          },
+          "qaAuditPrivacy": "restricted-originals",
+          "qaAuditCheckedAt": "2026-11-01T23:30:56.400Z",
+          "qaAuditRecords": [
+            {
+              "id": "B-CAND-001",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A130:Z130",
+              "scopeNote": "10월30일 포함 여부 미확인인 목록 후보 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown"
+            },
+            {
+              "id": "B-CAND-002",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A131:Z131",
+              "scopeNote": "10월30일 포함 여부 미확인인 목록 후보 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown"
+            },
+            {
+              "id": "B-CAND-003",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A132:Z132",
+              "scopeNote": "10월30일 포함 여부 미확인인 목록 후보 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown"
+            },
+            {
+              "id": "B-CAND-004",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A133:Z133",
+              "scopeNote": "10월30일 포함 여부 미확인인 목록 후보 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown"
+            },
+            {
+              "id": "B-CAND-005",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A134:Z134",
+              "scopeNote": "10월30일 포함 여부 미확인인 목록 후보 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown"
+            },
+            {
+              "id": "B-CAND-006",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A135:Z135",
+              "scopeNote": "10월30일 포함 여부 미확인인 목록 후보 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown"
+            },
+            {
+              "id": "B-CAND-007",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A136:Z136",
+              "scopeNote": "10월30일 포함 여부 미확인인 목록 후보 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown"
+            },
+            {
+              "id": "B-CAND-008",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A137:Z137",
+              "scopeNote": "10월30일 포함 여부 미확인인 목록 후보 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown"
+            },
+            {
+              "id": "B-CAND-009",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A138:Z138",
+              "scopeNote": "10월30일 포함 여부 미확인인 목록 후보 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown"
+            },
+            {
+              "id": "B-CAND-010",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A139:Z139",
+              "scopeNote": "10월30일 포함 여부 미확인인 목록 후보 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown"
+            },
+            {
+              "id": "B-CAND-011",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "보호 또는 안전정보 부족으로 본문을 열지 않았습니다. 질문·답변과 임상 적정/오류를 추정하지 않습니다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A140:Z140",
+              "scopeNote": "10월30일 포함 여부 미확인인 목록 후보 · 현재 본문 미열람; 보관된 과거 원문이 있으면 제한 원장에 별도 표시 · 확인된 고객발신 0개, 병원발신 0개(개인담당자 미확인), 이미지표시 0개, 링크표시 0개, 삭제표시 0개, 전일문맥 0개. 상품유입·운영카드는 고객의 직접 질문이나 사람 답변으로 만들지 않습니다. 전체 제공자 분모는 미확인입니다.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown"
+            }
+          ]
         },
         {
           "platform": "babitalk",

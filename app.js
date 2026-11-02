@@ -303,6 +303,12 @@
     classification.append(node('dt','','시술'),node('dd','',text(item.procedure,'확인되지 않음')),node('dt','','질문 카테고리'),node('dd','',text(item.questionCategory,'확인되지 않음')));
     heading.append(classification,node('span','case-verdict',label),node('h3','',text(item.title,'상담 내용 확인')));
     const grid = node('div', 'case-bento');
+    if(day?.qaAuditPrivacy==='restricted-originals'||item.quoteDisclosure==='restricted'){
+      const disclosure=node('div','case-cell qa-restricted-case');
+      disclosure.append(node('h4','','상담 원문 · 제한 원장'),node('p','','고객·담당자 원문과 번역은 공개하지 않습니다. 권한이 있는 제한 원장에서 확인하세요.'),qaEvidenceLink(item.privateRecordUrl,'이 사례'));
+      const basis=node('div','case-cell case-basis');basis.append(node('h4','','판정 근거'),node('p','case-rationale',text(item.structuralReason,text(item.rationale,'판단 근거 확인 필요'))));
+      grid.append(disclosure,basis);article.append(heading,node('p','case-excerpt-label','원문 비공개 · 판정과 구조적 근거만 표시'),grid);replace('case-panel',article);return;
+    }
     const quoteCard = (title, originals, original, translation, side) => {
       const card=node('div','case-cell case-'+side);card.append(node('h4','',title));
       const messages=Array.isArray(originals)?originals:[{kind:'text',original:typeof original==='string'?original:'',ko:typeof translation==='string'?translation:''}];
@@ -476,8 +482,82 @@
   function decodeRoute(hash){const value=typeof hash==='string'?hash.replace(/^#/,''):'';if(value==='main')return{platform:selectedPlatform,view:currentView};if(value.startsWith('platform-')&&platformIds.includes(value.slice(9)))return{platform:value.slice(9),view:'overview'};const parts=value.split('/');if(platformIds.includes(parts[0]))return{platform:parts[0],view:viewIds.includes(parts[1])?parts[1]:'overview'};return{platform:selectedPlatform,view:viewIds.includes(value)?value:'overview'};}
   function setView(hash,focus=false){const route=decodeRoute(hash),changed=activatePlatform(route.platform);currentView=route.view;viewIds.forEach(id=>{$(id).hidden=id!==currentView;$('nav-'+id).setAttribute('aria-current',id===currentView?'page':'false');$('nav-'+id).href='#'+selectedPlatform+'/'+id;});platformDefinitions.forEach(([id])=>{const link=$('nav-platform-'+id);link.setAttribute('aria-current',id===selectedPlatform?'page':'false');link.href='#'+id+'/'+currentView;});$('report-view').hidden=!reportViewIds.includes(currentView);$('nav-home').setAttribute('aria-current','false');if(changed)render();else updateViewContext();if(focus){$('content-view-title').focus({preventScroll:true});window.scrollTo?.({top:0,behavior:'instant'});}}
   function navigateView(id,platform=selectedPlatform){const view=viewIds.includes(id)?id:'overview',target='#'+(platformIds.includes(platform)?platform:selectedPlatform)+'/'+view;if(window.location&&window.location.hash!==target){if(window.history?.pushState)window.history.pushState({platform,contentView:view},'',target);else window.location.hash=target;}setView(target,true);if(mobileMenu())setMenuOpen(false);}
-  function renderConversation(conversation){const box=node('article','card review-conversation');box.append(node('h3','','관련 메시지 원문 전체 · 한국어 번역'));for(const m of Array.isArray(conversation.messages)?conversation.messages:[]){const block=node('div','case-message');block.append(node('h4','',({customer:'고객',staff:'담당자',auto:'자동안내',system:'시스템'})[m.speaker]||'화자 미확인'),node('p','case-quote-heading','원문'),node('blockquote','case-original',typeof m.original==='string'?m.original:''),node('p','case-quote-heading','한국어 번역'),node('blockquote','case-translation',typeof m.ko==='string'?m.ko:'번역 미확인'));box.append(block);}if(text(conversation.rationale))box.append(node('p','case-rationale',conversation.rationale));replace('review-log-detail',box);box.tabIndex=-1;box.focus?.({preventScroll:true});box.scrollIntoView?.({block:'start',behavior:'auto'});}
-  function renderReviewLog(day){replace('review-log-detail');const entries=Array.isArray(day?.reviewEntries)?day.reviewEntries:[];if(!day?.inquiryLanguageCoverage&&!entries.length&&Array.isArray(day?.nonChatRecords)&&day.nonChatRecords.length){const {wrap,body}=table([['기록 종류',false],['건수',true],['확인 범위',false],['판정 범위',false]],platformName()+' · '+selectedDate+' · 국내 비채팅 기록 (상담방·메시지 수에 미합산)');for(const r of day.nonChatRecords){const tr=node('tr');tr.append(node('td','',r.kind),node('td','number',statValue(r.count,'건')),node('td','',r.scope),node('td','',r.assessment));body.append(tr);}replace('review-log-content',wrap,node('p','helper','해외 채팅 당일 활동 0과 국내 신청·기존 문자 기록을 구분합니다. 전체 통화상담이나 실시간 채팅방을 검수했다는 뜻이 아닙니다.'));return;}if(!entries.length){const verifiedNone=day?.status==='completed'&&day.eligibleRooms===0&&Array.isArray(day.reviewEntries);replace('review-log-content',empty(verifiedNone?'검수 대상 없음':'검수내역 미확인 · 미완료',verifiedNone?'실제 완료된 검토 기록의 대상 수가 0개입니다.':'접속 확인이나 발견 사례 수를 전체 상담 검수내역으로 대신하지 않습니다.'));return;}const{wrap,body}=table([['국가',false],['시술',false],['질문 카테고리',false],['판정',false],['발견 건수',true],['본문·사례',false]],platformName()+' · '+selectedDate+' · '+(semanticIncomplete(day)?'수집 상담 원장 ':'실제 검수 상담 ')+entries.length+'건'+(semanticIncomplete(day)?' · 검수중':''));for(const entry of entries){const tr=node('tr'),country=countryLabel(day,entry.country),verdict=entry.verdict==='unreviewed'?'미검수':(verdicts.find(([key])=>key===entry.verdict)?.[1]||text(entry.verdict,'미확인'))+(semanticIncomplete(day)?' · 검수분':'');tr.append(node('td','',country),node('td','',text(entry.procedure,'확인되지 않음')),node('td','',text(entry.questionCategory,'확인되지 않음')),node('td','',verdict),node('td','number',semanticIncomplete(day)?(entry.verdict==='unreviewed'?'검수중':suppliedNumber(entry.findingCount)&&entry.findingCount>0?'검수분 '+fmt(entry.findingCount)+'건 · 전체 검수중':'검수중'):statValue(entry.findingCount,'건')));const actions=node('td');const related=Array.isArray(entry.relatedCaseIds)?entry.relatedCaseIds:[];let linked=0;for(const id of related){const c=day.cases?.find(c=>c.id===id);if(!c)continue;const button=node('button','date-link','사례 보기');button.id='review-case-'+entry.id+'-'+id;button.type='button';button.addEventListener('click',()=>{selectedCaseVerdict=c.verdict;selectedCaseIndex=day.cases.filter(c=>c.verdict===selectedCaseVerdict).findIndex(c=>c.id===id);caseDateMemo=selectedDate;renderCases(day);navigateView('suspect-cases');});actions.append(button);linked++;}const conversation=Array.isArray(day.conversations)?day.conversations.find(c=>c.id===entry.id):null;if(conversation){const button=node('button','date-link','관련 원문 보기');button.id='review-conversation-'+entry.id;button.type='button';button.addEventListener('click',()=>renderConversation(conversation));actions.append(button);}else if(!linked)actions.append(node('span','muted',entry.verdict==='unreviewed'?'미검수 · 공개 사례 검토 전':semanticIncomplete(day)?'검수분 · 공개 사례 집계중':entry.verdict==='appropriate'||entry.verdict==='적정'?'정상 검토 · 공개 사례 없음':'공개 사례 없음'));if(text(entry.note))actions.append(node('p','small muted',entry.note));tr.append(actions);body.append(tr);}replace('review-log-content',wrap,node('p','helper',semanticIncomplete(day)?semanticScopeNote(day)+' · 미검수 원장 행은 적정·오류 판정이나 발견 건수 확정을 뜻하지 않습니다.':'검수내역은 실제 검토한 상담 기준이며, 발견 사례 수와 다른 단위입니다. 정상 상담의 전체 대화를 임의로 만들어 표시하지 않습니다.'));}
+  function renderConversation(conversation,day=days.find(item=>item.date===selectedDate)){if(day?.qaAuditPrivacy==='restricted-originals'||conversation?.quoteDisclosure==='restricted'){replace('review-log-detail',node('p','qa-state','상담 원문·번역 비공개 · 제한 원장 확인'),qaEvidenceLink(conversation?.privateRecordUrl,'이 상담'));return;}const box=node('article','card review-conversation');box.append(node('h3','','관련 메시지 원문 전체 · 한국어 번역'));for(const m of Array.isArray(conversation.messages)?conversation.messages:[]){const block=node('div','case-message');block.append(node('h4','',({customer:'고객',staff:'담당자',auto:'자동안내',system:'시스템'})[m.speaker]||'화자 미확인'),node('p','case-quote-heading','원문'),node('blockquote','case-original',typeof m.original==='string'?m.original:''),node('p','case-quote-heading','한국어 번역'),node('blockquote','case-translation',typeof m.ko==='string'?m.ko:'번역 미확인'));box.append(block);}if(text(conversation.rationale))box.append(node('p','case-rationale',conversation.rationale));replace('review-log-detail',box);box.tabIndex=-1;box.focus?.({preventScroll:true});box.scrollIntoView?.({block:'start',behavior:'auto'});}
+  // Optional public projection only. Approval/redaction and source accuracy belong upstream.
+  const qaStateLabels = Object.freeze({
+    observed: '확인한 공개 승인 문구', 'withheld-private': '비공개 원문 · 제한 원장 확인',
+    unread: '미열람/확인불가', 'no-direct-question': '확인한 당일 범위에 고객 직접 질문 없음',
+    'verified-none': '답변 없음(실제 확인)', 'image-link-only': '이미지·링크 응대 · 텍스트 답변과 구분',
+    'operating-only': '운영성 기록 · 고객 직접 상담과 구분'
+  });
+  function qaState(value, role) {
+    // A missing/invalid state never establishes absence. verified-none is answer-only.
+    return Object.hasOwn(qaStateLabels, value) && !(value === 'verified-none' && role !== 'answer') ? value : 'unread';
+  }
+  function qaPrivateUrl(value) {
+    // Exact existing restricted spreadsheet; no search/query, native room URLs or alternate hosts.
+    const match = typeof value === 'string' && value.match(/^https:\/\/docs\.google\.com\/spreadsheets\/d\/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc(?:\/edit)?#gid=(\d+)&range=([A-Za-z]{1,3}[1-9]\d*(?::[A-Za-z]{1,3}[1-9]\d*)?)$/);
+    return match ? value : null;
+  }
+  function qaTime(value) {
+    return typeof value==='string'&&/^\d{4}-\d{2}-\d{2}T/.test(value)&&/(Z|[+-]\d{2}:?\d{2})$/i.test(value)&&Number.isFinite(Date.parse(value))?timestamp(value):'미확인';
+  }
+  function qaEvidenceLink(value, label) {
+    const href=qaPrivateUrl(value);
+    if(!href)return node('p','qa-evidence-unavailable','행별 제한 원장 근거 링크 미제공 또는 허용 형식 아님');
+    const link=node('a','qa-private-link','원문 확인(제한원장)');link.href=href;link.target='_blank';link.rel='noopener noreferrer';link.setAttribute('aria-label',label+' 제한 원장 근거 (새 탭 · 권한 필요)');return link;
+  }
+  function qaMessage(message, role) {
+    const box=node('section','qa-message'),state=qaState(message?.state,role);
+    box.append(node('h4','',role==='question'?'고객 질문':'병원·담당자 답변'),node('p','qa-state',qaStateLabels[state]));
+    // The array is a sequence of exact individual messages, never one synthetic combined original.
+    if(state==='observed') {
+      const supplied=message&&Object.hasOwn(message,'messages');
+      const messages=supplied?(Array.isArray(message.messages)?message.messages:[]):[message];
+      if(!messages.length)box.append(node('p','qa-state',Array.isArray(message.messages)?'공개 승인 메시지 목록 비어 있음 · 답변 없음으로 확정하지 않음':'메시지 목록 형식 확인 필요'));
+      messages.forEach((input,index)=>{
+        const m=input&&typeof input==='object'?input:{},block=node('div','qa-individual-message');
+        if(supplied){block.append(node('h5','','메시지 '+(index+1)),node('p','qa-message-time','실제 메시지 시각: '+qaTime(m.at)),node('p','qa-message-kind','메시지 종류: '+text(m.kind,'미확인')));}
+        block.append(node('p','qa-quote-label','공개 승인 원문'),node('blockquote','qa-original',typeof m.original==='string'&&m.original.trim()?m.original:'원문 미확인'),node('p','qa-quote-label','한국어 번역'),node('blockquote','qa-translation',typeof m.ko==='string'&&m.ko.trim()?m.ko:'번역 미확인'));box.append(block);
+      });
+    }else if(state==='withheld-private'){
+      if(suppliedNumber(message?.messageCount))box.append(node('p','qa-message-metadata','확인한 메시지 수: '+fmt(message.messageCount)+'건'));
+      if(Object.hasOwn(message||{},'firstAt'))box.append(node('p','qa-message-metadata','첫 메시지 시각: '+qaTime(message.firstAt)));
+      if(Object.hasOwn(message||{},'lastAt'))box.append(node('p','qa-message-metadata','마지막 메시지 시각: '+qaTime(message.lastAt)));
+    }
+    return box;
+  }
+  function qaRecordVerdict(record) {
+    if(record.recordKind==='operating-only'||record.recordKind==='enterprise')return '임상 판정 미대상';
+    if(record.recordKind==='unread-candidate')return '본문 미열람 · 판정 불가';
+    return record.verdict==='unreviewed'?'미검수':verdicts.find(([key])=>key===record.verdict)?.[1]||text(record.verdict,'판정 미확인');
+  }
+  function renderQaAudit(day) {
+    const records=day.qaAuditRecords, list=node('div','qa-ledger');
+    list.append(node('p','helper','공개 승인된 비민감 문구만 표시합니다. 비공개 원문과 근거는 권한이 있는 제한 원장에서 확인합니다. 판정과 자료 확인 상태는 별개입니다.'));
+    if(!records.length)list.append(empty('Q/A 검수 기록 미제공','빈 목록은 상담 없음이나 답변 없음이 확인되었다는 뜻이 아닙니다.'));
+    records.forEach((input,index)=>{
+      const r=input&&typeof input==='object'?input:{},card=node('article','card qa-record'),heading=node('h3','qa-record-title',countryLabel(day,r.country)+' · Q/A 검수 '+(index+1));
+      heading.id='qa-record-title-'+index;card.setAttribute('aria-labelledby',heading.id);card.append(heading);
+      const recordType=({'operating-only':'운영기록',enterprise:'기업제안','unread-candidate':'미열람 후보'})[r.recordKind];
+      if(recordType)card.append(node('span','qa-record-kind',recordType));
+      const facts=node('dl','qa-facts');
+      const fact=(label,value)=>facts.append(node('dt','',label),node('dd','',value));
+      const time=qaTime(r.consultationAt);
+      fact('실제 상담 시각',time);
+      if(r.targetDayState==='unknown')fact('당일 포함 여부',day.date.replace(/^\d{4}-(\d{2})-(\d{2})$/,'$1/$2')+' 포함 여부 미확인');
+      fact('상담 언어',!text(r.language)||r.language==='unknown'?'미확인':r.language==='multi'?'다국어':r.language);
+      fact('원자료 확인 상태',qaStateLabels[qaState(r.sourceState,'source')]);
+      const qs=qaState(r.question?.state,'question'),as=qaState(r.answer?.state,'answer');
+      fact('Q/A 자료 확인',qs==='observed'&&as==='observed'?'질문·답변 공개 문구 제공':'질문: '+qaStateLabels[qs]+' / 답변: '+qaStateLabels[as]);
+      card.append(facts);const messages=node('div','qa-messages');messages.append(qaMessage(r.question,'question'),qaMessage(r.answer,'answer'));card.append(messages);
+      const assessment=node('section','qa-assessment');assessment.append(node('h4','','이 행의 판정'),node('p','qa-verdict',qaRecordVerdict(r)),node('h4','','판정 이유·근거'),node('p','qa-reason',text(r.reason,'판정 이유 미제공 · 확인 필요')),node('h4','','확인 범위'),node('p','qa-scope',text(r.scopeNote,'확인 범위 미제공 · 확인 필요')));card.append(assessment);
+      card.append(qaEvidenceLink(r.privateRecordUrl,'Q/A 검수 '+(index+1)));
+      list.append(card);
+    });
+    replace('review-log-content',list);
+  }
+  function renderReviewLog(day){replace('review-log-detail');if(Array.isArray(day?.qaAuditRecords)){renderQaAudit(day);return;}const entries=Array.isArray(day?.reviewEntries)?day.reviewEntries:[];if(!day?.inquiryLanguageCoverage&&!entries.length&&Array.isArray(day?.nonChatRecords)&&day.nonChatRecords.length){const {wrap,body}=table([['기록 종류',false],['건수',true],['확인 범위',false],['판정 범위',false]],platformName()+' · '+selectedDate+' · 국내 비채팅 기록 (상담방·메시지 수에 미합산)');for(const r of day.nonChatRecords){const tr=node('tr');tr.append(node('td','',r.kind),node('td','number',statValue(r.count,'건')),node('td','',r.scope),node('td','',r.assessment));body.append(tr);}replace('review-log-content',wrap,node('p','helper','해외 채팅 당일 활동 0과 국내 신청·기존 문자 기록을 구분합니다. 전체 통화상담이나 실시간 채팅방을 검수했다는 뜻이 아닙니다.'));return;}if(!entries.length){const verifiedNone=day?.status==='completed'&&day.eligibleRooms===0&&Array.isArray(day.reviewEntries);replace('review-log-content',empty(verifiedNone?'검수 대상 없음':'검수내역 미확인 · 미완료',verifiedNone?'실제 완료된 검토 기록의 대상 수가 0개입니다.':'접속 확인이나 발견 사례 수를 전체 상담 검수내역으로 대신하지 않습니다.'));return;}const{wrap,body}=table([['국가',false],['시술',false],['질문 카테고리',false],['판정',false],['발견 건수',true],['본문·사례',false]],platformName()+' · '+selectedDate+' · '+(semanticIncomplete(day)?'수집 상담 원장 ':'실제 검수 상담 ')+entries.length+'건'+(semanticIncomplete(day)?' · 검수중':''));for(const entry of entries){const tr=node('tr'),country=countryLabel(day,entry.country),verdict=entry.verdict==='unreviewed'?'미검수':(verdicts.find(([key])=>key===entry.verdict)?.[1]||text(entry.verdict,'미확인'))+(semanticIncomplete(day)?' · 검수분':'');tr.append(node('td','',country),node('td','',text(entry.procedure,'확인되지 않음')),node('td','',text(entry.questionCategory,'확인되지 않음')),node('td','',verdict),node('td','number',semanticIncomplete(day)?(entry.verdict==='unreviewed'?'검수중':suppliedNumber(entry.findingCount)&&entry.findingCount>0?'검수분 '+fmt(entry.findingCount)+'건 · 전체 검수중':'검수중'):statValue(entry.findingCount,'건')));const actions=node('td');const related=Array.isArray(entry.relatedCaseIds)?entry.relatedCaseIds:[];let linked=0;for(const id of related){const c=day.cases?.find(c=>c.id===id);if(!c)continue;const button=node('button','date-link','사례 보기');button.id='review-case-'+entry.id+'-'+id;button.type='button';button.addEventListener('click',()=>{selectedCaseVerdict=c.verdict;selectedCaseIndex=day.cases.filter(c=>c.verdict===selectedCaseVerdict).findIndex(c=>c.id===id);caseDateMemo=selectedDate;renderCases(day);navigateView('suspect-cases');});actions.append(button);linked++;}const conversation=Array.isArray(day.conversations)?day.conversations.find(c=>c.id===entry.id):null;if(day?.qaAuditPrivacy==='restricted-originals'||conversation?.quoteDisclosure==='restricted'){actions.append(qaEvidenceLink(entry.privateRecordUrl||conversation?.privateRecordUrl,'이 상담'));}else if(conversation){const button=node('button','date-link','관련 원문 보기');button.id='review-conversation-'+entry.id;button.type='button';button.addEventListener('click',()=>renderConversation(conversation));actions.append(button);}else if(!linked)actions.append(node('span','muted',entry.verdict==='unreviewed'?'미검수 · 공개 사례 검토 전':semanticIncomplete(day)?'검수분 · 공개 사례 집계중':entry.verdict==='appropriate'||entry.verdict==='적정'?'정상 검토 · 공개 사례 없음':'공개 사례 없음'));if(text(entry.note))actions.append(node('p','small muted',entry.note));tr.append(actions);body.append(tr);}replace('review-log-content',wrap,node('p','helper',semanticIncomplete(day)?semanticScopeNote(day)+' · 미검수 원장 행은 적정·오류 판정이나 발견 건수 확정을 뜻하지 않습니다.':'검수내역은 실제 검토한 상담 기준이며, 발견 사례 수와 다른 단위입니다. 정상 상담의 전체 대화를 임의로 만들어 표시하지 않습니다.'));}
 
   function renderOperatingRecords(day) {
     const host=$('review-log-operating-records');
