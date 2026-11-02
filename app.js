@@ -502,6 +502,12 @@
   function qaTime(value) {
     return typeof value==='string'&&/^\d{4}-\d{2}-\d{2}T/.test(value)&&/(Z|[+-]\d{2}:?\d{2})$/i.test(value)&&Number.isFinite(Date.parse(value))?timestamp(value):'미확인';
   }
+  function qaLanguage(value) {
+    const language=text(value);
+    if(!language||language==='unknown')return '미확인';
+    if(language==='multi')return '다국어';
+    return ({zh:'중국어',ja:'일본어',ko:'한국어',en:'영어',th:'태국어'})[language]||language;
+  }
   function qaEvidenceLink(value, label) {
     const href=qaPrivateUrl(value);
     if(!href)return node('p','qa-evidence-unavailable','행별 제한 원장 근거 링크 미제공 또는 허용 형식 아님');
@@ -530,7 +536,8 @@
   function qaRecordVerdict(record) {
     if(record.recordKind==='operating-only'||record.recordKind==='enterprise')return '임상 판정 미대상';
     if(record.recordKind==='unread-candidate')return '본문 미열람 · 판정 불가';
-    return record.verdict==='unreviewed'?'미검수':verdicts.find(([key])=>key===record.verdict)?.[1]||text(record.verdict,'판정 미확인');
+    const label=record.verdict==='unreviewed'?'미검수':verdicts.find(([key])=>key===record.verdict)?.[1]||text(record.verdict,'판정 미확인');
+    return record.sourceState==='unread'&&text(record.verdict)&&record.verdict!=='unreviewed'?label+' · 보관근거 한정':label;
   }
   function renderQaAudit(day) {
     const records=day.qaAuditRecords, list=node('div','qa-ledger');
@@ -546,8 +553,8 @@
       const time=qaTime(r.consultationAt);
       fact('실제 상담 시각',time);
       if(r.targetDayState==='unknown')fact('당일 포함 여부',day.date.replace(/^\d{4}-(\d{2})-(\d{2})$/,'$1/$2')+' 포함 여부 미확인');
-      fact('상담 언어',!text(r.language)||r.language==='unknown'?'미확인':r.language==='multi'?'다국어':r.language);
-      fact('원자료 확인 상태',qaStateLabels[qaState(r.sourceState,'source')]);
+      fact('상담 언어',qaLanguage(r.language));
+      fact('원자료 확인 상태',day.qaAuditPrivacy==='restricted-originals'&&r.sourceState==='observed'?'실제 원문 대조 · 제한 원장 보관':qaStateLabels[qaState(r.sourceState,'source')]);
       const qs=qaState(r.question?.state,'question'),as=qaState(r.answer?.state,'answer');
       fact('Q/A 자료 확인',qs==='observed'&&as==='observed'?'질문·답변 공개 문구 제공':'질문: '+qaStateLabels[qs]+' / 답변: '+qaStateLabels[as]);
       card.append(facts);const messages=node('div','qa-messages');messages.append(qaMessage(r.question,'question'),qaMessage(r.answer,'answer'));card.append(messages);
@@ -573,7 +580,8 @@
     const day = days.find(item => item.date === selectedDate);
     dateInput.value = selectedDate;dateInput.disabled=false;dateInput.min=allReportDates.at(-1)||'';dateInput.max=allReportDates[0]||'';
     const dayUpdate=[day?.checkedAt,day?.casesUpdatedAt].filter(v=>typeof v==='string'&&/(Z|[+-]\d{2}:?\d{2})$/i.test(v)&&Number.isFinite(Date.parse(v))).sort((a,b)=>Date.parse(b)-Date.parse(a))[0];
-    $('updated-at').textContent=timestamp(dayUpdate||platformReports[selectedPlatform]?.updatedAt||(selectedPlatform==='gangnamunni'?meta.updatedAt:null));
+    const qaAuditUpdate=day?.qaAuditPrivacy==='restricted-originals'&&qaTime(day.qaAuditCheckedAt)!=='미확인'?day.qaAuditCheckedAt:null;
+    $('updated-at').textContent=timestamp(qaAuditUpdate||dayUpdate||platformReports[selectedPlatform]?.updatedAt||(selectedPlatform==='gangnamunni'?meta.updatedAt:null));
     const index = days.findIndex(item => item.date === selectedDate);
     $('previous-day').disabled = index < 0 || index >= days.length - 1;
     $('next-day').disabled = index <= 0;
