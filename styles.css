@@ -47,3 +47,6 @@
 .qa-individual-message+.qa-individual-message{margin-top:22px;border-top:1px solid var(--line);padding-top:18px}.qa-individual-message h5{font-size:13px;margin:0 0 8px}.qa-message-time,.qa-message-kind,.qa-message-metadata{font-size:12px;white-space:pre-wrap;overflow-wrap:anywhere}.qa-private-link{display:block;width:100%;min-height:44px;padding:12px 14px;margin-top:14px;background:var(--purple-soft);border:1px solid var(--line);border-radius:8px}.qa-restricted-case{grid-column:1/-1;min-width:0;overflow-wrap:anywhere}
 /* Nonclinical records and unread candidates retain their data verdict without clinical grading. */
 .qa-record-kind{display:inline-block;max-width:100%;white-space:normal;overflow-wrap:anywhere;border:1px solid var(--line);border-radius:6px;padding:4px 10px;margin:0 0 14px;background:var(--purple-soft);color:var(--purple);font-size:12px;font-weight:650}
+
+/* Actual relevant question/reply text, including original and Korean translation. */
+.qa-quote{white-space:pre-wrap;overflow-wrap:anywhere;word-break:break-word;max-height:none;height:auto;overflow:visible;text-overflow:clip;display:block;-webkit-line-clamp:unset}

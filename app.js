@@ -37,13 +37,24 @@
 
 
   // Mirror of scripts/lib/qa-review-finalization-contract.mjs; private semantic evidence is checked before publication.
+// Validation-only: never rewrite displayed/source text. Match entire tokens, not URL prefixes.
+function sanitizeApprovedPublicContactsForPrivacy(value) {
+  const approved = new Set([
+    'https://tw.beautyblossom.kr/22',
+    'https://naver.me/5ap1E0ph',
+    'https://maps.app.goo.gl/kNTF1bYCqKdDFiHg9',
+    'https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8'
+  ]);
+  return value.replace(/https?:\/\/[^\s<>"'`]+/gi, token => approved.has(token) ? '[공식 병원 링크]' : token)
+    .replace(/(?<=ID[：:])@beautyblossom_tw(?=$|[\s。！，、（）「」【】])/g, '[공식 병원 LINE]');
+}
 // Structural public contract only. Source truth and hashed semantic-review evidence are separate publication gates.
 function validateQaReviewFinalization(day) {
   const fail=message=>{throw Error('QA finalization: '+message);},obj=x=>x&&typeof x==='object'&&!Array.isArray(x),fields=(x,allowed,label)=>{if(!obj(x)||Object.keys(x).some(k=>!allowed.includes(k)))fail(label+' fields');},require=(v,m)=>{if(!v)fail(m);};
   const date=x=>typeof x==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(x)&&Number.isFinite(Date.parse(x+'T00:00:00Z'))&&new Date(x+'T00:00:00Z').toISOString().slice(0,10)===x;
   const actual=x=>typeof x==='string'&&/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})$/.test(x)&&date(x.slice(0,10))&&Number.isFinite(Date.parse(x));
   const url=x=>typeof x==='string'&&/^https:\/\/docs\.google\.com\/spreadsheets\/d\/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc(?:\/edit)?#gid=\d+&range=[A-Z]{1,3}[1-9]\d*(?::[A-Z]{1,3}[1-9]\d*)?$/.test(x);
-  const summary=(x,label,minLength=4)=>require(typeof x==='string'&&x.trim().length>=minLength&&!/https?:|www\.|@|\/Users\/|(?:^|[\s"'])runs\/|(?:^|[\s"'])state\/|\b01[016789][ -]?\d{3,4}[ -]?\d{4}\b|Bearer\s+|(?:password|token|api_key)\s*[:=]/i.test(x),label+' substantive public summary');
+  const summary=(x,label,minLength=4,publicContacts=false)=>require(typeof x==='string'&&x.trim().length>=minLength&&!/https?:|www\.|@|\/Users\/|(?:^|[\s"'])runs\/|(?:^|[\s"'])state\/|\b01[016789][ -]?\d{3,4}[ -]?\d{4}\b|Bearer\s+|(?:password|token|api_key)\s*[:=]/i.test(publicContacts?sanitizeApprovedPublicContactsForPrivacy(x):x),label+' substantive public summary');
   require(date(day?.date),'valid report date');const f=day.qaReviewFinalization;
   fields(f,['schemaVersion','finalizedAt','finalStatus','sourceCoverage','records'],'overlay');
   require(f.schemaVersion===1&&f.finalStatus==='completed'&&actual(f.finalizedAt),'v1 actual finalized time/completed status');require(['partial','complete'].includes(f.sourceCoverage),'source coverage');
@@ -51,7 +62,7 @@ function validateQaReviewFinalization(day) {
   const sources=new Map();for(const r of day.qaAuditRecords){require(obj(r)&&typeof r.id==='string'&&!sources.has(r.id),'unique source IDs');sources.set(r.id,r);}
   require(f.records.length===sources.size,'every source row dispositioned');const seen=new Set(),counts={sourceReviewed:0,unavailable:0,normal:0,correction:0,needsSource:0,operating:0,archived:0,imageExcluded:0,verdicts:{appropriate:0,confirmedError:0,suspectedError:0,missingAnswer:0,needsVerification:0,sourceConflict:0}};
   for(const r of f.records){fields(r,['id','status','disposition','customerQuestion','staffFinalResponse','outcome','verdict','explanation','procedure','questionCategory','questionDate','responseEndedDate','privateRecordUrl'],'record');const src=sources.get(r.id);require(src&&!seen.has(r.id),'exact unique source ID');seen.add(r.id);require(url(r.privateRecordUrl)&&r.privateRecordUrl===src.privateRecordUrl,'same exact restricted row URL');
-    for(const k of ['customerQuestion','staffFinalResponse','explanation'])summary(r[k],k);for(const k of ['procedure','questionCategory'])summary(r[k],k,1);
+    for(const k of ['customerQuestion','staffFinalResponse','explanation'])summary(r[k],k,4,k==='staffFinalResponse');for(const k of ['procedure','questionCategory'])summary(r[k],k,1);
     for(const k of ['questionDate','responseEndedDate'])require(r[k]===null||date(r[k]),'actual date/null '+k);
     require(!r.questionDate||!r.responseEndedDate||r.responseEndedDate>=r.questionDate,'response cannot precede question');const ended=[r.questionDate,r.responseEndedDate].filter(Boolean).sort().at(-1);if(ended)require(new Date(f.finalizedAt).getTime()>=Date.parse(ended+'T00:00:00+09:00'),'finalized before actual response/date');
     const known=src.hasOriginal===true||['observed','withheld-private','operating-only'].includes(src.sourceState);
@@ -73,7 +84,7 @@ function validateQaReviewFinalization(day) {
   function finalScope(day,final=finalization(day)){return (final.overlay.sourceCoverage==='partial'?'자료 범위 일부 · ':'제공된 자료 범위 · ')+'확인분 검수 완료 · 원자료 확인기록 '+fmt(final.stats.sourceReviewed)+'건 · 현재 임상 판정 '+fmt(Object.values(final.stats.verdicts).reduce((n,v)=>n+v,0))+'건 · 보관답변 '+fmt(final.stats.archived)+'건/이미지 내용 '+fmt(final.stats.imageExcluded)+'건 판정 제외 · 원문 미확보·판정 제외 '+fmt(final.stats.unavailable)+'건 · 제공자 전체분모 '+statValue(day.availabilityCoverage?.providerDenominator,'개');}
   const finalOutcome={normal:'정상 응대', 'correction-needed':'수정 필요', 'verification-needed':'구체적 확인 필요', 'source-conflict':'자료충돌', 'not-applicable':'운영 응대 종료', unavailable:'원문 미확보·판정 제외'};
   const finalRecordLabel = record => record.disposition==='archived-only'?'보관답변확인·현재상담판정제외':record.disposition==='image-replied'&&record.outcome==='not-applicable'?'이미지로응대종료·내용판정제외':finalOutcome[record.outcome];
-  function finalCard(record){const card=node('article','card qa-record');card.append(node('h3','',finalRecordLabel(record)),node('h4','','고객 질문'),node('p','',record.customerQuestion),node('h4','','병원 최종 응대'),node('p','',record.staffFinalResponse),node('p','qa-message-time','실제 질문일 '+(record.questionDate||'미기록')+' · 최종 응대 종료일 '+(record.responseEndedDate||'미기록')),node('p','',record.procedure+' · '+record.questionCategory),node('h4','','판정 이유'),node('p','qa-reason',record.explanation),qaEvidenceLink(record.privateRecordUrl,'검수한 응대'));return card;}
+  function finalCard(record){const card=node('article','card qa-record');card.append(node('h3','',finalRecordLabel(record)),node('h4','','고객 질문'),node('p','qa-quote',record.customerQuestion),node('h4','','담당자 답변'),node('p','qa-quote',record.staffFinalResponse),node('p','qa-message-time','실제 질문일 '+(record.questionDate||'미기록')+' · 최종 응대 종료일 '+(record.responseEndedDate||'미기록')),node('p','',record.procedure+' · '+record.questionCategory),node('h4','','판정'),node('p','qa-reason',record.explanation),qaEvidenceLink(record.privateRecordUrl,'검수한 응대'));return card;}
 
   function finalUnavailablePanel(day,records){const panel=node('section','card qa-unavailable-summary');panel.append(node('h3','','원문 미확보·판정 제외 '+fmt(records.length)+'건'),node('p','','해당일 대화 원문을 확보하지 못해 정상 여부 판정에서 제외했습니다.'),node('p','helper',(suppliedNumber(day.availabilityCoverage?.observedCandidateCount)?'관찰 후보군 '+statValue(day.availabilityCoverage.observedCandidateCount,'건'):'원자료 기록 '+fmt(records.length)+'건 · 관찰 후보군 전체 미확인')));const details=node('details','qa-unavailable-details');details.append(node('summary','','제외 기록 확인 링크 '+fmt(records.length)+'건'));const list=node('ul');records.forEach((r,index)=>{const item=node('li'),link=qaEvidenceLink(r.privateRecordUrl,'미확보 기록 '+(index+1));if(link.href)link.textContent='기록 '+(index+1)+' 확인(제한원장)';item.append(link);list.append(item);});details.append(list);panel.append(details);return panel;}
 
@@ -465,7 +476,7 @@ function validateQaReviewFinalization(day) {
   const statsCaseInfo = day => {
     const rows = Array.isArray(day?.cases) ? day.cases : [];
     const valid = rows.filter(item => item && caseVerdicts.some(([key]) => key === item.verdict));
-    const complete = caseScopeComplete(day) && Array.isArray(day?.cases) && rows.length === valid.length;
+    const complete = caseScopeComplete(day) && Array.isArray(day?.cases) && rows.every(item => item && (item.verdict === 'appropriate' || caseVerdicts.some(([key]) => key === item.verdict)));
     const count = key => valid.filter(item => item.verdict === key).length;
     return { count, label: key => complete ? fmt(count(key)) + '건' : count(key) ? '집계중 · 확인 ' + fmt(count(key)) + '건' : '집계중', complete };
   };
