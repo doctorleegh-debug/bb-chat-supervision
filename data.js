@@ -1,7 +1,7 @@
 window.SUPERVISION_DATA = {
   "meta": {
     "title": "뷰티블라썸 상담 품질 감독",
-    "updatedAt": "2026-11-02T00:23:42.600Z",
+    "updatedAt": "2026-11-02T02:43:15.784Z",
     "timeZone": "Asia/Seoul",
     "sheetUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit",
     "schedule": {
@@ -37,34 +37,34 @@ window.SUPERVISION_DATA = {
         "id": "gangnamunni",
         "name": "강남언니",
         "status": "report-partial",
-        "checkedAt": "2026-11-01T23:30:03.378Z",
+        "checkedAt": "2026-11-02T02:43:15.784Z",
         "accountVerified": true,
         "inboxVerified": true,
-        "auditDate": "2026-10-30",
-        "summary": "2026-10-30 관련 검수내역 57행 · 당일확인 57 / 포함미확인 0 · 임상·운영·미열람 별도, 전체분모 미확인",
-        "limit": "검수 범위: 검수내역 57행: 기존 상담 판정46행과 운영전용11행. 11월2일 안전한54방을 재대조했고 신규보호2방과 기존보호1방은 열지 않았습니다. 실제 당일 UI285단위(삭제3 포함), 이전 저장범위 UI289단위와 다릅니다. 원문·발화별 완전 번역은 각 행의 제한 원장에 있습니다. 이전 판정범위: 기존36방 판정·공개 사례 원문과 한국어 번역은 좁은 기존 승인범위로 보존하고 신규10방을 추가한 누적46방입니다. 당시30일 본문 재열람45방과 보호된 태국 과거자료1방을 구분합니다. 당시 실제 국적필드45방·12국가이며 누적 태국8에는 당시7+역사1이 포함됩니다. 후보56·안전열람55 중30일45방, 이미지38표시, UI278단위(본문253+운영카드22+삭제원문미열람3)입니다. 제공자 개별 메시지수는 미집계입니다. 신규 적정9는 행정/접수범위8과 동일범주 지침을 대조한 일반후관리 가시답변1이며, 야간 시술상세문의1은 확인필요·부분범위입니다. 신규10방 모두31일 연속이나31일 답변을30일 상담완료로 보지 않습니다. 전국가/전상태 분모는 미확인·전체partial이며 과거 수집 차이의 구체 원인 또는 직원 답변누락은 미입증입니다. 실제 확인한 점검 범위에 한정하며, 상시 즉시 감시·푸시 수신은 검증되지 않았습니다."
+        "auditDate": "2026-11-01",
+        "summary": "2026-11-01 관찰 후보군 78방 · 안전 본문 열람 76방 · 후보군 중 미열람 2방 · 임상 집계·판정 미완료 · 제공자 전체분모 미확인",
+        "limit": "검수 범위: 회고적 대상일 전체 창의 수집 가능성 투영만 작성. 임상 의미·답변누락·첨부·일일 전체 검수 미완료. 후보는 적격 상담 또는 환자 전체가 아님. 실제 확인한 점검 범위에 한정하며, 상시 즉시 감시·푸시 수신은 검증되지 않았습니다."
       },
       {
         "id": "kakao-clinic",
         "name": "카카오톡(병원계정)",
         "status": "report-partial",
-        "checkedAt": "2026-11-01T23:44:43.821Z",
+        "checkedAt": "2026-11-02T02:13:05.594Z",
         "accountVerified": true,
         "inboxVerified": true,
-        "auditDate": "2026-10-30",
-        "summary": "2026-10-30 관련 검수내역 71행 · 당일확인 44 / 포함미확인 27 · 임상·운영·미열람 별도, 전체분모 미확인",
-        "limit": "검수 범위: 검수내역71행: 알려진당일44방(본문9방·미열람35방)과 날짜포함미확인27방. 현재 대조시점과 과거 보관자료를 행별로 구분합니다. 11월2일 안전한9방을 실제 재열람했고 메시지41개·삭제표시1개가 이전캡처와 정확히 일치했습니다. 사람답변41개나 전체분모가 아닙니다. 이전 판정범위: 저장된30일11방 중 환자9방만 분모로 삼았습니다(제한범위 적정6·확인필요3: 동일조건 가격1+야간부분범위2). 야간2는 실질 상담·가격/예약확정 검수완료가 아닙니다. 기업제안1방과 목적불명1방은 환자에서 제외합니다. 전체49 UI단위와 환자39 UI단위(문자34+카드5)는 의료메시지수/사람답변수와 다릅니다. 환자9방의 카드5개·전체11방의 카드6개는 표시문자만 읽었으며 버튼·목적지·연결이미지는 열지 않았습니다. 카드 미열람 총수는 미확인입니다. 삭제원문1개 미열람, 보호44방(30일확실34·가능10)은 국적 미검사로 국적미확인9에 합산하지 않습니다. 검토9방의 실제국적은 본문에 없어 미확인이며 이름·언어로 추정하지 않았습니다. casesComplete는 해석한 가시문자 부분집합과 기존 가격사례만 의미하며 전체카드·삭제·전일전수 완료가 아닙니다. 전체partial입니다. 실제 확인한 점검 범위에 한정하며, 상시 즉시 감시·푸시 수신은 검증되지 않았습니다."
+        "auditDate": "2026-11-01",
+        "summary": "2026-11-01 관찰 후보군 60방 · 안전 본문 열람 0방 · 후보군 중 미열람 60방 · 임상 집계·판정 미완료 · 제공자 전체분모 미확인",
+        "limit": "검수 범위: 회고적 대상일 전체 창의 수집 가능성 투영만 작성. 임상 의미·답변누락·첨부·일일 전체 검수 미완료. 후보는 적격 상담 또는 환자 전체가 아님. 실제 확인한 점검 범위에 한정하며, 상시 즉시 감시·푸시 수신은 검증되지 않았습니다."
       },
       {
         "id": "babitalk",
         "name": "바비톡",
         "status": "report-partial",
-        "checkedAt": "2026-11-01T23:30:56.400Z",
+        "checkedAt": "2026-11-02T02:11:19.904Z",
         "accountVerified": true,
         "inboxVerified": true,
-        "auditDate": "2026-10-30",
-        "summary": "2026-10-30 관련 검수내역 11행 · 당일확인 0 / 포함미확인 11 · 임상·운영·미열람 별도, 전체분모 미확인",
-        "limit": "검수 범위: 검수내역11행: 11월2일 현재 해외목록11개, 모두 안전한 본문 열람조건을 확인하지 못해 미열람입니다. 10월30일 포함여부·실제국적·고객문의언어·전체분모는 미확인입니다. 이전10월31일 목록8개 관찰과 구분하며 국내신청·SMS는 별도입니다. 이전 판정범위: 전체 해외목록8방의 최신 표시일과 국내신청목록만 확인했으며 방본문8개는 미검수입니다. 당일 전체분모는 미확인이고 0건·전체완료로 표시하지 않습니다. 실제 확인한 점검 범위에 한정하며, 상시 즉시 감시·푸시 수신은 검증되지 않았습니다."
+        "auditDate": "2026-11-01",
+        "summary": "2026-11-01 관찰 후보군 11방 · 안전 본문 열람 0방 · 후보군 중 미열람 11방 · 임상 집계·판정 미완료 · 제공자 전체분모 미확인",
+        "limit": "검수 범위: 회고적 대상일 전체 창의 수집 가능성 투영만 작성. 임상 의미·답변누락·첨부·일일 전체 검수 미완료. 후보는 적격 상담 또는 환자 전체가 아님. 실제 확인한 점검 범위에 한정하며, 상시 즉시 감시·푸시 수신은 검증되지 않았습니다."
       }
     ]
   },
@@ -566,6 +566,4318 @@ window.SUPERVISION_DATA = {
       "name": "강남언니",
       "updatedAt": "2026-11-02T00:23:42.503Z",
       "days": [
+        {
+          "platform": "gangnamunni",
+          "date": "2026-11-01",
+          "status": "partial",
+          "auditState": "source-availability-partial",
+          "checkedAt": "2026-11-02T02:43:15.784Z",
+          "qaAuditCheckedAt": "2026-11-02T02:43:15.784Z",
+          "cutoffAt": "2026-11-01T23:59:59+09:00",
+          "eligibleRooms": null,
+          "messageCount": null,
+          "customerMessages": null,
+          "staffMessages": null,
+          "autoMessages": null,
+          "systemMessages": null,
+          "deletedMessages": null,
+          "reviewedRooms": 0,
+          "verdicts": null,
+          "countries": [],
+          "cases": [],
+          "casesComplete": false,
+          "reviewEntries": [],
+          "conversations": [],
+          "issues": [],
+          "followUps": [],
+          "reviewScope": "회고적 대상일 전체 창의 수집 가능성 투영만 작성. 임상 의미·답변누락·첨부·일일 전체 검수 미완료. 후보는 적격 상담 또는 환자 전체가 아님.",
+          "blockedReason": "제한 안전 본문 부분집합만 확보했으며 임상 의미 검수 미완료.",
+          "availabilityCoverage": {
+            "targetDate": "2026-11-01",
+            "observedAt": "2026-11-02T02:43:15.784Z",
+            "evidenceScope": "native-safe-body-subset",
+            "providerDenominator": null,
+            "actualBodyReviewComplete": false,
+            "observedCandidateCount": 78,
+            "bodyRoomsOpened": 76,
+            "actualBodyDateMembership": "confirmed-subset",
+            "reason": "두 대상일 공동 원천 풀의 안전 본문 76개를 한 번씩 열람. 날짜별 76개 재열람 또는 총 152회가 아님. 대상일 전체 분모와 임상 검수는 미확인.",
+            "safetyNotes": [
+              "새 읽지않음·대기·고객 최종 또는 안전 불명 방을 열지 않는 읽기 전용 수집 한계. 발송·읽음·완료·메모·예약 상태 변경 없음.",
+              "원문·번역은 제한 원장 링크로만 제공. 첨부 내부 미검수. 후속 처리 상태는 변경하지 않음."
+            ],
+            "exclusionNotes": [
+              "후보 수는 두 날짜에 유지한 코호트이며 당일 적격 상담 수·환자 수·전체 분모가 아님.",
+              "표시 분 시각의 초 00은 직렬화 관례이며 보이지 않은 시각·발신·질문·답변을 추정하지 않음.",
+              "보호 후보 2개는 미열람. 다른 날짜 본문을 보았어도 대상일 소속이 확인되지 않으면 미확인."
+            ]
+          },
+          "qaAuditPrivacy": "restricted-originals",
+          "qaAuditRecords": [
+            {
+              "id": "MISS-G-20261101-001",
+              "country": "US",
+              "consultationAt": "2026-11-01T10:40:00+09:00",
+              "language": "영어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 5,
+                "firstAt": "2026-11-01T10:40:00+09:00",
+                "lastAt": "2026-11-01T10:50:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 5,
+                "firstAt": "2026-11-01T10:39:00+09:00",
+                "lastAt": "2026-11-01T10:50:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K242:N252",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-002",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A81:AF81",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261101-003",
+              "country": "ID",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K253:N255",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-004",
+              "country": "AU",
+              "consultationAt": "2026-11-01T20:27:00+09:00",
+              "language": "영어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-01T20:27:00+09:00",
+                "lastAt": "2026-11-01T20:27:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": "2026-11-01T20:27:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K256:N260",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-005",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A84:AF84",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261101-006",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A85:AF85",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261101-007",
+              "country": "TH",
+              "consultationAt": "2026-11-01T23:57:00+09:00",
+              "language": "태국어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-01T23:57:00+09:00",
+                "lastAt": "2026-11-01T23:57:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": "2026-11-01T23:57:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K261:N266",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-008",
+              "country": "TH",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K267:N269",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-009",
+              "country": "TH",
+              "consultationAt": "2026-11-01T19:49:00+09:00",
+              "language": "태국어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-01T19:49:00+09:00",
+                "lastAt": "2026-11-01T19:49:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": "2026-11-01T19:49:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K270:N274",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-010",
+              "country": "TH",
+              "consultationAt": "2026-11-01T16:50:00+09:00",
+              "language": "태국어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-01T16:50:00+09:00",
+                "lastAt": "2026-11-01T16:50:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-01T16:50:00+09:00",
+                "lastAt": "2026-11-01T16:50:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K275:N276",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-011",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A90:AF90",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261101-012",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A91:AF91",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261101-013",
+              "country": "TW",
+              "consultationAt": "2026-11-01T16:10:00+09:00",
+              "language": "중국어 번체",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 4,
+                "firstAt": "2026-11-01T16:10:00+09:00",
+                "lastAt": "2026-11-01T16:20:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 7,
+                "firstAt": null,
+                "lastAt": "2026-11-01T16:21:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K277:N287",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-014",
+              "country": "TW",
+              "consultationAt": "2026-11-01T22:54:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-01T22:54:00+09:00",
+                "lastAt": "2026-11-01T22:54:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K288:N289",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-015",
+              "country": "TW",
+              "consultationAt": "2026-11-01T22:52:00+09:00",
+              "language": "중국어 번체",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-11-01T22:52:00+09:00",
+                "lastAt": "2026-11-01T22:53:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": "2026-11-01T22:52:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K290:N295",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-016",
+              "country": "TW",
+              "consultationAt": "2026-11-01T21:05:00+09:00",
+              "language": "중국어 번체",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-01T21:05:00+09:00",
+                "lastAt": "2026-11-01T21:05:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-01T21:05:00+09:00",
+                "lastAt": "2026-11-01T21:05:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K296:N297",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-017",
+              "country": "TW",
+              "consultationAt": "2026-11-01T20:44:00+09:00",
+              "language": "중국어 번체",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-01T20:44:00+09:00",
+                "lastAt": "2026-11-01T20:44:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-01T20:44:00+09:00",
+                "lastAt": "2026-11-01T20:44:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K298:N299",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-018",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K300:N302",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-019",
+              "country": "TW",
+              "consultationAt": "2026-11-01T19:23:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-01T19:23:00+09:00",
+                "lastAt": "2026-11-01T19:23:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K303:N304",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-020",
+              "country": "TW",
+              "consultationAt": "2026-11-01T11:45:00+09:00",
+              "language": "중국어 번체",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": "2026-11-01T11:45:00+09:00",
+                "lastAt": "2026-11-01T17:41:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": "2026-11-01T17:41:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K305:N320",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-021",
+              "country": "JP",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K321:N323",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-022",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A101:AF101",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261101-023",
+              "country": "TH",
+              "consultationAt": "2026-11-01T11:23:00+09:00",
+              "language": "태국어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-11-01T11:23:00+09:00",
+                "lastAt": "2026-11-01T15:11:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": null,
+                "lastAt": "2026-11-01T16:06:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K324:N331",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-024",
+              "country": "CN",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": "2026-11-01T16:02:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K332:N335",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-025",
+              "country": "MY",
+              "consultationAt": "2026-11-01T00:24:00+09:00",
+              "language": "중국어 간체",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-11-01T00:24:00+09:00",
+                "lastAt": "2026-11-01T15:35:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 6,
+                "firstAt": null,
+                "lastAt": "2026-11-01T15:38:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K336:N345",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-026",
+              "country": "US",
+              "consultationAt": "2026-11-01T14:59:00+09:00",
+              "language": "영어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": "2026-11-01T14:59:00+09:00",
+                "lastAt": "2026-11-01T15:24:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": "2026-11-01T15:31:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K346:N358",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-027",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": "2026-11-01T15:29:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K359:N365",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-028",
+              "country": "US",
+              "consultationAt": "2026-11-01T12:38:00+09:00",
+              "language": "영어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 4,
+                "firstAt": "2026-11-01T12:38:00+09:00",
+                "lastAt": "2026-11-01T15:14:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 6,
+                "firstAt": "2026-11-01T12:51:00+09:00",
+                "lastAt": "2026-11-01T15:15:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K366:N376",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-029",
+              "country": "JP",
+              "consultationAt": "2026-11-01T11:08:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 4,
+                "firstAt": "2026-11-01T11:08:00+09:00",
+                "lastAt": "2026-11-01T15:10:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K377:N381",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-030",
+              "country": "TW",
+              "consultationAt": "2026-11-01T14:08:00+09:00",
+              "language": "중국어 번체",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": "2026-11-01T14:08:00+09:00",
+                "lastAt": "2026-11-01T14:44:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": "2026-11-01T14:46:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K382:N397",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-031",
+              "country": "JP",
+              "consultationAt": "2026-11-01T09:50:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": "2026-11-01T09:50:00+09:00",
+                "lastAt": "2026-11-01T14:35:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K398:N402",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-032",
+              "country": "TW",
+              "consultationAt": "2026-11-01T13:39:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": "2026-11-01T13:39:00+09:00",
+                "lastAt": "2026-11-01T13:40:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K403:N407",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-033",
+              "country": "TW",
+              "consultationAt": "2026-11-01T12:36:00+09:00",
+              "language": "중국어 번체",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": "2026-11-01T12:36:00+09:00",
+                "lastAt": "2026-11-01T12:42:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": "2026-11-01T12:38:00+09:00",
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K408:N420",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-034",
+              "country": "TH",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": "2026-11-01T12:48:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K421:N425",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-035",
+              "country": "TW",
+              "consultationAt": "2026-11-01T11:23:00+09:00",
+              "language": "중국어 번체",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": "2026-11-01T11:23:00+09:00",
+                "lastAt": "2026-11-01T11:23:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": "2026-11-01T11:25:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K426:N431",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-036",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": "2026-11-01T11:06:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K432:N437",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-037",
+              "country": "TW",
+              "consultationAt": "2026-11-01T10:50:00+09:00",
+              "language": "중국어 번체",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": "2026-11-01T10:50:00+09:00",
+                "lastAt": "2026-11-01T10:55:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": "2026-11-01T11:06:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K438:N445",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-038",
+              "country": "SG",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": "2026-11-01T10:55:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K446:N450",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-039",
+              "country": "MY",
+              "consultationAt": "2026-11-01T10:49:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": "2026-11-01T10:49:00+09:00",
+                "lastAt": "2026-11-01T10:50:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K451:N453",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-040",
+              "country": "IT",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": "2026-11-01T10:43:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K454:N457",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-041",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A120:AF120",
+              "scopeNote": "보호 후보 본문 미열람. 대상일 소속과 질문·답변은 미확인. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261101-042",
+              "country": "TW",
+              "consultationAt": "2026-11-01T10:03:00+09:00",
+              "language": "중국어 번체",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": "2026-11-01T10:03:00+09:00",
+                "lastAt": "2026-11-01T10:03:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": "2026-11-01T10:06:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K458:N466",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-043",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": "2026-11-01T09:53:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K467:N469",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-044",
+              "country": "TW",
+              "consultationAt": "2026-11-01T09:51:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": "2026-11-01T09:51:00+09:00",
+                "lastAt": "2026-11-01T09:52:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K470:N472",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-045",
+              "country": "TW",
+              "consultationAt": "2026-11-01T09:51:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-01T09:51:00+09:00",
+                "lastAt": "2026-11-01T09:51:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K473:N474",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-046",
+              "country": "TH",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": "2026-11-01T09:49:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K475:N478",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-047",
+              "country": "JP",
+              "consultationAt": "2026-11-01T09:48:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-01T09:48:00+09:00",
+                "lastAt": "2026-11-01T09:48:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K479:N479",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-048",
+              "country": "TH",
+              "consultationAt": "2026-11-01T09:48:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-01T09:48:00+09:00",
+                "lastAt": "2026-11-01T09:48:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K480:N480",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-049",
+              "country": "TH",
+              "consultationAt": "2026-11-01T09:48:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-01T09:48:00+09:00",
+                "lastAt": "2026-11-01T09:48:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K481:N481",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-050",
+              "country": "JP",
+              "consultationAt": "2026-11-01T05:52:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-11-01T05:52:00+09:00",
+                "lastAt": "2026-11-01T09:47:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K482:N484",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-051",
+              "country": "JP",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": "2026-11-01T09:47:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K485:N488",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-052",
+              "country": "TW",
+              "consultationAt": "2026-11-01T08:00:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K489:N489",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-053",
+              "country": "TW",
+              "consultationAt": "2026-11-01T07:30:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K490:N490",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-054",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A133:AF133",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261101-055",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A134:AF134",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261101-056",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A135:AF135",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261101-057",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A136:AF136",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261101-058",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A137:AF137",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261101-059",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A138:AF138",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261101-060",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A139:AF139",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261101-061",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A140:AF140",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261101-062",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A141:AF141",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261101-063",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A142:AF142",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261101-064",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A143:AF143",
+              "scopeNote": "보호 후보 본문 미열람. 대상일 소속과 질문·답변은 미확인. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261101-065",
+              "country": "JP",
+              "consultationAt": "2026-11-01T07:00:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K491:N491",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-01",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261101-066",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A145:AF145",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261101-067",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A146:AF146",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261101-068",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A147:AF147",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261101-069",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A148:AF148",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261101-070",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A149:AF149",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261101-071",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A150:AF150",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261101-072",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A151:AF151",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261101-073",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A152:AF152",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261101-074",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A153:AF153",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261101-075",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A154:AF154",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261101-076",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A155:AF155",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261101-077",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A156:AF156",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261101-078",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A157:AF157",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            }
+          ]
+        },
+        {
+          "platform": "gangnamunni",
+          "date": "2026-10-31",
+          "status": "partial",
+          "auditState": "source-availability-partial",
+          "checkedAt": "2026-11-02T02:43:15.784Z",
+          "qaAuditCheckedAt": "2026-11-02T02:43:15.784Z",
+          "cutoffAt": "2026-10-31T23:59:59+09:00",
+          "eligibleRooms": null,
+          "messageCount": null,
+          "customerMessages": null,
+          "staffMessages": null,
+          "autoMessages": null,
+          "systemMessages": null,
+          "deletedMessages": null,
+          "reviewedRooms": 0,
+          "verdicts": null,
+          "countries": [],
+          "cases": [],
+          "casesComplete": false,
+          "reviewEntries": [],
+          "conversations": [],
+          "issues": [],
+          "followUps": [],
+          "reviewScope": "회고적 대상일 전체 창의 수집 가능성 투영만 작성. 임상 의미·답변누락·첨부·일일 전체 검수 미완료. 후보는 적격 상담 또는 환자 전체가 아님.",
+          "blockedReason": "제한 안전 본문 부분집합만 확보했으며 임상 의미 검수 미완료.",
+          "availabilityCoverage": {
+            "targetDate": "2026-10-31",
+            "observedAt": "2026-11-02T02:43:15.784Z",
+            "evidenceScope": "native-safe-body-subset",
+            "providerDenominator": null,
+            "actualBodyReviewComplete": false,
+            "observedCandidateCount": 78,
+            "bodyRoomsOpened": 76,
+            "actualBodyDateMembership": "confirmed-subset",
+            "reason": "두 대상일 공동 원천 풀의 안전 본문 76개를 한 번씩 열람. 날짜별 76개 재열람 또는 총 152회가 아님. 대상일 전체 분모와 임상 검수는 미확인.",
+            "safetyNotes": [
+              "새 읽지않음·대기·고객 최종 또는 안전 불명 방을 열지 않는 읽기 전용 수집 한계. 발송·읽음·완료·메모·예약 상태 변경 없음.",
+              "원문·번역은 제한 원장 링크로만 제공. 첨부 내부 미검수. 후속 처리 상태는 변경하지 않음."
+            ],
+            "exclusionNotes": [
+              "후보 수는 두 날짜에 유지한 코호트이며 당일 적격 상담 수·환자 수·전체 분모가 아님.",
+              "표시 분 시각의 초 00은 직렬화 관례이며 보이지 않은 시각·발신·질문·답변을 추정하지 않음.",
+              "보호 후보 2개는 미열람. 다른 날짜 본문을 보았어도 대상일 소속이 확인되지 않으면 미확인."
+            ]
+          },
+          "qaAuditPrivacy": "restricted-originals",
+          "qaAuditRecords": [
+            {
+              "id": "MISS-G-20261031-001",
+              "country": "US",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": "2026-10-31T23:45:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K2:N6",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-002",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A3:AF3",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261031-003",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A4:AF4",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261031-004",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A5:AF5",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261031-005",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A6:AF6",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261031-006",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A7:AF7",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261031-007",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A8:AF8",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261031-008",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A9:AF9",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261031-009",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A10:AF10",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261031-010",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A11:AF11",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261031-011",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A12:AF12",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261031-012",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A13:AF13",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261031-013",
+              "country": "TW",
+              "consultationAt": "2026-10-31T00:12:00+09:00",
+              "language": "중국어 번체",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": "2026-10-31T00:12:00+09:00",
+                "lastAt": "2026-10-31T00:12:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": "2026-10-31T00:12:00+09:00",
+                "lastAt": "2026-10-31T09:58:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K7:N14",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-014",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A15:AF15",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261031-015",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A16:AF16",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261031-016",
+              "country": "TW",
+              "consultationAt": "2026-10-31T12:30:00+09:00",
+              "language": "중국어 번체",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": "2026-10-31T12:30:00+09:00",
+                "lastAt": "2026-10-31T12:30:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": "2026-10-31T12:33:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K15:N22",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-017",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A18:AF18",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261031-018",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A19:AF19",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261031-019",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A20:AF20",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261031-020",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A21:AF21",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261031-021",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A22:AF22",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261031-022",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A23:AF23",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261031-023",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A24:AF24",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261031-024",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A25:AF25",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261031-025",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A26:AF26",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261031-026",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A27:AF27",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261031-027",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A28:AF28",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261031-028",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A29:AF29",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261031-029",
+              "country": "JP",
+              "consultationAt": "2026-10-31T11:02:00+09:00",
+              "language": "일본어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-10-31T11:02:00+09:00",
+                "lastAt": "2026-10-31T11:02:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 4,
+                "firstAt": null,
+                "lastAt": "2026-10-31T11:02:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K23:N32",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-030",
+              "country": "TW",
+              "consultationAt": "2026-10-31T07:57:00+09:00",
+              "language": "중국어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-10-31T07:57:00+09:00",
+                "lastAt": "2026-10-31T07:57:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-10-31T07:57:00+09:00",
+                "lastAt": "2026-10-31T09:59:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K33:N36",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-031",
+              "country": "JP",
+              "consultationAt": "2026-10-31T19:32:00+09:00",
+              "language": "일본어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-10-31T19:32:00+09:00",
+                "lastAt": "2026-10-31T19:32:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-10-31T19:32:00+09:00",
+                "lastAt": "2026-10-31T19:32:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K37:N39",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-032",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A33:AF33",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261031-033",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A34:AF34",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261031-034",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A35:AF35",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261031-035",
+              "country": "TW",
+              "consultationAt": "2026-10-31T15:08:00+09:00",
+              "language": "중국어 번체",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-10-31T15:08:00+09:00",
+                "lastAt": "2026-10-31T17:16:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-10-31T15:08:00+09:00",
+                "lastAt": "2026-10-31T17:16:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K40:N45",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-036",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A37:AF37",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261031-037",
+              "country": "TW",
+              "consultationAt": "2026-10-31T16:11:00+09:00",
+              "language": "중국어 번체",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": "2026-10-31T16:11:00+09:00",
+                "lastAt": "2026-10-31T16:31:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": "2026-10-31T16:31:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K46:N53",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-038",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A39:AF39",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261031-039",
+              "country": "MY",
+              "consultationAt": "2026-10-31T16:01:00+09:00",
+              "language": "영어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": "2026-10-31T16:01:00+09:00",
+                "lastAt": "2026-10-31T17:19:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": "2026-10-31T17:19:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K54:N61",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-040",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A41:AF41",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261031-041",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A42:AF42",
+              "scopeNote": "보호 후보 본문 미열람. 대상일 소속과 질문·답변은 미확인. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261031-042",
+              "country": "TW",
+              "consultationAt": "2026-10-31T22:24:00+09:00",
+              "language": "중국어 번체",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-10-31T22:24:00+09:00",
+                "lastAt": "2026-10-31T22:24:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": "2026-10-31T22:24:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K62:N66",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-043",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K67:N69",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-044",
+              "country": "TW",
+              "consultationAt": "2026-10-31T19:57:00+09:00",
+              "language": "중국어 번체",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-10-31T19:57:00+09:00",
+                "lastAt": "2026-10-31T19:57:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": "2026-10-31T19:57:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K70:N74",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-045",
+              "country": "TW",
+              "consultationAt": "2026-10-31T16:44:00+09:00",
+              "language": "중국어 번체",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-10-31T16:44:00+09:00",
+                "lastAt": "2026-10-31T16:44:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-10-31T15:58:00+09:00",
+                "lastAt": "2026-10-31T16:44:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K75:N78",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-046",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A47:AF47",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261031-047",
+              "country": "JP",
+              "consultationAt": "2026-10-31T09:48:00+09:00",
+              "language": "일본어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": "2026-10-31T09:48:00+09:00",
+                "lastAt": "2026-10-31T22:32:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": "2026-10-31T09:42:00+09:00",
+                "lastAt": "2026-10-31T22:32:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K79:N92",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-048",
+              "country": "TH",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K93:N95",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-049",
+              "country": "TH",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": "2026-10-31T18:40:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K96:N100",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-050",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A51:AF51",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261031-051",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A52:AF52",
+              "scopeNote": "안전 조건의 본문은 열렸으나 대상일 원문과 소속은 미확인. 다른 날짜 문맥을 대상일 질문·답변으로 사용하지 않음. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261031-052",
+              "country": "TW",
+              "consultationAt": "2026-10-31T15:58:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-10-31T15:58:00+09:00",
+                "lastAt": "2026-10-31T15:58:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K101:N102",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-053",
+              "country": "TW",
+              "consultationAt": "2026-10-31T15:57:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-10-31T15:57:00+09:00",
+                "lastAt": "2026-10-31T15:57:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K103:N104",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-054",
+              "country": "JP",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": "2026-10-31T14:58:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K105:N109",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-055",
+              "country": "TW",
+              "consultationAt": "2026-10-31T14:15:00+09:00",
+              "language": "중국어 번체",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": "2026-10-31T14:15:00+09:00",
+                "lastAt": "2026-10-31T14:47:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K110:N137",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-056",
+              "country": "TH",
+              "consultationAt": "2026-10-31T13:52:00+09:00",
+              "language": "영어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": "2026-10-31T13:52:00+09:00",
+                "lastAt": "2026-10-31T14:28:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": "2026-10-31T14:29:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K138:N150",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-057",
+              "country": "TH",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": "2026-10-31T13:43:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K151:N156",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-058",
+              "country": "DK",
+              "consultationAt": "2026-10-31T12:55:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-10-31T12:55:00+09:00",
+                "lastAt": "2026-10-31T13:31:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K157:N159",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-059",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": "2026-10-31T13:28:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K160:N163",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-060",
+              "country": "US",
+              "consultationAt": "2026-10-31T13:10:00+09:00",
+              "language": "영어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-10-31T13:10:00+09:00",
+                "lastAt": "2026-10-31T13:10:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-10-31T12:58:00+09:00",
+                "lastAt": "2026-10-31T13:11:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K164:N167",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-061",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "중국어 번체",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": "2026-10-31T11:31:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-10-31T11:39:00+09:00",
+                "lastAt": "2026-10-31T11:42:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K168:N174",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-062",
+              "country": "TW",
+              "consultationAt": "2026-10-31T11:02:00+09:00",
+              "language": "일본어 · 중국어 번체",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": "2026-10-31T11:02:00+09:00",
+                "lastAt": "2026-10-31T11:11:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": "2026-10-31T10:59:00+09:00",
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K175:N185",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-063",
+              "country": "TW",
+              "consultationAt": "2026-10-31T11:04:00+09:00",
+              "language": "중국어 번체",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-10-31T11:04:00+09:00",
+                "lastAt": "2026-10-31T11:04:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": null,
+                "lastAt": "2026-10-31T11:04:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K186:N191",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-064",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A65:AF65",
+              "scopeNote": "보호 후보 본문 미열람. 대상일 소속과 질문·답변은 미확인. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-G-20261031-065",
+              "country": "JP",
+              "consultationAt": "2026-10-31T09:08:00+09:00",
+              "language": "일본어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-10-31T09:08:00+09:00",
+                "lastAt": "2026-10-31T09:08:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": null,
+                "lastAt": "2026-10-31T10:14:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K192:N200",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-066",
+              "country": "JP",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": "2026-10-31T10:11:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K201:N204",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-067",
+              "country": "JP",
+              "consultationAt": "2026-10-31T10:10:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-10-31T10:10:00+09:00",
+                "lastAt": "2026-10-31T10:10:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K205:N205",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-068",
+              "country": "TW",
+              "consultationAt": "2026-10-31T09:20:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": "2026-10-31T09:20:00+09:00",
+                "lastAt": "2026-10-31T10:01:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K206:N211",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-069",
+              "country": "TW",
+              "consultationAt": "2026-10-31T08:54:00+09:00",
+              "language": "중국어 번체",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": "2026-10-31T08:54:00+09:00",
+                "lastAt": "2026-10-31T08:54:00+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": "2026-10-31T10:00:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K212:N220",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-070",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": "2026-10-31T09:59:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K221:N226",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-071",
+              "country": "TW",
+              "consultationAt": "2026-10-31T09:52:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-10-31T09:52:00+09:00",
+                "lastAt": "2026-10-31T09:53:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K227:N228",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-072",
+              "country": "TW",
+              "consultationAt": "2026-10-31T09:52:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-10-31T09:52:00+09:00",
+                "lastAt": "2026-10-31T09:52:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K229:N230",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-073",
+              "country": "US",
+              "consultationAt": "2026-10-31T09:52:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-10-31T09:52:00+09:00",
+                "lastAt": "2026-10-31T09:52:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K231:N232",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-074",
+              "country": "CA",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": "2026-10-31T09:51:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K233:N236",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-075",
+              "country": "AU",
+              "consultationAt": "2026-10-31T09:51:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-10-31T09:51:00+09:00",
+                "lastAt": "2026-10-31T09:51:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K237:N237",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-076",
+              "country": "TH",
+              "consultationAt": "2026-10-31T09:50:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-10-31T09:50:00+09:00",
+                "lastAt": "2026-10-31T09:50:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K238:N238",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-077",
+              "country": "AU",
+              "consultationAt": "2026-10-31T09:50:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-10-31T09:50:00+09:00",
+                "lastAt": "2026-10-31T09:50:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K239:N239",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            },
+            {
+              "id": "MISS-G-20261031-078",
+              "country": "TW",
+              "consultationAt": "2026-10-31T09:49:00+09:00",
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": null,
+                "firstAt": "2026-10-31T09:49:00+09:00",
+                "lastAt": "2026-10-31T09:49:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K240:N241",
+              "scopeNote": "대상일 원천 일부만 확인. 원문과 한국어 번역은 제한 원장에만 보관. 임상 의미·첨부 미검수. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-10-31",
+              "hasOriginal": true
+            }
+          ]
+        },
         {
           "platform": "gangnamunni",
           "date": "2026-10-30",
@@ -4336,6 +8648,3346 @@ window.SUPERVISION_DATA = {
       "days": [
         {
           "platform": "kakao-clinic",
+          "date": "2026-11-01",
+          "status": "partial",
+          "auditState": "source-availability-blocked",
+          "checkedAt": "2026-11-02T02:13:05.594Z",
+          "qaAuditCheckedAt": "2026-11-02T02:13:05.594Z",
+          "cutoffAt": "2026-11-01T23:59:59+09:00",
+          "eligibleRooms": null,
+          "messageCount": null,
+          "customerMessages": null,
+          "staffMessages": null,
+          "autoMessages": null,
+          "systemMessages": null,
+          "deletedMessages": null,
+          "reviewedRooms": 0,
+          "verdicts": null,
+          "countries": [],
+          "cases": [],
+          "casesComplete": false,
+          "reviewEntries": [],
+          "conversations": [],
+          "issues": [],
+          "followUps": [],
+          "reviewScope": "회고적 대상일 전체 창의 수집 가능성 투영만 작성. 임상 의미·답변누락·첨부·일일 전체 검수 미완료. 후보는 적격 상담 또는 환자 전체가 아님.",
+          "blockedReason": "목록만 확보했으며 본문·대상일 소속·임상 의미 검수 미완료.",
+          "availabilityCoverage": {
+            "targetDate": "2026-11-01",
+            "observedAt": "2026-11-02T02:13:05.594Z",
+            "evidenceScope": "native-list-only",
+            "providerDenominator": null,
+            "actualBodyReviewComplete": false,
+            "observedCandidateCount": 60,
+            "bodyRoomsOpened": 0,
+            "actualBodyDateMembership": "unknown",
+            "reason": "목록 후보 코호트만 관찰. 본문 미열람으로 대상일 상담 소속과 전체 분모는 미확인.",
+            "safetyNotes": [
+              "새 읽지않음·대기·고객 최종 또는 안전 불명 방을 열지 않는 읽기 전용 수집 한계. 발송·읽음·완료·메모·예약 상태 변경 없음.",
+              "원문·번역은 제한 원장 링크로만 제공. 첨부 내부 미검수. 후속 처리 상태는 변경하지 않음."
+            ],
+            "exclusionNotes": [
+              "후보 수는 두 날짜에 유지한 코호트이며 당일 적격 상담 수·환자 수·전체 분모가 아님.",
+              "표시 분 시각의 초 00은 직렬화 관례이며 보이지 않은 시각·발신·질문·답변을 추정하지 않음.",
+              "목록 최종 활동일은 활동 힌트일 뿐 전체 대화와 대상일 본문 소속은 미확인."
+            ]
+          },
+          "qaAuditPrivacy": "restricted-originals",
+          "qaAuditRecords": [
+            {
+              "id": "MISS-K-20261101-001",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A229:AF229",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-002",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A230:AF230",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-003",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A231:AF231",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-004",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A232:AF232",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-005",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A233:AF233",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-006",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A234:AF234",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-007",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A235:AF235",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-008",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A236:AF236",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-009",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A237:AF237",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-010",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A238:AF238",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-011",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A239:AF239",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-012",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A240:AF240",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-013",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A241:AF241",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-014",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A242:AF242",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-015",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A243:AF243",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-016",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A244:AF244",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-017",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A245:AF245",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-018",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A246:AF246",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-019",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A247:AF247",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-020",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A248:AF248",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-021",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A249:AF249",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-022",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A250:AF250",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-023",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A251:AF251",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-024",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A252:AF252",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-025",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A253:AF253",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-026",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A254:AF254",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-027",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A255:AF255",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-028",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A256:AF256",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-029",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A257:AF257",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-030",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A258:AF258",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-031",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A259:AF259",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-032",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A260:AF260",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-033",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A261:AF261",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-034",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A262:AF262",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-035",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A263:AF263",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-036",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A264:AF264",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-037",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A265:AF265",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-038",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A266:AF266",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-039",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A267:AF267",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-040",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A268:AF268",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-041",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A269:AF269",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-042",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A270:AF270",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-043",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A271:AF271",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-044",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A272:AF272",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-045",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A273:AF273",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-046",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A274:AF274",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-047",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A275:AF275",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-048",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A276:AF276",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-049",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A277:AF277",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-050",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A278:AF278",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-051",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A279:AF279",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-052",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A280:AF280",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-053",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A281:AF281",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-054",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A282:AF282",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-055",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A283:AF283",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-056",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A284:AF284",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-057",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A285:AF285",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-058",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A286:AF286",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-059",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A287:AF287",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261101-060",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A288:AF288",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            }
+          ]
+        },
+        {
+          "platform": "kakao-clinic",
+          "date": "2026-10-31",
+          "status": "partial",
+          "auditState": "source-availability-blocked",
+          "checkedAt": "2026-11-02T02:13:05.594Z",
+          "qaAuditCheckedAt": "2026-11-02T02:13:05.594Z",
+          "cutoffAt": "2026-10-31T23:59:59+09:00",
+          "eligibleRooms": null,
+          "messageCount": null,
+          "customerMessages": null,
+          "staffMessages": null,
+          "autoMessages": null,
+          "systemMessages": null,
+          "deletedMessages": null,
+          "reviewedRooms": 0,
+          "verdicts": null,
+          "countries": [],
+          "cases": [],
+          "casesComplete": false,
+          "reviewEntries": [],
+          "conversations": [],
+          "issues": [],
+          "followUps": [],
+          "reviewScope": "회고적 대상일 전체 창의 수집 가능성 투영만 작성. 임상 의미·답변누락·첨부·일일 전체 검수 미완료. 후보는 적격 상담 또는 환자 전체가 아님.",
+          "blockedReason": "목록만 확보했으며 본문·대상일 소속·임상 의미 검수 미완료.",
+          "availabilityCoverage": {
+            "targetDate": "2026-10-31",
+            "observedAt": "2026-11-02T02:13:05.594Z",
+            "evidenceScope": "native-list-only",
+            "providerDenominator": null,
+            "actualBodyReviewComplete": false,
+            "observedCandidateCount": 60,
+            "bodyRoomsOpened": 0,
+            "actualBodyDateMembership": "unknown",
+            "reason": "목록 후보 코호트만 관찰. 본문 미열람으로 대상일 상담 소속과 전체 분모는 미확인.",
+            "safetyNotes": [
+              "새 읽지않음·대기·고객 최종 또는 안전 불명 방을 열지 않는 읽기 전용 수집 한계. 발송·읽음·완료·메모·예약 상태 변경 없음.",
+              "원문·번역은 제한 원장 링크로만 제공. 첨부 내부 미검수. 후속 처리 상태는 변경하지 않음."
+            ],
+            "exclusionNotes": [
+              "후보 수는 두 날짜에 유지한 코호트이며 당일 적격 상담 수·환자 수·전체 분모가 아님.",
+              "표시 분 시각의 초 00은 직렬화 관례이며 보이지 않은 시각·발신·질문·답변을 추정하지 않음.",
+              "목록 최종 활동일은 활동 힌트일 뿐 전체 대화와 대상일 본문 소속은 미확인."
+            ]
+          },
+          "qaAuditPrivacy": "restricted-originals",
+          "qaAuditRecords": [
+            {
+              "id": "MISS-K-20261031-001",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A158:AF158",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-002",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A159:AF159",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-003",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A160:AF160",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-004",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A161:AF161",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-005",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A162:AF162",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-006",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A163:AF163",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-007",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A164:AF164",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-008",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A165:AF165",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-009",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A166:AF166",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-010",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A167:AF167",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-011",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A168:AF168",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-012",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A169:AF169",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-013",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A170:AF170",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-014",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A171:AF171",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-015",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A172:AF172",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-016",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A173:AF173",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-017",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A174:AF174",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-018",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A175:AF175",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-019",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A176:AF176",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-020",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A177:AF177",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-021",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A178:AF178",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-022",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A179:AF179",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-023",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A180:AF180",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-024",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A181:AF181",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-025",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A182:AF182",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-026",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A183:AF183",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-027",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A184:AF184",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-028",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A185:AF185",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-029",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A186:AF186",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-030",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A187:AF187",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-031",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A188:AF188",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-032",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A189:AF189",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-033",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A190:AF190",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-034",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A191:AF191",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-035",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A192:AF192",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-036",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A193:AF193",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-037",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A194:AF194",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-038",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A195:AF195",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-039",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A196:AF196",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-040",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A197:AF197",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-041",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A198:AF198",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-042",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A199:AF199",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-043",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A200:AF200",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-044",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A201:AF201",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-045",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A202:AF202",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-046",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A203:AF203",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-047",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A204:AF204",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-048",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A205:AF205",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-049",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A206:AF206",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-050",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A207:AF207",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-051",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A208:AF208",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-052",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A209:AF209",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-053",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A210:AF210",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-054",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A211:AF211",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-055",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A212:AF212",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-056",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A213:AF213",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-057",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A214:AF214",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-058",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A215:AF215",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-059",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A216:AF216",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-K-20261031-060",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A217:AF217",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            }
+          ]
+        },
+        {
+          "platform": "kakao-clinic",
           "date": "2026-10-30",
           "status": "partial",
           "auditState": "reviewed-expanded-safe-scope-unaggregated",
@@ -6621,6 +14273,700 @@ window.SUPERVISION_DATA = {
       "days": [
         {
           "platform": "babitalk",
+          "date": "2026-11-01",
+          "status": "partial",
+          "auditState": "source-availability-blocked",
+          "checkedAt": "2026-11-02T02:11:19.904Z",
+          "qaAuditCheckedAt": "2026-11-02T02:11:19.904Z",
+          "cutoffAt": "2026-11-01T23:59:59+09:00",
+          "eligibleRooms": null,
+          "messageCount": null,
+          "customerMessages": null,
+          "staffMessages": null,
+          "autoMessages": null,
+          "systemMessages": null,
+          "deletedMessages": null,
+          "reviewedRooms": 0,
+          "verdicts": null,
+          "countries": [],
+          "cases": [],
+          "casesComplete": false,
+          "reviewEntries": [],
+          "conversations": [],
+          "issues": [],
+          "followUps": [],
+          "reviewScope": "회고적 대상일 전체 창의 수집 가능성 투영만 작성. 임상 의미·답변누락·첨부·일일 전체 검수 미완료. 후보는 적격 상담 또는 환자 전체가 아님.",
+          "blockedReason": "목록만 확보했으며 본문·대상일 소속·임상 의미 검수 미완료.",
+          "availabilityCoverage": {
+            "targetDate": "2026-11-01",
+            "observedAt": "2026-11-02T02:11:19.904Z",
+            "evidenceScope": "native-list-only",
+            "providerDenominator": null,
+            "actualBodyReviewComplete": false,
+            "observedCandidateCount": 11,
+            "bodyRoomsOpened": 0,
+            "actualBodyDateMembership": "unknown",
+            "reason": "목록 후보 코호트만 관찰. 본문 미열람으로 대상일 상담 소속과 전체 분모는 미확인.",
+            "safetyNotes": [
+              "새 읽지않음·대기·고객 최종 또는 안전 불명 방을 열지 않는 읽기 전용 수집 한계. 발송·읽음·완료·메모·예약 상태 변경 없음.",
+              "원문·번역은 제한 원장 링크로만 제공. 첨부 내부 미검수. 후속 처리 상태는 변경하지 않음."
+            ],
+            "exclusionNotes": [
+              "후보 수는 두 날짜에 유지한 코호트이며 당일 적격 상담 수·환자 수·전체 분모가 아님.",
+              "표시 분 시각의 초 00은 직렬화 관례이며 보이지 않은 시각·발신·질문·답변을 추정하지 않음.",
+              "목록 최종 활동일은 활동 힌트일 뿐 전체 대화와 대상일 본문 소속은 미확인."
+            ]
+          },
+          "qaAuditPrivacy": "restricted-originals",
+          "qaAuditRecords": [
+            {
+              "id": "MISS-B-20261101-001",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A289:AF289",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-B-20261101-002",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A290:AF290",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-B-20261101-003",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A291:AF291",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-B-20261101-004",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A292:AF292",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-B-20261101-005",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A293:AF293",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-B-20261101-006",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A294:AF294",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-B-20261101-007",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A295:AF295",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-B-20261101-008",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A296:AF296",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-B-20261101-009",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A297:AF297",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-B-20261101-010",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A298:AF298",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-B-20261101-011",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A299:AF299",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-01",
+              "hasOriginal": false
+            }
+          ]
+        },
+        {
+          "platform": "babitalk",
+          "date": "2026-10-31",
+          "status": "partial",
+          "auditState": "source-availability-blocked",
+          "checkedAt": "2026-11-02T02:11:19.904Z",
+          "qaAuditCheckedAt": "2026-11-02T02:11:19.904Z",
+          "cutoffAt": "2026-10-31T23:59:59+09:00",
+          "eligibleRooms": null,
+          "messageCount": null,
+          "customerMessages": null,
+          "staffMessages": null,
+          "autoMessages": null,
+          "systemMessages": null,
+          "deletedMessages": null,
+          "reviewedRooms": 0,
+          "verdicts": null,
+          "countries": [],
+          "cases": [],
+          "casesComplete": false,
+          "reviewEntries": [],
+          "conversations": [],
+          "issues": [],
+          "followUps": [],
+          "reviewScope": "회고적 대상일 전체 창의 수집 가능성 투영만 작성. 임상 의미·답변누락·첨부·일일 전체 검수 미완료. 후보는 적격 상담 또는 환자 전체가 아님.",
+          "blockedReason": "목록만 확보했으며 본문·대상일 소속·임상 의미 검수 미완료.",
+          "availabilityCoverage": {
+            "targetDate": "2026-10-31",
+            "observedAt": "2026-11-02T02:11:19.904Z",
+            "evidenceScope": "native-list-only",
+            "providerDenominator": null,
+            "actualBodyReviewComplete": false,
+            "observedCandidateCount": 11,
+            "bodyRoomsOpened": 0,
+            "actualBodyDateMembership": "unknown",
+            "reason": "목록 후보 코호트만 관찰. 본문 미열람으로 대상일 상담 소속과 전체 분모는 미확인.",
+            "safetyNotes": [
+              "새 읽지않음·대기·고객 최종 또는 안전 불명 방을 열지 않는 읽기 전용 수집 한계. 발송·읽음·완료·메모·예약 상태 변경 없음.",
+              "원문·번역은 제한 원장 링크로만 제공. 첨부 내부 미검수. 후속 처리 상태는 변경하지 않음."
+            ],
+            "exclusionNotes": [
+              "후보 수는 두 날짜에 유지한 코호트이며 당일 적격 상담 수·환자 수·전체 분모가 아님.",
+              "표시 분 시각의 초 00은 직렬화 관례이며 보이지 않은 시각·발신·질문·답변을 추정하지 않음.",
+              "목록 최종 활동일은 활동 힌트일 뿐 전체 대화와 대상일 본문 소속은 미확인."
+            ]
+          },
+          "qaAuditPrivacy": "restricted-originals",
+          "qaAuditRecords": [
+            {
+              "id": "MISS-B-20261031-001",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A218:AF218",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-B-20261031-002",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A219:AF219",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-B-20261031-003",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A220:AF220",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-B-20261031-004",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A221:AF221",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-B-20261031-005",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A222:AF222",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-B-20261031-006",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A223:AF223",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-B-20261031-007",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A224:AF224",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-B-20261031-008",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A225:AF225",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-B-20261031-009",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A226:AF226",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-B-20261031-010",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A227:AF227",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            },
+            {
+              "id": "MISS-B-20261031-011",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "원천 수집 범위만 투영했으며 임상 판정·무오류·답변누락·일일 완료를 확인하지 않음.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=835223805&range=A228:AF228",
+              "scopeNote": "목록 후보만 관찰. 목록 활동일과 미리보기는 대상일 전체 질문·답변 또는 본문 소속의 증거가 아님. 표시된 분 시각만 초 00으로 직렬화하며 초 정밀도를 뜻하지 않음. 인접 메시지 시각을 추정하지 않음. 미디어·발신 불명으로 불확실한 수는 미확인.",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-10-31",
+              "hasOriginal": false
+            }
+          ]
+        },
+        {
+          "platform": "babitalk",
           "date": "2026-10-30",
           "status": "partial",
           "auditState": "partial-history-unopened-date-unknown",
@@ -7243,5 +15589,9 @@ window.SUPERVISION_DATA = {
         }
       ]
     }
+  },
+  "reportingCoverage": {
+    "startDate": "2026-10-29",
+    "endDate": "2026-11-01"
   }
 };
