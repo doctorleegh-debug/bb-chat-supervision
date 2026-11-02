@@ -10,8 +10,8 @@
   <meta name="description" content="비식별 상담 발췌와 판단 근거를 날짜별로 확인하는 상담 품질 감독 대시보드">
   <title>상담 품질 감독 | Daily Review</title>
   <link rel="stylesheet" href="./styles.css?v=270d05d907aa">
-  <script defer src="./data.js?v=de586474c9c3"></script>
-  <script defer src="./app.js?v=9b56a352ee67"></script>
+  <script defer src="./data.js?v=4d67329cfb01"></script>
+  <script defer src="./app.js?v=d0328d871c13"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">본문으로 이동</a>
@@ -66,7 +66,7 @@
       <div id="final-overview" class="final-overview" hidden></div>
       <div id="overview-cards" class="overview-grid">
         <article class="card verdict-card"><div class="card-heading"><h3>판정 분포</h3><span class="pill">상담별 대표판정</span></div><p class="helper">상담별 대표판정입니다.</p><div id="verdict-chart"></div></article>
-        <article class="card message-card"><div class="card-heading"><h3>메시지 구성</h3><span class="pill teal">자동안내추정 별도</span></div><div id="message-breakdown"></div><p class="helper bottom-note">병원답변은 개별 담당자를 확인한 수치가 아닙니다. 자동안내추정은 문구 패턴 기반 분류이며 실제 봇 응답으로 확정하지 않습니다. 시스템·삭제 메시지는 제공된 경우 별도로 표시합니다.</p></article>
+        <article class="card message-card"><div class="card-heading"><h3>메시지 구성</h3><span class="pill teal">자동안내 별도</span></div><div id="message-breakdown"></div><p class="helper bottom-note">병원답변은 담당자별 수치가 아닙니다. 자동안내는 문구 패턴으로 분류했습니다. 시스템·삭제 메시지는 제공된 경우 별도로 표시합니다.</p></article>
       </div>
       <article id="report-knowledge-card" class="card knowledge-card" aria-labelledby="report-knowledge-title"><h3 id="report-knowledge-title">지식기반 재검증</h3><div id="report-knowledge"></div></article>
       <article id="report-followup-card" class="card followup-card" aria-labelledby="report-followup-title"><h3 id="report-followup-title">이전 지적사항 처리현황</h3><div id="report-followups"></div></article>
@@ -81,14 +81,14 @@
     </section>
     <section hidden id="countries" class="section" aria-labelledby="countries-title">
       <div class="section-heading"><div><span class="eyebrow">BY COUNTRY</span><h2 id="countries-title">국가별 검토 현황</h2></div><span id="country-basis" class="section-caption">워크북의 국가 탭 기준</span></div>
-      <div class="card country-card"><p id="country-classification-note" class="helper">국가 분류는 운영 탭 기준이며 고객의 국적을 의미하지 않습니다. 기타·미확인은 국적을 추정하지 않습니다.</p><div id="country-tabs" class="country-tabs" role="tablist" aria-label="국가 탭"></div><div id="country-panel" class="country-panel" role="tabpanel" tabindex="0"></div></div>
+      <div class="card country-card"><p id="country-classification-note" class="helper">국가 분류는 운영 탭 기준입니다. 국적 정보가 없는 상담은 기타·미확인에 넣었습니다.</p><div id="country-tabs" class="country-tabs" role="tablist" aria-label="국가 탭"></div><div id="country-panel" class="country-panel" role="tabpanel" tabindex="0"></div></div>
       <div id="country-review-audit" class="card table-card" hidden></div>
       <section id="inquiry-language-section" class="card inquiry-language-section" aria-labelledby="inquiry-language-title" hidden>
-        <div class="card-heading"><h3 id="inquiry-language-title">문의언어 기준 분류(추정)</h3><span id="inquiry-language-status" class="badge partial" role="status"></span></div>
+        <div class="card-heading"><h3 id="inquiry-language-title">문의언어 기준 분류</h3><span id="inquiry-language-status" class="badge partial" role="status"></span></div>
         <p id="inquiry-language-method" class="helper"></p>
         <p id="inquiry-language-nationality" class="helper language-nationality-note"></p>
         <div id="inquiry-language-coverage"></div>
-        <div id="inquiry-language-tabs" class="country-tabs" role="tablist" aria-label="문의언어 분류(추정)"></div>
+        <div id="inquiry-language-tabs" class="country-tabs" role="tablist" aria-label="문의언어 분류"></div>
         <div id="inquiry-language-panel" role="tabpanel" tabindex="0"></div>
       </section>
     </section>
@@ -114,7 +114,7 @@
       <article id="stats-followup-card" class="card followup-card" aria-labelledby="stats-followup-title"><h3 id="stats-followup-title">이전 지적사항 처리현황</h3><div id="stats-followups"></div></article>
       <article class="card stats-trend-card" aria-labelledby="stats-trend-title"><div class="card-heading"><h3 id="stats-trend-title">일별 검토 추이</h3><span id="stats-trend-pill" class="pill">상담방 수</span></div><p id="stats-trend-help" class="helper">게시된 실제 날짜만 표시합니다. 하루당 한 점이며, 부분 집계는 해당 시점의 값입니다.</p><div id="stats-trend"></div></article>
       <div id="stats-grid" class="overview-grid">
-        <article class="card" aria-labelledby="stats-country-title"><div class="card-heading"><h3 id="stats-country-title">국가별 분포</h3></div><div id="stats-country-tabs" class="country-tabs" role="tablist" aria-label="국가 분포 단위"><button id="stats-country-rooms" type="button" role="tab" aria-controls="stats-country-panel">상담방</button><button id="stats-country-messages" type="button" role="tab" aria-controls="stats-country-panel">메시지</button></div><div id="stats-country-panel" role="tabpanel" tabindex="0"></div><p id="stats-country-basis-note" class="helper bottom-note">운영 국가 탭 기준이며 국적을 추정하지 않습니다. 분포 비율은 제공된 국가 행 합계 기준입니다.</p></article>
+        <article class="card" aria-labelledby="stats-country-title"><div class="card-heading"><h3 id="stats-country-title">국가별 분포</h3></div><div id="stats-country-tabs" class="country-tabs" role="tablist" aria-label="국가 분포 단위"><button id="stats-country-rooms" type="button" role="tab" aria-controls="stats-country-panel">상담방</button><button id="stats-country-messages" type="button" role="tab" aria-controls="stats-country-panel">메시지</button></div><div id="stats-country-panel" role="tabpanel" tabindex="0"></div><p id="stats-country-basis-note" class="helper bottom-note">운영 국가 탭 기준입니다. 분포 비율은 제공된 국가 행 합계 기준입니다.</p></article>
         <article class="card" aria-labelledby="stats-verdict-title"><div class="card-heading"><h3 id="stats-verdict-title">상담방 대표판정 분포</h3><span id="stats-verdict-pill" class="pill">사례 건수 아님</span></div><div id="stats-verdicts"></div><p id="stats-verdict-note" class="helper bottom-note">한 상담방당 한 대표판정입니다. 확인필요·의심·자료충돌을 확정 오류에 합산하지 않습니다.</p></article>
       </div>
       <article id="stats-staff-card" class="card stats-staff-card" aria-labelledby="stats-staff-title"><h3 id="stats-staff-title">병원답변 집계</h3><p id="stats-staff-help" class="helper">담당자 식별정보가 없어 단일 그룹으로 표시합니다. 사례는 선택일의 실제 검수 범위 기준이며 개인별 성과·응답시간을 뜻하지 않습니다.</p><div id="stats-staff"></div></article>
