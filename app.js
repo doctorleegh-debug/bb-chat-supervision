@@ -125,7 +125,7 @@ function validateQaMergedTargets(days) {
   const consultsOf=f=>f.overlay.exchanges.filter(e=>e.verdict!=='auto');
   const sortExchanges=list=>[...list].sort((a,b)=>verdictOrder.indexOf(a.verdict)-verdictOrder.indexOf(b.verdict));
   function noActivityLine(day){const n=day.coverage?.candidateRooms;return platformName()+(selectedPlatform==='babitalk'?' 해외 채팅상담':'')+' 목록 '+(suppliedNumber(n)?fmt(n)+'방':'')+' 확인 · 대화 없음';}
-  function finalSummaryLine(day,f){const s=f.stats;if(f.noActivity)return day.date+' · '+noActivityLine(day);if(s.exchanges)return day.date+' · 확인한 상담 '+fmt(s.exchanges)+'건 · '+(s.flagged?'지적 '+fmt(s.flagged)+'건':'지적 없음');return day.date+(s.byVerdict.auto?' · 자동 알림만 있고 확인할 상담이 없습니다':' · 읽지 않은 새 채팅 메시지만 있어 확인한 상담이 없습니다');}
+  function finalSummaryLine(day,f){const s=f.stats;if(f.noActivity)return day.date+' · '+noActivityLine(day);if(s.exchanges)return day.date+' · 확인한 상담 '+fmt(s.exchanges)+'건 · '+(s.flagged?'지적 '+fmt(s.flagged)+'건':'지적 없음');return day.date+(s.byVerdict.auto?' · 자동 알림만 있고 확인할 상담이 없습니다':(!s.unavailable&&s.mergedOut?' · 이 날짜 기록은 모두 다른 날짜 상담 카드에 합쳐져 있습니다':' · 읽지 않은 새 채팅 메시지만 있어 확인한 상담이 없습니다'));}
   // Static layout swaps for the consultation-unit report; restored before every legacy render.
   const staticDefaults=new Map();let caseTabsReordered=false;
   function setStatic(id,next){const el=$(id);if(!staticDefaults.has(id))staticDefaults.set(id,{hidden:el.hidden});const saved=staticDefaults.get(id);if(Object.hasOwn(next,'text')){if(!Object.hasOwn(saved,'text'))saved.text=el.textContent;el.textContent=next.text;}if(Object.hasOwn(next,'hidden'))el.hidden=next.hidden;}
