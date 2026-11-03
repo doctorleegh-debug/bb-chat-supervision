@@ -63,7 +63,7 @@ window.SUPERVISION_DATA = {
         "accountVerified": true,
         "inboxVerified": true,
         "auditDate": "2026-11-02",
-        "summary": "2026-11-02 · 대화 본문 미확보",
+        "summary": "2026-11-02 · 읽지 않은 새 채팅 메시지",
         "limit": "대화 본문을 확보한 상담만 포함합니다."
       }
     ]
@@ -590,7 +590,7 @@ window.SUPERVISION_DATA = {
           "conversations": [],
           "issues": [],
           "followUps": [],
-          "reviewScope": "강남언니 채팅 전체 탭에서 마지막 활동이 11월 2일·3일인 44방 중 마지막 발신이 직원인 42방을 열어 상담 카드 44건으로 판정했다. 원문 미확보 8건은 미확인이다.",
+          "reviewScope": "강남언니 채팅 전체 탭에서 마지막 활동이 11월 2일·3일인 44방 중 마지막 발신이 직원인 42방을 열어 상담 카드 44건으로 판정했다. 읽지 않은 새 채팅 메시지 8건은 판정하지 않았다. 이 날짜의 전체 상담 수는 미확인이다.",
           "availabilityCoverage": {
             "targetDate": "2026-11-02",
             "observedAt": "2026-11-03T00:17:36.444Z",
@@ -606,8 +606,8 @@ window.SUPERVISION_DATA = {
               "원문과 한국어 번역은 제한 원장 행에 보관하고 공개 카드에는 개인정보를 가린 원문만 둔다."
             ],
             "exclusionNotes": [
-              "고객 응대를 기다리는 2방은 열지 않았다.",
-              "열었을 때 읽지 않은 새 메시지 표시가 있던 6방은 내용을 쓰지 않았다."
+              "답변 전 새 채팅 메시지가 있는 2방은 열지 않았다.",
+              "읽지 않은 새 채팅 메시지가 있던 6방은 내용을 판정에 쓰지 않았다."
             ]
           },
           "qaAuditPrivacy": "restricted-originals",
@@ -1819,9 +1819,9 @@ window.SUPERVISION_DATA = {
                 "lastAt": null
               },
               "verdict": "unreviewed",
-              "reason": "고객이 마지막으로 보낸 메시지에 응대를 기다리는 방이라 열지 않았다.",
+              "reason": "답변 전 새 채팅 메시지라 열지 않았다.",
               "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=1423091882&range=A104:N104",
-              "scopeNote": "대화 본문을 확보하지 못해 판정하지 않았다.",
+              "scopeNote": "답변 전 새 채팅 메시지라 열지 않았다.",
               "recordKind": "unread-candidate",
               "targetDayState": "unknown",
               "targetDate": "2026-11-02",
@@ -1846,9 +1846,9 @@ window.SUPERVISION_DATA = {
                 "lastAt": null
               },
               "verdict": "unreviewed",
-              "reason": "고객이 마지막으로 보낸 메시지에 응대를 기다리는 방이라 열지 않았다.",
+              "reason": "답변 전 새 채팅 메시지라 열지 않았다.",
               "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=1423091882&range=A105:N105",
-              "scopeNote": "대화 본문을 확보하지 못해 판정하지 않았다.",
+              "scopeNote": "답변 전 새 채팅 메시지라 열지 않았다.",
               "recordKind": "unread-candidate",
               "targetDayState": "unknown",
               "targetDate": "2026-11-02",
@@ -1873,9 +1873,9 @@ window.SUPERVISION_DATA = {
                 "lastAt": null
               },
               "verdict": "unreviewed",
-              "reason": "열었을 때 읽지 않은 새 메시지 표시가 있어 내용을 쓰지 않았다.",
+              "reason": "읽지 않은 새 채팅 메시지가 있어 내용을 판정에 쓰지 않았다.",
               "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=1423091882&range=A106:N106",
-              "scopeNote": "대화 본문을 확보하지 못해 판정하지 않았다.",
+              "scopeNote": "읽지 않은 새 채팅 메시지가 있어 내용을 판정에 쓰지 않았다.",
               "recordKind": "unread-candidate",
               "targetDayState": "unknown",
               "targetDate": "2026-11-02",
@@ -1900,9 +1900,9 @@ window.SUPERVISION_DATA = {
                 "lastAt": null
               },
               "verdict": "unreviewed",
-              "reason": "열었을 때 읽지 않은 새 메시지 표시가 있어 내용을 쓰지 않았다.",
+              "reason": "읽지 않은 새 채팅 메시지가 있어 내용을 판정에 쓰지 않았다.",
               "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=1423091882&range=A107:N107",
-              "scopeNote": "대화 본문을 확보하지 못해 판정하지 않았다.",
+              "scopeNote": "읽지 않은 새 채팅 메시지가 있어 내용을 판정에 쓰지 않았다.",
               "recordKind": "unread-candidate",
               "targetDayState": "unknown",
               "targetDate": "2026-11-02",
@@ -1927,9 +1927,9 @@ window.SUPERVISION_DATA = {
                 "lastAt": null
               },
               "verdict": "unreviewed",
-              "reason": "열었을 때 읽지 않은 새 메시지 표시가 있어 내용을 쓰지 않았다.",
+              "reason": "읽지 않은 새 채팅 메시지가 있어 내용을 판정에 쓰지 않았다.",
               "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=1423091882&range=A108:N108",
-              "scopeNote": "대화 본문을 확보하지 못해 판정하지 않았다.",
+              "scopeNote": "읽지 않은 새 채팅 메시지가 있어 내용을 판정에 쓰지 않았다.",
               "recordKind": "unread-candidate",
               "targetDayState": "unknown",
               "targetDate": "2026-11-02",
@@ -1954,9 +1954,9 @@ window.SUPERVISION_DATA = {
                 "lastAt": null
               },
               "verdict": "unreviewed",
-              "reason": "열었을 때 읽지 않은 새 메시지 표시가 있어 내용을 쓰지 않았다.",
+              "reason": "읽지 않은 새 채팅 메시지가 있어 내용을 판정에 쓰지 않았다.",
               "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=1423091882&range=A109:N109",
-              "scopeNote": "대화 본문을 확보하지 못해 판정하지 않았다.",
+              "scopeNote": "읽지 않은 새 채팅 메시지가 있어 내용을 판정에 쓰지 않았다.",
               "recordKind": "unread-candidate",
               "targetDayState": "unknown",
               "targetDate": "2026-11-02",
@@ -1981,9 +1981,9 @@ window.SUPERVISION_DATA = {
                 "lastAt": null
               },
               "verdict": "unreviewed",
-              "reason": "열었을 때 읽지 않은 새 메시지 표시가 있어 내용을 쓰지 않았다.",
+              "reason": "읽지 않은 새 채팅 메시지가 있어 내용을 판정에 쓰지 않았다.",
               "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=1423091882&range=A110:N110",
-              "scopeNote": "대화 본문을 확보하지 못해 판정하지 않았다.",
+              "scopeNote": "읽지 않은 새 채팅 메시지가 있어 내용을 판정에 쓰지 않았다.",
               "recordKind": "unread-candidate",
               "targetDayState": "unknown",
               "targetDate": "2026-11-02",
@@ -2008,9 +2008,9 @@ window.SUPERVISION_DATA = {
                 "lastAt": null
               },
               "verdict": "unreviewed",
-              "reason": "열었을 때 읽지 않은 새 메시지 표시가 있어 내용을 쓰지 않았다.",
+              "reason": "읽지 않은 새 채팅 메시지가 있어 내용을 판정에 쓰지 않았다.",
               "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=1423091882&range=A111:N111",
-              "scopeNote": "대화 본문을 확보하지 못해 판정하지 않았다.",
+              "scopeNote": "읽지 않은 새 채팅 메시지가 있어 내용을 판정에 쓰지 않았다.",
               "recordKind": "unread-candidate",
               "targetDayState": "unknown",
               "targetDate": "2026-11-02",
@@ -3382,14 +3382,14 @@ window.SUPERVISION_DATA = {
               ],
               "reasons": [
                 {
-                  "reason": "고객이 마지막으로 보낸 메시지에 응대를 기다리는 방이라 열지 않았다.",
+                  "reason": "답변 전 새 채팅 메시지라 열지 않았다.",
                   "recordIds": [
                     "G-20261102-U01",
                     "G-20261102-U02"
                   ]
                 },
                 {
-                  "reason": "열었을 때 읽지 않은 새 메시지 표시가 있어 내용을 쓰지 않았다.",
+                  "reason": "읽지 않은 새 채팅 메시지가 있어 내용을 판정에 쓰지 않았다.",
                   "recordIds": [
                     "G-20261102-U03",
                     "G-20261102-U04",
@@ -16026,7 +16026,7 @@ window.SUPERVISION_DATA = {
           "conversations": [],
           "issues": [],
           "followUps": [],
-          "reviewScope": "카카오 '전체 상담' 목록에서 마지막 활동일이 11월 2일인 48방 중 46방을 읽기 전용으로 열어 상담 카드 58건으로 판정했다. 원문 미확보 3건은 미확인이다.",
+          "reviewScope": "카카오 '전체 상담' 목록에서 마지막 활동일이 11월 2일인 48방 중 46방을 읽기 전용으로 열어 상담 카드 58건으로 판정했다. 읽지 않은 새 채팅 메시지 3건은 판정하지 않았다. 이 날짜의 전체 상담 수는 미확인이다.",
           "availabilityCoverage": {
             "targetDate": "2026-11-02",
             "observedAt": "2026-11-02T23:58:14.310Z",
@@ -16042,8 +16042,8 @@ window.SUPERVISION_DATA = {
               "원문과 한국어 번역은 제한 원장 행에 보관하고 공개 카드에는 개인정보를 가린 원문만 둔다."
             ],
             "exclusionNotes": [
-              "읽지 않은 새 채팅 배지가 있는 2방은 열지 않았다.",
-              "마지막 활동이 11월 3일이고 배지가 있는 1방은 열지 않았다."
+              "읽지 않은 새 채팅 메시지가 있는 2방은 열지 않았다.",
+              "마지막 활동이 11월 3일인 읽지 않은 새 채팅 메시지 1방은 열지 않았다."
             ]
           },
           "qaAuditPrivacy": "restricted-originals",
@@ -17633,9 +17633,9 @@ window.SUPERVISION_DATA = {
                 "lastAt": null
               },
               "verdict": "unreviewed",
-              "reason": "읽지 않은 새 채팅 배지가 있어 열지 않았다.",
+              "reason": "읽지 않은 새 채팅 메시지라 열지 않았다.",
               "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=1423091882&range=A112:N112",
-              "scopeNote": "대화 본문을 확보하지 못해 판정하지 않았다.",
+              "scopeNote": "읽지 않은 새 채팅 메시지라 열지 않았다.",
               "recordKind": "unread-candidate",
               "targetDayState": "unknown",
               "targetDate": "2026-11-02",
@@ -17660,9 +17660,9 @@ window.SUPERVISION_DATA = {
                 "lastAt": null
               },
               "verdict": "unreviewed",
-              "reason": "읽지 않은 새 채팅 배지가 있어 열지 않았다.",
+              "reason": "읽지 않은 새 채팅 메시지라 열지 않았다.",
               "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=1423091882&range=A113:N113",
-              "scopeNote": "대화 본문을 확보하지 못해 판정하지 않았다.",
+              "scopeNote": "읽지 않은 새 채팅 메시지라 열지 않았다.",
               "recordKind": "unread-candidate",
               "targetDayState": "unknown",
               "targetDate": "2026-11-02",
@@ -17687,9 +17687,9 @@ window.SUPERVISION_DATA = {
                 "lastAt": null
               },
               "verdict": "unreviewed",
-              "reason": "마지막 활동이 11월 3일이고 읽지 않은 새 채팅 배지가 있어 열지 않았다.",
+              "reason": "마지막 활동이 11월 3일인 읽지 않은 새 채팅 메시지라 열지 않았다.",
               "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=1423091882&range=A114:N114",
-              "scopeNote": "대화 본문을 확보하지 못해 판정하지 않았다.",
+              "scopeNote": "마지막 활동이 11월 3일인 읽지 않은 새 채팅 메시지라 열지 않았다.",
               "recordKind": "unread-candidate",
               "targetDayState": "unknown",
               "targetDate": "2026-11-02",
@@ -19612,14 +19612,14 @@ window.SUPERVISION_DATA = {
               ],
               "reasons": [
                 {
-                  "reason": "읽지 않은 새 채팅 배지가 있어 열지 않았다.",
+                  "reason": "읽지 않은 새 채팅 메시지라 열지 않았다.",
                   "recordIds": [
                     "K-20261102-U01",
                     "K-20261102-U02"
                   ]
                 },
                 {
-                  "reason": "마지막 활동이 11월 3일이고 읽지 않은 새 채팅 배지가 있어 열지 않았다.",
+                  "reason": "마지막 활동이 11월 3일인 읽지 않은 새 채팅 메시지라 열지 않았다.",
                   "recordIds": [
                     "K-20261102-U03"
                   ]
@@ -27611,7 +27611,7 @@ window.SUPERVISION_DATA = {
           "conversations": [],
           "issues": [],
           "followUps": [],
-          "reviewScope": "바비톡 해외 채팅상담 전체 목록 11방 중 11월 2일에 활동한 5방을 확인했다. 새 상담 2방은 읽지 않은 새 채팅이라 미확인이고, 열어 본 3방의 11월 2일 메시지는 11월 1일 상담 카드의 후속 응대다.",
+          "reviewScope": "바비톡 해외 채팅상담 전체 목록 11방 중 11월 2일에 활동한 5방을 확인했다. 새 상담 2방은 읽지 않은 새 채팅 메시지가 있어 열지 않았고, 열어 본 3방의 11월 2일 메시지는 11월 1일 상담 카드의 후속 응대다. 이 날짜의 전체 상담 수는 미확인이다.",
           "availabilityCoverage": {
             "targetDate": "2026-11-02",
             "observedAt": "2026-11-03T00:11:46.073Z",
@@ -27627,7 +27627,7 @@ window.SUPERVISION_DATA = {
               "원문과 한국어 번역은 제한 원장 행에 보관하고 공개 카드에는 개인정보를 가린 원문만 둔다."
             ],
             "exclusionNotes": [
-              "11월 2일에 새로 시작된 2방은 읽지 않은 새 채팅 배지가 있어 열지 않았다."
+              "11월 2일에 새로 시작된 2방은 읽지 않은 새 채팅 메시지가 있어 열지 않았다."
             ]
           },
           "qaAuditPrivacy": "restricted-originals",
@@ -27732,9 +27732,9 @@ window.SUPERVISION_DATA = {
                 "lastAt": null
               },
               "verdict": "unreviewed",
-              "reason": "11월 2일에 시작된 새 상담이며 읽지 않은 새 채팅 배지가 있어 열지 않았다.",
+              "reason": "11월 2일에 시작된 새 채팅이며 읽지 않은 새 채팅 메시지라 열지 않았다.",
               "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=1423091882&range=A115:N115",
-              "scopeNote": "대화 본문을 확보하지 못해 판정하지 않았다.",
+              "scopeNote": "11월 2일에 시작된 새 채팅이며 읽지 않은 새 채팅 메시지라 열지 않았다.",
               "recordKind": "unread-candidate",
               "targetDayState": "unknown",
               "targetDate": "2026-11-02",
@@ -27759,9 +27759,9 @@ window.SUPERVISION_DATA = {
                 "lastAt": null
               },
               "verdict": "unreviewed",
-              "reason": "11월 2일에 시작된 새 상담이며 읽지 않은 새 채팅 배지가 있어 열지 않았다.",
+              "reason": "11월 2일에 시작된 새 채팅이며 읽지 않은 새 채팅 메시지라 열지 않았다.",
               "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=1423091882&range=A116:N116",
-              "scopeNote": "대화 본문을 확보하지 못해 판정하지 않았다.",
+              "scopeNote": "11월 2일에 시작된 새 채팅이며 읽지 않은 새 채팅 메시지라 열지 않았다.",
               "recordKind": "unread-candidate",
               "targetDayState": "unknown",
               "targetDate": "2026-11-02",
@@ -27798,7 +27798,7 @@ window.SUPERVISION_DATA = {
               ],
               "reasons": [
                 {
-                  "reason": "11월 2일에 시작된 새 상담이며 읽지 않은 새 채팅 배지가 있어 열지 않았다.",
+                  "reason": "11월 2일에 시작된 새 채팅이며 읽지 않은 새 채팅 메시지라 열지 않았다.",
                   "recordIds": [
                     "B-20261102-U01",
                     "B-20261102-U02"
