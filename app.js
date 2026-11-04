@@ -41,6 +41,11 @@
 function sanitizeApprovedPublicContactsForPrivacy(value) {
   const approved = new Set([
     'https://tw.beautyblossom.kr/22',
+    'https://tw.beautyblossom.kr/72',
+    'https://tw.beautyblossom.kr/73',
+    'https://naver.me/*ap1E0ph', // 실제 병원 원문에 포함된 오기 링크. 정상 작동을 뜻하지 않는다.
+    'https://iii.ad/810b28', // 실제 병원 지도 단축링크, URL 존재하지 않음 확인.
+    'https://beautyblossom.kr/22/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=173373461&t=board',
     'https://naver.me/5ap1E0ph',
     'https://maps.app.goo.gl/kNTF1bYCqKdDFiHg9',
     'https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8',
