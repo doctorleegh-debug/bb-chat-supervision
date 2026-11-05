@@ -43,10 +43,13 @@ function sanitizeApprovedPublicContactsForPrivacy(value) {
     'https://tw.beautyblossom.kr/22',
     'https://tw.beautyblossom.kr/72',
     'https://tw.beautyblossom.kr/73',
+    'https://tw.beautyblossom.kr/42', // 11/5 실제 ONDA 공식 소개 페이지 확인.
     'https://naver.me/*ap1E0ph', // 실제 병원 원문에 포함된 오기 링크. 정상 작동을 뜻하지 않는다.
     'https://iii.ad/810b28', // 실제 병원 지도 단축링크, URL 존재하지 않음 확인.
     'https://beautyblossom.kr/22/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=173373461&t=board',
     'https://naver.me/5ap1E0ph',
+    'https://naver.me/x7nICmp3', // 11/5 실제 뷰티블라썸의원 지도·주소 대조.
+    'https://share.google/ULRwTEVm9PHDQ2mFr', // 11/5 실제 병원 검색 목적지 확인.
     'https://maps.app.goo.gl/kNTF1bYCqKdDFiHg9',
     'https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8',
     'https://beautyblossom.imweb.me/112' // 병원 공식 시술 후 주의사항 안내 페이지(카카오 자동 안내)
