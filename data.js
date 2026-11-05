@@ -1768,8 +1768,8 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-04",
-                    "original": "Hello,\nI would like to ask if you have any availability [예약일 가림] for Botox treatment in my forehead and masseter muscles.\n\nI’m sorry for the very short notice, but unfortunately [예약일 가림] is the only day I‘m  available.\n\nI would really appreciate it if you could let me know whether an appointment might be possible.\n\nThank you so much!",
-                    "ko": "안녕하세요,\n[예약일 가림]에 이마와 교근 보톡스 시술을 받을 수 있는 시간이 있는지 여쭤보고 싶습니다.\n\n너무 급하게 연락드려 죄송하지만, 안타깝게도 제가 가능한 날은 [예약일 가림]뿐입니다.\n\n예약이 가능할지 알려주시면 정말 감사하겠습니다.\n\n정말 감사합니다!"
+                    "original": "Hello,\nI would like to ask if you have any availability tomorrow for Botox treatment in my forehead and masseter muscles.\n\nI’m sorry for the very short notice, but unfortunately tomorrow is the only day I‘m  available.\n\nI would really appreciate it if you could let me know whether an appointment might be possible.\n\nThank you so much!",
+                    "ko": "안녕하세요,\n내일에 이마와 교근 보톡스 시술을 받을 수 있는 시간이 있는지 여쭤보고 싶습니다.\n\n너무 급하게 연락드려 죄송하지만, 안타깝게도 제가 가능한 날은 내일뿐입니다.\n\n예약이 가능할지 알려주시면 정말 감사하겠습니다.\n\n정말 감사합니다!"
                   },
                   {
                     "date": "2026-11-04",
@@ -1785,8 +1785,8 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-04",
-                    "original": "Hello, this is Beauty Blossom Clinic! 😊\n\nOf course! We have availability for [예약일 가림]! 💕\n\nHowever, we have many appointments scheduled at [예약시각 가림] AM and [예약시각 가림] AM, so waiting times may be longer during those hours. We would recommend choosing another time if possible.\nWe can accommodate your treatment smoothly as long as you arrive before [예약시각 가림] PM.\n\nMay we ask what time would be most convenient for you? 😊\n\nand also for the cost,\n\n🌸 Wrinkle Botox – Price per Area\n\n▪️ Korean Botox: 32,900 KRW\n▪️ Coretox: 42,900 KRW\n▪️ Xeomin: 77,000 KRW\n▪️ Allergan: 99,000 KRW\n\n🌸 Masseter (Jawline) Botox – 50 Units\n\n▪️ Korean Botox: 43,500 KRW\n▪️ Coretox: 73,700 KRW\n▪️ Xeomin: 143,000 KRW\n▪️ Allergan: 197,000 KRW\n\n💕 All prices include VAT and are the final payment amounts.\n\nIf you have any questions or would like to make an appointment, please feel free to contact us!\n\nThank you! 🌸",
-                    "ko": "안녕하세요, 뷰티블라썸의원입니다! 😊\n\n물론입니다! [예약일 가림]에 예약 가능한 시간이 있습니다! 💕\n\n다만 오전 [예약시각 가림]과 오전 [예약시각 가림]에는 예약이 많아 해당 시간대에는 대기 시간이 길어질 수 있습니다. 가능하시다면 다른 시간을 선택하시기를 권해 드립니다.\n오후 [예약시각 가림] 이전에 도착하시면 시술을 원활히 도와드릴 수 있습니다.\n\n어느 시간이 가장 편하신지 여쭤봐도 될까요? 😊\n\n그리고 비용도 안내드립니다.\n\n🌸 주름 보톡스 – 부위당 가격\n\n▪️ 국산 보톡스: 32,900원\n▪️ 코어톡스: 42,900원\n▪️ 제오민: 77,000원\n▪️ 앨러간: 99,000원\n\n🌸 교근(턱선) 보톡스 – 50유닛\n\n▪️ 국산 보톡스: 43,500원\n▪️ 코어톡스: 73,700원\n▪️ 제오민: 143,000원\n▪️ 앨러간: 197,000원\n\n💕 모든 가격은 부가세가 포함된 최종 결제 금액입니다.\n\n궁금하신 점이 있거나 예약을 원하시면 편하게 연락해 주세요!\n\n감사합니다! 🌸"
+                    "original": "Hello, this is Beauty Blossom Clinic! 😊\n\nOf course! We have availability for tomorrow! 💕\n\nHowever, we have many appointments scheduled at 10:00 AM and 11:00 AM, so waiting times may be longer during those hours. We would recommend choosing another time if possible.\nWe can accommodate your treatment smoothly as long as you arrive before 7:00 PM.\n\nMay we ask what time would be most convenient for you? 😊\n\nand also for the cost,\n\n🌸 Wrinkle Botox – Price per Area\n\n▪️ Korean Botox: 32,900 KRW\n▪️ Coretox: 42,900 KRW\n▪️ Xeomin: 77,000 KRW\n▪️ Allergan: 99,000 KRW\n\n🌸 Masseter (Jawline) Botox – 50 Units\n\n▪️ Korean Botox: 43,500 KRW\n▪️ Coretox: 73,700 KRW\n▪️ Xeomin: 143,000 KRW\n▪️ Allergan: 197,000 KRW\n\n💕 All prices include VAT and are the final payment amounts.\n\nIf you have any questions or would like to make an appointment, please feel free to contact us!\n\nThank you! 🌸",
+                    "ko": "안녕하세요, 뷰티블라썸의원입니다! 😊\n\n물론입니다! 내일에 예약 가능한 시간이 있습니다! 💕\n\n다만 오전 10:00과 오전 11:00에는 예약이 많아 해당 시간대에는 대기 시간이 길어질 수 있습니다. 가능하시다면 다른 시간을 선택하시기를 권해 드립니다.\n오후 7:00 이전에 도착하시면 시술을 원활히 도와드릴 수 있습니다.\n\n어느 시간이 가장 편하신지 여쭤봐도 될까요? 😊\n\n그리고 비용도 안내드립니다.\n\n🌸 주름 보톡스 – 부위당 가격\n\n▪️ 국산 보톡스: 32,900원\n▪️ 코어톡스: 42,900원\n▪️ 제오민: 77,000원\n▪️ 앨러간: 99,000원\n\n🌸 교근(턱선) 보톡스 – 50유닛\n\n▪️ 국산 보톡스: 43,500원\n▪️ 코어톡스: 73,700원\n▪️ 제오민: 143,000원\n▪️ 앨러간: 197,000원\n\n💕 모든 가격은 부가세가 포함된 최종 결제 금액입니다.\n\n궁금하신 점이 있거나 예약을 원하시면 편하게 연락해 주세요!\n\n감사합니다! 🌸"
                   }
                 ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=1230595950&range=A3:N3"
@@ -1915,8 +1915,8 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-04",
-                    "original": "Hello, can I please change my appointment to the [예약일 가림] in the morning?",
-                    "ko": "안녕하세요, 예약을 [예약일 가림] 오전으로 변경할 수 있을까요?"
+                    "original": "Hello, can I please change my appointment to the 8th in the morning?",
+                    "ko": "안녕하세요, 예약을 8일 오전으로 변경할 수 있을까요?"
                   },
                   {
                     "date": "2026-11-04",
@@ -1925,20 +1925,20 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-04",
-                    "original": "[고객명 가림] dob is [생년월일 가림]",
-                    "ko": "[고객명 가림] 생년월일은 [생년월일 가림]입니다"
+                    "original": "Liliene Melinah Phillips dob is [생년월일 가림]",
+                    "ko": "Liliene Melinah Phillips 생년월일은 [생년월일 가림]입니다"
                   }
                 ],
                 "staff": [
                   {
                     "date": "2026-11-04",
-                    "original": "Hi~! Sure [예약시각 가림] would be ok?",
-                    "ko": "안녕하세요~! 물론이죠. [예약시각 가림]은 괜찮으실까요?"
+                    "original": "Hi~! Sure 10am would be ok?",
+                    "ko": "안녕하세요~! 물론이죠. 오전 10시은 괜찮으실까요?"
                   },
                   {
                     "date": "2026-11-04",
-                    "original": "Your appointment has been successfully rescheduled! 😊\nWe look forward to seeing you on [예약일 가림] at [예약시각 가림] AM.\nThank you! 🌸",
-                    "ko": "예약이 성공적으로 변경되었습니다! 😊\n[예약일 가림] 오전 [예약시각 가림]에 뵙기를 기대하겠습니다.\n감사합니다! 🌸"
+                    "original": "Your appointment has been successfully rescheduled! 😊\nWe look forward to seeing you on November 8th at 10:00 AM.\nThank you! 🌸",
+                    "ko": "예약이 성공적으로 변경되었습니다! 😊\n11월 8일 오전 10:00에 뵙기를 기대하겠습니다.\n감사합니다! 🌸"
                   },
                   {
                     "date": "2026-11-04",
@@ -1947,8 +1947,8 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-04",
-                    "original": "Thank you!\nYour reservation has been scheduled for the following date and time:\n\n📅 Day :  [예약일 가림]\n⏰ Time : [예약시각 가림]\n\n📍Location : 66 Yanghwa-ro, Mapo, Seoul, 6F\n\nLink for lo*ation\n* Naver Map : https://naver.me/*ap1E0ph\n* Google : https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 Please bring your Alien Registration Card or Passport with you.\n\nWe look forward to meeting you soon.🥰\n\nThank you 🙂\n\nBeauty Blossom Global Clinic Team🌸",
-                    "ko": "감사합니다!\n예약이 다음 날짜와 시각으로 잡혔습니다:\n\n📅 날짜 :  [예약일 가림]\n⏰ 시각 : [예약시각 가림]\n\n📍위치 : 서울 마포구 양화로 66, 6층\n\n위* 링크\n* 네이버 지도 : https://naver.me/*ap1E0ph\n* 구글 : https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 외국인등록증 또는 여권을 지참해 주세요.\n\n곧 만나 뵙기를 기대하겠습니다.🥰\n\n감사합니다 🙂\n\n뷰티블라썸 글로벌 클리닉 팀🌸"
+                    "original": "Thank you!\nYour reservation has been scheduled for the following date and time:\n\n📅 Day :  8th / November / 2026\n⏰ Time : 10am\n\n📍Location : 66 Yanghwa-ro, Mapo, Seoul, 6F\n\nLink for lo*ation\n* Naver Map : https://naver.me/*ap1E0ph\n* Google : https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 Please bring your Alien Registration Card or Passport with you.\n\nWe look forward to meeting you soon.🥰\n\nThank you 🙂\n\nBeauty Blossom Global Clinic Team🌸",
+                    "ko": "감사합니다!\n예약이 다음 날짜와 시각으로 잡혔습니다:\n\n📅 날짜 :  8일 / 11월 / 2026\n⏰ 시각 : 오전 10시\n\n📍위치 : 서울 마포구 양화로 66, 6층\n\n위* 링크\n* 네이버 지도 : https://naver.me/*ap1E0ph\n* 구글 : https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 외국인등록증 또는 여권을 지참해 주세요.\n\n곧 만나 뵙기를 기대하겠습니다.🥰\n\n감사합니다 🙂\n\n뷰티블라썸 글로벌 클리닉 팀🌸"
                   }
                 ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=1230595950&range=A7:N7"
@@ -1969,8 +1969,8 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-03",
-                    "original": "請問我可以改時間嗎不好意思 我想改早上[예약시각 가림]來得及嗎",
-                    "ko": "죄송하지만 시간을 변경할 수 있을까요? 오전 [예약시각 가림]으로 바꾸고 싶은데 가능할까요?"
+                    "original": "請問我可以改時間嗎不好意思 我想改早上10點來得及嗎",
+                    "ko": "죄송하지만 시간을 변경할 수 있을까요? 오전 10시으로 바꾸고 싶은데 가능할까요?"
                   },
                   {
                     "date": "2026-11-04",
@@ -1981,8 +1981,8 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-11-04",
-                    "original": "要改成[예약일 가림][예약시각 가림]嗎？",
-                    "ko": "[예약일 가림] [예약시각 가림]으로 변경하시려는 건가요?"
+                    "original": "要改成11/30早上十點嗎？",
+                    "ko": "1 1/30早上10시으로 변경하시려는 건가요?"
                   },
                   {
                     "date": "2026-11-04",
@@ -1996,8 +1996,8 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-04",
-                    "original": "🌸 Beauty Blossom 預約完成 ✅\n\n📅 預約日期：[예약일 가림]\n⏰ 預約時間：[예약시각 가림]\n👤 預約人數：1位\n\n📍 診所地址\n首爾特別市麻浦區楊花路66號\nMedione Medical Center 6樓\n（合井站3號出口）\n💡 英文／韓文地址及地圖導航，可至 LINE 選單點選「地址」查看。\n\n📌 來院前請留意\n・來院時請務必攜帶護照，以便辦理登記。\n・如需更改或取消預約，請提前透過 LINE 與我們聯繫。\n・若當天僅進行諮詢、未接受療程，將收取 ₩10,000 諮詢費。\n\n感謝您的預約，期待您的到來💗",
-                    "ko": "🌸 뷰티블라썸 예약 완료 ✅\n\n📅 예약 날짜: [예약일 가림]\n⏰ 예약 시간: [예약시각 가림]\n👤 예약 인원: 1명\n\n📍 클리닉 주소\n서울특별시 마포구 양화로 66\n메디원 메디컬센터 6층\n(합정역 3번 출구)\n💡 영어／한국어 주소와 지도 길찾기는 LINE 메뉴에서 「주소」를 눌러 확인하실 수 있습니다.\n\n📌 내원 전 유의해 주세요\n・접수를 위해 내원 시 반드시 여권을 지참해 주세요.\n・예약 변경이나 취소가 필요하시면 미리 LINE으로 연락해 주세요.\n・당일 상담만 받고 시술을 받지 않으시면 상담료 ₩10,000이 부과됩니다.\n\n예약해 주셔서 감사드리며, 방문을 기다리겠습니다💗"
+                    "original": "🌸 Beauty Blossom 預約完成 ✅\n\n📅 預約日期：11月30日\n⏰ 預約時間：10時00分\n👤 預約人數：1位\n\n📍 診所地址\n首爾特別市麻浦區楊花路66號\nMedione Medical Center 6樓\n（合井站3號出口）\n💡 英文／韓文地址及地圖導航，可至 LINE 選單點選「地址」查看。\n\n📌 來院前請留意\n・來院時請務必攜帶護照，以便辦理登記。\n・如需更改或取消預約，請提前透過 LINE 與我們聯繫。\n・若當天僅進行諮詢、未接受療程，將收取 ₩10,000 諮詢費。\n\n感謝您的預約，期待您的到來💗",
+                    "ko": "🌸 뷰티블라썸 예약 완료 ✅\n\n📅 예약 날짜: 11월 30일\n⏰ 예약 시간: 10시 00분\n👤 예약 인원: 1명\n\n📍 클리닉 주소\n서울특별시 마포구 양화로 66\n메디원 메디컬센터 6층\n(합정역 3번 출구)\n💡 영어／한국어 주소와 지도 길찾기는 LINE 메뉴에서 「주소」를 눌러 확인하실 수 있습니다.\n\n📌 내원 전 유의해 주세요\n・접수를 위해 내원 시 반드시 여권을 지참해 주세요.\n・예약 변경이나 취소가 필요하시면 미리 LINE으로 연락해 주세요.\n・당일 상담만 받고 시술을 받지 않으시면 상담료 ₩10,000이 부과됩니다.\n\n예약해 주셔서 감사드리며, 방문을 기다리겠습니다💗"
                   }
                 ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=1230595950&range=A8:N8"
@@ -2229,8 +2229,8 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-04",
-                    "original": "請問可以延後到[예약시각 가림]嗎？時間不太夠",
-                    "ko": "혹시 [예약시각 가림]으로 늦출 수 있을까요? 시간이 조금 부족해서요"
+                    "original": "請問可以延後到3點嗎？時間不太夠",
+                    "ko": "혹시 3시으로 늦출 수 있을까요? 시간이 조금 부족해서요"
                   },
                   {
                     "date": "2026-11-04",
@@ -2251,13 +2251,13 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-04",
-                    "original": "可以的，為您調整預約時間至今天[예약시각 가림]~",
-                    "ko": "네, 가능합니다. 예약 시간을 오늘 [예약시각 가림]으로 조정해 드릴게요~"
+                    "original": "可以的，為您調整預約時間至今天下午三點~",
+                    "ko": "네, 가능합니다. 예약 시간을 오늘 오후3시으로 조정해 드릴게요~"
                   },
                   {
                     "date": "2026-11-04",
-                    "original": "🌸 Beauty Blossom 預約完成 ✅\n\n📅 預約日期：[예약일 가림]\n⏰ 預約時間：[예약시각 가림]\n👤 預約人數：1位\n\n📍 診所地址\n首爾特別市麻浦區楊花路66號\nMedione Medical Center 6樓\n（合井站3號出口）\n💡 英文／韓文地址及地圖導航，可至 LINE 選單點選「地址」查看。\n\n📌 來院前請留意\n・來院時請務必攜帶護照，以便辦理登記。\n・如需更改或取消預約，請提前透過 LINE 與我們聯繫。\n・若當天僅進行諮詢、未接受療程，將收取 ₩10,000 諮詢費。\n\n感謝您的預約，期待您的到來💗",
-                    "ko": "🌸 Beauty Blossom 예약 완료 ✅\n\n📅 예약 날짜：[예약일 가림]\n⏰ 예약 시간：[예약시각 가림]\n👤 예약 인원：1명\n\n📍 병원 주소\n서울특별시 마포구 양화로66\nMedione Medical Center 6층\n（합정역 3번 출구）\n💡 영문／한글 주소 및 지도 길 안내는 LINE 메뉴에서 「주소」를 눌러 확인하실 수 있습니다.\n\n📌 방문 전 유의 사항\n・방문 시 접수를 위해 반드시 여권을 지참해 주세요.\n・예약 변경 또는 취소가 필요하면 미리 LINE으로 연락해 주세요.\n・당일 상담만 진행하고 시술을 받지 않으시면 ₩10,000의 상담료가 부과됩니다.\n\n예약해 주셔서 감사하며, 방문을 기다리겠습니다💗"
+                    "original": "🌸 Beauty Blossom 預約完成 ✅\n\n📅 預約日期：11月04日\n⏰ 預約時間：15時00分\n👤 預約人數：1位\n\n📍 診所地址\n首爾特別市麻浦區楊花路66號\nMedione Medical Center 6樓\n（合井站3號出口）\n💡 英文／韓文地址及地圖導航，可至 LINE 選單點選「地址」查看。\n\n📌 來院前請留意\n・來院時請務必攜帶護照，以便辦理登記。\n・如需更改或取消預約，請提前透過 LINE 與我們聯繫。\n・若當天僅進行諮詢、未接受療程，將收取 ₩10,000 諮詢費。\n\n感謝您的預約，期待您的到來💗",
+                    "ko": "🌸 Beauty Blossom 예약 완료 ✅\n\n📅 예약 날짜：11월 04일\n⏰ 예약 시간：15시 00분\n👤 예약 인원：1명\n\n📍 병원 주소\n서울특별시 마포구 양화로66\nMedione Medical Center 6층\n（합정역 3번 출구）\n💡 영문／한글 주소 및 지도 길 안내는 LINE 메뉴에서 「주소」를 눌러 확인하실 수 있습니다.\n\n📌 방문 전 유의 사항\n・방문 시 접수를 위해 반드시 여권을 지참해 주세요.\n・예약 변경 또는 취소가 필요하면 미리 LINE으로 연락해 주세요.\n・당일 상담만 진행하고 시술을 받지 않으시면 ₩10,000의 상담료가 부과됩니다.\n\n예약해 주셔서 감사하며, 방문을 기다리겠습니다💗"
                   },
                   {
                     "date": "2026-11-04",
@@ -2408,12 +2408,12 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-03",
-                    "original": "Hello! 😊\n\nI’m visiting [고객 위치 가림] in [방문일 가림] and I’m interested in jawline filler.\n\nI’m looking for a sharper, more masculine jawline with strong, defined angles, especially around the back corners of my jaw, rather than a pointed V-shaped chin.\n\nCould you please tell me:\n\n1. Do you offer filler specifically for the jaw angles (mandibular angles)?\n2. Which filler brands do you recommend for this result?\n3. What is the estimated total cost for treating both sides, including VAT?\n4. Can you share before-and-after photos of male patients with similar results?\n5. Which doctor would perform the procedure, and what experience do they have with masculine jawline contouring?\n6. What emergency procedures and follow-up care do you provide if complications occur?",
-                    "ko": "안녕하세요! 😊\n\n저는 [방문일 가림]에 [고객 위치 가림]을 방문하며 턱선 필러에 관심이 있습니다.\n\n뾰족한 V자형 턱끝보다는 특히 턱 뒤쪽 모서리 부위에 강하고 뚜렷한 각이 있는, 더 날렵하고 남성적인 턱선을 원합니다.\n\n다음 사항을 알려주실 수 있을까요?\n\n1. 턱의 각진 부분(하악각)에 특별히 맞는 필러 시술을 하시나요?\n2. 이러한 결과를 위해 어떤 필러 브랜드를 추천하시나요?\n3. 부가세를 포함하여 양쪽을 시술하는 예상 총비용은 얼마인가요?\n4. 비슷한 결과를 얻은 남성 환자의 시술 전후 사진을 보여주실 수 있나요?\n5. 어떤 의사가 시술하며 남성적인 턱선 윤곽 시술 경험은 어떠한가요?\n6. 합병증이 발생하면 어떤 응급 조치와 사후 관리를 제공하시나요?"
+                    "original": "Hello! 😊\n\nI’m visiting Seoul in November and I’m interested in jawline filler.\n\nI’m looking for a sharper, more masculine jawline with strong, defined angles, especially around the back corners of my jaw, rather than a pointed V-shaped chin.\n\nCould you please tell me:\n\n1. Do you offer filler specifically for the jaw angles (mandibular angles)?\n2. Which filler brands do you recommend for this result?\n3. What is the estimated total cost for treating both sides, including VAT?\n4. Can you share before-and-after photos of male patients with similar results?\n5. Which doctor would perform the procedure, and what experience do they have with masculine jawline contouring?\n6. What emergency procedures and follow-up care do you provide if complications occur?",
+                    "ko": "안녕하세요! 😊\n\n저는 11월에 Seoul을 방문하며 턱선 필러에 관심이 있습니다.\n\n뾰족한 V자형 턱끝보다는 특히 턱 뒤쪽 모서리 부위에 강하고 뚜렷한 각이 있는, 더 날렵하고 남성적인 턱선을 원합니다.\n\n다음 사항을 알려주실 수 있을까요?\n\n1. 턱의 각진 부분(하악각)에 특별히 맞는 필러 시술을 하시나요?\n2. 이러한 결과를 위해 어떤 필러 브랜드를 추천하시나요?\n3. 부가세를 포함하여 양쪽을 시술하는 예상 총비용은 얼마인가요?\n4. 비슷한 결과를 얻은 남성 환자의 시술 전후 사진을 보여주실 수 있나요?\n5. 어떤 의사가 시술하며 남성적인 턱선 윤곽 시술 경험은 어떠한가요?\n6. 합병증이 발생하면 어떤 응급 조치와 사후 관리를 제공하시나요?"
                   },
                   {
                     "date": "2026-11-04",
-                    "original": "고객이 제안한 일정 중\n하나를 선택해주세요\n제안받은 일정이 어렵다면,\n채팅으로 일정을 조율해주세요\n[예약일 가림] [예약시각 가림]\n[예약일 가림] [예약시각 가림]\n[예약일 가림] [예약시각 가림]\n이 일정으로 확정하기",
+                    "original": "고객이 제안한 일정 중\n하나를 선택해주세요\n제안받은 일정이 어렵다면,\n채팅으로 일정을 조율해주세요\n2026년 11월 16일 11:00\n2026년 11월 16일 11:30\n2026년 11월 16일 12:00\n이 일정으로 확정하기",
                     "lang": "ko"
                   },
                   {
@@ -2531,7 +2531,7 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-04",
-                    "original": "[고객명 가림]\n고객이 제안한 일정 중\n하나를 선택해주세요\n제안받은 일정이 어렵다면,\n채팅으로 일정을 조율해주세요\n[예약일 가림] [예약시각 가림]\n[예약일 가림] [예약시각 가림]\n[예약일 가림] [예약시각 가림]\n이 일정으로 확정하기",
+                    "original": "ก\n고객이 제안한 일정 중\n하나를 선택해주세요\n제안받은 일정이 어렵다면,\n채팅으로 일정을 조율해주세요\n2026년 11월 7일 10:00\n2026년 11월 7일 10:30\n2026년 11월 7일 11:00\n이 일정으로 확정하기",
                     "lang": "ko"
                   },
                   {
@@ -2563,8 +2563,8 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-04",
-                    "original": "ทางคลินิกขอยืนยันการนัดหมายของคุณตามวันและเวลาดังต่อไปนี้ค่ะ 🌸\n\n📅 วันที่：[예약일 가림]\n⏰ เวลา：[예약시각 가림]\n\n📍 สถานที่：โซล เขตมาพอ (Mapo) ถนนยางฮวาโร 66 ชั้น 6\n\nแผนที่：\nNaver Map : https://naver.me/5ap1E0ph\n\nGoogle : https://iii.ad/810b28\n\nกรุณานำ บัตรประจำตัวชาวต่างชาติ (ARC) หรือ หนังสือเดินทาง (Passport) มาด้วยในวันเข้ารับบริการนะคะ ✨\n\n＊กรณีเข้ารับคำปรึกษาเท่านั้นโดยไม่ทำหัตถการในวันนัด\nจะมีค่าปรึกษา 10,000 วอน\n＊หากประสงค์ให้แพทย์ผู้อำนวยการคลินิกเป็นผู้ทำหัตถการ\nจะมีค่าใช้จ่ายเพิ่มเติม 20% ของราคาหัตถการ",
-                    "ko": "다음 날짜와 시각으로 고객님의 예약을 확인해 드립니다. 🌸\n\n📅 날짜：[예약일 가림]\n⏰ 시각：[예약시각 가림]\n\n📍 장소：서울 마포구 양화로 66, 6층\n\n지도：\n네이버 지도 : https://naver.me/5ap1E0ph\n\n구글 : https://iii.ad/810b28\n\n방문하시는 날 외국인등록증(ARC) 또는 여권(Passport)을 지참해 주세요. ✨\n\n＊예약일에 시술 없이 상담만 받으시는 경우\n상담료 10,000원이 발생합니다.\n＊대표원장님께 시술받기를 원하시는 경우\n시술 금액의 20%가 추가됩니다."
+                    "original": "ทางคลินิกขอยืนยันการนัดหมายของคุณตามวันและเวลาดังต่อไปนี้ค่ะ 🌸\n\n📅 วันที่：พฤศจิกายน / 07\n⏰ เวลา：11 : 00\n\n📍 สถานที่：โซล เขตมาพอ (Mapo) ถนนยางฮวาโร 66 ชั้น 6\n\nแผนที่：\nNaver Map : https://naver.me/5ap1E0ph\n\nGoogle : https://iii.ad/810b28\n\nกรุณานำ บัตรประจำตัวชาวต่างชาติ (ARC) หรือ หนังสือเดินทาง (Passport) มาด้วยในวันเข้ารับบริการนะคะ ✨\n\n＊กรณีเข้ารับคำปรึกษาเท่านั้นโดยไม่ทำหัตถการในวันนัด\nจะมีค่าปรึกษา 10,000 วอน\n＊หากประสงค์ให้แพทย์ผู้อำนวยการคลินิกเป็นผู้ทำหัตถการ\nจะมีค่าใช้จ่ายเพิ่มเติม 20% ของราคาหัตถการ",
+                    "ko": "다음 날짜와 시각으로 고객님의 예약을 확인해 드립니다. 🌸\n\n📅 날짜：พฤศจิกายน / 07\n⏰ 시각：11 : 00\n\n📍 장소：서울 마포구 양화로 66, 6층\n\n지도：\n네이버 지도 : https://naver.me/5ap1E0ph\n\n구글 : https://iii.ad/810b28\n\n방문하시는 날 외국인등록증(ARC) 또는 여권(Passport)을 지참해 주세요. ✨\n\n＊예약일에 시술 없이 상담만 받으시는 경우\n상담료 10,000원이 발생합니다.\n＊대표원장님께 시술받기를 원하시는 경우\n시술 금액의 20%가 추가됩니다."
                   },
                   {
                     "date": "2026-11-04",
@@ -2630,8 +2630,8 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-11-04",
-                    "original": "Hello 😊 You have an appointment with us today at [예약시각 가림] PM. May we kindly ask if you’re on your way to the clinic?",
-                    "ko": "안녕하세요 😊 오늘 오후 [예약시각 가림]에 저희 병원 예약이 있으십니다. 병원으로 오고 계시는지 여쭤봐도 될까요?"
+                    "original": "Hello 😊 You have an appointment with us today at 12:00 PM. May we kindly ask if you’re on your way to the clinic?",
+                    "ko": "안녕하세요 😊 오늘 오후 12:00에 저희 병원 예약이 있으십니다. 병원으로 오고 계시는지 여쭤봐도 될까요?"
                   }
                 ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=1230595950&range=A22:N22"
@@ -2701,7 +2701,7 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-04",
-                    "original": "[고객명 가림]\n고객이 제안한 일정 중\n하나를 선택해주세요\n제안받은 일정이 어렵다면,\n채팅으로 일정을 조율해주세요\n[예약일 가림] [예약시각 가림]\n[예약일 가림] [예약시각 가림]\n[예약일 가림] [예약시각 가림]\n이 일정으로 확정하기",
+                    "original": "イ\n고객이 제안한 일정 중\n하나를 선택해주세요\n제안받은 일정이 어렵다면,\n채팅으로 일정을 조율해주세요\n2026년 11월 9일 19:00\n2026년 11월 9일 18:30\n2026년 11월 9일 18:00\n이 일정으로 확정하기",
                     "lang": "ko"
                   },
                   {
@@ -2868,8 +2868,8 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-11-04",
-                    "original": "สวัสดีค่ะลูกค้า ขออนุญาตคอนเฟิร์มนัดวันพรุ่งนี้เวลา [예약시각 가림]น. นะคะะ🥰✨",
-                    "ko": "안녕하세요, 고객님. 내일 [예약시각 가림]의 예약을 확인드릴게요🥰✨"
+                    "original": "สวัสดีค่ะลูกค้า ขออนุญาตคอนเฟิร์มนัดวันพรุ่งนี้เวลา 12:30น. นะคะะ🥰✨",
+                    "ko": "안녕하세요, 고객님. 내일 12:30의 예약을 확인드릴게요🥰✨"
                   }
                 ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=1230595950&range=A27:N27"
@@ -2890,8 +2890,8 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-04",
-                    "original": "Hello! I’m [나이 가림] and I’m looking to do a skin analysis, deep cleansing, aqua peel and hydration. Is it possible? How much is it? Thank you so much",
-                    "ko": "안녕하세요! 저는 [나이 가림]이고 피부 분석, 딥클렌징, 아쿠아필과 보습 관리를 받고 싶습니다. 가능한가요? 비용은 얼마인가요? 정말 감사합니다"
+                    "original": "Hello! I’m 27 and I’m looking to do a skin analysis, deep cleansing, aqua peel and hydration. Is it possible? How much is it? Thank you so much",
+                    "ko": "안녕하세요! 저는 27이고 피부 분석, 딥클렌징, 아쿠아필과 보습 관리를 받고 싶습니다. 가능한가요? 비용은 얼마인가요? 정말 감사합니다"
                   }
                 ],
                 "staff": [
@@ -2971,8 +2971,8 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-04",
-                    "original": "我想要問一下我在[고객 위치 가림]大約一個月前有做全臉皮秒，這個除毛是不是就先不能做了",
-                    "ko": "[고객 위치 가림]에서 약 한 달 전에 얼굴 전체 피코 레이저를 받았는데, 그러면 이 제모는 당분간 받을 수 없는지 여쭤보고 싶습니다."
+                    "original": "我想要問一下我在台灣大約一個月前有做全臉皮秒，這個除毛是不是就先不能做了",
+                    "ko": "台灣에서 약 한 달 전에 얼굴 전체 피코 레이저를 받았는데, 그러면 이 제모는 당분간 받을 수 없는지 여쭤보고 싶습니다."
                   }
                 ],
                 "staff": [
@@ -3106,15 +3106,15 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-03",
-                    "original": "สวัสดีค่ะ สนใจโปรแกรม Eye Thermage and sofwave all face ค่ะ สามารถเข้าไปทำได้วันที่[예약일 가림]เช้าสุดค่า",
-                    "ko": "안녕하세요. 아이 써마지와 얼굴 전체 소프웨이브 프로그램에 관심이 있습니다. [예약일 가림]에 가장 이른 오전 시간으로 방문해 시술받을 수 있습니다."
+                    "original": "สวัสดีค่ะ สนใจโปรแกรม Eye Thermage and sofwave all face ค่ะ สามารถเข้าไปทำได้วันที่29เช้าสุดค่า",
+                    "ko": "안녕하세요. 아이 써마지와 얼굴 전체 소프웨이브 프로그램에 관심이 있습니다. 29에 가장 이른 오전 시간으로 방문해 시술받을 수 있습니다."
                   }
                 ],
                 "staff": [
                   {
                     "date": "2026-11-04",
-                    "original": "สวัสดีค่ะ วันที่ [예약일 가림] เช้าสุดจะเป็น [예약시각 가림] ลูกค้าสะดวกไหมคะะ🙏",
-                    "ko": "안녕하세요. [예약일 가림]에 가장 이른 시간은 [예약시각 가림]인데 고객님께서 괜찮으실까요?🙏"
+                    "original": "สวัสดีค่ะ วันที่ 29 เช้าสุดจะเป็น 10โมง ลูกค้าสะดวกไหมคะะ🙏",
+                    "ko": "안녕하세요. 29에 가장 이른 시간은 10โมง인데 고객님께서 괜찮으실까요?🙏"
                   },
                   {
                     "date": "2026-11-04",
@@ -3206,8 +3206,8 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-03",
-                    "original": "Hello! Whags whatsapp is [연락처 가림]. I am interested in a treatment to help with my sunspots and freckles, but I am concerned about rebound hyperpigmentation and the recovery time, since I am only in [고객 위치 가림] for [체류기간 가림].",
-                    "ko": "안녕하세요! 제 왓츠앱은 [연락처 가림]입니다. 햇빛으로 생긴 잡티와 주근깨를 개선하는 시술에 관심이 있지만, [고객 위치 가림]에 [체류기간 가림]만 머무를 예정이라 반동성 색소침착과 회복 기간이 걱정됩니다."
+                    "original": "Hello! Whags whatsapp is [연락처 가림]. I am interested in a treatment to help with my sunspots and freckles, but I am concerned about rebound hyperpigmentation and the recovery time, since I am only in Seoul for one week.",
+                    "ko": "안녕하세요! 제 왓츠앱은 [연락처 가림]입니다. 햇빛으로 생긴 잡티와 주근깨를 개선하는 시술에 관심이 있지만, Seoul에 one week만 머무를 예정이라 반동성 색소침착과 회복 기간이 걱정됩니다."
                   }
                 ],
                 "staff": [
@@ -5121,7 +5121,7 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-02",
-                    "original": "고객이 제안한 일정 중\n하나를 선택해주세요\n제안받은 일정이 어렵다면,\n채팅으로 일정을 조율해주세요\n2026년 [예약일 가림] [예약시각 가림]\n2026년 [예약일 가림] [예약시각 가림]\n2026년 [예약일 가림] [예약시각 가림]\n이 일정으로 확정하기",
+                    "original": "고객이 제안한 일정 중\n하나를 선택해주세요\n제안받은 일정이 어렵다면,\n채팅으로 일정을 조율해주세요\n2026년 11월 4일 19:30\n2026년 11월 4일 17:30\n2026년 11월 4일 17:00\n이 일정으로 확정하기",
                     "lang": "ko"
                   },
                   {
@@ -5133,7 +5133,7 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-11-02",
-                    "original": "내원일이\n\n확정되었어요\n\n2026년 [예약일 가림] [예약시각 가림]\n고객명\n\n[고객명 가림]\n\n1번째 상담\n신청일시\n[예약일 가림] [예약시각 가림]\n상담경로\n병원",
+                    "original": "내원일이\n\n확정되었어요\n\n2026년 11월 4일 오후 5시\n고객명\n\nANNAANA\n\n1번째 상담\n신청일시\n2026. 11. 02 15:52\n상담경로\n병원",
                     "lang": "ko"
                   },
                   {
@@ -5160,13 +5160,13 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-02",
-                    "original": "はじめまして\n\n[고객명 가림]\n[생년월일 가림],\nエラ、額のボトックスです\n\n[고객명 가림]\n[생년월일 가림]\nエラ、鼻のボトックスです\n\nお値段も教えて下さい\nよろしくお願いします",
-                    "ko": "처음 뵙겠습니다\n\n[고객명 가림]\n[생년월일 가림],\n사각턱, 이마 보톡스입니다\n\n[고객명 가림]\n[생년월일 가림]\n사각턱, 코 보톡스입니다\n\n가격도 알려 주세요\n잘 부탁드립니다"
+                    "original": "はじめまして\n\nYUMIE TSUGE\n[생년월일 가림],\nエラ、額のボトックスです\n\nMANA TSUGE\n[생년월일 가림]\nエラ、鼻のボトックスです\n\nお値段も教えて下さい\nよろしくお願いします",
+                    "ko": "처음 뵙겠습니다\n\nYUMIE TSUGE\n[생년월일 가림],\n사각턱, 이마 보톡스입니다\n\nMANA TSUGE\n[생년월일 가림]\n사각턱, 코 보톡스입니다\n\n가격도 알려 주세요\n잘 부탁드립니다"
                   },
                   {
                     "date": "2026-11-02",
-                    "original": "2026年[예약일 가림] 午後[예약시각 가림]",
-                    "ko": "2026년 [예약일 가림] 오후 [예약시각 가림]"
+                    "original": "2026年11月4日 午後5:00",
+                    "ko": "2026년 11월 4일 오후 5:00"
                   }
                 ],
                 "staff": [
@@ -5182,8 +5182,8 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-02",
-                    "original": "下記の日程でご予約確定致しました🌸\n\n📅 日付：[예약일 가림]\n⏰ 時間：[예약시각 가림]\n\n📍 場所：ソウル市麻浦区（マポ）ヤンファロ66、6階\n\n地図URL：\n\nNaver Map : https://naver.me/5ap1E0ph\nGoogle : https://maps.app.goo.gl/kNTF1bYCqKdDFiHg9\n\nご来店の際は、外国人登録証またはパスポートをお持ちください✨\n\n\n＊ご予約当日に施術を受けずカウンセリングのみ行った場合、カウンセリング料金10,000ウォンが発生致します。\n\n＊ポイントのご利用について\n恐れ入りますが、ポイントのご使用はアプリ決済時のみ可能であり、現状、外国籍のお客さまのアプリ決済には未対応と承知しております。その為店頭決済ではポイントをご利用いただけません事予めご了承お願い致します。",
-                    "ko": "아래 일정으로 예약이 확정되었습니다🌸\n\n📅 날짜: [예약일 가림]\n⏰ 시간: [예약시각 가림]\n\n📍 장소: 서울시 마포구 양화로 66, 6층\n\n지도 URL:\n\nNaver Map : https://naver.me/5ap1E0ph\nGoogle : https://maps.app.goo.gl/kNTF1bYCqKdDFiHg9\n\n내원하실 때는 외국인등록증 또는 여권을 지참해 주세요✨\n\n\n＊예약 당일 시술을 받지 않고 상담만 진행하신 경우 상담료 10,000원이 발생합니다.\n\n＊포인트 이용 안내\n죄송하지만 포인트는 앱 결제 시에만 사용할 수 있으며, 현재 외국 국적 고객님의 앱 결제는 지원되지 않는 것으로 알고 있습니다. 따라서 현장 결제 시에는 포인트를 사용하실 수 없는 점 미리 양해 부탁드립니다."
+                    "original": "下記の日程でご予約確定致しました🌸\n\n📅 日付：11月 4日\n⏰ 時間：17時 00分\n\n📍 場所：ソウル市麻浦区（マポ）ヤンファロ66、6階\n\n地図URL：\n\nNaver Map : https://naver.me/5ap1E0ph\nGoogle : https://maps.app.goo.gl/kNTF1bYCqKdDFiHg9\n\nご来店の際は、外国人登録証またはパスポートをお持ちください✨\n\n\n＊ご予約当日に施術を受けずカウンセリングのみ行った場合、カウンセリング料金10,000ウォンが発生致します。\n\n＊ポイントのご利用について\n恐れ入りますが、ポイントのご使用はアプリ決済時のみ可能であり、現状、外国籍のお客さまのアプリ決済には未対応と承知しております。その為店頭決済ではポイントをご利用いただけません事予めご了承お願い致します。",
+                    "ko": "아래 일정으로 예약이 확정되었습니다🌸\n\n📅 날짜: 11월 4일\n⏰ 시간: 17시 00분\n\n📍 장소: 서울시 마포구 양화로 66, 6층\n\n지도 URL:\n\nNaver Map : https://naver.me/5ap1E0ph\nGoogle : https://maps.app.goo.gl/kNTF1bYCqKdDFiHg9\n\n내원하실 때는 외국인등록증 또는 여권을 지참해 주세요✨\n\n\n＊예약 당일 시술을 받지 않고 상담만 진행하신 경우 상담료 10,000원이 발생합니다.\n\n＊포인트 이용 안내\n죄송하지만 포인트는 앱 결제 시에만 사용할 수 있으며, 현재 외국 국적 고객님의 앱 결제는 지원되지 않는 것으로 알고 있습니다. 따라서 현장 결제 시에는 포인트를 사용하실 수 없는 점 미리 양해 부탁드립니다."
                   },
                   {
                     "date": "2026-11-02",
@@ -5398,7 +5398,7 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-02",
-                    "original": "고객이 제안한 일정 중\n하나를 선택해주세요\n제안받은 일정이 어렵다면,\n채팅으로 일정을 조율해주세요\n2026년 [예약일 가림] [예약시각 가림]\n2026년 [예약일 가림] [예약시각 가림]\n2026년 [예약일 가림] [예약시각 가림]\n이 일정으로 확정하기",
+                    "original": "고객이 제안한 일정 중\n하나를 선택해주세요\n제안받은 일정이 어렵다면,\n채팅으로 일정을 조율해주세요\n2026년 11월 3일 12:00\n2026년 11월 3일 12:30\n2026년 11월 3일 13:00\n이 일정으로 확정하기",
                     "lang": "ko"
                   }
                 ],
@@ -5689,7 +5689,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-02",
-                    "original": "예약을 취소했어요\n\n2026년 [예약일 가림] [예약시각 가림]\n\nBeauty Blossom Womens Underarm Care — Botox, Toning & Hair Removal, at Hongdae",
+                    "original": "예약을 취소했어요\n\n2026년 11월 3일 오후 1시\n\nBeauty Blossom Womens Underarm Care — Botox, Toning & Hair Removal, at Hongdae",
                     "lang": "ko"
                   }
                 ],
@@ -5782,8 +5782,8 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-02",
-                    "original": "明日[예약일 가림]は、[예약시각 가림]〜[예약시각 가림]の間でしたらご予約をお取りできます✨\nご希望のお時間を教えていただけますでしょうか？",
-                    "ko": "내일 [예약일 가림]은 [예약시각 가림]~[예약시각 가림] 사이라면 예약을 잡아 드릴 수 있습니다✨\n원하시는 시간을 알려 주실 수 있을까요?"
+                    "original": "明日11月3日は、10:00〜18:00の間でしたらご予約をお取りできます✨\nご希望のお時間を教えていただけますでしょうか？",
+                    "ko": "내일 11월 3일은 10:00~18:00 사이라면 예약을 잡아 드릴 수 있습니다✨\n원하시는 시간을 알려 주실 수 있을까요?"
                   }
                 ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=1423091882&range=A28:N28"
@@ -5804,15 +5804,15 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-02",
-                    "original": "受付が[예약시각 가림]まで可能と言うことでしょうか。",
-                    "ko": "접수가 [예약시각 가림]까지 가능하다는 말씀이신가요?"
+                    "original": "受付が18時まで可能と言うことでしょうか。",
+                    "ko": "접수가 18시까지 가능하다는 말씀이신가요?"
                   }
                 ],
                 "staff": [
                   {
                     "date": "2026-11-02",
-                    "original": "はい、その通りです😊\n[예약시각 가림]までご予約の受付が可能です！",
-                    "ko": "네, 맞습니다😊\n[예약시각 가림]까지 예약 접수가 가능합니다!"
+                    "original": "はい、その通りです😊\n18:00までご予約の受付が可能です！",
+                    "ko": "네, 맞습니다😊\n18:00까지 예약 접수가 가능합니다!"
                   }
                 ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=1423091882&range=A29:N29"
@@ -5924,14 +5924,14 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-02",
-                    "original": "고객이 제안한 일정 중\n하나를 선택해주세요\n제안받은 일정이 어렵다면,\n채팅으로 일정을 조율해주세요\n2026년 [예약일 가림] [예약시각 가림]\n2026년 [예약일 가림] [예약시각 가림]\n2026년 [예약일 가림] [예약시각 가림]\n이 일정으로 확정하기",
+                    "original": "고객이 제안한 일정 중\n하나를 선택해주세요\n제안받은 일정이 어렵다면,\n채팅으로 일정을 조율해주세요\n2026년 11월 3일 18:30\n2026년 11월 3일 19:00\n2026년 11월 3일 19:30\n이 일정으로 확정하기",
                     "lang": "ko"
                   }
                 ],
                 "staff": [
                   {
                     "date": "2026-11-02",
-                    "original": "내원일이\n\n확정되었어요\n\n2026년 [예약일 가림] [예약시각 가림]\n고객명\n\n[고객명 가림]\n\n1번째 상담\n신청일시\n[예약일 가림] [예약시각 가림]\n상담경로\n이벤트\n이벤트명\nBeauty Blossom Aqua Peel — Clear Pores, Smooth & Hydrated Skin",
+                    "original": "내원일이\n\n확정되었어요\n\n2026년 11월 3일 오후 6시 30분\n고객명\n\nRosita Negro Frer\n\n1번째 상담\n신청일시\n2026. 11. 02 12:49\n상담경로\n이벤트\n이벤트명\nBeauty Blossom Aqua Peel — Clear Pores, Smooth & Hydrated Skin",
                     "lang": "ko"
                   }
                 ],
@@ -5982,15 +5982,15 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-02",
-                    "original": "เวลานัด คิดว่าเป็น [예약시각 가림] นะคะ",
-                    "ko": "예약 시간은 [예약시각 가림]인 걸로 알고 있어요."
+                    "original": "เวลานัด คิดว่าเป็น 5.30 PM นะคะ",
+                    "ko": "예약 시간은 5.오후 30시인 걸로 알고 있어요."
                   }
                 ],
                 "staff": [
                   {
                     "date": "2026-11-02",
-                    "original": "ทางเราได้แก้ไขเวลานัดหมายเป็น [예약시각 가림] น. ให้เรียบร้อยแล้วนะคะ ขอบคุณค่ะ 😊💖",
-                    "ko": "예약 시간을 [예약시각 가림]으로 수정해 두었습니다. 감사합니다 😊💖"
+                    "original": "ทางเราได้แก้ไขเวลานัดหมายเป็น 17:30 น. ให้เรียบร้อยแล้วนะคะ ขอบคุณค่ะ 😊💖",
+                    "ko": "예약 시간을 17:30으로 수정해 두었습니다. 감사합니다 😊💖"
                   }
                 ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=1423091882&range=A35:N35"
@@ -7769,8 +7769,8 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-11-03",
-                    "original": "こんにちは、ビューティーブロッサムクリニックでございます。😊\n\n本日[예약시각 가림]にご予約をいただいておりますが、ご予定に変更はなく、本日ご来院いただけますでしょうか。\n\nお忙しいところ恐れ入りますが、ご確認のうえ、ご返信いただけますと幸いです。\n\nどうぞよろしくお願いいたします。🌸",
-                    "ko": "안녕하세요, 뷰티블라썸의원입니다. 😊\n\n오늘 [예약시각 가림]에 예약되어 있으신데, 일정 변경 없이 오늘 내원하실 수 있으실까요?\n\n바쁘신 중에 죄송하지만 확인하신 후 답장해 주시면 감사하겠습니다.\n\n잘 부탁드립니다. 🌸"
+                    "original": "こんにちは、ビューティーブロッサムクリニックでございます。😊\n\n本日18時にご予約をいただいておりますが、ご予定に変更はなく、本日ご来院いただけますでしょうか。\n\nお忙しいところ恐れ入りますが、ご確認のうえ、ご返信いただけますと幸いです。\n\nどうぞよろしくお願いいたします。🌸",
+                    "ko": "안녕하세요, 뷰티블라썸의원입니다. 😊\n\n오늘 18시에 예약되어 있으신데, 일정 변경 없이 오늘 내원하실 수 있으실까요?\n\n바쁘신 중에 죄송하지만 확인하신 후 답장해 주시면 감사하겠습니다.\n\n잘 부탁드립니다. 🌸"
                   }
                 ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=671873854&range=A6:N6"
@@ -7891,8 +7891,8 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-03",
-                    "original": "為了確保諮詢+施作時間充足，平日建議最晚預約時間是[예약시각 가림]喔~",
-                    "ko": "상담과 시술 시간을 충분히 확보하기 위해 평일에는 늦어도 [예약시각 가림]으로 예약하시는 것을 권해 드려요~"
+                    "original": "為了確保諮詢+施作時間充足，平日建議最晚預約時間是18:00喔~",
+                    "ko": "상담과 시술 시간을 충분히 확보하기 위해 평일에는 늦어도 18:00으로 예약하시는 것을 권해 드려요~"
                   }
                 ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=671873854&range=A9:N9"
@@ -7957,8 +7957,8 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-03",
-                    "original": "時間上你們都到[예약시각 가림]而已是嗎",
-                    "ko": "시간상으로는 [예약시각 가림]까지만 가능한 건가요?"
+                    "original": "時間上你們都到18:00而已是嗎",
+                    "ko": "시간상으로는 18:00까지만 가능한 건가요?"
                   }
                 ],
                 "staff": [
@@ -7969,8 +7969,8 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-03",
-                    "original": "因為我們營業時間是到[예약시각 가림]，如果施作的項目比較多，建議最晚[예약시각 가림]抵達時間上比較充足這樣",
-                    "ko": "저희 영업시간은 [예약시각 가림]까지이기 때문에, 시술 항목이 비교적 많다면 늦어도 [예약시각 가림]에 도착하시는 것이 시간상 더 여유롭습니다."
+                    "original": "因為我們營業時間是到20:00，如果施作的項目比較多，建議最晚18:00抵達時間上比較充足這樣",
+                    "ko": "저희 영업시간은 20:00까지이기 때문에, 시술 항목이 비교적 많다면 늦어도 18:00에 도착하시는 것이 시간상 더 여유롭습니다."
                   }
                 ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=671873854&range=A11:N11"
@@ -8353,8 +8353,8 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-11-03",
-                    "original": "您好！😊\n\n溫馨提醒您，您今天的預約時間是 [예약시각 가림]AM。想跟您確認一下，請問您會準時抵達嗎？還是方便提早一點到呢？麻煩您回覆告知我們，謝謝您！🤍\n\n如果今天臨時不方便前來，或需要更改預約時間，也請隨時告訴我們，我們很樂意協助您重新安排。\n\n感謝您的配合，期待您的到來！🌸",
-                    "ko": "안녕하세요!😊\n\n오늘 예약 시각은 [예약시각 가림]AM이라는 점을 안내드립니다. 정시에 도착하실 수 있는지, 아니면 조금 일찍 도착하실 수 있는지 여쭙고 싶습니다. 답변으로 알려주시면 감사하겠습니다!🤍\n\n오늘 갑자기 방문이 어려워지셨거나 예약 시각을 바꾸셔야 하면 언제든 알려주세요. 기꺼이 다시 일정을 잡아드리겠습니다.\n\n협조해 주셔서 감사드리며, 방문을 기다리겠습니다!🌸"
+                    "original": "您好！😊\n\n溫馨提醒您，您今天的預約時間是 11:30AM。想跟您確認一下，請問您會準時抵達嗎？還是方便提早一點到呢？麻煩您回覆告知我們，謝謝您！🤍\n\n如果今天臨時不方便前來，或需要更改預約時間，也請隨時告訴我們，我們很樂意協助您重新安排。\n\n感謝您的配合，期待您的到來！🌸",
+                    "ko": "안녕하세요!😊\n\n오늘 예약 시각은 11:30AM이라는 점을 안내드립니다. 정시에 도착하실 수 있는지, 아니면 조금 일찍 도착하실 수 있는지 여쭙고 싶습니다. 답변으로 알려주시면 감사하겠습니다!🤍\n\n오늘 갑자기 방문이 어려워지셨거나 예약 시각을 바꾸셔야 하면 언제든 알려주세요. 기꺼이 다시 일정을 잡아드리겠습니다.\n\n협조해 주셔서 감사드리며, 방문을 기다리겠습니다!🌸"
                   }
                 ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=671873854&range=A22:N22"
@@ -8462,8 +8462,8 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-03",
-                    "original": "現在在[위치 가림]",
-                    "ko": "지금 [위치 가림]에 있어요"
+                    "original": "現在在新亭十字路口",
+                    "ko": "지금 新亭十字路口에 있어요"
                   },
                   {
                     "date": "2026-11-03",
@@ -8501,8 +8501,8 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-11-03",
-                    "original": "สวัสดีค่ะลูกค้า ขออนุญาตคอนเฟิร์มนัดวันนี้เวลา [예약시각 가림] นะคะะ🥰✨",
-                    "ko": "안녕하세요, 고객님. 오늘 [예약시각 가림] 예약을 확인드릴게요. 🥰✨"
+                    "original": "สวัสดีค่ะลูกค้า ขออนุญาตคอนเฟิร์มนัดวันนี้เวลา 11น. นะคะะ🥰✨",
+                    "ko": "안녕하세요, 고객님. 오늘 11시 예약을 확인드릴게요. 🥰✨"
                   }
                 ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=671873854&range=A27:N27"
@@ -8528,7 +8528,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-03",
-                    "original": "[고객명 가림]\n고객이 제안한 일정 중\n하나를 선택해주세요\n제안받은 일정이 어렵다면,\n채팅으로 일정을 조율해주세요\n2026년 [예약일 가림] [예약시각 가림]\n2026년 [예약일 가림] [예약시각 가림]\n2026년 [예약일 가림] [예약시각 가림]\n이 일정으로 확정하기",
+                    "original": "A\n고객이 제안한 일정 중\n하나를 선택해주세요\n제안받은 일정이 어렵다면,\n채팅으로 일정을 조율해주세요\n2026년 11월 4일 13:00\n2026년 11월 4일 13:30\n2026년 11월 4일 14:00\n이 일정으로 확정하기",
                     "lang": "ko"
                   },
                   {
@@ -8545,8 +8545,8 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-11-03",
-                    "original": "สวัสดีค่ะ Beauty Blossom Clinic ยินดีให้บริการครับ😊\n\nได้เลยครับ คุณลูกค้า ไม่ทราบว่าสะดวกให้ทางเราจองคิวเป็นวันที่ [예약일 가림] เวลา [예약시각 가림] ไหมครับ?🌸",
-                    "ko": "안녕하세요. Beauty Blossom Clinic입니다. 기꺼이 도와드리겠습니다😊\n\n네, 고객님. [예약일 가림] [예약시각 가림]으로 예약을 잡아 드려도 괜찮으실까요?🌸"
+                    "original": "สวัสดีค่ะ Beauty Blossom Clinic ยินดีให้บริการครับ😊\n\nได้เลยครับ คุณลูกค้า ไม่ทราบว่าสะดวกให้ทางเราจองคิวเป็นวันที่ 4 พฤศจิกายน เวลา 13.30 น. ไหมครับ?🌸",
+                    "ko": "안녕하세요. Beauty Blossom Clinic입니다. 기꺼이 도와드리겠습니다😊\n\n네, 고객님. 11월 4일 13:30으로 예약을 잡아 드려도 괜찮으실까요?🌸"
                   },
                   {
                     "date": "2026-11-04",
@@ -8594,8 +8594,8 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-11-03",
-                    "original": "รับทราบครับ คุณลูกค้า แล้วพบกันพรุ่งนี้ เวลา [예약시각 가림] นะครับ เดินทางโดยสวัสดิภาพครับ\nขอบคุณครับ!🌸",
-                    "ko": "알겠습니다, 고객님. 그럼 내일 [예약시각 가림]에 뵙겠습니다. 안전하게 오세요.\n감사합니다!🌸"
+                    "original": "รับทราบครับ คุณลูกค้า แล้วพบกันพรุ่งนี้ เวลา 13.30 น. นะครับ เดินทางโดยสวัสดิภาพครับ\nขอบคุณครับ!🌸",
+                    "ko": "알겠습니다, 고객님. 그럼 내일 13:30에 뵙겠습니다. 안전하게 오세요.\n감사합니다!🌸"
                   }
                 ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=671873854&range=A29:N29"
@@ -8703,8 +8703,8 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-02",
-                    "original": "您好，因為在韓國的行程調整，想問原本預約 [예약일 가림] [예약시각 가림]，可以改成[예약일 가림] [예약시각 가림] 嗎～謝謝",
-                    "ko": "안녕하세요. 한국에서의 일정이 바뀌어서 여쭤보고 싶어요. 원래 예약한 [예약일 가림] [예약시각 가림]을 [예약일 가림] [예약시각 가림]으로 바꿀 수 있을까요~ 감사합니다."
+                    "original": "您好，因為在韓國的行程調整，想問原本預約 11/6 11:30，可以改成11/5 11:30 嗎～謝謝",
+                    "ko": "안녕하세요. 한국에서의 일정이 바뀌어서 여쭤보고 싶어요. 원래 예약한 11/6 11:30을 11/5 11:30으로 바꿀 수 있을까요~ 감사합니다."
                   }
                 ],
                 "staff": [
@@ -8715,8 +8715,8 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-03",
-                    "original": "🌸 Beauty Blossom 預約完成 ✅\n\n📅 預約日期：[예약일 가림]\n⏰ 預約時間：[예약시각 가림]\n👤 預約人數：1位\n\n📍 診所地址\n首爾特別市麻浦區楊花路66號\nMedione Medical Center 6樓\n（合井站3號出口）\n💡 英文／韓文地址及地圖導航，可至 LINE 選單點選「地址」查看。\n\n📌 來院前請留意\n・來院時請務必攜帶護照，以便辦理登記。\n・如需更改或取消預約，請提前透過 LINE 與我們聯繫。\n・若當天僅進行諮詢、未接受療程，將收取 ₩10,000 諮詢費。\n\n感謝您的預約，期待您的到來💗",
-                    "ko": "🌸 Beauty Blossom 예약 완료 ✅\n\n📅 예약 날짜: [예약일 가림]\n⏰ 예약 시간: [예약시각 가림]\n👤 예약 인원: 1명\n\n📍 병원 주소\n서울특별시 마포구 양화로 66\nMedione Medical Center 6층\n(합정역 3번 출구)\n💡 영어/한국어 주소와 지도 길찾기는 LINE 메뉴에서 「주소」를 눌러 확인하실 수 있어요.\n\n📌 내원 전 유의 사항\n・내원 시 접수를 위해 반드시 여권을 지참해 주세요.\n・예약 변경이나 취소가 필요하시면 미리 LINE으로 연락해 주세요.\n・당일 상담만 받고 시술을 받지 않으시면 상담료 ₩10,000이 발생합니다.\n\n예약해 주셔서 감사드리며, 방문을 기다리겠습니다💗"
+                    "original": "🌸 Beauty Blossom 預約完成 ✅\n\n📅 預約日期：11月05日\n⏰ 預約時間：11時30分\n👤 預約人數：1位\n\n📍 診所地址\n首爾特別市麻浦區楊花路66號\nMedione Medical Center 6樓\n（合井站3號出口）\n💡 英文／韓文地址及地圖導航，可至 LINE 選單點選「地址」查看。\n\n📌 來院前請留意\n・來院時請務必攜帶護照，以便辦理登記。\n・如需更改或取消預約，請提前透過 LINE 與我們聯繫。\n・若當天僅進行諮詢、未接受療程，將收取 ₩10,000 諮詢費。\n\n感謝您的預約，期待您的到來💗",
+                    "ko": "🌸 Beauty Blossom 예약 완료 ✅\n\n📅 예약 날짜: 11월 05일\n⏰ 예약 시간: 11시 30분\n👤 예약 인원: 1명\n\n📍 병원 주소\n서울특별시 마포구 양화로 66\nMedione Medical Center 6층\n(합정역 3번 출구)\n💡 영어/한국어 주소와 지도 길찾기는 LINE 메뉴에서 「주소」를 눌러 확인하실 수 있어요.\n\n📌 내원 전 유의 사항\n・내원 시 접수를 위해 반드시 여권을 지참해 주세요.\n・예약 변경이나 취소가 필요하시면 미리 LINE으로 연락해 주세요.\n・당일 상담만 받고 시술을 받지 않으시면 상담료 ₩10,000이 발생합니다.\n\n예약해 주셔서 감사드리며, 방문을 기다리겠습니다💗"
                   }
                 ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=671873854&range=A33:N33"
@@ -8948,7 +8948,7 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-03",
-                    "original": "[고객명 가림]\n고객이 제안한 일정 중\n하나를 선택해주세요\n제안받은 일정이 어렵다면,\n채팅으로 일정을 조율해주세요\n2026년 [예약일 가림] [예약시각 가림]\n2026년 [예약일 가림] [예약시각 가림]\n2026년 [예약일 가림] [예약시각 가림]\n이 일정으로 확정하기",
+                    "original": "佐\n고객이 제안한 일정 중\n하나를 선택해주세요\n제안받은 일정이 어렵다면,\n채팅으로 일정을 조율해주세요\n2026년 11월 8일 12:00\n2026년 11월 8일 12:30\n2026년 11월 8일 13:00\n이 일정으로 확정하기",
                     "lang": "ko"
                   }
                 ],
@@ -11338,8 +11338,8 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-01",
-                    "original": "想請問活動日期是到11/30，我們預計[방문 예정 시기 가림]會再來，有最新的活動價錢嗎",
-                    "ko": "행사 기간이 11/30까지인데 저희는 [방문 예정 시기 가림]에 다시 올 예정입니다. 최신 행사 가격이 있을까요"
+                    "original": "想請問活動日期是到11/30，我們預計12月底會再來，有最新的活動價錢嗎",
+                    "ko": "행사 기간이 11/30까지인데 저희는 12월 말에 다시 올 예정입니다. 최신 행사 가격이 있을까요"
                   },
                   {
                     "date": "2026-11-01",
@@ -11906,8 +11906,8 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-01",
-                    "original": "請問[예약 일시 가림]，可以預約嗎？",
-                    "ko": "[예약 일시 가림]에 예약할 수 있나요？"
+                    "original": "請問11/7上午10點，可以預約嗎？",
+                    "ko": "11/7 오전 10시에 예약할 수 있나요？"
                   }
                 ],
                 "staff": [
@@ -14746,8 +14746,8 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-10-31",
-                    "original": "ちなみに[방문일 가림]もしかしたら間に合わないかもしれないんですけどその場合[대체 예약일]でも大丈夫ですか？",
-                    "ko": "참고로 [방문일 가림] 어쩌면 시간에 맞추지 못할 수도 있는데 그 경우 [대체 예약일]이어도 괜찮을까요?"
+                    "original": "ちなみに明日もしかしたら間に合わないかもしれないんですけどその場合2日でも大丈夫ですか？",
+                    "ko": "참고로 내일 어쩌면 시간에 맞추지 못할 수도 있는데 그 경우 2일이어도 괜찮을까요?"
                   }
                 ],
                 "staff": [
@@ -14809,8 +14809,8 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-10-31",
-                    "original": "您好，這裡是麗朵 Beauty Blossom 皮膚科🌸\n想跟您確認一下，[방문일 가림] [3位] 於 [예약시간] 的預約是否會如期前來呢？😊\n\n📍診所位於合井站 3 號出口旁的大樓，抵達後直接至 6 樓櫃台報到即可。\n詳細地址及地圖導航，可至 LINE 選單點選「地址」查看。\n\n若行程有任何變動，再麻煩提前告訴我們～\n期待[방문일 가림]與您見面✨",
-                    "ko": "안녕하세요, 麗朵 Beauty Blossom 피부과입니다🌸\n[방문일 가림] [3位]의 [예약시간] 예약에 예정대로 오시는지 확인하고 싶습니다😊\n\n📍클리닉은 합정역 3번 출구 옆 건물에 있습니다. 도착하시면 바로 6층 데스크에서 접수해 주세요.\n자세한 주소와 지도 길찾기는 LINE 메뉴에서 「주소」를 선택해 확인하실 수 있습니다.\n\n일정에 변동이 있으면 미리 알려 주세요～\n[방문일 가림] 뵙기를 기대하겠습니다✨"
+                    "original": "您好，這裡是麗朵 Beauty Blossom 皮膚科🌸\n想跟您確認一下，明天 [3位] 於 [11:00] 的預約是否會如期前來呢？😊\n\n📍診所位於合井站 3 號出口旁的大樓，抵達後直接至 6 樓櫃台報到即可。\n詳細地址及地圖導航，可至 LINE 選單點選「地址」查看。\n\n若行程有任何變動，再麻煩提前告訴我們～\n期待明天與您見面✨",
+                    "ko": "안녕하세요, 麗朵 Beauty Blossom 피부과입니다🌸\n내일 [3位]의 [11:00] 예약에 예정대로 오시는지 확인하고 싶습니다😊\n\n📍클리닉은 합정역 3번 출구 옆 건물에 있습니다. 도착하시면 바로 6층 데스크에서 접수해 주세요.\n자세한 주소와 지도 길찾기는 LINE 메뉴에서 「주소」를 선택해 확인하실 수 있습니다.\n\n일정에 변동이 있으면 미리 알려 주세요～\n내일 뵙기를 기대하겠습니다✨"
                   }
                 ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K101:N102"
@@ -14836,8 +14836,8 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-10-31",
-                    "original": "您好，這裡是麗朵 Beauty Blossom 皮膚科🌸\n想跟您確認一下，[방문일 가림] [1位] 於 [예약시간] 的預約是否會如期前來呢？😊\n\n📍診所位於合井站 3 號出口旁的大樓，抵達後直接至 6 樓櫃台報到即可。\n詳細地址及地圖導航，可至 LINE 選單點選「地址」查看。\n\n若行程有任何變動，再麻煩提前告訴我們～\n期待[방문일 가림]與您見面✨",
-                    "ko": "안녕하세요, 麗朵 Beauty Blossom 피부과입니다🌸\n[방문일 가림] [1位]의 [예약시간] 예약에 예정대로 오시는지 확인하고 싶습니다😊\n\n📍클리닉은 합정역 3번 출구 옆 건물에 있습니다. 도착하시면 바로 6층 데스크에서 접수해 주세요.\n자세한 주소와 지도 길찾기는 LINE 메뉴에서 「주소」를 선택해 확인하실 수 있습니다.\n\n일정에 변동이 있으면 미리 알려 주세요～\n[방문일 가림] 뵙기를 기대하겠습니다✨"
+                    "original": "您好，這裡是麗朵 Beauty Blossom 皮膚科🌸\n想跟您確認一下，明天 [1位] 於 [10:30] 的預約是否會如期前來呢？😊\n\n📍診所位於合井站 3 號出口旁的大樓，抵達後直接至 6 樓櫃台報到即可。\n詳細地址及地圖導航，可至 LINE 選單點選「地址」查看。\n\n若行程有任何變動，再麻煩提前告訴我們～\n期待明天與您見面✨",
+                    "ko": "안녕하세요, 麗朵 Beauty Blossom 피부과입니다🌸\n내일 [1位]의 [10:30] 예약에 예정대로 오시는지 확인하고 싶습니다😊\n\n📍클리닉은 합정역 3번 출구 옆 건물에 있습니다. 도착하시면 바로 6층 데스크에서 접수해 주세요.\n자세한 주소와 지도 길찾기는 LINE 메뉴에서 「주소」를 선택해 확인하실 수 있습니다.\n\n일정에 변동이 있으면 미리 알려 주세요～\n내일 뵙기를 기대하겠습니다✨"
                   }
                 ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K103:N104"
@@ -14858,30 +14858,30 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-10-31",
-                    "original": "請問如果是[예약일]的話，可以約早上嗎～",
-                    "ko": "혹시 [예약일]이면 오전으로 예약할 수 있을까요～"
+                    "original": "請問如果是11/6的話，可以約早上嗎～",
+                    "ko": "혹시 11/6이면 오전으로 예약할 수 있을까요～"
                   },
                   {
                     "date": "2026-10-31",
-                    "original": "我想先約[예약시간]🙏🏻",
-                    "ko": "우선 [예약시간]으로 예약하고 싶습니다🙏🏻"
+                    "original": "我想先約11點半🙏🏻",
+                    "ko": "우선 11시 반으로 예약하고 싶습니다🙏🏻"
                   },
                   {
                     "date": "2026-11-01",
-                    "original": "✍️ 預約資訊填寫\n若需要預約的話，再麻煩您填寫以下資訊並傳給我們，謝謝😊\n\n・護照英文姓名（姓氏在前/統一大寫）：[고객명]\n・生日（西元 YYYY/MM/DD）：[생년월일]\n・希望療程：現場諮詢\n・預約日期&時間：[예약일시]\n・是否希望進行皮膚檢測：是\n※ 不確定療程也沒關係，可填「現場諮詢」\n👭 若有同行的朋友，請每位分別填寫一份預約資訊喔！",
-                    "ko": "✍️ 예약 정보 작성\n예약이 필요하시면 아래 정보를 작성하여 저희에게 보내 주세요. 감사합니다😊\n\n・여권 영문 성명（성을 앞에/모두 대문자로）：[고객명]\n・생년월일（서기 YYYY/MM/DD）：[생년월일]\n・희망 시술：현장 상담\n・예약 날짜&시간：[예약일시]\n・피부 검사를 원하시는지：네\n※ 시술을 정하지 못하셔도 괜찮습니다. 「현장 상담」으로 작성하셔도 됩니다\n👭 동행 친구가 있으면 각자 예약 정보를 한 부씩 작성해 주세요!"
+                    "original": "✍️ 預約資訊填寫\n若需要預約的話，再麻煩您填寫以下資訊並傳給我們，謝謝😊\n\n・護照英文姓名（姓氏在前/統一大寫）：CHEN HSIN JU\n・生日（西元 YYYY/MM/DD）：[생년월일]\n・希望療程：現場諮詢\n・預約日期&時間：11/6 11:30\n・是否希望進行皮膚檢測：是\n※ 不確定療程也沒關係，可填「現場諮詢」\n👭 若有同行的朋友，請每位分別填寫一份預約資訊喔！",
+                    "ko": "✍️ 예약 정보 작성\n예약이 필요하시면 아래 정보를 작성하여 저희에게 보내 주세요. 감사합니다😊\n\n・여권 영문 성명（성을 앞에/모두 대문자로）：CHEN HSIN JU\n・생년월일（서기 YYYY/MM/DD）：[생년월일]\n・희망 시술：현장 상담\n・예약 날짜&시간：11/6 11:30\n・피부 검사를 원하시는지：네\n※ 시술을 정하지 못하셔도 괜찮습니다. 「현장 상담」으로 작성하셔도 됩니다\n👭 동행 친구가 있으면 각자 예약 정보를 한 부씩 작성해 주세요!"
                   }
                 ],
                 "staff": [
                   {
                     "date": "2026-10-31",
-                    "original": "[예약일]的話早上十點到下午六點，這之間也都可以為您安排喔~",
-                    "ko": "[예약일]이면 오전 10시부터 오후 6시 사이에도 모두 예약해 드릴 수 있습니다~"
+                    "original": "11/6的話早上十點到下午六點，這之間也都可以為您安排喔~",
+                    "ko": "11/6이면 오전 10시부터 오후 6시 사이에도 모두 예약해 드릴 수 있습니다~"
                   },
                   {
                     "date": "2026-11-01",
-                    "original": "🌸 Beauty Blossom 預約完成 ✅\n\n📅 預約日期：[예약일]\n⏰ 預約時間：[예약시간]\n👤 預約人數：1位\n\n📍 診所地址\n首爾特別市麻浦區楊花路66號\nMedione Medical Center 6樓\n（合井站3號出口）\n💡 英文／韓文地址及地圖導航，可至 LINE 選單點選「地址」查看。\n\n📌 來院前請留意\n・來院時請務必攜帶護照，以便辦理登記。\n・如需更改或取消預約，請提前透過 LINE 與我們聯繫。\n・若當天僅進行諮詢、未接受療程，將收取 ₩10,000 諮詢費。\n\n感謝您的預約，期待您的到來💗",
-                    "ko": "🌸 Beauty Blossom 예약 완료 ✅\n\n📅 예약 날짜：[예약일]\n⏰ 예약 시간：[예약시간]\n👤 예약 인원：1명\n\n📍 클리닉 주소\n서울특별시 마포구 양화로66\nMedione Medical Center 6층\n（합정역3번 출구）\n💡 영문／한글 주소 및 지도 길안내는 LINE 메뉴에서 「주소」를 눌러 확인하실 수 있습니다.\n\n📌 내원 전 유의사항\n・내원 시 등록을 위해 반드시 여권을 지참해 주세요.\n・예약 변경이나 취소가 필요하면 미리 LINE으로 연락해 주세요.\n・당일 상담만 진행하고 시술을 받지 않으시면 ₩10,000의 상담료가 부과됩니다.\n\n예약해 주셔서 감사합니다. 방문을 기다리겠습니다💗"
+                    "original": "🌸 Beauty Blossom 預約完成 ✅\n\n📅 預約日期：11月06日\n⏰ 預約時間：11時30分\n👤 預約人數：1位\n\n📍 診所地址\n首爾特別市麻浦區楊花路66號\nMedione Medical Center 6樓\n（合井站3號出口）\n💡 英文／韓文地址及地圖導航，可至 LINE 選單點選「地址」查看。\n\n📌 來院前請留意\n・來院時請務必攜帶護照，以便辦理登記。\n・如需更改或取消預約，請提前透過 LINE 與我們聯繫。\n・若當天僅進行諮詢、未接受療程，將收取 ₩10,000 諮詢費。\n\n感謝您的預約，期待您的到來💗",
+                    "ko": "🌸 Beauty Blossom 예약 완료 ✅\n\n📅 예약 날짜：11월06일\n⏰ 예약 시간：11시30분\n👤 예약 인원：1명\n\n📍 클리닉 주소\n서울특별시 마포구 양화로66\nMedione Medical Center 6층\n（합정역3번 출구）\n💡 영문／한글 주소 및 지도 길안내는 LINE 메뉴에서 「주소」를 눌러 확인하실 수 있습니다.\n\n📌 내원 전 유의사항\n・내원 시 등록을 위해 반드시 여권을 지참해 주세요.\n・예약 변경이나 취소가 필요하면 미리 LINE으로 연락해 주세요.\n・당일 상담만 진행하고 시술을 받지 않으시면 ₩10,000의 상담료가 부과됩니다.\n\n예약해 주셔서 감사합니다. 방문을 기다리겠습니다💗"
                   },
                   {
                     "date": "2026-11-01",
@@ -14936,8 +14936,8 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-10-31",
-                    "original": "改約[변경 예약일]",
-                    "ko": "[변경 예약일]로 예약 변경"
+                    "original": "改約11月7號",
+                    "ko": "11월7일로 예약 변경"
                   },
                   {
                     "date": "2026-10-30",
@@ -14954,7 +14954,7 @@ window.SUPERVISION_DATA = {
                   {
                     "date": "2026-10-31",
                     "original": "🌸 Beauty Blossom 預約完成 ✅\n\n📅 預約日期：[예약일시비공개]\n⏰ 預約時間：[예약일시비공개]\n👤 預約人數：2位\n\n📍 診所地址\n首爾特別市麻浦區楊花路66號\nMedione Medical Center 6樓\n（合井站3號出口）\n💡 英文／韓文地址及地圖導航，可至 LINE 選單點選「地址」查看。\n\n📌 來院前請留意\n・來院時請務必攜帶護照，以便辦理登記。\n・如需更改或取消預約，請提前透過 LINE 與我們聯繫。\n・若當天僅進行諮詢、未接受療程，將收取 ₩10,000 諮詢費。\n\n感謝您的預約，期待您的到來💗",
-                    "ko": "🌸 Beauty Blossom 예약 완료 ✅\n\n📅 예약 날짜：[예약일시비공개]\n⏰ 예약 시간：[예약일시비공개]\n👤 예약 인원：2명\n\n📍 병원 주소\n서울특별시 마포구 양화로66\nMedione Medical Center 6층\n（합정역3번 출구）\n💡 영문／한국어 주소와 지도 길찾기는 LINE 메뉴에서 「주소」를 눌러 확인하실 수 있습니다.\n\n📌 내원 전 유의사항\n・접수를 위해 내원 시 반드시 여권을 지참해 주세요.\n・예약 변경이나 취소가 필요하면 미리 LINE으로 연락해 주세요.\n・당일 상담만 받고 시술을 받지 않으면 ₩10,000 상담료가 부과됩니다.\n\n예약해 주셔서 감사합니다. 방문을 기다리겠습니다💗"
+                    "ko": "🌸 Beauty Blossom 예약 완료 ✅\n\n📅 예약 날짜：11월07일\n⏰ 예약 시간：14시30분\n👤 예약 인원：2명\n\n📍 병원 주소\n서울특별시 마포구 양화로66\nMedione Medical Center 6층\n（합정역3번 출구）\n💡 영문／한국어 주소와 지도 길찾기는 LINE 메뉴에서 「주소」를 눌러 확인하실 수 있습니다.\n\n📌 내원 전 유의사항\n・접수를 위해 내원 시 반드시 여권을 지참해 주세요.\n・예약 변경이나 취소가 필요하면 미리 LINE으로 연락해 주세요.\n・당일 상담만 받고 시술을 받지 않으면 ₩10,000 상담료가 부과됩니다.\n\n예약해 주셔서 감사합니다. 방문을 기다리겠습니다💗"
                   }
                 ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K168:N174"
@@ -15244,8 +15244,8 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-10-31",
-                    "original": "下記の日程でご予約確定致しました🌸\n\n📅 日付：[예약일]\n⏰ 時間：[예약시간]\n\n📍 場所：ソウル市麻浦区（マポ）ヤンファロ66、6階\n\n地図URL：\n\nNaver Map : https://naver.me/5ap1E0ph\nGoogle : https://maps.app.goo.gl/kNTF1bYCqKdDFiHg9\n\nご来店の際は、外国人登録証またはパスポートをお持ちください✨\n\n\n＊ご予約当日に施術を受けずカウンセリングのみ行った場合、カウンセリング料金10,000ウォンが発生致します。\n\n＊ポイントのご利用について\n恐れ入りますが、ポイントのご使用はアプリ決済時のみ可能であり、現状、外国籍のお客さまのアプリ決済には未対応と承知しております。その為店頭決済ではポイントをご利用いただけません事予めご了承お願い致します。",
-                    "ko": "아래 일정으로 예약이 확정되었습니다🌸\n\n📅 날짜：[예약일]\n⏰ 시간：[예약시간]\n\n📍 장소：서울시 마포구 양화로66, 6층\n\n지도 URL：\n\nNaver Map : https://naver.me/5ap1E0ph\nGoogle : https://maps.app.goo.gl/kNTF1bYCqKdDFiHg9\n\n방문하실 때는 외국인등록증 또는 여권을 지참해 주세요✨\n\n\n＊예약 당일 시술을 받지 않고 상담만 진행하신 경우, 상담료 10,000원이 발생합니다.\n\n＊포인트 이용에 관하여\n죄송하지만 포인트 사용은 앱 결제 시에만 가능하며, 현재 외국 국적 고객님의 앱 결제는 지원되지 않는 것으로 알고 있습니다. 따라서 현장 결제에서는 포인트를 이용하실 수 없음을 미리 양해 부탁드립니다."
+                    "original": "下記の日程でご予約確定致しました🌸\n\n📅 日付：11月 1日\n⏰ 時間：11時 30分\n\n📍 場所：ソウル市麻浦区（マポ）ヤンファロ66、6階\n\n地図URL：\n\nNaver Map : https://naver.me/5ap1E0ph\nGoogle : https://maps.app.goo.gl/kNTF1bYCqKdDFiHg9\n\nご来店の際は、外国人登録証またはパスポートをお持ちください✨\n\n\n＊ご予約当日に施術を受けずカウンセリングのみ行った場合、カウンセリング料金10,000ウォンが発生致します。\n\n＊ポイントのご利用について\n恐れ入りますが、ポイントのご使用はアプリ決済時のみ可能であり、現状、外国籍のお客さまのアプリ決済には未対応と承知しております。その為店頭決済ではポイントをご利用いただけません事予めご了承お願い致します。",
+                    "ko": "아래 일정으로 예약이 확정되었습니다🌸\n\n📅 날짜：11월 1일\n⏰ 시간：11시 30분\n\n📍 장소：서울시 마포구 양화로66, 6층\n\n지도 URL：\n\nNaver Map : https://naver.me/5ap1E0ph\nGoogle : https://maps.app.goo.gl/kNTF1bYCqKdDFiHg9\n\n방문하실 때는 외국인등록증 또는 여권을 지참해 주세요✨\n\n\n＊예약 당일 시술을 받지 않고 상담만 진행하신 경우, 상담료 10,000원이 발생합니다.\n\n＊포인트 이용에 관하여\n죄송하지만 포인트 사용은 앱 결제 시에만 가능하며, 현재 외국 국적 고객님의 앱 결제는 지원되지 않는 것으로 알고 있습니다. 따라서 현장 결제에서는 포인트를 이용하실 수 없음을 미리 양해 부탁드립니다."
                   }
                 ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K23:N32"
@@ -15336,8 +15336,8 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-10-31",
-                    "original": "Hello, I am a 56-year-old woman from Malaysia and will be visiting Seoul from [체류 기간].\n\nI have attached my recent makeup-free photos for your assessment.\n\nI would like to improve the following concerns:\n\n1. Double chin – reduce excess fat and improve jawline definition.\n2. Facial sagging – lift and tighten my cheeks and lower face.\n3. Drooping eyelids – achieve a more refreshed and youthful appearance.\n4. Eyebrow and lip pigmentation – natural-looking powder brows and lip blushing.\n5. Hair concerns – thinning hair, receding hairline and oily scalp.\n\nCould you please recommend the most suitable treatments, procedures or products for my condition, together with the estimated prices, expected results and recovery time?\n\nI prefer noticeable but natural-looking improvements.\n\nI will be in Seoul from [체류 기간]. Please also suggest the ideal treatment schedule during my stay, including whether the procedures can be completed within this period.\n\nThank you. I look forward to your recommendations!",
-                    "ko": "안녕하세요, 저는 말레이시아에서 온 56세 여성이며 [체류 기간]에 서울을 방문할 예정입니다.\n\n평가를 위해 최근에 찍은 화장하지 않은 사진을 첨부했습니다.\n\n다음과 같은 고민을 개선하고 싶습니다：\n\n1. 이중턱 – 과도한 지방을 줄이고 턱선을 더욱 또렷하게 하고 싶습니다.\n2. 얼굴 처짐 – 볼과 얼굴 아래쪽을 리프팅하고 탄탄하게 하고 싶습니다.\n3. 처진 눈꺼풀 – 더욱 생기 있고 젊어 보이는 모습을 원합니다.\n4. 눈썹 및 입술 색소 시술 – 자연스러워 보이는 파우더 눈썹과 입술 블러싱을 원합니다.\n5. 모발 고민 – 머리숱 감소, 뒤로 물러나는 헤어라인, 지성 두피입니다.\n\n제 상태에 가장 적합한 치료, 시술 또는 제품을 예상 가격, 기대 효과 및 회복 기간과 함께 추천해 주시겠어요?\n\n눈에 띄지만 자연스러워 보이는 개선을 선호합니다.\n\n[체류 기간] 동안 서울에 있을 예정입니다. 이 기간 내에 시술을 마칠 수 있는지도 포함하여 체류 중 이상적인 시술 일정도 제안해 주세요.\n\n감사합니다. 추천을 기다리겠습니다!"
+                    "original": "Hello, I am a 56-year-old woman from Malaysia and will be visiting Seoul from 4–14 November 2026.\n\nI have attached my recent makeup-free photos for your assessment.\n\nI would like to improve the following concerns:\n\n1. Double chin – reduce excess fat and improve jawline definition.\n2. Facial sagging – lift and tighten my cheeks and lower face.\n3. Drooping eyelids – achieve a more refreshed and youthful appearance.\n4. Eyebrow and lip pigmentation – natural-looking powder brows and lip blushing.\n5. Hair concerns – thinning hair, receding hairline and oily scalp.\n\nCould you please recommend the most suitable treatments, procedures or products for my condition, together with the estimated prices, expected results and recovery time?\n\nI prefer noticeable but natural-looking improvements.\n\nI will be in Seoul from 4–14 November 2026. Please also suggest the ideal treatment schedule during my stay, including whether the procedures can be completed within this period.\n\nThank you. I look forward to your recommendations!",
+                    "ko": "안녕하세요, 저는 말레이시아에서 온 56세 여성이며 2026년 11월 4–14일에 서울을 방문할 예정입니다.\n\n평가를 위해 최근에 찍은 화장하지 않은 사진을 첨부했습니다.\n\n다음과 같은 고민을 개선하고 싶습니다：\n\n1. 이중턱 – 과도한 지방을 줄이고 턱선을 더욱 또렷하게 하고 싶습니다.\n2. 얼굴 처짐 – 볼과 얼굴 아래쪽을 리프팅하고 탄탄하게 하고 싶습니다.\n3. 처진 눈꺼풀 – 더욱 생기 있고 젊어 보이는 모습을 원합니다.\n4. 눈썹 및 입술 색소 시술 – 자연스러워 보이는 파우더 눈썹과 입술 블러싱을 원합니다.\n5. 모발 고민 – 머리숱 감소, 뒤로 물러나는 헤어라인, 지성 두피입니다.\n\n제 상태에 가장 적합한 치료, 시술 또는 제품을 예상 가격, 기대 효과 및 회복 기간과 함께 추천해 주시겠어요?\n\n눈에 띄지만 자연스러워 보이는 개선을 선호합니다.\n\n2026년 11월 4–14일 동안 서울에 있을 예정입니다. 이 기간 내에 시술을 마칠 수 있는지도 포함하여 체류 중 이상적인 시술 일정도 제안해 주세요.\n\n감사합니다. 추천을 기다리겠습니다!"
                   },
                   {
                     "date": "2026-10-31",
@@ -15644,15 +15644,15 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-10-31",
-                    "original": "Hello, I would like to inquire about a few details regarding your services:\n\n1. Do you have any available slots on [희망 예약일], around [희망 예약시간]? (Or would it be possible to apply the numbing cream around [희망 마취시간]?)\n\n2. Could you please let me know the price for Ulthera Prime (approx. 400–600 lines)?\n\n3. Do you provide a Thai interpreter for the appointment?\n\n4. How long does the entire procedure usually take?\n\n5. Do you offer a face-to-face consultation prior to the treatment to evaluate my face, check suitability, and suggest additional or alternative options if needed?\n\nThank you!",
-                    "ko": "안녕하세요, 귀원의 서비스에 대해 몇 가지 자세한 내용을 문의하고 싶습니다.\n\n1. [희망 예약일] [희망 예약시간]경에 예약 가능한 시간이 있나요? (또는 [희망 마취시간]경에 마취 크림을 바를 수 있을까요?)\n\n2. Ulthera Prime(약 400–600라인)의 가격을 알려 주시겠어요?\n\n3. 예약 시 태국어 통역사를 제공하나요?\n\n4. 전체 시술은 보통 얼마나 걸리나요?\n\n5. 시술 전에 얼굴을 평가하고 적합성을 확인하며, 필요한 경우 추가 또는 대안 시술을 제안하는 대면 상담을 제공하나요?\n\n감사합니다!"
+                    "original": "Hello, I would like to inquire about a few details regarding your services:\n\n1. Do you have any available slots on November 12, 2026, around 2:00 PM? (Or would it be possible to apply the numbing cream around 1:30 PM?)\n\n2. Could you please let me know the price for Ulthera Prime (approx. 400–600 lines)?\n\n3. Do you provide a Thai interpreter for the appointment?\n\n4. How long does the entire procedure usually take?\n\n5. Do you offer a face-to-face consultation prior to the treatment to evaluate my face, check suitability, and suggest additional or alternative options if needed?\n\nThank you!",
+                    "ko": "안녕하세요, 귀원의 서비스에 대해 몇 가지 자세한 내용을 문의하고 싶습니다.\n\n1. 11월 12일 오후 2:00경에 예약 가능한 시간이 있나요? (또는 오후 1:30경에 마취 크림을 바를 수 있을까요?)\n\n2. Ulthera Prime(약 400–600라인)의 가격을 알려 주시겠어요?\n\n3. 예약 시 태국어 통역사를 제공하나요?\n\n4. 전체 시술은 보통 얼마나 걸리나요?\n\n5. 시술 전에 얼굴을 평가하고 적합성을 확인하며, 필요한 경우 추가 또는 대안 시술을 제안하는 대면 상담을 제공하나요?\n\n감사합니다!"
                   }
                 ],
                 "staff": [
                   {
                     "date": "2026-10-31",
-                    "original": "สวัสดีค่ะ 😊🌸\nขอบคุณที่สนใจและติดต่อ Beauty Blossom Clinic นะคะ 💕\n\n 1. วันและเวลานัดหมาย\n\nสำหรับวันที่ [예약 가능일] ทางคลินิกมีคิวว่างเวลา [예약 가능시간] น. ค่ะ\n\nหากคุณลูกค้าต้องการทายาชาในเวลา [마취 희망시간] น. สามารถเข้ามาที่คลินิกเวลา [예약 가능시간] น. เพื่อเตรียมตัวก่อน หรือเข้ามาเวลา [마취 희망시간] น. เพื่อทายาชาก่อนและรับคำปรึกษาระหว่างรอยาชาออกฤทธิ์ได้ค่ะ 😊\n\n2. ราคา Ultherapy Prime\n\nทางคลินิกมีแพ็กเกจให้เลือก 2 แบบค่ะ\n\nUltherapy Prime 300 shots\n- ราคาไม่รวม VAT: 1,090,000 วอน\n- **ราคารวม VAT 10%: 1,199,000 วอน**\n\nUltherapy Prime 600 shots\n- ราคาไม่รวม VAT: 1,990,000 วอน\n- **ราคารวม VAT 10%: 2,189,000 วอน**\n\n3. บริการล่ามภาษาไทย\n\nทางคลินิกมีเจ้าหน้าที่ล่ามภาษาไทยประจำอยู่ค่ะ สามารถให้บริการแปลภาษาไทยระหว่างการปรึกษาและทำหัตถการได้ ไม่ต้องกังวลเรื่องการสื่อสารเลยนะคะ 💕\n\n4. ระยะเวลาในการทำหัตถการ\n\nโดยปกติจะใช้เวลาประมาณ 1–1.5 ชั่วโมง ตั้งแต่ขั้นตอนการปรึกษาจนถึงการทำหัตถการเสร็จสิ้นค่ะ 😊\n\n5. การปรึกษาก่อนทำหัตถการ\n\nแน่นอนค่ะ! ก่อนทำหัตถการ ทางคลินิกจะมีการตรวจประเมินสภาพผิวและรูปหน้าของคุณลูกค้า พร้อมให้คำปรึกษาแบบตัวต่อตัวค่ะ\n\nเราจะช่วยประเมินว่า Ultherapy Prime เหมาะสมกับปัญหาที่คุณลูกค้ากังวลหรือไม่ และสามารถแนะนำหัตถการอื่น ๆ หรือการทำร่วมกันตามความเหมาะสมได้ค่ะ\n\nคุณลูกค้าสามารถปรึกษาและสอบถามได้อย่างเต็มที่เลยนะคะ ไม่ต้องกังวลค่ะ 🥰\n\nหากสะดวกเข้ามาในวันที่ [예약 가능일] เวลา [예약 가능시간] น.ามารถแจ้งเราได้เลยนะคะ ทางเรายินดีดำเนินการจองคิวให้ค่ะ\n\nขอบคุณมากค่ะ หวังว่าจะได้ต้อนรับคุณลูกค้าที่ Beauty Blossom Clinic นะคะ 🌸💕",
-                    "ko": "안녕하세요 😊🌸\nBeauty Blossom Clinic에 관심을 가지고 연락해 주셔서 감사합니다 💕\n\n 1. 예약 날짜와 시간\n\n[예약 가능일]에는 클리닉에 [예약 가능시간] 예약 가능 시간이 있습니다.\n\n고객님께서 [마취 희망시간]에 마취제를 바르고 싶으시면 [예약 가능시간]에 클리닉에 오셔서 미리 준비하시거나, [마취 희망시간]에 오셔서 먼저 마취제를 바른 후 마취제가 작용하기를 기다리는 동안 상담을 받으실 수 있습니다 😊\n\n2. Ultherapy Prime 가격\n\n클리닉에는 선택 가능한 패키지가 2가지 있습니다\n\nUltherapy Prime 300 shots\n- VAT 별도 가격: 1,090,000원\n- **VAT 10% 포함 가격: 1,199,000원**\n\nUltherapy Prime 600 shots\n- VAT 별도 가격: 1,990,000원\n- **VAT 10% 포함 가격: 2,189,000원**\n\n3. 태국어 통역 서비스\n\n클리닉에는 태국어 통역 직원이 상주합니다. 상담 및 시술 중 태국어 통역 서비스를 제공하므로 의사소통은 걱정하지 않으셔도 됩니다 💕\n\n4. 시술 소요 시간\n\n보통 상담 단계부터 시술 완료까지 약 1–1.5시간이 걸립니다 😊\n\n5. 시술 전 상담\n\n물론입니다! 시술 전에 클리닉에서 고객님의 피부 상태와 얼굴형을 평가하고 일대일 상담을 진행합니다.\n\nUltherapy Prime이 고객님이 고민하는 문제에 적합한지 평가해 드리며, 적절한 경우 다른 시술이나 병행 시술도 추천해 드릴 수 있습니다.\n\n충분히 상담하고 질문하셔도 되니 걱정하지 마세요 🥰\n\n[예약 가능일] [예약 가능시간]에 방문이 가능하시면 알려 주세요. 기꺼이 예약을 진행해 드리겠습니다.\n\n정말 감사합니다. Beauty Blossom Clinic에서 고객님을 맞이할 수 있기를 바랍니다 🌸💕"
+                    "original": "สวัสดีค่ะ 😊🌸\nขอบคุณที่สนใจและติดต่อ Beauty Blossom Clinic นะคะ 💕\n\n 1. วันและเวลานัดหมาย\n\nสำหรับวันที่ 12 พฤศจิกายน 2026 ทางคลินิกมีคิวว่างเวลา 13:00 น. ค่ะ\n\nหากคุณลูกค้าต้องการทายาชาในเวลา 13:30 น. สามารถเข้ามาที่คลินิกเวลา 13:00 น. เพื่อเตรียมตัวก่อน หรือเข้ามาเวลา 13:30 น. เพื่อทายาชาก่อนและรับคำปรึกษาระหว่างรอยาชาออกฤทธิ์ได้ค่ะ 😊\n\n2. ราคา Ultherapy Prime\n\nทางคลินิกมีแพ็กเกจให้เลือก 2 แบบค่ะ\n\nUltherapy Prime 300 shots\n- ราคาไม่รวม VAT: 1,090,000 วอน\n- **ราคารวม VAT 10%: 1,199,000 วอน**\n\nUltherapy Prime 600 shots\n- ราคาไม่รวม VAT: 1,990,000 วอน\n- **ราคารวม VAT 10%: 2,189,000 วอน**\n\n3. บริการล่ามภาษาไทย\n\nทางคลินิกมีเจ้าหน้าที่ล่ามภาษาไทยประจำอยู่ค่ะ สามารถให้บริการแปลภาษาไทยระหว่างการปรึกษาและทำหัตถการได้ ไม่ต้องกังวลเรื่องการสื่อสารเลยนะคะ 💕\n\n4. ระยะเวลาในการทำหัตถการ\n\nโดยปกติจะใช้เวลาประมาณ 1–1.5 ชั่วโมง ตั้งแต่ขั้นตอนการปรึกษาจนถึงการทำหัตถการเสร็จสิ้นค่ะ 😊\n\n5. การปรึกษาก่อนทำหัตถการ\n\nแน่นอนค่ะ! ก่อนทำหัตถการ ทางคลินิกจะมีการตรวจประเมินสภาพผิวและรูปหน้าของคุณลูกค้า พร้อมให้คำปรึกษาแบบตัวต่อตัวค่ะ\n\nเราจะช่วยประเมินว่า Ultherapy Prime เหมาะสมกับปัญหาที่คุณลูกค้ากังวลหรือไม่ และสามารถแนะนำหัตถการอื่น ๆ หรือการทำร่วมกันตามความเหมาะสมได้ค่ะ\n\nคุณลูกค้าสามารถปรึกษาและสอบถามได้อย่างเต็มที่เลยนะคะ ไม่ต้องกังวลค่ะ 🥰\n\nหากสะดวกเข้ามาในวันที่ 12 พฤศจิกายน เวลา 13:00 น.ามารถแจ้งเราได้เลยนะคะ ทางเรายินดีดำเนินการจองคิวให้ค่ะ\n\nขอบคุณมากค่ะ หวังว่าจะได้ต้อนรับคุณลูกค้าที่ Beauty Blossom Clinic นะคะ 🌸💕",
+                    "ko": "안녕하세요 😊🌸\nBeauty Blossom Clinic에 관심을 가지고 연락해 주셔서 감사합니다 💕\n\n 1. 예약 날짜와 시간\n\n11월 12일에는 클리닉에 13:00 예약 가능 시간이 있습니다.\n\n고객님께서 13:30에 마취제를 바르고 싶으시면 13:00에 클리닉에 오셔서 미리 준비하시거나, 13:30에 오셔서 먼저 마취제를 바른 후 마취제가 작용하기를 기다리는 동안 상담을 받으실 수 있습니다 😊\n\n2. Ultherapy Prime 가격\n\n클리닉에는 선택 가능한 패키지가 2가지 있습니다\n\nUltherapy Prime 300 shots\n- VAT 별도 가격: 1,090,000원\n- **VAT 10% 포함 가격: 1,199,000원**\n\nUltherapy Prime 600 shots\n- VAT 별도 가격: 1,990,000원\n- **VAT 10% 포함 가격: 2,189,000원**\n\n3. 태국어 통역 서비스\n\n클리닉에는 태국어 통역 직원이 상주합니다. 상담 및 시술 중 태국어 통역 서비스를 제공하므로 의사소통은 걱정하지 않으셔도 됩니다 💕\n\n4. 시술 소요 시간\n\n보통 상담 단계부터 시술 완료까지 약 1–1.5시간이 걸립니다 😊\n\n5. 시술 전 상담\n\n물론입니다! 시술 전에 클리닉에서 고객님의 피부 상태와 얼굴형을 평가하고 일대일 상담을 진행합니다.\n\nUltherapy Prime이 고객님이 고민하는 문제에 적합한지 평가해 드리며, 적절한 경우 다른 시술이나 병행 시술도 추천해 드릴 수 있습니다.\n\n충분히 상담하고 질문하셔도 되니 걱정하지 마세요 🥰\n\n11월 12일 13:00에 방문이 가능하시면 알려 주세요. 기꺼이 예약을 진행해 드리겠습니다.\n\n정말 감사합니다. Beauty Blossom Clinic에서 고객님을 맞이할 수 있기를 바랍니다 🌸💕"
                   }
                 ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=322983437&range=K138:N150"
@@ -15756,8 +15756,8 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-10-31",
-                    "original": "護照英文姓名（姓氏在前/統一大寫）：[고객명]\n・生日（西元 YYYY/MM/DD）：[생년월일]\n・希望療程：ONDA\n・預約日期&時間：[희망 예약일시]\n・是否希望進行皮膚檢測：yes\n\n\n因為是[항공편 출발시간]的飛機，不知道有沒有空檔可預約",
-                    "ko": "여권 영문 성명(성 먼저/모두 대문자)：[고객명]\n・생일(서기 YYYY/MM/DD)：[생년월일]\n・희망 시술：ONDA\n・예약 날짜&시간：[희망 예약일시]\n・피부 검사를 희망하시는지：예\n\n\n[항공편 출발시간] 비행기라서 예약 가능한 빈 시간이 있을지 모르겠습니다"
+                    "original": "護照英文姓名（姓氏在前/統一大寫）：CHU PEICHI\n・生日（西元 YYYY/MM/DD）：[생년월일]\n・希望療程：ONDA\n・預約日期&時間：10/31. 12點\n・是否希望進行皮膚檢測：yes\n\n\n因為是19點的飛機，不知道有沒有空檔可預約",
+                    "ko": "여권 영문 성명(성 먼저/모두 대문자)：CHU PEICHI\n・생일(서기 YYYY/MM/DD)：[생년월일]\n・희망 시술：ONDA\n・예약 날짜&시간：10/31. 12시\n・피부 검사를 희망하시는지：예\n\n\n19시 비행기라서 예약 가능한 빈 시간이 있을지 모르겠습니다"
                   },
                   {
                     "date": "2026-10-31",
@@ -15768,8 +15768,8 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-10-31",
-                    "original": "若您希望[방문일 가림]來院的話，[내원 마감 시각 가림]前直接幫我們過來就可以了喔~",
-                    "ko": "[방문일 가림] 내원을 원하시면 [내원 마감 시각 가림] 전에 바로 와 주시면 됩니다~"
+                    "original": "若您希望今天來院的話，下午二點半前直接幫我們過來就可以了喔~",
+                    "ko": "오늘 내원을 원하시면 오후 두 시 반 전에 바로 와 주시면 됩니다~"
                   },
                   {
                     "date": "2026-10-31",
@@ -15795,8 +15795,8 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-10-31",
-                    "original": "我原本有預約約，但是不小心預約約到江南那是在[기존 예약시간]，那我有辦法改成弘大嗎",
-                    "ko": "원래 예약이 있었는데, 실수로 강남으로 예약했고 그게 [기존 예약시간]인데, 홍대로 변경할 수 있을까요"
+                    "original": "我原本有預約約，但是不小心預約約到江南那是在三點，那我有辦法改成弘大嗎",
+                    "ko": "원래 예약이 있었는데, 실수로 강남으로 예약했고 그게 세 시인데, 홍대로 변경할 수 있을까요"
                   }
                 ],
                 "staff": [
@@ -19611,15 +19611,15 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-10-30",
-                    "original": "Please confirm [예약일시비공개].",
-                    "ko": "[예약일시비공개]으로 확정해 주세요."
+                    "original": "Please confirm 10:30 hrs on 9 November 2026.",
+                    "ko": "10:30 on 11월 9일으로 확정해 주세요."
                   }
                 ],
                 "staff": [
                   {
                     "date": "2026-10-30",
-                    "original": "ทางคลินิกขอยืนยันการนัดหมายของคุณตามวันและเวลาดังต่อไปนี้ค่ะ 🌸\n\n📅 วันที่：[예약일시비공개]\n⏰ เวลา：[예약일시비공개]\n\n📍 สถานที่：โซล เขตมาพอ (Mapo) ถนนยางฮวาโร 66 ชั้น 6\n\nแผนที่：\nNaver Map : https://naver.me/5ap1E0ph\n\nGoogle : [링크비공개]\n\nกรุณานำ บัตรประจำตัวชาวต่างชาติ (ARC) หรือ หนังสือเดินทาง (Passport) มาด้วยในวันเข้ารับบริการนะคะ ✨\n\n＊กรณีเข้ารับคำปรึกษาเท่านั้นโดยไม่ทำหัตถการในวันนัด\nจะมีค่าปรึกษา 10,000 วอน\n＊หากประสงค์ให้แพทย์ผู้อำนวยการคลินิกเป็นผู้ทำหัตถการ\nจะมีค่าใช้จ่ายเพิ่มเติม 20% ของราคาหัตถการ",
-                    "ko": "다음 날짜와 시간으로 고객님의 예약을 확인해 드립니다 🌸\n\n📅 날짜：[예약일시비공개]\n⏰ 시간：[예약일시비공개]\n\n📍 장소：서울 마포구 양화로 66, 6층\n\n지도：\nNaver Map : https://naver.me/5ap1E0ph\n\nGoogle : [링크비공개]\n\n방문 당일 외국인등록증（ARC）또는 여권（Passport）을 지참해 주세요 ✨\n\n＊예약일에 시술 없이 상담만 받는 경우\n상담료 10,000원이 발생합니다\n＊대표원장의 시술을 원하시는 경우\n시술 가격의 20%가 추가됩니다"
+                    "original": "ทางคลินิกขอยืนยันการนัดหมายของคุณตามวันและเวลาดังต่อไปนี้ค่ะ 🌸\n\n📅 วันที่：พ.ย. / 9\n⏰ เวลา：10 : 30\n\n📍 สถานที่：โซล เขตมาพอ (Mapo) ถนนยางฮวาโร 66 ชั้น 6\n\nแผนที่：\nNaver Map : https://naver.me/5ap1E0ph\n\nGoogle : [링크비공개]\n\nกรุณานำ บัตรประจำตัวชาวต่างชาติ (ARC) หรือ หนังสือเดินทาง (Passport) มาด้วยในวันเข้ารับบริการนะคะ ✨\n\n＊กรณีเข้ารับคำปรึกษาเท่านั้นโดยไม่ทำหัตถการในวันนัด\nจะมีค่าปรึกษา 10,000 วอน\n＊หากประสงค์ให้แพทย์ผู้อำนวยการคลินิกเป็นผู้ทำหัตถการ\nจะมีค่าใช้จ่ายเพิ่มเติม 20% ของราคาหัตถการ",
+                    "ko": "다음 날짜와 시간으로 고객님의 예약을 확인해 드립니다 🌸\n\n📅 날짜：พ.ย. / 9\n⏰ 시간：10 : 30\n\n📍 장소：서울 마포구 양화로 66, 6층\n\n지도：\nNaver Map : https://naver.me/5ap1E0ph\n\nGoogle : [링크비공개]\n\n방문 당일 외국인등록증（ARC）또는 여권（Passport）을 지참해 주세요 ✨\n\n＊예약일에 시술 없이 상담만 받는 경우\n상담료 10,000원이 발생합니다\n＊대표원장의 시술을 원하시는 경우\n시술 가격의 20%가 추가됩니다"
                   }
                 ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A26:Z26"
@@ -19728,8 +19728,8 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-10-30",
-                    "original": "您好，不好意思沒有回覆到您的訊息🥹\n想請問是否已經有在LINE上跟我們預約[예약일시비공개]這個時段了呢～\n若確認沒問題的話，之後繼續在LINE上跟我們聯繫就可以囉！🌸",
-                    "ko": "안녕하세요, 메시지에 답변을 못 드려 죄송합니다🥹\n혹시 LINE에서 이미 [예약일시비공개] 시간대로 저희와 예약하셨는지 여쭤보고 싶습니다～\n확인 후 문제가 없으면 이후에는 계속 LINE으로 연락해 주시면 됩니다!🌸"
+                    "original": "您好，不好意思沒有回覆到您的訊息🥹\n想請問是否已經有在LINE上跟我們預約11/11 18:00這個時段了呢～\n若確認沒問題的話，之後繼續在LINE上跟我們聯繫就可以囉！🌸",
+                    "ko": "안녕하세요, 메시지에 답변을 못 드려 죄송합니다🥹\n혹시 LINE에서 이미 11/11 18:00 시간대로 저희와 예약하셨는지 여쭤보고 싶습니다～\n확인 후 문제가 없으면 이후에는 계속 LINE으로 연락해 주시면 됩니다!🌸"
                   }
                 ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A29:Z29"
@@ -19821,8 +19821,8 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-10-30",
-                    "original": "ต้องการทราบราคาด้วยนะคะ มีไฟล์บินกลับ[예약일시비공개]  จะทำก่อนกลับ",
-                    "ko": "가격도 알고 싶어요. 돌아가는 비행기가 [예약일시비공개]에 있어서 돌아가기 전에 시술하려고요"
+                    "original": "ต้องการทราบราคาด้วยนะคะ มีไฟล์บินกลับวันนี้1ทุ่ม  จะทำก่อนกลับ",
+                    "ko": "가격도 알고 싶어요. 돌아가는 비행기가 오늘19시에 있어서 돌아가기 전에 시술하려고요"
                   },
                   {
                     "date": "2026-10-30",
@@ -19872,30 +19872,30 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-10-30",
-                    "original": "Can I make appointment for do botox at [예약일시비공개]. please",
-                    "ko": "[예약일시비공개]에 보톡스 예약할 수 있을까요"
+                    "original": "Can I make appointment for do botox at 2 pm. please",
+                    "ko": "오후 2시에 보톡스 예약할 수 있을까요"
                   },
                   {
                     "date": "2026-10-30",
-                    "original": "fo [예약일시비공개] please",
-                    "ko": "[예약일시비공개] 부탁드려요"
+                    "original": "fo today please",
+                    "ko": "네 부탁드려요"
                   },
                   {
                     "date": "2026-10-30",
-                    "original": "time:[예약일시비공개]",
-                    "ko": "시간:[예약일시비공개]"
+                    "original": "time:2pm",
+                    "ko": "시간:["
                   }
                 ],
                 "staff": [
                   {
                     "date": "2026-10-30",
-                    "original": "Just to confirm, would you like to visit our clinic [예약일시비공개] for a Botox treatment? 😊💕",
-                    "ko": "확인차 여쭤보면, [예약일시비공개]에 보톡스 시술을 받으러 저희 병원에 오시려는 것이 맞으신가요? 😊💕"
+                    "original": "Just to confirm, would you like to visit our clinic today at 2:00 PM for a Botox treatment? 😊💕",
+                    "ko": "확인차 여쭤보면, 오늘 오후 2:00에 보톡스 시술을 받으러 저희 병원에 오시려는 것이 맞으신가요? 😊💕"
                   },
                   {
                     "date": "2026-10-30",
-                    "original": "Your appointment has been confirmed! 😊💕\nWe look forward to seeing you [예약일시비공개]! 🌸",
-                    "ko": "예약이 확정되었습니다! 😊💕\n[예약일시비공개] 뵙기를 기대하겠습니다! 🌸"
+                    "original": "Your appointment has been confirmed! 😊💕\nWe look forward to seeing you later today! 🌸",
+                    "ko": "예약이 확정되었습니다! 😊💕\nlater 오늘 뵙기를 기대하겠습니다! 🌸"
                   },
                   {
                     "date": "2026-10-30",
@@ -20028,8 +20028,8 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-10-30",
-                    "original": "สวัสดีค่ะลูกค้า ขออนุญาตคอนเฟิร์มนัด[예약일시비공개] นะคะะ🥰✨",
-                    "ko": "안녕하세요, 고객님. [예약일시비공개] 예약을 확인드리고자 합니다🥰✨"
+                    "original": "สวัสดีค่ะลูกค้า ขออนุญาตคอนเฟิร์มนัดวันพรุ่งนี้เวลา 14น. นะคะะ🥰✨",
+                    "ko": "안녕하세요, 고객님. 내일 14시 예약을 확인드리고자 합니다🥰✨"
                   }
                 ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A58:Z58"
@@ -20106,8 +20106,8 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-10-30",
-                    "original": "Your reservation has been scheduled for the following date and time:\n\n📅 Day :  [예약일시비공개]\n⏰ Time : [예약일시비공개]\n\n📍Location : 66 Yanghwa-ro, Mapo, Seoul, 6F  \n\nLink for location \n* Naver Map : https://naver.me/5ap1E0ph\n* Google : https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 Please bring your Alien Registration Card or Passport with you.\n\nWe look forward to meeting you soon.🥰\n\nThank you 🙂\n\nBeauty Blossom Global Clinic Team🌸",
-                    "ko": "다음 날짜와 시간으로 예약되었습니다:\n\n📅 날짜 :  [예약일시비공개]\n⏰ 시간 : [예약일시비공개]\n\n📍위치 : 서울 마포구 양화로 66, 6층  \n\n위치 링크 \n* Naver Map : https://naver.me/5ap1E0ph\n* Google : https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 외국인등록증 또는 여권을 지참해 주세요.\n\n곧 뵙기를 기대합니다.🥰\n\n감사합니다 🙂\n\nBeauty Blossom 글로벌 클리닉 팀🌸"
+                    "original": "Your reservation has been scheduled for the following date and time:\n\n📅 Day :  4th / Nov / 2026\n⏰ Time : 12PM\n\n📍Location : 66 Yanghwa-ro, Mapo, Seoul, 6F  \n\nLink for location \n* Naver Map : https://naver.me/5ap1E0ph\n* Google : https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 Please bring your Alien Registration Card or Passport with you.\n\nWe look forward to meeting you soon.🥰\n\nThank you 🙂\n\nBeauty Blossom Global Clinic Team🌸",
+                    "ko": "다음 날짜와 시간으로 예약되었습니다:\n\n📅 날짜 :  4일 / 11월 / 2026\n⏰ 시간 : 오후 12시\n\n📍위치 : 서울 마포구 양화로 66, 6층  \n\n위치 링크 \n* Naver Map : https://naver.me/5ap1E0ph\n* Google : https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 외국인등록증 또는 여권을 지참해 주세요.\n\n곧 뵙기를 기대합니다.🥰\n\n감사합니다 🙂\n\nBeauty Blossom 글로벌 클리닉 팀🌸"
                   }
                 ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A38:Z38"
@@ -20738,8 +20738,8 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-10-30",
-                    "original": "[예약일시비공개]療程結束後，我們也都會發送注意事項給您，音波的話因為不會有傷口，所以正常洗臉化妝都是沒問題的喔!",
-                    "ko": "[예약일시비공개] 시술이 끝나면 주의사항도 보내드리겠습니다. 초음파는 상처가 생기지 않아서 평소처럼 세안과 화장을 하셔도 문제없습니다!"
+                    "original": "明天療程結束後，我們也都會發送注意事項給您，音波的話因為不會有傷口，所以正常洗臉化妝都是沒問題的喔!",
+                    "ko": "내일 시술이 끝나면 주의사항도 보내드리겠습니다. 초음파는 상처가 생기지 않아서 평소처럼 세안과 화장을 하셔도 문제없습니다!"
                   },
                   {
                     "date": "2026-10-30",
@@ -20814,15 +20814,15 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-10-30",
-                    "original": "你好，請問[희망 방문일 가림]可以預約嗎？",
-                    "ko": "안녕하세요, [희망 방문일 가림] 예약할 수 있을까요?"
+                    "original": "你好，請問明天可以預約嗎？",
+                    "ko": "안녕하세요, 내일 예약할 수 있을까요?"
                   }
                 ],
                 "staff": [
                   {
                     "date": "2026-10-31",
-                    "original": "您好，若您希望[방문일 가림]來院的話，最晚建議於[내원 마감 시각 가림]前抵達，以確保諮詢+施作時間充足喔~",
-                    "ko": "안녕하세요, [방문일 가림] 내원을 원하시면 상담+시술 시간이 충분하도록 늦어도 [내원 마감 시각 가림] 전에는 도착하시는 것을 권장해요~"
+                    "original": "您好，若您希望今天來院的話，最晚建議於下午二點半前抵達，以確保諮詢+施作時間充足喔~",
+                    "ko": "안녕하세요, 오늘 내원을 원하시면 상담+시술 시간이 충분하도록 늦어도 오후 두 시 반 전에는 도착하시는 것을 권장해요~"
                   }
                 ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A14:Z14"
@@ -20848,8 +20848,8 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-10-31",
-                    "original": "Your reservation has been scheduled for the following date and time:\n\n📅 Day :  [예약일]\n⏰ Time : [예약시간]\n\n📍Location : 66 Yanghwa-ro, Mapo, Seoul, 6F  \n\nLink for location \n* Naver Map : https://naver.me/5ap1E0ph\n* Google : https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 Please bring your Alien Registration Card or Passport with you.\n\nWe look forward to meeting you soon.🥰\n\nThank you 🙂\n\nBeauty Blossom Global Clinic Team🌸",
-                    "ko": "예약이 다음 날짜와 시간으로 잡혔습니다:\n\n📅 날짜 :  [예약일]\n⏰ 시간 : [예약시간]\n\n📍위치 : 66 Yanghwa-ro, Mapo, Seoul, 6F (서울 마포 양화로 66, 6층)  \n\n위치 링크 \n* Naver Map : https://naver.me/5ap1E0ph\n* Google : https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 외국인등록증이나 여권을 지참해 주세요.\n\n곧 만나 뵙기를 기대하겠습니다.🥰\n\n감사합니다 🙂\n\nBeauty Blossom Global Clinic Team (Beauty Blossom 글로벌 클리닉 팀)🌸"
+                    "original": "Your reservation has been scheduled for the following date and time:\n\n📅 Day :  15th / Nov / 2026\n⏰ Time : 11AM\n\n📍Location : 66 Yanghwa-ro, Mapo, Seoul, 6F  \n\nLink for location \n* Naver Map : https://naver.me/5ap1E0ph\n* Google : https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 Please bring your Alien Registration Card or Passport with you.\n\nWe look forward to meeting you soon.🥰\n\nThank you 🙂\n\nBeauty Blossom Global Clinic Team🌸",
+                    "ko": "예약이 다음 날짜와 시간으로 잡혔습니다:\n\n📅 날짜 :  15th / Nov / 2026 (2026년 11월 15일)\n⏰ 시간 : 11AM (오전 11시)\n\n📍위치 : 66 Yanghwa-ro, Mapo, Seoul, 6F (서울 마포 양화로 66, 6층)  \n\n위치 링크 \n* Naver Map : https://naver.me/5ap1E0ph\n* Google : https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 외국인등록증이나 여권을 지참해 주세요.\n\n곧 만나 뵙기를 기대하겠습니다.🥰\n\n감사합니다 🙂\n\nBeauty Blossom Global Clinic Team (Beauty Blossom 글로벌 클리닉 팀)🌸"
                   }
                 ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=694718562&range=A10:Z10"
@@ -23414,12 +23414,12 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-04",
-                    "original": "오늘 [예약시각 가림]에 예약 부탁드립니다.",
+                    "original": "오늘 오후 6시에 예약 부탁드립니다.",
                     "lang": "ko"
                   },
                   {
                     "date": "2026-11-04",
-                    "original": "❤️빠른 예약을 위해 아래 질문에 답변 부탁드립니다❤️\n\n▪️내원 경로(검색/소개/추천인 등):검색\n▪️성함/생년월일/연락처:[고객명 가림]/[생년월일 가림]/[연락처 가림]\n▪️예약 날짜 및 시간:[예약일 가림] [예약시각 가림]\n▪️원하시는 시술 및 상담:콧볼 보톡스\n***** [예약일 가림] 웨딩촬영 예정으로 참고 부탁드려요.\n\n확인 후 예약 도와드리겠습니다.\n\n▪️상담만 진행하실 경우 상담비 10,000원이 발생합니다.\n\n▪️미성년자의 경우 미성년자 동의서와 가족관계증명서 지참 후 내원부탁드립니다.\n*부모님 동반시 서류 지참 안해주셔도 됩니다.\n\n▪️피부진단(eve) 진행 원하실경우 비용안내 드립니다.\n✔️ 비용: 55,000원\n\n▪️원장님 지정 원하실경우 비용 안내드립니다.\n강남언니, 여신티켓, 바비톡 어플 이벤트 시술은 원장님 지정이 불가합니다.\n원내가 결제시 지정 가능합니다.\n· 원장님 지정: 시술 금액의 10% (최소 30,000원)\n· 대표원...",
+                    "original": "❤️빠른 예약을 위해 아래 질문에 답변 부탁드립니다❤️\n\n▪️내원 경로(검색/소개/추천인 등):검색\n▪️성함/생년월일/연락처:이수진/[생년월일 가림]/[연락처 가림]\n▪️예약 날짜 및 시간:11/4(수) 오후 6시\n▪️원하시는 시술 및 상담:콧볼 보톡스\n***** 11/9(월) 웨딩촬영 예정으로 참고 부탁드려요.\n\n확인 후 예약 도와드리겠습니다.\n\n▪️상담만 진행하실 경우 상담비 10,000원이 발생합니다.\n\n▪️미성년자의 경우 미성년자 동의서와 가족관계증명서 지참 후 내원부탁드립니다.\n*부모님 동반시 서류 지참 안해주셔도 됩니다.\n\n▪️피부진단(eve) 진행 원하실경우 비용안내 드립니다.\n✔️ 비용: 55,000원\n\n▪️원장님 지정 원하실경우 비용 안내드립니다.\n강남언니, 여신티켓, 바비톡 어플 이벤트 시술은 원장님 지정이 불가합니다.\n원내가 결제시 지정 가능합니다.\n· 원장님 지정: 시술 금액의 10% (최소 30,000원)\n· 대표원...",
                     "lang": "ko"
                   }
                 ],
@@ -23557,14 +23557,14 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-04",
-                    "original": "안냥하세요 [예약시각 가림] 예약 [고객명 가림]인데 혹시 다음주 [요일 가림] [예약시각 가림]로 예약 변경 가능할까요?",
+                    "original": "안냥하세요 6시 예약 이소영인데 혹시 다음주 월요일 6시로 예약 변경 가능할까요?",
                     "lang": "ko"
                   }
                 ],
                 "staff": [
                   {
                     "date": "2026-11-04",
-                    "original": "네, 고객님! 😊 예약을 **[예약일 가림] [예약시각 가림]**로 변경해 드렸습니다. 예약하신 날에 뵙겠습니다! 🌸",
+                    "original": "네, 고객님! 😊 예약을 **11월 9일(월) 오후 6시**로 변경해 드렸습니다. 예약하신 날에 뵙겠습니다! 🌸",
                     "lang": "ko"
                   }
                 ],
@@ -23616,7 +23616,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-04",
-                    "original": "🩷빠른 예약을 위해 아래 질문에 답변 부탁드립니다🩷\n\n-내원 경로(검색/소개/추천인 등): 인터넷\n-성함/생년월일/연락처: [고객명 가림] [생년월일 가림] [연락처 가림]\n-예약 날짜 및 시간:[예약일 가림]/[예약시각 가림]\n-원하시는 시술 및 상담: 피부비타민 수액 피로회복 여드름 염증 주사\n\n확인 후 예약 도와드리겠습니다.\n\n상담만 진행 하실경우 상담비 만원 발생 됩니다.\n미리 고지드리는점 양해 부탁드립니다 감사합니다 :D",
+                    "original": "🩷빠른 예약을 위해 아래 질문에 답변 부탁드립니다🩷\n\n-내원 경로(검색/소개/추천인 등): 인터넷\n-성함/생년월일/연락처: 박그리나 [생년월일 가림] [연락처 가림]\n-예약 날짜 및 시간:11/4/5:00pm\n-원하시는 시술 및 상담: 피부비타민 수액 피로회복 여드름 염증 주사\n\n확인 후 예약 도와드리겠습니다.\n\n상담만 진행 하실경우 상담비 만원 발생 됩니다.\n미리 고지드리는점 양해 부탁드립니다 감사합니다 :D",
                     "lang": "ko"
                   }
                 ],
@@ -23682,7 +23682,7 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-11-04",
-                    "original": "안녕하세요, [고객명 가림]님^^\n내원하셔서 이마 상태를 확인한 후 추가 몰딩 도와드릴 수 있습니다. 평일 [예약시각 가림]~[예약시각 가림] 사이로 방문 가능하신 날짜와 시간을 알려주시면 예약 안내 도와드리겠습니다! 🌸",
+                    "original": "안녕하세요, 다혜님^^\n내원하셔서 이마 상태를 확인한 후 추가 몰딩 도와드릴 수 있습니다. 평일 오전 11시~오후 3시 사이로 방문 가능하신 날짜와 시간을 알려주시면 예약 안내 도와드리겠습니다! 🌸",
                     "lang": "ko"
                   }
                 ],
@@ -23709,12 +23709,12 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-04",
-                    "original": "평일에는 가장 빠르게 방문 가능한 시간이 [예약시각 가림]입니닷 ㅜ",
+                    "original": "평일에는 가장 빠르게 방문 가능한 시간이 오후 7시입니닷 ㅜ",
                     "lang": "ko"
                   },
                   {
                     "date": "2026-11-04",
-                    "original": "네네! [요일 가림] [예약시각 가림] 가눙합니다",
+                    "original": "네네! 토요일 11시 가눙합니다",
                     "lang": "ko"
                   }
                 ],
@@ -23726,12 +23726,12 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-04",
-                    "original": "혹시 주말에는 [예약시각 가림]~[예약시각 가림]까지 괜찮으실까요? :)",
+                    "original": "혹시 주말에는 11시~3시까지 괜찮으실까요? :)",
                     "lang": "ko"
                   },
                   {
                     "date": "2026-11-04",
-                    "original": "[예약일 가림] 맞으실까요?",
+                    "original": "이번주 토요일 맞으실까요?",
                     "lang": "ko"
                   },
                   {
@@ -23788,7 +23788,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-04",
-                    "original": "재방문\n[고객명 가림] [생년월일 가림] [연락처 가림]\n[예약일 가림] [예약시각 가림]\n보톡스",
+                    "original": "재방문\n이도은 [생년월일 가림] [연락처 가림]\n11월 5일 오후 14시\n보톡스",
                     "lang": "ko"
                   }
                 ],
@@ -23930,12 +23930,12 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-11-03",
-                    "original": "답변이 늦어져서 죄송합니다. [고객명 가림]님:)\n다한증 보톡스는 땀이 완전히 나지 않도록 하는 시술이라기보다는, 땀 분비를 유도하는 신경 전달을 차단해 땀의 양을 줄이는 시술입니다.\n\n혹시 시술 전과 비교했을 때 땀이 줄어드는 효과를 전혀 느끼지 못하셨을까요? 불편하셨던 부분을 조금 더 자세히 말씀해 주시면 확인에 도움을 드리겠습니다.",
+                    "original": "답변이 늦어져서 죄송합니다. 재용님:)\n다한증 보톡스는 땀이 완전히 나지 않도록 하는 시술이라기보다는, 땀 분비를 유도하는 신경 전달을 차단해 땀의 양을 줄이는 시술입니다.\n\n혹시 시술 전과 비교했을 때 땀이 줄어드는 효과를 전혀 느끼지 못하셨을까요? 불편하셨던 부분을 조금 더 자세히 말씀해 주시면 확인에 도움을 드리겠습니다.",
                     "lang": "ko"
                   },
                   {
                     "date": "2026-11-04",
-                    "original": "안녕하세요, 뷰티블라썸의원입니다 😊\n[고객명 가림]님, 불편을 드려 죄송합니다. 시술 후 신경이 많이 쓰이고 걱정되셨을 것 같습니다.\n\n전일, 리터치 관련 안내차 전화드렸으나 연결되지 않아 메시지 남겨드립니다. 내원하시면 상태를 꼼꼼히 확인한 후 추가 시술에 대해 자세히 안내드리겠습니다.\n추가 시술은 리터치로 진행되며, 비용은 132,000원인 점 참고 부탁드립니다.\n\n내원 시 세심하게 살펴드리겠습니다. 감사합니다🌸",
+                    "original": "안녕하세요, 뷰티블라썸의원입니다 😊\n최재웅님, 불편을 드려 죄송합니다. 시술 후 신경이 많이 쓰이고 걱정되셨을 것 같습니다.\n\n전일, 리터치 관련 안내차 전화드렸으나 연결되지 않아 메시지 남겨드립니다. 내원하시면 상태를 꼼꼼히 확인한 후 추가 시술에 대해 자세히 안내드리겠습니다.\n추가 시술은 리터치로 진행되며, 비용은 132,000원인 점 참고 부탁드립니다.\n\n내원 시 세심하게 살펴드리겠습니다. 감사합니다🌸",
                     "lang": "ko"
                   }
                 ],
@@ -23964,7 +23964,7 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-11-04",
-                    "original": "[고객명 가림]님, 시술 후 기대하셨던 효과가 충분히 느껴지지 않아 아쉬우셨을 것 같습니다.\n\n다한증 보톡스는 정해진 용량이 정상적으로 주입되었더라도 땀 분비량이나 개인별 반응에 따라 효과에 차이가 있을 수 있으며, 특히 다한증은 개인차가 비교적 큰 시술인 점 양해 부탁드립니다.\n\n고객님의 아쉬운 마음을 충분히 이해하여, 원래 정가로 진행되는 시술이지만 기존 시술 비용의 절반인 132,000원에 100유닛을 추가로 시술해 드리고자 합니다.\n\n고객님께서 조금이나마 만족하실 수 있도록 병원에서도 배려해 드리는 부분인 만큼 너그러운 마음으로 이해해 주시면 감사하겠습니다.",
+                    "original": "재웅님, 시술 후 기대하셨던 효과가 충분히 느껴지지 않아 아쉬우셨을 것 같습니다.\n\n다한증 보톡스는 정해진 용량이 정상적으로 주입되었더라도 땀 분비량이나 개인별 반응에 따라 효과에 차이가 있을 수 있으며, 특히 다한증은 개인차가 비교적 큰 시술인 점 양해 부탁드립니다.\n\n고객님의 아쉬운 마음을 충분히 이해하여, 원래 정가로 진행되는 시술이지만 기존 시술 비용의 절반인 132,000원에 100유닛을 추가로 시술해 드리고자 합니다.\n\n고객님께서 조금이나마 만족하실 수 있도록 병원에서도 배려해 드리는 부분인 만큼 너그러운 마음으로 이해해 주시면 감사하겠습니다.",
                     "lang": "ko"
                   }
                 ],
@@ -24095,7 +24095,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-04",
-                    "original": "[고객명 가림] [생년월일 가림] [연락처 가림]\n금일 [예약시각 가림]\n미간 주름상담 입니다!",
+                    "original": "홍기은 [생년월일 가림] [연락처 가림]\n금일 12시\n미간 주름상담 입니다!",
                     "lang": "ko"
                   }
                 ],
@@ -24107,7 +24107,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-04",
-                    "original": "안녕하세요 ,[고객명 가림]님^^\n금일 [예약시각 가림] 예약 도와드렸습니다\n만약 오늘 상담만 진행하실 경우 상담비 10,000원이 발생됩니다~\n미리 안내드리는 점 양해 부탁드립니다 :)",
+                    "original": "안녕하세요 ,기은님^^\n금일 12시 예약 도와드렸습니다\n만약 오늘 상담만 진행하실 경우 상담비 10,000원이 발생됩니다~\n미리 안내드리는 점 양해 부탁드립니다 :)",
                     "lang": "ko"
                   }
                 ],
@@ -24129,7 +24129,7 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-04",
-                    "original": "ㅔ안녕하세요, [예약시각 가림]로 예약변경이 가능할까요? 보톡스는 맞을 것 같슺니가",
+                    "original": "ㅔ안녕하세요, 13시로 예약변경이 가능할까요? 보톡스는 맞을 것 같슺니가",
                     "lang": "ko"
                   },
                   {
@@ -24141,17 +24141,17 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-11-04",
-                    "original": "네 가능합니다! [예약시각 가림]로 변경 도와드렸습니다!",
+                    "original": "네 가능합니다! 13시로 변경 도와드렸습니다!",
                     "lang": "ko"
                   },
                   {
                     "date": "2026-11-04",
-                    "original": "네 :) 금일 [예약시각 가림]에 뵙겠습니다!",
+                    "original": "네 :) 금일 13시에 뵙겠습니다!",
                     "lang": "ko"
                   },
                   {
                     "date": "2026-11-04",
-                    "original": "안녕하세요 ,[고객명 가림]님^^\n\n금액권 차감 안내 드립니다♥\n\n[예약일 가림]\n\n<시술내역>\n* 제오민)이마,미간,눈썹산 130,900원\n\n차감내역: 100,200원 입니다.\n감사합니다 :)",
+                    "original": "안녕하세요 ,기은님^^\n\n금액권 차감 안내 드립니다♥\n\n11월4일\n\n<시술내역>\n* 제오민)이마,미간,눈썹산 130,900원\n\n차감내역: 100,200원 입니다.\n감사합니다 :)",
                     "lang": "ko"
                   }
                 ],
@@ -24231,7 +24231,7 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-04",
-                    "original": "오늘 저녁 [예약시각 가림]에 예약 가능할까요?\n[고객명 가림]/[생년월일 가림]./[연락처 가림]",
+                    "original": "오늘 저녁 7시에 예약 가능할까요?\n안세원/[생년월일 가림]./[연락처 가림]",
                     "lang": "ko"
                   }
                 ],
@@ -24429,7 +24429,7 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-11-04",
-                    "original": "안녕하세요 [고객명 가림]님^^\n[예약일 가림] [예약시각 가림] 예약 가능합니다\n상담만 진행하실 경우 상담비 10,000원이 발생합니다.\n미리 안내드리는 점 양해 부탁드립니다 :)\n미성년자의 경우 미성년자 동의서와 가족관계증명서 지참 후 내원해 주세요.\n*부모님 동반시 서류 지참 안해 주셔도 됩니다.\n피부진단(eve) 진행 원하실경우 비용안내 드립니다.\n* 피부진단 비용은 결제금액에 따라 달라지며, 예약 시 확인해 안내드립니다.\n원장님 지정 원하실경우 비용 안내드립니다.\n강남언니, 여신티켓, 바비톡 어플 이벤트 시술은 원장님 지정이 불가합니다.\n원내가 결제 시 지정 가능합니다.\n원장님 지정: 시술 금액의 10% (최소 30,000원)\n대표원장님 지정: 시술 금액의 20% (최소 50,000원)\n미리 안내드리며, 고객님의 너그러운 양해 부탁드립니다. 감사합니다.",
+                    "original": "안녕하세요 지희님^^\n11/7(토) 16:00시 예약 가능합니다\n상담만 진행하실 경우 상담비 10,000원이 발생합니다.\n미리 안내드리는 점 양해 부탁드립니다 :)\n미성년자의 경우 미성년자 동의서와 가족관계증명서 지참 후 내원해 주세요.\n*부모님 동반시 서류 지참 안해 주셔도 됩니다.\n피부진단(eve) 진행 원하실경우 비용안내 드립니다.\n* 피부진단 비용은 결제금액에 따라 달라지며, 예약 시 확인해 안내드립니다.\n원장님 지정 원하실경우 비용 안내드립니다.\n강남언니, 여신티켓, 바비톡 어플 이벤트 시술은 원장님 지정이 불가합니다.\n원내가 결제 시 지정 가능합니다.\n원장님 지정: 시술 금액의 10% (최소 30,000원)\n대표원장님 지정: 시술 금액의 20% (최소 50,000원)\n미리 안내드리며, 고객님의 너그러운 양해 부탁드립니다. 감사합니다.",
                     "lang": "ko"
                   },
                   {
@@ -24549,14 +24549,14 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-04",
-                    "original": "안녕하세요 어제 필러 녹였는데 벌써 절반이상은 빠진 거 보여서 넘 만족해요 😳 혹시 [예약일 가림]에 필러 다시 맞아도 괜찮을까요? 🥹",
+                    "original": "안녕하세요 어제 필러 녹였는데 벌써 절반이상은 빠진 거 보여서 넘 만족해요 😳 혹시 9일에 필러 다시 맞아도 괜찮을까요? 🥹",
                     "lang": "ko"
                   }
                 ],
                 "staff": [
                   {
                     "date": "2026-11-04",
-                    "original": "안녕하세요 😊\n[고객명 가림]님, 필러를 녹이신 후에는 일반적으로 1~2주 정도 충분한 회복 기간을 가진 뒤 재시술하시는 것을 권장드립니다. 💕\n다만, 기존 필러의 잔여 여부와 붓기, 피부 상태에 따라 재시술 가능 시기가 달라질 수 있습니다.\n내원 시 원장님께서 해당 부위의 상태를 확인하신 후 정확한 재시술 가능 시기를 안내해 드리겠습니다.\n\n감사합니다!🌸",
+                    "original": "안녕하세요 😊\n소연님, 필러를 녹이신 후에는 일반적으로 1~2주 정도 충분한 회복 기간을 가진 뒤 재시술하시는 것을 권장드립니다. 💕\n다만, 기존 필러의 잔여 여부와 붓기, 피부 상태에 따라 재시술 가능 시기가 달라질 수 있습니다.\n내원 시 원장님께서 해당 부위의 상태를 확인하신 후 정확한 재시술 가능 시기를 안내해 드리겠습니다.\n\n감사합니다!🌸",
                     "lang": "ko"
                   }
                 ],
@@ -24679,7 +24679,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-04",
-                    "original": "🩷빠른 예약을 위해 아래 질문에 답변 부탁드립니다🩷\n\n-내원 경로(검색/소개/추천인 등): 재방문\n-성함/생년월일/연락처: [고객명 가림] /[생년월일 가림]/[연락처 가림]\n-예약 날짜 및 시간: [예약일 가림] /[예약시각 가림]\n-원하시는 시술 및 상담: 제모\n\n확인 후 예약 도와드리겠습니다.\n\n상담만 진행 하실경우 상담비 만원 발생 됩니다.\n미리 고지드리는점 양해 부탁드립니다 감사합니다 :D",
+                    "original": "🩷빠른 예약을 위해 아래 질문에 답변 부탁드립니다🩷\n\n-내원 경로(검색/소개/추천인 등): 재방문\n-성함/생년월일/연락처: 이민지 /[생년월일 가림]/[연락처 가림]\n-예약 날짜 및 시간: 5일 /14시\n-원하시는 시술 및 상담: 제모\n\n확인 후 예약 도와드리겠습니다.\n\n상담만 진행 하실경우 상담비 만원 발생 됩니다.\n미리 고지드리는점 양해 부탁드립니다 감사합니다 :D",
                     "lang": "ko"
                   }
                 ],
@@ -26223,7 +26223,7 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-11-03",
-                    "original": "안녕하세요, [고객명 가림]님! 😊\n\n저희 병원에는 지방분해 주사 종류가 두 가지 있습니다.\n- 핏주사: 스테로이드 성분이 포함되어 있습니다.\n- 블라썸 주사: 스테로이드 성분이 포함되어 있지 않습니다.\n만약 지방세포 자체를 파괴하는 주사를 원하신다면 DCA / CA 주사도 진행하고 있습니다.\n\n\nhttps://beautyblossom.kr/22/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=173373461&t=board\n\n\n참고하실 수 있도록 현재 진행 중인 이벤트 가격표도 함께 보내드립니다. 💕\n\n다만, 5일 전에 팔자 위쪽 부위에 히알라제 주사를 맞으셨다고 하셔서, 인모드 및 지방분해 주사의 진행 가능 여부는 시술 부위와 현재 회복 상태에 따라 달라질 수 있습니다.\n\n안전한 시술을 위해 내원 후 원장님께서 먼저 상태를 확인하신 뒤 진행 여부를 안내해 드리겠습니다. 😊",
+                    "original": "안녕하세요, 이현주님! 😊\n\n저희 병원에는 지방분해 주사 종류가 두 가지 있습니다.\n- 핏주사: 스테로이드 성분이 포함되어 있습니다.\n- 블라썸 주사: 스테로이드 성분이 포함되어 있지 않습니다.\n만약 지방세포 자체를 파괴하는 주사를 원하신다면 DCA / CA 주사도 진행하고 있습니다.\n\n\nhttps://beautyblossom.kr/22/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=173373461&t=board\n\n\n참고하실 수 있도록 현재 진행 중인 이벤트 가격표도 함께 보내드립니다. 💕\n\n다만, 5일 전에 팔자 위쪽 부위에 히알라제 주사를 맞으셨다고 하셔서, 인모드 및 지방분해 주사의 진행 가능 여부는 시술 부위와 현재 회복 상태에 따라 달라질 수 있습니다.\n\n안전한 시술을 위해 내원 후 원장님께서 먼저 상태를 확인하신 뒤 진행 여부를 안내해 드리겠습니다. 😊",
                     "lang": "ko"
                   },
                   {
@@ -26336,7 +26336,7 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-11-03",
-                    "original": "네, [고객명 가림]님:) 연락처와 생년월일 말씀해주시면 확인 도와드리겠습니다:ㅣ)",
+                    "original": "네, 수진님:) 연락처와 생년월일 말씀해주시면 확인 도와드리겠습니다:ㅣ)",
                     "lang": "ko"
                   }
                 ],
@@ -26358,7 +26358,7 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-03",
-                    "original": "선생님 저 예약을 [예약일 가림]로 바꿀 수 있을까요?",
+                    "original": "선생님 저 예약을 금요일로 바꿀 수 있을까요?",
                     "lang": "ko"
                   },
                   {
@@ -26370,7 +26370,7 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-11-03",
-                    "original": "네 [고객명 가림]님~\n예약을 [예약일 가림] 동일한 시간으로 변경해드릴까요?",
+                    "original": "네 성효진님~\n예약을 금요일 동일한 시간으로 변경해드릴까요?",
                     "lang": "ko"
                   },
                   {
@@ -26404,7 +26404,7 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-11-03",
-                    "original": "안녕하세요, 뷰티블라썸의원입니다 😊\n\n고객님, 비타민 관리 + 피코슈어 시술은 **3회 남아 있으며, 잔여 금액은 [잔여금액 가림]입니다.**\n\n예약을 원하시면 희망하시는 날짜와 시간을 말씀해 주세요. 확인 후 예약 도와드리겠습니다!\n\n감사합니다!🌸",
+                    "original": "안녕하세요, 뷰티블라썸의원입니다 😊\n\n고객님, 비타민 관리 + 피코슈어 시술은 **3회 남아 있으며, 잔여 금액은 495,010원입니다.**\n\n예약을 원하시면 희망하시는 날짜와 시간을 말씀해 주세요. 확인 후 예약 도와드리겠습니다!\n\n감사합니다!🌸",
                     "lang": "ko"
                   }
                 ],
@@ -26710,7 +26710,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-03",
-                    "original": "[예약일 가림] 올리지오 xm 아이rf로\n예약가능할까요? 시간은 [예약시각 가림]정도 가능한지 봐주세요",
+                    "original": "11월 5일 올리지오 xm 아이rf로\n예약가능할까요? 시간은 11시반정도 가능한지 봐주세요",
                     "lang": "ko"
                   },
                   {
@@ -26730,7 +26730,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-03",
-                    "original": "네 감사합니다 [예약일 가림]뵐께요",
+                    "original": "네 감사합니다 모레뵐께요",
                     "lang": "ko"
                   }
                 ],
@@ -26757,7 +26757,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-03",
-                    "original": "네, [예약일 가림]에 뵙겠습니다:) 감사합니다.",
+                    "original": "네, 5일에 뵙겠습니다:) 감사합니다.",
                     "lang": "ko"
                   },
                   {
@@ -26767,7 +26767,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-03",
-                    "original": "네 [고객명 가림]님:) 궁금하신 점 있으시면 언제든지 편하게 문의주세요~\n감사합니다",
+                    "original": "네 희연님:) 궁금하신 점 있으시면 언제든지 편하게 문의주세요~\n감사합니다",
                     "lang": "ko"
                   }
                 ],
@@ -26799,7 +26799,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-03",
-                    "original": "🩷빠른 예약을 위해 아래 질문에 답변 부탁드립니다🩷\n\n-내원 경로(검색/소개/추천인 등):\n\n-성함/생년월일/연락처:\n[고객명 가림]\n[생년월일 가림]\n[연락처 가림]––>[연락처 가림]\n\n-예약 날짜 및 시간:\n[예약일 가림] [예약시각 가림]\n\n-원하시는 시술 및 상담:\n사각턱 앨러간B 50유닛에\n\n확인 후 예약 도와드리겠습니다.\n\n상담만 진행 하실경우 상담비 만원 발생 됩니다.\n미리 고지드리는점 양해 부탁드립니다 감사합니다 :D",
+                    "original": "🩷빠른 예약을 위해 아래 질문에 답변 부탁드립니다🩷\n\n-내원 경로(검색/소개/추천인 등):\n\n-성함/생년월일/연락처:\nLam Shuk Yee\n[생년월일 가림]\n[연락처 가림]––>[연락처 가림]\n\n-예약 날짜 및 시간:\n오늘 오후 4시\n\n-원하시는 시술 및 상담:\n사각턱 앨러간B 50유닛에\n\n확인 후 예약 도와드리겠습니다.\n\n상담만 진행 하실경우 상담비 만원 발생 됩니다.\n미리 고지드리는점 양해 부탁드립니다 감사합니다 :D",
                     "lang": "ko"
                   },
                   {
@@ -26821,7 +26821,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-03",
-                    "original": "안녕하세요, 뷰티블라썸의원입니다🌸\n고객님의 예약이 정상적으로 확정되었습니다!\n\n예약해 주셔서 감사드리며, 예약하신 일정에 맞춰 방문 부탁드립니다. 변경 사항이 있으실 경우 미리 연락 주시면 확인 도와드리겠습니다:)\n\n그럼 [예약일 가림] 뵙겠습니다. 감사합니다!",
+                    "original": "안녕하세요, 뷰티블라썸의원입니다🌸\n고객님의 예약이 정상적으로 확정되었습니다!\n\n예약해 주셔서 감사드리며, 예약하신 일정에 맞춰 방문 부탁드립니다. 변경 사항이 있으실 경우 미리 연락 주시면 확인 도와드리겠습니다:)\n\n그럼 오늘 뵙겠습니다. 감사합니다!",
                     "lang": "ko"
                   },
                   {
@@ -26836,7 +26836,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-03",
-                    "original": "안녕하세요! :)\n[예약일 가림] [예약시각 가림] 예약 변경없이 내원 하시는 거 맞으실까요? :)\n만약, 변경사항 있다면 편하게 연락 주시면 확인 도와드리겠습니다!",
+                    "original": "안녕하세요! :)\n오늘 오후 4시 예약 변경없이 내원 하시는 거 맞으실까요? :)\n만약, 변경사항 있다면 편하게 연락 주시면 확인 도와드리겠습니다!",
                     "lang": "ko"
                   }
                 ],
@@ -26958,7 +26958,7 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-03",
-                    "original": "[예약일 가림] [예약시각 가림]에 상담 받고 진행해도 될까요??? 혹시 [예약일 가림] 대표원장님도 가능한지 문의드려요!",
+                    "original": "금일 4:30에 상담 받고 진행해도 될까요??? 혹시 오늘 대표원장님도 가능한지 문의드려요!",
                     "lang": "ko"
                   },
                   {
@@ -26998,19 +26998,19 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-03",
-                    "original": "[예약시각 가림]에 대표원장님으로 지정해주세요:)",
+                    "original": "4:30에 대표원장님으로 지정해주세요:)",
                     "lang": "ko"
                   }
                 ],
                 "staff": [
                   {
                     "date": "2026-11-03",
-                    "original": "혹시 [예약일 가림] 시술 대표원장님 지정 희망하신가요? :)\n\n▪️원장님 지정 원하실경우 비용 안내드립니다.\n강남언니, 여신티켓, 바비톡 어플 이벤트 시술은 원장님 지정이 불가합니다.\n원내가 결제시 지정 가능합니다.\n· 원장님 지정: 시술 금액의 10% (최소 30,000원)\n· 대표원장님 지정: 시술 금액의 20% (최소 50,000원)\n\n미리 안내드리며, 고객님의 너그러운 양해 부탁드립니다. 감사합니다.",
+                    "original": "혹시 금일 시술 대표원장님 지정 희망하신가요? :)\n\n▪️원장님 지정 원하실경우 비용 안내드립니다.\n강남언니, 여신티켓, 바비톡 어플 이벤트 시술은 원장님 지정이 불가합니다.\n원내가 결제시 지정 가능합니다.\n· 원장님 지정: 시술 금액의 10% (최소 30,000원)\n· 대표원장님 지정: 시술 금액의 20% (최소 50,000원)\n\n미리 안내드리며, 고객님의 너그러운 양해 부탁드립니다. 감사합니다.",
                     "lang": "ko"
                   },
                   {
                     "date": "2026-11-03",
-                    "original": "네, [고객명 가림]님. 본원에서는 원장님을 별도로 지정하실 경우 지정비가 발생하며, 시술을 추가하시는 경우에도 추가 시술 비용과 별도로 지정비가 발생하는 점 안내드립니다.",
+                    "original": "네, 현정님. 본원에서는 원장님을 별도로 지정하실 경우 지정비가 발생하며, 시술을 추가하시는 경우에도 추가 시술 비용과 별도로 지정비가 발생하는 점 안내드립니다.",
                     "lang": "ko"
                   },
                   {
@@ -27142,12 +27142,12 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-03",
-                    "original": "Yes~ I can come on [예약일 가림]",
-                    "ko": "네~ 저는 [예약일 가림]에 방문할 수 있어요"
+                    "original": "Yes~ I can come on this Friday",
+                    "ko": "네~ 저는 this 금요일에 방문할 수 있어요"
                   },
                   {
                     "date": "2026-11-03",
-                    "original": "[예약시각 가림]",
+                    "original": "At 5 PM",
                     "lang": "ko"
                   }
                 ],
@@ -27176,7 +27176,7 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-03",
-                    "original": "너무 죄송합니다만 근무일정이 미뤄져서 [예약일 가림] [예약시각 가림] 예약했는데 방문이 어려울것 같습니다\n죄송합니다ㅜㅜ",
+                    "original": "너무 죄송합니다만 근무일정이 미뤄져서 오늘 1시 예약했는데 방문이 어려울것 같습니다\n죄송합니다ㅜㅜ",
                     "lang": "ko"
                   },
                   {
@@ -27186,14 +27186,14 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-03",
-                    "original": "[요일 가림] [예약시각 가림] 가능할까요??",
+                    "original": "목요일 7시 가능할까요??",
                     "lang": "ko"
                   }
                 ],
                 "staff": [
                   {
                     "date": "2026-11-03",
-                    "original": "네 [고객명 가림]님~\n예약 취소해드릴까요? 변경해드릴까요?",
+                    "original": "네 하수진님~\n예약 취소해드릴까요? 변경해드릴까요?",
                     "lang": "ko"
                   },
                   {
@@ -27230,7 +27230,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-03",
-                    "original": "[예약일 가림] [예약시각 가림]으로 변경부탁드립니다.",
+                    "original": "내일 10시30분으로 변경부탁드립니다.",
                     "lang": "ko"
                   },
                   {
@@ -27247,7 +27247,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-03",
-                    "original": "[예약일 가림] 뵙겠습니다~ :)",
+                    "original": "내일 뵙겠습니다~ :)",
                     "lang": "ko"
                   }
                 ],
@@ -27578,7 +27578,7 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-03",
-                    "original": "🩷빠른 예약을 위해 아래 질문에 답변 부탁드립니다🩷\n\n-내원 경로(검색/소개/추천인 등): 기존 방문\n-성함/생년월일/연락처:\n[고객명 가림]/ [생년월일 가림]/ [연락처 가림]\n-예약 날짜 및 시간:\n[예약일 가림](화) [예약시각 가림]\n-원하시는 시술 및 상담:\n포텐자\n\n\n확인 후 예약 도와드리겠습니다.\n\n상담만 진행 하실경우 상담비 만원 발생 됩니다.\n미리 고지드리는점 양해 부탁드립니다 감사합니다 :D",
+                    "original": "🩷빠른 예약을 위해 아래 질문에 답변 부탁드립니다🩷\n\n-내원 경로(검색/소개/추천인 등): 기존 방문\n-성함/생년월일/연락처:\n채수정/ [생년월일 가림]/ [연락처 가림]\n-예약 날짜 및 시간:\n2026.11.03(화) 18:40\n-원하시는 시술 및 상담:\n포텐자\n\n\n확인 후 예약 도와드리겠습니다.\n\n상담만 진행 하실경우 상담비 만원 발생 됩니다.\n미리 고지드리는점 양해 부탁드립니다 감사합니다 :D",
                     "lang": "ko"
                   }
                 ],
@@ -27612,7 +27612,7 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-03",
-                    "original": "안녕하세요! 오늘 예약 [예약시각 가림]으로 부탁드렸는데, 예약 확인 문자는 [예약시각 가림]으로 와서요..! 혹시 예약 시간 확인 한번 부탁드릴 수 있을까요?",
+                    "original": "안녕하세요! 오늘 예약 18:40으로 부탁드렸는데, 예약 확인 문자는 18:00으로 와서요..! 혹시 예약 시간 확인 한번 부탁드릴 수 있을까요?",
                     "lang": "ko"
                   },
                   {
@@ -27624,7 +27624,7 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-11-03",
-                    "original": "오늘 예약 [예약시각 가림] 으로 수정되어있습니다! :) 걱정없이 [예약시각 가림]에 내원해주시면 됩니다! :)\n내원하실 때 조심히 오세요~!",
+                    "original": "오늘 예약 18:40 으로 수정되어있습니다! :) 걱정없이 18:40에 내원해주시면 됩니다! :)\n내원하실 때 조심히 오세요~!",
                     "lang": "ko"
                   }
                 ],
@@ -27671,7 +27671,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-03",
-                    "original": "[예약시각 가림] 이전에 아무때나 가면되나요??",
+                    "original": "6시30분 이전에 아무때나 가면되나요??",
                     "lang": "ko"
                   },
                   {
@@ -27688,7 +27688,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-03",
-                    "original": "네, 고객님! 😊 오늘 [예약시각 가림] 전까지 내원해 주시면 원활하게 시술 진행 도와드릴 수 있습니다!\n예약 도와드릴까요?",
+                    "original": "네, 고객님! 😊 오늘 오후 6시 30분 전까지 내원해 주시면 원활하게 시술 진행 도와드릴 수 있습니다!\n예약 도와드릴까요?",
                     "lang": "ko"
                   },
                   {
@@ -27764,14 +27764,14 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-02",
-                    "original": "네 확인 감사합니다\n혹시 내일 방문해서 리터치 받을 수 있을까요\n시간은 [예약시각 가림] 사이 가능합니다",
+                    "original": "네 확인 감사합니다\n혹시 내일 방문해서 리터치 받을 수 있을까요\n시간은 11-4시 사이 가능합니다",
                     "lang": "ko"
                   }
                 ],
                 "staff": [
                   {
                     "date": "2026-11-03",
-                    "original": "안녕하세요, 뷰티블라썸의원입니다 😊\n\n네, 고객님! 내일 [예약일 가림] 예약 가능합니다. 방문을 희망하시는 시간을 알려주시면, 예약 가능 여부를 확인한 후 예약 도와드리겠습니다.\n\n감사합니다!🌸",
+                    "original": "안녕하세요, 뷰티블라썸의원입니다 😊\n\n네, 고객님! 내일 11월 4일 예약 가능합니다. 방문을 희망하시는 시간을 알려주시면, 예약 가능 여부를 확인한 후 예약 도와드리겠습니다.\n\n감사합니다!🌸",
                     "lang": "ko"
                   }
                 ],
@@ -27798,12 +27798,12 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-03",
-                    "original": "아니면 [요일 가림] [예약시각 가림] 가능한가요?",
+                    "original": "아니면 목요일 3:30 가능한가요?",
                     "lang": "ko"
                   },
                   {
                     "date": "2026-11-03",
-                    "original": "네 [예약시각 가림]에 가겠습니다",
+                    "original": "네 2시에 가겠습니다",
                     "lang": "ko"
                   },
                   {
@@ -27815,12 +27815,12 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-11-03",
-                    "original": "금일 [예약시각 가림] 괜찮으실까요?",
+                    "original": "금일 2시 괜찮으실까요?",
                     "lang": "ko"
                   },
                   {
                     "date": "2026-11-03",
-                    "original": "네, 고객님! 오늘 [예약시각 가림]로 예약 도와드리겠습니다. 오실 때 조심히 오시고, 잠시 후에 뵙겠습니다!\n\n감사합니다!🌸",
+                    "original": "네, 고객님! 오늘 오후 2시로 예약 도와드리겠습니다. 오실 때 조심히 오시고, 잠시 후에 뵙겠습니다!\n\n감사합니다!🌸",
                     "lang": "ko"
                   },
                   {
@@ -27847,7 +27847,7 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-03",
-                    "original": "안녕하세요! 체험단으로 [예약일 가림] [예약시각 가림] 예약한 [고객명 가림]이라고 합니다! 혹시 시간대를 [예약시각 가림]에서 [예약시각 가림]로 변경할 수 있을까요?",
+                    "original": "안녕하세요! 체험단으로 10일 2시 예약한 서해린이라고 합니다! 혹시 시간대를 2시에서 4시로 변경할 수 있을까요?",
                     "lang": "ko"
                   }
                 ],
@@ -29587,7 +29587,7 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-02",
-                    "original": "안녕하세요 [고객명 가림] 닉네임으로\n여신티켓 포토 후기 작성완료하였습니다!",
+                    "original": "안녕하세요 샤루비아 닉네임으로\n여신티켓 포토 후기 작성완료하였습니다!",
                     "lang": "ko"
                   }
                 ],
@@ -29714,7 +29714,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-02",
-                    "original": "[고객명 가림] [연락처 가림]입니다",
+                    "original": "이지혜 [연락처 가림]입니다",
                     "lang": "ko"
                   }
                 ],
@@ -29743,14 +29743,14 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-02",
-                    "original": "네네 [예약시각 가림]으로 예약 부탁드려요",
+                    "original": "네네 네시반으로 예약 부탁드려요",
                     "lang": "ko"
                   }
                 ],
                 "staff": [
                   {
                     "date": "2026-11-02",
-                    "original": "네, 고객님! 이번 주 [요일 가림] [예약시각 가림], 김준혁 원장님 지정으로 예약 도와드리겠습니다. 오실 때 조심히 오시고, [요일 가림]에 뵙겠습니다!\n감사합니다!🌸",
+                    "original": "네, 고객님! 이번 주 금요일 오후 4시 30분, 김준혁 원장님 지정으로 예약 도와드리겠습니다. 오실 때 조심히 오시고, 금요일에 뵙겠습니다!\n감사합니다!🌸",
                     "lang": "ko"
                   }
                 ],
@@ -29841,7 +29841,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-02",
-                    "original": "네 고객님 [예약일 가림](2025)->[예약일 가림]->[예약일 가림](마지막) 시술 받으셨던 것으로 확인되십니다^^",
+                    "original": "네 고객님 8/19(2025)->4/13->7월 18일(마지막) 시술 받으셨던 것으로 확인되십니다^^",
                     "lang": "ko"
                   }
                 ],
@@ -29892,7 +29892,7 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-02",
-                    "original": "저 예약 가능한 시간 있을까요? 국산 맞을 생각이고 [예약시각 가림] 이후 좋을 것 같 습니다",
+                    "original": "저 예약 가능한 시간 있을까요? 국산 맞을 생각이고 오후 3시 이후 좋을 것 같 습니다",
                     "lang": "ko"
                   },
                   {
@@ -29902,7 +29902,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-02",
-                    "original": "저 [예약시각 가림] 부탁드립니다. ㅎㅎ",
+                    "original": "저 4시 부탁드립니다. ㅎㅎ",
                     "lang": "ko"
                   },
                   {
@@ -29914,12 +29914,12 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-11-02",
-                    "original": "네! 내일 [예약시각 가림] 전으로 다 가능하십니다! 몇시로 예약 도와드릴까요? :)",
+                    "original": "네! 내일 오후 7시 30분 전으로 다 가능하십니다! 몇시로 예약 도와드릴까요? :)",
                     "lang": "ko"
                   },
                   {
                     "date": "2026-11-02",
-                    "original": "네! 그럼 내일 [예약시각 가림]로 예약 도와드리겠습니다!\n내일 내원하실 때 조심히 오시고, 내일 뵙겠습니다~",
+                    "original": "네! 그럼 내일 오후 4시로 예약 도와드리겠습니다!\n내일 내원하실 때 조심히 오시고, 내일 뵙겠습니다~",
                     "lang": "ko"
                   },
                   {
@@ -30115,7 +30115,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-02",
-                    "original": "오늘 방문한 [고객명 가림]입니다",
+                    "original": "오늘 방문한 설지훈입니다",
                     "lang": "ko"
                   },
                   {
@@ -30142,7 +30142,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-02",
-                    "original": "네! [고객명 가림]님 주의사항 보내드립니다 :)\n🌸 Beauty Blossom 시술 후 주의사항 🌸\n안전한 회복을 위해 아래 링크에서 주의사항을 꼭 확인해주세요 :)\n\n\nhttps://beautyblossom.imweb.me/112\n\n시술 시 주의사항 | 시술별 전후 관리 안내 | 뷰티블라썸의원\nbeautyblossom.kr",
+                    "original": "네! 지훈님 주의사항 보내드립니다 :)\n🌸 Beauty Blossom 시술 후 주의사항 🌸\n안전한 회복을 위해 아래 링크에서 주의사항을 꼭 확인해주세요 :)\n\n\nhttps://beautyblossom.imweb.me/112\n\n시술 시 주의사항 | 시술별 전후 관리 안내 | 뷰티블라썸의원\nbeautyblossom.kr",
                     "lang": "ko"
                   }
                 ],
@@ -30164,7 +30164,7 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-02",
-                    "original": "안녕하세요\n[고객명 가림]/[생년월일 가림]\n연락처 : [연락처 가림]\n원하는날짜 : 오늘바로 [예약시각 가림]\n원하는시술 : 이중턱 및 침샘 보톡스 시술\n\n오늘 [예약시각 가림] 예약 가능할까요 문의드립니다",
+                    "original": "안녕하세요\n박유빈 /[생년월일 가림]\n연락처 : [연락처 가림]\n원하는날짜 : 오늘바로 오후5시반\n원하는시술 : 이중턱 및 침샘 보톡스 시술\n\n오늘 5시반 예약 가능할까요 문의드립니다",
                     "lang": "ko"
                   },
                   {
@@ -30181,12 +30181,12 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-11-02",
-                    "original": "안녕하세요,\n네, 고객님! 오늘 [예약시각 가림] 예약 가능하십니다! 💕\n해당 시간으로 예약 도와드릴까요? 😊",
+                    "original": "안녕하세요,\n네, 고객님! 오늘 오후 5시 30분 예약 가능하십니다! 💕\n해당 시간으로 예약 도와드릴까요? 😊",
                     "lang": "ko"
                   },
                   {
                     "date": "2026-11-02",
-                    "original": "네, 고객님! 😊 오늘 [예약시각 가림]으로 예약 도와드렸습니다! 💕\n조심히 내원해 주시고, 잠시 후에 뵙겠습니다.\n감사합니다!🌸",
+                    "original": "네, 고객님! 😊 오늘 오후 5시 30분으로 예약 도와드렸습니다! 💕\n조심히 내원해 주시고, 잠시 후에 뵙겠습니다.\n감사합니다!🌸",
                     "lang": "ko"
                   }
                 ],
@@ -30208,7 +30208,7 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-02",
-                    "original": "실장님 죄송합니다 ㅠ\n급한 야근이또잡혀서\n취소 부탁드립니다 ㅠ 오늘도 못가네요\n정말 죄송해요\n\n[고객명 가림] [연락처 가림]",
+                    "original": "실장님 죄송합니다 ㅠ\n급한 야근이또잡혀서\n취소 부탁드립니다 ㅠ 오늘도 못가네요\n정말 죄송해요\n\n박유빈 [연락처 가림]",
                     "lang": "ko"
                   }
                 ],
@@ -30507,7 +30507,7 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-02",
-                    "original": "답변 감사합니다 내일 오전 [예약시각 가림] 두명 예약 가능한가요?",
+                    "original": "답변 감사합니다 내일 오전 열한시 두명 예약 가능한가요?",
                     "lang": "ko"
                   },
                   {
@@ -30524,7 +30524,7 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-11-02",
-                    "original": "네, 고객님! 내일 [예약시각 가림]에 두 분 모두 예약 가능하십니다!\n예약은 바비톡 앱을 통해서도 가능하시며, 현재 문의주신 카카오톡으로도 예약 도와드릴 수 있습니다.\n편하신 방법으로 예약 진행해 주시면 됩니다. 카카오톡으로 예약을 원하시면 말씀해 주세요! 😊",
+                    "original": "네, 고객님! 내일 오전 11시에 두 분 모두 예약 가능하십니다!\n예약은 바비톡 앱을 통해서도 가능하시며, 현재 문의주신 카카오톡으로도 예약 도와드릴 수 있습니다.\n편하신 방법으로 예약 진행해 주시면 됩니다. 카카오톡으로 예약을 원하시면 말씀해 주세요! 😊",
                     "lang": "ko"
                   },
                   {
@@ -30551,7 +30551,7 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-02",
-                    "original": "안녕하세요 혹시 [예약시각 가림]으로 예약 변경 가능할까요?? 죄송합니다 ㅠㅠ",
+                    "original": "안녕하세요 혹시 10시반으로 예약 변경 가능할까요?? 죄송합니다 ㅠㅠ",
                     "lang": "ko"
                   },
                   {
@@ -30568,7 +30568,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-03",
-                    "original": "감사합니다:) [고객명 가림]님~ 좋은하루 되세요~",
+                    "original": "감사합니다:) 민영님~ 좋은하루 되세요~",
                     "lang": "ko"
                   }
                 ],
@@ -30915,7 +30915,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-02",
-                    "original": "오늘 [예약시각 가림]~[예약시각 가림]에 내원해서 종아리 및 주름 보톡스 받으려 하는데 예약 가능할까요?",
+                    "original": "오늘 5:30~6시에 내원해서 종아리 및 주름 보톡스 받으려 하는데 예약 가능할까요?",
                     "lang": "ko"
                   },
                   {
@@ -30927,7 +30927,7 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-11-02",
-                    "original": "가능합니다~ 그럼 오늘 [예약시각 가림]로 예약도와드리겠습니다 :)\n일찍 도찯하시면 6층에 내원해주시면 됩니다~",
+                    "original": "가능합니다~ 그럼 오늘 6시로 예약도와드리겠습니다 :)\n일찍 도찯하시면 6층에 내원해주시면 됩니다~",
                     "lang": "ko"
                   }
                 ],
@@ -30979,7 +30979,7 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-02",
-                    "original": "네 알겠습니다 그럼 오늘 말고 [예약일 가림] [예약시각 가림]에 예약 가능할까요?",
+                    "original": "네 알겠습니다 그럼 오늘 말고 11/21 (토) 14시에 예약 가능할까요?",
                     "lang": "ko"
                   },
                   {
@@ -30991,7 +30991,7 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-11-02",
-                    "original": "네 고객님, 오늘 예약 건은 [예약일 가림] [예약시각 가림]로 변경 도와드리겠습니다^^",
+                    "original": "네 고객님, 오늘 예약 건은 21일 토요일 2시로 변경 도와드리겠습니다^^",
                     "lang": "ko"
                   },
                   {
@@ -31084,7 +31084,7 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-11-02",
-                    "original": "고객님, 현재 남아 있는 적립금은 [금액 가림]입니다. 😊\n\n상담을 먼저 받으신 후 당일 시술까지 진행하시는 경우에는 상담비가 별도로 발생하지 않으니 걱정하지 않으셔도 됩니다! 💗",
+                    "original": "고객님, 현재 남아 있는 적립금은 497,500원입니다. 😊\n\n상담을 먼저 받으신 후 당일 시술까지 진행하시는 경우에는 상담비가 별도로 발생하지 않으니 걱정하지 않으셔도 됩니다! 💗",
                     "lang": "ko"
                   },
                   {
@@ -31147,7 +31147,7 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-11-02",
-                    "original": "네 [고객명 가림]님~\n원장님 확인하고 다시 답변 드리겠습니다.\n원장님께 확인한 후 다시 안내해 드리겠습니다. 조금만 기다려 주시면 감사하겠습니다. :)",
+                    "original": "네 조수아님~\n원장님 확인하고 다시 답변 드리겠습니다.\n원장님께 확인한 후 다시 안내해 드리겠습니다. 조금만 기다려 주시면 감사하겠습니다. :)",
                     "lang": "ko"
                   },
                   {
@@ -31179,7 +31179,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-02",
-                    "original": "[고객명 가림]입니다!",
+                    "original": "민지희입니다!",
                     "lang": "ko"
                   }
                 ],
@@ -31191,7 +31191,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-02",
-                    "original": "안녕하세요 [고객명 가림]님 ~오늘 예약 취소 도와드렸습니다\n언제나 편하게 예약해주시면 되세요~\n감사합니다^^",
+                    "original": "안녕하세요 지희님 ~오늘 예약 취소 도와드렸습니다\n언제나 편하게 예약해주시면 되세요~\n감사합니다^^",
                     "lang": "ko"
                   }
                 ],
@@ -31238,12 +31238,12 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-02",
-                    "original": "안녕하세요 오늘 [예약시각 가림] 예약했는데, 방문이 어려울 것 같아. 취소 부탁드립니다. [고객명 가림]입니다.",
+                    "original": "안녕하세요 오늘 3시 예약했는데, 방문이 어려울 것 같아. 취소 부탁드립니다. 하수진입니다.",
                     "lang": "ko"
                   },
                   {
                     "date": "2026-11-02",
-                    "original": "네 내일 [예약시각 가림]로 부탁드립니다",
+                    "original": "네 내일 한시로 부탁드립니다",
                     "lang": "ko"
                   }
                 ],
@@ -31395,7 +31395,7 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-02",
-                    "original": "안녕하새요 여신티켓으로 예약한 [고객명 가림] 입니다\n예약 직전에 죄송합니다 ㅜㅜ 혹시 취소 가능할까요?? 시간내에 도착을 못할 거 같아요 ㅜㅜㅜ",
+                    "original": "안녕하새요 여신티켓으로 예약한 노소연 입니다\n예약 직전에 죄송합니다 ㅜㅜ 혹시 취소 가능할까요?? 시간내에 도착을 못할 거 같아요 ㅜㅜㅜ",
                     "lang": "ko"
                   },
                   {
@@ -32333,19 +32333,19 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-01",
-                    "original": "안녕하세요 오늘 윤곽주사 [예약시각 가림] 예약했는데 혹시 내일 오전시간대로 옮길 수 있을까요?",
+                    "original": "안녕하세요 오늘 윤곽주사 3시 30분 예약했는데 혹시 내일 오전시간대로 옮길 수 있을까요?",
                     "lang": "ko"
                   },
                   {
                     "date": "2026-11-01",
-                    "original": "내일 [예약시각 가림] 가능할까요??",
+                    "original": "내일 10시 가능할까요??",
                     "lang": "ko"
                   }
                 ],
                 "staff": [
                   {
                     "date": "2026-11-01",
-                    "original": "안녕하세요, 뷰티블라썸의원입니다 😊\n\n네, 고객님! 예약을 [예약일 가림] [예약시각 가림]로 변경해 드리겠습니다. 오시는 길 조심히 내원해 주시고, 내일 뵙겠습니다.\n\n감사합니다!🌸",
+                    "original": "안녕하세요, 뷰티블라썸의원입니다 😊\n\n네, 고객님! 예약을 11월 2일 오전 10시로 변경해 드리겠습니다. 오시는 길 조심히 내원해 주시고, 내일 뵙겠습니다.\n\n감사합니다!🌸",
                     "lang": "ko"
                   }
                 ],
@@ -32425,7 +32425,7 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-01",
-                    "original": "[예약일 가림] [예약시각 가림] 방문 가능할까요!?",
+                    "original": "3일 화요일 두시반 방문 가능할까요!?",
                     "lang": "ko"
                   },
                   {
@@ -32445,19 +32445,19 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-01",
-                    "original": "[예약시각 가림]으로 말씀드렸는데 [예약시각 가림]이라고해서 [예약시각 가림]으로 예약된거같습니다! 확인 부탁드려요",
+                    "original": "14:30으로 말씀드렸는데 두시반이라고해서 열두시반으로 예약된거같습니다! 확인 부탁드려요",
                     "lang": "ko"
                   }
                 ],
                 "staff": [
                   {
                     "date": "2026-11-01",
-                    "original": "혹시 희망 시술 일자가[예약일 가림] 맞으실까요?",
+                    "original": "혹시 희망 시술 일자가12월 3일 맞으실까요?",
                     "lang": "ko"
                   },
                   {
                     "date": "2026-11-01",
-                    "original": "[고객명 가림]님 현재 제모 시술 받으신 일자가 한달이 안되셔서 해당 일자에는 예약이 어려우십니다.",
+                    "original": "조운님 현재 제모 시술 받으신 일자가 한달이 안되셔서 해당 일자에는 예약이 어려우십니다.",
                     "lang": "ko"
                   },
                   {
@@ -32472,7 +32472,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-02",
-                    "original": "네 고객님, 확인해보고, [예약시각 가림]으로 옮겨드리겠습니다^^",
+                    "original": "네 고객님, 확인해보고, 2시반으로 옮겨드리겠습니다^^",
                     "lang": "ko"
                   }
                 ],
@@ -32578,7 +32578,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-01",
-                    "original": "염증주사 [예약시각 가림] 예약 가능할까요,",
+                    "original": "염증주사 16:00 예약 가능할까요,",
                     "lang": "ko"
                   },
                   {
@@ -32687,7 +32687,7 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-11-01",
-                    "original": "안녕하세요 [고객명 가림]님:)\n차트 확인 결과, 과거 오래전에 입술 필러 시술을 받으셨고, 본원에서 히알라제 1바이알로 시술 진행하셨던 것으로 확인됩니다.\n\n다만, 오래전에 시술받으신 필러의 경우 1바이알만으로 잔여 필러가 모두 녹지 않았을 가능성이 있습니다. 기존 시술에 대한 리터치 개념으로 진행해 드리기는 어려우나, 현재 남아 있는 필러 상태를 확인한 후 필요에 따라 추가 용해 시술은 가능하십니다.\n\n내원가능하신 일정 말씀해 주시면 현재 상태를 꼼꼼히 확인하고 상담 후 적절한 시술 방향을 안내해 드리겠습니다~:)",
+                    "original": "안녕하세요 예지님:)\n차트 확인 결과, 과거 오래전에 입술 필러 시술을 받으셨고, 본원에서 히알라제 1바이알로 시술 진행하셨던 것으로 확인됩니다.\n\n다만, 오래전에 시술받으신 필러의 경우 1바이알만으로 잔여 필러가 모두 녹지 않았을 가능성이 있습니다. 기존 시술에 대한 리터치 개념으로 진행해 드리기는 어려우나, 현재 남아 있는 필러 상태를 확인한 후 필요에 따라 추가 용해 시술은 가능하십니다.\n\n내원가능하신 일정 말씀해 주시면 현재 상태를 꼼꼼히 확인하고 상담 후 적절한 시술 방향을 안내해 드리겠습니다~:)",
                     "lang": "ko"
                   }
                 ],
@@ -32716,7 +32716,7 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-11-01",
-                    "original": "비용은 따로 발생되십니다. 1VAL 99,000원 이십니다. [고객명 가림]님:)",
+                    "original": "비용은 따로 발생되십니다. 1VAL 99,000원 이십니다. 예지님:)",
                     "lang": "ko"
                   },
                   {
@@ -32743,12 +32743,12 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-01",
-                    "original": "[예약일 가림] [예약시각 가림] 가능하실까요??",
+                    "original": "11월 2일 월요일 7시 가능하실까요??",
                     "lang": "ko"
                   },
                   {
                     "date": "2026-11-01",
-                    "original": "그럼 [예약일 가림] [예약시각 가림] 가능하실까요??",
+                    "original": "그럼 11월 2일 월요일 7시 가능하실까요??",
                     "lang": "ko"
                   }
                 ],
@@ -32802,14 +32802,14 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-01",
-                    "original": "오늘 [예약일 가림] [예약시각 가림]에 하겠습니다",
+                    "original": "오늘 1일 1시에 하겠습니다",
                     "lang": "ko"
                   }
                 ],
                 "staff": [
                   {
                     "date": "2026-11-01",
-                    "original": "네 고객님, [예약시각 가림]로 예약 도와드리겠습니다^^",
+                    "original": "네 고객님, 1시로 예약 도와드리겠습니다^^",
                     "lang": "ko"
                   },
                   {
@@ -32955,7 +32955,7 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-11-01",
-                    "original": "네 맞습니다. 금일이 마지막 회차셨습니다. [고객명 가림]님",
+                    "original": "네 맞습니다. 금일이 마지막 회차셨습니다. 규호님",
                     "lang": "ko"
                   },
                   {
@@ -33132,7 +33132,7 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-01",
-                    "original": "안녕하세요 금일 [예약시각 가림] 예약인데 [예약시각 가림]로 변경 가능할까요?",
+                    "original": "안녕하세요 금일 3시 예약인데 2시로 변경 가능할까요?",
                     "lang": "ko"
                   },
                   {
@@ -33144,7 +33144,7 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-11-01",
-                    "original": "안녕하세요, 뷰티블라썸의원입니다 😊\n\n네, 고객님! 금일 [예약시각 가림] 예약을 [예약시각 가림]로 변경해 드렸습니다. 오시는 길 조심히 내원해 주시고, [예약시각 가림]에 뵙겠습니다.\n감사합니다!🌸",
+                    "original": "안녕하세요, 뷰티블라썸의원입니다 😊\n\n네, 고객님! 금일 오후 3시 예약을 오후 2시로 변경해 드렸습니다. 오시는 길 조심히 내원해 주시고, 오후 2시에 뵙겠습니다.\n감사합니다!🌸",
                     "lang": "ko"
                   },
                   {
@@ -33178,7 +33178,7 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-11-01",
-                    "original": "네 내일 [예약시각 가림]로 예약 도와드렸습니다.",
+                    "original": "네 내일 7시로 예약 도와드렸습니다.",
                     "lang": "ko"
                   }
                 ],
@@ -34184,7 +34184,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-10-31",
-                    "original": "[고객명 가림] / [연락처 가림]\n전에 제가 제모시술 결제 해 놓은 게 있는데 혹시 남은 시술 뭐 있는지 알려 주실 수 있으신가요?\n이사를 갔다가 다시 근처로 갈 일이 있어서 방문 하려고 합니다!!",
+                    "original": "백조운 / [연락처 가림]\n전에 제가 제모시술 결제 해 놓은 게 있는데 혹시 남은 시술 뭐 있는지 알려 주실 수 있으신가요?\n이사를 갔다가 다시 근처로 갈 일이 있어서 방문 하려고 합니다!!",
                     "lang": "ko"
                   }
                 ],
@@ -34223,7 +34223,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-10-31",
-                    "original": "-내원 경로: 검색\n-성함/생년월일/연락처: [고객명 가림]/[생년월일 가림]/[연락처 가림]\n-예약 날짜 및 시간: [예약일 가림] 또는 [예약일 가림]\n-원하시는 시술 및 상담: 사각턱 보톡스",
+                    "original": "-내원 경로: 검색\n-성함/생년월일/연락처: 정병건/[생년월일 가림]/[연락처 가림]\n-예약 날짜 및 시간: 1일 또는 2일\n-원하시는 시술 및 상담: 사각턱 보톡스",
                     "lang": "ko"
                   },
                   {
@@ -34233,7 +34233,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-10-31",
-                    "original": "[예약일 가림] [예약시각 가림] 이후면 좋습니다. [예약일 가림]도 [예약시각 가림] 이후면 좋습니다",
+                    "original": "1일 오후 1시 이후면 좋습니다. 2일도 오후 1시 이후면 좋습니다",
                     "lang": "ko"
                   }
                 ],
@@ -34245,7 +34245,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-10-31",
-                    "original": "안녕하세요, [고객명 가림]님! 😊\n\n정확한 예약을 위해 확인차 여쭤봅니다! 혹시 [예약일 가림]과 [예약일 가림] 중 어느 날짜가 더 편하실까요? 원하시는 시간도 함께 말씀해 주시면 확인 후 바로 예약 도와드리겠습니다! 🌸",
+                    "original": "안녕하세요, 병건님! 😊\n\n정확한 예약을 위해 확인차 여쭤봅니다! 혹시 1일과 2일 중 어느 날짜가 더 편하실까요? 원하시는 시간도 함께 말씀해 주시면 확인 후 바로 예약 도와드리겠습니다! 🌸",
                     "lang": "ko"
                   },
                   {
@@ -34255,7 +34255,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-01",
-                    "original": "안녕하세요, 뷰티블라썸의원입니다 😊\n\n예약 가능 일정을 확인한 결과, [예약일 가림]과 [예약일 가림] 모두 [예약시각 가림]에 예약 가능합니다. 두 날짜 중 편하신 날짜를 말씀해 주시면 예약 도와드리겠습니다.\n감사합니다!🌸",
+                    "original": "안녕하세요, 뷰티블라썸의원입니다 😊\n\n예약 가능 일정을 확인한 결과, 11월 1일과 11월 2일 모두 오후 1시에 예약 가능합니다. 두 날짜 중 편하신 날짜를 말씀해 주시면 예약 도와드리겠습니다.\n감사합니다!🌸",
                     "lang": "ko"
                   }
                 ],
@@ -34340,12 +34340,12 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-10-31",
-                    "original": "안녕하세요\n내일 [예약시각 가림] 윤곽주사\n예약 가능할까요",
+                    "original": "안녕하세요\n내일 오전11시 윤곽주사\n예약 가능할까요",
                     "lang": "ko"
                   },
                   {
                     "date": "2026-11-01",
-                    "original": "아 답변이 없으셔서\n가지고 오늘 안될 것 같고\n내일 [예약시각 가림]로 예약다시 될까요",
+                    "original": "아 답변이 없으셔서\n가지고 오늘 안될 것 같고\n내일 19시로 예약다시 될까요",
                     "lang": "ko"
                   }
                 ],
@@ -34379,7 +34379,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-10-31",
-                    "original": "-검색\n-[고객명 가림]/[생년월일 가림]/[연락처 가림]\n-[예약일 가림] [예약시각 가림]\n-레이저 제모(인중)",
+                    "original": "-검색\n-소윤진/[생년월일 가림]/[연락처 가림]\n-11월 1일(월) 16:00\n-레이저 제모(인중)",
                     "lang": "ko"
                   }
                 ],
@@ -34391,7 +34391,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-01",
-                    "original": "[요일 가림] [예약시각 가림]로 예약 도와드렸습니다 고개님^^",
+                    "original": "월요일 4시로 예약 도와드렸습니다 고개님^^",
                     "lang": "ko"
                   }
                 ],
@@ -34791,7 +34791,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-10-31",
-                    "original": "아님 [예약시각 가림]에 상담받고 할게요 ㅎㅎ [예약시각 가림] 가능할까요???",
+                    "original": "아님 두시반에 상담받고 할게요 ㅎㅎ 두시반 가능할까요???",
                     "lang": "ko"
                   },
                   {
@@ -34801,7 +34801,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-10-31",
-                    "original": "그냥 볼뉴머 안하구 내일 [예약시각 가림]에 토닝 남은거랑 엘디엠 받을게요!!",
+                    "original": "그냥 볼뉴머 안하구 내일 두시반에 토닝 남은거랑 엘디엠 받을게요!!",
                     "lang": "ko"
                   },
                   {
@@ -34823,7 +34823,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-10-31",
-                    "original": "고객님, 이전에 받으셨던 시술과 동일하게 진행하실 경우 현재 가격은 1,263,000원​으로 확인됩니다! 😊\n다만, 이전에 결제하셨던 금액과는 차이가 있는 점 참고 부탁드립니다.\n오늘까지 진행되는 할로윈 이벤트 할인 적용 시, 해당 금액에서 5% 할인된 1,199,850원​으로 시술 가능하신 걸로 확인됩니다! 💕\n더욱 정확한 내용은 상담을 통해서 안내 도와드리겠습니다! :)\n그럼 오늘 [예약시각 가림]으로 예약 도와드리겠습니다. 조심히 내원해 주세요! 감사합니다! 🌸",
+                    "original": "고객님, 이전에 받으셨던 시술과 동일하게 진행하실 경우 현재 가격은 1,263,000원​으로 확인됩니다! 😊\n다만, 이전에 결제하셨던 금액과는 차이가 있는 점 참고 부탁드립니다.\n오늘까지 진행되는 할로윈 이벤트 할인 적용 시, 해당 금액에서 5% 할인된 1,199,850원​으로 시술 가능하신 걸로 확인됩니다! 💕\n더욱 정확한 내용은 상담을 통해서 안내 도와드리겠습니다! :)\n그럼 오늘 오후 2시 30분으로 예약 도와드리겠습니다. 조심히 내원해 주세요! 감사합니다! 🌸",
                     "lang": "ko"
                   },
                   {
@@ -34968,7 +34968,7 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-10-31",
-                    "original": "인녕하세요. 강남언니로 방금 주름보톡스 3부위 예약했는데, 사각턱 보톡스도 함께 시술 진행 가능할까요?\n\n[고객명 가림] [연락처 가림]",
+                    "original": "인녕하세요. 강남언니로 방금 주름보톡스 3부위 예약했는데, 사각턱 보톡스도 함께 시술 진행 가능할까요?\n\n방세린 [연락처 가림]",
                     "lang": "ko"
                   },
                   {
@@ -35043,7 +35043,7 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-10-31",
-                    "original": "고객님, 전화로 전달드린 내용과 같이 해당 부위는 내원 시 원장님께서 직접 상태 확인하실 수 있도록 안내 도와드리겠습니다.\n[예약일 가림] [예약시각 가림]로 예약 잡아드렸으며, 당일 오시는 길 조심히 내원 부탁드립니다. 감사합니다!",
+                    "original": "고객님, 전화로 전달드린 내용과 같이 해당 부위는 내원 시 원장님께서 직접 상태 확인하실 수 있도록 안내 도와드리겠습니다.\n11월 2일 오후 3시로 예약 잡아드렸으며, 당일 오시는 길 조심히 내원 부탁드립니다. 감사합니다!",
                     "lang": "ko"
                   }
                 ],
@@ -35065,7 +35065,7 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-10-31",
-                    "original": "안녕하세요 오늘 [예약시각 가림]에 올타이트 상담 및 시술 예약 가능할까요?",
+                    "original": "안녕하세요 오늘 12시에 올타이트 상담 및 시술 예약 가능할까요?",
                     "lang": "ko"
                   },
                   {
@@ -35075,7 +35075,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-10-31",
-                    "original": "네이버 검색\n[고객명 가림] [생년월일 가림]\n[연락처 가림]\n[예약일 가림] 낮 [예약시각 가림]\n올타이트",
+                    "original": "네이버 검색\n정지은 [생년월일 가림]\n[연락처 가림]\n10/31 낮 12시\n올타이트",
                     "lang": "ko"
                   }
                 ],
@@ -35087,7 +35087,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-10-31",
-                    "original": "네 고객님, [예약시각 가림]로 예약 도와드리겠습니다^^",
+                    "original": "네 고객님, 12시로 예약 도와드리겠습니다^^",
                     "lang": "ko"
                   },
                   {
@@ -35144,7 +35144,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-10-31",
-                    "original": "안녕하세요 기존에 겨드랑이랑 인중레이져제모 남은 횟수 확인부탁드려용 그리고 오늘 [예약시각 가림] 예약 가능할까요??",
+                    "original": "안녕하세요 기존에 겨드랑이랑 인중레이져제모 남은 횟수 확인부탁드려용 그리고 오늘 4시 예약 가능할까요??",
                     "lang": "ko"
                   },
                   {
@@ -35223,7 +35223,7 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-10-31",
-                    "original": "안녕하세요, [고객명 가림]님! 뷰티블라썸의원입니다 😊\n\n바비톡에서 필러와 보톡스 시술 확인해 주신 것으로 보여 연락드렸습니다! 혹시 예약 원하시면 편하신 날짜와 시간 말씀해 주시면 예약 도와드리겠습니다 💕\n\n감사합니다!🌸",
+                    "original": "안녕하세요, 다은님! 뷰티블라썸의원입니다 😊\n\n바비톡에서 필러와 보톡스 시술 확인해 주신 것으로 보여 연락드렸습니다! 혹시 예약 원하시면 편하신 날짜와 시간 말씀해 주시면 예약 도와드리겠습니다 💕\n\n감사합니다!🌸",
                     "lang": "ko"
                   }
                 ],
@@ -35278,14 +35278,14 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-10-31",
-                    "original": "안녕하세요!\n정말 죄송하지만 😭😭 차가 막혀 조금 늦을 것 같아 예약 시간 [예약시각 가림]으로 변경 가능할지 문의 드립니다 🥲🥲",
+                    "original": "안녕하세요!\n정말 죄송하지만 😭😭 차가 막혀 조금 늦을 것 같아 예약 시간 10:30으로 변경 가능할지 문의 드립니다 🥲🥲",
                     "lang": "ko"
                   }
                 ],
                 "staff": [
                   {
                     "date": "2026-10-31",
-                    "original": "네, 고객님! 괜찮습니다💕 [예약시각 가림]으로 예약 변경 도와드리겠습니다! 너무 서두르지 마시고 천천히 조심히 오세요. 잠시 후 뵙겠습니다! 🌸",
+                    "original": "네, 고객님! 괜찮습니다💕 오전 10시 30분으로 예약 변경 도와드리겠습니다! 너무 서두르지 마시고 천천히 조심히 오세요. 잠시 후 뵙겠습니다! 🌸",
                     "lang": "ko"
                   }
                 ],
@@ -36907,24 +36907,24 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-10-30",
-                    "original": "🌸 Q-LDM 10분 1회 서비스\n\n제모\n\n[요일 가림] [예약시각 가림] 예약 가능할까요?",
+                    "original": "🌸 Q-LDM 10분 1회 서비스\n\n제모\n\n일요일 오전 10시 예약 가능할까요?",
                     "lang": "ko"
                   },
                   {
                     "date": "2026-10-30",
-                    "original": "500금액권/Q-LDM 10' 1회 s.v\n500금액권/제오민)주름보톡스3부위 1회 s.v\n제모\n\n[요일 가림] [예약시각 가림] 예약 가능할까요?",
+                    "original": "500금액권/Q-LDM 10' 1회 s.v\n500금액권/제오민)주름보톡스3부위 1회 s.v\n제모\n\n일요일 오전 10시 예약 가능할까요?",
                     "lang": "ko"
                   },
                   {
                     "date": "2026-10-30",
-                    "original": "[요일 가림] [예약시각 가림]에 가겠습니다!",
+                    "original": "일요일 10시반에 가겠습니다!",
                     "lang": "ko"
                   }
                 ],
                 "staff": [
                   {
                     "date": "2026-10-30",
-                    "original": "네 고객님, 예약 가능하시고, 제모 1회 남아있습니다^^\n시간은 [예약시각 가림]으로 도와드려도 될까요?^^",
+                    "original": "네 고객님, 예약 가능하시고, 제모 1회 남아있습니다^^\n시간은 10시 반으로 도와드려도 될까요?^^",
                     "lang": "ko"
                   },
                   {
@@ -37020,7 +37020,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-10-30",
-                    "original": "안녕하세요 예약 문의 드립니다^^\n\n-성함/생년월일/연락처: [고객명 가림] [생년월일 가림] / [연락처 가림]\n\n-예약 날짜 및 시간: [예약일 가림], [예약시각 가림]\n\n-원하시는 시술 및 상담:\n\n큐페이셜\n브이레이저\n아그네스 레이저",
+                    "original": "안녕하세요 예약 문의 드립니다^^\n\n-성함/생년월일/연락처: 윤소정 [생년월일 가림] / [연락처 가림]\n\n-예약 날짜 및 시간: 10/30일, 오후 13:30\n\n-원하시는 시술 및 상담:\n\n큐페이셜\n브이레이저\n아그네스 레이저",
                     "lang": "ko"
                   }
                 ],
@@ -37059,7 +37059,7 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-10-30",
-                    "original": "안녕하세요~ 죄송하지만 혹시 [예약시각 가림] 예약을 취소하고, 내일 오전 시간대로 예약 변경 가능할지 문의 드립니다ㅜㅜ\n\n내일 [예약시각 가림] 예약 가능할까요?",
+                    "original": "안녕하세요~ 죄송하지만 혹시 13:30 예약을 취소하고, 내일 오전 시간대로 예약 변경 가능할지 문의 드립니다ㅜㅜ\n\n내일 오전 10시 예약 가능할까요?",
                     "lang": "ko"
                   },
                   {
@@ -37071,7 +37071,7 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-10-30",
-                    "original": "안녕하세요, 뷰티블라썸의원입니다 😊\n네, 고객님! 예약 변경 가능하십니다!\n오늘 [예약시각 가림] 예약을 내일 [예약시각 가림]로 변경 도와드리면 될까요? 😊\n확인 후 답변 주시면 예약 변경 도와드리겠습니다!\n감사합니다!🌸",
+                    "original": "안녕하세요, 뷰티블라썸의원입니다 😊\n네, 고객님! 예약 변경 가능하십니다!\n오늘 오후 1시 30분 예약을 내일 오전 10시로 변경 도와드리면 될까요? 😊\n확인 후 답변 주시면 예약 변경 도와드리겠습니다!\n감사합니다!🌸",
                     "lang": "ko"
                   },
                   {
@@ -37138,7 +37138,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-10-30",
-                    "original": "🩷빠른 예약을 위해 아래 질문에 답변 부탁드립니다🩷\n\n-내원 경로(검색/소개/추천인 등):\n-성함/생년월일/연락처:[고객명 가림] [생년월일 가림]/[연락처 가림]\n-예약 날짜 및 시간:[예약일 가림] [예약시각 가림]\n-원하시는 시술 및 상담:보톡스 미간 이마 콧볼\n\n확인 후 예약 도와드리겠습니다.\n\n상담만 진행 하실경우 상담비 만원 발생 됩니다.\n미리 고지드리는점 양해 부탁드립니다 감사합니다 :D",
+                    "original": "🩷빠른 예약을 위해 아래 질문에 답변 부탁드립니다🩷\n\n-내원 경로(검색/소개/추천인 등):\n-성함/생년월일/연락처:신혜정 [생년월일 가림]/[연락처 가림]\n-예약 날짜 및 시간:31일 1시\n-원하시는 시술 및 상담:보톡스 미간 이마 콧볼\n\n확인 후 예약 도와드리겠습니다.\n\n상담만 진행 하실경우 상담비 만원 발생 됩니다.\n미리 고지드리는점 양해 부탁드립니다 감사합니다 :D",
                     "lang": "ko"
                   }
                 ],
@@ -37172,7 +37172,7 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-10-30",
-                    "original": "안녕하세요\n방금 통화로\n눈썹산 보톡스 시술 받은 이후 금방 돌아와서\n문의 드린 [고객명 가림]입니다\n사진 보내드릴게요",
+                    "original": "안녕하세요\n방금 통화로\n눈썹산 보톡스 시술 받은 이후 금방 돌아와서\n문의 드린 안초영입니다\n사진 보내드릴게요",
                     "lang": "ko"
                   },
                   {
@@ -37281,7 +37281,7 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-10-30",
-                    "original": "안녕하세요. 금일 [예약시각 가림]쯤 염증주사 예약이 가능할까요?",
+                    "original": "안녕하세요. 금일 6시 반쯤 염증주사 예약이 가능할까요?",
                     "lang": "ko"
                   }
                 ],
@@ -37397,24 +37397,24 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-10-30",
-                    "original": "네 시간 [예약시각 가림]으로 바꿀게요",
+                    "original": "네 시간 여섯시반으로 바꿀게요",
                     "lang": "ko"
                   }
                 ],
                 "staff": [
                   {
                     "date": "2026-10-30",
-                    "original": "안녕하세요, 뷰티블라썸의원입니다 😊\n네, [고객명 가림] 고객님! 오늘 [예약시각 가림] 방문 가능하십니다! 해당 시간으로 예약 도와드릴까요? 😊\n\n다만, 당일 진료 상황에 따라 이전에 보톡스 시술을 진행해 주셨던 원장님이 아닌 다른 원장님께서 경과를 확인해 드릴 수도 있는 점 양해 부탁드립니다.\n혹시 다른 원장님께서 경과를 확인해 주셔도 괜찮으실까요?\n\n확인 후 말씀해 주시면 예약 도와드리겠습니다!\n감사합니다!",
+                    "original": "안녕하세요, 뷰티블라썸의원입니다 😊\n네, 선영 고객님! 오늘 오후 6시 방문 가능하십니다! 해당 시간으로 예약 도와드릴까요? 😊\n\n다만, 당일 진료 상황에 따라 이전에 보톡스 시술을 진행해 주셨던 원장님이 아닌 다른 원장님께서 경과를 확인해 드릴 수도 있는 점 양해 부탁드립니다.\n혹시 다른 원장님께서 경과를 확인해 주셔도 괜찮으실까요?\n\n확인 후 말씀해 주시면 예약 도와드리겠습니다!\n감사합니다!",
                     "lang": "ko"
                   },
                   {
                     "date": "2026-10-30",
-                    "original": "네, 고객님 가능한 시술한원장님으로 연결 도와드리고있지만 원내상황에따라 대기시간이 많이 발생될경우 다른원장님께서 경과 봐주시는경우도 있어서 미리 여쭤봤습니다 :)\n[고객명 가림]님은 시술해주셨던 원장님 경과진행으로 메모 해두겠습니다 감사합니다~",
+                    "original": "네, 고객님 가능한 시술한원장님으로 연결 도와드리고있지만 원내상황에따라 대기시간이 많이 발생될경우 다른원장님께서 경과 봐주시는경우도 있어서 미리 여쭤봤습니다 :)\n선영님은 시술해주셨던 원장님 경과진행으로 메모 해두겠습니다 감사합니다~",
                     "lang": "ko"
                   },
                   {
                     "date": "2026-10-30",
-                    "original": "네, 고객님 죄송합니다. 말씀해 주신 내용은 메모에 남겨두었습니다!\n내원하실 때 조심히 오시고, [예약시각 가림]에 뵙겠습니다. 감사합니다!",
+                    "original": "네, 고객님 죄송합니다. 말씀해 주신 내용은 메모에 남겨두었습니다!\n내원하실 때 조심히 오시고, 오후 6시에 뵙겠습니다. 감사합니다!",
                     "lang": "ko"
                   },
                   {
@@ -37446,7 +37446,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-10-30",
-                    "original": "네 [요일 가림] [예약시각 가림]요!",
+                    "original": "네 수요일 7시요!",
                     "lang": "ko"
                   }
                 ],
@@ -37458,7 +37458,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-10-30",
-                    "original": "네, 고객님! 그럼 다음 주 [요일 가림] [예약시각 가림]로 예약 변경 도와드리겠습니다 😊",
+                    "original": "네, 고객님! 그럼 다음 주 수요일 오후 7시로 예약 변경 도와드리겠습니다 😊",
                     "lang": "ko"
                   }
                 ],
@@ -37480,17 +37480,17 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-10-30",
-                    "original": "안녕하세요! 오늘 [예약시각 가림]에 예약한 사람인데 회사에서 급한 일이 생겨서요 ㅠㅠ 혹시 내일로 예약 변경 가능할까요..? [고객명 가림]로 예약했습니다..!",
+                    "original": "안녕하세요! 오늘 18:00에 예약한 사람인데 회사에서 급한 일이 생겨서요 ㅠㅠ 혹시 내일로 예약 변경 가능할까요..? 시민지로 예약했습니다..!",
                     "lang": "ko"
                   },
                   {
                     "date": "2026-10-30",
-                    "original": "아 아님 혹시 오늘 [예약시각 가림]도 가능할까요??",
+                    "original": "아 아님 혹시 오늘 18:#0분도 가능할까요??",
                     "lang": "ko"
                   },
                   {
                     "date": "2026-10-30",
-                    "original": "[예약시각 가림]:30분이요!",
+                    "original": "18시:30분이요!",
                     "lang": "ko"
                   },
                   {
@@ -37507,12 +37507,12 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-10-30",
-                    "original": "안녕하세요, [고객명 가림]님!\n네, 괜찮습니다 :) 그럼 내일 [예약일 가림] [예약시각 가림] 로 예약 도와드리면 될까요? :)",
+                    "original": "안녕하세요, 민지님!\n네, 괜찮습니다 :) 그럼 내일 10/31 18:00 로 예약 도와드리면 될까요? :)",
                     "lang": "ko"
                   },
                   {
                     "date": "2026-10-30",
-                    "original": "안녕하세요, 뷰티블라썸의원입니다 😊\n\n네, 고객님! [예약시각 가림] 예약 가능하십니다. 💕\n\n해당 시간으로 예약 도와드릴까요?\n\n감사합니다!🌸",
+                    "original": "안녕하세요, 뷰티블라썸의원입니다 😊\n\n네, 고객님! 오후 6시 30분 예약 가능하십니다. 💕\n\n해당 시간으로 예약 도와드릴까요?\n\n감사합니다!🌸",
                     "lang": "ko"
                   },
                   {
@@ -37522,7 +37522,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-10-30",
-                    "original": "네, 고객님! 감사합니다 😊\n\n오늘 [예약시각 가림]에 뵙겠습니다!\n조심히 방문해 주세요. 💕\n감사합니다!🌸",
+                    "original": "네, 고객님! 감사합니다 😊\n\n오늘 오후 6시 30분에 뵙겠습니다!\n조심히 방문해 주세요. 💕\n감사합니다!🌸",
                     "lang": "ko"
                   }
                 ],
@@ -37544,7 +37544,7 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-10-30",
-                    "original": "안녕하세요 내일 [요일 가림] 시술예약부탁드립니다\n기존에 결제해놓은 시술건으로 [예약시각 가림] 또는 [예약시각 가림]로 가능할까요?\n\n[고객명 가림] [생년월일 가림] [연락처 가림]",
+                    "original": "안녕하세요 내일 토요일 시술예약부탁드립니다\n기존에 결제해놓은 시술건으로 11시 또는 12시로 가능할까요?\n\n박하연 [생년월일 가림] [연락처 가림]",
                     "lang": "ko"
                   },
                   {
@@ -37556,7 +37556,7 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-10-30",
-                    "original": "안녕하세요, 뷰티블라썸의원입니다 😊\n\n고객님, **색소 3종 + 소노케어 시술을 결제하신 것으로 확인되었습니다!**\n\n혹시 **[예약시각 가림]로 예약** 도와드려도 괜찮으실까요?\n\n확인해 주시면 해당 시간으로 예약 도와드리겠습니다. 💕\n\n감사합니다!🌸",
+                    "original": "안녕하세요, 뷰티블라썸의원입니다 😊\n\n고객님, **색소 3종 + 소노케어 시술을 결제하신 것으로 확인되었습니다!**\n\n혹시 **오후 12시로 예약** 도와드려도 괜찮으실까요?\n\n확인해 주시면 해당 시간으로 예약 도와드리겠습니다. 💕\n\n감사합니다!🌸",
                     "lang": "ko"
                   },
                   {
@@ -37683,7 +37683,7 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-10-30",
-                    "original": "[예약시각 가림] 예약했는데 대표원장님이 시술해주시나요~?",
+                    "original": "5시반 예약했는데 대표원장님이 시술해주시나요~?",
                     "lang": "ko"
                   },
                   {
@@ -37693,7 +37693,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-10-30",
-                    "original": "네 오늘 [예약시각 가림] 내원 희망하고 강남미인으로 결제했으면 5만원 추가해도 대표원장님 진료가 불가능한건가요..?",
+                    "original": "네 오늘 5시반 내원 희망하고 강남미인으로 결제했으면 5만원 추가해도 대표원장님 진료가 불가능한건가요..?",
                     "lang": "ko"
                   },
                   {
@@ -37703,12 +37703,12 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-10-30",
-                    "original": "[고객명 가림] 입니다!",
+                    "original": "최선하 입니다!",
                     "lang": "ko"
                   },
                   {
                     "date": "2026-10-30",
-                    "original": "[예약시각 가림] 대표원장님 입술필러+입꼬리보톡스 희망합니다🙂",
+                    "original": "5시반 대표원장님 입술필러+입꼬리보톡스 희망합니다🙂",
                     "lang": "ko"
                   },
                   {
@@ -37735,7 +37735,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-10-30",
-                    "original": "네, 고객님. 앱에서 결제하신 경우에는 지정비 5만 원을 추가하시더라도 대표원장님 지정이 어려운 점 양해 부탁드립니다 🥺\n\n오늘 [예약시각 가림]에 내원하시면 당일 진료 일정에 따라 원장님이 배정됩니다. 지정 없이 진행하셔도 경험이 풍부하고 실력 있는 원장님께서 꼼꼼하게 시술해 드릴 예정이니 너무 걱정하지 않으셔도 됩니다 😊\n\n감사합니다!🌸",
+                    "original": "네, 고객님. 앱에서 결제하신 경우에는 지정비 5만 원을 추가하시더라도 대표원장님 지정이 어려운 점 양해 부탁드립니다 🥺\n\n오늘 오후 5시 30분에 내원하시면 당일 진료 일정에 따라 원장님이 배정됩니다. 지정 없이 진행하셔도 경험이 풍부하고 실력 있는 원장님께서 꼼꼼하게 시술해 드릴 예정이니 너무 걱정하지 않으셔도 됩니다 😊\n\n감사합니다!🌸",
                     "lang": "ko"
                   },
                   {
@@ -37745,12 +37745,12 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-10-30",
-                    "original": "[고객명 가림] 고객님, 확인 감사합니다 😊\n우선 오늘 [예약시각 가림]에 대표원장님 시술이 가능한지 스케줄 확인 후 다시 안내드리겠습니다. 잠시만 기다려 주세요!",
+                    "original": "최선하 고객님, 확인 감사합니다 😊\n우선 오늘 오후 5시 30분에 대표원장님 시술이 가능한지 스케줄 확인 후 다시 안내드리겠습니다. 잠시만 기다려 주세요!",
                     "lang": "ko"
                   },
                   {
                     "date": "2026-10-30",
-                    "original": "[고객명 가림] 고객님, 기다려 주셔서 감사합니다 😊\n확인 결과, 오늘 [예약시각 가림]에 대표원장님 지정으로 입술필러+입꼬리 보톡스 시술 가능합니다!\n\n앱 결제 건은 취소 후 현장에서 결제해 주시면 되며, 대표원장님 지정비 5만 원이 추가됩니다.\n\n감사합니다!🌸",
+                    "original": "선하 고객님, 기다려 주셔서 감사합니다 😊\n확인 결과, 오늘 오후 5시 30분에 대표원장님 지정으로 입술필러+입꼬리 보톡스 시술 가능합니다!\n\n앱 결제 건은 취소 후 현장에서 결제해 주시면 되며, 대표원장님 지정비 5만 원이 추가됩니다.\n\n감사합니다!🌸",
                     "lang": "ko"
                   },
                   {
@@ -37777,7 +37777,7 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-10-30",
-                    "original": "안녕하세요!\n타투 제거 예약하려고 하는데 [예약일 가림] [예약시각 가림] 예약될까요~?",
+                    "original": "안녕하세요!\n타투 제거 예약하려고 하는데 11월 25일 17시 예약될까요~?",
                     "lang": "ko"
                   },
                   {
@@ -37789,7 +37789,7 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-10-30",
-                    "original": "안녕하세요!\n네 [예약일 가림] [예약시각 가림] 예약 가능하십니다! :)\n그때로 예약 도와드릴까요?",
+                    "original": "안녕하세요!\n네 11월 25일 오후 5시 예약 가능하십니다! :)\n그때로 예약 도와드릴까요?",
                     "lang": "ko"
                   },
                   {
@@ -37908,7 +37908,7 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-10-30",
-                    "original": "[예약일 가림]요일 [예약시각 가림]로 예약할 수 있을까요",
+                    "original": "11/1 일요일 3시로 예약할 수 있을까요",
                     "lang": "ko"
                   },
                   {
@@ -37930,7 +37930,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-10-30",
-                    "original": "네 [예약일 가림]에 뵙겠습니다!^^",
+                    "original": "네 1일에 뵙겠습니다!^^",
                     "lang": "ko"
                   }
                 ],
@@ -38035,7 +38035,7 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-10-30",
-                    "original": "안녕하세요.\n남성 제모 예약 하려고 하는데 [예약일 가림] [예약시각 가림] 가능 할까요?",
+                    "original": "안녕하세요.\n남성 제모 예약 하려고 하는데 11월 2일 월요일 오후 4시 30분 가능 할까요?",
                     "lang": "ko"
                   }
                 ],
@@ -38064,7 +38064,7 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-10-30",
-                    "original": "안녕하세요! 저 오늘 [예약시각 가림]에 예약한 [고객명 가림]입니다. 혹시 [예약시각 가림]로 시간 변경이 가능할지 여쭤봐요~",
+                    "original": "안녕하세요! 저 오늘 5시에 예약한 윤재이입니다. 혹시 6시로 시간 변경이 가능할지 여쭤봐요~",
                     "lang": "ko"
                   },
                   {
@@ -38081,7 +38081,7 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-10-30",
-                    "original": "안녕하세요, 뷰티블라썸의원입니다 😊\n네, 고객님! [예약시각 가림]로 예약 변경 가능하십니다!\n해당 시간으로 변경 도와드려도 괜찮으실까요?",
+                    "original": "안녕하세요, 뷰티블라썸의원입니다 😊\n네, 고객님! 오후 6시로 예약 변경 가능하십니다!\n해당 시간으로 변경 도와드려도 괜찮으실까요?",
                     "lang": "ko"
                   },
                   {
@@ -38091,7 +38091,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-10-30",
-                    "original": "[예약시각 가림]로 예약 변경 도와드렸습니다~\n감사합니다^^",
+                    "original": "6시로 예약 변경 도와드렸습니다~\n감사합니다^^",
                     "lang": "ko"
                   },
                   {
@@ -38118,7 +38118,7 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-10-30",
-                    "original": "안녕하세요~~ 저 혹시 오늘 예약 너무너무 죄송한데\n다음주 [요일 가림] [예약시각 가림]로 옮길 수 있을까요?!!ㅠㅠ",
+                    "original": "안녕하세요~~ 저 혹시 오늘 예약 너무너무 죄송한데\n다음주 금요일 6시로 옮길 수 있을까요?!!ㅠㅠ",
                     "lang": "ko"
                   },
                   {
@@ -38221,7 +38221,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-10-30",
-                    "original": "[예약시각 가림]요",
+                    "original": "7시요",
                     "lang": "ko"
                   },
                   {
@@ -38243,7 +38243,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-10-30",
-                    "original": "[예약시각 가림]로 예약 도와 드렸습니다 ^^\n면도하지 않은 상태로 레이저 제모를 받으시면 화상 위험이 있어 시술 전 면도가 필요합니다. 원내에서 면도기를 1,000원에 판매하고 있으니, 구매하셔서 면도를 마치신 후 시술받으실 수 있도록 안내해 드리겠습니다.\n\n감사합니다!🌸",
+                    "original": "7시로 예약 도와 드렸습니다 ^^\n면도하지 않은 상태로 레이저 제모를 받으시면 화상 위험이 있어 시술 전 면도가 필요합니다. 원내에서 면도기를 1,000원에 판매하고 있으니, 구매하셔서 면도를 마치신 후 시술받으실 수 있도록 안내해 드리겠습니다.\n\n감사합니다!🌸",
                     "lang": "ko"
                   },
                   {
@@ -38350,7 +38350,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-10-30",
-                    "original": "기존내원자\n[고객명 가림]/[생년월일 가림]/[연락처 가림]\n[예약일 가림] [예약시각 가림]\n턱보톡스",
+                    "original": "기존내원자\n홍은호/[생년월일 가림]/[연락처 가림]\n11/2 11시\n턱보톡스",
                     "lang": "ko"
                   }
                 ],
@@ -38718,7 +38718,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-10-30",
-                    "original": "[고객명 가림] / [연락처 가림]",
+                    "original": "장미진 / [연락처 가림]",
                     "lang": "ko"
                   },
                   {
@@ -38926,7 +38926,7 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-10-30",
-                    "original": "안녕하세요, 뷰티블라썸의원입니다 😊\n\n[고객명 가림]님, 피부 상태가 괜찮아지셨다니 다행입니다. 경과 알려주셔서 감사합니다!\n앞서 본원 시술 이력을 확인하지 못한 채 안내드려 혼란을 드린 점 다시 한번 죄송합니다.\n\n혹시 다시 불편한 증상이 생기거나 궁금하신 점이 있으시면 편하게 연락해 주세요.\n\n감사합니다!🌸",
+                    "original": "안녕하세요, 뷰티블라썸의원입니다 😊\n\n승빈님, 피부 상태가 괜찮아지셨다니 다행입니다. 경과 알려주셔서 감사합니다!\n앞서 본원 시술 이력을 확인하지 못한 채 안내드려 혼란을 드린 점 다시 한번 죄송합니다.\n\n혹시 다시 불편한 증상이 생기거나 궁금하신 점이 있으시면 편하게 연락해 주세요.\n\n감사합니다!🌸",
                     "lang": "ko"
                   }
                 ],
@@ -40012,8 +40012,8 @@ window.SUPERVISION_DATA = {
                 "customer": [
                   {
                     "date": "2026-11-02",
-                    "original": "[相談申し込み内容]\n\n① オプション\n∙ アクアピール \n\n② 来院希望日\n∙ [예약일 가림] [예약시각 가림] (KST)",
-                    "ko": "[상담 신청 내용]\n\n① 옵션\n∙ 아쿠아필 \n\n② 방문 희망일\n∙ [예약일 가림] [예약시각 가림] (KST)"
+                    "original": "[相談申し込み内容]\n\n① オプション\n∙ アクアピール \n\n② 来院希望日\n∙ 2026.11.18 10:00 (KST)",
+                    "ko": "[상담 신청 내용]\n\n① 옵션\n∙ 아쿠아필 \n\n② 방문 희망일\n∙ 2026.11.18 10:00 (KST)"
                   },
                   {
                     "date": "2026-11-02",
@@ -40029,8 +40029,8 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-03",
-                    "original": "詳しくお悩みを教えていただき、ありがとうございます😊💗\n\n施術前は、普段通りにお化粧や日焼け止めをしてご来院いただいても大丈夫です。施術前に洗顔していただければ問題ございません😊 また、施術当日からメイクも可能ですので、ご安心くださいませ💕\n\n当院のご予約受付時間は、平日 [예약시각 가림]〜[예약시각 가림]、土日 [예약시각 가림]〜[예약시각 가림]となっております✨ ご予約をご希望の場合は、お手数ですが下記の予約フォームにご入力をお願いいたします。 ご入力を確認次第、こちらでご予約をお手伝いさせていただきますね🥰\n\n1. お名前（ローマ字）：\n2. 生年月日：\n3. ご希望の施術：\n4. ご希望のご来院日時：\n\n気になる施術やご不明な点などございましたら、いつでもお気軽にご相談くださいね💗",
-                    "ko": "고민을 자세히 알려 주셔서 감사합니다😊💗\n\n시술 전에는 평소처럼 화장이나 자외선 차단제를 바르고 방문하셔도 괜찮습니다. 시술 전에 세안해 주시면 문제없습니다😊 또한 시술 당일부터 화장도 가능하니 안심해 주세요💕\n\n저희 병원의 예약 접수 시간은 평일 [예약시각 가림]~[예약시각 가림], 토일 [예약시각 가림]~[예약시각 가림]입니다✨ 예약을 원하시면 번거로우시겠지만 아래 예약 양식을 작성해 주시기 바랍니다. 작성하신 내용을 확인하는 대로 예약을 도와드리겠습니다🥰\n\n1. 성함(로마자):\n2. 생년월일:\n3. 희망 시술:\n4. 희망 방문 일시:\n\n관심 있는 시술이나 궁금한 점이 있으시면 언제든 편하게 문의해 주세요💗"
+                    "original": "詳しくお悩みを教えていただき、ありがとうございます😊💗\n\n施術前は、普段通りにお化粧や日焼け止めをしてご来院いただいても大丈夫です。施術前に洗顔していただければ問題ございません😊 また、施術当日からメイクも可能ですので、ご安心くださいませ💕\n\n当院のご予約受付時間は、平日 10:00〜18:00、土日 10:00〜15:00となっております✨ ご予約をご希望の場合は、お手数ですが下記の予約フォームにご入力をお願いいたします。 ご入力を確認次第、こちらでご予約をお手伝いさせていただきますね🥰\n\n1. お名前（ローマ字）：\n2. 生年月日：\n3. ご希望の施術：\n4. ご希望のご来院日時：\n\n気になる施術やご不明な点などございましたら、いつでもお気軽にご相談くださいね💗",
+                    "ko": "고민을 자세히 알려 주셔서 감사합니다😊💗\n\n시술 전에는 평소처럼 화장이나 자외선 차단제를 바르고 방문하셔도 괜찮습니다. 시술 전에 세안해 주시면 문제없습니다😊 또한 시술 당일부터 화장도 가능하니 안심해 주세요💕\n\n저희 병원의 예약 접수 시간은 평일 10:00~18:00, 토일 10:00~15:00입니다✨ 예약을 원하시면 번거로우시겠지만 아래 예약 양식을 작성해 주시기 바랍니다. 작성하신 내용을 확인하는 대로 예약을 도와드리겠습니다🥰\n\n1. 성함(로마자):\n2. 생년월일:\n3. 희망 시술:\n4. 희망 방문 일시:\n\n관심 있는 시술이나 궁금한 점이 있으시면 언제든 편하게 문의해 주세요💗"
                   }
                 ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=671873854&range=A48:N48"
@@ -40254,20 +40254,20 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-01",
-                    "original": "정말 고마워요!\n1.[고객명 가림]\n2.[생년월일 가림]이에요\n3.여자들이에요\n4.모공 청소하고 아쿠아 필링이 있는 엘프 이어 필러\n5.베이비토크\n\n그게 다예요, 제발!",
+                    "original": "정말 고마워요!\n1.에레나 모리\n2.[생년월일 가림]이에요\n3.여자들이에요\n4.모공 청소하고 아쿠아 필링이 있는 엘프 이어 필러\n5.베이비토크\n\n그게 다예요, 제발!",
                     "lang": "ko"
                   },
                   {
                     "date": "2026-11-01",
-                    "original": "방금 베이비토크에서 동반자 예약했어요.\n[고객명 가림] \n[생년월일 가림] 남자예요\n모공 클렌징으로 아쿠아 필을 요청해서 [예약일 가림] [예약시각 가림] 부터 예약했어요. 같은 시간에도 예약해 주세요.\n상담 등에 동행할 수 있으면 좋겠어요.\n지지해 줘서 고마워요.",
+                    "original": "방금 베이비토크에서 동반자 예약했어요.\n타카하시 카이 \n[생년월일 가림] 남자예요\n모공 클렌징으로 아쿠아 필을 요청해서 12/12 11:00 부터 예약했어요. 같은 시간에도 예약해 주세요.\n상담 등에 동행할 수 있으면 좋겠어요.\n지지해 줘서 고마워요.",
                     "lang": "ko"
                   }
                 ],
                 "staff": [
                   {
                     "date": "2026-11-02",
-                    "original": "ご連絡ありがとうございます😊💗\n\n男性のお客様のご予約は、すでに[예약일 가림][예약시각 가림]でお取りしております✨\n\nご同行者様のご予約も同じお時間で承りますね🥰\n\nまた、今後のご連絡やお問い合わせをスムーズにご案内するため、よろしければ当院の公式LINEもご登録いただけますでしょうか？💗\n\nご登録後、お名前をメッセージでお送りいただけますと幸いです🌸\n@beautyblossom_jp",
-                    "ko": "연락 주셔서 감사합니다😊💗\n\n남성 고객님의 예약은 이미 [예약일 가림] [예약시각 가림]으로 잡아 두었습니다✨\n\n동행하시는 분의 예약도 같은 시간으로 받겠습니다🥰\n\n또한 앞으로의 연락과 문의를 원활하게 안내해 드리기 위해, 괜찮으시다면 저희 병원 공식 LINE에도 등록해 주시겠습니까?💗\n\n등록 후 성함을 메시지로 보내 주시면 감사하겠습니다🌸\n@beautyblossom_jp"
+                    "original": "ご連絡ありがとうございます😊💗\n\n男性のお客様のご予約は、すでに12月12日11時でお取りしております✨\n\nご同行者様のご予約も同じお時間で承りますね🥰\n\nまた、今後のご連絡やお問い合わせをスムーズにご案内するため、よろしければ当院の公式LINEもご登録いただけますでしょうか？💗\n\nご登録後、お名前をメッセージでお送りいただけますと幸いです🌸\n@beautyblossom_jp",
+                    "ko": "연락 주셔서 감사합니다😊💗\n\n남성 고객님의 예약은 이미 1 2월 12일11시으로 잡아 두었습니다✨\n\n동행하시는 분의 예약도 같은 시간으로 받겠습니다🥰\n\n또한 앞으로의 연락과 문의를 원활하게 안내해 드리기 위해, 괜찮으시다면 저희 병원 공식 LINE에도 등록해 주시겠습니까?💗\n\n등록 후 성함을 메시지로 보내 주시면 감사하겠습니다🌸\n@beautyblossom_jp"
                   }
                 ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=1293509341&range=A124:N124"
@@ -40291,7 +40291,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-11-01",
-                    "original": "[상담 신청 세부 정보]\n\n① 옵션\n∙ 아쿠아 필 \n\n② 원하는 방문 날짜\n∙ [예약일 가림] [예약시각 가림] (KST)",
+                    "original": "[상담 신청 세부 정보]\n\n① 옵션\n∙ 아쿠아 필 \n\n② 원하는 방문 날짜\n∙ 2026.12.12 11:00 (KST)",
                     "lang": "ko"
                   }
                 ],
@@ -40489,7 +40489,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-10-31",
-                    "original": "[상담 신청 세부 정보]\n\n① 옵션\n∙ 한국산) 엘프 이어 필러 2cc \n\n② 원하는 방문 날짜\n∙ [예약일 가림] [예약시각 가림] (KST)\n∙ [예약일 가림] [예약시각 가림] (KST)\n∙ [예약일 가림] [예약시각 가림] (KST)",
+                    "original": "[상담 신청 세부 정보]\n\n① 옵션\n∙ 한국산) 엘프 이어 필러 2cc \n\n② 원하는 방문 날짜\n∙ 2026.12.12 11:00 (KST)\n∙ 2026.12.12 10:00 (KST)\n∙ 2026.12.12 12:00 (KST)",
                     "lang": "ko"
                   },
                   {
@@ -40501,8 +40501,8 @@ window.SUPERVISION_DATA = {
                 "staff": [
                   {
                     "date": "2026-11-01",
-                    "original": "ご連絡ありがとうございます🌸\nお二人でのご予約も可能です！\n[예약일 가림]　[예약시각 가림]　２名様でご予約をお取りしましょうか？",
-                    "ko": "연락해 주셔서 감사합니다🌸\n두 분이서 예약하시는 것도 가능합니다!\n[예약일 가림] [예약시각 가림]에 2명으로 예약해 드릴까요?"
+                    "original": "ご連絡ありがとうございます🌸\nお二人でのご予約も可能です！\n12/12　11：00　２名様でご予約をお取りしましょうか？",
+                    "ko": "연락해 주셔서 감사합니다🌸\n두 분이서 예약하시는 것도 가능합니다!\n12/12 11：00에 2명으로 예약해 드릴까요?"
                   },
                   {
                     "date": "2026-11-01",
@@ -40531,7 +40531,7 @@ window.SUPERVISION_DATA = {
                   },
                   {
                     "date": "2026-10-31",
-                    "original": "【상담 신청 정보】\n\n① 프로그램\n∙ XERF 600 듀얼 밴드 웨이브+마스크+LED 재생 레이저 \n\n② 예상 방문 날짜\n∙ [예약일 가림] [예약시각 가림] (한국 시간)\n∙ [예약일 가림] [예약시각 가림](한국 시간)",
+                    "original": "【상담 신청 정보】\n\n① 프로그램\n∙ XERF 600 듀얼 밴드 웨이브+마스크+LED 재생 레이저 \n\n② 예상 방문 날짜\n∙ 2026.11.10 오후 5시 (한국 시간)\n∙ 2026.11.10 오후 6:00 (한국 시간)",
                     "lang": "ko"
                   },
                   {
