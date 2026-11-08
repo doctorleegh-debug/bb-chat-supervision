@@ -56,6 +56,8 @@ function sanitizeApprovedPublicContactsForPrivacy(value) {
   ]);
   return value.replace(/https?:\/\/[^\s<>"'`]+/gi, token => approved.has(token) ? '[공식 병원 링크]' : token)
     .replace(/(?<=ID[：:])@beautyblossom_tw(?=$|[\s。！，、（）「」【】])/g, '[공식 병원 LINE]')
+    .replace(/(?<=官方LINE: )@beautyblossom_tw(?=\n|$)/g, '[공식 병원 LINE]')
+    .replace(/(?<=공식 LINE: )@beautyblossom_tw(?=를 추가하실 수 있습니다\.)/g, '[공식 병원 LINE]') // 11/8 실제 직원 원문/완전번역의 공식 계정 두 문맥만 허용
     .replace(/(?<=^|\n|ID[：:])@beautyblossom_jp(?=$|[\s。！，、（）「」【】])/g, '[공식 병원 LINE]') // 직원 가이드 11의 일본 공식 LINE ID
     .replace(/(?<=(?:Line|LINE Official)[：:] )@beautyblossom_th(?=$|[\s。！，、（）「」【】])/g, '[공식 병원 LINE]'); // 직원 가이드 11의 태국 공식 LINE ID
 }
