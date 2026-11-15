@@ -1,7 +1,7 @@
 window.SUPERVISION_DATA = {
   "meta": {
     "title": "뷰티블라썸 상담 품질 감독",
-    "updatedAt": "2026-11-14T08:35:24.494Z",
+    "updatedAt": "2026-11-15T06:18:43.498Z",
     "timeZone": "Asia/Seoul",
     "sheetUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit",
     "schedule": {
@@ -37,34 +37,34 @@ window.SUPERVISION_DATA = {
         "id": "gangnamunni",
         "name": "강남언니",
         "status": "report-partial",
-        "checkedAt": "2026-11-14T06:03:39.207Z",
+        "checkedAt": "2026-11-15T06:10:44.748Z",
         "accountVerified": true,
         "inboxVerified": true,
-        "auditDate": "2026-11-13",
-        "summary": "2026-11-13 · 확인한 상담 51건 · 지적 5건",
+        "auditDate": "2026-11-14",
+        "summary": "2026-11-14 · 확인한 상담 15건 · 지적 2건",
         "limit": "대화 본문을 확보한 상담만 포함합니다."
       },
       {
         "id": "kakao-clinic",
         "name": "카카오톡(병원계정)",
         "status": "report-partial",
-        "checkedAt": "2026-11-14T06:07:21.010Z",
+        "checkedAt": "2026-11-15T06:07:49.357Z",
         "accountVerified": true,
         "inboxVerified": true,
-        "auditDate": "2026-11-13",
-        "summary": "2026-11-13 · 확인한 상담 15건 · 지적 1건",
+        "auditDate": "2026-11-14",
+        "summary": "2026-11-14 · 확인한 상담 13건 · 지적 2건",
         "limit": "대화 본문을 확보한 상담만 포함합니다."
       },
       {
         "id": "babitalk",
         "name": "바비톡",
         "status": "completed-noactivity",
-        "checkedAt": "2026-11-14T06:02:37.128Z",
+        "checkedAt": "2026-11-15T06:03:26.073Z",
         "accountVerified": true,
         "inboxVerified": true,
-        "auditDate": "2026-11-13",
-        "summary": "2026-11-13 관련 검수내역 0행 · 당일확인 0 / 포함미확인 0 · 임상·운영·미열람 별도, 전체분모 미확인",
-        "limit": "검수 범위: 해외 채팅상담 전체 13방과 영어·일본어·중국어 번체·중국어 간체 목록 끝을 확인했다. 마지막 활동일은 모두 11월 3일 이전 또는 당일로, 11월 13일 추가 활동은 없었다. 과거 방 본문과 이미지는 열지 않았다. 실제 확인한 점검 범위에 한정하며, 상시 즉시 감시·푸시 수신은 검증되지 않았습니다."
+        "auditDate": "2026-11-14",
+        "summary": "2026-11-14 관련 검수내역 0행 · 당일확인 0 / 포함미확인 0 · 임상·운영·미열람 별도, 전체분모 미확인",
+        "limit": "검수 범위: 해외 채팅상담 13방과 5개 언어 목록을 끝까지 확인했다. 11월 14일 추가 활동은 없었다. 실제 확인한 점검 범위에 한정하며, 상시 즉시 감시·푸시 수신은 검증되지 않았습니다."
       }
     ]
   },
@@ -571,9 +571,9 @@ window.SUPERVISION_DATA = {
           "date": "2026-11-14",
           "status": "partial",
           "auditState": "source-availability-partial",
-          "checkedAt": "2026-11-14T06:03:39.207Z",
-          "qaAuditCheckedAt": "2026-11-14T06:03:39.207Z",
-          "cutoffAt": "2026-11-14T06:03:39.207Z",
+          "checkedAt": "2026-11-15T06:10:44.748Z",
+          "qaAuditCheckedAt": "2026-11-15T06:10:44.748Z",
+          "cutoffAt": "2026-11-14T23:59:59+09:00",
           "eligibleRooms": null,
           "messageCount": null,
           "customerMessages": null,
@@ -590,17 +590,17 @@ window.SUPERVISION_DATA = {
           "conversations": [],
           "issues": [],
           "followUps": [],
-          "reviewScope": "마지막 활동이 11월 14일인 26방 중 안전한 24방의 실제 고객·직원 응대를 확인했다. 다른 날짜 상담에서 14일 방문 알림만 보인 2방은 새 상담으로 세지 않았다. 해당 플랫폼의 전체 상담 수는 미확인이다.",
+          "reviewScope": "11월14일 상담을 확인하고 기존 같은 문의의 후속 답변은 한 상담으로 합쳤다.",
           "availabilityCoverage": {
             "targetDate": "2026-11-14",
-            "observedAt": "2026-11-14T06:03:39.207Z",
+            "observedAt": "2026-11-15T06:10:44.748Z",
             "evidenceScope": "native-safe-body-subset",
             "providerDenominator": null,
             "actualBodyReviewComplete": false,
             "observedCandidateCount": 26,
-            "bodyRoomsOpened": 24,
+            "bodyRoomsOpened": 25,
             "actualBodyDateMembership": "confirmed-subset",
-            "reason": "마지막 활동이 11월 14일인 26방 중 안전한 24방의 실제 고객·직원 응대를 확인했다. 다른 날짜 상담에서 14일 방문 알림만 보인 2방은 새 상담으로 세지 않았다.",
+            "reason": "11월 14일 마지막 활동 방26곳 중25방의 질문과 답변을 확인했다. 당일 활동 방은 열지 않았으며 전체 상담 수는 미확인이다.",
             "safetyNotes": [
               "읽지 않은 새 채팅·고객 최종 미답변 등 보호 대상은 열지 않았고, 확인한 질문과 담당자 답변만 원문·번역과 대조했다."
             ],
@@ -753,19 +753,19 @@ window.SUPERVISION_DATA = {
               "sourceState": "observed",
               "question": {
                 "state": "withheld-private",
-                "messageCount": 8,
+                "messageCount": 9,
                 "firstAt": null,
                 "lastAt": null
               },
               "answer": {
                 "state": "withheld-private",
-                "messageCount": 9,
+                "messageCount": 10,
                 "firstAt": null,
                 "lastAt": null
               },
               "verdict": "unreviewed",
               "reason": "상담 카드에서 판정했다.",
-              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=110688064&range=A42:N42",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A42:Q42",
               "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
               "recordKind": "clinical",
               "targetDayState": "confirmed",
@@ -909,30 +909,30 @@ window.SUPERVISION_DATA = {
             },
             {
               "id": "G-20261114-U1114-001",
-              "country": null,
+              "country": "US",
               "consultationAt": null,
               "language": "unknown",
-              "sourceState": "unread",
+              "sourceState": "observed",
               "question": {
-                "state": "unread",
-                "messageCount": null,
+                "state": "withheld-private",
+                "messageCount": 1,
                 "firstAt": null,
                 "lastAt": null
               },
               "answer": {
-                "state": "unread",
-                "messageCount": null,
+                "state": "withheld-private",
+                "messageCount": 2,
                 "firstAt": null,
                 "lastAt": null
               },
               "verdict": "unreviewed",
-              "reason": "답변 전 새 채팅 메시지",
-              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=110688064&range=A80:N80",
-              "scopeNote": "답변 전 새 채팅 메시지",
-              "recordKind": "unread-candidate",
-              "targetDayState": "unknown",
+              "reason": "기존 답변 전 기록과 같은 문의이며 담당자 답변을 확인했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A5:Q5",
+              "scopeNote": "같은 문의의 답변 전 기록을 기존 상담에 연결했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
               "targetDate": "2026-11-14",
-              "hasOriginal": false
+              "hasOriginal": true
             },
             {
               "id": "G-20261114-U1114-002",
@@ -953,8 +953,143 @@ window.SUPERVISION_DATA = {
                 "lastAt": null
               },
               "verdict": "unreviewed",
-              "reason": "답변 전 새 채팅 메시지",
+              "reason": "11월 14일 답변 전 새 채팅 메시지(11월 15일 당일 활동으로 열지 않음)",
               "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=110688064&range=A81:N81",
+              "scopeNote": "11월 14일 답변 전 새 채팅 메시지(11월 15일 당일 활동으로 열지 않음)",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-14",
+              "hasOriginal": false
+            },
+            {
+              "id": "G-20261114-N1115-G001",
+              "country": "JP",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A2:Q2",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "G-20261114-N1115-G002",
+              "country": "JP",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A3:Q3",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "G-20261114-N1115-G003",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A4:Q4",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "G-20261114-N1115-G004",
+              "country": "US",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A5:Q5",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "G-20261114-N1115-U001",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "답변 전 새 채팅 메시지",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A65:Q65",
               "scopeNote": "답변 전 새 채팅 메시지",
               "recordKind": "unread-candidate",
               "targetDayState": "unknown",
@@ -964,7 +1099,7 @@ window.SUPERVISION_DATA = {
           ],
           "qaReviewFinalization": {
             "schemaVersion": 2,
-            "finalizedAt": "2026-11-14T06:46:49.622Z",
+            "finalizedAt": "2026-11-15T06:18:43.495Z",
             "finalStatus": "completed",
             "sourceCoverage": "partial",
             "exchanges": [
@@ -1203,6 +1338,11 @@ window.SUPERVISION_DATA = {
                     "date": "2026-11-14",
                     "original": "好的！感謝您🙏🏻",
                     "ko": "네！감사합니다🙏🏻"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "好的沒問題！感謝🙏🏻",
+                    "ko": "네, 문제없습니다! 감사합니다🙏🏻"
                   }
                 ],
                 "staff": [
@@ -1250,9 +1390,14 @@ window.SUPERVISION_DATA = {
                     "date": "2026-11-14",
                     "original": "我們院內都有中文翻譯人員，這個不用擔心喔✅",
                     "ko": "저희 병원에는 중국어 통역 직원이 있으니 걱정하지 않으셔도 돼요✅"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "前一天會再提醒您，如行程有變動，再麻煩您提前聯繫我們，期待您的到來🌸",
+                    "ko": "전날 다시 안내해 드리겠습니다. 일정이 바뀌면 미리 연락 부탁드립니다. 방문을 기다리겠습니다🌸"
                   }
                 ],
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=110688064&range=A42:N42"
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A42:Q42"
               },
               {
                 "id": "G-20261114-N1114-045",
@@ -1432,20 +1577,165 @@ window.SUPERVISION_DATA = {
                   }
                 ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=110688064&range=A77:N77"
+              },
+              {
+                "id": "G-20261114-N1115-G001",
+                "recordIds": [
+                  "G-20261114-N1115-G001"
+                ],
+                "kind": "consult",
+                "country": "JP",
+                "procedure": "보톡스",
+                "category": "가격·예약 확정",
+                "verdict": "normal",
+                "reason": "사각턱 보톡스 50단위의 국산 43,500원·코어톡스 73,700원·제오민 143,000원·앨러간 197,000원은 원본 수가표의 같은 브랜드·용량 금액과 같다. 예약 확정문에는 가이드11의 상담만 받을 때 상담료 10,000원 조건도 안내했다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "1. お名前（ローマ字）：TAGUCHI HINA\n2. 生年月日：[생년월일 가림]\n3. ご希望の施術：ボトックス(おでこ、えら、顎先、眉間)\n4. ご希望のご来院日時：12/23 16:00",
+                    "ko": "1. 이름(로마자): TAGUCHI HINA\n2. 생년월일: [생년월일 가림]\n3. 희망 시술: 보톡스(이마, 사각턱, 턱끝, 미간)\n4. 희망 방문 일시: 12/23 16:00"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "こんにちは😊💗\n\nエラボトックス（50単位基準）の料金は以下の通りでございます😊\n・韓国製：43,500ウォン\n・コアトックス：73,700ウォン\n・ゼオミン：143,000ウォン\n・アラガン：197,000ウォン\nなお、実際の注入量はエラの筋肉の大きさや状態によって異なり、一般的には50〜100単位程度を使用いたします。正確な注入量は、当日状態を確認したうえでご案内いたします✨\n\nご予約の際は、下記のフォームをご記入の上ご返信お願い致します✨\n\n1. お名前（ローマ字）：\n2. 生年月日：\n3. ご希望の施術：\n4. ご希望のご来院日時：\n\nほかにも気になる施術やご不明な点などございましたら、いつでもお気軽にご相談くださいね🌸",
+                    "ko": "안녕하세요😊💗\n\n사각턱 보톡스(50단위 기준) 요금은 다음과 같습니다😊\n・국산: 43,500원\n・코어톡스: 73,700원\n・제오민: 143,000원\n・앨러간: 197,000원\n실제 주입량은 사각턱 근육의 크기와 상태에 따라 다르며, 일반적으로 50~100단위 정도를 사용합니다. 정확한 주입량은 당일 상태를 확인한 후 안내해 드립니다✨\n\n예약하실 때는 아래 양식을 작성하여 회신해 주세요✨\n\n1. 이름(로마자):\n2. 생년월일:\n3. 희망 시술:\n4. 희망 방문 일시:\n\n그 밖에도 궁금한 시술이나 문의 사항이 있으시면 언제든지 편하게 말씀해 주세요🌸"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "ご予約をお取りいたしました😊💗\n\nもしよろしければ、当院の公式LINEもご登録いただけますでしょうか？✨\nLINEの方が、今後のご連絡やお問い合わせもスムーズにご案内できますので、ぜひご利用くださいませ🥰\n\nご登録後、お名前をメッセージでお送りいただけますと幸いです🌸\n@beautyblossom_jp",
+                    "ko": "예약을 잡아 드렸습니다😊💗\n\n괜찮으시다면 저희 병원 공식 LINE도 등록해 주실 수 있을까요?✨\nLINE을 이용하시면 앞으로 연락이나 문의도 원활하게 안내해 드릴 수 있으니 꼭 이용해 주세요🥰\n\n등록 후 이름을 메시지로 보내주시면 감사하겠습니다🌸\n@beautyblossom_jp"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "下記の日程でご予約確定致しました🌸\n\n📅 日付：12月 23日\n⏰ 時間：16時 00分\n\n📍 場所：ソウル市麻浦区（マポ）ヤンファロ66、6階\n\n地図URL：\n\nNaver Map : https://naver.me/5ap1E0ph\nGoogle : https://maps.app.goo.gl/kNTF1bYCqKdDFiHg9\n\nご来店の際は、外国人登録証またはパスポートをお持ちください✨\n\n\n＊ご予約当日に施術を受けずカウンセリングのみ行った場合、カウンセリング料金10,000ウォンが発生致します。\n\n＊ポイントのご利用について\n恐れ入りますが、ポイントのご使用はアプリ決済時のみ可能であり、現状、外国籍のお客さまのアプリ決済には未対応と承知しております。その為店頭決済ではポイントをご利用いただけません事予めご了承お願い致します。",
+                    "ko": "아래 일정으로 예약이 확정되었습니다🌸\n\n📅 날짜: 12월 23일\n⏰ 시간: 16시 00분\n\n📍 장소: 서울시 마포구 양화로 66, 6층\n\n지도 URL:\n\nNaver Map : https://naver.me/5ap1E0ph\nGoogle : https://maps.app.goo.gl/kNTF1bYCqKdDFiHg9\n\n방문하실 때 외국인등록증 또는 여권을 지참해 주세요✨\n\n\n＊예약 당일 시술을 받지 않고 상담만 진행하시는 경우 상담료 10,000원이 발생합니다.\n\n＊포인트 이용에 관하여\n죄송하지만 포인트는 앱 결제 시에만 사용할 수 있으며, 현재 외국 국적 고객의 앱 결제는 지원하지 않는 것으로 알고 있습니다. 따라서 현장 결제에서는 포인트를 이용하실 수 없는 점 미리 양해 부탁드립니다."
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A2:Q2"
+              },
+              {
+                "id": "G-20261114-N1115-G002",
+                "recordIds": [
+                  "G-20261114-N1115-G002"
+                ],
+                "kind": "consult",
+                "country": "JP",
+                "procedure": "미간 보톡스",
+                "category": "방문·예약 문의",
+                "verdict": "normal-ops",
+                "reason": "26일 미간 보톡스 방문을 희망하자 예약 접수 시간과 이름·생년월일·희망 시술·방문 일시를 회신하는 예약 양식을 안내했다. 가이드11의 일본어 예약 양식과 같은 항목이다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "眉間のボトックスが気になります。26日に行く予定です。",
+                    "ko": "미간 보톡스에 관심이 있습니다. 26일에 갈 예정입니다."
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "当院のご予約受付時間は、平日 10:00〜19:00、土日 10:00〜16:00となっております✨\n\nご予約の際は、下記のフォームをご記入の上ご返信お願い致します✨\n\n1. お名前（ローマ字）：\n2. 生年月日：\n3. ご希望の施術：\n4. ご希望のご来院日時：\n\nまた、気になる施術やご不明な点などございましたら、いつでもお気軽にご相談くださいね💗",
+                    "ko": "저희 병원의 예약 접수 시간은 평일 10:00~19:00, 토요일·일요일 10:00~16:00입니다✨\n\n예약하실 때는 아래 양식을 작성하여 회신해 주세요✨\n\n1. 이름(로마자):\n2. 생년월일:\n3. 희망 시술:\n4. 희망 방문 일시:\n\n또한 궁금한 시술이나 문의 사항이 있으시면 언제든지 편하게 말씀해 주세요💗"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A3:Q3"
+              },
+              {
+                "id": "G-20261114-N1115-G003",
+                "recordIds": [
+                  "G-20261114-N1115-G003"
+                ],
+                "kind": "consult",
+                "country": "TW",
+                "procedure": "POTENZA 황금미세침 300샷",
+                "category": "상품 유입·가격 이미지 안내",
+                "verdict": "image",
+                "reason": "황금미세침 상품으로 유입된 고객에게 가격표 이미지와 추가 문의 안내를 보냈다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음(POTENZA 황금미세침 300샷 상품 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "黃金微針的價格這邊可以先給您參考喔😊",
+                    "ko": "황금 미세침 가격을 우선 참고하시도록 보내드릴게요😊"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "您也可以跟我們說一下最想改善的位置，再幫您初步推薦比較合適的療程喔🤍",
+                    "ko": "가장 개선하고 싶은 부위를 말씀해 주시면 좀 더 적합한 시술을 우선 추천해 드릴게요🤍"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A4:Q4"
+              },
+              {
+                "id": "G-20261114-N1115-G004",
+                "recordIds": [
+                  "G-20261114-N1115-G004",
+                  "G-20261114-U1114-001"
+                ],
+                "kind": "consult",
+                "country": "US",
+                "procedure": "피코슈어·색소 레이저",
+                "category": "재방문·예약 문의",
+                "verdict": "normal-ops",
+                "reason": "27일에 피코슈어·색소 레이저를 다시 받고 싶다는 문의에 이전 방문 기록 확인을 위한 병원 WhatsApp과 채팅 내 예약 안내를 제공했다. 가이드07의 기존 방문 기록·희망 일정 확인 절차에 해당한다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "I’ll be back in Seoul this month on the 27th and want to repeat the picosure/laser for pigmentation concern.",
+                    "ko": "이번 달 27일에 서울에 다시 가게 되어 색소 고민 때문에 피코슈어/레이저를 다시 받고 싶습니다."
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "You’re welcome to add our WhatsApp so we can check your previous visit records and assist you with arranging your next appointment. 😊 We’ll be happy to help you!\nID: +82 10-7215-7511",
+                    "ko": "저희 WhatsApp을 추가해 주시면 이전 방문 기록을 확인하고 다음 예약을 도와드릴 수 있습니다. 😊 기꺼이 도와드리겠습니다!\nID: +82 10-7215-7511"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "If WhatsApp isn’t convenient for you, that’s absolutely fine too! Just let us know, and we’ll be happy to assist you here.\n\nOur appointment hours are from 10:00 AM to 7:00 PM on weekdays, and from 10:00 AM to 3:00 PM on weekends. 😊 Just let us know your preferred date and time, and we’ll be happy to help arrange your appointment! 💕",
+                    "ko": "WhatsApp 이용이 불편하셔도 괜찮습니다! 말씀해 주시면 여기서 기꺼이 도와드리겠습니다.\n\n저희 예약 가능 시간은 평일 오전 10시부터 오후 7시까지, 주말 오전 10시부터 오후 3시까지입니다. 😊 희망하는 날짜와 시간을 말씀해 주시면 예약을 도와드리겠습니다! 💕"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A5:Q5"
               }
             ],
             "merged": [],
             "unavailable": {
               "recordIds": [
-                "G-20261114-U1114-001",
-                "G-20261114-U1114-002"
+                "G-20261114-U1114-002",
+                "G-20261114-N1115-U001"
               ],
               "reasons": [
                 {
+                  "reason": "11월 14일 답변 전 새 채팅 메시지(11월 15일 당일 활동으로 열지 않음)",
+                  "recordIds": [
+                    "G-20261114-U1114-002"
+                  ]
+                },
+                {
                   "reason": "답변 전 새 채팅 메시지",
                   "recordIds": [
-                    "G-20261114-U1114-001",
-                    "G-20261114-U1114-002"
+                    "G-20261114-N1115-U001"
                   ]
                 }
               ]
@@ -51143,6 +51433,1991 @@ window.SUPERVISION_DATA = {
       "days": [
         {
           "platform": "kakao-clinic",
+          "date": "2026-11-14",
+          "status": "partial",
+          "auditState": "source-availability-partial",
+          "checkedAt": "2026-11-15T06:07:49.357Z",
+          "qaAuditCheckedAt": "2026-11-15T06:07:49.357Z",
+          "cutoffAt": "2026-11-14T23:59:59+09:00",
+          "eligibleRooms": null,
+          "messageCount": null,
+          "customerMessages": null,
+          "staffMessages": null,
+          "autoMessages": null,
+          "systemMessages": null,
+          "deletedMessages": null,
+          "reviewedRooms": 0,
+          "verdicts": null,
+          "countries": [],
+          "cases": [],
+          "casesComplete": false,
+          "reviewEntries": [],
+          "conversations": [],
+          "issues": [],
+          "followUps": [],
+          "reviewScope": "11월14일 마지막 활동 방35곳 중30방의 질문과 답변을 확인했다. 읽지 않은 새 채팅 메시지5건은 판정하지 않았다.",
+          "availabilityCoverage": {
+            "targetDate": "2026-11-14",
+            "observedAt": "2026-11-15T06:07:49.357Z",
+            "evidenceScope": "native-safe-body-subset",
+            "providerDenominator": null,
+            "actualBodyReviewComplete": false,
+            "observedCandidateCount": 35,
+            "bodyRoomsOpened": 30,
+            "actualBodyDateMembership": "confirmed-subset",
+            "reason": "열람한 방의 해당 날짜 질문과 답변을 확인했다. 전체 상담 수는 미확인이다.",
+            "safetyNotes": [
+              "읽지 않은 새 채팅 메시지가 있는 방은 열지 않았다."
+            ],
+            "exclusionNotes": [
+              "이미지 안의 내용은 판정하지 않았다."
+            ]
+          },
+          "qaAuditPrivacy": "restricted-originals",
+          "qaAuditRecords": [
+            {
+              "id": "K-20261114-N1115-001",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 5,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A6:Q6",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "K-20261114-N1115-002",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A7:Q7",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "K-20261114-N1115-003",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 4,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A8:Q8",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "K-20261114-N1115-004",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A9:Q9",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "K-20261114-N1115-005",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A10:Q10",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "K-20261114-N1115-006",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A11:Q11",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "K-20261114-N1115-007",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A12:Q12",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "K-20261114-N1115-008",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A13:Q13",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "K-20261114-N1115-009",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 13,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 4,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A14:Q14",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "K-20261114-N1115-010",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 5,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A15:Q15",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "K-20261114-N1115-011",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A16:Q16",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "K-20261114-N1115-012",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A17:Q17",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "K-20261114-N1115-013",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A18:Q18",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "K-20261114-N1115-A001",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A19:Q19",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "K-20261114-N1115-A002",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A20:Q20",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "K-20261114-N1115-A003",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A21:Q21",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "K-20261114-N1115-A004",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A22:Q22",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "K-20261114-N1115-A005",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A23:Q23",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "K-20261114-N1115-A006",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A24:Q24",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "K-20261114-N1115-A007",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A25:Q25",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "K-20261114-N1115-A008",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A26:Q26",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "K-20261114-N1115-A009",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A27:Q27",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "K-20261114-N1115-A010",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A28:Q28",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "K-20261114-N1115-A011",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A29:Q29",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "K-20261114-N1115-A012",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A30:Q30",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "K-20261114-N1115-A013",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A31:Q31",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "K-20261114-N1115-A014",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A32:Q32",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "K-20261114-N1115-A015",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A33:Q33",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "K-20261114-N1115-A016",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A34:Q34",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "K-20261114-N1115-A017",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A35:Q35",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "K-20261114-N1115-U001",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "읽지 않은 새 채팅 메시지",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A36:Q36",
+              "scopeNote": "읽지 않은 새 채팅 메시지",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-14",
+              "hasOriginal": false
+            },
+            {
+              "id": "K-20261114-N1115-U002",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "읽지 않은 새 채팅 메시지",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A37:Q37",
+              "scopeNote": "읽지 않은 새 채팅 메시지",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-14",
+              "hasOriginal": false
+            },
+            {
+              "id": "K-20261114-N1115-U003",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "읽지 않은 새 채팅 메시지",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A38:Q38",
+              "scopeNote": "읽지 않은 새 채팅 메시지",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-14",
+              "hasOriginal": false
+            },
+            {
+              "id": "K-20261114-N1115-U004",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "읽지 않은 새 채팅 메시지",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A39:Q39",
+              "scopeNote": "읽지 않은 새 채팅 메시지",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-14",
+              "hasOriginal": false
+            },
+            {
+              "id": "K-20261114-N1115-U005",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "읽지 않은 새 채팅 메시지",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A40:Q40",
+              "scopeNote": "읽지 않은 새 채팅 메시지",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-14",
+              "hasOriginal": false
+            }
+          ],
+          "qaReviewFinalization": {
+            "schemaVersion": 2,
+            "finalizedAt": "2026-11-15T06:18:43.496Z",
+            "finalStatus": "completed",
+            "sourceCoverage": "partial",
+            "exchanges": [
+              {
+                "id": "K-20261114-N1115-001",
+                "recordIds": [
+                  "K-20261114-N1115-001"
+                ],
+                "kind": "consult",
+                "country": null,
+                "procedure": "레이저 제모",
+                "category": "이벤트 진정관리 포함 여부",
+                "verdict": "followup",
+                "reason": "고객은 이벤트에 진정관리가 포함돼 있다고 물었으나 AI 자동응답은 “이벤트도 진정별도입니다~”라고만 답했다. 가이드 05는 고객이 본 이벤트 구성과 별도 비용을 확인해 안내하도록 하는데, 고객이 말한 포함 표기와 별도 비용 안내가 다른 이유를 설명하지 않았다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "date": "2026-11-14",
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "근데 여기 진정 포함이라 돼있는에",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "데",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "별도로 내야되나요?",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "보냈습니다~",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "이벤트도 진정별도입니다~",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "고객님 취소 완료 도와드렸습니다. 감사합니다!",
+                    "lang": "ko"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A6:Q6"
+              },
+              {
+                "id": "K-20261114-N1115-002",
+                "recordIds": [
+                  "K-20261114-N1115-002"
+                ],
+                "kind": "ops",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "이용 확인 안내",
+                "verdict": "normal-ops",
+                "reason": "AI 자동응답은 여신티켓에서 방문확정하기를 누르는 경로를 순서대로 안내했다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "박예슬",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "🎀여신티켓 확정 부탁드립니다🎀\r\n\r\n여신티켓 > 마이> 티켓/예약 > 예약 탭 > 예약 카드 선택 > 화면 하단\r\n '방문확정하기' 버튼 눌러주시면 됩니다. 감사합니다.",
+                    "lang": "ko"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A7:Q7"
+              },
+              {
+                "id": "K-20261114-N1115-003",
+                "recordIds": [
+                  "K-20261114-N1115-003"
+                ],
+                "kind": "ops",
+                "country": null,
+                "procedure": "보톡스",
+                "category": "시술 후 눈썹 모양 변화",
+                "verdict": "normal-ops",
+                "reason": "고객이 보톡스 후 눈썹 모양 변화를 알렸고, AI 자동응답에는 전화로 안내했다고 적혀 있다. 이어 2주 뒤에도 해당 부위가 불편하면 다시 연락하도록 안내했다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "date": "2026-11-14",
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "지금 이렇고요. 어제보다 눈썹 산부분이 더 올라왔어요",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "보톡스 맞기 전 눈이에요",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "내선으로 안내드렸습니다. 2주뒤에도 해당부위 불편하시면 편하게 연락주세요:) 감사합니다~",
+                    "lang": "ko"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A8:Q8"
+              },
+              {
+                "id": "K-20261114-N1115-004",
+                "recordIds": [
+                  "K-20261114-N1115-004"
+                ],
+                "kind": "ops",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "예약 취소",
+                "verdict": "normal-ops",
+                "reason": "고객이 독감으로 예약 취소를 요청했고, AI 자동응답은 취소됐다고 안내하며 추후 연락을 안내했다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "죄송합니다 좀전에 독감이라해서 낫고 찾아봬야할거같아여ㅠㅠ 예약취소부탁드립니다",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "❤️안녕하세요, 뷰티블라썸의원입니다❤️\r\n\r\n예약 취소가 정상적으로 처리되었습니다.\r\n추후 상담·시술 원하실 경우 편하게 연락 주세요.\r\n자세하게 안내드리겠습니다. 감사합니다 :)",
+                    "lang": "ko"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A9:Q9"
+              },
+              {
+                "id": "K-20261114-N1115-005",
+                "recordIds": [
+                  "K-20261114-N1115-005"
+                ],
+                "kind": "consult",
+                "country": null,
+                "procedure": "종아리 보톡스",
+                "category": "가격·이벤트 문의",
+                "verdict": "image",
+                "reason": "종아리 보톡스 비용과 이벤트 문의에 AI 자동응답은 관련 이벤트를 보내겠다고 안내했고, 뒤이어 이미지 응답이 있었다. 이후 AI 자동응답은 예약이 필요하면 연락하도록 안내했다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "안녕하세요 ! \n종아리 보톡스 비용이랑\n이벤트 있는지 알 수 있을까요?",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "🩷이번달 이벤트",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "감사합니다!",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "안녕하세요,혜지님^^\r\n종아리 보톡스 관련되 이벤트 보내드립니다~",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "넵 감사합니다 .예약 필요하시면 언제든 편하게 말씀해주세요 ^^",
+                    "lang": "ko"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A10:Q10"
+              },
+              {
+                "id": "K-20261114-N1115-006",
+                "recordIds": [
+                  "K-20261114-N1115-006"
+                ],
+                "kind": "ops",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "예약 취소",
+                "verdict": "normal-ops",
+                "reason": "고객이 당일 오후 2시 예약 취소와 추후 재예약을 요청했고, AI 자동응답은 같은 시각을 확인해 취소하겠다고 답했다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "오늘 두시예약한김서우 보호자인데요 \n오늘 급한일정이 생겨서 취소하고 다음에 다시 날짜를 보고 예약하겠습니다",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "네, 보호자님! 😊\r\n말씀해 주신 대로 오늘 오후 2시 김서우님 예약은 취소 도와드리겠습니다.\r\n추후 일정 확인하신 후 편하실 때 연락 주시면 다시 예약 도와드리겠습니다!\r\n감사합니다. 🌸",
+                    "lang": "ko"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A11:Q11"
+              },
+              {
+                "id": "K-20261114-N1115-007",
+                "recordIds": [
+                  "K-20261114-N1115-007"
+                ],
+                "kind": "ops",
+                "country": null,
+                "procedure": "올리지오 RF",
+                "category": "금액권 차감 안내",
+                "verdict": "normal-ops",
+                "reason": "AI 자동응답이 안내한 5,400,000원에서 1,419,000원을 뺀 잔액 3,981,000원은 계산과 같다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음(병원이 먼저 보낸 금액권 잔액 안내)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "금액권 안내 드립니다♥\r\n\r\n[VIP 500+40]\r\n* 본인만 사용가능\r\n* 프리미엄 라운지 사용\r\n* 유효기간 없음\r\n\r\n[VIP 혜택]\r\n500금액권/Q-LDM 10' 1회 s.v\r\n500금액권/제오민)턱밑샘보톡스 s.v\r\n500금액권/EVE촬영 s.v\r\n\r\n[시술내역]\r\n1.올리지오 rf 600샷 1,419,000원\r\n\r\n∴ 남은 금액: 5,400,000원 - 금일차감내역 1,419,000원 = 3,981,000원 입니다.",
+                    "lang": "ko"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A12:Q12"
+              },
+              {
+                "id": "K-20261114-N1115-008",
+                "recordIds": [
+                  "K-20261114-N1115-008"
+                ],
+                "kind": "consult",
+                "country": null,
+                "procedure": "필러",
+                "category": "시술 후 경과 확인 안내",
+                "verdict": "normal",
+                "reason": "가이드 02는 필러 후 붓기나 멍이 일시적으로 생길 수 있다고 안내한다. AI 자동응답도 같은 반응을 설명하고 불편하거나 궁금하면 병원으로 연락하도록 안내했다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음(병원이 먼저 보낸 필러 시술 후 경과 안내)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "🍀안녕하세요, 뷰티블라썸의원입니다🍀\r\n\r\n필러 시술 후 불편한 증상은 없으신지 확인 차 연락드렸으나,\r\n연결이 어려워 카카오톡으로 안내드립니다.\r\n\r\n시술 후 약간의 붓기나 멍은 자연스러운 반응이니 크게 걱정하지 않으셔도 됩니다.\r\n다만 불편하시거나 궁금한 점이 있으시다면 언제든 원내로 편하게 연락 주세요.\r\n자세하게 안내 도와드리겠습니다.\r\n\r\n내원해주셔서 다시 한 번 감사드리며, 오늘도 편안한 하루 되시길 바랍니다 :)",
+                    "lang": "ko"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A13:Q13"
+              },
+              {
+                "id": "K-20261114-N1115-009",
+                "recordIds": [
+                  "K-20261114-N1115-009"
+                ],
+                "kind": "consult",
+                "country": null,
+                "procedure": "골드PTT·아그네스",
+                "category": "남은 시술·주기·시술 후 반응",
+                "verdict": "normal",
+                "reason": "골드PTT를 한 달 간격으로 권한 AI 자동응답은 가이드 02의 2~4주 권장 간격과 같다. 붉은기와 트러블 문의에는 자극을 피하고 내원해 원장 경과 진료를 받도록 안내했다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "그 제가어제 451,000원 내고 \n골드ptt?인가 이거랑 아그네스? 받을려고 햇엇는데 받다가 시간이 안되서 아그네스는 못받고왓는뎅",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "이건 혹시 뭐염증주사나 그런걸로 대처되나요??",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "아아",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "넵",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "그",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "골드ptt인가 이건",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "주기를",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "몇주에 받아야되는건가요",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "어제 받고지금 상태가",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "이상태인뎅",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "이건 염증주사 안맞아도되나요??",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "빨리 가라앉게하고싶은데",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "안녕하세요, 영환님 해당 아그네스시술은 저희가 따로 메모 남겨두셨기 때문에 편하신 일정 내원해주시면 이어서 시술 가능하십니다:)",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "네, 더 궁금하신 문의사항 있으실까요?",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "한달간격으로 받으시기를 권장드립니다:) 영환님",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "안녕하세요, 뷰티블라썸의원입니다 😊\r\n\r\n고객님, 보내주신 사진 확인하였습니다!\r\n\r\n골드PTT 시술 후에는 피부 상태에 따라 일시적으로 붉은기나 트러블이 나타날 수 있으며, 기존 염증성 여드름이 일시적으로 더 두드러져 보일 수도 있습니다.\r\n해당 부위를 손으로 만지거나 압출하지 마시고, 자극이 가지 않도록 주의해 주세요.\r\n\r\n혹시 많이 걱정되신다면 내원하셔서 원장님께 경과 후 약이나, 추가적인 관리 진행 도와드릴 수 있도록 하겠습니다:)\r\n언제 내원이 편하실까요?",
+                    "lang": "ko"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A14:Q14"
+              },
+              {
+                "id": "K-20261114-N1115-010",
+                "recordIds": [
+                  "K-20261114-N1115-010"
+                ],
+                "kind": "consult",
+                "country": null,
+                "procedure": "위고비·인모드·보톡스",
+                "category": "처방 비용·추가 시술 가능 시간",
+                "verdict": "followup",
+                "reason": "AI 자동응답은 위고비 처방 비용과 예약 시각에는 답했으나, 고객이 이어 물은 인모드·이마보톡스·턱보톡스를 받을 시간이 되는지에는 답하지 않았다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "안녕하세요 위고비 2.4MG 얼마정도일까요?",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "감사합니다 오늘 예약 11시 맞을까요??",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "넵 혹시 방문하면",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "인모드랑 이마보톡스 턱보톡스 하고싶은데 ",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "시간이될까요?",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "안녕하세요, 뷰티블라썸의원입니다 😊\r\n\r\n고객님, 본원에서는 위고비 약제 판매 없이 **처방만 가능**한 점 안내드립니다.\r\n\r\n처방 시 비용은 아래와 같습니다.\r\n\r\n- 진료비: 20,000원\r\n- 처방전 발급비: 10,000원\r\n- **총 비용: 30,000원**\r\n\r\n위고비 약제는 처방전을 발급받으신 후 약국에서 별도로 구매해 주셔야 하며, 약제 비용은 약국마다 차이가 있을 수 있습니다.\r\n\r\n감사합니다! 🌸",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "넵 ,지영님 맞습니다^^",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "추가로 궁금하신 점이나 도움이 필요하시면 언제든지 편하게 연락 주세요! 😊🌸",
+                    "lang": "ko"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A15:Q15"
+              },
+              {
+                "id": "K-20261114-N1115-011",
+                "recordIds": [
+                  "K-20261114-N1115-011"
+                ],
+                "kind": "ops",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "예약 취소",
+                "verdict": "normal-ops",
+                "reason": "고객이 당일 오전 11시 예약 취소를 요청했고, AI 자동응답은 취소됐다고 안내한 뒤 고객의 감사 인사에도 응답했다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "안녕하세요. 계속 개인 사정이 생겨서 오늘 오전 11시에 예약한 건 취소하겠습니다. 여유가 되면 다시 예약하도록 하겠습니다ㅠ ",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "네ㅠ 감사합니다~",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "❤️안녕하세요, 뷰티블라썸의원입니다❤️\r\n\r\n예약 취소가 정상적으로 처리되었습니다.\r\n추후 상담·시술 원하실 경우 편하게 연락 주세요.\r\n자세하게 안내드리겠습니다. 감사합니다 :)",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "네, 궁금하신 점 있으시면 편하게 문의해주세요:)\r\n감사합니다~",
+                    "lang": "ko"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A16:Q16"
+              },
+              {
+                "id": "K-20261114-N1115-012",
+                "recordIds": [
+                  "K-20261114-N1115-012"
+                ],
+                "kind": "ops",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "예약 시각 변경",
+                "verdict": "normal-ops",
+                "reason": "고객이 다음 주 일요일 낮 12시 예약 변경을 요청하자 AI 자동응답은 내일이 아닌 다음 주 일요일인지 다시 물었다. 고객이 확인하자 예약 변경이 확정됐다고 안내했다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "안녕하세요, 혹시 다음주 일요일 12시로 예약 변경 가능할까요?🥲 ",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "냅",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "넵",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "내일이 아니라 다음주 일요일 맞으실까요?",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "안녕하세요, 뷰티블라썸의원입니다🌸\r\n고객님의 예약변경이 정상적으로 확정되었습니다!\r\n\r\n예약해 주셔서 감사드리며, 예약하신 일정에 맞춰 방문 부탁드립니다. 변경 사항이 있으실 경우 미리 연락 주시면 확인 도와드리겠습니다:)\r\n\r\n그럼 예약일에 뵙겠습니다. 감사합니다!",
+                    "lang": "ko"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A17:Q17"
+              },
+              {
+                "id": "K-20261114-N1115-013",
+                "recordIds": [
+                  "K-20261114-N1115-013"
+                ],
+                "kind": "ops",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "예약 신청·상담비 안내",
+                "verdict": "normal-ops",
+                "reason": "고객의 예약 신청에 AI 자동응답은 예약에 필요한 정보와 상담만 진행할 경우 상담비 10,000원이 발생한다는 조건을 안내했다. 상담만 원하는 고객에게 상담비를 안내하도록 한 가이드 07과 같다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "지성호",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "🔔예약 신청",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "🩷빠른 예약을 위해 아래 질문에 답변 부탁드립니다🩷\n\n-내원 경로(검색/소개/추천인 등):\n-성함/생년월일/연락처:\n-예약 날짜 및 시간:\n-원하시는 시술 및 상담:\n\n확인 후 예약 도와드리겠습니다. \n\n상담만 진행 하실경우 상담비 만원 발생 됩니다.\n미리 고지드리는점 양해 부탁드립니다 감사합니다  :D",
+                    "lang": "ko"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A18:Q18"
+              },
+              {
+                "id": "K-20261114-N1115-A001",
+                "recordIds": [
+                  "K-20261114-N1115-A001"
+                ],
+                "kind": "auto",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "시술 후 주의사항 자동 링크 안내",
+                "verdict": "auto",
+                "reason": "병원 채널이 시술 후 주의사항 링크를 자동으로 보냈다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-14",
+                "customer": [],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "🌸 Beauty Blossom 시술 후 주의사항 🌸\n\n안전한 회복을 위해 아래 링크에서 주의사항을 꼭 확인해주세요 :)\n\n\n\nhttps://beautyblossom.imweb.me/112",
+                    "lang": "ko"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A19:Q19"
+              },
+              {
+                "id": "K-20261114-N1115-A002",
+                "recordIds": [
+                  "K-20261114-N1115-A002"
+                ],
+                "kind": "auto",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "시술 후 주의사항 자동 링크 안내",
+                "verdict": "auto",
+                "reason": "병원 채널이 시술 후 주의사항 링크를 자동으로 보냈다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-14",
+                "customer": [],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "🌸 Beauty Blossom 시술 후 주의사항 🌸\n\n안전한 회복을 위해 아래 링크에서 주의사항을 꼭 확인해주세요 :)\n\n\n\nhttps://beautyblossom.imweb.me/112",
+                    "lang": "ko"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A20:Q20"
+              },
+              {
+                "id": "K-20261114-N1115-A003",
+                "recordIds": [
+                  "K-20261114-N1115-A003"
+                ],
+                "kind": "auto",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "시술 후 주의사항 자동 링크 안내",
+                "verdict": "auto",
+                "reason": "병원 채널이 시술 후 주의사항 링크를 자동으로 보냈다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-14",
+                "customer": [],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "🌸 Beauty Blossom 시술 후 주의사항 🌸\n\n안전한 회복을 위해 아래 링크에서 주의사항을 꼭 확인해주세요 :)\n\n\n\nhttps://beautyblossom.imweb.me/112",
+                    "lang": "ko"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A21:Q21"
+              },
+              {
+                "id": "K-20261114-N1115-A004",
+                "recordIds": [
+                  "K-20261114-N1115-A004"
+                ],
+                "kind": "auto",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "시술 후 주의사항 자동 링크 안내",
+                "verdict": "auto",
+                "reason": "병원 채널이 시술 후 주의사항 링크를 자동으로 보냈다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-14",
+                "customer": [],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "🌸 Beauty Blossom 시술 후 주의사항 🌸\n\n안전한 회복을 위해 아래 링크에서 주의사항을 꼭 확인해주세요 :)\n\n\n\nhttps://beautyblossom.imweb.me/112",
+                    "lang": "ko"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A22:Q22"
+              },
+              {
+                "id": "K-20261114-N1115-A005",
+                "recordIds": [
+                  "K-20261114-N1115-A005"
+                ],
+                "kind": "auto",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "시술 후 주의사항 자동 링크 안내",
+                "verdict": "auto",
+                "reason": "병원 채널이 시술 후 주의사항 링크를 자동으로 보냈다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-14",
+                "customer": [],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "🌸 Beauty Blossom 시술 후 주의사항 🌸\n\n안전한 회복을 위해 아래 링크에서 주의사항을 꼭 확인해주세요 :)\n\n\n\nhttps://beautyblossom.imweb.me/112",
+                    "lang": "ko"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A23:Q23"
+              },
+              {
+                "id": "K-20261114-N1115-A006",
+                "recordIds": [
+                  "K-20261114-N1115-A006"
+                ],
+                "kind": "auto",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "시술 후 주의사항 자동 링크 안내",
+                "verdict": "auto",
+                "reason": "병원 채널이 시술 후 주의사항 링크를 자동으로 보냈다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-14",
+                "customer": [],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "🌸 Beauty Blossom 시술 후 주의사항 🌸\n\n안전한 회복을 위해 아래 링크에서 주의사항을 꼭 확인해주세요 :)\n\n\n\nhttps://beautyblossom.imweb.me/112",
+                    "lang": "ko"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A24:Q24"
+              },
+              {
+                "id": "K-20261114-N1115-A007",
+                "recordIds": [
+                  "K-20261114-N1115-A007"
+                ],
+                "kind": "auto",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "시술 후 주의사항 자동 링크 안내",
+                "verdict": "auto",
+                "reason": "병원 채널이 시술 후 주의사항 링크를 자동으로 보냈다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-14",
+                "customer": [],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "🌸 Beauty Blossom 시술 후 주의사항 🌸\n\n안전한 회복을 위해 아래 링크에서 주의사항을 꼭 확인해주세요 :)\n\n\n\nhttps://beautyblossom.imweb.me/112",
+                    "lang": "ko"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A25:Q25"
+              },
+              {
+                "id": "K-20261114-N1115-A008",
+                "recordIds": [
+                  "K-20261114-N1115-A008"
+                ],
+                "kind": "auto",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "시술 후 주의사항 자동 링크 안내",
+                "verdict": "auto",
+                "reason": "병원 채널이 시술 후 주의사항 링크를 자동으로 보냈다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-14",
+                "customer": [],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "🌸 Beauty Blossom 시술 후 주의사항 🌸\n\n안전한 회복을 위해 아래 링크에서 주의사항을 꼭 확인해주세요 :)\n\n\n\nhttps://beautyblossom.imweb.me/112",
+                    "lang": "ko"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A26:Q26"
+              },
+              {
+                "id": "K-20261114-N1115-A009",
+                "recordIds": [
+                  "K-20261114-N1115-A009"
+                ],
+                "kind": "auto",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "시술 후 주의사항 자동 링크 안내",
+                "verdict": "auto",
+                "reason": "병원 채널이 시술 후 주의사항 링크를 자동으로 보냈다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-14",
+                "customer": [],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "🌸 Beauty Blossom 시술 후 주의사항 🌸\n\n안전한 회복을 위해 아래 링크에서 주의사항을 꼭 확인해주세요 :)\n\n\n\nhttps://beautyblossom.imweb.me/112",
+                    "lang": "ko"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A27:Q27"
+              },
+              {
+                "id": "K-20261114-N1115-A010",
+                "recordIds": [
+                  "K-20261114-N1115-A010"
+                ],
+                "kind": "auto",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "시술 후 주의사항 자동 링크 안내",
+                "verdict": "auto",
+                "reason": "병원 채널이 시술 후 주의사항 링크를 자동으로 보냈다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-14",
+                "customer": [],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "🌸 Beauty Blossom 시술 후 주의사항 🌸\n\n안전한 회복을 위해 아래 링크에서 주의사항을 꼭 확인해주세요 :)\n\n\n\nhttps://beautyblossom.imweb.me/112",
+                    "lang": "ko"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A28:Q28"
+              },
+              {
+                "id": "K-20261114-N1115-A011",
+                "recordIds": [
+                  "K-20261114-N1115-A011"
+                ],
+                "kind": "auto",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "시술 후 주의사항 자동 링크 안내",
+                "verdict": "auto",
+                "reason": "병원 채널이 시술 후 주의사항 링크를 자동으로 보냈다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-14",
+                "customer": [],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "🌸 Beauty Blossom 시술 후 주의사항 🌸\n\n안전한 회복을 위해 아래 링크에서 주의사항을 꼭 확인해주세요 :)\n\n\n\nhttps://beautyblossom.imweb.me/112",
+                    "lang": "ko"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A29:Q29"
+              },
+              {
+                "id": "K-20261114-N1115-A012",
+                "recordIds": [
+                  "K-20261114-N1115-A012"
+                ],
+                "kind": "auto",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "시술 후 주의사항 자동 링크 안내",
+                "verdict": "auto",
+                "reason": "병원 채널이 시술 후 주의사항 링크를 자동으로 보냈다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-14",
+                "customer": [],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "🌸 Beauty Blossom 시술 후 주의사항 🌸\n\n안전한 회복을 위해 아래 링크에서 주의사항을 꼭 확인해주세요 :)\n\n\n\nhttps://beautyblossom.imweb.me/112",
+                    "lang": "ko"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A30:Q30"
+              },
+              {
+                "id": "K-20261114-N1115-A013",
+                "recordIds": [
+                  "K-20261114-N1115-A013"
+                ],
+                "kind": "auto",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "시술 후 주의사항 자동 링크 안내",
+                "verdict": "auto",
+                "reason": "병원 채널이 시술 후 주의사항 링크를 자동으로 보냈다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-14",
+                "customer": [],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "🌸 Beauty Blossom 시술 후 주의사항 🌸\n\n안전한 회복을 위해 아래 링크에서 주의사항을 꼭 확인해주세요 :)\n\n\n\nhttps://beautyblossom.imweb.me/112",
+                    "lang": "ko"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A31:Q31"
+              },
+              {
+                "id": "K-20261114-N1115-A014",
+                "recordIds": [
+                  "K-20261114-N1115-A014"
+                ],
+                "kind": "auto",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "시술 후 주의사항 자동 링크 안내",
+                "verdict": "auto",
+                "reason": "병원 채널이 시술 후 주의사항 링크를 자동으로 보냈다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-14",
+                "customer": [],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "🌸 Beauty Blossom 시술 후 주의사항 🌸\n\n안전한 회복을 위해 아래 링크에서 주의사항을 꼭 확인해주세요 :)\n\n\n\nhttps://beautyblossom.imweb.me/112",
+                    "lang": "ko"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A32:Q32"
+              },
+              {
+                "id": "K-20261114-N1115-A015",
+                "recordIds": [
+                  "K-20261114-N1115-A015"
+                ],
+                "kind": "auto",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "시술 후 주의사항 자동 링크 안내",
+                "verdict": "auto",
+                "reason": "병원 채널이 시술 후 주의사항 링크를 자동으로 보냈다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-14",
+                "customer": [],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "🌸 Beauty Blossom 시술 후 주의사항 🌸\n\n안전한 회복을 위해 아래 링크에서 주의사항을 꼭 확인해주세요 :)\n\n\n\nhttps://beautyblossom.imweb.me/112",
+                    "lang": "ko"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A33:Q33"
+              },
+              {
+                "id": "K-20261114-N1115-A016",
+                "recordIds": [
+                  "K-20261114-N1115-A016"
+                ],
+                "kind": "auto",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "시술 후 주의사항 자동 링크 안내",
+                "verdict": "auto",
+                "reason": "병원 채널이 시술 후 주의사항 링크를 자동으로 보냈다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-14",
+                "customer": [],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "🌸 Beauty Blossom 시술 후 주의사항 🌸\n\n안전한 회복을 위해 아래 링크에서 주의사항을 꼭 확인해주세요 :)\n\n\n\nhttps://beautyblossom.imweb.me/112",
+                    "lang": "ko"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A34:Q34"
+              },
+              {
+                "id": "K-20261114-N1115-A017",
+                "recordIds": [
+                  "K-20261114-N1115-A017"
+                ],
+                "kind": "auto",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "시술 후 주의사항 자동 링크 안내",
+                "verdict": "auto",
+                "reason": "병원 채널이 시술 후 주의사항 링크를 자동으로 보냈다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-14",
+                "customer": [],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "🌸 Beauty Blossom 시술 후 주의사항 🌸\n\n안전한 회복을 위해 아래 링크에서 주의사항을 꼭 확인해주세요 :)\n\n\n\nhttps://beautyblossom.imweb.me/112",
+                    "lang": "ko"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A35:Q35"
+              }
+            ],
+            "merged": [],
+            "unavailable": {
+              "recordIds": [
+                "K-20261114-N1115-U001",
+                "K-20261114-N1115-U002",
+                "K-20261114-N1115-U003",
+                "K-20261114-N1115-U004",
+                "K-20261114-N1115-U005"
+              ],
+              "reasons": [
+                {
+                  "reason": "읽지 않은 새 채팅 메시지",
+                  "recordIds": [
+                    "K-20261114-N1115-U001",
+                    "K-20261114-N1115-U002",
+                    "K-20261114-N1115-U003",
+                    "K-20261114-N1115-U004",
+                    "K-20261114-N1115-U005"
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "platform": "kakao-clinic",
           "date": "2026-11-13",
           "status": "partial",
           "auditState": "source-availability-partial",
@@ -91496,9 +93771,9 @@ window.SUPERVISION_DATA = {
           "date": "2026-11-14",
           "status": "completed",
           "auditState": "completed-no-activity",
-          "checkedAt": "2026-11-14T06:02:37.128Z",
-          "qaAuditCheckedAt": "2026-11-14T06:02:37.128Z",
-          "cutoffAt": "2026-11-14T06:02:37.128Z",
+          "checkedAt": "2026-11-15T06:03:26.073Z",
+          "qaAuditCheckedAt": "2026-11-15T06:03:26.073Z",
+          "cutoffAt": "2026-11-14T23:59:59+09:00",
           "eligibleRooms": 0,
           "messageCount": 0,
           "customerMessages": null,
@@ -91515,17 +93790,17 @@ window.SUPERVISION_DATA = {
           "conversations": [],
           "issues": [],
           "followUps": [],
-          "reviewScope": "해외 채팅상담 전체 13방과 영어·일본어·중국어 번체·중국어 간체 목록 끝을 확인했다. 마지막 활동일은 모두 11월 3일 이전 또는 당일로, 11월 14일 추가 활동은 없었다. 과거 방 본문과 이미지는 열지 않았다.",
+          "reviewScope": "해외 채팅상담 13방과 5개 언어 목록을 끝까지 확인했다. 11월 14일 추가 활동은 없었다.",
           "availabilityCoverage": {
             "targetDate": "2026-11-14",
-            "observedAt": "2026-11-14T06:02:37.128Z",
+            "observedAt": "2026-11-15T06:03:26.073Z",
             "evidenceScope": "native-list-only",
             "providerDenominator": null,
             "actualBodyReviewComplete": false,
             "observedCandidateCount": 0,
             "bodyRoomsOpened": 0,
             "actualBodyDateMembership": "unknown",
-            "reason": "해외 채팅상담 목록 13방의 마지막 활동일을 확인했으며 대상일 활동 방은 0방이다. 과거 방 본문과 이미지는 열지 않았다.",
+            "reason": "해외 채팅상담13방과5개 언어 목록의 끝을 확인했다. 마지막 활동은11월3일이며11월14일 활동은 없었다.",
             "safetyNotes": [
               "대상일 활동이 있는 방이 없어 개별 대화를 열지 않았다."
             ],
@@ -93388,6 +95663,2315 @@ window.SUPERVISION_DATA = {
       "days": [
         {
           "platform": "whatsapp",
+          "date": "2026-11-14",
+          "status": "partial",
+          "auditState": "source-availability-partial",
+          "checkedAt": "2026-11-15T00:00:24.806Z",
+          "qaAuditCheckedAt": "2026-11-15T00:00:24.806Z",
+          "cutoffAt": "2026-11-14T23:59:59+09:00",
+          "eligibleRooms": null,
+          "messageCount": null,
+          "customerMessages": null,
+          "staffMessages": null,
+          "autoMessages": null,
+          "systemMessages": null,
+          "deletedMessages": null,
+          "reviewedRooms": 0,
+          "verdicts": null,
+          "countries": [],
+          "cases": [],
+          "casesComplete": false,
+          "reviewEntries": [],
+          "conversations": [],
+          "issues": [],
+          "followUps": [],
+          "reviewScope": "11월14일 활동33방 중30방의 질문과 답변을 확인했다. 같은 문의의 후속7카드는11월13일 상담에 합쳤고11월14일 새 카드31건을 기록했다. 답변 전 새 채팅 메시지4건은 판정하지 않았다.",
+          "availabilityCoverage": {
+            "targetDate": "2026-11-14",
+            "observedAt": "2026-11-15T00:00:24.806Z",
+            "evidenceScope": "native-safe-body-subset",
+            "providerDenominator": null,
+            "actualBodyReviewComplete": false,
+            "observedCandidateCount": 33,
+            "bodyRoomsOpened": 30,
+            "actualBodyDateMembership": "confirmed-subset",
+            "reason": "최근24시간 보관 자료와3시간 간격 저장본을 함께 읽었다.11월14일00:30부터11월15일09:00까지 저장본에 빈 구간은 없었다. 전체 상담 수는 미확인이다.",
+            "safetyNotes": [
+              "읽지 않은 새 채팅 메시지가 있는 방은 열지 않았다."
+            ],
+            "exclusionNotes": [
+              "이미지 안의 내용은 판정하지 않았다."
+            ]
+          },
+          "qaAuditPrivacy": "restricted-originals",
+          "qaAuditRecords": [
+            {
+              "id": "W-20261114-T001-2",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A49:Q49",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261114-T008",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=106234537&range=A10:Q10",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261114-T009",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=106234537&range=A11:Q11",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261114-T010",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 7,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 8,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=106234537&range=A12:Q12",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261114-T011",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=106234537&range=A13:Q13",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261114-T012",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=106234537&range=A14:Q14",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261114-T013",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 5,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 5,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A50:Q50",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261114-T014",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A54:Q54",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261114-T014-2",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A55:Q55",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261114-T015",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=106234537&range=A18:Q18",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261114-T016",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=106234537&range=A19:Q19",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261114-T017",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 4,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A51:Q51",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261114-T018",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A56:Q56",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261114-T019",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A57:Q57",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261114-T020",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A58:Q58",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261114-T020-2",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A59:Q59",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261114-T021",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=106234537&range=A25:Q25",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261114-T022",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=106234537&range=A26:Q26",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261114-T023",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A60:Q60",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261114-T024",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=106234537&range=A28:Q28",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261114-T025",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A41:Q41",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261114-T026",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A61:Q61",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261114-T026-2",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A62:Q62",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261114-T027",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A63:Q63",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261114-T027-2",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A64:Q64",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261114-T028",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=106234537&range=A34:Q34",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261114-T028-2",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=106234537&range=A35:Q35",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261114-T029",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=106234537&range=A36:Q36",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261114-T030",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A52:Q52",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261114-T031",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 7,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 10,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A53:Q53",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261114-T032",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=106234537&range=A39:Q39",
+              "scopeNote": "질문과 답변을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-14",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261114-U001",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "답변 전 새 채팅 메시지",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=106234537&range=A40:Q40",
+              "scopeNote": "답변 전 새 채팅 메시지",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-14",
+              "hasOriginal": false
+            },
+            {
+              "id": "W-20261114-U002",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "답변 전 새 채팅 메시지",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=106234537&range=A41:Q41",
+              "scopeNote": "답변 전 새 채팅 메시지",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-14",
+              "hasOriginal": false
+            },
+            {
+              "id": "W-20261114-U003",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "답변 전 새 채팅 메시지",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=106234537&range=A42:Q42",
+              "scopeNote": "답변 전 새 채팅 메시지",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-14",
+              "hasOriginal": false
+            },
+            {
+              "id": "W-20261114-U004",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "답변 전 새 채팅 메시지",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=106234537&range=A43:Q43",
+              "scopeNote": "답변 전 새 채팅 메시지",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-14",
+              "hasOriginal": false
+            }
+          ],
+          "qaReviewFinalization": {
+            "schemaVersion": 2,
+            "finalizedAt": "2026-11-15T06:18:43.497Z",
+            "finalStatus": "completed",
+            "sourceCoverage": "partial",
+            "exchanges": [
+              {
+                "id": "W-20261114-T001-2",
+                "kind": "consult",
+                "country": null,
+                "procedure": "XERF 600샷(고주파 리프팅)",
+                "category": "시술 후 주의사항",
+                "verdict": "normal",
+                "reason": "가이드 09의 고주파 리프팅 시술 후 안내(1주일간 음주·흡연·사우나·격한 운동 금지, 효과는 3~6개월에 걸쳐 나타남)와 담당자가 보낸 XERF 안내문의 문구가 같다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "note": "환자명: Naomi Dukaye (Duke) · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Thank you for the xerf treatment! \nNaomi Dukaye (Duke)",
+                    "ko": "XERF 시술 감사합니다! \nNaomi Dukaye (Duke)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "Thank you for visiting Beauty Blossom Clinic today! 😊\n\n📅 Visit Date: 2026/11/14\n👤 Name: Naomi Dukaye\n\nBelow are the treatments you received today:\n\n1. XERF 600 shots + LED + sheet mask\n\nPlease follow the aftercare instructions for each treatment listed below.\n\nIf you experience any discomfort or have any questions, please feel free to contact us anytime. Thank you! 💗\t\n\n🔥 Radiofrequency (RF) Lifting (Thermage FLX / Density / XERF, etc.) – Aftercare Instructions 🔥\n\n• You may gently wash your face, shower, and apply makeup from the day of treatment.\n• Mild redness, swelling, warmth, or a tight sensation may occur after treatment. These symptoms usually gradually improve within a few days.\n• For 1 week after treatment, avoid alcohol, smoking, saunas, steam rooms, and strenuous exercise. 🍷\n• Keep your skin well moisturized and apply sunscreen regularly. For the time being, avoid acidic skincare products, retinol, exfoliation, and strong massage. ☀️\n• If you develop blisters, or if a burning sensation or significant pain persists, please contact the clinic immediately. 📞\n\n⏳ When Will I See the Results?\n\n• The effects of RF lifting develop gradually. Improvements in firmness and facial contour can generally be noticed over several weeks to several months after treatment.\n• Results may continue to become more noticeable over approximately 3–6 months.",
+                    "ko": "오늘 Beauty Blossom Clinic에 방문해 주셔서 감사합니다! 😊\n\n📅 방문일: 2026/11/14\n👤 이름: Naomi Dukaye\n\n오늘 받으신 시술은 아래와 같습니다:\n\n1. XERF 600샷 + LED + 시트마스크\n\n아래에 안내된 시술별 시술 후 주의사항을 따라 주세요.\n\n불편한 점이 있거나 궁금한 점이 있으시면 언제든지 편하게 문의해 주세요. 감사합니다! 💗\n\n🔥 고주파 리프팅 (써마지 FLX / 덴서티 / XERF 등) – 시술 후 주의사항 🔥\n\n• 시술 당일부터 가볍게 세안, 샤워 및 화장이 가능합니다.\n• 시술 후 가벼운 붉어짐, 부기, 열감 또는 당기는 느낌이 나타날 수 있으며, 대부분 수일 이내에 점차 완화됩니다.\n• 시술 후 1주 동안은 음주, 흡연, 사우나, 찜질방 및 격한 운동을 피해 주세요. 🍷\n• 보습과 자외선 차단에 신경 써주시고, 당분간 산 성분 제품, 레티놀, 각질 제거 및 강한 마사지는 피해 주세요. ☀️\n• 물집이 생기거나 화끈거림 또는 뚜렷한 통증이 지속되는 경우 즉시 병원으로 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n\n• 고주파 리프팅 효과는 서서히 나타나며, 일반적으로 시술 후 수주에서 수개월에 걸쳐 탄력 및 윤곽 변화를 느낄 수 있습니다.\n• 약 3~6개월 동안 효과가 점차 더욱 뚜렷해질 수 있습니다."
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "We hope you enjoyed your experience with us today and that you’ll be happy with the results of your XERF treatment! 💗\n\nIf you have any questions or concerns, please feel free to reach out to us anytime. Thank you for visiting our clinic! 😊",
+                    "ko": "오늘 저희와 함께한 시간이 즐거우셨기를 바라며, XERF 시술 결과에도 만족하시길 바랍니다! 💗\n\n궁금한 점이나 걱정되는 점이 있으시면 언제든지 편하게 연락해 주세요. 병원에 방문해 주셔서 감사합니다! 😊"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A49:Q49",
+                "recordIds": [
+                  "W-20261114-T001-2"
+                ]
+              },
+              {
+                "id": "W-20261114-T008",
+                "kind": "ops",
+                "country": null,
+                "procedure": "색소 시그니처 데이 스파 패키지(레이저)",
+                "category": "받은 시술 내용 문의",
+                "verdict": "normal-ops",
+                "reason": "고객이 받은 패키지의 레이저 종류를 묻자 직원이 시술 기록을 확인해 PicoSure, PicoSure Focus, Genesis, Redness Reduction(Vascular) 모드 4가지로 답했다. 이 4가지는 수가표 10의 원데이 레이저 올인원 모드 목록(피코슈어·피코포커스·브이제네시스·브이홍조 등)에 있는 레이저다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "note": "환자명: Cat · 방문 구분: 재진 (근거: \"could you please tell me what lasers I received for the hyperpigmentation signature Day spa package?\")"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Hi! Before I forget could you please tell me what lasers I received for the hyperpigmentation signature Day spa package?",
+                    "ko": "안녕하세요! 잊어버리기 전에, 색소 시그니처 데이 스파 패키지에서 제가 받은 레이저가 무엇인지 알려 주실 수 있을까요?"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Thank you!",
+                    "ko": "감사합니다!"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "Please give us a moment to check your treatment records, and we'll get back to you with the details shortly",
+                    "ko": "시술 기록을 확인할 수 있도록 잠시만 기다려 주시면 곧 자세한 내용을 안내드리겠습니다"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Hello~ For your Hyperpigmentation Signature Day Spa package, you received the following laser treatments:\n\nPicoSure\nPicoSure Focus\nGenesis Laser\nRedness Reduction Mode (Vascular Laser)\n\nPlease feel free to let us know if you have any other questions! 💗",
+                    "ko": "안녕하세요~ 색소 시그니처 데이 스파 패키지에서 받으신 레이저 시술은 다음과 같습니다:\n\n피코슈어\n피코슈어 포커스\n제네시스 레이저\n홍조 개선 모드(혈관 레이저)\n\n다른 궁금한 점이 있으시면 언제든지 알려 주세요! 💗"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "You're very welcome! Please feel free to reach out anytime if you have any other questions!",
+                    "ko": "천만에요! 다른 궁금한 점이 있으시면 언제든지 편하게 문의해 주세요!"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=106234537&range=A10:Q10",
+                "recordIds": [
+                  "W-20261114-T008"
+                ]
+              },
+              {
+                "id": "W-20261114-T009",
+                "kind": "ops",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "예약 문의",
+                "verdict": "normal-ops",
+                "reason": "고객이 12월 8일 오전 10시 2인 예약을 문의하자 직원이 가능하다고 답하고 예약 접수 양식을 보냈다. 요청한 시간은 가이드의 평일 진료시간(10:00~20:00) 안에 있다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "note": "환자명: Michelle · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "can i make appointment for 2 people on Dec 8 morning 10?",
+                    "ko": "12월 8일 오전 10시에 2명 예약할 수 있나요?"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "Yes, We have availability for 2 people on December 8 at 10:00 AM",
+                    "ko": "네, 12월 8일 오전 10시에 2명 예약이 가능합니다"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "For a quick consultation and reservation confirmation, please fill out the form below:\n\n1. Full name:\n2. Date of birth:\n3. Nationality & Preferred language:\n4. Preferred date & time:\n5. Desired treatment: \n6. How you found us:\n(Ex: Instagram, referral, etc)",
+                    "ko": "빠른 상담과 예약 확정을 위해 아래 양식을 작성해 주세요:\n\n1. 성함:\n2. 생년월일:\n3. 국적 및 선호 언어:\n4. 희망 날짜 및 시간:\n5. 희망 시술: \n6. 알게 된 경로:\n(예: 인스타그램, 지인 소개 등)"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=106234537&range=A11:Q11",
+                "recordIds": [
+                  "W-20261114-T009"
+                ]
+              },
+              {
+                "id": "W-20261114-T010",
+                "kind": "consult",
+                "country": null,
+                "procedure": "여드름 흉터(박스카), 눈밑, 더마펜 마이크로니들링",
+                "category": "시술 가능 여부·가격 문의",
+                "verdict": "followup",
+                "reason": "담당자는 가이드의 여드름 흉터용 쥬베룩 하이브리드·리쥬란 S와 눈밑 전용 쥬베룩 I 안내에 맞는 시술을 추천했다. 다만 고객이 물은 오늘·다음 주 방문 가능 여부와 더마펜 마이크로니들링 제공 여부에는 답하지 않았다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "note": "환자명: Kat · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Hello :) I’m after subcision + collagen boosting filler for my boxcar scars. Maybe also for under-eye.\n\nAlso interested in dermapen Microneedling for face",
+                    "ko": "안녕하세요 :) 저는 박스카 흉터에 서브시전 + 콜라겐 부스팅 필러를 받고 싶어요. 눈밑에도 받을 수 있을지 모르겠어요.\n\n얼굴에 더마펜 마이크로니들링도 관심이 있어요"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Do you offer any of this? If yes please give me an approximate price quote",
+                    "ko": "이 중에 하시는 시술이 있나요? 있다면 대략적인 가격을 알려 주세요"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Are you free today or next week?",
+                    "ko": "오늘이나 다음 주에 시간이 되나요?"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "[image] 첨부 미리보기 미지원",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "[image] 첨부 미리보기 미지원",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Please can you put together a price list of my concerns",
+                    "ko": "제 고민에 맞는 가격표를 정리해 주실 수 있나요"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Thanks, do you also offer Fractional CO2 - SPOT treatment only?",
+                    "ko": "감사합니다, 프랙셔널 CO2 - 스팟 시술만 따로도 하시나요?"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "Hello!  Let us confirm with our doctor whether we can offer these treatments for your acne scars and under-eye concerns. We'll get back to you as soon as we have an update! 💗",
+                    "ko": "안녕하세요!  고객님의 여드름 흉터와 눈밑 고민에 이 시술들을 제공할 수 있는지 의사 선생님께 확인해 보겠습니다. 확인되는 대로 바로 연락드리겠습니다! 💗"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Sure, we'll get back to you as soon as we have an update! 💗",
+                    "ko": "네, 확인되는 대로 바로 연락드리겠습니다! 💗"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Thank you for waiting! We've checked with our doctor regarding your concerns.\n\nFor boxcar acne scars, we recommends considering the following treatments:\n Hybrid Skin Booster (Juvelook Skin + Juvelook Volume) – Helps stimulate collagen production and improve depressed acne scars and uneven skin texture.\n Rejuran S – Specifically designed for acne scars, helping support skin regeneration and improve the appearance of depressed scars.\n\nFor your under-eye concerns, the most suitable treatment would depend on your skin condition and whether your main concern is hollowness, fine lines, or skin texture.\n\nPossible options include:\nJuvelook i – For improving delicate under-eye skin texture and fine lines.\nHiloWave – Another option that may be considered depending on your under-eye condition.\n\nWe would recommend an in-person consultation with our team to assess your skin and determine the most suitable treatment combination for you.",
+                    "ko": "기다려 주셔서 감사합니다! 고객님의 고민에 대해 의사 선생님께 확인했습니다.\n\n박스카 여드름 흉터에는 다음 시술을 고려해 보시기를 권해 드립니다:\n 하이브리드 스킨부스터(쥬베룩 스킨 + 쥬베룩 볼륨) – 콜라겐 생성을 촉진하고 패인 여드름 흉터와 고르지 않은 피부결을 개선하는 데 도움을 줍니다.\n 리쥬란 S – 여드름 흉터를 위해 특별히 만들어진 시술로, 피부 재생을 돕고 패인 흉터의 모양을 개선하는 데 도움을 줍니다.\n\n눈밑 고민의 경우, 가장 적합한 시술은 피부 상태와 주된 고민이 꺼짐인지, 잔주름인지, 피부결인지에 따라 달라집니다.\n\n고려해 볼 수 있는 옵션은 다음과 같습니다:\n쥬베룩 i – 섬세한 눈밑 피부결과 잔주름을 개선하는 시술입니다.\n힐로웨이브 – 눈밑 상태에 따라 고려해 볼 수 있는 또 다른 옵션입니다.\n\n저희 팀이 직접 피부를 보고 가장 적합한 시술 조합을 정할 수 있도록 대면 상담을 받아 보시기를 권해 드립니다."
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "[image] 첨부 미리보기 미지원",
+                    "lang": "ko",
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "[image] 첨부 미리보기 미지원",
+                    "lang": "ko",
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "[image] 첨부 미리보기 미지원",
+                    "lang": "ko",
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "[image] 첨부 미리보기 미지원",
+                    "lang": "ko",
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Unfortunately, we do not offer Fractional CO2 – SPOT treatment at our clinic. However, we would be happy to recommend alternative treatments based on your skin concerns!",
+                    "ko": "안타깝게도 저희 클리닉에서는 프랙셔널 CO2 – 스팟 시술을 제공하지 않습니다. 대신 고객님의 피부 고민에 맞는 다른 시술을 기꺼이 추천해 드리겠습니다!"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=106234537&range=A12:Q12",
+                "recordIds": [
+                  "W-20261114-T010"
+                ]
+              },
+              {
+                "id": "W-20261114-T011",
+                "kind": "ops",
+                "country": null,
+                "procedure": "피코 토닝·포어 이레이저·진정 케어",
+                "category": "예약 요청 취소",
+                "verdict": "normal-ops",
+                "reason": "고객이 예약 요청을 일단 취소하겠다고 하자 직원이 받아들이고 준비되면 언제든 연락해 달라고 안내했다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "note": "환자명: Seung · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Hi",
+                    "ko": "안녕하세요"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Seung shin\n[생년월일 가림]\nKorean American/ English, but can speak a little korean\nEarlier the better. Nov 16 10am unless this weekend is available \nPico toning, pore eraser, soothing care\nUnni app",
+                    "ko": "Seung shin\n[생년월일 가림]\n한국계 미국인/영어, 하지만 한국어를 조금 할 수 있어요\n가능하면 빠를수록 좋아요. 11월 16일 오전 10시, 이번 주말이 가능하면 그때로요\n피코 토닝, 포어 이레이저, 진정 케어\n언니 앱"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Cancel request for now",
+                    "ko": "일단 요청을 취소할게요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "Hello There🌸\nThis is Beauty Blossom Clinic , the beginning of your own Beauty. \n\nFor a quick consultation and reservation confirmation, please fill out the form below:\n\n1. Full name:\n2. Date of birth:\n3. Nationality & Preferred language:\n4. Preferred date & time:\n5. Desired treatment: \n6. How you found us:\n(Ex: Instagram, referral, etc)",
+                    "ko": "안녕하세요🌸\n여러분의 아름다움의 시작, Beauty Blossom Clinic입니다. \n\n빠른 상담과 예약 확정을 위해 아래 양식을 작성해 주세요:\n\n1. 성함:\n2. 생년월일:\n3. 국적 및 선호 언어:\n4. 희망 날짜 및 시간:\n5. 희망 시술: \n6. 알게 된 경로:\n(예: 인스타그램, 지인 소개 등)"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "No worries at all!Thank you for letting us know. Feel free to reach out whenever you're ready to book!",
+                    "ko": "전혀 괜찮습니다! 알려 주셔서 감사합니다. 예약할 준비가 되시면 언제든 연락해 주세요!"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=106234537&range=A13:Q13",
+                "recordIds": [
+                  "W-20261114-T011"
+                ]
+              },
+              {
+                "id": "W-20261114-T012",
+                "kind": "consult",
+                "country": null,
+                "procedure": "울쎄라피 프라임·소프웨이브·히알루론산 필러·힐로웨이브·스킨 보톡스·사각턱 보톡스",
+                "category": "시술 후 주의사항",
+                "verdict": "fix",
+                "severity": "confirmed",
+                "reason": "가이드 09는 보톡스(사각턱·침샘)와 스킨 보톡스 시술 후 음주·사우나·격한 운동을 2주 동안 피하고 사각턱 보톡스 후 질기고 단단한 음식은 약 1개월 줄이라고 안내한다. 담당자의 광둥어 안내문은 Coretox 스킨 보톡스와 사각턱 보톡스 모두 1주일, 질긴 음식은 2~3주로 적어 기간이 다르다. 울쎄라 프라임·소프웨이브 항목도 가이드의 1주일간 음주·흡연 금지 대신 과음만 피하라고 적었다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "note": "환자명: Chan Cheuk Ying Cherry · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "note": "직접 작성한 질문 없음 (병원이 먼저 보낸 안내)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "Chan Cheuk Ying Cherry 您好！🌸\n\n感謝您嚟到 Beauty Blossom Clinic！😊💗\n\n📅 到診日期：2026/11/13\n👤 顧客姓名：Chan Cheuk Ying Cherry\n\n以下係您今次接受嘅療程及相關術後護理指引：\n\n✨ 今日療程 ✨\nUltherapy Prime 超聲刀600發 + Sofwave 索夫波 – 220發\n進口玻尿酸韌帶提升 – 6cc（太陽穴、面頰兩側及法令紋位置）\n進口玻尿酸填充 – 鼻部 1cc + 下巴 1cc\nHilo Wave 眼底療程 – 2cc\nCoretox Skin Botox 全臉水光肉毒 – 4cc\nCoretox 咬肌肉毒素 – 100U + 下巴肉毒素\n\n🎁 贈送禮品\n• Gel Mask 舒緩保濕面膜\n\n📌 術後注意事項\n\n🔥 1. Ultherapy Prime + Sofwave 緊膚療程 – 術後護理\n• 療程後可能會出現輕微泛紅、溫熱感、腫脹、繃緊、觸痛或深層痠痛，通常會喺幾日內逐漸改善。\n• 部分位置可能會出現輕微麻痺、刺痛或按壓時比較敏感，呢啲感覺有機會持續幾日至幾星期，通常會逐漸減退。\n• 兩項療程一般恢復期較短，通常可以正常進行日常活動。\n• 建議使用溫和、補水及保濕嘅護膚產品，保持皮膚充足水分。💧\n• 5–7日內避免使用 Retinol（維他命A醇）、高濃度維他命C、AHA/BHA、磨砂及去角質產品，尤其係皮膚仍然敏感嘅時候。\n• 每日做好防曬（SPF 30+），避免長時間直接曝曬。☀️\n• 1星期內避免桑拿、蒸氣浴、熱水浴及劇烈運動。\n• 暫時避免大力按摩、刮痧、用力按壓療程位置，或使用其他高熱能量美容儀器。\n• 避免過量飲酒，以免加重暫時性泛紅或腫脹。\n\n💉 2. 進口玻尿酸韌帶提升 – 6cc\n• 注射後可能會出現輕微腫脹、瘀青、觸痛、繃緊或暫時性不平整，通常會隨住時間逐漸改善。\n• 由於今次注射位置包括太陽穴、面頰兩側及法令紋，初期可能會感覺面部比較飽滿或稍為腫脹。\n• 腫脹通常會喺幾日內逐漸減退，瘀青可能需要約1–2星期先完全消退。\n• 1–2星期內避免大力按摩、按壓、揉搓或擠壓注射位置。\n• 睡覺時盡量避免長時間壓住注射位置，尤其係太陽穴及面頰。\n• 暫時避免面部按摩、刮痧及其他可能對填充位置施加壓力嘅美容療程。\n• 24–48小時內盡量避免化妝，並保持針口清潔。\n• 1星期內避免桑拿、蒸氣浴、熱水浴、劇烈運動及過量飲酒。\n• 如果初期感覺兩邊稍為唔對稱，可能同暫時性腫脹有關，建議等腫脹消退後再評估。\n• 如果出現持續存在嘅硬塊、明顯不平整或疼痛，請聯絡我哋安排醫生評估。\n\n👃 3. 鼻部玻尿酸 1cc + 下巴玻尿酸 1cc\n\n• 注射後可能會出現輕微腫脹、瘀青、繃緊或觸痛。\n• 鼻部及下巴初期可能會感覺比較硬或者有少少異物感，通常會隨住腫脹減退逐漸改善。\n• 1–2星期內避免大力按壓、按摩或揉搓鼻部及下巴。\n• 鼻部填充後，建議暫時避免佩戴會直接壓住注射位置嘅眼鏡或其他配件；如有需要，請按照醫生指示調整。\n• 避免趴睡或長時間壓住鼻部及下巴。\n• 暫時避免面部按摩、刮痧及其他可能改變填充位置嘅美容療程。\n• 24–48小時內盡量避免化妝。\n• 1星期內避免桑拿、蒸氣浴、熱水浴、劇烈運動及過量飲酒。\n\n⚠️ 鼻部玻尿酸特別注意\n鼻部係血管比較密集嘅位置，雖然嚴重併發症並唔常見，但仍然需要特別留意。\n如果出現以下情況，請立即尋求緊急醫療協助，唔好等症狀自行消退：\n\n• 鼻部或面部突然出現劇烈、持續或逐漸加重嘅疼痛\n• 皮膚異常變白、變灰、變紫或出現網狀變色\n• 突然視力模糊、視力下降或其他視覺異常\n• 劇烈頭痛或其他突發神經系統症狀\n\n💧 4. Hilo Wave 眼底療程 – 2cc\n\n• 眼底皮膚比較薄，注射後可能會出現輕微腫脹、瘀青、觸痛或暫時性細小凸起。\n• 部分人可能會喺翌日感覺眼底稍為浮腫，通常會隨住時間逐漸改善。\n• 眼周瘀青有機會需要約1–2星期先完全消退。\n• 24–48小時內盡量避免眼部化妝。\n• 避免大力揉眼、按摩或按壓眼底位置。\n• 暫時避免使用刺激性眼部護膚產品，例如 Retinol、酸類或高濃度活性成分。\n• 建議使用溫和、保濕嘅眼部護膚產品，避免產品直接接觸眼睛。\n• 如果眼底出現持續加劇嘅腫脹、疼痛或明顯不平整，請聯絡我哋安排評估。\n• 如果出現突然視力模糊、視力下降或劇烈眼痛，請立即尋求緊急醫療協助。\n\n🌸 5. Coretox Skin Botox 全臉水光肉毒 – 4cc\n\n• 療程後可能會出現輕微泛紅、腫脹、觸痛、細小針孔或暫時性細小凸起。\n• 部分位置可能會有輕微瘀青，通常會喺幾日至1–2星期內逐漸消退。\n• 24小時內避免大力清潔、按壓或搓揉注射位置。\n• 24–48小時內盡量避免化妝。\n• 5–7日內避免使用 Retinol、高濃度維他命C、AHA/BHA、磨砂及去角質產品。\n• 建議使用溫和、補水及保濕嘅護膚產品。\n• 1星期內避免桑拿、蒸氣浴、熱水浴、劇烈運動及過量飲酒。\n• 暫時避免面部按摩、刮痧或其他會對注射位置施加壓力嘅美容療程。\n\n💉 6. Coretox 咬肌肉毒素 100U + 下巴肉毒素\n\n• 注射後可能會出現輕微泛紅、腫脹、觸痛或瘀青。\n• 避免大力按摩、按壓或搓揉咬肌及下巴注射位置。\n• 建議2–3星期內減少咀嚼過硬或需要長時間咀嚼嘅食物，例如香口膠、堅果或比較韌嘅肉類。\n• 1星期內避免桑拿、蒸氣浴、熱水浴、劇烈運動及過量飲酒。\n• 部分人初期可能會感覺咀嚼力量稍為減弱，通常會隨住時間逐漸適應。\n• 下巴肉毒素主要幫助放鬆下巴肌肉，改善下巴表面凹凸不平嘅情況。\n• 如果出現明顯嘴部活動異常、笑容不對稱或其他不尋常症狀，請聯絡我哋安排醫生評估。\n\n\n⏳ 幾時會見到效果？\n\n🔥 Ultherapy Prime  + Sofwave\n• 部分人療程後可能會感受到初步緊緻效果，但呢個並唔係最終效果。\n• Ultherapy Prime 主要透過聚焦超聲波能量作用於皮膚深層組織，幫助提升及改善面部輪廓。\n• Sofwave 主要透過超聲波能量刺激膠原蛋白重塑，幫助改善皮膚緊緻度、彈性及細紋。\n• 部分人可能會喺療程後4–8星期開始感受到皮膚逐漸緊緻。\n• 較明顯嘅提升及緊緻效果通常會喺2–3個月逐漸呈現，部分人可能需要更長時間。\n• 實際效果會因個人皮膚厚度、鬆弛程度、脂肪分布及膠原蛋白反應而有所不同。\n\n💉 玻尿酸韌帶提升、鼻部及下巴填充\n\n• 玻尿酸填充通常可以喺療程後即時見到初步輪廓變化。\n• 不過，初期可能會有腫脹，所以未必係最終效果。\n• 建議等約2星期，待腫脹逐漸消退後，再評估整體輪廓及對稱度。\n\n💧 Hilo Wave 眼底療程\n\n• 眼底皮膚狀態嘅改善會因個人膚質、注射產品及眼底問題成因而有所不同。\n• 建議待初期腫脹消退後，再評估實際改善情況。\n\n🌸 Skin Botox 全臉水光肉毒\n\n• 部分人可能會喺3–7日開始感受到皮膚狀態變化。\n• 毛孔、油脂分泌及細紋嘅改善一般會喺1–2星期逐漸呈現。\n\n💉 咬肌及下巴肉毒素\n\n• 肉毒素通常會喺3–7日開始發揮作用，約2星期逐漸達到較完整嘅肌肉放鬆效果。\n• 咬肌體積及下半臉輪廓嘅改善一般會喺4–8星期逐漸明顯。\n• 下巴肌肉放鬆及表面平滑度嘅改善通常會喺1–2星期逐漸呈現。\n\n💗 特別提醒\n\n由於您今次同時接受咗  Ultherapy Prime 、Sofwave、多個位置嘅玻尿酸填充、眼底療程及肉毒素注射，面部初期可能會出現較明顯嘅腫脹、繃緊、瘀青或觸痛。\n特別係鼻部、太陽穴、眼底及面頰填充位置，請避免自行按摩、擠壓或大力按壓。\n首星期建議以溫和清潔、補水、保濕及防曬為主，暫時避免刺激性護膚產品、高溫環境及面部按摩。\n如果出現持續加劇嘅紅腫、明顯疼痛、發燒、異常分泌物、水泡或其他不尋常反應，請盡快聯絡我哋並接受醫療評估。\n尤其係玻尿酸注射後，如果出現皮膚異常變色、劇烈疼痛或任何視力變化，請立即尋求緊急醫療協助。\n\n如有任何不適或疑問，歡迎隨時聯絡我哋。謝謝您！💗",
+                    "ko": "Chan Cheuk Ying Cherry 님 안녕하세요! 🌸\n\nBeauty Blossom Clinic에 방문해 주셔서 감사합니다! 😊💗\n\n📅 내원일: 2026/11/13\n👤 고객명: Chan Cheuk Ying Cherry\n\n이번에 받으신 시술과 관련 시술 후 관리 안내는 아래와 같습니다:\n\n✨ 오늘 시술 ✨\nUltherapy Prime 초음파 리프팅 600샷 + Sofwave 소프웨이브 – 220샷\n수입 히알루론산 유지인대 리프팅 – 6cc (관자놀이, 양쪽 볼 및 팔자주름 부위)\n수입 히알루론산 필러 – 코 1cc + 턱 1cc\nHilo Wave 눈밑 시술 – 2cc\nCoretox Skin Botox 얼굴 전체 물광 보톡스 – 4cc\nCoretox 사각턱 보톡스 – 100U + 턱 보톡스\n\n🎁 증정 선물\n• Gel Mask 진정·보습 마스크팩\n\n📌 시술 후 주의사항\n\n🔥 1. Ultherapy Prime + Sofwave 피부 탄력 시술 – 시술 후 관리\n• 시술 후 가벼운 붉어짐, 열감, 부기, 당김, 압통 또는 깊은 곳의 뻐근한 통증이 나타날 수 있으며, 보통 며칠 안에 점차 좋아집니다.\n• 일부 부위에는 약한 저림, 따끔거림 또는 눌렀을 때 예민함이 나타날 수 있고, 이런 느낌은 며칠에서 몇 주 동안 이어질 수 있으나 보통 점차 줄어듭니다.\n• 두 시술 모두 일반적으로 회복 기간이 짧아 보통 일상생활을 정상적으로 할 수 있습니다.\n• 순하고 수분·보습이 되는 스킨케어 제품을 사용해 피부에 수분을 충분히 유지해 주세요. 💧\n• 5~7일 동안은 레티놀(비타민 A 알코올), 고농도 비타민 C, AHA/BHA, 스크럽 및 각질 제거 제품 사용을 피해 주세요. 특히 피부가 아직 민감할 때는 더욱 그렇습니다.\n• 매일 자외선 차단(SPF 30+)을 하고 장시간 직사광선을 피해 주세요. ☀️\n• 1주일 동안은 사우나, 찜질방, 뜨거운 물 목욕 및 격한 운동을 피해 주세요.\n• 당분간 강한 마사지, 괄사, 시술 부위를 세게 누르는 행위, 또는 다른 고열 에너지 미용 기기 사용을 피해 주세요.\n• 과도한 음주는 일시적인 붉어짐이나 부기를 악화시킬 수 있으니 피해 주세요.\n\n💉 2. 수입 히알루론산 유지인대 리프팅 – 6cc\n• 주사 후 가벼운 부기, 멍, 압통, 당김 또는 일시적인 울퉁불퉁함이 나타날 수 있으며, 보통 시간이 지나면서 점차 좋아집니다.\n• 이번 주사 부위에 관자놀이, 양쪽 볼, 팔자주름이 포함되어 있어 초기에는 얼굴이 좀 더 도톰해 보이거나 약간 부은 느낌이 들 수 있습니다.\n• 부기는 보통 며칠 안에 점차 가라앉고, 멍은 완전히 없어지는 데 약 1~2주가 걸릴 수 있습니다.\n• 1~2주 동안은 주사 부위를 세게 마사지하거나 누르거나 문지르거나 짜는 행동을 피해 주세요.\n• 잘 때는 주사 부위, 특히 관자놀이와 볼을 오랫동안 누르는 자세를 가급적 피해 주세요.\n• 당분간 얼굴 마사지, 괄사 및 필러 부위에 압력을 줄 수 있는 다른 미용 시술을 피해 주세요.\n• 24~48시간 동안은 가급적 화장을 피하고 주사 자국을 깨끗하게 유지해 주세요.\n• 1주일 동안은 사우나, 찜질방, 뜨거운 물 목욕, 격한 운동 및 과도한 음주를 피해 주세요.\n• 초기에 양쪽이 약간 비대칭으로 느껴진다면 일시적인 부기와 관련이 있을 수 있으니, 부기가 가라앉은 뒤에 다시 평가하시길 권합니다.\n• 계속 남아 있는 멍울, 뚜렷한 울퉁불퉁함 또는 통증이 있으면 저희에게 연락해 의사 진료를 받으세요.\n\n👃 3. 코 히알루론산 1cc + 턱 히알루론산 1cc\n\n• 주사 후 가벼운 부기, 멍, 당김 또는 압통이 나타날 수 있습니다.\n• 코와 턱은 초기에 다소 단단하거나 약간 이물감이 느껴질 수 있으며, 보통 부기가 가라앉으면서 점차 좋아집니다.\n• 1~2주 동안은 코와 턱을 세게 누르거나 마사지하거나 문지르지 마세요.\n• 코 필러 후에는 주사 부위를 직접 누르는 안경이나 기타 착용품을 당분간 피하시길 권하며, 필요하면 의사의 지시에 따라 조정해 주세요.\n• 엎드려 자거나 코와 턱을 오래 누르는 자세를 피해 주세요.\n• 당분간 얼굴 마사지, 괄사 및 필러 위치를 바꿀 수 있는 다른 미용 시술을 피해 주세요.\n• 24~48시간 동안은 가급적 화장을 피해 주세요.\n• 1주일 동안은 사우나, 찜질방, 뜨거운 물 목욕, 격한 운동 및 과도한 음주를 피해 주세요.\n\n⚠️ 코 히알루론산 특별 주의사항\n코는 혈관이 비교적 밀집된 부위로, 심각한 합병증은 흔하지 않지만 특별히 주의가 필요합니다.\n다음과 같은 경우에는 증상이 저절로 가라앉기를 기다리지 말고 즉시 응급 의료 도움을 받으세요:\n\n• 코 또는 얼굴에 갑자기 심하고 지속적이거나 점점 심해지는 통증이 생긴 경우\n• 피부가 비정상적으로 하얗게, 회색으로, 보라색으로 변하거나 그물 모양의 변색이 나타난 경우\n• 갑자기 시야가 흐려지거나 시력이 떨어지거나 그 밖의 시각 이상이 생긴 경우\n• 심한 두통 또는 그 밖의 갑작스러운 신경계 증상이 생긴 경우\n\n💧 4. Hilo Wave 눈밑 시술 – 2cc\n\n• 눈밑 피부는 얇아서 주사 후 가벼운 부기, 멍, 압통 또는 일시적인 작은 돌출이 나타날 수 있습니다.\n• 일부는 다음 날 눈밑이 약간 붓게 느껴질 수 있으며, 보통 시간이 지나면서 점차 좋아집니다.\n• 눈 주위 멍은 완전히 없어지는 데 약 1~2주가 걸릴 수 있습니다.\n• 24~48시간 동안은 가급적 눈 화장을 피해 주세요.\n• 눈을 세게 비비거나 마사지하거나 눈밑을 누르는 것을 피해 주세요.\n• 당분간 레티놀, 산 성분, 고농도 활성 성분 등 자극적인 눈가 스킨케어 제품 사용을 피해 주세요.\n• 순하고 보습이 되는 눈가용 스킨케어 제품을 사용하시고, 제품이 눈에 직접 닿지 않도록 해 주세요.\n• 눈밑 부기나 통증이 계속 심해지거나 뚜렷한 울퉁불퉁함이 있으면 저희에게 연락해 평가를 받으세요.\n• 갑자기 시야가 흐려지거나 시력이 떨어지거나 심한 눈 통증이 생기면 즉시 응급 의료 도움을 받으세요.\n\n🌸 5. Coretox Skin Botox 얼굴 전체 물광 보톡스 – 4cc\n\n• 시술 후 가벼운 붉어짐, 부기, 압통, 작은 주사 자국 또는 일시적인 작은 돌출이 나타날 수 있습니다.\n• 일부 부위에는 가벼운 멍이 생길 수 있으며, 보통 며칠에서 1~2주 안에 점차 가라앉습니다.\n• 24시간 동안은 주사 부위를 세게 닦거나 누르거나 문지르지 마세요.\n• 24~48시간 동안은 가급적 화장을 피해 주세요.\n• 5~7일 동안은 레티놀, 고농도 비타민 C, AHA/BHA, 스크럽 및 각질 제거 제품 사용을 피해 주세요.\n• 순하고 수분·보습이 되는 스킨케어 제품을 사용해 주세요.\n• 1주일 동안은 사우나, 찜질방, 뜨거운 물 목욕, 격한 운동 및 과도한 음주를 피해 주세요.\n• 당분간 얼굴 마사지, 괄사 또는 주사 부위에 압력을 줄 수 있는 다른 미용 시술을 피해 주세요.\n\n💉 6. Coretox 사각턱 보톡스 100U + 턱 보톡스\n\n• 주사 후 가벼운 붉어짐, 부기, 압통 또는 멍이 나타날 수 있습니다.\n• 사각턱(저작근)과 턱 주사 부위를 세게 마사지하거나 누르거나 문지르지 마세요.\n• 2~3주 동안은 껌, 견과류, 질긴 고기처럼 단단하거나 오래 씹어야 하는 음식을 줄이시길 권합니다.\n• 1주일 동안은 사우나, 찜질방, 뜨거운 물 목욕, 격한 운동 및 과도한 음주를 피해 주세요.\n• 일부는 초기에 씹는 힘이 약간 약해진 느낌이 들 수 있으며, 보통 시간이 지나면서 점차 적응합니다.\n• 턱 보톡스는 주로 턱 근육을 이완시켜 턱 표면의 울퉁불퉁함을 개선하는 데 도움이 됩니다.\n• 입 움직임이 뚜렷하게 이상하거나 웃을 때 비대칭이 생기거나 그 밖의 평소와 다른 증상이 있으면 저희에게 연락해 의사 진료를 받으세요.\n\n\n⏳ 효과는 언제부터 나타나나요?\n\n🔥 Ultherapy Prime  + Sofwave\n• 일부는 시술 후 초기 탄력감을 느낄 수 있으나 이것이 최종 효과는 아닙니다.\n• Ultherapy Prime은 주로 집속 초음파 에너지를 피부 깊은 조직에 작용시켜 얼굴 윤곽을 끌어올리고 개선하는 데 도움을 줍니다.\n• Sofwave는 주로 초음파 에너지로 콜라겐 재형성을 자극해 피부 탄력, 탄성 및 잔주름 개선에 도움을 줍니다.\n• 일부는 시술 후 4~8주부터 피부가 점차 탄탄해지는 것을 느낄 수 있습니다.\n• 더 뚜렷한 리프팅 및 탄력 효과는 보통 2~3개월에 걸쳐 점차 나타나며, 일부는 더 오래 걸릴 수 있습니다.\n• 실제 효과는 개인의 피부 두께, 처짐 정도, 지방 분포 및 콜라겐 반응에 따라 달라질 수 있습니다.\n\n💉 히알루론산 유지인대 리프팅, 코·턱 필러\n\n• 히알루론산 필러는 보통 시술 직후 초기 윤곽 변화를 볼 수 있습니다.\n• 다만 초기에는 부기가 있을 수 있어 최종 효과가 아닐 수 있습니다.\n• 약 2주 정도 기다려 부기가 점차 가라앉은 뒤 전체 윤곽과 대칭을 다시 평가하시길 권합니다.\n\n💧 Hilo Wave 눈밑 시술\n\n• 눈밑 피부 상태의 개선은 개인의 피부 특성, 주사 제품 및 눈밑 고민의 원인에 따라 달라질 수 있습니다.\n• 초기 부기가 가라앉은 뒤에 실제 개선 정도를 평가하시길 권합니다.\n\n🌸 Skin Botox 얼굴 전체 물광 보톡스\n\n• 일부는 3~7일부터 피부 상태의 변화를 느끼기 시작할 수 있습니다.\n• 모공, 피지 분비 및 잔주름의 개선은 보통 1~2주에 걸쳐 점차 나타납니다.\n\n💉 사각턱 및 턱 보톡스\n\n• 보톡스는 보통 3~7일부터 효과가 나타나기 시작하며, 약 2주 후 비교적 온전한 근육 이완 효과에 도달합니다.\n• 사각턱 부피와 하안면 윤곽의 개선은 보통 4~8주에 걸쳐 점차 뚜렷해집니다.\n• 턱 근육 이완 및 표면 매끄러움의 개선은 보통 1~2주에 걸쳐 점차 나타납니다.\n\n💗 특별 안내\n\n이번에 Ultherapy Prime, Sofwave, 여러 부위의 히알루론산 필러, 눈밑 시술 및 보톡스 주사를 함께 받으셨기 때문에, 초기에는 얼굴에 더 뚜렷한 부기, 당김, 멍 또는 압통이 나타날 수 있습니다.\n특히 코, 관자놀이, 눈밑 및 볼 필러 부위는 스스로 마사지하거나 짜거나 세게 누르지 마세요.\n첫 1주일은 순한 클렌징, 수분 공급, 보습 및 자외선 차단 위주로 관리하시고, 당분간 자극적인 스킨케어 제품, 고온 환경 및 얼굴 마사지를 피하시길 권합니다.\n붉어짐·부기가 계속 심해지거나 뚜렷한 통증, 발열, 비정상적인 분비물, 물집 또는 그 밖의 평소와 다른 반응이 나타나면 가능한 한 빨리 저희에게 연락하고 의료적 평가를 받으세요.\n특히 히알루론산 주사 후 피부색이 비정상적으로 변하거나 심한 통증 또는 시력 변화가 생기면 즉시 응급 의료 도움을 받으세요.\n\n불편한 점이나 궁금한 점이 있으시면 언제든지 편하게 연락해 주세요. 감사합니다! 💗"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=106234537&range=A14:Q14",
+                "recordIds": [
+                  "W-20261114-T012"
+                ]
+              },
+              {
+                "id": "W-20261114-T013",
+                "kind": "ops",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "예약 취소",
+                "verdict": "normal-ops",
+                "reason": "직원이 예약 조회에 필요한 이름과 예약일을 물은 뒤 취소를 완료했다고 안내해 취소 요청이 처리됐다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "note": "환자명: Wendy Loi / Patrick Truong · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Hi Beauty Blossom Team, please kindly cancel our appointment.  My apologies for the inconvenience",
+                    "ko": "안녕하세요 Beauty Blossom 팀, 저희 예약을 취소해 주세요.  불편을 드려 죄송합니다"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Hi! It’s Wendy Loi and Patrick Truong. \n\nThank you so much",
+                    "ko": "안녕하세요! Wendy Loi와 Patrick Truong입니다. \n\n정말 감사합니다"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "1.⁠ ⁠Full name: Wendy Loi\n2.⁠ ⁠Date of birth: [생년월일 가림]\n3.⁠ ⁠Nationality & Preferred language: American, English\n4.⁠ ⁠Preferred date & time: Dec 12 at 10am\n5.⁠ ⁠Desired treatment: Hair laser removal, pico laser, facial, peel, mole removal.\n6.⁠ ⁠How you found us: Unni App\n(Ex: Instagram, referral, etc)\n\n1.⁠ ⁠Full name: Patrick Truong\n2.⁠ ⁠Date of birth: [생년월일 가림]\n3.⁠ ⁠Nationality & Preferred language: American, English\n4.⁠ ⁠Preferred date & time: Dec 12 at 10am\n5.⁠ ⁠Desired treatment: Hair laser removal, pico laser, facial, peel. \n6.⁠ ⁠How you found us: Unni App\n(Ex: Instagram, referral, etc)",
+                    "ko": "1. 이름: Wendy Loi\n2. 생년월일: [생년월일 가림]\n3. 국적 및 선호 언어: 미국, 영어\n4. 희망 날짜 및 시간: 12월 12일 오전 10시\n5. 원하는 시술: 레이저 제모, 피코 레이저, 페이셜, 필링, 점 제거.\n6. 알게 된 경로: 언니 앱\n(예: 인스타그램, 지인 소개 등)\n\n1. 이름: Patrick Truong\n2. 생년월일: [생년월일 가림]\n3. 국적 및 선호 언어: 미국, 영어\n4. 희망 날짜 및 시간: 12월 12일 오전 10시\n5. 원하는 시술: 레이저 제모, 피코 레이저, 페이셜, 필링. \n6. 알게 된 경로: 언니 앱\n(예: 인스타그램, 지인 소개 등)"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Thank you!",
+                    "ko": "감사합니다!"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Thank you so much, sorry for the inconvenience. Thank you for your help",
+                    "ko": "정말 감사합니다, 불편을 드려 죄송합니다. 도와주셔서 감사합니다"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "Hello! May I please have your full name so we can locate your reservation and process the cancellation for you? 💗",
+                    "ko": "안녕하세요! 예약을 찾아 취소 처리해 드릴 수 있도록 성함을 알려 주시겠어요? 💗"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "We're so sorry, but we couldn't locate your reservation in our system. 🙏💗 Could you please confirm your appointment date as well?\nWe apologize for the inconvenience and appreciate your understanding!",
+                    "ko": "정말 죄송하지만 저희 시스템에서 예약을 찾을 수 없었습니다. 🙏💗 예약 날짜도 함께 확인해 주시겠어요?\n불편을 드려 죄송하며 이해해 주셔서 감사합니다!"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Thank you so much!",
+                    "ko": "정말 감사합니다!"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "We have cancelled your appointment as requested.\nThank you for letting us know, and we hope to welcome you to Beauty Blossom Clinic another time!",
+                    "ko": "요청하신 대로 예약을 취소했습니다.\n알려 주셔서 감사하며, 다음에 Beauty Blossom Clinic에서 뵙기를 바랍니다!"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "We hope to see you next time at Beauty Blossom Clinic! 🌸",
+                    "ko": "다음에 Beauty Blossom Clinic에서 뵙기를 바랍니다! 🌸"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A50:Q50",
+                "recordIds": [
+                  "W-20261114-T013"
+                ]
+              },
+              {
+                "id": "W-20261114-T014",
+                "kind": "ops",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "방문 시간 변경·도착 지연",
+                "verdict": "normal-ops",
+                "reason": "고객이 12시 45분 도착과 이동 지연을 알렸고 담당자가 안전하게 오시라고 답하며 방문을 받아들였다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "note": "환자명: Shella Abe moon (직원 안내문 기재) · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Apologies I will be there at 1245 as my appointment is running behind. Hope that’s okay.",
+                    "ko": "죄송합니다, 다른 예약이 지연되고 있어서 12시 45분에 도착할 예정입니다. 괜찮으면 좋겠습니다."
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "I am having such a hard time finding an Uber, so it might take a little bit longer. Sorry",
+                    "ko": "우버를 잡기가 너무 어려워서 조금 더 걸릴 수도 있어요. 죄송합니다"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Be there in 10 mins",
+                    "ko": "10분 안에 도착합니다"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "Thank you for keeping us updated! Please travel safely, and we'll see you soon!",
+                    "ko": "상황을 알려 주셔서 감사합니다! 안전하게 이동하시고 곧 뵙겠습니다!"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "No worries at all! see you soon!",
+                    "ko": "전혀 걱정하지 마세요! 곧 뵙겠습니다!"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A54:Q54",
+                "recordIds": [
+                  "W-20261114-T014"
+                ]
+              },
+              {
+                "id": "W-20261114-T014-2",
+                "kind": "consult",
+                "country": null,
+                "procedure": "XERF 600샷·포트라·온다·원데이 레이저",
+                "category": "시술 후 주의사항",
+                "verdict": "normal",
+                "reason": "가이드 09의 고주파 리프팅(XERF)·포트라 콰트로·온다·원데이 레이저 시술 후 안내 문구가 담당자가 보낸 안내문과 같고, 시술 후 1주일간 음주·사우나·격한 운동을 피한다는 기간도 일치한다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "note": "환자명: Shella Abe moon (직원 안내문 기재) · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "note": "직접 작성한 질문 없음 (병원이 먼저 보낸 안내)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "Thank you for visiting Beauty Blossom Clinic today! 😊\n\n📅 Visit Date: 2026/11/14\n👤 Name: Shella Abe moon\n\nBelow are the treatments you received today:\n\nXERF 600 Shots + FORTRA 65 kJ / Facial ONDA 100 kJ / One-Day 4-Laser Treatment\n\nPlease follow the aftercare instructions for each treatment listed below.\n\nIf you experience any discomfort or have any questions, please feel free to contact us anytime. Thank you! 💗\n\n🔥 Radiofrequency (RF) Lifting (XERF) – Aftercare Instructions 🔥\n\n• You may gently wash your face, shower, and apply makeup from the day of treatment.\n• Mild redness, swelling, warmth, or a tight sensation may occur after treatment. These symptoms usually gradually improve within a few days.\n• For 1 week after treatment, avoid alcohol, smoking, saunas, steam rooms, and strenuous exercise. 🍷\n• Keep your skin well moisturized and apply sunscreen regularly. For the time being, avoid acidic skincare products, retinol, exfoliation, and strong massage. ☀️\n• If you develop blisters, or if a burning sensation or significant pain persists, please contact the clinic immediately. 📞\n\n⏳ When Will I See the Results?\n\n• The effects of RF lifting develop gradually. Improvements in firmness and facial contour can generally be noticed over several weeks to several months after treatment.\n• Results may continue to become more noticeable over approximately 3–6 months.\n\n💎 FORTRA Quattro Lifting – Aftercare Instructions 💎\n\n• You may gently wash your face, shower, and apply makeup from the day of treatment.\n• Mild redness, warmth, swelling, dryness, or a tight sensation may occur after treatment. These symptoms usually gradually improve within a few days.\n• For 1 week after treatment, avoid alcohol, smoking, saunas, steam rooms, and strenuous exercise. 🍷\n• Keep your skin well moisturized and apply sunscreen regularly. For the time being, avoid acidic skincare products, retinol, exfoliation, massage, and gua sha. ☀️\n• If you develop blisters, or if a burning sensation or significant pain persists, or if you notice unusual changes in skin color, please contact the clinic immediately. 📞\n\n⏳ When Will I See the Results?\n\n• Improvements in firmness and facial contour generally become more noticeable approximately 3–4 weeks after treatment.\n\n🌊 ONDA – Aftercare Instructions 🌊\n\n• You may gently wash your face, shower, and apply makeup from the day of treatment.\n• Warmth, mild redness, swelling, tenderness, tightness, or sensitivity to touch may occur after treatment. These symptoms usually gradually improve over time.\n• For 1 week after treatment, avoid alcohol, smoking, saunas, steam rooms, and strenuous exercise. 🍷\n• Keep your skin well moisturized and apply sunscreen regularly. For the time being, avoid acidic skincare products, retinol, exfoliation, massage, and gua sha. ☀️\n• If you develop blisters, persistent burning, severe pain, or symptoms that may indicate a burn, please contact the clinic immediately. 📞\n\n⏳ When Will I See the Results?\n\n• Improvements in contour and firmness generally begin to become noticeable approximately 2–4 weeks after treatment.\n\n✨ Laser (One-Day Laser) – Aftercare Instructions ✨\n\n• Mild stinging, redness, swelling, or dryness may occur after treatment. These symptoms usually gradually improve over time.\n• You may gently wash your face and apply makeup from the day of treatment. For the time being, avoid scrubs, exfoliation, and irritating skincare products.\n• For 1 week after treatment, avoid alcohol, saunas, steam rooms, hot baths, and strenuous exercise. 🍷\n• Keep your skin well moisturized and apply sunscreen regularly. For the time being, avoid irritating skincare products such as acidic products, retinol, and brightening products. ☀️\n• If mild scabbing occurs, do not pick or remove the scabs. Allow them to fall off naturally. In rare cases, temporary acne or small rashes may occur.\n• If redness, swelling, warmth, pain, itching, or other noticeable discomfort persists or continues to worsen, please contact the clinic. 📞\n\n⏳ When Will I See the Results?\n\n• Improvements in pigmentation and overall skin condition develop gradually, and changes may become more noticeable after multiple treatment sessions.",
+                    "ko": "오늘 Beauty Blossom Clinic에 방문해 주셔서 감사합니다! 😊\n\n📅 방문일: 2026/11/14\n👤 이름: Shella Abe moon\n\n오늘 받으신 시술은 아래와 같습니다:\n\nXERF 600샷 + 포트라 65kJ / 얼굴 온다 100kJ / 원데이 4레이저 시술\n\n아래에 안내된 시술별 시술 후 주의사항을 따라 주세요.\n\n불편한 점이 있거나 궁금한 점이 있으시면 언제든지 편하게 문의해 주세요. 감사합니다! 💗\n\n🔥 고주파 리프팅 (XERF) – 시술 후 주의사항 🔥\n\n• 시술 당일부터 가볍게 세안, 샤워 및 화장이 가능합니다.\n• 시술 후 가벼운 붉어짐, 부기, 열감 또는 당기는 느낌이 나타날 수 있으며, 대부분 수일 이내에 점차 완화됩니다.\n• 시술 후 1주 동안은 음주, 흡연, 사우나, 찜질방 및 격한 운동을 피해 주세요. 🍷\n• 보습과 자외선 차단에 신경 써주시고, 당분간 산 성분 제품, 레티놀, 각질 제거 및 강한 마사지는 피해 주세요. ☀️\n• 물집이 생기거나 화끈거림 또는 뚜렷한 통증이 지속되는 경우 즉시 병원으로 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n\n• 고주파 리프팅 효과는 서서히 나타나며, 일반적으로 시술 후 수주에서 수개월에 걸쳐 탄력 및 윤곽 변화를 느낄 수 있습니다.\n• 약 3~6개월 동안 효과가 점차 더욱 뚜렷해질 수 있습니다.\n\n💎 포트라 콰트로 리프팅 – 시술 후 주의사항 💎\n\n• 시술 당일부터 가볍게 세안, 샤워 및 화장이 가능합니다.\n• 시술 후 가벼운 붉어짐, 열감, 부기, 건조함 또는 당기는 느낌이 나타날 수 있으며, 대부분 수일 이내에 점차 완화됩니다.\n• 시술 후 1주 동안은 음주, 흡연, 사우나, 찜질방 및 격한 운동을 피해 주세요. 🍷\n• 보습과 자외선 차단에 신경 써주시고, 당분간 산 성분 제품, 레티놀, 각질 제거, 마사지 및 괄사 사용은 피해 주세요. ☀️\n• 물집이 생기거나 화끈거림 또는 뚜렷한 통증이 지속되거나 피부색이 비정상적으로 변하는 경우 즉시 병원으로 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n\n• 일반적으로 약 3~4주 후부터 탄력 및 윤곽 변화를 비교적 뚜렷하게 느낄 수 있습니다.\n\n🌊 온다 (ONDA) – 시술 후 주의사항 🌊\n\n• 시술 당일부터 가볍게 세안, 샤워 및 화장이 가능합니다.\n• 시술 후 열감, 가벼운 붉어짐, 부기, 압통, 당기는 느낌 또는 접촉 시 예민한 느낌이 나타날 수 있으며, 대부분 시간이 지나면서 점차 완화됩니다.\n• 시술 후 1주 동안은 음주, 흡연, 사우나, 찜질방 및 격한 운동을 피해 주세요. 🍷\n• 보습과 자외선 차단에 신경 써주시고, 당분간 산 성분 제품, 레티놀, 각질 제거, 마사지 및 괄사 사용은 피해 주세요. ☀️\n• 물집이 생기거나 화끈거림이 지속되거나 심한 통증 또는 화상이 의심되는 증상이 나타날 경우 즉시 병원으로 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n\n• 일반적으로 약 2~4주 후부터 라인 및 탄력 변화를 점차 느낄 수 있습니다.\n\n✨ 레이저 (원데이 레이저) – 시술 후 주의사항 ✨\n\n• 시술 후 가벼운 따끔거림, 붉어짐, 부기 또는 건조함이 나타날 수 있으며, 대부분 시간이 지나면서 점차 완화됩니다.\n• 시술 당일부터 가볍게 세안 및 화장이 가능하며, 당분간 스크럽, 각질 제거 및 자극적인 스킨케어 제품은 피해 주세요.\n• 시술 후 1주 동안은 음주, 사우나, 찜질방, 뜨거운 물 목욕 및 격한 운동을 피해 주세요. 🍷\n• 보습과 자외선 차단에 신경 써주시고, 당분간 산 성분 제품, 레티놀 및 미백 제품 등 자극적인 스킨케어 제품은 피해 주세요. ☀️\n• 가벼운 딱지가 생긴 경우 억지로 떼어내지 말고 자연스럽게 떨어지도록 해주세요. 드물게 일시적으로 여드름이나 작은 발진이 나타날 수 있습니다.\n• 붉어짐, 부기, 열감, 통증, 가려움 또는 그 밖의 뚜렷한 불편감이 지속되거나 계속 심해지면 병원으로 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n\n• 색소 및 전반적인 피부 컨디션 개선은 서서히 나타나며, 여러 차례 시술을 받으면 변화가 더욱 뚜렷하게 나타날 수 있습니다."
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A55:Q55",
+                "recordIds": [
+                  "W-20261114-T014-2"
+                ]
+              },
+              {
+                "id": "W-20261114-T015",
+                "kind": "consult",
+                "country": null,
+                "procedure": "GOURI, Re2O, 턱 보톡스, Gold PTT",
+                "category": "시술 후 주의사항",
+                "verdict": "normal",
+                "reason": "담당자가 보낸 GOURI·Re2O·주름 보톡스·Gold PTT 시술 후 안내문은 가이드 09의 같은 시술 항목과 음주·사우나 제한 기간, 세안·화장 시점, 효과 시기가 같다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "note": "환자명: Kassandra Cam · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "note": "직접 작성한 질문 없음 (병원이 먼저 보낸 안내)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "Thank you for visiting Beauty Blossom Clinic today! 😊\n\n📅 Visit Date: 2026/11/14\n👤 Name: Kassandra Cam\n\nBelow are the treatments you received today:\n\nGOURI + Re2O / Chin Botox / Gold PTT\n\nPlease follow the aftercare instructions for each treatment listed below.\n\nIf you experience any discomfort or have any questions, please feel free to contact us anytime. Thank you! 💗\n\n🌿 GOURI – Post-Treatment Care Instructions 🌿\n\n• Mild redness, swelling, tenderness, or bruising may occur at the injection sites. These symptoms usually subside gradually over time.\n\n• You may gently cleanse your face after the treatment. Makeup can be applied as usual starting the following day. Avoid rubbing or applying excessive pressure to the treated areas.\n\n• For 1 week after the treatment, avoid alcohol, smoking, saunas, steam rooms, and strenuous exercise. 🍷\n\n• Keep your skin well-moisturized and protected from the sun. Avoid massaging, using gua sha tools, or applying beauty devices to the treated areas. ☀️\n\n• If you experience worsening redness, swelling, warmth, pain, unusual skin discoloration, noticeable lumps, or any changes in vision, please contact the clinic or seek medical attention immediately. 📞\n\n⏳ When Will I Start Seeing Results?\n\n• Improvements in skin texture and elasticity may gradually become noticeable approximately 2–4 weeks after treatment. Results may continue to develop over time as collagen production increases.\n\n💎 Re2O  – Aftercare Instructions 💎\n\n• For 24 hours after treatment, avoid washing your face, bathing, saunas, swimming, and applying makeup. Please also avoid touching or applying pressure to the treated areas.\n• Mild redness, swelling, bruising, injection marks, or localized bumps may occur after treatment. These symptoms usually gradually improve within 1–3 days.\n• Apply regenerative tape to the small wound areas for approximately 1 week. Replace it with a new one every day and keep the treated areas clean. 🩹\n• For 3 days after treatment, avoid alcohol, smoking, spicy or irritating foods, strenuous exercise, and high-temperature environments. 🍷\n• Keep your skin well moisturized, support skin recovery, and apply sunscreen regularly. For the time being, avoid acidic skincare products, retinol, exfoliation, massage, and gua sha. ☀️\n• If you have been prescribed medication, please take it at the scheduled times as directed. 💊\n• If you experience severe swelling, warmth, or persistent pain in the treated areas, or if any other unusual symptoms occur, please contact the clinic immediately. 📞\n\n⏳ When Will I See the Results?\n\n• Improvements in hydration, firmness, and skin texture generally become more noticeable approximately 2–4 weeks after treatment.\n\n😊 Wrinkle Botox – Aftercare Instructions 😊\n\n• Mild redness, swelling, tenderness, or bruising may occur at the injection sites. These symptoms usually gradually improve within a few days to 1–2 weeks.\n• You may gently wash your face and shower 4 hours after the treatment. You may apply makeup as usual from the following day.\n• For 2 weeks after treatment, avoid alcohol, smoking, saunas, steam rooms, strenuous exercise, and at-home beauty devices. 🍷\n• For 2 weeks after treatment, avoid rubbing or applying strong pressure to the treated areas. Please also avoid facial massage and gua sha.\n• In rare cases, temporary heaviness around the eyebrows, asymmetry of the eyebrows or eyes, or drooping of the eyelids or eyebrows may occur. If these symptoms are severe or continue to worsen, please contact the clinic. 📞\n\n⏳ When Will I See the Results?\n• The effects generally become more noticeable and stabilize within approximately 1–2 weeks after treatment.\n• Results generally last for approximately 3 months.\n\n😊 Wrinkle Botox – Aftercare Instructions 😊\n\n• Mild redness, swelling, tenderness, or bruising may occur at the injection sites. These symptoms usually gradually improve within a few days to 1–2 weeks.\n• You may gently wash your face and shower 4 hours after the treatment. You may apply makeup as usual from the following day.\n• For 2 weeks after treatment, avoid alcohol, smoking, saunas, steam rooms, strenuous exercise, and at-home beauty devices. 🍷\n• For 2 weeks after treatment, avoid rubbing or applying strong pressure to the treated areas. Please also avoid facial massage and gua sha.\n• In rare cases, temporary heaviness around the eyebrows, asymmetry of the eyebrows or eyes, or drooping of the eyelids or eyebrows may occur. If these symptoms are severe or continue to worsen, please contact the clinic. 📞\n\n⏳ When Will I See the Results?\n• The effects generally become more noticeable and stabilize within approximately 1–2 weeks after treatment.\n• Results generally last for approximately 3 months.\n\n🥇 Gold PTT – Aftercare Instructions 🥇\n\n• Mild redness, warmth, swelling, or stinging may occur after treatment. These symptoms usually gradually improve within a few hours to a few days.\n• You may gently wash your face and apply makeup from the day of treatment. For the time being, avoid scrubs, exfoliation, and irritating skincare products.\n• For 1 week after treatment, avoid alcohol, smoking, saunas, steam rooms, hot baths, and strenuous exercise. 🍷\n• Keep your skin well moisturized and apply sunscreen regularly. For the time being, avoid acidic skincare products, retinol, and other irritating skincare products. ☀️\n• In rare cases, there may be a temporary increase in acne or clogged pores, as well as mild dryness or flaking. These symptoms usually gradually improve over time.\n• If redness, swelling, warmth, or pain continues to worsen, or if you develop blisters or any other noticeable discomfort, please contact the clinic. 📞\n\n⏳ When Will I See the Results?\n\n• Acne, sebum production, and overall skin condition may gradually improve over several weeks after treatment.",
+                    "ko": "오늘 뷰티블라썸의원을 방문해 주셔서 감사합니다! 😊\n\n📅 방문 날짜: 2026/11/14\n👤 이름: Kassandra Cam\n\n오늘 받으신 시술은 다음과 같습니다:\n\nGOURI + Re2O / 턱 보톡스 / Gold PTT\n\n아래에 나열된 각 시술별 시술 후 주의사항을 지켜 주세요.\n\n불편하신 점이나 궁금하신 점이 있으시면 언제든지 편하게 연락해 주세요. 감사합니다! 💗\n\n🌿 GOURI – 시술 후 관리 안내 🌿\n\n• 주사 부위에 가벼운 붉어짐, 부기, 압통 또는 멍이 생길 수 있습니다. 이러한 증상은 보통 시간이 지나면서 점차 가라앉습니다.\n\n• 시술 후 얼굴을 가볍게 세안하셔도 됩니다. 화장은 다음 날부터 평소처럼 하실 수 있습니다. 시술 부위를 문지르거나 과도하게 누르지 마세요.\n\n• 시술 후 1주일 동안은 음주, 흡연, 사우나, 찜질방, 격한 운동을 피해 주세요. 🍷\n\n• 피부를 충분히 보습하고 자외선으로부터 보호해 주세요. 시술 부위를 마사지하거나 괄사 도구, 미용기기를 사용하지 마세요. ☀️\n\n• 붉어짐, 부기, 열감, 통증이 점점 심해지거나 피부색 이상, 눈에 띄는 멍울, 시력 변화가 나타나면 즉시 병원에 연락하거나 진료를 받으세요. 📞\n\n⏳ 효과는 언제부터 보이기 시작하나요?\n\n• 시술 후 약 2~4주가 지나면 피부결과 탄력이 점차 좋아지는 것을 느끼실 수 있으며, 콜라겐 생성이 늘어나면서 효과가 계속 이어질 수 있습니다.\n\n💎 Re2O  – 시술 후 주의사항 💎\n\n• 시술 후 24시간 동안은 세안, 목욕, 사우나, 수영, 화장을 피해 주세요. 시술 부위를 만지거나 누르는 것도 피해 주세요.\n• 시술 후 가벼운 붉어짐, 부기, 멍, 주사 자국 또는 국소적으로 볼록하게 올라오는 부위가 생길 수 있습니다. 이러한 증상은 보통 1~3일 이내에 점차 좋아집니다.\n• 작은 상처 부위에는 재생 테이프를 약 1주일 동안 붙여 주세요. 매일 새것으로 교체하고 시술 부위를 청결하게 유지해 주세요. 🩹\n• 시술 후 3일 동안은 음주, 흡연, 맵거나 자극적인 음식, 격한 운동, 고온 환경을 피해 주세요. 🍷\n• 피부를 충분히 보습하고 피부 회복을 도우며 자외선 차단제를 꾸준히 발라 주세요. 당분간 산 성분 스킨케어 제품, 레티놀, 각질 제거, 마사지, 괄사는 피해 주세요. ☀️\n• 처방받은 약이 있다면 안내받은 시간에 맞춰 복용해 주세요. 💊\n• 시술 부위에 심한 부기, 열감, 지속적인 통증이 있거나 그 밖에 평소와 다른 증상이 나타나면 즉시 병원에 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n\n• 시술 후 약 2~4주가 지나면 수분감, 탄력, 피부결의 개선이 대체로 더 뚜렷하게 느껴집니다.\n\n😊 주름 보톡스 – 시술 후 주의사항 😊\n\n• 주사 부위에 가벼운 붉어짐, 부기, 압통 또는 멍이 생길 수 있습니다. 이러한 증상은 보통 며칠에서 1~2주 이내에 점차 좋아집니다.\n• 시술 4시간 후부터 가볍게 세안과 샤워를 하실 수 있습니다. 화장은 다음 날부터 평소처럼 하셔도 됩니다.\n• 시술 후 2주 동안은 음주, 흡연, 사우나, 찜질방, 격한 운동, 집에서 쓰는 미용기기 사용을 피해 주세요. 🍷\n• 시술 후 2주 동안은 시술 부위를 문지르거나 강하게 누르지 마세요. 얼굴 마사지와 괄사도 피해 주세요.\n• 드물게 눈썹이 무겁게 느껴지거나, 눈썹이나 눈매가 비대칭이 되거나, 눈꺼풀이나 눈썹이 처지는 증상이 일시적으로 나타날 수 있습니다. 이러한 증상이 심하거나 계속 악화되면 병원에 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n• 효과는 보통 시술 후 약 1~2주 이내에 더 뚜렷해지고 안정됩니다.\n• 효과는 일반적으로 약 3개월 정도 유지됩니다.\n\n😊 주름 보톡스 – 시술 후 주의사항 😊\n\n• 주사 부위에 가벼운 붉어짐, 부기, 압통 또는 멍이 생길 수 있습니다. 이러한 증상은 보통 며칠에서 1~2주 이내에 점차 좋아집니다.\n• 시술 4시간 후부터 가볍게 세안과 샤워를 하실 수 있습니다. 화장은 다음 날부터 평소처럼 하셔도 됩니다.\n• 시술 후 2주 동안은 음주, 흡연, 사우나, 찜질방, 격한 운동, 집에서 쓰는 미용기기 사용을 피해 주세요. 🍷\n• 시술 후 2주 동안은 시술 부위를 문지르거나 강하게 누르지 마세요. 얼굴 마사지와 괄사도 피해 주세요.\n• 드물게 눈썹이 무겁게 느껴지거나, 눈썹이나 눈매가 비대칭이 되거나, 눈꺼풀이나 눈썹이 처지는 증상이 일시적으로 나타날 수 있습니다. 이러한 증상이 심하거나 계속 악화되면 병원에 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n• 효과는 보통 시술 후 약 1~2주 이내에 더 뚜렷해지고 안정됩니다.\n• 효과는 일반적으로 약 3개월 정도 유지됩니다.\n\n🥇 Gold PTT – 시술 후 주의사항 🥇\n\n• 시술 후 가벼운 붉어짐, 열감, 부기 또는 따끔거림이 생길 수 있습니다. 이러한 증상은 보통 몇 시간에서 며칠 이내에 점차 좋아집니다.\n• 시술 당일부터 가볍게 세안하고 화장하셔도 됩니다. 당분간 스크럽, 각질 제거, 자극적인 스킨케어 제품은 피해 주세요.\n• 시술 후 1주일 동안은 음주, 흡연, 사우나, 찜질방, 뜨거운 물 목욕, 격한 운동을 피해 주세요. 🍷\n• 피부를 충분히 보습하고 자외선 차단제를 꾸준히 발라 주세요. 당분간 산 성분 스킨케어 제품, 레티놀, 그 밖의 자극적인 스킨케어 제품은 피해 주세요. ☀️\n• 드물게 일시적으로 여드름이나 모공 막힘이 늘어나거나 약간의 건조함이나 각질이 생길 수 있습니다. 이러한 증상은 보통 시간이 지나면서 점차 좋아집니다.\n• 붉어짐, 부기, 열감, 통증이 계속 심해지거나 물집이나 그 밖의 뚜렷한 불편감이 생기면 병원에 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n\n• 여드름, 피지 분비, 전체적인 피부 상태는 시술 후 몇 주에 걸쳐 점차 좋아질 수 있습니다."
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=106234537&range=A18:Q18",
+                "recordIds": [
+                  "W-20261114-T015"
+                ]
+              },
+              {
+                "id": "W-20261114-T016",
+                "kind": "ops",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "방문 확인",
+                "verdict": "normal-ops",
+                "reason": "Creatrip으로 예약된 내일 오전 11시 방문을 직원이 확인했고, 고객이 방문하겠다고 답하자 직원이 \"내일 봬요\"로 마무리했다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "note": "환자명: Hazel · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "會啊🙇🏻‍♀️",
+                    "ko": "네, 갈 거예요🙇🏻‍♀️"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "[sticker] 첨부 미리보기 미지원",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "您好～😊🌸\n我哋係 Beauty Blossom Clinic！\n見到您透過 Creatrip 預約咗聽日上午11點 \n想同您確認一下，聽日會唔會如期到診所呢？\n期待見到您～💗",
+                    "ko": "안녕하세요～😊🌸\n저희는 Beauty Blossom Clinic입니다!\n고객님께서 Creatrip을 통해 내일 오전 11시로 예약하신 것을 확인했습니다 \n확인차 여쭤볼게요. 내일 예정대로 병원에 오실 건가요?\n뵙기를 기대하고 있겠습니다～💗"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "好的！聽日見💕",
+                    "ko": "알겠습니다! 내일 봬요💕"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "[video] 첨부 미리보기 미지원",
+                    "lang": "ko"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=106234537&range=A19:Q19",
+                "recordIds": [
+                  "W-20261114-T016"
+                ]
+              },
+              {
+                "id": "W-20261114-T017",
+                "kind": "ops",
+                "country": null,
+                "procedure": "스킨 스캔, 피코슈어 토닝, 리쥬란",
+                "category": "예약 문의",
+                "verdict": "followup",
+                "reason": "영문 예약 확정 안내에 가이드 08 확정 양식의 상담비 10,000원 문구가 빠졌다. 고객이 물은 PicoSure + 3D 피부진단 패키지(₩149,000) 가능 여부에도 답하지 않았다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "note": "환자명: Thea Wehler Knudtzon, Liva Holgersen, André Nydegger Wermundsen · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Hi! We'd like to book an appointment for 3 people on Tuesday 17 November, around 10:00–11:00. We're interested in a skin scan and treatments such as PicoSure toning / Rejuran. English consultation please. Thank you!",
+                    "ko": "안녕하세요! 11월 17일 화요일 10:00~11:00쯤 3명 예약을 하고 싶습니다. 피부 스캔과 피코슈어 토닝 / 리쥬란 같은 시술에 관심이 있습니다. 영어 상담 부탁드립니다. 감사합니다!"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Full name: Thea Wehler Knudtzon, Liva Holgersen, André Nydegger Wermundsen\nDate of birth: [생년월일 가림], [생년월일 가림], [생년월일 가림]\nNationality & Preferred language: Norwegian, English\nPreferred date & time: Tuesday 17 November, 10:00–11:00 (3 people)\nDesired treatment: All three would like the same: skin scan + consultation. We're planning on PicoSure toning, but we're open to the doctor's recommendations based on the scan. Is the PicoSure + 3D skin test package (₩149,000) available?\nHow you found us: Referral from a colleague",
+                    "ko": "성명: Thea Wehler Knudtzon, Liva Holgersen, André Nydegger Wermundsen\n생년월일: [생년월일 가림], [생년월일 가림], [생년월일 가림]\n국적 및 선호 언어: 노르웨이, 영어\n희망 날짜 및 시간: 11월 17일 화요일, 10:00–11:00 (3명)\n희망 시술: 세 명 모두 같은 것을 원합니다: 피부 스캔 + 상담. 피코슈어 토닝을 계획하고 있지만, 스캔 결과를 바탕으로 한 의사 선생님의 추천에도 열려 있습니다. 피코슈어 + 3D 피부 검사 패키지(₩149,000)가 가능한가요?\n알게 된 경로: 직장 동료 소개"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Perfect!",
+                    "ko": "좋습니다!"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "Hello! Thank you for your interest in Beauty Blossom Clinic!\nWe'd be happy to help arrange an appointment for 3 people on November 17! \nMay I please have all three guests' full names and dates of birth so we can check availability and arrange your appointments?\nEnglish consultation is available!",
+                    "ko": "안녕하세요! 뷰티블라썸의원에 관심을 가져 주셔서 감사합니다!\n11월 17일에 세 분의 예약을 기꺼이 도와드리겠습니다!\n예약 가능 여부를 확인하고 예약을 잡을 수 있도록 세 분 모두의 성함과 생년월일을 알려 주시겠어요?\n영어 상담이 가능합니다!"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "We have 11:00 AM available on Tuesday, November 17 for all 3 guests!",
+                    "ko": "11월 17일 화요일 오전 11시에 세 분 모두 예약이 가능합니다!"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Your reservation has been scheduled for the following date and time:\n\n📅 Day :  17th / Nov / 2026\n⏰ Time : 11am\n\n📍Location : 66 Yanghwa-ro, Mapo, Seoul, 6F  \n\nLink for location \n* Naver Map : https://naver.me/5ap1E0ph\n* Google : https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 Please bring your Alien Registration Card or Passport with you.\n\nWe look forward to meeting you soon.🥰\n\nThank you 🙂\n\nBeauty Blossom Global Clinic Team🌸",
+                    "ko": "다음 날짜와 시간으로 예약이 잡혔습니다:\n\n📅 날짜 :  2026년 11월 17일\n⏰ 시간 : 오전 11시\n\n📍위치 : 서울 마포구 양화로 66, 6층  \n\n위치 링크 \n* 네이버 지도 : https://naver.me/5ap1E0ph\n* 구글 : https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 외국인등록증 또는 여권을 지참해 주세요.\n\n곧 뵙기를 기대하겠습니다.🥰\n\n감사합니다 🙂\n\n뷰티블라썸 글로벌 클리닉 팀🌸"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Thank you for your booking request! Your reservation has been successfully arranged 🌸\nIf you have any other questions, please feel free to ask us anytime! 😊",
+                    "ko": "예약 요청해 주셔서 감사합니다! 예약이 성공적으로 완료되었습니다 🌸\n다른 궁금한 점이 있으시면 언제든지 편하게 문의해 주세요! 😊"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A51:Q51",
+                "recordIds": [
+                  "W-20261114-T017"
+                ]
+              },
+              {
+                "id": "W-20261114-T018",
+                "kind": "consult",
+                "country": null,
+                "procedure": "Q 페이셜, 원데이 4레이저, 포텐자 펌핑, 스킨바이브 2cc",
+                "category": "시술 후 주의사항",
+                "verdict": "normal",
+                "reason": "담당자가 보낸 Q-Facial·원데이 레이저·포텐자·스킨바이브 시술 후 안내문은 가이드 09의 같은 시술 항목 문구와 같다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "note": "환자명: Angela Kashuen Hui (직원 안내문 기재) · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Hello. Treatment was done, can you please provide after treatment",
+                    "ko": "안녕하세요. 시술을 받았어요. 시술 후 안내를 보내 주실 수 있나요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "Thank you for visiting Beauty Blossom Clinic today! 😊\n\n📅 Visit Date: 2026/11/14\n👤 Name: Angela Kashuen Hui\n\nBelow are the treatments you received today:\n\nQ Facial / One-Day 4-Laser Treatment / Potenza Pumping / Skinvive 2cc\n\nPlease follow the aftercare instructions for each treatment listed below.\n\nIf you experience any discomfort or have any questions, please feel free to contact us anytime. Thank you! 💗\n\n🌿 Skin Care (Q-Facial) – Aftercare Instructions 🌿\n\n• Mild redness, warmth, stinging, itching, or dryness may occur after treatment. These symptoms usually gradually improve within a few hours to 1 day.\n• You may gently wash your face, shower, and apply makeup from the day of treatment. For the time being, avoid alcohol-based products, acidic skincare products, retinol, and other irritating skincare products.\n• For the time being, avoid saunas, steam rooms, strenuous exercise, alcohol, and smoking. 🍷\n• Keep your skin well moisturized and apply sunscreen regularly. If mild flaking or small scabs occur, do not pick or remove them. Allow them to fall off naturally. ☀️\n• If redness, swelling, warmth, pain, itching, or other noticeable discomfort persists or continues to worsen, please contact the clinic. 📞\n\n⏳ When Will I See the Results?\n\n• Improvements in hydration, soothing, and overall skin condition may be gradually noticeable after treatment.\n\n✨ Laser (One-Day Laser) – Aftercare Instructions ✨\n\n• Mild stinging, redness, swelling, or dryness may occur after treatment. These symptoms usually gradually improve over time.\n• You may gently wash your face and apply makeup from the day of treatment. For the time being, avoid scrubs, exfoliation, and irritating skincare products.\n• For 1 week after treatment, avoid alcohol, saunas, steam rooms, hot baths, and strenuous exercise. 🍷\n• Keep your skin well moisturized and apply sunscreen regularly. For the time being, avoid irritating skincare products such as acidic products, retinol, and brightening products. ☀️\n• If mild scabbing occurs, do not pick or remove the scabs. Allow them to fall off naturally. In rare cases, temporary acne or small rashes may occur.\n• If redness, swelling, warmth, pain, itching, or other noticeable discomfort persists or continues to worsen, please contact the clinic. 📞\n\n⏳ When Will I See the Results?\n\n• Improvements in pigmentation and overall skin condition develop gradually, and changes may become more noticeable after multiple treatment sessions.\n\n⚡ POTENZA – Aftercare Instructions ⚡\n\n• You may gently wash your face and shower 4 hours after treatment. You may apply makeup from the following day. For the time being, avoid scrubs, exfoliation, and irritating skincare products.\n• Stinging, redness, swelling, tightness, bruising, mild flaking, or small scabs may occur after treatment. These symptoms usually gradually improve over time. Do not pick or remove any scabs.\n• For 1 week after treatment, avoid alcohol, smoking, saunas, steam rooms, hot baths, and strenuous exercise. 🍷\n• Keep your skin well moisturized, support skin recovery, and apply sunscreen regularly. For the time being, avoid irritating skincare products such as acidic products, retinol, and brightening products. ☀️\n• In rare cases, temporary acne or small rashes may occur after treatment. If you develop blisters, or if a burning sensation or significant pain persists, please contact the clinic immediately. 📞\n\n⏳ When Will I See the Results?\n\n• Improvements in skin texture, pores, and acne scars develop gradually and generally become more noticeable after several weeks.\n• Overall improvement may become more noticeable with multiple treatment sessions.\n\n💦 Skinvive – Aftercare Instructions 💦\n\n• Mild redness, swelling, tenderness, bruising, or small localized bumps may occur after treatment. These symptoms usually gradually improve within a few days.\n• You may gently wash your face and shower 4 hours after treatment. You may apply makeup as usual from the following day.\n• For 1 week after treatment, avoid alcohol, smoking, saunas, steam rooms, and strenuous exercise. 🍷\n• Keep your skin well moisturized, support skin recovery, and apply sunscreen regularly. Please avoid massage and gua sha. ☀️\n• In rare cases, there may be a temporary increase in acne or folliculitis. This usually gradually improves over time.\n• If redness, swelling, warmth, pain, itching, or other noticeable discomfort persists or continues to worsen, please contact the clinic. 📞\n\n⏳ When Will I See the Results?\n\n• Improvements in hydration, skin smoothness, and radiance generally become more noticeable approximately 2–4 weeks after treatment.\n• Results may generally last for several months to 6 months or longer.",
+                    "ko": "오늘 뷰티블라썸의원을 방문해 주셔서 감사합니다! 😊\n\n📅 방문 날짜: 2026/11/14\n👤 이름: Angela Kashuen Hui\n\n오늘 받으신 시술은 다음과 같습니다:\n\nQ 페이셜 / 원데이 4레이저 시술 / 포텐자 펌핑 / 스킨바이브 2cc\n\n아래에 나열된 각 시술별 시술 후 주의사항을 지켜 주세요.\n\n불편하신 점이나 궁금하신 점이 있으시면 언제든지 편하게 연락해 주세요. 감사합니다! 💗\n\n🌿 피부관리(Q-Facial) – 시술 후 주의사항 🌿\n\n• 시술 후 가벼운 붉어짐, 열감, 따끔거림, 가려움 또는 건조함이 생길 수 있습니다. 이러한 증상은 보통 몇 시간에서 하루 이내에 점차 좋아집니다.\n• 시술 당일부터 가볍게 세안과 샤워를 하고 화장을 하셔도 됩니다. 당분간 알코올 성분 제품, 산 성분 스킨케어 제품, 레티놀, 그 밖의 자극적인 스킨케어 제품은 피해 주세요.\n• 당분간 사우나, 찜질방, 격한 운동, 음주, 흡연을 피해 주세요. 🍷\n• 피부를 충분히 보습하고 자외선 차단제를 꾸준히 발라 주세요. 약간의 각질이나 작은 딱지가 생기면 뜯거나 떼어내지 말고 자연스럽게 떨어지도록 두세요. ☀️\n• 붉어짐, 부기, 열감, 통증, 가려움 또는 그 밖의 뚜렷한 불편감이 계속되거나 점점 심해지면 병원에 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n\n• 시술 후 수분감, 진정, 전반적인 피부 상태의 개선을 점차 느끼실 수 있습니다.\n\n✨ 레이저(원데이 레이저) – 시술 후 주의사항 ✨\n\n• 시술 후 가벼운 따끔거림, 붉어짐, 부기 또는 건조함이 생길 수 있습니다. 이러한 증상은 보통 시간이 지나면서 점차 좋아집니다.\n• 시술 당일부터 가볍게 세안하고 화장하셔도 됩니다. 당분간 스크럽, 각질 제거, 자극적인 스킨케어 제품은 피해 주세요.\n• 시술 후 1주일 동안은 음주, 사우나, 찜질방, 뜨거운 물 목욕, 격한 운동을 피해 주세요. 🍷\n• 피부를 충분히 보습하고 자외선 차단제를 꾸준히 발라 주세요. 당분간 산 성분 제품, 레티놀, 미백 제품 같은 자극적인 스킨케어 제품은 피해 주세요. ☀️\n• 약간의 딱지가 생기면 뜯거나 떼어내지 말고 자연스럽게 떨어지도록 두세요. 드물게 일시적으로 여드름이나 작은 발진이 생길 수 있습니다.\n• 붉어짐, 부기, 열감, 통증, 가려움 또는 그 밖의 뚜렷한 불편감이 계속되거나 점점 심해지면 병원에 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n\n• 색소와 전반적인 피부 상태의 개선은 점진적으로 나타나며, 여러 번 시술을 받으면 변화가 더 뚜렷해질 수 있습니다.\n\n⚡ POTENZA(포텐자) – 시술 후 주의사항 ⚡\n\n• 시술 4시간 후부터 가볍게 세안과 샤워를 하실 수 있습니다. 화장은 다음 날부터 하셔도 됩니다. 당분간 스크럽, 각질 제거, 자극적인 스킨케어 제품은 피해 주세요.\n• 시술 후 따끔거림, 붉어짐, 부기, 당김, 멍, 가벼운 각질 또는 작은 딱지가 생길 수 있습니다. 이러한 증상은 보통 시간이 지나면서 점차 좋아집니다. 딱지는 뜯거나 떼어내지 마세요.\n• 시술 후 1주일 동안은 음주, 흡연, 사우나, 찜질방, 뜨거운 물 목욕, 격한 운동을 피해 주세요. 🍷\n• 피부를 충분히 보습하고 피부 회복을 도우며 자외선 차단제를 꾸준히 발라 주세요. 당분간 산 성분 제품, 레티놀, 미백 제품 같은 자극적인 스킨케어 제품은 피해 주세요. ☀️\n• 드물게 시술 후 일시적으로 여드름이나 작은 발진이 생길 수 있습니다. 물집이 생기거나 화끈거림이나 심한 통증이 계속되면 즉시 병원에 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n\n• 피부결, 모공, 여드름 흉터의 개선은 점진적으로 나타나며 보통 몇 주가 지나면 더 뚜렷해집니다.\n• 여러 번 시술을 받으면 전반적인 개선이 더 뚜렷해질 수 있습니다.\n\n💦 스킨바이브(Skinvive) – 시술 후 주의사항 💦\n\n• 시술 후 가벼운 붉어짐, 부기, 압통, 멍 또는 국소적으로 작게 볼록한 부위가 생길 수 있습니다. 이러한 증상은 보통 며칠 이내에 점차 좋아집니다.\n• 시술 4시간 후부터 가볍게 세안과 샤워를 하실 수 있습니다. 화장은 다음 날부터 평소처럼 하셔도 됩니다.\n• 시술 후 1주일 동안은 음주, 흡연, 사우나, 찜질방, 격한 운동을 피해 주세요. 🍷\n• 피부를 충분히 보습하고 피부 회복을 도우며 자외선 차단제를 꾸준히 발라 주세요. 마사지와 괄사는 피해 주세요. ☀️\n• 드물게 일시적으로 여드름이나 모낭염이 늘어날 수 있습니다. 이는 보통 시간이 지나면서 점차 좋아집니다.\n• 붉어짐, 부기, 열감, 통증, 가려움 또는 그 밖의 뚜렷한 불편감이 계속되거나 점점 심해지면 병원에 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n\n• 수분감, 피부결의 매끄러움, 광채의 개선은 보통 시술 후 약 2~4주가 지나면 더 뚜렷해집니다.\n• 효과는 보통 수개월에서 6개월 또는 그 이상 지속될 수 있습니다."
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A56:Q56",
+                "recordIds": [
+                  "W-20261114-T018"
+                ]
+              },
+              {
+                "id": "W-20261114-T019",
+                "kind": "consult",
+                "country": null,
+                "procedure": "여드름 관리·골드 PTT·포텐자·브이레이저",
+                "category": "시술 후 주의사항",
+                "verdict": "normal",
+                "reason": "가이드 09의 여드름 관리·골드 PTT·포텐자·브이레이저 시술 후 안내 문구가 담당자가 보낸 안내문과 같고, 시술 후 약 1주일 관리 기간도 일치한다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "note": "환자명: Michael Chau (직원 안내문 기재) · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "note": "직접 작성한 질문 없음 (병원이 먼저 보낸 안내)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "Thank you for visiting Beauty Blossom Clinic today! 😊\n\n📅 Visit Date: 2026/11/14\n👤 Name: Michael Chau\n\nBelow are the treatments you received today:\n\nAcne Extraction + Accu Toning + Skin Scaling / Gold PTT Package / Potenza Pumping + Pico Focus / Beauty Omakase Pigmentation Treatment (Zoom Pass + V Laser)\n\nPlease follow the aftercare instructions for each treatment listed below.\n\nIf you experience any discomfort or have any questions, please feel free to contact us anytime. Thank you! 💗\n\n🌿 Acne Care – Aftercare Instructions 🌿\n\n• Mild redness, stinging, itching, dryness, or flaking may occur after treatment. These symptoms usually gradually improve within a few days.\n• You may gently wash your face from the day of treatment. For the time being, avoid irritating skincare products such as alcohol-based products, acidic products, retinol, scrubs, and exfoliants.\n• For approximately 1 week after treatment, avoid saunas, steam rooms, hot springs, and strenuous exercise.\n• Keep your skin well moisturized and apply sunscreen regularly. If flaking or small scabs occur, do not pick or remove them. Allow them to fall off naturally. ☀️\n• Do not squeeze or extract acne or clogged pores yourself, as this may increase the risk of inflammation, pigmentation, or scarring.\n• If redness, swelling, warmth, or pain continues to worsen, or if you develop significant inflammation or any other unusual symptoms, please contact the clinic. 📞\n\n⏳ When Will I See the Results?\n\n• Sebum production, clogged pores, and inflammation may gradually improve with treatment. Improvements may become more noticeable with consistent care.\n\n🥇 Gold PTT – Aftercare Instructions 🥇\n\n• Mild redness, warmth, swelling, or stinging may occur after treatment. These symptoms usually gradually improve within a few hours to a few days.\n• You may gently wash your face and apply makeup from the day of treatment. For the time being, avoid scrubs, exfoliation, and irritating skincare products.\n• For 1 week after treatment, avoid alcohol, smoking, saunas, steam rooms, hot baths, and strenuous exercise. 🍷\n• Keep your skin well moisturized and apply sunscreen regularly. For the time being, avoid acidic skincare products, retinol, and other irritating skincare products. ☀️\n• In rare cases, there may be a temporary increase in acne or clogged pores, as well as mild dryness or flaking. These symptoms usually gradually improve over time.\n• If redness, swelling, warmth, or pain continues to worsen, or if you develop blisters or any other noticeable discomfort, please contact the clinic. 📞\n\n⏳ When Will I See the Results?\n\n• Acne, sebum production, and overall skin condition may gradually improve over several weeks after treatment.\n\n⚡ POTENZA – Aftercare Instructions ⚡\n\n• You may gently wash your face and shower 4 hours after treatment. You may apply makeup from the following day. For the time being, avoid scrubs, exfoliation, and irritating skincare products.\n• Stinging, redness, swelling, tightness, bruising, mild flaking, or small scabs may occur after treatment. These symptoms usually gradually improve over time. Do not pick or remove any scabs.\n• For 1 week after treatment, avoid alcohol, smoking, saunas, steam rooms, hot baths, and strenuous exercise. 🍷\n• Keep your skin well moisturized, support skin recovery, and apply sunscreen regularly. For the time being, avoid irritating skincare products such as acidic products, retinol, and brightening products. ☀️\n• In rare cases, temporary acne or small rashes may occur after treatment. If you develop blisters, or if a burning sensation or significant pain persists, please contact the clinic immediately. 📞\n\n⏳ When Will I See the Results?\n\n• Improvements in skin texture, pores, and acne scars develop gradually and generally become more noticeable after several weeks.\n• Overall improvement may become more noticeable with multiple treatment sessions.\n\n🩸 V-Laser – Aftercare Instructions 🩸\n\n• Mild redness, warmth, swelling, or stinging may occur after treatment. These symptoms usually gradually improve within a few days.\n• You may gently wash your face and apply makeup from the day of treatment. For the time being, avoid scrubs, exfoliation, and irritating skincare products.\n• For 1 week after treatment, avoid alcohol, smoking, saunas, steam rooms, hot baths, and strenuous exercise. 🍷\n• Keep your skin well moisturized and apply sunscreen regularly. For the time being, avoid acidic skincare products, retinol, and other irritating skincare products. ☀️\n• Some treated areas may temporarily become darker or develop purplish marks. Avoid rubbing or unnecessarily irritating these areas.\n• If you develop blisters, significant swelling, persistent burning, or pain that continues to worsen, please contact the clinic. 📞\n\n⏳ When Will I See the Results?\n\n• Redness and visible capillaries generally improve gradually over several weeks after treatment. Some vascular lesions may require multiple treatment sessions.",
+                    "ko": "오늘 Beauty Blossom Clinic에 방문해 주셔서 감사합니다! 😊\n\n📅 방문일: 2026/11/14\n👤 이름: Michael Chau\n\n오늘 받으신 시술은 아래와 같습니다:\n\n여드름 압출 + 아큐토닝 + 스킨 스케일링 / 골드 PTT 패키지 / 포텐자 펌핑 + 피코포커스 / 뷰마카세 색소 시술 (줌패스 + V레이저)\n\n아래에 안내된 시술별 시술 후 주의사항을 따라 주세요.\n\n불편한 점이 있거나 궁금한 점이 있으시면 언제든지 편하게 문의해 주세요. 감사합니다! 💗\n\n🌿 여드름 관리 – 시술 후 주의사항 🌿\n\n• 시술 후 가벼운 붉어짐, 따끔거리거나 가려운 느낌, 건조함 또는 각질이 나타날 수 있으며, 대부분 수일 이내에 점차 완화됩니다.\n• 시술 당일부터 가볍게 세안이 가능하며, 당분간 알코올 성분, 산 성분 제품, 레티놀, 스크럽 및 각질 제거 등 자극적인 스킨케어 제품은 피해 주세요.\n• 시술 후 약 1주 동안은 사우나, 찜질방, 온천 및 격한 운동을 피해 주세요.\n• 보습과 자외선 차단에 신경 써주시고, 각질이나 작은 딱지가 생긴 경우 억지로 떼어내지 말고 자연스럽게 떨어지도록 해주세요. ☀️\n• 여드름이나 면포를 직접 짜지 마세요. 염증, 색소침착 또는 흉터 발생 위험이 높아질 수 있습니다.\n• 붉어짐, 부기, 열감, 통증이 지속적으로 심해지거나 뚜렷한 염증 또는 그 외 이상 증상이 나타날 경우 병원으로 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n\n• 피지 분비, 면포 및 염증은 시술을 받으면서 점차 개선될 수 있으며, 꾸준히 관리할수록 변화를 더욱 뚜렷하게 느낄 수 있습니다.\n\n🥇 골드 PTT – 시술 후 주의사항 🥇\n\n• 시술 후 가벼운 붉어짐, 열감, 부기 또는 따끔거림이 나타날 수 있으며, 대부분 수시간에서 수일 이내에 점차 완화됩니다.\n• 시술 당일부터 가볍게 세안 및 화장이 가능하며, 당분간 스크럽, 각질 제거 및 자극적인 스킨케어 제품은 피해 주세요.\n• 시술 후 1주 동안은 음주, 흡연, 사우나, 찜질방, 뜨거운 물 목욕 및 격한 운동을 피해 주세요. 🍷\n• 보습과 자외선 차단에 신경 써주시고, 당분간 산 성분 제품, 레티놀 및 기타 자극적인 스킨케어 제품은 피해 주세요. ☀️\n• 드물게 여드름이나 면포가 일시적으로 늘어나고 가벼운 건조함이나 각질이 나타날 수 있습니다. 이러한 증상은 보통 시간이 지나면서 점차 완화됩니다.\n• 붉어짐, 부기, 열감, 통증이 지속적으로 심해지거나 물집 또는 그 외 뚜렷한 불편감이 나타날 경우 병원으로 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n\n• 여드름, 피지 분비 및 전반적인 피부 컨디션은 일반적으로 시술 후 수주에 걸쳐 서서히 개선될 수 있습니다.\n\n⚡ 포텐자 (POTENZA) – 시술 후 주의사항 ⚡\n\n• 시술 4시간 후부터 가볍게 세안 및 샤워가 가능하며, 다음 날부터 화장하셔도 됩니다. 당분간 스크럽, 각질 제거 및 자극적인 스킨케어 제품은 피해 주세요.\n• 시술 후 따끔거림, 붉어짐, 부기, 당기는 느낌, 멍 또는 가벼운 각질·딱지가 생길 수 있으며, 대부분 시간이 지나면서 점차 완화됩니다. 딱지는 억지로 떼어내지 마세요.\n• 시술 후 1주 동안은 음주, 흡연, 사우나, 찜질방, 뜨거운 물 목욕 및 격한 운동을 피해 주세요. 🍷\n• 보습, 피부 회복 및 자외선 차단에 신경 써주시고, 당분간 산 성분 제품, 레티놀 및 미백 제품 등 자극적인 스킨케어 제품은 피해 주세요. ☀️\n• 드물게 시술 후 일시적으로 여드름이나 작은 발진이 나타날 수 있습니다. 물집이 생기거나 화끈거림 또는 뚜렷한 통증이 지속되는 경우 즉시 병원으로 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n\n• 피부결, 모공 및 여드름 흉터 개선 효과는 서서히 나타나며, 일반적으로 수주 후부터 비교적 뚜렷하게 느낄 수 있습니다.\n• 여러 차례 시술을 받으면 전체적인 개선 효과가 더욱 뚜렷하게 나타날 수 있습니다.\n\n🩸 브이레이저 (V-Laser) – 시술 후 주의사항 🩸\n\n• 시술 후 가벼운 붉어짐, 열감, 부기 또는 따끔거림이 나타날 수 있으며, 대부분 수일 이내에 점차 완화됩니다.\n• 시술 당일부터 가볍게 세안 및 화장이 가능하며, 당분간 스크럽, 각질 제거 및 자극적인 스킨케어 제품은 피해 주세요.\n• 시술 후 1주 동안은 음주, 흡연, 사우나, 찜질방, 뜨거운 물 목욕 및 격한 운동을 피해 주세요. 🍷\n• 보습과 자외선 차단에 신경 써주시고, 당분간 산 성분 제품, 레티놀 및 기타 자극적인 스킨케어 제품은 피해 주세요. ☀️\n• 일부 시술 부위는 일시적으로 색이 진해지거나 자줏빛 자국이 나타날 수 있으므로, 문지르거나 임의로 자극하지 않도록 주의해 주세요.\n• 물집, 뚜렷한 부기, 지속적인 화끈거림 또는 점점 심해지는 통증 등의 이상 증상이 나타날 경우 병원으로 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n\n• 붉은기나 모세혈관 등의 증상은 일반적으로 시술 후 수주에 걸쳐 서서히 개선되며, 일부 혈관 병변은 여러 차례 시술이 필요할 수 있습니다."
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A57:Q57",
+                "recordIds": [
+                  "W-20261114-T019"
+                ]
+              },
+              {
+                "id": "W-20261114-T020",
+                "kind": "consult",
+                "country": null,
+                "procedure": "Q-Facial, 슈링크",
+                "category": "시술 후 주의사항 안내",
+                "verdict": "normal",
+                "reason": "담당자가 보낸 Q-Facial 안내는 가이드 09 피부관리 항목의 영문 안내문과, 초음파 리프팅 안내는 가이드 09 초음파 항목(슈링크 유니버스 포함)의 영문 안내문과 같다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "note": "환자명: Wardia Belkhadra (직원 안내문 기재) · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "note": "직접 작성한 질문 없음 (병원이 먼저 보낸 안내)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "Thank you for visiting Beauty Blossom Clinic today! 😊\n\n📅 Visit Date: 2026/11/14\n👤 Name: Wardia Belkhadra\n\nBelow are the treatments you received today:\n\nQ-Facial / Design Shurink 300 Shots + Booster 300 Shots + Aurora Ampoule\n\n\nPlease follow the aftercare instructions for each treatment listed below.\n\nIf you experience any discomfort or have any questions, please feel free to contact us anytime. Thank you! 💗\n\n🌿 Skin Care (Q-Facial) – Aftercare Instructions 🌿\n\n• Mild redness, warmth, stinging, itching, or dryness may occur after treatment. These symptoms usually gradually improve within a few hours to 1 day.\n• You may gently wash your face, shower, and apply makeup from the day of treatment. For the time being, avoid alcohol-based products, acidic skincare products, retinol, and other irritating skincare products.\n• For the time being, avoid saunas, steam rooms, strenuous exercise, alcohol, and smoking. 🍷\n• Keep your skin well moisturized and apply sunscreen regularly. If mild flaking or small scabs occur, do not pick or remove them. Allow them to fall off naturally. ☀️\n• If redness, swelling, warmth, pain, itching, or other noticeable discomfort persists or continues to worsen, please contact the clinic. 📞\n\n⏳ When Will I See the Results?\n\n• Improvements in hydration, soothing, and overall skin condition may be gradually noticeable after treatment.\n\n🔊 Ultrasound Lifting – Aftercare Instructions 🔊\n\n• You may gently wash your face, shower, and apply makeup from the day of treatment.\n• Mild redness, swelling, tenderness, tingling, numbness, or a tight sensation may occur after treatment. These symptoms usually gradually improve over time.\n• For 1 week after treatment, avoid alcohol, smoking, saunas, steam rooms, and strenuous exercise. 🍷\n• Keep your skin well moisturized and apply sunscreen regularly. For the time being, avoid acidic skincare products, retinol, exfoliation, massage, and gua sha. ☀️\n• If pain continues to worsen, or if you experience significant swelling, changes in sensation, or blisters, please contact the clinic. 📞\n\n⏳ When Will I See the Results?\n\n• Improvements in firmness and facial contour generally become more noticeable approximately 4–8 weeks after treatment.\n• Results may become more noticeable after approximately 2–3 months.",
+                    "ko": "오늘 Beauty Blossom Clinic에 방문해 주셔서 감사합니다! 😊\n\n📅 방문일: 2026/11/14\n👤 이름: Wardia Belkhadra\n\n오늘 받으신 시술 항목은 아래와 같습니다:\n\nQ-Facial / Design 슈링크 300샷 + 부스터 300샷 + 오로라 앰플\n\n\n아래에 안내된 각 시술별 시술 후 주의사항을 따라 주세요.\n\n불편한 증상이 있거나 궁금한 점이 있으시면 언제든지 편하게 문의해 주세요. 감사합니다! 💗\n\n🌿 피부관리 (Q-Facial) – 시술 후 주의사항 🌿\n\n• 시술 후 가벼운 붉어짐, 열감, 따끔거리거나 가려운 느낌 또는 건조함이 나타날 수 있으며, 대부분 수시간에서 1일 이내에 점차 완화됩니다.\n• 시술 당일부터 가볍게 세안, 샤워 및 화장이 가능하며, 당분간 알코올 성분, 산 성분 제품, 레티놀 및 기타 자극적인 스킨케어 제품은 피해 주세요.\n• 시술 후 당분간 사우나, 찜질방, 격한 운동, 음주 및 흡연을 피해 주세요. 🍷\n• 보습과 자외선 차단에 신경 써주시고, 가벼운 각질이나 작은 딱지가 생긴 경우 억지로 떼어내지 말고 자연스럽게 떨어지도록 해주세요. ☀️\n• 붉어짐, 부기, 열감, 통증, 가려움 또는 그 외 뚜렷한 불편감이 지속되거나 계속 심해질 경우 병원으로 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n\n• 보습, 진정 및 전반적인 피부 컨디션 개선은 시술 후부터 점차 느낄 수 있습니다.\n\n🔊 초음파 리프팅 – 시술 후 주의사항 🔊\n\n• 시술 당일부터 가볍게 세안, 샤워 및 화장이 가능합니다.\n• 시술 후 가벼운 붉어짐, 부기, 압통, 찌릿하거나 저린 느낌 또는 당기는 느낌이 나타날 수 있으며, 대부분 시간이 지나면서 점차 완화됩니다.\n• 시술 후 1주 동안은 음주, 흡연, 사우나, 찜질방 및 격한 운동을 피해 주세요. 🍷\n• 보습과 자외선 차단에 신경 써주시고, 당분간 산 성분 제품, 레티놀, 각질 제거, 마사지 및 괄사 사용은 피해 주세요. ☀️\n• 통증이 지속적으로 심해지거나 뚜렷한 부기, 감각 이상 또는 물집이 나타날 경우 병원으로 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n\n• 일반적으로 약 4~8주 후부터 탄력 및 윤곽 변화를 비교적 뚜렷하게 느낄 수 있습니다.\n• 약 2~3개월 후에는 효과가 더욱 뚜렷하게 나타날 수 있습니다."
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A58:Q58",
+                "recordIds": [
+                  "W-20261114-T020"
+                ]
+              },
+              {
+                "id": "W-20261114-T020-2",
+                "kind": "consult",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "세금 환급",
+                "verdict": "normal",
+                "reason": "공식 자료인 조세특례제한법 제107조의3은 외국인관광객 의료용역 부가세 환급을 2025년 12월 31일까지 공급받은 경우로 정하고 있어, 2026년 11월 14일 방문분은 환급이 안 된다는 담당자의 안내와 같다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "note": "환자명: Wardia Belkhadra (직원 안내문 기재) · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Hello I think we forgot to do the tax refund. Is is possible to get the document afterwards ?",
+                    "ko": "안녕하세요, 세금 환급을 하는 걸 잊은 것 같아요. 나중에 서류를 받을 수 있을까요?"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "Hello, Due to changes to Korea’s tax refund policy for cosmetic and dermatological treatments, tax refunds are currently unavailable both at the clinic and at the airport.🥲",
+                    "ko": "안녕하세요, 미용 및 피부과 시술에 대한 한국의 세금 환급 정책이 변경되어 현재는 병원과 공항 모두에서 세금 환급이 불가능합니다.🥲"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A59:Q59",
+                "recordIds": [
+                  "W-20261114-T020-2"
+                ]
+              },
+              {
+                "id": "W-20261114-T021",
+                "kind": "consult",
+                "country": null,
+                "procedure": "LHALA 필, LDM",
+                "category": "시술 후 주의사항 안내",
+                "verdict": "normal",
+                "reason": "담당자가 보낸 필링 안내와 LDM 안내는 가이드 09 필링 항목과 피부관리(LDM 포함) 항목의 영문 안내문과 같다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "note": "환자명: Amina Zamoun · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "note": "직접 작성한 질문 없음 (병원이 먼저 보낸 안내)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "Thank you for visiting Beauty Blossom Clinic today! 😊\n\n📅 Visit Date: 2026/11/14\n👤 Name: Amina Zamoun\n\nBelow are the treatments you received today:\n\nLHALA Peel / LDM\n\nPlease follow the aftercare instructions for each treatment listed below.\n\nIf you experience any discomfort or have any questions, please feel free to contact us anytime. Thank you! 💗\n\n🍃 Peeling – Aftercare Instructions 🍃\n\n• Mild redness, warmth, stinging, itching, or dryness may occur after treatment. These symptoms usually gradually improve within a few hours to 1 day.\n• You may gently wash your face, shower, and apply makeup from the day of treatment. For the time being, avoid alcohol-based products, acidic skincare products, retinol, brightening products, and other irritating skincare products.\n• Mild flaking, small scabs, or acne may occur after treatment. Do not pick, peel, or touch the affected areas unnecessarily. Allow them to improve naturally.\n• For the time being, avoid saunas, steam rooms, strenuous exercise, alcohol, and smoking. 🍷\n• Keep your skin well moisturized and apply sunscreen regularly. Minimize sun exposure and avoid excessive rubbing of the skin. ☀️\n• If redness, swelling, warmth, pain, itching, or other noticeable discomfort persists or continues to worsen, please contact the clinic. 📞\n\n⏳ When Will I See the Results?\n\n• Improvements in skin texture, sebum production, and overall skin condition may gradually become noticeable over several days to several weeks after treatment.\n\n🌿 Skin Care (LDM) – Aftercare Instructions 🌿\n\n• Mild redness, warmth, stinging, itching, or dryness may occur after treatment. These symptoms usually gradually improve within a few hours to 1 day.\n• You may gently wash your face, shower, and apply makeup from the day of treatment. For the time being, avoid alcohol-based products, acidic skincare products, retinol, and other irritating skincare products.\n• For the time being, avoid saunas, steam rooms, strenuous exercise, alcohol, and smoking. 🍷\n• Keep your skin well moisturized and apply sunscreen regularly. If mild flaking or small scabs occur, do not pick or remove them. Allow them to fall off naturally. ☀️\n• If redness, swelling, warmth, pain, itching, or other noticeable discomfort persists or continues to worsen, please contact the clinic. 📞\n\n⏳ When Will I See the Results?\n\n• Improvements in hydration, soothing, and overall skin condition may be gradually noticeable after treatment.",
+                    "ko": "오늘 Beauty Blossom Clinic에 방문해 주셔서 감사합니다! 😊\n\n📅 방문일: 2026/11/14\n👤 이름: Amina Zamoun\n\n오늘 받으신 시술 항목은 아래와 같습니다:\n\nLHALA 필 / LDM\n\n아래에 안내된 각 시술별 시술 후 주의사항을 따라 주세요.\n\n불편한 증상이 있거나 궁금한 점이 있으시면 언제든지 편하게 문의해 주세요. 감사합니다! 💗\n\n🍃 필링 – 시술 후 주의사항 🍃\n\n• 시술 후 가벼운 붉어짐, 열감, 따끔거리거나 가려운 느낌 또는 건조함이 나타날 수 있으며, 대부분 수시간에서 1일 이내에 점차 완화됩니다.\n• 시술 당일부터 가볍게 세안, 샤워 및 화장이 가능하며, 당분간 알코올 성분, 산 성분 제품, 레티놀, 미백 제품 및 기타 자극적인 스킨케어 제품은 피해 주세요.\n• 시술 후 가벼운 각질, 작은 딱지 또는 여드름이 나타날 수 있으므로 억지로 떼어내거나 손대지 말고 자연스럽게 호전되도록 해주세요.\n• 시술 후 당분간 사우나, 찜질방, 격한 운동, 음주 및 흡연을 피해 주세요. 🍷\n• 보습과 자외선 차단에 신경 써주시고, 햇빛 노출과 피부를 과도하게 문지르는 행동은 줄여주세요. ☀️\n• 붉어짐, 부기, 열감, 통증, 가려움 또는 그 외 뚜렷한 불편감이 지속되거나 계속 심해질 경우 병원으로 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n\n• 피부결, 피지 분비 및 전반적인 피부 컨디션은 일반적으로 시술 후 수일에서 수주에 걸쳐 점차 개선될 수 있습니다.\n\n🌿 피부관리 (LDM) – 시술 후 주의사항 🌿\n\n• 시술 후 가벼운 붉어짐, 열감, 따끔거리거나 가려운 느낌 또는 건조함이 나타날 수 있으며, 대부분 수시간에서 1일 이내에 점차 완화됩니다.\n• 시술 당일부터 가볍게 세안, 샤워 및 화장이 가능하며, 당분간 알코올 성분, 산 성분 제품, 레티놀 및 기타 자극적인 스킨케어 제품은 피해 주세요.\n• 시술 후 당분간 사우나, 찜질방, 격한 운동, 음주 및 흡연을 피해 주세요. 🍷\n• 보습과 자외선 차단에 신경 써주시고, 가벼운 각질이나 작은 딱지가 생긴 경우 억지로 떼어내지 말고 자연스럽게 떨어지도록 해주세요. ☀️\n• 붉어짐, 부기, 열감, 통증, 가려움 또는 그 외 뚜렷한 불편감이 지속되거나 계속 심해질 경우 병원으로 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n\n• 보습, 진정 및 전반적인 피부 컨디션 개선은 시술 후부터 점차 느낄 수 있습니다."
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=106234537&range=A25:Q25",
+                "recordIds": [
+                  "W-20261114-T021"
+                ]
+              },
+              {
+                "id": "W-20261114-T022",
+                "kind": "consult",
+                "country": null,
+                "procedure": "주름 보톡스",
+                "category": "시술 후 주의사항",
+                "verdict": "normal",
+                "reason": "가이드 09의 주름 보톡스 시술 후 주의사항(4시간 후 세안·샤워, 2주간 음주·흡연·사우나 제한, 효과 1~2주 후 안정·약 3개월 유지)과 안내문이 같다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "note": "환자명: Bronte Whatling · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "note": "직접 작성한 질문 없음 (병원이 먼저 보낸 안내)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "Thank you for visiting Beauty Blossom Clinic today! 😊\n\n📅 Visit Date: 2026/11/14\n👤 Name: Bronte Whatling\n\nBelow are the treatments you received today:\n\nWrinkle Botox \n\nPlease follow the aftercare instructions for each treatment listed below.\n\nIf you experience any discomfort or have any questions, please feel free to contact us anytime. Thank you! 💗\n\n😊 Wrinkle Botox  – Aftercare Instructions 😊\n\n• Mild redness, swelling, tenderness, or bruising may occur at the injection sites. These symptoms usually gradually improve within a few days to 1–2 weeks.\n• You may gently wash your face and shower 4 hours after the treatment. You may apply makeup as usual from the following day.\n• For 2 weeks after treatment, avoid alcohol, smoking, saunas, steam rooms, strenuous exercise, and at-home beauty devices. 🍷\n• For 2 weeks after treatment, avoid rubbing or applying strong pressure to the treated areas. Please also avoid facial massage and gua sha.\n• In rare cases, temporary heaviness around the eyebrows, asymmetry of the eyebrows or eyes, or drooping of the eyelids or eyebrows may occur. If these symptoms are severe or continue to worsen, please contact the clinic. 📞\n\n⏳ When Will I See the Results?\n• The effects generally become more noticeable and stabilize within approximately 1–2 weeks after treatment.\n• Results generally last for approximately 3 months.",
+                    "ko": "오늘 Beauty Blossom Clinic에 방문해 주셔서 감사합니다! 😊\n\n📅 방문 날짜: 2026/11/14\n👤 이름: Bronte Whatling\n\n오늘 받으신 시술은 아래와 같습니다:\n\n주름 보톡스 \n\n아래에 안내된 각 시술별 시술 후 주의사항을 따라 주세요.\n\n불편하거나 궁금한 점이 있으시면 언제든 연락해 주세요. 감사합니다! 💗\n\n😊 주름 보톡스  – 시술 후 주의사항 😊\n\n• 주사 부위에 가벼운 붉어짐, 부기, 압통 또는 멍이 생길 수 있으며, 이런 증상은 보통 며칠에서 1~2주 안에 점차 좋아집니다.\n• 시술 4시간 후부터 가볍게 세안과 샤워를 할 수 있습니다. 다음 날부터는 평소처럼 화장하셔도 됩니다.\n• 시술 후 2주 동안은 음주, 흡연, 사우나, 찜질방, 격한 운동 및 집에서 쓰는 미용기기 사용을 피해 주세요. 🍷\n• 시술 후 2주 동안은 시술 부위를 문지르거나 강하게 누르지 마세요. 얼굴 마사지와 괄사도 피해 주세요.\n• 드물게 일시적으로 눈썹 주위가 무거운 느낌, 눈썹이나 눈매의 비대칭, 눈꺼풀이나 눈썹 처짐이 나타날 수 있습니다. 이런 증상이 심하거나 계속 악화되면 병원으로 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n• 효과는 보통 시술 후 약 1~2주 안에 더 뚜렷해지고 안정됩니다.\n• 효과는 보통 약 3개월 정도 유지됩니다."
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=106234537&range=A26:Q26",
+                "recordIds": [
+                  "W-20261114-T022"
+                ]
+              },
+              {
+                "id": "W-20261114-T023",
+                "kind": "consult",
+                "country": null,
+                "procedure": "울쎄라 프라임·ONDA·포텐자+리쥬란 힐러·Gold PTT",
+                "category": "시술 후 주의사항",
+                "verdict": "fix",
+                "severity": "suspected",
+                "reason": "가이드 09의 울쎄라 프라임·ONDA·Gold PTT 시술 후 안내는 1주일간 음주와 흡연을 피하라고 하는데, 직원은 이 세 시술 항목에서 과음만 피하라고 안내했고 흡연 제한은 적지 않았다. Potenza·리쥬란 힐러 항목은 가이드처럼 1주일간 음주·흡연을 피하라고 안내했다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "note": "환자명: Lee Cheuk Nam (직원 안내문 기재) · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "note": "직접 작성한 질문 없음 (병원이 먼저 보낸 안내)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "Lee Cheuk Nam 您好！🌸\n\n感謝您今日嚟到 Beauty Blossom Clinic！😊💗\n\n📅 到診日期：2026/11/14\n👤 顧客姓名：Lee Cheuk Nam\n\n以下係您今日接受嘅療程及相關術後護理指引：\n\n✨ 今日療程 ✨\nUltherapy Prime 超聲刀 – 600發（全臉）\nONDA  – 60KJ（重點改善下顎線及雙下巴）\nPotenza 黃金微針（Pumping Mode）+ Rejuran Healer 麗珠蘭 2cc\nGold PTT 療程\n\n📌 術後注意事項\n🔥 1. Ultherapy Prime + ONDA 緊膚療程\n• 療程後可能會出現輕微泛紅、溫熱感、腫脹、繃緊、觸痛或深層痠痛，通常會喺幾日內逐漸改善。\n• 部分位置可能會出現輕微麻痺、刺痛或按壓時比較敏感，呢啲感覺有機會持續幾日至幾星期，通常會逐漸減退。\n• 由於 ONDA 主要集中喺下顎線及雙下巴位置，呢啲部位初期可能會感覺比較腫脹、痠痛或有少少硬硬哋。\n• 建議使用溫和、補水及保濕嘅護膚產品，保持皮膚充足水分。💧\n• 1星期內避免桑拿、蒸氣浴、熱水浴及劇烈運動。\n• 暫時避免大力按摩、刮痧、用力按壓療程位置，或使用其他高熱能量美容儀器。\n• 避免過量飲酒，以免加重暫時性泛紅或腫脹。\n\n🌸 2. Potenza 黃金微針 + Rejuran Healer 2cc\n• 療程後可能會出現泛紅、腫脹、觸痛、瘀青、細小針孔或暫時性細小凸起，通常會喺幾日內逐漸改善。\n• 部分位置可能會有輕微乾燥、粗糙、脫皮或少量結痂。\n• 建議首24小時避免使用一般洗面產品及化妝品，之後可以按照醫護人員指示，以溫和方式清潔皮膚。\n• 24–48小時內盡量避免化妝，等皮膚有足夠時間恢復。\n• 5–7日內避免使用 Retinol（維他命A醇）、高濃度維他命C、AHA/BHA、磨砂及去角質產品。\n• 建議使用溫和、保濕及修復類護膚產品，保持皮膚充足水分。💧\n• 每日做好防曬（SPF 30+），避免長時間直接曝曬。☀️\n• 1星期內避免桑拿、蒸氣浴、熱水浴、劇烈運動、飲酒及吸煙。\n• 避免大力按摩、按壓、刮痧或擠壓注射位置。\n• 如果出現細小結痂，請等佢自然脫落，唔好自行摳走。\n• 如果注射位置出現暫時性細小凸起，請勿自行按摩或擠壓。\n\n🌟 3. Gold PTT 黃金光熱療程\n• Gold PTT 主要針對油脂分泌及暗瘡問題，幫助改善皮膚狀態。\n• 療程後可能會出現輕微泛紅、溫熱感、乾燥、腫脹或皮膚敏感，通常會喺幾日內逐漸改善。\n• 部分人可能會出現暫時性暗瘡反應或細小紅粒，實際情況因個人皮膚狀態而異。\n• 建議使用溫和、補水及保濕嘅護膚產品。\n• 5–7日內避免使用 Retinol、高濃度維他命C、AHA/BHA、磨砂及去角質產品。\n• 暫時避免使用刺激性暗瘡產品，尤其係皮膚仍然泛紅、敏感或有未癒合針口嘅時候。\n• 唔好用手擠壓暗瘡或細小紅粒，以免增加發炎或留疤風險。\n• 每日做好防曬（SPF 30+），避免長時間直接曝曬。\n• 1星期內避免桑拿、蒸氣浴、熱水浴、劇烈運動及過量飲酒。\n\n⏳ 幾時會見到效果？\n\n💗 Ultherapy Prime 超聲刀\n• 部分人療程後可能會感受到初步緊緻效果，但呢個並唔係最終效果。\n• Ultherapy Prime 主要透過聚焦超聲波能量作用於皮膚深層組織，刺激膠原蛋白重塑，幫助改善皮膚鬆弛及面部輪廓。\n• 部分人可能會喺療程後4–8星期開始感受到皮膚緊緻度逐漸改善。\n• 較明顯嘅提升及緊緻效果通常會喺2–3個月逐漸呈現。\n\n🔥 ONDA \n• ONDA 主要透過微波能量作用於皮下組織，幫助改善局部脂肪堆積及輪廓問題。\n• 下顎線及雙下巴輪廓嘅改善通常會喺之後幾星期逐漸呈現。\n• 實際效果會因個人脂肪厚度、皮膚鬆弛程度及身體反應而有所不同。\n\n🌸 Potenza 黃金微針\n• 部分人喺皮膚恢復後，可能會感受到膚質變得更加細緻、柔滑。\n• 毛孔、細紋及皮膚質感嘅改善通常會喺之後幾星期逐漸呈現。\n\n🌟 Gold PTT\n• Gold PTT 主要幫助改善油脂分泌、暗瘡及相關皮膚問題。\n• 油脂分泌及暗瘡狀態嘅改善通常需要幾星期逐漸呈現。\n• 部分人可能需要多次療程，實際效果會因皮膚狀態而有所不同。\n\n💗 特別提醒\n由於您今日同時接受咗 Ultherapy Prime 600發、ONDA 60KJ、Potenza + Rejuran Healer 及 Gold PTT 療程，皮膚初期可能會比平時更加敏感，亦可能出現較明顯嘅泛紅、乾燥、腫脹、繃緊、細小針孔\n建議首星期以溫和清潔、補水、保濕及防曬為主，暫時避免刺激性護膚產品、高溫環境及大力按摩面部。\n如果出現細小暗瘡、紅粒或凸起，請勿自行擠壓。如果持續幾日都冇改善，或者紅腫越嚟越明顯，可以影相俾我哋，等我哋幫您進一步確認。\n如果出現持續加劇嘅紅腫、明顯疼痛、水泡、異常分泌物、發燒、面部肌肉無力、持續加重嘅麻痺感或其他不尋常反應，請盡快聯絡我哋並接受醫療評估。\n\n如有任何不適或疑問，歡迎隨時聯絡我哋。謝謝您！💗",
+                    "ko": "Lee Cheuk Nam님, 안녕하세요! 🌸\n\n오늘 Beauty Blossom Clinic에 방문해 주셔서 감사합니다! 😊💗\n\n📅 내원 날짜: 2026/11/14\n👤 고객 성함: Lee Cheuk Nam\n\n아래는 오늘 받으신 시술 및 관련 시술 후 관리 안내입니다:\n\n✨ 오늘 시술 ✨\nUltherapy Prime 초음파 리프팅 – 600샷(전체 얼굴)\nONDA  – 60KJ(턱선 및 이중턱 집중 개선)\nPotenza 골드 마이크로니들(Pumping Mode) + Rejuran Healer 리쥬란 2cc\nGold PTT 시술\n\n📌 시술 후 주의사항\n🔥 1. Ultherapy Prime + ONDA 탄력 시술\n• 시술 후 가벼운 붉어짐, 따뜻한 느낌, 부기, 당기는 느낌, 압통 또는 깊은 곳의 뻐근한 통증이 나타날 수 있으며, 보통 며칠 안에 점차 좋아집니다.\n• 일부 부위에 가벼운 저림, 따끔거림 또는 누를 때 민감한 느낌이 나타날 수 있으며, 이런 느낌은 며칠에서 몇 주 동안 지속될 수 있고 보통 점차 줄어듭니다.\n• ONDA는 주로 턱선과 이중턱 부위에 집중하기 때문에, 이 부위는 초기에 더 붓거나 뻐근하거나 약간 단단하게 느껴질 수 있습니다.\n• 순하고 수분 공급과 보습이 되는 스킨케어 제품을 사용해 피부에 충분한 수분을 유지하시길 권장합니다. 💧\n• 1주일 동안은 사우나, 증기욕, 뜨거운 물 목욕 및 격한 운동을 피해 주세요.\n• 당분간 강한 마사지, 괄사, 시술 부위를 세게 누르는 것 또는 다른 고열 에너지 미용기기 사용을 피해 주세요.\n• 일시적인 붉어짐이나 부기가 심해지지 않도록 과음을 피해 주세요.\n\n🌸 2. Potenza 골드 마이크로니들 + Rejuran Healer 2cc\n• 시술 후 붉어짐, 부기, 압통, 멍, 작은 바늘 자국 또는 일시적인 작은 돌출이 나타날 수 있으며, 보통 며칠 안에 점차 좋아집니다.\n• 일부 부위에 가벼운 건조함, 거칠어짐, 각질 또는 소량의 딱지가 생길 수 있습니다.\n• 처음 24시간 동안은 일반 세안 제품과 화장품 사용을 피하고, 이후에는 의료진의 안내에 따라 순한 방법으로 피부를 세안하시길 권장합니다.\n• 피부가 충분히 회복될 수 있도록 24~48시간 동안은 가능한 한 화장을 피해 주세요.\n• 5~7일 동안은 레티놀(비타민 A 알코올), 고농도 비타민 C, AHA/BHA, 스크럽 및 각질 제거 제품 사용을 피해 주세요.\n• 순하고 보습 및 회복 효과가 있는 스킨케어 제품을 사용해 피부에 충분한 수분을 유지하시길 권장합니다. 💧\n• 매일 자외선 차단(SPF 30+)을 철저히 하고 장시간 직사광선 노출을 피해 주세요. ☀️\n• 1주일 동안은 사우나, 증기욕, 뜨거운 물 목욕, 격한 운동, 음주 및 흡연을 피해 주세요.\n• 주사 부위를 세게 마사지하거나 누르거나 괄사하거나 짜는 것을 피해 주세요.\n• 작은 딱지가 생기면 자연스럽게 떨어질 때까지 기다리고 직접 떼어내지 마세요.\n• 주사 부위에 일시적인 작은 돌출이 생기면 직접 마사지하거나 짜지 마세요.\n\n🌟 3. Gold PTT 골드 광열 시술\n• Gold PTT는 주로 피지 분비와 여드름 문제를 대상으로 하며 피부 상태 개선을 돕습니다.\n• 시술 후 가벼운 붉어짐, 따뜻한 느낌, 건조함, 부기 또는 피부 민감이 나타날 수 있으며, 보통 며칠 안에 점차 좋아집니다.\n• 일부 분은 일시적인 여드름 반응이나 작은 붉은 알갱이가 나타날 수 있으며, 실제 상태는 개인의 피부 상태에 따라 다릅니다.\n• 순하고 수분 공급과 보습이 되는 스킨케어 제품을 사용하시길 권장합니다.\n• 5~7일 동안은 레티놀, 고농도 비타민 C, AHA/BHA, 스크럽 및 각질 제거 제품 사용을 피해 주세요.\n• 특히 피부가 아직 붉거나 민감하거나 아물지 않은 바늘 자국이 있을 때는 자극적인 여드름 제품 사용을 당분간 피해 주세요.\n• 염증이나 흉터 위험이 커지지 않도록 손으로 여드름이나 작은 붉은 알갱이를 짜지 마세요.\n• 매일 자외선 차단(SPF 30+)을 철저히 하고 장시간 직사광선 노출을 피해 주세요.\n• 1주일 동안은 사우나, 증기욕, 뜨거운 물 목욕, 격한 운동 및 과음을 피해 주세요.\n\n⏳ 언제 효과를 볼 수 있나요?\n\n💗 Ultherapy Prime 초음파 리프팅\n• 일부 분은 시술 후 초기 탄력 효과를 느낄 수 있지만 이것이 최종 효과는 아닙니다.\n• Ultherapy Prime은 주로 집속 초음파 에너지를 피부 깊은 조직에 작용시켜 콜라겐 재형성을 자극하고 피부 처짐과 얼굴 윤곽 개선을 돕습니다.\n• 일부 분은 시술 후 4~8주부터 피부 탄력이 점차 좋아지는 것을 느낄 수 있습니다.\n• 더 뚜렷한 리프팅과 탄력 효과는 보통 2~3개월에 걸쳐 점차 나타납니다.\n\n🔥 ONDA \n• ONDA는 주로 마이크로파 에너지를 피하조직에 작용시켜 국소 지방 축적과 윤곽 문제 개선을 돕습니다.\n• 턱선과 이중턱 윤곽의 개선은 보통 이후 몇 주에 걸쳐 점차 나타납니다.\n• 실제 효과는 개인의 지방 두께, 피부 처짐 정도 및 신체 반응에 따라 다릅니다.\n\n🌸 Potenza 골드 마이크로니들\n• 일부 분은 피부가 회복된 뒤 피부결이 더 곱고 부드러워지는 것을 느낄 수 있습니다.\n• 모공, 잔주름 및 피부 질감의 개선은 보통 이후 몇 주에 걸쳐 점차 나타납니다.\n\n🌟 Gold PTT\n• Gold PTT는 주로 피지 분비, 여드름 및 관련 피부 문제 개선을 돕습니다.\n• 피지 분비와 여드름 상태의 개선은 보통 몇 주에 걸쳐 점차 나타납니다.\n• 일부 분은 여러 차례 시술이 필요할 수 있으며, 실제 효과는 피부 상태에 따라 다릅니다.\n\n💗 특별 안내\n오늘 Ultherapy Prime 600샷, ONDA 60KJ, Potenza + Rejuran Healer 및 Gold PTT 시술을 함께 받으셨기 때문에 초기에는 피부가 평소보다 더 민감할 수 있고, 더 뚜렷한 붉어짐, 건조함, 부기, 당기는 느낌, 작은 바늘 자국이 나타날 수도 있습니다\n첫 1주일은 순한 세안, 수분 공급, 보습, 자외선 차단 위주로 관리하고, 자극적인 스킨케어 제품, 고온 환경 및 얼굴을 세게 마사지하는 것을 당분간 피하시길 권장합니다.\n작은 여드름, 붉은 알갱이 또는 돌출이 생기면 직접 짜지 마세요. 며칠이 지나도 나아지지 않거나 붉어짐과 부기가 점점 뚜렷해지면 사진을 보내 주시면 저희가 추가로 확인해 드리겠습니다.\n붉어짐과 부기가 계속 심해지거나, 뚜렷한 통증, 물집, 비정상적인 분비물, 발열, 얼굴 근육 힘 빠짐, 계속 심해지는 저림 또는 기타 평소와 다른 반응이 나타나면 가능한 한 빨리 저희에게 연락하시고 의료진의 평가를 받으세요.\n\n불편하거나 궁금한 점이 있으면 언제든 저희에게 연락해 주세요. 감사합니다! 💗"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A60:Q60",
+                "recordIds": [
+                  "W-20261114-T023"
+                ]
+              },
+              {
+                "id": "W-20261114-T024",
+                "kind": "consult",
+                "country": null,
+                "procedure": "보톡스(이마·미간·눈썹 아치)",
+                "category": "시술 후 주의사항",
+                "verdict": "normal",
+                "reason": "담당자가 보낸 주름 보톡스 시술 후 안내문은 가이드 09의 주름 보톡스 항목(4시간 뒤 세안, 2주간 음주·사우나·운동 제한, 효과 1~2주 시작·약 3개월 유지)과 같다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "note": "환자명: Alison Whatling · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "note": "직접 작성한 질문 없음 (병원이 먼저 보낸 안내)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "Thank you for visiting Beauty Blossom Clinic today! 😊\n\n📅 Visit Date: 2026/11/14\n👤 Name: Alison Whatling\n\nBelow are the treatments you received today:\n\nAllergan Botox – Forehead, Glabella, and Brow Arch\n\nPlease follow the aftercare instructions for each treatment listed below.\n\nIf you experience any discomfort or have any questions, please feel free to contact us anytime. Thank you! 💗\n\n😊 Wrinkle Botox – Aftercare Instructions 😊\n\n• Mild redness, swelling, tenderness, or bruising may occur at the injection sites. These symptoms usually gradually improve within a few days to 1–2 weeks.\n• You may gently wash your face and shower 4 hours after the treatment. You may apply makeup as usual from the following day.\n• For 2 weeks after treatment, avoid alcohol, smoking, saunas, steam rooms, strenuous exercise, and at-home beauty devices. 🍷\n• For 2 weeks after treatment, avoid rubbing or applying strong pressure to the treated areas. Please also avoid facial massage and gua sha.\n• In rare cases, temporary heaviness around the eyebrows, asymmetry of the eyebrows or eyes, or drooping of the eyelids or eyebrows may occur. If these symptoms are severe or continue to worsen, please contact the clinic. 📞\n\n⏳ When Will I See the Results?\n• The effects generally become more noticeable and stabilize within approximately 1–2 weeks after treatment.\n• Results generally last for approximately 3 months.",
+                    "ko": "오늘 뷰티블라썸의원을 방문해 주셔서 감사합니다! 😊\n\n📅 방문 날짜: 2026/11/14\n👤 이름: Alison Whatling\n\n오늘 받으신 시술은 다음과 같습니다:\n\n엘러간 보톡스 – 이마, 미간, 눈썹 아치\n\n아래에 나열된 각 시술별 시술 후 주의사항을 지켜 주세요.\n\n불편하신 점이나 궁금하신 점이 있으시면 언제든지 편하게 연락해 주세요. 감사합니다! 💗\n\n😊 주름 보톡스 – 시술 후 주의사항 😊\n\n• 주사 부위에 가벼운 붉어짐, 부기, 압통 또는 멍이 생길 수 있습니다. 이러한 증상은 보통 며칠에서 1~2주 이내에 점차 좋아집니다.\n• 시술 4시간 후부터 가볍게 세안과 샤워를 하실 수 있습니다. 화장은 다음 날부터 평소처럼 하셔도 됩니다.\n• 시술 후 2주 동안은 음주, 흡연, 사우나, 찜질방, 격한 운동, 집에서 쓰는 미용기기 사용을 피해 주세요. 🍷\n• 시술 후 2주 동안은 시술 부위를 문지르거나 강하게 누르지 마세요. 얼굴 마사지와 괄사도 피해 주세요.\n• 드물게 눈썹이 무겁게 느껴지거나, 눈썹이나 눈매가 비대칭이 되거나, 눈꺼풀이나 눈썹이 처지는 증상이 일시적으로 나타날 수 있습니다. 이러한 증상이 심하거나 계속 악화되면 병원에 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n• 효과는 보통 시술 후 약 1~2주 이내에 더 뚜렷해지고 안정됩니다.\n• 효과는 일반적으로 약 3개월 정도 유지됩니다."
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=106234537&range=A28:Q28",
+                "recordIds": [
+                  "W-20261114-T024"
+                ]
+              },
+              {
+                "id": "W-20261114-T025",
+                "kind": "consult",
+                "country": null,
+                "procedure": "골드 PTT·원데이 레이저·포텐자·고우리",
+                "category": "시술 후 주의사항",
+                "verdict": "normal",
+                "reason": "가이드 09의 골드 PTT·원데이 레이저·포텐자·고우리 시술 후 안내 내용과 담당자가 보낸 안내가 일치하고, 시술 후 1주일간 음주·사우나·격한 운동을 피한다는 기간도 같다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "note": "환자명: Amari Tea · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "note": "직접 작성한 질문 없음 (병원이 먼저 보낸 안내)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "Thank you for visiting Beauty Blossom Clinic today! 😊\n\n📅 Visit Date: 2026/11/14\n👤 Name: Amari Tea\n\nBelow are the treatments you received today:\n\nGold PTT / One-Day 4-Mode Laser Treatment + Cryo / Potenza Pumping + Rejuran Healer 4cc / GOURI 1 + Lituo\n\nPlease follow the aftercare instructions for each treatment listed below.\n\nIf you experience any discomfort or have any questions, please feel free to contact us anytime. Thank you! 💗\n\n🥇 Gold PTT – Aftercare Instructions 🥇\n\n• Mild redness, warmth, swelling, or stinging may occur after treatment. These symptoms usually gradually improve within a few hours to a few days.\n• You may gently wash your face and apply makeup from the day of treatment. For the time being, avoid scrubs, exfoliation, and irritating skincare products.\n• For 1 week after treatment, avoid alcohol, smoking, saunas, steam rooms, hot baths, and strenuous exercise. 🍷\n• Keep your skin well moisturized and apply sunscreen regularly. For the time being, avoid acidic skincare products, retinol, and other irritating skincare products. ☀️\n• In rare cases, there may be a temporary increase in acne or clogged pores, as well as mild dryness or flaking. These symptoms usually gradually improve over time.\n• If redness, swelling, warmth, or pain continues to worsen, or if you develop blisters or any other noticeable discomfort, please contact the clinic. 📞\n\n⏳ When Will I See the Results?\n\n• Acne, sebum production, and overall skin condition may gradually improve over several weeks after treatment.\n\n✨ Laser (One-Day Laser) – Aftercare Instructions ✨\n\n• Mild stinging, redness, swelling, or dryness may occur after treatment. These symptoms usually gradually improve over time.\n• You may gently wash your face and apply makeup from the day of treatment. For the time being, avoid scrubs, exfoliation, and irritating skincare products.\n• For 1 week after treatment, avoid alcohol, saunas, steam rooms, hot baths, and strenuous exercise. 🍷\n• Keep your skin well moisturized and apply sunscreen regularly. For the time being, avoid irritating skincare products such as acidic products, retinol, and brightening products. ☀️\n• If mild scabbing occurs, do not pick or remove the scabs. Allow them to fall off naturally. In rare cases, temporary acne or small rashes may occur.\n• If redness, swelling, warmth, pain, itching, or other noticeable discomfort persists or continues to worsen, please contact the clinic. 📞\n\n⏳ When Will I See the Results?\n\n• Improvements in pigmentation and overall skin condition develop gradually, and changes may become more noticeable after multiple treatment sessions.\n\n⚡ POTENZA – Aftercare Instructions ⚡\n\n• You may gently wash your face and shower 4 hours after treatment. You may apply makeup from the following day. For the time being, avoid scrubs, exfoliation, and irritating skincare products.\n• Stinging, redness, swelling, tightness, bruising, mild flaking, or small scabs may occur after treatment. These symptoms usually gradually improve over time. Do not pick or remove any scabs.\n• For 1 week after treatment, avoid alcohol, smoking, saunas, steam rooms, hot baths, and strenuous exercise. 🍷\n• Keep your skin well moisturized, support skin recovery, and apply sunscreen regularly. For the time being, avoid irritating skincare products such as acidic products, retinol, and brightening products. ☀️\n• In rare cases, temporary acne or small rashes may occur after treatment. If you develop blisters, or if a burning sensation or significant pain persists, please contact the clinic immediately. 📞\n\n⏳ When Will I See the Results?\n\n• Improvements in skin texture, pores, and acne scars develop gradually and generally become more noticeable after several weeks.\n• Overall improvement may become more noticeable with multiple treatment sessions.\n\n🌿 GOURI – Post-Treatment Care Instructions 🌿\n\n• Mild redness, swelling, tenderness, or bruising may occur at the injection sites. These symptoms usually subside gradually over time.\n\n• You may gently cleanse your face after the treatment. Makeup can be applied as usual starting the following day. Avoid rubbing or applying excessive pressure to the treated areas.\n\n• For 1 week after the treatment, avoid alcohol, smoking, saunas, steam rooms, and strenuous exercise. 🍷\n\n• Keep your skin well-moisturized and protected from the sun. Avoid massaging, using gua sha tools, or applying beauty devices to the treated areas. ☀️\n\n• If you experience worsening redness, swelling, warmth, pain, unusual skin discoloration, noticeable lumps, or any changes in vision, please contact the clinic or seek medical attention immediately. 📞\n\n⏳ When Will I Start Seeing Results?\n\n• Improvements in skin texture and elasticity may gradually become noticeable approximately 2–4 weeks after treatment. Results may continue to develop over time as collagen production increases.",
+                    "ko": "오늘 Beauty Blossom Clinic에 방문해 주셔서 감사합니다! 😊\n\n📅 방문일: 2026/11/14\n👤 이름: Amari Tea\n\n오늘 받으신 시술은 아래와 같습니다:\n\n골드 PTT / 원데이 4모드 레이저 시술 + 크라이오 / 포텐자 펌핑 + 리쥬란 힐러 4cc / 고우리 1 + 리투오\n\n아래에 안내된 시술별 시술 후 주의사항을 따라 주세요.\n\n불편한 점이 있거나 궁금한 점이 있으시면 언제든지 편하게 문의해 주세요. 감사합니다! 💗\n\n🥇 골드 PTT – 시술 후 주의사항 🥇\n\n• 시술 후 가벼운 붉어짐, 열감, 부기 또는 따끔거림이 나타날 수 있으며, 대부분 수시간에서 수일 이내에 점차 완화됩니다.\n• 시술 당일부터 가볍게 세안 및 화장이 가능하며, 당분간 스크럽, 각질 제거 및 자극적인 스킨케어 제품은 피해 주세요.\n• 시술 후 1주 동안은 음주, 흡연, 사우나, 찜질방, 뜨거운 물 목욕 및 격한 운동을 피해 주세요. 🍷\n• 보습과 자외선 차단에 신경 써주시고, 당분간 산 성분 제품, 레티놀 및 기타 자극적인 스킨케어 제품은 피해 주세요. ☀️\n• 드물게 여드름이나 면포가 일시적으로 늘어나고 가벼운 건조함이나 각질이 나타날 수 있습니다. 이러한 증상은 보통 시간이 지나면서 점차 완화됩니다.\n• 붉어짐, 부기, 열감, 통증이 지속적으로 심해지거나 물집 또는 그 외 뚜렷한 불편감이 나타날 경우 병원으로 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n\n• 여드름, 피지 분비 및 전반적인 피부 컨디션은 일반적으로 시술 후 수주에 걸쳐 서서히 개선될 수 있습니다.\n\n✨ 레이저 (원데이 레이저) – 시술 후 주의사항 ✨\n\n• 시술 후 가벼운 따끔거림, 붉어짐, 부기 또는 건조함이 나타날 수 있으며, 대부분 시간이 지나면서 점차 완화됩니다.\n• 시술 당일부터 가볍게 세안 및 화장이 가능하며, 당분간 스크럽, 각질 제거 및 자극적인 스킨케어 제품은 피해 주세요.\n• 시술 후 1주 동안은 음주, 사우나, 찜질방, 뜨거운 물 목욕 및 격한 운동을 피해 주세요. 🍷\n• 보습과 자외선 차단에 신경 써주시고, 당분간 산 성분 제품, 레티놀 및 미백 제품 등 자극적인 스킨케어 제품은 피해 주세요. ☀️\n• 가벼운 딱지가 생긴 경우 억지로 떼어내지 말고 자연스럽게 떨어지도록 해주세요. 드물게 일시적으로 여드름이나 작은 발진이 나타날 수 있습니다.\n• 붉어짐, 부기, 열감, 통증, 가려움 또는 그 외 뚜렷한 불편감이 지속되거나 계속 심해질 경우 병원으로 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n\n• 색소 및 전반적인 피부 컨디션 개선은 서서히 나타나며, 여러 차례 시술을 받으면 변화가 더욱 뚜렷하게 나타날 수 있습니다.\n\n⚡ 포텐자 (POTENZA) – 시술 후 주의사항 ⚡\n\n• 시술 4시간 후부터 가볍게 세안 및 샤워가 가능하며, 다음 날부터 화장하셔도 됩니다. 당분간 스크럽, 각질 제거 및 자극적인 스킨케어 제품은 피해 주세요.\n• 시술 후 따끔거림, 붉어짐, 부기, 당기는 느낌, 멍 또는 가벼운 각질·딱지가 생길 수 있으며, 대부분 시간이 지나면서 점차 완화됩니다. 딱지는 억지로 떼어내지 마세요.\n• 시술 후 1주 동안은 음주, 흡연, 사우나, 찜질방, 뜨거운 물 목욕 및 격한 운동을 피해 주세요. 🍷\n• 보습, 피부 회복 및 자외선 차단에 신경 써주시고, 당분간 산 성분 제품, 레티놀 및 미백 제품 등 자극적인 스킨케어 제품은 피해 주세요. ☀️\n• 드물게 시술 후 일시적으로 여드름이나 작은 발진이 나타날 수 있습니다. 물집이 생기거나 화끈거림 또는 뚜렷한 통증이 지속되는 경우 즉시 병원으로 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n\n• 피부결, 모공 및 여드름 흉터 개선 효과는 서서히 나타나며, 일반적으로 수주 후부터 비교적 뚜렷하게 느낄 수 있습니다.\n• 여러 차례 시술을 받으면 전체적인 개선 효과가 더욱 뚜렷하게 나타날 수 있습니다.\n\n🌿 고우리 (GOURI) – 시술 후 관리 안내 🌿\n\n• 주사 부위에 가벼운 붉어짐, 부기, 압통 또는 멍이 생길 수 있으며, 시간이 지나면서 점차 완화됩니다.\n\n• 시술 후 가볍게 세안할 수 있고 다음 날부터 평소처럼 화장할 수 있습니다. 시술 부위를 문지르거나 과도하게 누르지 마세요.\n\n• 시술 후 1주일 동안은 음주, 흡연, 사우나, 찜질방 및 격한 운동을 피해 주세요. 🍷\n\n• 보습과 자외선 차단에 신경 써주시고, 시술 부위의 마사지, 괄사 도구 또는 미용기기 사용을 피해 주세요. ☀️\n\n• 붉어짐, 부기, 열감, 통증이 계속 심해지거나 피부색 이상, 뚜렷한 멍울 또는 시력 이상이 나타나면 즉시 병원으로 연락하거나 진료를 받아 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n\n• 일반적으로 약 2~4주 후부터 피부결과 탄력의 변화를 점차 느낄 수 있으며, 이후 콜라겐 생성에 따라 변화가 이어질 수 있습니다."
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A41:Q41",
+                "recordIds": [
+                  "W-20261114-T025"
+                ]
+              },
+              {
+                "id": "W-20261114-T026",
+                "kind": "ops",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "방문 지연 안내",
+                "verdict": "normal-ops",
+                "reason": "택시를 잡지 못해 늦는다는 고객의 연락에 직원이 조심히 오시라고 답해 방문 지연 안내가 마무리됐다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "note": "환자명: Subhangi Samal (직원 안내문 기재) · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Hello\nI wasnt finding any cab for the last 30minutes\nFinally found one and the drop off time shows 14:16 🙏🏻\nOn my way\nI am so sorry",
+                    "ko": "안녕하세요\n30분 동안 택시를 잡지 못했어요\n드디어 한 대를 찾았는데 도착 시간이 14:16으로 나와요 🙏🏻\n가는 중입니다\n정말 죄송합니다"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "Thank you for keeping us updated! Please travel safely, and we'll see you soon! 💗",
+                    "ko": "계속 알려 주셔서 감사합니다! 조심히 오세요, 곧 뵙겠습니다! 💗"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A61:Q61",
+                "recordIds": [
+                  "W-20261114-T026"
+                ]
+              },
+              {
+                "id": "W-20261114-T026-2",
+                "kind": "consult",
+                "country": null,
+                "procedure": "Eye XERF, Sofwave, 스킨 보톡스, 리쥬란 힐러·아이, 주름 보톡스·사각턱 보톡스, Radiesse",
+                "category": "시술 후 주의사항 안내",
+                "verdict": "followup",
+                "reason": "사각턱 보톡스를 받았는데 가이드 09 보톡스(사각턱·침샘) 항목의 약 1개월 동안 오래 씹거나 질기고 단단한 음식을 줄이라는 안내가 빠졌다. 나머지 시술 안내는 가이드 09의 영문 안내문과 같다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "note": "환자명: Subhangi Samal (직원 안내문 기재) · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "note": "직접 작성한 질문 없음 (병원이 먼저 보낸 안내)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "Thank you for visiting Beauty Blossom Clinic today! 😊\n\n📅 Visit Date: 2026/11/14\n👤 Name: Subhangi Samal\n\nBelow are the treatments you received today:\n\nEye XERF / Sofwave+Xeomin Full-Face Skin Botox / Rejuran Healer+Rejuran Eye / Coretox – Forehead, Glabella, Crow’s Feet, and Masseter Botox+Full-Neck Skin Botox / Radiesse\n\nPlease follow the aftercare instructions for each treatment listed below.\n\nIf you experience any discomfort or have any questions, please feel free to contact us anytime. Thank you! 💗\n\n👁️ Eye-Area Lifting Laser – Aftercare Instructions 👁️\n\n• Mild redness, swelling, warmth, tenderness, tightness, or temporary tingling or numbness may occur after treatment. These symptoms usually gradually improve over time.\n• You may gently wash your face, shower, and apply makeup from the day of treatment. When washing your face or removing makeup, avoid rubbing or pulling the eye area.\n• For 1 week after treatment, avoid alcohol, smoking, saunas, steam rooms, and strenuous exercise. 🍷\n• Keep the treated area well moisturized and apply sunscreen regularly. For the time being, avoid acidic skincare products, retinol, scrubs, and exfoliating products. ☀️\n• Avoid rubbing your eyes or strongly massaging the eye area. Please also avoid using gua sha or similar tools around the treated area for the time being.\n• If swelling continues to worsen, or if you experience severe pain, blisters, unusual changes in skin color, noticeable changes in sensation, or changes in vision, please contact the clinic or seek immediate medical attention. 📞\n\n⏳ When Will I See the Results?\n\n• Improvements in firmness, fine lines, and lifting around the eyes develop gradually rather than immediately after treatment.\n• Changes generally begin to become noticeable approximately 4–8 weeks after treatment, with results potentially becoming more noticeable over approximately 2–3 months.\n• The timing and degree of improvement may vary depending on the device used, treatment intensity, and individual skin condition.\n\n〰️ Sofwave – Aftercare Instructions 〰️\n\n• You may gently wash your face, shower, and apply makeup from the day of treatment.\n• Mild redness, swelling, warmth, tenderness, or a tight sensation may occur after treatment. These symptoms usually gradually improve within a few days.\n• For 1 week after treatment, avoid alcohol, smoking, saunas, steam rooms, and strenuous exercise. 🍷\n• Keep your skin well moisturized and apply sunscreen regularly. For the time being, avoid acidic skincare products, retinol, exfoliation, massage, and gua sha. ☀️\n• If you develop blisters, or if a burning sensation, significant pain, or swelling persists or continues to worsen, please contact the clinic immediately. 📞\n\n⏳ When Will I See the Results?\n\n• Improvements in firmness and lifting generally become more noticeable approximately 4–6 weeks after treatment.\n• The overall results may become more noticeable at around 3 months after treatment.\n\n💎 Skin Botox (Face / Neck) – Aftercare Instructions 💎\n\n• Mild redness, swelling, injection marks, tenderness, or bruising may occur at the injection sites. These symptoms usually gradually improve within a few days to 1–2 weeks.\n• You may gently wash your face and shower 4 hours after the treatment. You may apply makeup as usual from the following day.\n• For 2 weeks after treatment, avoid alcohol, smoking, saunas, steam rooms, strenuous exercise, and at-home beauty devices. 🍷\n• For 2 weeks after treatment, avoid rubbing or applying strong pressure to the treated areas. Please also avoid massage and gua sha.\n• During the initial period after treatment, some patients may experience mild tightness, a slightly unusual feeling when making facial expressions, or localized weakness. In rare cases, treatment around the neck may temporarily cause neck weakness or difficulty swallowing.\n• If redness, swelling, warmth, pain, itching, or other noticeable discomfort persists or worsens, please contact the clinic. 📞\n\n⏳ When Will I See the Results?\n\n• Improvements in skin texture, fine lines, or firmness generally become more noticeable after approximately 1–2 weeks.\n\n💧 Rejuran Healer / I – Aftercare Instructions 💧\n\n• Mild redness, swelling, bruising, itching, or localized bumps may occur after treatment. Small bumps on the skin surface usually subside naturally within approximately 2–3 days.\n• You may gently wash your face and shower 4 hours after treatment. You may apply makeup as usual from the following day.\n• For 1 week after treatment, avoid alcohol, smoking, saunas, steam rooms, and strenuous exercise. 🍷\n• Keep your skin well moisturized, support skin recovery, and apply sunscreen regularly. For the time being, avoid acidic skincare products, retinol, exfoliation, massage, and gua sha. ☀️\n• If redness, swelling, warmth, pain, itching, or other noticeable discomfort persists or continues to worsen, please contact the clinic. 📞\n\n👁️ Additional Precautions for Rejuran I Around the Eyes\n\n• Swelling, bruising, or localized bumps may be more noticeable around the eyes than in other areas. These symptoms usually gradually improve over time.\n• Avoid rubbing your eyes, applying pressure around the eye area, or massaging the treated area. Please also be gentle when washing your face or removing makeup.\n\n⏳ When Will I See the Results?\n\n• Improvements in skin texture, smoothness, and firmness generally become more noticeable approximately 2–4 weeks after treatment.\n\n😊 Wrinkle Botox  – Aftercare Instructions 😊\n\n• Mild redness, swelling, tenderness, or bruising may occur at the injection sites. These symptoms usually gradually improve within a few days to 1–2 weeks.\n• You may gently wash your face and shower 4 hours after the treatment. You may apply makeup as usual from the following day.\n• For 2 weeks after treatment, avoid alcohol, smoking, saunas, steam rooms, strenuous exercise, and at-home beauty devices. 🍷\n• For 2 weeks after treatment, avoid rubbing or applying strong pressure to the treated areas. Please also avoid facial massage and gua sha.\n• In rare cases, temporary heaviness around the eyebrows, asymmetry of the eyebrows or eyes, or drooping of the eyelids or eyebrows may occur. If these symptoms are severe or continue to worsen, please contact the clinic. 📞\n\n⏳ When Will I See the Results?\n• The effects generally become more noticeable and stabilize within approximately 1–2 weeks after treatment.\n• Results generally last for approximately 3 months.\n\n💎 RADIESSE – Aftercare Instructions 💎\n\n• Mild swelling, redness, tenderness, bruising, or localized firmness may occur at the injection sites. These symptoms usually gradually improve within a few days to 1–2 weeks.\n• You may gently wash your face and shower 4 hours after treatment. You may apply makeup as usual from the following day.\n• Apply regenerative tape to any small wound sites for approximately 1 week. Replace the tape daily and keep the areas clean. 🩹\n• For 1 week after treatment, avoid alcohol, smoking, saunas, steam rooms, and strenuous exercise. 🍷\n• For 1–2 weeks after treatment, avoid strongly rubbing or kneading the treated areas, as well as massage, gua sha, or pressure. When sleeping, avoid prolonged pressure on the treated areas.\n• If you have been prescribed medication, please take it at the scheduled times as directed. 💊\n• If redness, swelling, warmth, or pain continues to worsen, or if you notice a significant firm lump or any other unusual symptoms, please contact the clinic. 📞\n\n⏳ When Will I See the Results?\n\n• Initial changes may be visible immediately after treatment. Improvements in firmness and facial contour from collagen production generally become more noticeable approximately 4–8 weeks after treatment.",
+                    "ko": "오늘 Beauty Blossom Clinic에 방문해 주셔서 감사합니다! 😊\n\n📅 방문일: 2026/11/14\n👤 이름: Subhangi Samal\n\n오늘 받으신 시술 항목은 아래와 같습니다:\n\nEye XERF / Sofwave+Xeomin 얼굴 전체 스킨 보톡스 / 리쥬란 힐러+리쥬란 아이 / Coretox – 이마, 미간, 눈가 주름, 사각턱 보톡스+목 전체 스킨 보톡스 / Radiesse\n\n아래에 안내된 각 시술별 시술 후 주의사항을 따라 주세요.\n\n불편한 증상이 있거나 궁금한 점이 있으시면 언제든지 편하게 문의해 주세요. 감사합니다! 💗\n\n👁️ 눈가 리프팅 레이저 – 시술 후 주의사항 👁️\n\n• 시술 후 가벼운 붉어짐, 부기, 열감, 압통, 당기는 느낌 또는 일시적으로 찌릿하거나 저린 느낌이 나타날 수 있으며, 대부분 시간이 지나면서 점차 완화됩니다.\n• 시술 당일부터 가볍게 세안, 샤워 및 화장이 가능합니다. 세안이나 클렌징 시에는 눈가를 문지르거나 당기지 않도록 주의해 주세요.\n• 시술 후 1주 동안은 음주, 흡연, 사우나, 찜질방 및 격한 운동을 피해 주세요. 🍷\n• 충분한 보습과 자외선 차단에 신경 써주시고, 당분간 산 성분 제품, 레티놀, 스크럽 및 각질 제거 제품의 사용은 피해 주세요. ☀️\n• 시술 부위에 자극이 가지 않도록 눈을 비비거나 눈가를 강하게 마사지하지 마시고, 괄사 등의 사용도 당분간 피해 주세요.\n• 부기가 지속적으로 심해지거나 심한 통증, 물집, 피부색의 이상 변화, 뚜렷한 감각 이상 또는 시력 이상이 나타날 경우 즉시 병원으로 연락하거나 의료기관을 방문해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n\n• 눈가 탄력, 잔주름 및 리프팅 효과는 시술 직후보다는 서서히 나타납니다.\n• 일반적으로 시술 후 4~8주부터 변화를 느끼기 시작하며, 약 2~3개월에 걸쳐 효과가 더욱 뚜렷하게 나타날 수 있습니다.\n• 효과가 나타나는 시기와 정도는 사용된 장비, 시술 강도 및 개인의 피부 상태에 따라 차이가 있을 수 있습니다.\n\n〰️ 소프웨이브(Sofwave) – 시술 후 주의사항 〰️\n\n• 시술 당일부터 가볍게 세안, 샤워 및 화장이 가능합니다.\n• 시술 후 가벼운 붉어짐, 부기, 열감, 압통 또는 당기는 느낌이 나타날 수 있으며, 대부분 수일 이내에 점차 완화됩니다.\n• 시술 후 1주 동안은 음주, 흡연, 사우나, 찜질방 및 격한 운동을 피해 주세요. 🍷\n• 보습과 자외선 차단에 신경 써주시고, 당분간 산 성분 제품, 레티놀, 각질 제거, 마사지 및 괄사 사용은 피해 주세요. ☀️\n• 물집이 생기거나 화끈거림, 뚜렷한 통증 또는 부기가 지속되거나 계속 심해지는 경우 즉시 병원으로 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n\n• 일반적으로 약 4~6주 후부터 탄력 및 리프팅 변화를 비교적 뚜렷하게 느낄 수 있습니다.\n• 약 3개월 전후에는 전체적인 효과가 더욱 뚜렷하게 나타날 수 있습니다.\n\n💎 스킨 보톡스 (얼굴 / 목) – 시술 후 주의사항 💎\n\n• 주사 부위에 가벼운 붉어짐, 부기, 주사 자국, 압통 또는 멍이 생길 수 있으며, 대부분 수일에서 1~2주 이내에 점차 완화됩니다.\n• 시술 4시간 후부터 가볍게 세안 및 샤워가 가능하며, 다음 날부터 평소처럼 화장하셔도 됩니다.\n• 시술 후 2주 동안은 음주, 흡연, 사우나, 찜질방, 격한 운동 및 집에서 쓰는 미용기기 사용을 피해 주세요. 🍷\n• 시술 후 2주 동안은 시술 부위를 문지르거나 강하게 누르지 마시고, 마사지 및 괄사 사용도 피해 주세요.\n• 시술 초기에는 일부에서 가벼운 당김, 표정이 다소 어색한 느낌 또는 국소적인 힘 빠짐이 나타날 수 있습니다. 목 부위 시술 후에는 드물게 일시적인 목의 힘 빠짐이나 삼킴 불편감이 나타날 수 있습니다.\n• 붉어짐, 부기, 열감, 통증, 가려움 또는 그 외 뚜렷한 불편감이 지속되거나 계속 심해질 경우 병원으로 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n\n• 일반적으로 약 1~2주 후부터 피부결, 잔주름 또는 탄력감의 변화를 비교적 뚜렷하게 느낄 수 있습니다.\n\n💧 리쥬란 힐러 / I – 시술 후 주의사항 💧\n\n• 시술 후 붉어짐, 부기, 멍, 가려움 또는 국소적인 엠보싱이 나타날 수 있으며, 피부 표면의 엠보싱은 대부분 약 2~3일 이내에 자연스럽게 가라앉습니다.\n• 시술 4시간 후부터 가볍게 세안 및 샤워가 가능하며, 다음 날부터 평소처럼 화장하셔도 됩니다.\n• 시술 후 1주 동안은 음주, 흡연, 사우나, 찜질방 및 격한 운동을 피해 주세요. 🍷\n• 보습, 피부 회복 및 자외선 차단에 신경 써주시고, 당분간 산 성분 제품, 레티놀, 각질 제거, 마사지 및 괄사 사용은 피해 주세요. ☀️\n• 붉어짐, 부기, 열감, 통증, 가려움 또는 그 외 뚜렷한 불편감이 지속되거나 계속 심해질 경우 병원으로 연락해 주세요. 📞\n\n👁️ 눈가 리쥬란 I 시술 시 추가 주의사항\n\n• 눈가 시술 후에는 부기, 멍 또는 국소적인 엠보싱이 다른 부위보다 더 두드러질 수 있으며, 대부분 시간이 지나면서 점차 완화됩니다.\n• 눈을 비비거나 눈가를 누르거나 마사지하지 마시고, 세안 및 클렌징 시에도 부드럽게 관리해 주세요.\n\n⏳ 효과는 언제부터 나타나나요?\n\n• 일반적으로 약 2~4주 후부터 피부결, 피부의 매끄러움 및 탄력 변화를 비교적 뚜렷하게 느낄 수 있습니다.\n\n😊 주름 보톡스 – 시술 후 주의사항 😊\n\n• 주사 부위에 가벼운 붉어짐, 부기, 압통 또는 멍이 생길 수 있으며, 대부분 수일에서 1~2주 이내에 점차 완화됩니다.\n• 시술 4시간 후부터 가볍게 세안 및 샤워가 가능하며, 다음 날부터 평소처럼 화장하셔도 됩니다.\n• 시술 후 2주 동안은 음주, 흡연, 사우나, 찜질방, 격한 운동 및 집에서 쓰는 미용기기 사용을 피해 주세요. 🍷\n• 시술 후 2주 동안은 시술 부위를 문지르거나 강하게 누르지 마시고, 얼굴 마사지 및 괄사 사용도 피해 주세요.\n• 드물게 일시적으로 눈썹이 눌리는 듯한 느낌, 눈썹이나 눈매의 비대칭, 눈꺼풀 또는 눈썹 처짐이 나타날 수 있습니다. 증상이 심하거나 지속적으로 악화되는 경우 병원으로 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n• 효과는 일반적으로 시술 후 약 1~2주 이내에 더욱 뚜렷해지고 안정됩니다.\n• 효과는 일반적으로 약 3개월 정도 유지됩니다.\n\n💎 레디어스(RADIESSE) – 시술 후 주의사항 💎\n\n• 주사 부위에 가벼운 부기, 붉어짐, 압통, 멍 또는 국소적인 단단한 느낌이 나타날 수 있으며, 대부분 수일에서 1~2주 이내에 점차 완화됩니다.\n• 시술 4시간 후부터 가볍게 세안 및 샤워가 가능하며, 다음 날부터 평소처럼 화장하셔도 됩니다.\n• 시술 후 작은 상처 부위에는 약 1주일 동안 재생 테이프를 부착해 주세요. 매일 새것으로 교체하고 상처 부위를 청결하게 유지해 주세요. 🩹\n• 시술 후 1주 동안은 음주, 흡연, 사우나, 찜질방 및 격한 운동을 피해 주세요. 🍷\n• 시술 후 1~2주 동안은 시술 부위를 강하게 문지르거나 주무르지 마시고, 마사지, 괄사 또는 압박도 피해 주세요. 수면 시에도 시술 부위가 장시간 눌리지 않도록 주의해 주세요.\n• 처방약을 받은 경우 안내에 따라 정해진 시간에 복용해 주세요. 💊\n• 붉어짐, 부기, 열감, 통증이 지속적으로 심해지거나 뚜렷한 단단한 멍울 또는 그 외 이상 증상이 나타날 경우 병원으로 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n\n• 시술 직후부터 초기 변화를 확인할 수 있으며, 약 4~8주 후부터 콜라겐 생성에 따른 탄력 및 윤곽 변화를 더욱 뚜렷하게 느낄 수 있습니다."
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A62:Q62",
+                "recordIds": [
+                  "W-20261114-T026-2"
+                ]
+              },
+              {
+                "id": "W-20261114-T027",
+                "kind": "ops",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "세금 환급 문의",
+                "verdict": "normal",
+                "reason": "가이드에는 세금 환급 안내가 없고, 공식 자료인 조세특례제한법 제107조의3은 외국인관광객 미용성형 의료용역 환급을 2025년 12월 31일까지 공급받은 의료용역에 한정한다. 현재 병원과 공항 모두 환급이 안 된다는 담당자의 안내와 맞는다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "note": "환자명: Manele Zamoun (직원 안내문 기재) · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Hello this is Manele Zamoun\nI just left the clinic\nI was wondering if i could have the the tax refund :)",
+                    "ko": "안녕하세요, Manele Zamoun입니다\n방금 병원에서 나왔어요\n세금 환급을 받을 수 있을지 궁금합니다 :)"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "I passed earlier and I was wondering if I needed any document for the tax refund ?",
+                    "ko": "아까 방문했는데 세금 환급을 위해 필요한 서류가 있는지 궁금합니다 ?"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "Hello!  Unfortunately, due to changes to Korea’s tax refund policy for cosmetic and dermatological treatments, tax refunds are currently unavailable at both the clinic and the airport, so we’re unable to issue tax refund documents..!",
+                    "ko": "안녕하세요!  안타깝게도 한국의 미용·피부과 시술 세금 환급 정책이 변경되어 현재 병원과 공항 모두에서 세금 환급이 불가능하여 세금 환급 서류를 발급해 드릴 수 없습니다..!"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A63:Q63",
+                "recordIds": [
+                  "W-20261114-T027"
+                ]
+              },
+              {
+                "id": "W-20261114-T027-2",
+                "kind": "consult",
+                "country": null,
+                "procedure": "원데이 시그니처 4레이저·아쿠아필",
+                "category": "시술 후 주의사항",
+                "verdict": "normal",
+                "reason": "가이드 09의 레이저(원데이)와 필링 시술 후 안내 문구가 담당자가 보낸 안내문과 같다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "note": "환자명: Manele Zamoun (직원 안내문 기재) · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "note": "직접 작성한 질문 없음 (병원이 먼저 보낸 안내)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "Thank you for visiting Beauty Blossom Clinic today! 😊\n\n📅 Visit Date: 2026/11/14\n👤 Name: Manele Zamoun\n\nBelow are the treatments you received today:\n\nOne-Day Signature 4-Laser Treatment / Aqua Peel\n\nPlease follow the aftercare instructions for each treatment listed below.\n\nIf you experience any discomfort or have any questions, please feel free to contact us anytime. Thank you! 💗\n\n\"✨ Laser (PicoSure / Accu Toning / One-Day Laser) – Aftercare Instructions ✨\n\n• Mild stinging, redness, swelling, or dryness may occur after treatment. These symptoms usually gradually improve over time.\n• You may gently wash your face and apply makeup from the day of treatment. For the time being, avoid scrubs, exfoliation, and irritating skincare products.\n• For 1 week after treatment, avoid alcohol, saunas, steam rooms, hot baths, and strenuous exercise. 🍷\n• Keep your skin well moisturized and apply sunscreen regularly. For the time being, avoid irritating skincare products such as acidic products, retinol, and brightening products. ☀️\n• If mild scabbing occurs, do not pick or remove the scabs. Allow them to fall off naturally. In rare cases, temporary acne or small rashes may occur.\n• If redness, swelling, warmth, pain, itching, or other noticeable discomfort persists or continues to worsen, please contact the clinic. 📞\n\n⏳ When Will I See the Results?\n\n• Improvements in pigmentation and overall skin condition develop gradually, and changes may become more noticeable after multiple treatment sessions.\n\n🍃 Peeling – Aftercare Instructions 🍃\n\n• Mild redness, warmth, stinging, itching, or dryness may occur after treatment. These symptoms usually gradually improve within a few hours to 1 day.\n• You may gently wash your face, shower, and apply makeup from the day of treatment. For the time being, avoid alcohol-based products, acidic skincare products, retinol, brightening products, and other irritating skincare products.\n• Mild flaking, small scabs, or acne may occur after treatment. Do not pick, peel, or touch the affected areas unnecessarily. Allow them to improve naturally.\n• For the time being, avoid saunas, steam rooms, strenuous exercise, alcohol, and smoking. 🍷\n• Keep your skin well moisturized and apply sunscreen regularly. Minimize sun exposure and avoid excessive rubbing of the skin. ☀️\n• If redness, swelling, warmth, pain, itching, or other noticeable discomfort persists or continues to worsen, please contact the clinic. 📞\n\n⏳ When Will I See the Results?\n\n• Improvements in skin texture, sebum production, and overall skin condition may gradually become noticeable over several days to several weeks after treatment.",
+                    "ko": "오늘 Beauty Blossom Clinic에 방문해 주셔서 감사합니다! 😊\n\n📅 방문일: 2026/11/14\n👤 이름: Manele Zamoun\n\n오늘 받으신 시술은 아래와 같습니다:\n\n원데이 시그니처 4레이저 시술 / 아쿠아필\n\n아래에 안내된 시술별 시술 후 주의사항을 따라 주세요.\n\n불편한 점이 있거나 궁금한 점이 있으시면 언제든지 편하게 문의해 주세요. 감사합니다! 💗\n\n\"✨ 레이저 (피코슈어 / 아큐토닝 / 원데이 레이저) – 시술 후 주의사항 ✨\n\n• 시술 후 가벼운 따끔거림, 붉어짐, 부기 또는 건조함이 나타날 수 있으며, 대부분 시간이 지나면서 점차 완화됩니다.\n• 시술 당일부터 가볍게 세안 및 화장이 가능하며, 당분간 스크럽, 각질 제거 및 자극적인 스킨케어 제품은 피해 주세요.\n• 시술 후 1주 동안은 음주, 사우나, 찜질방, 뜨거운 물 목욕 및 격한 운동을 피해 주세요. 🍷\n• 보습과 자외선 차단에 신경 써주시고, 당분간 산 성분 제품, 레티놀 및 미백 제품 등 자극적인 스킨케어 제품은 피해 주세요. ☀️\n• 가벼운 딱지가 생긴 경우 억지로 떼어내지 말고 자연스럽게 떨어지도록 해주세요. 드물게 일시적으로 여드름이나 작은 발진이 나타날 수 있습니다.\n• 붉어짐, 부기, 열감, 통증, 가려움 또는 그 외 뚜렷한 불편감이 지속되거나 계속 심해질 경우 병원으로 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n\n• 색소 및 전반적인 피부 컨디션 개선은 서서히 나타나며, 여러 차례 시술을 받으면 변화가 더욱 뚜렷하게 나타날 수 있습니다.\n\n🍃 필링 – 시술 후 주의사항 🍃\n\n• 시술 후 가벼운 붉어짐, 열감, 따끔거리거나 가려운 느낌 또는 건조함이 나타날 수 있으며, 대부분 수시간에서 1일 이내에 점차 완화됩니다.\n• 시술 당일부터 가볍게 세안, 샤워 및 화장이 가능하며, 당분간 알코올 성분, 산 성분 제품, 레티놀, 미백 제품 및 기타 자극적인 스킨케어 제품은 피해 주세요.\n• 시술 후 가벼운 각질, 작은 딱지 또는 여드름이 나타날 수 있으므로 억지로 떼어내거나 손대지 말고 자연스럽게 호전되도록 해주세요.\n• 시술 후 당분간 사우나, 찜질방, 격한 운동, 음주 및 흡연을 피해 주세요. 🍷\n• 보습과 자외선 차단에 신경 써주시고, 햇빛 노출과 피부를 과도하게 문지르는 행동은 줄여주세요. ☀️\n• 붉어짐, 부기, 열감, 통증, 가려움 또는 그 외 뚜렷한 불편감이 지속되거나 계속 심해질 경우 병원으로 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n\n• 피부결, 피지 분비 및 전반적인 피부 컨디션은 일반적으로 시술 후 수일에서 수주에 걸쳐 점차 개선될 수 있습니다."
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A64:Q64",
+                "recordIds": [
+                  "W-20261114-T027-2"
+                ]
+              },
+              {
+                "id": "W-20261114-T028",
+                "kind": "ops",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "방문 지연 안내",
+                "verdict": "normal-ops",
+                "reason": "고객이 15분 늦는다고 알리자 직원이 괜찮으니 천천히 오시라고 답해 방문 지연 안내가 마무리됐다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "note": "환자명: Marina Gross · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Hello ☺️ I'm so sorry, i might be 15 minutes later 🫤",
+                    "ko": "안녕하세요 ☺️ 정말 죄송해요, 15분 정도 늦을 것 같아요 🫤"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Thank you! 😊",
+                    "ko": "감사합니다! 😊"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "It's okay, take your time! :)",
+                    "ko": "괜찮아요, 천천히 오세요! :)"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "See you soon 😀",
+                    "ko": "곧 뵙겠습니다 😀"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=106234537&range=A34:Q34",
+                "recordIds": [
+                  "W-20261114-T028"
+                ]
+              },
+              {
+                "id": "W-20261114-T028-2",
+                "kind": "consult",
+                "country": null,
+                "procedure": "레이저 제모, CO₂ 레이저(점)",
+                "category": "시술 후 주의사항 안내",
+                "verdict": "fix",
+                "severity": "confirmed",
+                "reason": "가이드 09는 CO₂ 레이저 시술 후 1주 동안 시술 부위에 물이 직접 닿지 않게 하라고 안내하는데, 담당자가 보낸 안내문은 약 2~3일이라고 적었다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "note": "환자명: Marina Gross · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Thank you so much! I had a great experience and I will come back ☺️",
+                    "ko": "정말 감사합니다! 정말 좋은 경험이었고 다시 올게요 ☺️"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "Thank you for visiting Beauty Blossom Clinic today! 😊\n\n📅 Visit Date: 2026/11/14\n👤 Name: Marina Gross\n\nBelow are the treatments you received today:\n\nLaser Hair Removal / CO₂ Laser\n\nPlease follow the aftercare instructions for each treatment listed below.\n\nIf you experience any discomfort or have any questions, please feel free to contact us anytime. Thank you! 💗\n\n✨ Laser Hair Removal (Apogee Plus) – Aftercare Instructions ✨\n\n• Mild redness, swelling, or warmth may occur after treatment. These symptoms usually gradually improve within a few hours to 1–2 days.\n• Keep the treated area well moisturized and protected from sun exposure. Avoid excessive rubbing or irritation of the treated area. ☀️\n• For the time being, avoid saunas, steam rooms, hot springs, and strenuous exercise.\n• In rare cases, temporary folliculitis or small bumps may occur. These symptoms usually gradually improve over time.\n• If you have been provided with a topical ointment, apply it to the treated area as instructed. 🧴\n• If redness, swelling, pain, burning, or symptoms of folliculitis persist or continue to worsen, please contact the clinic. 📞\n\n⏳ When Will I See the Results?\n\n• With repeated treatments, the hair may gradually become finer and less dense, and the rate of hair growth may also slow down.\n\n🔘 CO₂ Laser (Moles) – Aftercare Instructions 🔘\n\n• For approximately 2–3 days after treatment, avoid getting the treated areas directly wet. Do not touch, rub, or scratch the treated areas.\n• Use regenerative tape or ointment as instructed by the clinic. If fluid accumulates under the tape, or if the tape falls off or becomes contaminated, replace it with a new one.\n• If scabs form, do not pick or remove them. Allow them to fall off naturally. This may help reduce the risk of pigmentation and scarring.\n• Take extra care of the treated areas until the scabs have fallen off. Afterward, keep the skin well moisturized and apply sunscreen regularly to help prevent post-treatment pigmentation. ☀️\n• We recommend waiting until the wounds have stabilized and the scabs have naturally fallen off before applying makeup. This is generally possible after approximately 5–7 days.\n• Avoid alcohol, smoking, saunas, steam rooms, and strenuous exercise until the skin has fully recovered. 🍷\n• If redness, swelling, warmth, or pain continues to worsen, or if you develop signs of inflammation or any other noticeable abnormal symptoms, please contact the clinic. 📞\n\n📌 Special Considerations\n\nMoles\n\n• Darker or deeper moles may not be completely removed in a single session. If additional treatment is needed, we recommend allowing the skin to fully recover before having the area reassessed by the medical staff.\n\nFlat Warts\n• Flat warts are associated with a viral infection, so new lesions may develop even after the existing lesions have been removed.\n\n⏳ How Long Does Recovery Take?\n\n• Scabs generally begin to fall off naturally after approximately 5–7 days. Localized redness may last longer and gradually fade over time.",
+                    "ko": "오늘 Beauty Blossom Clinic에 방문해 주셔서 감사합니다! 😊\n\n📅 방문일: 2026/11/14\n👤 이름: Marina Gross\n\n오늘 받으신 시술 항목은 아래와 같습니다:\n\n레이저 제모 / CO₂ 레이저\n\n아래에 안내된 각 시술별 시술 후 주의사항을 따라 주세요.\n\n불편한 증상이 있거나 궁금한 점이 있으시면 언제든지 편하게 문의해 주세요. 감사합니다! 💗\n\n✨ 레이저 제모 (아포지 플러스) – 시술 후 주의사항 ✨\n\n• 시술 후 가벼운 붉어짐, 부기 또는 열감이 나타날 수 있으며, 대부분 수시간에서 1~2일 이내에 점차 완화됩니다.\n• 시술 후에는 보습과 자외선 차단에 신경 써주시고, 시술 부위를 과도하게 문지르거나 자극하지 않도록 주의해 주세요. ☀️\n• 시술 후 당분간 사우나, 찜질방, 온천 및 격한 운동은 피해 주세요.\n• 드물게 일시적으로 모낭염이나 작은 뾰루지가 나타날 수 있으나, 대부분 시간이 지나면서 점차 완화됩니다.\n• 외용 연고를 제공받은 경우 안내에 따라 시술 부위에 발라 주세요. 🧴\n• 붉어짐, 부기, 통증, 화끈거림 또는 모낭염 증상이 지속되거나 계속 심해지는 경우 병원으로 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n\n• 시술을 반복하면서 털이 점차 가늘어지고 양이 줄어들며, 자라는 속도도 느려질 수 있습니다.\n\n🔘 CO₂ 레이저 (점) – 시술 후 주의사항 🔘\n\n• 시술 후 약 2~3일 동안은 시술 부위가 직접 물에 닿지 않도록 해 주세요. 시술 부위를 만지거나 문지르거나 긁지 마세요.\n• 병원의 안내에 따라 재생 테이프나 연고를 사용해 주세요. 테이프 아래에 진물이 고이거나 테이프가 떨어지거나 오염된 경우 새것으로 교체해 주세요.\n• 딱지가 생긴 경우 억지로 떼어내지 말고 자연스럽게 떨어지도록 해주세요. 색소침착이나 흉터 발생 위험을 줄이는 데 도움이 됩니다.\n• 딱지가 떨어지기 전까지는 상처 관리에 신경 써주시고, 딱지가 떨어진 후에는 보습과 자외선 차단을 충분히 해주세요. 시술 후 색소침착 예방에 도움이 됩니다. ☀️\n• 화장은 상처가 안정되고 딱지가 자연스럽게 떨어진 후 하는 것을 권장하며, 일반적으로 약 5~7일 후부터 가능합니다.\n• 피부가 완전히 회복되기 전까지는 음주, 흡연, 사우나, 찜질방 및 격한 운동을 피해 주세요. 🍷\n• 붉어짐, 부기, 열감, 통증이 지속적으로 심해지거나 염증 또는 그 외 뚜렷한 이상 증상이 나타날 경우 병원으로 연락해 주세요. 📞\n\n📌 특수한 경우\n\n점\n\n• 색소가 진하거나 깊은 곳에 위치한 점은 한 번의 시술로 완전히 제거되지 않을 수 있습니다. 추가 시술이 필요한 경우 피부가 충분히 회복된 후 의료진의 진료를 통해 다시 평가하는 것을 권장합니다.\n\n편평사마귀\n• 편평사마귀는 바이러스 감염과 관련이 있어 병변을 제거한 후에도 새로운 병변이 다시 생길 수 있습니다.\n\n⏳ 회복에는 얼마나 걸리나요?\n\n• 일반적으로 딱지는 약 5~7일 전후로 점차 떨어지며, 국소적인 붉어짐은 그보다 오래 지속된 후 서서히 옅어질 수 있습니다."
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Thank you so much for your kind words! ☺️ We’re delighted to hear you had a lovely experience with us. We look forward to welcoming you back!",
+                    "ko": "따뜻한 말씀 정말 감사합니다! ☺️ 저희와 좋은 경험을 하셨다니 기쁩니다. 다시 찾아와 주시길 기다리겠습니다!"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=106234537&range=A35:Q35",
+                "recordIds": [
+                  "W-20261114-T028-2"
+                ]
+              },
+              {
+                "id": "W-20261114-T029",
+                "kind": "consult",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "예약 가능일·가격표 문의",
+                "verdict": "normal",
+                "reason": "담당자가 보낸 홍콩 홈페이지 이벤트 목록 링크는 병원 공식 홈페이지의 가격 이벤트 페이지이고, 12월 27일 일요일 10시부터 3시까지 예약 가능하다는 안내는 가이드의 주말 마지막 예약 시간 3시30분과 맞다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "note": "환자명: Ura.naill · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "hiiiii im from hongkong, i would like make a appointment on coming Dec 27, would it available? and can i have the price list? thanks",
+                    "ko": "안녕하세요, 저는 홍콩에서 왔어요. 다가오는 12월 27일에 예약하고 싶은데 가능할까요? 가격표도 받을 수 있을까요? 감사합니다"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "您好😊🌸\n\n呢個係我哋完整嘅優惠價目表✨\n可以先參考以下連結👇\nhttps://hk.beautyblossom.kr/events \n\n如果有感興趣嘅療程，或者唔清楚邊個療程適合自己，都可以隨時問我哋😊🤍",
+                    "ko": "안녕하세요😊🌸\n\n여기 저희 전체 이벤트 가격표입니다✨\n먼저 아래 링크를 참고해 주세요👇\nhttps://hk.beautyblossom.kr/events \n\n관심 있는 시술이 있거나 어떤 시술이 본인에게 맞는지 잘 모르시겠으면 언제든지 편하게 물어봐 주세요😊🤍"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "12月27號10點至3點都可以預約～",
+                    "ko": "12월 27일 10시부터 3시까지 예약 가능합니다~"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=106234537&range=A36:Q36",
+                "recordIds": [
+                  "W-20261114-T029"
+                ]
+              },
+              {
+                "id": "W-20261114-T030",
+                "kind": "ops",
+                "country": null,
+                "procedure": "피코슈어 레이저(색소)",
+                "category": "예약 문의",
+                "verdict": "normal-ops",
+                "reason": "고객이 11월 27일 오후 피코슈어 시술 예약을 요청했고 담당자가 해당 날짜 예약을 도와주겠다며 희망 시각을 물어 예약 접수를 이어갔다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "note": "환자명: Connie Nga Yee Chan · 방문 구분: 재진 (근거: \"My last visit was on 7/25/26.\")"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Carrying on the chat from Unni: I’ll be back in Seoul this month on the 27th and want to repeat the picosure/laser for pigmentation concern.  My last visit was on 7/25/26.",
+                    "ko": "강남언니에서 이어서 문의드립니다: 이번 달 27일에 서울에 다시 와서 색소 고민으로 받았던 피코슈어/레이저를 다시 받고 싶습니다.  마지막 방문은 2026년 7월 25일이었습니다."
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "1. Connie Nga Yee Chan\n2. [생년월일 가림]\n3. US/English\n4. 11/27/26 anytime in the afternoon\n5. PicoSure laser for pigmentation. Open to other treatments but not thermage and ultherapy as I’d done those back in April this year",
+                    "ko": "1. Connie Nga Yee Chan\n2. [생년월일 가림]\n3. 미국/영어\n4. 2026년 11월 27일 오후 아무 때나\n5. 색소를 위한 피코슈어 레이저. 다른 시술도 괜찮지만, 올해 4월에 이미 받았기 때문에 써마지와 울쎄라는 원하지 않습니다"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "Hello! 😊 We’d be happy to help you book an appointment for November 27. Could you please let us know your preferred time so we can assist with your booking? :)",
+                    "ko": "안녕하세요! 😊 11월 27일 예약을 기꺼이 도와드리겠습니다. 예약을 도와드릴 수 있도록 희망하시는 시간을 알려 주시겠어요? :)"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A52:Q52",
+                "recordIds": [
+                  "W-20261114-T030"
+                ]
+              },
+              {
+                "id": "W-20261114-T031",
+                "kind": "ops",
+                "country": null,
+                "procedure": "리프팅·보습(미정)",
+                "category": "예약·상담비 문의",
+                "verdict": "normal-ops",
+                "reason": "고객이 상담만 받고 시술하지 않을 때의 비용을 묻자 직원이 상담비 10,000원을 안내했고, 가이드 08의 예약 확정 문구도 상담비 10,000원으로 같다. 예약 가능 시간으로 안내한 10~18시는 가이드 07의 평일 진료시간(10:00~20:00) 안이고, 확정 안내의 주소와 구글 지도 링크는 가이드 08 영문 양식과 같다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "note": "환자명: lee yin shan and lam siu Kei · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Hi",
+                    "ko": "안녕하세요"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Chinese or Cantonese?",
+                    "ko": "중국어인가요, 광둥어인가요?"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "請問11月27號有位嗎？",
+                    "ko": "11월 27일에 자리가 있나요?"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "想預約",
+                    "ko": "예약하고 싶어요"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "1. Full name: lee yin shan and lam siu Kei \n2. Date of birth: [생년월일 가림] & [생년월일 가림]\n3. Nationality & Preferred language: Hong Kong , Cantonese \n4. Preferred date & time: Nov 27 11:00\n5. Desired treatment:  not decided yet ,提拉及保濕\n6. How you found us:\n(Ex: Instagram, referral, etc) instagram",
+                    "ko": "1. 성함: lee yin shan and lam siu Kei \n2. 생년월일: [생년월일 가림] & [생년월일 가림]\n3. 국적 및 선호 언어: 홍콩, 광둥어 \n4. 희망 날짜 및 시간: 11월 27일 11:00\n5. 희망 시술:  아직 정하지 않음, 리프팅 및 보습\n6. 알게 된 경로:\n(예: 인스타그램, 지인 소개 등) instagram"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "係咪諮詢咗先決定做療程？？",
+                    "ko": "먼저 상담을 받아 보고 나서 시술을 결정하는 건가요??"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "如果諮詢完決定唔做，有冇任何收費？",
+                    "ko": "상담 후 시술을 하지 않기로 하면 비용이 있나요?"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "Hello!有咩可以幫你？",
+                    "ko": "안녕하세요! 무엇을 도와드릴까요?"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "呢個係我哋完整嘅優惠價目表✨\n可以先參考以下連結👇\nhttps://hk.beautyblossom.kr/events \n如果有感興趣嘅療程，或者唔清楚邊個療程適合自己，都可以隨時問我哋😊🤍",
+                    "ko": "이것이 저희의 전체 할인 가격표예요✨\n먼저 아래 링크를 참고해 주세요👇\nhttps://hk.beautyblossom.kr/events \n관심 있는 시술이 있거나 어떤 시술이 맞을지 잘 모르시겠으면 언제든 문의해 주세요😊🤍"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Cantonese ok ar!",
+                    "ko": "광둥어 괜찮아요!"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "有的！",
+                    "ko": "네, 있습니다!"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "10點到6點都可以預約～",
+                    "ko": "10시부터 6시까지 모두 예약 가능해요～"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "為咗方便我哋幫您確認預約，麻煩您填寫以下資料～🤍\n\n姓名（與護照相同）：\n出生日期：\n國籍及慣用語言：\n希望預約日期及時間： 月日 ; 點\n想做嘅療程：\n從邊個渠道認識我哋：（例如 Instagram、Threads、朋友介紹等）\n\n收到資料後，我哋會盡快幫您確認預約～🫶🏻",
+                    "ko": "예약 확인을 도와드릴 수 있도록 아래 정보를 작성해 주세요～🤍\n\n성함(여권과 동일):\n생년월일:\n국적 및 주로 쓰는 언어:\n희망 예약 날짜 및 시간: 월일 ; 시\n희망 시술:\n저희를 알게 된 경로: (예: Instagram, Threads, 지인 소개 등)\n\n정보를 받으면 최대한 빨리 예약을 확인해 드릴게요～🫶🏻"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "可以啊！",
+                    "ko": "네, 가능해요!"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "會收返10,000won諮詢費",
+                    "ko": "상담비 10,000원이 부과됩니다"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Hello～😊🌸 已經成功幫您安排好預約！\n\n📅 預約日期： 2026年11月27日（星期五）\n⏰ 預約時間： 上午11:00\n👤人數：兩位\n\n📍 診所地址：\n首爾麻浦區楊花路66號，6樓\n66 Yanghwa-ro, Mapo-gu, Seoul, 6F\n\n📍 地圖連結：\n• Naver Map：https://naver.me/x7nICmp3\n• Google Map：https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 到診時記得帶埋護照～\n\n期待到時見到您！🥰🌸\n\nBeauty Blossom Global Clinic Team 🤍ㅁ",
+                    "ko": "안녕하세요～😊🌸 예약이 성공적으로 잡혔습니다!\n\n📅 예약 날짜: 2026년 11월 27일(금요일)\n⏰ 예약 시간: 오전 11:00\n👤인원: 2명\n\n📍 병원 주소:\n서울 마포구 양화로 66, 6층\n66 Yanghwa-ro, Mapo-gu, Seoul, 6F\n\n📍 지도 링크:\n• Naver Map：https://naver.me/x7nICmp3\n• Google Map：https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 내원하실 때 여권을 꼭 지참해 주세요～\n\n기다리고 있겠습니다!🥰🌸\n\nBeauty Blossom Global Clinic Team 🤍ㅁ"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "幫兩位預約好了～",
+                    "ko": "두 분 예약해 드렸어요～"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A53:Q53",
+                "recordIds": [
+                  "W-20261114-T031"
+                ]
+              },
+              {
+                "id": "W-20261114-T032",
+                "kind": "ops",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "예약 확인",
+                "verdict": "normal-ops",
+                "reason": "고객의 내일 오전 10시 30분 예약 확인 문의에 직원이 예약이 확정됐다고 답하고 방문 시간을 다시 안내했다. 내일은 일요일이며 요청 시간은 가이드 07의 주말 진료시간(10:00~16:30) 안이다.",
+                "questionDate": "2026-11-14",
+                "finalReplyDate": "2026-11-14",
+                "customer": [
+                  {
+                    "note": "환자명: Brianna Walpole · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Just confirming our appointments tomorrow at 10.30am in the morning?",
+                    "ko": "내일 오전 10시 30분에 예약이 맞는지 확인하려고요?"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Thank you",
+                    "ko": "감사합니다"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-14",
+                    "original": "Yes, your appointment is confirmed for tomorrow! We're sorry for any confusion! 🙏💗\nWe look forward to seeing you tomorrow at 10:30 AM!",
+                    "ko": "네, 내일 예약이 확정되어 있습니다! 혼란을 드렸다면 죄송합니다! 🙏💗\n내일 오전 10:30에 뵙겠습니다!"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "see you tmr~",
+                    "ko": "내일 봬요~"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=106234537&range=A39:Q39",
+                "recordIds": [
+                  "W-20261114-T032"
+                ]
+              }
+            ],
+            "merged": [],
+            "unavailable": {
+              "recordIds": [
+                "W-20261114-U001",
+                "W-20261114-U002",
+                "W-20261114-U003",
+                "W-20261114-U004"
+              ],
+              "reasons": [
+                {
+                  "reason": "답변 전 새 채팅 메시지",
+                  "recordIds": [
+                    "W-20261114-U001",
+                    "W-20261114-U002",
+                    "W-20261114-U003",
+                    "W-20261114-U004"
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "platform": "whatsapp",
           "date": "2026-11-13",
           "status": "partial",
           "auditState": "source-availability-partial",
@@ -93410,7 +97994,7 @@ window.SUPERVISION_DATA = {
           "conversations": [],
           "issues": [],
           "followUps": [],
-          "reviewScope": "와츠앱 11월 13일 활동한 25방을 읽었다. 이날 새로 시작한 상담 카드 36건을 표시하고, 전날 문의의 후속 응대 3건은 11월 12일 상담에 합쳤다. 답변 전 새 채팅 메시지 2건은 판정하지 않았다. 해당 플랫폼의 전체 상담 수는 미확인이다.",
+          "reviewScope": "11월13일 문의와11월14일 후속 답변을 같은 상담으로 합쳤다. 기존 답변 전 새 채팅 메시지2건은 실제 후속 답변을 확인했다.",
           "availabilityCoverage": {
             "targetDate": "2026-11-13",
             "observedAt": "2026-11-14T00:00:53.317Z",
@@ -94141,19 +98725,19 @@ window.SUPERVISION_DATA = {
               "sourceState": "observed",
               "question": {
                 "state": "withheld-private",
-                "messageCount": 2,
+                "messageCount": 7,
                 "firstAt": "2026-11-13T08:58:54.000Z",
                 "lastAt": "2026-11-13T09:21:51.000Z"
               },
               "answer": {
                 "state": "withheld-private",
-                "messageCount": 2,
+                "messageCount": 8,
                 "firstAt": "2026-11-13T08:59:35.000Z",
                 "lastAt": "2026-11-13T09:46:08.000Z"
               },
               "verdict": "unreviewed",
               "reason": "상담 카드에서 판정했다.",
-              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=505212714&range=A28:Q28",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A43:Q43",
               "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
               "recordKind": "operating-only",
               "targetDayState": "confirmed",
@@ -94174,13 +98758,13 @@ window.SUPERVISION_DATA = {
               },
               "answer": {
                 "state": "withheld-private",
-                "messageCount": 3,
+                "messageCount": 4,
                 "firstAt": "2026-11-13T06:23:55.000Z",
                 "lastAt": "2026-11-13T07:14:37.000Z"
               },
               "verdict": "unreviewed",
               "reason": "상담 카드에서 판정했다.",
-              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=505212714&range=A29:Q29",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A44:Q44",
               "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
               "recordKind": "clinical",
               "targetDayState": "confirmed",
@@ -94195,19 +98779,19 @@ window.SUPERVISION_DATA = {
               "sourceState": "observed",
               "question": {
                 "state": "withheld-private",
-                "messageCount": 4,
+                "messageCount": 10,
                 "firstAt": "2026-11-13T07:26:39.000Z",
                 "lastAt": "2026-11-13T07:44:19.000Z"
               },
               "answer": {
                 "state": "withheld-private",
-                "messageCount": 2,
+                "messageCount": 8,
                 "firstAt": "2026-11-13T07:41:52.000Z",
                 "lastAt": "2026-11-13T09:20:42.000Z"
               },
               "verdict": "unreviewed",
               "reason": "상담 카드에서 판정했다.",
-              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=505212714&range=A30:Q30",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A45:Q45",
               "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
               "recordKind": "operating-only",
               "targetDayState": "confirmed",
@@ -94276,19 +98860,19 @@ window.SUPERVISION_DATA = {
               "sourceState": "observed",
               "question": {
                 "state": "withheld-private",
-                "messageCount": 2,
+                "messageCount": 3,
                 "firstAt": "2026-11-13T10:55:41.000Z",
                 "lastAt": "2026-11-13T11:03:00.000Z"
               },
               "answer": {
                 "state": "withheld-private",
-                "messageCount": 2,
+                "messageCount": 3,
                 "firstAt": "2026-11-13T11:00:04.000Z",
                 "lastAt": "2026-11-13T11:16:38.000Z"
               },
               "verdict": "unreviewed",
               "reason": "상담 카드에서 판정했다.",
-              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=505212714&range=A33:Q33",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A46:Q46",
               "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
               "recordKind": "clinical",
               "targetDayState": "confirmed",
@@ -94411,19 +98995,19 @@ window.SUPERVISION_DATA = {
               "sourceState": "observed",
               "question": {
                 "state": "withheld-private",
-                "messageCount": 1,
+                "messageCount": 4,
                 "firstAt": "2026-11-13T09:33:16.000Z",
                 "lastAt": "2026-11-13T09:33:16.000Z"
               },
               "answer": {
                 "state": "withheld-private",
-                "messageCount": 1,
+                "messageCount": 6,
                 "firstAt": "2026-11-13T09:46:45.000Z",
                 "lastAt": "2026-11-13T09:46:45.000Z"
               },
               "verdict": "unreviewed",
               "reason": "상담 카드에서 판정했다.",
-              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=505212714&range=A38:Q38",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A47:Q47",
               "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
               "recordKind": "operating-only",
               "targetDayState": "confirmed",
@@ -94483,65 +99067,11 @@ window.SUPERVISION_DATA = {
               "targetDayState": "confirmed",
               "targetDate": "2026-11-13",
               "hasOriginal": true
-            },
-            {
-              "id": "W-20261113-U001",
-              "country": null,
-              "consultationAt": null,
-              "language": "unknown",
-              "sourceState": "unread",
-              "question": {
-                "state": "unread",
-                "messageCount": null,
-                "firstAt": null,
-                "lastAt": null
-              },
-              "answer": {
-                "state": "unread",
-                "messageCount": null,
-                "firstAt": null,
-                "lastAt": null
-              },
-              "verdict": "unreviewed",
-              "reason": "답변 전 새 채팅 메시지",
-              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=505212714&range=A41:Q41",
-              "scopeNote": "답변 전 새 채팅 메시지",
-              "recordKind": "unread-candidate",
-              "targetDayState": "unknown",
-              "targetDate": "2026-11-13",
-              "hasOriginal": false
-            },
-            {
-              "id": "W-20261113-U002",
-              "country": null,
-              "consultationAt": null,
-              "language": "unknown",
-              "sourceState": "unread",
-              "question": {
-                "state": "unread",
-                "messageCount": null,
-                "firstAt": null,
-                "lastAt": null
-              },
-              "answer": {
-                "state": "unread",
-                "messageCount": null,
-                "firstAt": null,
-                "lastAt": null
-              },
-              "verdict": "unreviewed",
-              "reason": "답변 전 새 채팅 메시지",
-              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=505212714&range=A42:Q42",
-              "scopeNote": "답변 전 새 채팅 메시지",
-              "recordKind": "unread-candidate",
-              "targetDayState": "unknown",
-              "targetDate": "2026-11-13",
-              "hasOriginal": false
             }
           ],
           "qaReviewFinalization": {
             "schemaVersion": 2,
-            "finalizedAt": "2026-11-14T06:03:43.564Z",
+            "finalizedAt": "2026-11-15T06:18:43.498Z",
             "finalStatus": "completed",
             "sourceCoverage": "partial",
             "exchanges": [
@@ -95651,13 +100181,13 @@ window.SUPERVISION_DATA = {
                 "country": null,
                 "procedure": "리프팅",
                 "category": "예약 일정 조율",
-                "verdict": "normal-ops",
-                "reason": "오늘 방문이 늦었는지 묻는 고객에게 직원이 다음 날 오전 11시를 제안했고 고객이 수락하자 예약에 필요한 이름과 생년월일을 요청했다.",
+                "verdict": "followup",
+                "reason": "고객이 11월 13일 수락한 다음 날 오전 11시 예약을 담당자가 11월 14일 확정했고, 이후 오전 11시 30분 도착도 가능하다고 답했다. 가이드 08 영문 예약 확정 문구에는 상담만 받고 시술하지 않으면 상담료 10,000원이 발생한다고 안내하는데, 담당자의 확정 안내에는 이 문구가 빠졌다.",
                 "questionDate": "2026-11-13",
-                "finalReplyDate": "2026-11-13",
+                "finalReplyDate": "2026-11-14",
                 "customer": [
                   {
-                    "note": "환자명: Naomi · 방문 구분: 확인되지 않음"
+                    "note": "환자명: Naomi Dukaye (Duke) · 방문 구분: 확인되지 않음"
                   },
                   {
                     "date": "2026-11-13",
@@ -95668,6 +100198,31 @@ window.SUPERVISION_DATA = {
                     "date": "2026-11-13",
                     "original": "Yes! Thank you ☺️",
                     "ko": "네! 감사합니다 ☺️"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Just checking in to confirm 11am",
+                    "ko": "오전 11시 예약이 맞는지 확인하려고 연락드립니다"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "?",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Thank you so much see you soon!!",
+                    "ko": "정말 감사합니다, 곧 뵐게요!!"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "I am running a bit late is 11:30 okay? 😄",
+                    "ko": "조금 늦을 것 같은데 11시 30분도 괜찮을까요? 😄"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Hi yes I definitely am! In taxi still says 20 minutes 😕 so sorry!",
+                    "ko": "안녕하세요, 네 가고 있어요! 택시 안인데 아직 20분 걸린다고 나와요 😕 정말 죄송해요!"
                   }
                 ],
                 "staff": [
@@ -95680,9 +100235,39 @@ window.SUPERVISION_DATA = {
                     "date": "2026-11-13",
                     "original": "may I have your name and birthday to book an appointment please~💕",
                     "ko": "예약을 위해 성함과 생년월일을 알려 주시겠어요~💕"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Your reservation has been scheduled for the following date and time:\n\n📅 Day :  14th /Nov / 2026\n⏰ Time : 11am\n\n📍Location : 66 Yanghwa-ro, Mapo, Seoul, 6F  \n\nLink for location \n* Naver Map : https://naver.me/5ap1E0ph\n* Google : https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 Please bring your Alien Registration Card or Passport with you.\n\nWe look forward to meeting you soon.🥰\n\nThank you 🙂\n\nBeauty Blossom Global Clinic Team🌸",
+                    "ko": "예약이 아래 날짜와 시간으로 잡혔습니다:\n\n📅 날짜 :  2026년 11월 14일\n⏰ 시간 : 오전 11시\n\n📍위치 : 서울 마포구 양화로 66, 6층  \n\n위치 링크 \n* 네이버 지도 : https://naver.me/5ap1E0ph\n* 구글 : https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 외국인등록증 또는 여권을 지참해 주세요.\n\n곧 뵙기를 기대하겠습니다.🥰\n\n감사합니다 🙂\n\nBeauty Blossom Global Clinic 팀🌸"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Thank you for your booking request! Your reservation has been successfully arranged 🌸\nIf you have any other questions, please feel free to ask us anytime! 😊",
+                    "ko": "예약을 요청해 주셔서 감사합니다! 예약이 정상적으로 완료되었습니다 🌸\n다른 궁금한 점이 있으시면 언제든지 편하게 문의해 주세요! 😊"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "see you soon",
+                    "ko": "곧 뵙겠습니다"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "11:30 AM is perfectly fine! Please take your time and travel safely.See you soon! 💗",
+                    "ko": "오전 11시 30분도 전혀 문제없습니다! 천천히 오시고 안전하게 이동해 주세요. 곧 뵙겠습니다! 💗"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Hello 😊 We’re reaching out to confirm your visit. May we ask if you’re on your way to the clinic? 🌸",
+                    "ko": "안녕하세요 😊 방문 확인을 위해 연락드렸습니다. 지금 병원으로 오시는 중인지 여쭤봐도 될까요? 🌸"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Thank you for keeping us updated! We'll see you soon! 💗",
+                    "ko": "상황을 알려 주셔서 감사합니다! 곧 뵙겠습니다! 💗"
                   }
                 ],
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=505212714&range=A28:Q28"
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A43:Q43"
               },
               {
                 "id": "W-20261113-T021",
@@ -95697,10 +100282,10 @@ window.SUPERVISION_DATA = {
                 "severity": "suspected",
                 "reason": "가이드 09는 이마 보톡스를 눈썹·눈꺼풀 처짐을 안내하는 주름 보톡스 주의사항으로 안내하는데 담당자는 턱선·침샘 보톡스 주의사항을 보냈다. 스컬트라 안내에도 가이드 09의 주사 부위 상처 보호 테이프 부착 문구가 없다.",
                 "questionDate": "2026-11-13",
-                "finalReplyDate": "2026-11-13",
+                "finalReplyDate": "2026-11-14",
                 "customer": [
                   {
-                    "note": "환자명: Jenilyn · 방문 구분: 확인되지 않음"
+                    "note": "환자명: Jenilyn Lauigan · 방문 구분: 확인되지 않음"
                   },
                   {
                     "date": "2026-11-13",
@@ -95728,9 +100313,14 @@ window.SUPERVISION_DATA = {
                     "date": "2026-11-13",
                     "original": "👤 Name: Eleanor Uy Lauigan\n \nBelow are the treatments you received today:\n\n1. Sofwave 200p+Xeomin full face skin botox+SONO calming care\n2. Sculptra 1v\n3. Xeomin Forhead botox\n\nPlease follow the aftercare instructions for each treatment listed below.\n\n〰️ Sofwave – Aftercare Instructions 〰️\n\n• You may gently wash your face, shower, and apply makeup from the day of treatment.\n• Mild redness, swelling, warmth, tenderness, or a tight sensation may occur after treatment. These symptoms usually gradually improve within a few days.\n• For 1 week after treatment, avoid alcohol, smoking, saunas, steam rooms, and strenuous exercise. 🍷\n• Keep your skin well moisturized and apply sunscreen regularly. For the time being, avoid acidic skincare products, retinol, exfoliation, massage, and gua sha. ☀️\n• If you develop blisters, or if a burning sensation, significant pain, or swelling persists or continues to worsen, please contact the clinic immediately. 📞\n\n⏳ When Will I See the Results?\n\n• Improvements in firmness and lifting generally become more noticeable approximately 4–6 weeks after treatment.\n• The overall results may become more noticeable at around 3 months after treatment.\n\n💎 Skin Botox (Face / Neck etc.) – Aftercare Instructions 💎\n\n• Mild redness, swelling, injection marks, tenderness, or bruising may occur at the injection sites. These symptoms usually gradually improve within a few days to 1–2 weeks.\n• You may gently wash your face and shower 4 hours after the treatment. You may apply makeup as usual from the following day.\n• For 2 weeks after treatment, avoid alcohol, smoking, saunas, steam rooms, strenuous exercise, and at-home beauty devices. 🍷\n• For 2 weeks after treatment, avoid rubbing or applying strong pressure to the treated areas. Please also avoid massage and gua sha.\n• During the initial period after treatment, some patients may experience mild tightness, a slightly unusual feeling when making facial expressions, or localized weakness. In rare cases, treatment around the neck may temporarily cause neck weakness or difficulty swallowing.\n• If redness, swelling, warmth, pain, itching, or other noticeable discomfort persists or worsens, please contact the clinic. 📞\n\n⏳ When Will I See the Results?\n\n• Improvements in skin texture, fine lines, or firmness generally become more noticeable after approximately 1–2 weeks.\n\n 💜 Sculptra – Aftercare Instructions 💜\n\n• Mild redness, swelling, tenderness, bruising, or localized firmness may occur at the injection sites. These symptoms usually gradually improve within a few days.\n• For 5 days after treatment, massage the treated areas 5 times a day for approximately 5 minutes each time to help distribute the product evenly.\n\nMassage Guide Video:\nhttps://www.youtube.com/shorts/EDE_VDFxlF8\n\n• If you experience swelling or discomfort within the first 24 hours after treatment, you may apply a cold compress briefly. Always wrap the ice pack in a towel before applying it to the skin.\n• For 1 week after treatment, avoid alcohol, smoking, saunas, steam rooms, hot baths, and strenuous exercise. 🍷\n• Keep your skin well moisturized and apply sunscreen regularly. For the time being, avoid acidic skincare products, retinol, exfoliation, and other irritating treatments. ☀️\n• If you have been prescribed medication, please take it at the scheduled times as directed. 💊\n• If redness, swelling, warmth, pain, or firm lumps continue to worsen, or if you notice unusual changes in skin color, please contact the clinic. 📞\n\n⏳ When Will I See the Results?\n\n• Changes generally begin to become noticeable approximately 1 month after treatment, with continued improvement as collagen production progresses.\n\n💉 Botox (Jawline / Salivary Glands, etc.) – Aftercare Instructions 💉\n\n• Mild redness, swelling, tenderness, or bruising may occur at the injection sites. These symptoms usually gradually improve within a few days to 1–2 weeks.\n• You may gently wash your face and shower 4 hours after the treatment. You may apply makeup as usual from the following day.\n• For 2 weeks after treatment, avoid alcohol, smoking, hot springs, saunas, steam rooms, strenuous exercise, and at-home beauty devices. 🍷\n• For 2 weeks after treatment, avoid rubbing or applying strong pressure to the treated areas. Please also avoid massage and gua sha.\n• After jaw Botox, try to avoid prolonged chewing and tough or hard foods for approximately 1 month. If you experience dry mouth after salivary gland Botox, please drink plenty of water. 💧\n• If redness, swelling, warmth, pain, itching, or other noticeable discomfort persists or worsens, please contact the clinic. 📞\n\n⏳ When Will I See the Results?\n\n• Changes in facial contour generally become more noticeable after approximately 3–4 weeks.\n• Results generally last for approximately 3 months.\n\nIf you experience any discomfort or have any questions, please feel free to contact us anytime. Thank you! 💗",
                     "ko": "👤 이름: Eleanor Uy Lauigan\n \n오늘 받으신 시술은 다음과 같습니다:\n\n1. 소프웨이브 200p + 제오민 전체 얼굴 스킨보톡스 + 소노 진정 케어\n2. 스컬트라 1바이알\n3. 제오민 이마 보톡스\n\n아래에 안내된 각 시술별 시술 후 주의사항을 지켜 주세요.\n\n〰️ 소프웨이브 – 시술 후 주의사항 〰️\n\n• 시술 당일부터 가볍게 세안과 샤워를 하고 화장을 할 수 있습니다.\n• 시술 후 가벼운 붉어짐, 부기, 열감, 압통 또는 당기는 느낌이 생길 수 있습니다. 이러한 증상은 보통 며칠 안에 점차 좋아집니다.\n• 시술 후 1주 동안은 음주, 흡연, 사우나, 찜질방, 격한 운동을 피해 주세요. 🍷\n• 피부를 충분히 보습하고 자외선 차단제를 꾸준히 바르세요. 당분간 산성 스킨케어 제품, 레티놀, 각질 제거, 마사지, 괄사는 피해 주세요. ☀️\n• 물집이 생기거나 화끈거림, 심한 통증 또는 부기가 지속되거나 계속 악화되면 즉시 병원에 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n\n• 탄력과 리프팅의 개선은 보통 시술 후 약 4~6주부터 더 뚜렷해집니다.\n• 전체적인 결과는 시술 후 약 3개월 무렵에 더 뚜렷해질 수 있습니다.\n\n💎 스킨보톡스 (얼굴 / 목 등) – 시술 후 주의사항 💎\n\n• 주사 부위에 가벼운 붉어짐, 부기, 주사 자국, 압통 또는 멍이 생길 수 있습니다. 이러한 증상은 보통 며칠에서 1~2주 안에 점차 좋아집니다.\n• 시술 4시간 후부터 가볍게 세안과 샤워를 할 수 있습니다. 다음 날부터는 평소처럼 화장할 수 있습니다.\n• 시술 후 2주 동안은 음주, 흡연, 사우나, 찜질방, 격한 운동, 가정용 미용기기 사용을 피해 주세요. 🍷\n• 시술 후 2주 동안은 시술 부위를 문지르거나 강하게 누르지 마세요. 마사지와 괄사도 피해 주세요.\n• 시술 초기에는 약간 당기는 느낌, 표정을 지을 때 약간 어색한 느낌 또는 국소적인 힘 빠짐이 나타날 수 있습니다. 드물게 목 주변 시술 후 일시적으로 목에 힘이 빠지거나 삼키기 어려울 수 있습니다.\n• 붉어짐, 부기, 열감, 통증, 가려움 또는 기타 눈에 띄는 불편감이 지속되거나 악화되면 병원에 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n\n• 피부결, 잔주름 또는 탄력의 개선은 보통 약 1~2주 후부터 더 뚜렷해집니다.\n\n 💜 스컬트라 – 시술 후 주의사항 💜\n\n• 주사 부위에 가벼운 붉어짐, 부기, 압통, 멍 또는 국소적인 단단함이 생길 수 있습니다. 이러한 증상은 보통 며칠 안에 점차 좋아집니다.\n• 시술 후 5일 동안 하루 5회, 한 번에 약 5분씩 시술 부위를 마사지하여 제품이 고르게 퍼지도록 도와주세요.\n\n마사지 안내 영상:\nhttps://www.youtube.com/shorts/EDE_VDFxlF8\n\n• 시술 후 24시간 이내에 부기나 불편감이 있으면 짧게 냉찜질을 할 수 있습니다. 아이스팩은 반드시 수건으로 감싼 뒤 피부에 대 주세요.\n• 시술 후 1주 동안은 음주, 흡연, 사우나, 찜질방, 뜨거운 물 목욕, 격한 운동을 피해 주세요. 🍷\n• 피부를 충분히 보습하고 자외선 차단제를 꾸준히 바르세요. 당분간 산성 스킨케어 제품, 레티놀, 각질 제거 및 기타 자극적인 시술은 피해 주세요. ☀️\n• 처방받은 약이 있으면 안내에 따라 정해진 시간에 복용해 주세요. 💊\n• 붉어짐, 부기, 열감, 통증 또는 단단한 멍울이 계속 심해지거나 피부색에 이상한 변화가 보이면 병원에 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n\n• 변화는 보통 시술 후 약 1개월부터 눈에 띄기 시작하며, 콜라겐 생성이 진행되면서 계속 개선됩니다.\n\n💉 보톡스 (턱선 / 침샘 등) – 시술 후 주의사항 💉\n\n• 주사 부위에 가벼운 붉어짐, 부기, 압통 또는 멍이 생길 수 있습니다. 이러한 증상은 보통 며칠에서 1~2주 안에 점차 좋아집니다.\n• 시술 4시간 후부터 가볍게 세안과 샤워를 할 수 있습니다. 다음 날부터는 평소처럼 화장할 수 있습니다.\n• 시술 후 2주 동안은 음주, 흡연, 온천, 사우나, 찜질방, 격한 운동, 가정용 미용기기 사용을 피해 주세요. 🍷\n• 시술 후 2주 동안은 시술 부위를 문지르거나 강하게 누르지 마세요. 마사지와 괄사도 피해 주세요.\n• 턱 보톡스 후에는 약 1개월 동안 오래 씹는 것과 질기거나 딱딱한 음식을 피하세요. 침샘 보톡스 후 입이 마르면 물을 충분히 마셔 주세요. 💧\n• 붉어짐, 부기, 열감, 통증, 가려움 또는 기타 눈에 띄는 불편감이 지속되거나 악화되면 병원에 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n\n• 얼굴 윤곽의 변화는 보통 약 3~4주 후부터 더 뚜렷해집니다.\n• 결과는 보통 약 3개월 지속됩니다.\n\n불편한 점이나 궁금한 점이 있으시면 언제든지 편하게 연락해 주세요. 감사합니다! 💗"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "You're welcome :)",
+                    "ko": "천만에요 :)"
                   }
                 ],
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=505212714&range=A29:Q29"
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A44:Q44"
               },
               {
                 "id": "W-20261113-T022",
@@ -95742,9 +100332,9 @@ window.SUPERVISION_DATA = {
                 "procedure": "피부 검사 결과 재발송",
                 "category": "검사 결과 재발송 요청",
                 "verdict": "normal-ops",
-                "reason": "고객이 지난 방문에서 받은 검사 결과의 재발송을 요청했고 직원이 피부 분석 결과를 보내기 위해 이메일과 성함을 먼저 요청했다. 가이드 12는 피부진단 보고서를 이메일 주소로 전송할 수 있다고 안내하며 직원의 요청과 맞는다.",
+                "reason": "고객이 11월 13일 본인과 여자 형제의 피부 검사 결과 재발송을 요청했고, 직원은 이메일과 성함을 받은 뒤 11월 14일 두 사람의 리포트 파일과 안내 문장을 보냈다. 가이드 12는 피부진단 보고서를 이메일 주소로 전송할 수 있다고 안내하며, 고객의 감사 인사까지 이어져 재발송 요청에 응대했다.",
                 "questionDate": "2026-11-13",
-                "finalReplyDate": "2026-11-13",
+                "finalReplyDate": "2026-11-14",
                 "customer": [
                   {
                     "note": "환자명: Ghada · 방문 구분: 재진 (근거: \"My sister and I visited your clinic on May 31, 2025.\")"
@@ -95768,6 +100358,36 @@ window.SUPERVISION_DATA = {
                     "date": "2026-11-13",
                     "original": "Thank you so much for your help",
                     "ko": "도와주셔서 정말 감사합니다"
+                  },
+                  {
+                    "date": "2026-11-13",
+                    "original": "[이메일 가림]",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-13",
+                    "original": "My name is Ghada",
+                    "ko": "제 이름은 Ghada입니다"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Thank you so much, appreciate it. Could you please send me my sister’s report? It was done on the same day her name is Ahad",
+                    "ko": "정말 감사합니다, 고마워요. 제 여자 형제의 리포트도 보내주실 수 있을까요? 같은 날 진행했어요. 이름은 Ahad예요"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Thank you so much 🤍",
+                    "ko": "정말 감사합니다 🤍"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Appreciate it",
+                    "ko": "감사합니다"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "You too ♥️",
+                    "ko": "그쪽도요 ♥️"
                   }
                 ],
                 "staff": [
@@ -95780,9 +100400,39 @@ window.SUPERVISION_DATA = {
                     "date": "2026-11-13",
                     "original": "Hi could you send us your email first so that we are able to send the skin analysis result for you. And also could you write down your name for us, thank you.",
                     "ko": "안녕하세요, 피부 분석 결과를 보내드릴 수 있도록 먼저 이메일을 보내주시겠어요? 그리고 성함도 적어 주시면 감사하겠습니다."
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "[document] 첨부 미리보기 미지원",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Hello! Here is your skin analysis report from your visit on May 31, 2025, for your reference. Please feel free to let us know if you have any questions!",
+                    "ko": "안녕하세요! 2025년 5월 31일 방문 시 받으신 피부 분석 리포트를 참고용으로 보내드립니다. 궁금한 점이 있으시면 언제든 알려 주세요!"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Please give us a moment .We'll get back to you shortly! 💗",
+                    "ko": "잠시만 기다려 주세요. 곧 다시 연락드리겠습니다! 💗"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "[document] 첨부 미리보기 미지원",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Here is your sister’s report. Please feel free to let us know if you have any questions!",
+                    "ko": "여자 형제분의 리포트입니다. 궁금한 점이 있으시면 언제든 알려 주세요!"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Have a nice day ~",
+                    "ko": "좋은 하루 보내세요 ~"
                   }
                 ],
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=505212714&range=A30:Q30"
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A45:Q45"
               },
               {
                 "id": "W-20261113-T023",
@@ -95890,10 +100540,10 @@ window.SUPERVISION_DATA = {
                 "verdict": "normal",
                 "reason": "담당자가 보낸 포텐자 황금마이크로니들과 기초 피부관리(LDM 포함) 시술 후 주의사항은 가이드 09의 홍콩 중국어 안내문과 같다. 스킨바이브 문의에는 다른 와츠앱으로 이미 보냈다고 답했다.",
                 "questionDate": "2026-11-13",
-                "finalReplyDate": "2026-11-13",
+                "finalReplyDate": "2026-11-14",
                 "customer": [
                   {
-                    "note": "환자명: Hannahy · 방문 구분: 확인되지 않음"
+                    "note": "환자명: yu yuk sim (직원 안내문 기재) · 방문 구분: 확인되지 않음"
                   },
                   {
                     "date": "2026-11-13",
@@ -95904,6 +100554,11 @@ window.SUPERVISION_DATA = {
                     "date": "2026-11-13",
                     "original": "How about skinvive?",
                     "ko": "스킨바이브는요?"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Thanks!",
+                    "ko": "감사합니다!"
                   }
                 ],
                 "staff": [
@@ -95916,9 +100571,14 @@ window.SUPERVISION_DATA = {
                     "date": "2026-11-13",
                     "original": "Already sent to Yu yuk wan's whatsapp :)",
                     "ko": "Yu yuk wan님의 와츠앱으로 이미 보냈어요 :)"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "You're welcome!",
+                    "ko": "천만에요!"
                   }
                 ],
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=505212714&range=A33:Q33"
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A46:Q46"
               },
               {
                 "id": "W-20261113-T025",
@@ -96110,18 +100770,33 @@ window.SUPERVISION_DATA = {
                 "country": null,
                 "procedure": "확인되지 않음",
                 "category": "상담 예약 문의",
-                "verdict": "normal-ops",
-                "reason": "상담 예약이 가능한지 묻는 고객에게 담당자가 가능하다고 답하고 희망 날짜와 시간을 물어 예약 접수를 이어 갔다.",
+                "verdict": "followup",
+                "reason": "고객이 11월 13일 요청한 11월 16일 낮 12시 상담 예약을 담당자가 11월 14일 가능하다고 답한 뒤 확정했다. 가이드 08 영문 확정 문구에는 상담만 받고 시술하지 않으면 상담료 10,000원이 발생한다고 안내하는데, 담당자의 확정 안내에는 이 문구가 빠졌다.",
                 "questionDate": "2026-11-13",
-                "finalReplyDate": "2026-11-13",
+                "finalReplyDate": "2026-11-14",
                 "customer": [
                   {
-                    "note": "환자명: Ailee · 방문 구분: 확인되지 않음"
+                    "note": "환자명: Hyunbi Lee · 방문 구분: 확인되지 않음"
                   },
                   {
                     "date": "2026-11-13",
                     "original": "안녕하세요, 상담 예약하고 싶은데 가능할까요?",
                     "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-13",
+                    "original": "1. Hyunbi Lee\n2. ⁠ [생년월일 가림]\n3. ⁠American. korean& english\n4. ⁠11/16 12pm\n5. ⁠botox & 얼굴형 상담\n6. ⁠referral from a friend",
+                    "ko": "1. Hyunbi Lee\n2. [생년월일 가림]\n3. 미국인. 한국어와 영어\n4. 11/16 낮 12시\n5. 보톡스 & 얼굴형 상담\n6. 친구 소개"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Yes please!",
+                    "ko": "네, 부탁드립니다!"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Thank you!",
+                    "ko": "감사합니다!"
                   }
                 ],
                 "staff": [
@@ -96129,9 +100804,34 @@ window.SUPERVISION_DATA = {
                     "date": "2026-11-13",
                     "original": "Hi~ yes may I know what date and time you would like to book an appointment?😊💕",
                     "ko": "안녕하세요~ 네, 예약을 원하시는 날짜와 시간을 알려 주실 수 있나요?😊💕"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Hello! Yes, we offer in-person consultations for Botox and facial contouring! We can assess your facial structure and concerns to recommend the most suitable treatments for you.",
+                    "ko": "안녕하세요! 네, 보톡스와 얼굴형 윤곽 관련 대면 상담을 제공하고 있습니다! 고객님의 얼굴 구조와 고민을 살펴보고 가장 적합한 시술을 추천해 드릴 수 있습니다."
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "We have 12:00 PM available on November 16\nWould you like us to arrange an appointment for you at that time?",
+                    "ko": "11월 16일 오후 12시에 예약이 가능합니다\n그 시간에 예약을 잡아 드릴까요?"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Your reservation has been scheduled for the following date and time:\n\n📅 Day :  16th / Nov / 2026\n⏰ Time : 12pm\n\n📍Location : 66 Yanghwa-ro, Mapo, Seoul, 6F  \n\nLink for location \n* Naver Map : https://naver.me/5ap1E0ph\n* Google : https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 Please bring your Alien Registration Card or Passport with you.\n\nWe look forward to meeting you soon.🥰\n\nThank you 🙂\n\nBeauty Blossom Global Clinic Team🌸",
+                    "ko": "다음 날짜와 시간으로 예약이 잡혔습니다:\n\n📅 날짜 :  2026년 11월 16일\n⏰ 시간 : 낮 12시\n\n📍위치 : 서울 마포구 양화로 66, 6층  \n\n위치 링크 \n* 네이버 지도 : https://naver.me/5ap1E0ph\n* 구글 : https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 외국인등록증 또는 여권을 지참해 주세요.\n\n곧 뵙기를 기대하겠습니다.🥰\n\n감사합니다 🙂\n\nBeauty Blossom Global Clinic Team🌸"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "Thank you for your booking request! Your reservation has been successfully arranged 🌸\nIf you have any other questions, please feel free to ask us anytime! 😊",
+                    "ko": "예약 요청을 해 주셔서 감사합니다! 예약이 정상적으로 완료되었습니다 🌸\n다른 문의가 있으시면 언제든지 편하게 문의해 주세요! 😊"
+                  },
+                  {
+                    "date": "2026-11-14",
+                    "original": "See you then !",
+                    "ko": "그때 뵙겠습니다!"
                   }
                 ],
-                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=505212714&range=A38:Q38"
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=368476573&range=A47:Q47"
               },
               {
                 "id": "W-20261113-T027",
@@ -96212,19 +100912,7 @@ window.SUPERVISION_DATA = {
               }
             ],
             "unavailable": {
-              "recordIds": [
-                "W-20261113-U001",
-                "W-20261113-U002"
-              ],
-              "reasons": [
-                {
-                  "reason": "답변 전 새 채팅 메시지",
-                  "recordIds": [
-                    "W-20261113-U001",
-                    "W-20261113-U002"
-                  ]
-                }
-              ]
+              "recordIds": []
             }
           }
         },
@@ -100352,6 +105040,6 @@ window.SUPERVISION_DATA = {
   },
   "reportingCoverage": {
     "startDate": "2026-10-29",
-    "endDate": "2026-11-13"
+    "endDate": "2026-11-14"
   }
 };
