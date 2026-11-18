@@ -40,6 +40,7 @@
 // Validation-only: never rewrite displayed/source text. Match entire tokens, not URL prefixes.
 function sanitizeApprovedPublicContactsForPrivacy1112Original(value) {
   const approved = new Set([
+    'https://hk.beautyblossom.kr/', // Exact official HK root from approved WA17 customer source, HTTP200.
     'https://tw.beautyblossom.kr/22',
     'https://tw.beautyblossom.kr/72',
     'https://tw.beautyblossom.kr/73',
@@ -182,7 +183,25 @@ function validationOnlyClone1117(day) {
   }
  }return out;
 }
-function validationOnlyClone1112(day) { return validationOnlyClone1112BeforeCurrent1116(validationOnlyClone1116(validationOnlyClone1117(day))); }
+// Exact source-reviewed new WA original/KO staff contexts only, no public payload changes.
+const EXACT_PUBLIC_STAFF_CONTEXTS_1118 = [{"publicCardId":"W-20261116-T026","publicReportDate":"2026-11-16","side":"staff","publicBlockIndex":2,"date":"2026-11-17","field":"original","text":"Here is the link to our full promotional price list for your reference:\nBeauty Blossom Full Promotion Price List : https://en.beautyblossom.kr/22\nIf you have any difficulty finding a specific treatment, please let us know which treatment you’re interested in or what your main concerns are, and we’ll be happy to help you. 😊🤍","allowedTokens":["https://en.beautyblossom.kr/22"]},{"publicCardId":"W-20261116-T026","publicReportDate":"2026-11-16","side":"staff","publicBlockIndex":2,"date":"2026-11-17","field":"ko","text":"참고하실 수 있도록 전체 프로모션 가격표 링크를 보내드립니다:\n뷰티블라썸 전체 프로모션 가격표 : https://en.beautyblossom.kr/22\n찾으시는 시술을 찾기 어려우시면, 관심 있는 시술이나 주요 고민이 무엇인지 알려 주세요. 기꺼이 도와드리겠습니다. 😊🤍","allowedTokens":["https://en.beautyblossom.kr/22"]},{"publicCardId":"G-20261117-N1118-005","publicReportDate":"2026-11-17","side":"staff","publicBlockIndex":0,"date":"2026-11-17","field":"original","text":"https://jp.beautyblossom.kr/22/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=173336980&t=board","allowedTokens":["https://jp.beautyblossom.kr/22/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=173336980&t=board"]},{"publicCardId":"G-20261117-N1118-005","publicReportDate":"2026-11-17","side":"staff","publicBlockIndex":0,"date":"2026-11-17","field":"ko","text":"https://jp.beautyblossom.kr/22/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=173336980&t=board","allowedTokens":["https://jp.beautyblossom.kr/22/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=173336980&t=board"]}];
+function validationOnlyClone1118(day) {
+ const out=structuredClone(day);
+ for(const e of out.qaReviewFinalization?.exchanges||[])for(const[index,b]of(e.staff||[]).entries()){
+  if(Object.hasOwn(b,'note'))continue;
+  for(const field of ['original','ko']){
+   if(typeof b[field]!=='string')continue;
+   const c=EXACT_PUBLIC_STAFF_CONTEXTS_1118.find(c=>c.publicCardId===e.id&&c.publicReportDate===day.date&&c.side==='staff'&&c.publicBlockIndex===index&&c.date===(b.date??null)&&c.field===field&&c.text===b[field]);
+   if(c)b[field]=b[field].replace(/https?:\/\/[^\s<>"'`]+/g,token=>c.allowedTokens.includes(token)?'[검증한 공개 안내 링크]':token);
+  }
+ }
+ // Exact selected source image flag compatibility, never changes visible payload.
+ for(const e of out.qaReviewFinalization?.exchanges||[]){
+  if(day.platform==='gangnamunni'&&day.date==='2026-11-17'&&e.id==="G-20261117-N1118-003"&&JSON.stringify(e.staff?.[0])==="{\"date\":\"2026-11-17\",\"imageOnly\":true}")e.staff[0].image=true;
+  if(day.platform==='whatsapp'&&day.date==='2026-11-17'&&e.id==='W-20261117-T014-7'&&JSON.stringify(e.customer?.[1])==="{\"date\":\"2026-11-17\",\"original\":\"https://hk.beautyblossom.kr/\",\"lang\":\"ko\"}")e.customer[1].original='[검증한 공개 안내 링크]';
+ }return out;
+}
+function validationOnlyClone1112(day) { return validationOnlyClone1112BeforeCurrent1116(validationOnlyClone1116(validationOnlyClone1117(validationOnlyClone1118(day)))); }
 function validateQaReviewFinalization(day) { return validateQaReviewFinalization1112Original(validationOnlyClone1114(validationOnlyClone1116(validationOnlyClone1117(day)))); }
 
   const finalCache=new WeakMap();
@@ -216,7 +235,7 @@ function validateQaReviewFinalization(day) { return validateQaReviewFinalization
     if(!blocks.length)cell.append(node('p','msg-note',side==='staff'?'담당자 답변 없음':'고객이 직접 쓴 글 없음'));
     for(const b of blocks){if(Object.hasOwn(b,'note')){cell.append(node('p','msg-note',b.note));continue;}
       const box=node('div','msg');if(dateValid(b.date)&&b.date!==last){box.append(node('p','msg-date',shortDate(b.date)));last=b.date;}
-      if(b.image)box.append(node('span','msg-image','이미지 응답'));
+      if(b.image||b.imageOnly===true)box.append(node('span','msg-image','이미지 응답'));
       if(isTextBlock(b)){box.append(node('p','msg-original',b.original));if(typeof b.ko==='string'&&b.lang!=='ko'&&b.ko.trim()!==b.original.trim()){const ko=node('div','msg-ko');ko.append(node('span','msg-ko-label','한국어 번역'),node('p','',b.ko));box.append(ko);}}
       cell.append(box);}
     return cell;}
@@ -736,6 +755,15 @@ function validateQaReviewFinalization(day) { return validateQaReviewFinalization
     replace(target, ...children);
   }
   function renderStats(day) {
+    if(!day){
+      $('stats-date').textContent=selectedDate?selectedDate+' · KST · 미등록':'조회일 없음';
+      setStatic('stats-kpis',{hidden:false});replace('stats-kpis',node('p','empty-line','해당 날짜 통계 미등록 · 상담수/판정 미확인'));
+      setStatic('stats-case-note',{text:'',hidden:true});
+      for(const id of ['stats-followups','stats-knowledge','stats-trend','stats-country-panel','stats-verdicts','stats-staff'])replace(id);
+      if(!days.length)replace('stats-trend',empty('게시된 일별 집계 없음'));
+      for(const id of ['stats-intro','stats-knowledge-card','stats-followup-card','stats-trend-title','stats-trend-pill','stats-trend-help','stats-grid','stats-country-tabs','stats-country-basis-note','stats-verdict-pill','stats-verdict-note','stats-staff-card','stats-staff-help'])setStatic(id,{hidden:true});
+      return;
+    }
     $('stats-date').textContent = selectedDate ? selectedDate + ' · KST · ' + (day ? statusLabel(day) : '미게시') : '조회일 없음';
     const cases = statsCaseInfo(day);
     const items = [[Array.isArray(day?.inquiryLanguageCoverage?.nationalities)?'상담본문 범위 상담방':semanticIncomplete(day)?'수집 상담방':'검토 상담방', statValue(day?.eligibleRooms, '개'), semanticIncomplete(day)?semanticScopeNote(day):'일일 검토 대상 상담방 · eligibleRooms', ''], ['병원답변', statValue(day?.staffMessages, '건'), '메시지 수 · 개별 담당자 미확인', 'teal'], ['확정 오답', cases.label('confirmedError'), '세부 사례 · 의심·자료충돌 제외', 'red'], ['답변누락', cases.label('missingAnswer'), '담당자 답변이 전혀 없는 사례만', 'red'], ['확인필요', cases.label('needsVerification'), '세부 사례 · 확정 오류 아님', 'amber'], ['자료충돌', cases.label('sourceConflict'), '세부 사례 · 확정 오류 아님', '']];
@@ -876,13 +904,13 @@ function validateQaReviewFinalization(day) { return validateQaReviewFinalization
     dateInput.value = selectedDate;dateInput.disabled=false;dateInput.min=calendar.start;dateInput.max=calendar.today;
     const dayUpdate=[day?.checkedAt,day?.casesUpdatedAt].filter(v=>typeof v==='string'&&/(Z|[+-]\d{2}:?\d{2})$/i.test(v)&&Number.isFinite(Date.parse(v))).sort((a,b)=>Date.parse(b)-Date.parse(a))[0];
     const qaAuditUpdate=day?.qaAuditPrivacy==='restricted-originals'&&qaTime(day.qaAuditCheckedAt)!=='미확인'?day.qaAuditCheckedAt:null;
-    $('updated-at').textContent=timestamp(qaAuditUpdate||dayUpdate||platformReports[selectedPlatform]?.updatedAt||(selectedPlatform==='gangnamunni'?meta.updatedAt:null));
+    $('updated-at').textContent=day?timestamp(qaAuditUpdate||dayUpdate||platformReports[selectedPlatform]?.updatedAt||(selectedPlatform==='gangnamunni'?meta.updatedAt:null)):'미등록';
     const index = days.findIndex(item => item.date === selectedDate);
     $('previous-day').disabled = index < 0 || index >= days.length - 1;
     $('next-day').disabled = index <= 0;
-    $('day-status').textContent = day ? statusLabel(day) : '집계 대기';
+    $('day-status').textContent = day ? statusLabel(day) : selectedDate===calendar.today?'오늘 보고 예정':selectedDate&&selectedDate<calendar.today?'미등록·미검수':'집계 대기';
     $('day-status').className = `badge ${day ? statusClass(day) : 'neutral'}`;
-    $('cutoff-at').textContent = day ? timestamp(day.cutoffAt) : '미제공 · KST';
+    $('cutoff-at').textContent = day ? timestamp(day.cutoffAt) : '미등록 · KST';
     const notice = $('data-notice'); notice.className = `notice${day && (day.status !== 'completed' || semanticIncomplete(day)) ? ' warning' : ''}`;
     const final=finalization(day);if(final){renderFinalized(day,final,calendar);return;}
     if (!hasPayload) notice.textContent = '집계 데이터가 없거나 로드되지 않았습니다. data.js 게시 상태를 확인해 주세요. 예시 데이터는 표시하지 않습니다. 모든 시각은 KST입니다.';
