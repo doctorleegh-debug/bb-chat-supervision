@@ -1,7 +1,7 @@
 window.SUPERVISION_DATA = {
   "meta": {
     "title": "뷰티블라썸 상담 품질 감독",
-    "updatedAt": "2026-11-23T03:26:12.753Z",
+    "updatedAt": "2026-11-23T10:08:54.206Z",
     "timeZone": "Asia/Seoul",
     "sheetUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit",
     "schedule": {
@@ -47644,7 +47644,7 @@ window.SUPERVISION_DATA = {
           "conversations": [],
           "issues": [],
           "followUps": [],
-          "reviewScope": "11월 6일 활동 42방 중 40방을 읽었다. 2방은 답변 전 새 채팅 메시지로 열지 않았다. 읽은 뒤 새 메시지가 온 1방은 다시 열지 않았다. 답변 전 새 채팅 메시지 2건은 11월 23일에 다시 열어 읽었다. 이 날짜에 상담 카드 2건을 추가했고 지적은 1건이다. 기존 카드는 바꾸지 않았다.",
+          "reviewScope": "11월 6일 활동 42방 중 40방을 읽었다. 2방은 답변 전 새 채팅 메시지로 열지 않았다. 읽은 뒤 새 메시지가 온 1방은 다시 열지 않았다. 답변 전 새 채팅 메시지 2건은 11월 23일에 다시 열어 읽었다. 이 날짜에 상담 카드 2건을 추가했고 지적은 1건이다. 기존 카드는 바꾸지 않았다. 11월 23일에 입술 필러 이벤트 후속 문의 상담 카드 1건을 추가했다. 기존 카드는 바꾸지 않았다.",
           "availabilityCoverage": {
             "targetDate": "2026-11-06",
             "observedAt": "2026-11-06T10:04:14.035Z",
@@ -47654,7 +47654,7 @@ window.SUPERVISION_DATA = {
             "observedCandidateCount": 42,
             "bodyRoomsOpened": 42,
             "actualBodyDateMembership": "confirmed-subset",
-            "reason": "읽은 시점까지의 문의·응대를 검토했다. 이 날짜에 상담 카드 2건을 추가했고 지적은 1건이다. 기존 카드는 바꾸지 않았다.",
+            "reason": "읽은 시점까지의 문의·응대를 검토했다. 이 날짜에 상담 카드 2건을 추가했고 지적은 1건이다. 기존 카드는 바꾸지 않았다. 11월 23일에 입술 필러 이벤트 후속 문의 상담 카드 1건을 추가했다. 기존 카드는 바꾸지 않았다.",
             "safetyNotes": [
               "방 안에서 입력·전송·상태 변경 없이 읽기만 했다.",
               "원문과 한국어 번역은 제한 원장 행에 보관하고 공개 카드에는 개인정보를 가린 원문만 둔다."
@@ -49230,11 +49230,38 @@ window.SUPERVISION_DATA = {
               "targetDate": "2026-11-06",
               "hasOriginal": true,
               "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=68839833&range=A39:Q39"
+            },
+            {
+              "id": "G-20261106-P1123-003",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 4,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-06",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=1622433618&range=A2:Q2"
             }
           ],
           "qaReviewFinalization": {
             "schemaVersion": 2,
-            "finalizedAt": "2026-11-23T03:26:12.753Z",
+            "finalizedAt": "2026-11-23T10:08:54.206Z",
             "finalStatus": "completed",
             "sourceCoverage": "partial",
             "exchanges": [
@@ -50788,6 +50815,60 @@ window.SUPERVISION_DATA = {
                   "G-20261106-P1123-002"
                 ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=68839833&range=A39:Q39"
+              },
+              {
+                "id": "G-20261106-P1123-003",
+                "recordIds": [
+                  "G-20261106-P1123-003"
+                ],
+                "kind": "consult",
+                "country": "TW",
+                "procedure": "입술 필러",
+                "category": "가격",
+                "verdict": "normal",
+                "reason": "담당자는 입술 필러를 1CC 기준의 이벤트 가격으로 먼저 참고하도록 안내하고, 12월 방문 문의에는 병원 공식 LINE에서 새 이벤트 소식을 받도록 안내했다. 가이드 06은 이벤트 가격이 월별로 바뀔 수 있다고 안내하며, 가이드 11의 대만 공식 LINE 계정은 담당자가 알린 계정과 같다.",
+                "questionDate": "2026-11-06",
+                "finalReplyDate": "2026-11-06",
+                "customer": [
+                  {
+                    "date": "2026-11-06",
+                    "original": "好的～",
+                    "ko": "알겠습니다~"
+                  },
+                  {
+                    "date": "2026-11-06",
+                    "original": "那嘴巴的部分我可以先傳嘴型的照片幫我報價嗎？",
+                    "ko": "그럼 입 부분은 제가 먼저 입 모양 사진을 보내서 견적을 받을 수 있을까요?"
+                  },
+                  {
+                    "date": "2026-11-06",
+                    "original": "我們是12月過去上面的日期是到11月底🥹",
+                    "ko": "저희는 12월에 방문하는데 위의 이벤트 날짜는 11월 말까지예요🥹"
+                  },
+                  {
+                    "date": "2026-11-06",
+                    "original": "好的～謝謝☺️",
+                    "ko": "알겠습니다~ 감사합니다☺️"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-06",
+                    "original": "價格您可以先參考剛才傳給您的活動圖喔！\n我們以1CC來計算，一般施打也差不多1CC就可以囉～",
+                    "ko": "가격은 먼저 방금 보내드린 이벤트 이미지를 참고해 주세요!\n저희는 1CC 기준으로 계산하며, 일반적인 시술량도 1CC 정도면 됩니다~"
+                  },
+                  {
+                    "date": "2026-11-06",
+                    "original": "我們下個月的活動價格變動不大，您一樣可以先參考上面的價格喔！\n您也可以加入我們官方LINE: @beautyblossom_tw ，我們會定期發送新的活動消息給大家喔～🥰",
+                    "ko": "다음 달 이벤트 가격은 크게 달라지지 않으니, 마찬가지로 위의 가격을 먼저 참고해 주세요!\n저희 공식 LINE: @beautyblossom_tw 에 추가하시면 새로운 이벤트 소식을 정기적으로 보내드려요~🥰"
+                  },
+                  {
+                    "date": "2026-11-06",
+                    "original": "謝謝！🥰",
+                    "ko": "감사합니다!🥰"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=1622433618&range=A2:Q2"
               }
             ],
             "merged": [
