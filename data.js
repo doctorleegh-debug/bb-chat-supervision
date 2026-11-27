@@ -1,7 +1,7 @@
 window.SUPERVISION_DATA = {
   "meta": {
     "title": "뷰티블라썸 상담 품질 감독",
-    "updatedAt": "2026-11-26T01:04:10.804Z",
+    "updatedAt": "2026-11-27T00:59:09.205Z",
     "timeZone": "Asia/Seoul",
     "sheetUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit",
     "schedule": {
@@ -37,34 +37,34 @@ window.SUPERVISION_DATA = {
         "id": "gangnamunni",
         "name": "강남언니",
         "status": "report-partial",
-        "checkedAt": "2026-11-26T00:34:01.771Z",
+        "checkedAt": "2026-11-27T00:37:20.769Z",
         "accountVerified": true,
         "inboxVerified": true,
-        "auditDate": "2026-11-25",
-        "summary": "2026-11-25 · 확인한 상담 33건 · 지적 5건",
+        "auditDate": "2026-11-26",
+        "summary": "2026-11-26 · 확인한 상담 40건 · 지적 3건",
         "limit": "대화 본문을 확보한 상담만 포함합니다."
       },
       {
         "id": "kakao-clinic",
         "name": "카카오톡(병원계정)",
         "status": "report-partial",
-        "checkedAt": "2026-11-26T00:30:31.366Z",
+        "checkedAt": "2026-11-27T00:36:28.536Z",
         "accountVerified": true,
         "inboxVerified": true,
-        "auditDate": "2026-11-25",
-        "summary": "2026-11-25 · 확인한 상담 13건 · 지적 1건",
+        "auditDate": "2026-11-26",
+        "summary": "2026-11-26 · 확인한 상담 23건 · 지적 4건",
         "limit": "대화 본문을 확보한 상담만 포함합니다."
       },
       {
         "id": "babitalk",
         "name": "바비톡",
-        "status": "completed-noactivity",
-        "checkedAt": "2026-11-26T00:31:49.333Z",
+        "status": "report-partial",
+        "checkedAt": "2026-11-27T00:38:15.447Z",
         "accountVerified": true,
         "inboxVerified": true,
-        "auditDate": "2026-11-25",
-        "summary": "2026-11-25 상담 0개·메시지 0건의 당일 활동 없음 확인 기록",
-        "limit": "검수 범위: 해외 채팅상담 전체 14방과 5개 언어 목록을 끝까지 확인했다. 11월 25일 추가 활동은 없었다. 실제 확인한 점검 범위에 한정하며, 상시 즉시 감시·푸시 수신은 검증되지 않았습니다."
+        "auditDate": "2026-11-26",
+        "summary": "2026-11-26 · 읽지 않은 새 채팅 메시지",
+        "limit": "대화 본문을 확보한 상담만 포함합니다."
       }
     ]
   },
@@ -568,6 +568,2877 @@ window.SUPERVISION_DATA = {
       "days": [
         {
           "platform": "gangnamunni",
+          "date": "2026-11-26",
+          "status": "partial",
+          "auditState": "source-availability-partial",
+          "checkedAt": "2026-11-27T00:37:20.769Z",
+          "qaAuditCheckedAt": "2026-11-27T00:37:20.769Z",
+          "cutoffAt": "2026-11-26T23:59:59+09:00",
+          "eligibleRooms": null,
+          "messageCount": null,
+          "customerMessages": null,
+          "staffMessages": null,
+          "autoMessages": null,
+          "systemMessages": null,
+          "deletedMessages": null,
+          "reviewedRooms": 30,
+          "verdicts": null,
+          "countries": [],
+          "cases": [],
+          "casesComplete": false,
+          "reviewEntries": [],
+          "conversations": [],
+          "issues": [],
+          "followUps": [],
+          "reviewScope": "11월 26일 마지막 활동 방 45곳 중 36곳을 읽었다. 답변 전 새 채팅 메시지 9곳은 열지 않았다. 11월 26일 상담 카드 40개(상품 유입 8개 포함)를 확인했고 지적은 3건이다. 실행 당일 활동 방 6곳은 열지 않았다.",
+          "availabilityCoverage": {
+            "targetDate": "2026-11-26",
+            "observedAt": "2026-11-27T00:37:20.769Z",
+            "evidenceScope": "native-safe-body-subset",
+            "providerDenominator": null,
+            "actualBodyReviewComplete": false,
+            "observedCandidateCount": 45,
+            "bodyRoomsOpened": 36,
+            "actualBodyDateMembership": "confirmed-subset",
+            "reason": "11월 26일 마지막 활동 방 45곳 중 36곳을 읽었다. 답변 전 새 채팅 메시지 9곳은 열지 않았다. 11월 26일 상담 카드 40개(상품 유입 8개 포함)를 확인했고 지적은 3건이다. 실행 당일 활동 방 6곳은 열지 않았다.",
+            "safetyNotes": [
+              "실행 당일(11월 27일) 활동 방은 열지 않았다."
+            ],
+            "exclusionNotes": [
+              "이미지 안의 내용은 판정하지 않았다."
+            ]
+          },
+          "qaAuditPrivacy": "restricted-originals",
+          "qaAuditRecords": [
+            {
+              "id": "G-20261126-N1127-001",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A54:Q54"
+            },
+            {
+              "id": "G-20261126-N1127-002",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A55:Q55"
+            },
+            {
+              "id": "G-20261126-N1127-003",
+              "country": "SG",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A56:Q56"
+            },
+            {
+              "id": "G-20261126-N1127-004",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A57:Q57"
+            },
+            {
+              "id": "G-20261126-N1127-005",
+              "country": "US",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A58:Q58"
+            },
+            {
+              "id": "G-20261126-N1127-006",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A59:Q59"
+            },
+            {
+              "id": "G-20261126-N1127-007",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A60:Q60"
+            },
+            {
+              "id": "G-20261126-N1127-008",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A61:Q61"
+            },
+            {
+              "id": "G-20261126-N1127-009",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 4,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A62:Q62"
+            },
+            {
+              "id": "G-20261126-N1127-010",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 7,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A63:Q63"
+            },
+            {
+              "id": "G-20261126-N1127-011",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A64:Q64"
+            },
+            {
+              "id": "G-20261126-N1127-012",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A65:Q65"
+            },
+            {
+              "id": "G-20261126-N1127-013",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A66:Q66"
+            },
+            {
+              "id": "G-20261126-N1127-014",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A67:Q67"
+            },
+            {
+              "id": "G-20261126-N1127-015",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A68:Q68"
+            },
+            {
+              "id": "G-20261126-N1127-016",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A69:Q69"
+            },
+            {
+              "id": "G-20261126-N1127-017",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 4,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A70:Q70"
+            },
+            {
+              "id": "G-20261126-N1127-018",
+              "country": "TH",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A71:Q71"
+            },
+            {
+              "id": "G-20261126-N1127-019",
+              "country": "JP",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A72:Q72"
+            },
+            {
+              "id": "G-20261126-N1127-020",
+              "country": "US",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A73:Q73"
+            },
+            {
+              "id": "G-20261126-N1127-021",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A74:Q74"
+            },
+            {
+              "id": "G-20261126-N1127-022",
+              "country": "US",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 4,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A75:Q75"
+            },
+            {
+              "id": "G-20261126-N1127-023",
+              "country": "TH",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 4,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 4,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A76:Q76"
+            },
+            {
+              "id": "G-20261126-N1127-024",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A77:Q77"
+            },
+            {
+              "id": "G-20261126-N1127-025",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A78:Q78"
+            },
+            {
+              "id": "G-20261126-N1127-026",
+              "country": "US",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A79:Q79"
+            },
+            {
+              "id": "G-20261126-N1127-027",
+              "country": "US",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A80:Q80"
+            },
+            {
+              "id": "G-20261126-N1127-028",
+              "country": "CA",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A81:Q81"
+            },
+            {
+              "id": "G-20261126-N1127-029",
+              "country": "CA",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A82:Q82"
+            },
+            {
+              "id": "G-20261126-N1127-030",
+              "country": "CA",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A83:Q83"
+            },
+            {
+              "id": "G-20261126-N1127-031",
+              "country": "TH",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A84:Q84"
+            },
+            {
+              "id": "G-20261126-N1127-032",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A85:Q85"
+            },
+            {
+              "id": "G-20261126-N1127-033",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 6,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A86:Q86"
+            },
+            {
+              "id": "G-20261126-N1127-034",
+              "country": "TH",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A87:Q87"
+            },
+            {
+              "id": "G-20261126-N1127-035",
+              "country": "AE",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A88:Q88"
+            },
+            {
+              "id": "G-20261126-N1127-036",
+              "country": "AE",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A89:Q89"
+            },
+            {
+              "id": "G-20261126-N1127-037",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A90:Q90"
+            },
+            {
+              "id": "G-20261126-N1127-038",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A91:Q91"
+            },
+            {
+              "id": "G-20261126-N1127-039",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A92:Q92"
+            },
+            {
+              "id": "G-20261126-N1127-040",
+              "country": "JP",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A93:Q93"
+            },
+            {
+              "id": "G-20261126-N1127-U001",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "답변 전 새 채팅 메시지",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A94:Q94",
+              "scopeNote": "답변 전 새 채팅 메시지",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-26",
+              "hasOriginal": false
+            },
+            {
+              "id": "G-20261126-N1127-U002",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "답변 전 새 채팅 메시지",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A95:Q95",
+              "scopeNote": "답변 전 새 채팅 메시지",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-26",
+              "hasOriginal": false
+            },
+            {
+              "id": "G-20261126-N1127-U003",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "답변 전 새 채팅 메시지",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A96:Q96",
+              "scopeNote": "답변 전 새 채팅 메시지",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-26",
+              "hasOriginal": false
+            },
+            {
+              "id": "G-20261126-N1127-U004",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "답변 전 새 채팅 메시지",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A97:Q97",
+              "scopeNote": "답변 전 새 채팅 메시지",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-26",
+              "hasOriginal": false
+            },
+            {
+              "id": "G-20261126-N1127-U005",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "답변 전 새 채팅 메시지",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A98:Q98",
+              "scopeNote": "답변 전 새 채팅 메시지",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-26",
+              "hasOriginal": false
+            },
+            {
+              "id": "G-20261126-N1127-U006",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "답변 전 새 채팅 메시지",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A99:Q99",
+              "scopeNote": "답변 전 새 채팅 메시지",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-26",
+              "hasOriginal": false
+            },
+            {
+              "id": "G-20261126-N1127-U007",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "답변 전 새 채팅 메시지",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A100:Q100",
+              "scopeNote": "답변 전 새 채팅 메시지",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-26",
+              "hasOriginal": false
+            },
+            {
+              "id": "G-20261126-N1127-U008",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "답변 전 새 채팅 메시지",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A101:Q101",
+              "scopeNote": "답변 전 새 채팅 메시지",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-26",
+              "hasOriginal": false
+            },
+            {
+              "id": "G-20261126-N1127-U009",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "답변 전 새 채팅 메시지",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A102:Q102",
+              "scopeNote": "답변 전 새 채팅 메시지",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-26",
+              "hasOriginal": false
+            }
+          ],
+          "qaReviewFinalization": {
+            "schemaVersion": 2,
+            "finalizedAt": "2026-11-27T00:59:09.205Z",
+            "finalStatus": "completed",
+            "sourceCoverage": "partial",
+            "exchanges": [
+              {
+                "kind": "inflow",
+                "country": "TW",
+                "procedure": "교근 보톡스",
+                "category": "가격",
+                "verdict": "image",
+                "reason": "고객이 직접 쓴 질문 없이 교근 보톡스 이벤트 상품 페이지에서 유입됐고, 담당자가 가격 이미지와 안내 문장으로 응대했다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음(교근 보톡스 상품 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "咀嚼肌肉毒的價格這邊可以先給您參考喔😊",
+                    "ko": "저작근 보톡스 가격은 이쪽에서 먼저 참고하실 수 있도록 안내드려요😊"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "如果還有任何問題，或是有想再了解的療程，都可以隨時跟我們說～\n謝謝您🤍",
+                    "ko": "추가로 궁금한 점이 있거나 더 알고 싶은 시술이 있으시면 언제든지 말씀해 주세요~\n감사합니다🤍"
+                  }
+                ],
+                "id": "G-20261126-N1127-001",
+                "recordIds": [
+                  "G-20261126-N1127-001"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A54:Q54"
+              },
+              {
+                "kind": "ops",
+                "country": "TW",
+                "procedure": "확인되지 않음",
+                "category": "방문 전날 예약 확인",
+                "verdict": "normal-ops",
+                "reason": "담당자가 방문 전날 다음 날 2명 10시 예약에 예정대로 오는지 묻고 합정역 3번 출구 옆 건물 6층 접수 안내를 보냈으며, 고객이 정시에 가겠다고 답하자 내일 뵙겠다고 마무리했다. 6층 위치와 합정역 3번 출구는 가이드 11의 예약 확정 문구와 같다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "您好 明天準時兩位 謝謝",
+                    "ko": "안녕하세요, 내일 정시에 두 명이 가겠습니다. 감사합니다"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "您好，這裡是麗朵 Beauty Blossom 皮膚科🌸\n想跟您確認一下，明天 [2位] 於 [10:00] 的預約是否會如期前來呢？😊\n\n📍診所位於合井站 3 號出口旁的大樓，抵達後直接至 6 樓櫃台報到即可。\n詳細地址及地圖導航，可至 LINE 選單點選「地址」查看。\n\n若行程有任何變動，再麻煩提前告訴我們～\n期待明天與您見面✨",
+                    "ko": "안녕하세요, 이곳은 려타(麗朵) Beauty Blossom 피부과입니다🌸\n내일 [2명] [10:00] 예약이 예정대로 오시는지 확인하고 싶습니다😊\n\n📍병원은 합정역 3번 출구 옆 건물에 있으며, 도착하신 뒤 바로 6층 카운터로 오셔서 접수하시면 됩니다.\n자세한 주소와 지도 내비게이션은 LINE 메뉴에서 「주소」를 눌러 확인하실 수 있습니다.\n\n일정에 변동이 있으시면 미리 알려 주세요~\n내일 뵙기를 기다리겠습니다✨"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "沒問題，謝謝您的回覆，明天見囉😊",
+                    "ko": "문제없습니다, 답변 감사합니다, 내일 뵙겠습니다😊"
+                  }
+                ],
+                "id": "G-20261126-N1127-002",
+                "recordIds": [
+                  "G-20261126-N1127-002"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A55:Q55"
+              },
+              {
+                "kind": "consult",
+                "country": "SG",
+                "procedure": "코 필러",
+                "category": "시술 가능 여부·가격",
+                "verdict": "normal",
+                "reason": "담당자가 코 필러가 가능하고 대면 상담에서 의사가 적합 여부를 알려 준다고 답했으며, 국산 1cc 297,000원·수입 1cc 429,000원 안내는 수가표 10 통합이벤트의 코끝 필러 1cc 297,000원과 레스틸렌 리프트 변경 429,000원(VAT 후)과 같다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hi I want to check if my nose can do filler",
+                    "ko": "안녕하세요, 코에 필러를 맞을 수 있는지 확인하고 싶어요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hello! Thank you for contacting Beauty Blossom Clinic. 😊\nYes, we offer nose filler. During an in-person consultation, our doctor can examine your nose and let you know whether the treatment is suitable for you.",
+                    "ko": "안녕하세요! 뷰티블라썸의원에 문의해 주셔서 감사합니다. 😊\n네, 코 필러 시술을 하고 있습니다. 대면 상담 때 의사가 코를 살펴보고 시술이 적합한지 알려 드릴 수 있습니다."
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Here is the price for your reference!^^\n1. Domestic 1cc 297,000\n2. Imported 1cc 429,000",
+                    "ko": "참고하실 수 있도록 가격을 안내드립니다!^^\n1. 국산 1cc 297,000\n2. 수입 1cc 429,000"
+                  }
+                ],
+                "id": "G-20261126-N1127-003",
+                "recordIds": [
+                  "G-20261126-N1127-003"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A56:Q56"
+              },
+              {
+                "kind": "ops",
+                "country": "TW",
+                "procedure": "확인되지 않음",
+                "category": "예약",
+                "verdict": "normal-ops",
+                "reason": "예약 희망 일시를 보낸 고객에게 담당자가 예약 정보 작성 양식을 보내고 양식을 받으면 예약을 잡겠다고 안내했다. 양식 문구는 가이드 11의 대만 예약 안내 문구와 같다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "我想預約2027/1/6，17：00",
+                    "ko": "2027/1/6 17：00에 예약하고 싶어요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "✍️ 預約資訊填寫\n若需要預約的話，再麻煩您填寫以下資訊並傳給我們，謝謝😊\n\n・護照英文姓名（姓氏在前/統一大寫）：\n・生日（西元 YYYY/MM/DD）：\n・希望療程：\n・預約日期&時間：\n・是否希望進行皮膚檢測：\n※ 不確定療程也沒關係，可填「現場諮詢」\n👭 若有同行的朋友，請每位分別填寫一份預約資訊喔！\n\n📌 預約前請留意\n收到您的資訊後，我們會盡快確認並協助安排預約。",
+                    "ko": "✍️ 예약 정보 작성\n예약이 필요하시면 아래 정보를 작성해서 보내 주세요, 감사합니다😊\n\n・여권 영문 이름(성 먼저/모두 대문자)：\n・생년월일(서기 YYYY/MM/DD)：\n・희망 시술：\n・예약 날짜&시간：\n・피부 검사 희망 여부：\n※ 시술이 정해지지 않았어도 괜찮아요, '현장 상담'이라고 적어 주셔도 됩니다\n👭 함께 오시는 친구가 있으면 한 분씩 각각 예약 정보를 작성해 주세요！\n\n📌 예약 전 참고해 주세요\n정보를 받은 뒤 최대한 빨리 확인하고 예약을 도와드리겠습니다."
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "好的，幫我們填寫表單，這邊為您安排預約喔!",
+                    "ko": "네, 양식을 작성해 주세요. 저희가 예약을 잡아 드리겠습니다!"
+                  }
+                ],
+                "id": "G-20261126-N1127-004",
+                "recordIds": [
+                  "G-20261126-N1127-004"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A57:Q57"
+              },
+              {
+                "kind": "ops",
+                "country": "US",
+                "procedure": "아쿠아필",
+                "category": "상담 경로(WhatsApp 연락처)",
+                "verdict": "normal-ops",
+                "reason": "고객이 인사 안내에 따라 WhatsApp 연락처를 남겼고 담당자가 WhatsApp으로 자세한 안내를 보내겠다고 답했다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hello, my WhatsApp is +[연락처 가림]",
+                    "ko": "안녕하세요, 제 WhatsApp은 +[연락처 가림]입니다"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Thank you! 😊🌸 We'll send you further details via WhatsApp shortly. 💗",
+                    "ko": "감사합니다! 😊🌸 곧 WhatsApp으로 자세한 내용을 보내드리겠습니다. 💗"
+                  }
+                ],
+                "id": "G-20261126-N1127-005",
+                "recordIds": [
+                  "G-20261126-N1127-005"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A58:Q58"
+              },
+              {
+                "kind": "consult",
+                "country": "TW",
+                "procedure": "아포지 레이저 제모(팔)",
+                "category": "시술 전 준비",
+                "verdict": "normal",
+                "reason": "제모 레이저 전에 먼저 직접 털을 제거해야 한다는 담당자의 안내는 가이드 02 레이저 제모의 주의사항(시술 1~2일 전 면도 필수)과 같다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "想請問施打手臂 需要先除毛嗎",
+                    "ko": "팔에 시술을 받는다면 먼저 제모를 해야 하는지 여쭤보고 싶어요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "您好，進行除毛雷射前都需要先自行除毛喔！",
+                    "ko": "안녕하세요, 제모 레이저를 받기 전에는 항상 먼저 직접 제모하셔야 해요!"
+                  }
+                ],
+                "id": "G-20261126-N1127-006",
+                "recordIds": [
+                  "G-20261126-N1127-006"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A59:Q59"
+              },
+              {
+                "kind": "consult",
+                "country": "TW",
+                "procedure": "아포지 여성 레이저 제모(팔)",
+                "category": "가격·시술 범위",
+                "verdict": "followup",
+                "reason": "팔 하완·상완 1회 65,060원, 팔 전체 1회 102,240원(세금 포함)을 안내했는데 수가표 10·17에서 이 금액은 남성 제모 행이고, 고객이 유입한 아포지 여성 레이저 제모 상품의 여성 제모 행은 하완·상완 1회 50,050원, 팔 전체 1회 78,650원이다. 안내한 금액이 남성 기준인지 여성 기준인지는 알리지 않았다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "那選擇手臂除毛一次 是單隻手 還是雙手呢",
+                    "ko": "그럼 팔 제모를 1회 선택하면 한쪽 팔인가요, 양팔인가요?"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "沒問題謝謝您",
+                    "ko": "알겠습니다, 감사합니다"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "一次就是施作雙手喔!",
+                    "ko": "1회는 양팔을 시술해 드려요!"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "前臂或上臂單次是65,060韓元(含稅)，如果是全手臂的話單次是102,240韓元(含稅)~",
+                    "ko": "하완 또는 상완은 1회 65,060원(세금 포함)이고, 팔 전체는 1회 102,240원(세금 포함)입니다~"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "這邊一起提供價格給您參考喔!",
+                    "ko": "가격도 함께 참고하실 수 있도록 안내드려요!"
+                  }
+                ],
+                "id": "G-20261126-N1127-007",
+                "recordIds": [
+                  "G-20261126-N1127-007"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A60:Q60"
+              },
+              {
+                "kind": "ops",
+                "country": "TW",
+                "procedure": "레이저 제모(팔·겨드랑이)",
+                "category": "예약·마지막 예약 시간",
+                "verdict": "normal-ops",
+                "reason": "담당자가 팔 제모를 겨드랑이 제모와 함께 예약하도록 예약 정보 양식을 보내고, 영업 종료가 20시라 제모만 받으면 19시, 다른 시술을 추가하면 18시 30분까지 오시길 권했다. 평일 진료시간 10~20시는 가이드 07과 같다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "田\n고객이 제안한 일정 중\n하나를 선택해주세요\n제안받은 일정이 어렵다면,\n채팅으로 일정을 조율해주세요\n2026년 12월 29일 19:30\n2026년 12월 30일 19:30\n2026년 12월 31일 19:30\n이 일정으로 확정하기",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "剛剛諮詢的手臂除毛 不能點選預約\n可以麻煩您那邊幫我跟腋下除毛一起預約嗎？",
+                    "ko": "방금 문의한 팔 제모는 예약을 선택할 수가 없어요\n그쪽에서 겨드랑이 제모와 함께 예약해 주실 수 있을까요?"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "✍️ 預約資訊填寫\n若需要預約的話，再麻煩您填寫以下資訊並傳給我們，謝謝😊\n\n・護照英文姓名（姓氏在前/統一大寫）：\n・生日（西元 YYYY/MM/DD）：\n・希望療程：\n・預約日期&時間：\n・是否希望進行皮膚檢測：\n※ 不確定療程也沒關係，可填「現場諮詢」\n👭 若有同行的朋友，請每位分別填寫一份預約資訊喔！\n\n📌 預約前請留意\n收到您的資訊後，我們會盡快確認並協助安排預約。",
+                    "ko": "✍️ 예약 정보 작성\n예약이 필요하시면 아래 정보를 작성해서 보내 주세요, 감사합니다😊\n\n・여권 영문 이름(성 먼저/모두 대문자)：\n・생년월일(서기 YYYY/MM/DD)：\n・희망 시술：\n・예약 날짜&시간：\n・피부 검사 희망 여부：\n※ 시술이 정해지지 않았어도 괜찮아요, '현장 상담'이라고 적어 주셔도 됩니다\n👭 함께 오시는 친구가 있으면 한 분씩 각각 예약 정보를 작성해 주세요！\n\n📌 예약 전 참고해 주세요\n정보를 받은 뒤 최대한 빨리 확인하고 예약을 도와드리겠습니다."
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "因為我們營業至20:00，若您只施作除毛的話，為了確保諮詢+施作時間充足，建議最晚預約時間是19:00喔~",
+                    "ko": "저희는 20:00까지 영업하기 때문에, 제모만 시술하시는 경우 상담+시술 시간을 충분히 확보하기 위해 가장 늦은 예약 시간은 19:00을 권해 드려요~"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "如果還有希望追加其他療程，則會建議最晚18:30來院比較好喔!",
+                    "ko": "추가로 다른 시술도 원하시면 늦어도 18:30에 내원하시는 것이 좋아요!"
+                  }
+                ],
+                "id": "G-20261126-N1127-008",
+                "recordIds": [
+                  "G-20261126-N1127-008"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A61:Q61"
+              },
+              {
+                "kind": "ops",
+                "country": "TW",
+                "procedure": "레이저 제모(겨드랑이·하완)",
+                "category": "예약 확정",
+                "verdict": "normal-ops",
+                "reason": "예약 정보 양식을 받은 담당자가 예약 완료 안내를 보냈고, 날짜·시간·인원, 병원 주소와 합정역 3번 출구, 여권 지참, 상담비 ₩10,000 안내가 가이드 11의 대만 예약 확정 문구와 같다. 같은 확정 문구가 두 번 나갔다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "・護照英文姓名（姓氏在前/統一大寫）：TIEN HSINCHIAO\n・生日（西元 YYYY/MM/DD）：[생년월일 가림]\n・希望療程：腋下除毛 前臂除毛\n・預約日期&時間：12/29 19:00\n・是否希望進行皮膚檢測：否",
+                    "ko": "・여권 영문 이름(성 먼저/모두 대문자)：TIEN HSINCHIAO\n・생년월일(서기 YYYY/MM/DD)：[생년월일 가림]\n・희망 시술：겨드랑이 제모 하완 제모\n・예약 날짜&시간：12/29 19:00\n・피부 검사 희망 여부：아니요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "好的謝謝！這邊幫您安排預約喔！🥰",
+                    "ko": "네 감사합니다! 예약을 잡아 드리겠습니다!🥰"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "🌸 Beauty Blossom 預約完成 ✅\n\n📅 預約日期：12月29日\n⏰ 預約時間：19時00分\n👤 預約人數：1位\n\n📍 診所地址\n首爾特別市麻浦區楊花路66號\nMedione Medical Center 6樓\n（合井站3號出口）\n💡 英文／韓文地址及地圖導航，可至 LINE 選單點選「地址」查看。\n\n📌 來院前請留意\n・來院時請務必攜帶護照，以便辦理登記。\n・如需更改或取消預約，請提前透過 LINE 與我們聯繫。\n・若當天僅進行諮詢、未接受療程，將收取 ₩10,000 諮詢費。\n\n感謝您的預約，期待您的到來💗",
+                    "ko": "🌸 Beauty Blossom 예약 완료 ✅\n\n📅 예약 날짜：12월 29일\n⏰ 예약 시간：19시 00분\n👤 예약 인원：1명\n\n📍 병원 주소\n서울특별시 마포구 양화로 66\nMedione Medical Center 6층\n（합정역 3번 출구）\n💡 영문/한글 주소 및 지도 길안내는 LINE 메뉴에서 「주소」를 눌러 확인하실 수 있습니다.\n\n📌 내원 전 유의사항\n・내원 시 접수를 위해 반드시 여권을 지참해 주세요.\n・예약을 변경하거나 취소하시려면 미리 LINE으로 연락해 주세요.\n・당일 상담만 받고 시술을 받지 않으시면 상담료 ₩10,000이 부과됩니다.\n\n예약해 주셔서 감사합니다. 방문을 기다리겠습니다💗"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "🌸 Beauty Blossom 預約完成 ✅\n\n📅 預約日期：12月29日\n⏰ 預約時間：19時00分\n👤 預約人數：1位\n\n📍 診所地址\n首爾特別市麻浦區楊花路66號\nMedione Medical Center 6樓\n（合井站3號出口）\n💡 英文／韓文地址及地圖導航，可至 LINE 選單點選「地址」查看。\n\n📌 來院前請留意\n・來院時請務必攜帶護照，以便辦理登記。\n・如需更改或取消預約，請提前透過 LINE 與我們聯繫。\n・若當天僅進行諮詢、未接受療程，將收取 ₩10,000 諮詢費。\n\n感謝您的預約，期待您的到來💗",
+                    "ko": "🌸 Beauty Blossom 예약 완료 ✅\n\n📅 예약 날짜：12월 29일\n⏰ 예약 시간：19시 00분\n👤 예약 인원：1명\n\n📍 병원 주소\n서울특별시 마포구 양화로 66\nMedione Medical Center 6층\n（합정역 3번 출구）\n💡 영문/한글 주소 및 지도 길안내는 LINE 메뉴에서 「주소」를 눌러 확인하실 수 있습니다.\n\n📌 내원 전 유의사항\n・내원 시 접수를 위해 반드시 여권을 지참해 주세요.\n・예약을 변경하거나 취소하시려면 미리 LINE으로 연락해 주세요.\n・당일 상담만 받고 시술을 받지 않으시면 상담료 ₩10,000이 부과됩니다.\n\n예약해 주셔서 감사합니다. 방문을 기다리겠습니다💗"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "之後若有問題都可以再向我們詢問喔！",
+                    "ko": "이후에 궁금한 점이 있으시면 언제든지 다시 문의해 주세요!"
+                  }
+                ],
+                "id": "G-20261126-N1127-009",
+                "recordIds": [
+                  "G-20261126-N1127-009"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A62:Q62"
+              },
+              {
+                "kind": "consult",
+                "country": "TW",
+                "procedure": "포텐자 · 쥬베룩 스킨 · 엑소좀 · 고우리",
+                "category": "가격",
+                "verdict": "normal",
+                "reason": "담당자가 쥬베룩 4cc 250,000원, 고우리 1실린지 660,000원(세금 별도)이라고 답했다. 수가표 10은 쥬베룩 스킨 4cc VAT 전 250,000원, 수가표 17은 고우리 1실린지(5CC) VAT 전 660,000원으로 안내해 금액이 같다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "你好我想做黃金微針pumping探頭+外泌體 喬雅露 水靈針 這樣價格大概多少",
+                    "ko": "안녕하세요, 포텐자 펌핑 팁 + 엑소좀 쥬베룩(喬雅露) 수령침(水靈針) 이렇게 하면 가격이 대략 얼마인가요"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "兩個加起來費用是多少",
+                    "ko": "두 가지를 합치면 비용이 얼마인가요"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "水光",
+                    "ko": "물광"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "您好，黃金微針的活動優惠給您參考，請問主要想要改善什麼部分呢～\n或是若有其他問題也都可以向我們詢問喔！",
+                    "ko": "안녕하세요, 포텐자 이벤트 혜택을 참고용으로 보내 드립니다. 주로 어떤 부분을 개선하고 싶으신가요~\n다른 궁금한 점이 있으시면 언제든지 저희에게 문의해 주세요!",
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "了解！黃金微針+外泌體可以參考剛才給您的活動優惠，以上價格需再加上10%的韓國稅金喔！",
+                    "ko": "알겠습니다! 포텐자 + 엑소좀은 방금 보내 드린 이벤트 혜택을 참고해 주세요. 위 가격에는 한국 세금 10%가 추가로 붙습니다!"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "喬雅路跟GOURI水靈針的話則可以參考以上的價格喔～",
+                    "ko": "쥬베룩(喬雅路)과 GOURI 수령침은 위 가격을 참고해 주세요~"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "請問喬雅露是想要施打水光還是填充呢～一般水光全臉會建議施打4cc，填充的話可以先告訴我們要改善的部位喔！",
+                    "ko": "쥬베룩(喬雅露)은 물광으로 맞으실 건가요, 아니면 필러로 맞으실 건가요~ 일반적으로 물광은 얼굴 전체에 4cc를 권해 드리며, 필러라면 먼저 개선하고 싶은 부위를 알려 주세요!"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "喬雅露 4cc 250,000韓元，GOURI水靈針 一隻 660,000韓元！\n以上皆為未稅的價格喔～",
+                    "ko": "쥬베룩(喬雅露) 4cc 250,000원, GOURI 수령침 1개 660,000원!\n위는 모두 세금 별도 가격입니다~"
+                  }
+                ],
+                "id": "G-20261126-N1127-010",
+                "recordIds": [
+                  "G-20261126-N1127-010"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A63:Q63"
+              },
+              {
+                "kind": "ops",
+                "country": "TW",
+                "procedure": "확인되지 않음",
+                "category": "예약 안내",
+                "verdict": "normal-ops",
+                "reason": "병원 문의로 시작된 방에 고객이 직접 쓴 질문 없이 병원이 예약 안내 여부를 묻고 개선하고 싶은 부위를 알려 달라고 먼저 안내했다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "您好，要為您安排預約嗎？",
+                    "ko": "안녕하세요, 예약을 잡아 드릴까요?"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "您也可以跟我們說一下最想改善的位置，再幫您初步推薦比較合適的療程喔🤍",
+                    "ko": "가장 개선하고 싶은 부위를 말씀해 주시면 그에 맞는 시술을 먼저 추천해 드릴 수도 있어요🤍"
+                  }
+                ],
+                "id": "G-20261126-N1127-011",
+                "recordIds": [
+                  "G-20261126-N1127-011"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A64:Q64"
+              },
+              {
+                "kind": "inflow",
+                "country": "TW",
+                "procedure": "필러 용해(히알루로니다제)",
+                "category": "이벤트 문의 · 가격",
+                "verdict": "normal",
+                "reason": "담당자가 리포라제 99,000원, 하이렉스 121,000원이라고 안내했다. 수가표 17의 강남언니 시트는 리포라제 1v를 VAT 후 99,000원, 수가표 10은 하이렉스를 121,000원으로 안내해 금액이 같다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음(필러 용해(히알루로니다제) 상품 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "您好，我們院內目前有提供兩種玻尿酸降解酶，價格提供給您參考喔~\n脂肪酶（Liporase）：₩99,000\n海萊斯（Hylenex）：₩121,000",
+                    "ko": "안녕하세요, 저희 병원에는 현재 두 가지 히알루론산 분해효소가 있으며 가격을 참고용으로 안내해 드립니다~\n리포라제(Liporase): ₩99,000\n하이렉스(Hylenex): ₩121,000"
+                  }
+                ],
+                "id": "G-20261126-N1127-012",
+                "recordIds": [
+                  "G-20261126-N1127-012"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A65:Q65"
+              },
+              {
+                "kind": "ops",
+                "country": "TW",
+                "procedure": "확인되지 않음",
+                "category": "예약 안내",
+                "verdict": "normal-ops",
+                "reason": "병원 문의로 시작된 방에 고객이 직접 쓴 질문 없이 병원이 예약 안내 여부를 묻고 개선하고 싶은 부위를 알려 달라고 먼저 안내했다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "您好，要為您安排預約嗎？",
+                    "ko": "안녕하세요, 예약을 잡아 드릴까요?"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "您也可以跟我們說一下最想改善的位置，再幫您初步推薦比較合適的療程喔🤍",
+                    "ko": "가장 개선하고 싶은 부위를 말씀해 주시면 그에 맞는 시술을 먼저 추천해 드릴 수도 있어요🤍"
+                  }
+                ],
+                "id": "G-20261126-N1127-013",
+                "recordIds": [
+                  "G-20261126-N1127-013"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A66:Q66"
+              },
+              {
+                "kind": "consult",
+                "country": "TW",
+                "procedure": "음파 리프팅(슈링크 유니버스·울쎄라)",
+                "category": "효과 유지 기간",
+                "verdict": "normal",
+                "reason": "담당자가 하이푸 음파 약 2~3개월, 미국 음파 약 12개월이라고 답했다. 가이드 02는 슈링크 리프팅 효과가 시술 후 1~6개월 사이에 나타난다고 안내해 2~3개월 답이 그 안에 있고, 울쎄라는 6개월~1년 간격 시술을 권장하며 공식 홈페이지는 미국 음파 2세대 효과 유지를 6~12개월로 안내해 약 12개월 답도 그 안에 있다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "請問一下",
+                    "ko": "한 가지 여쭤볼게요"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "音波可以維持多久呢",
+                    "ko": "음파는 얼마나 유지되나요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "您好，我們院內有多種音波療程，像是海芙音波維持約2~3個月，Z音波為4~6個月，美國音波則可以維持12個月左右喔！",
+                    "ko": "안녕하세요, 저희 병원에는 여러 가지 음파 시술이 있으며, 예를 들어 슈링크는 약 2~3개월, Z 음파는 4~6개월, 울쎄라는 약 12개월 유지됩니다!"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "以上活動優惠一起給您參考喔！",
+                    "ko": "위의 이벤트 혜택도 함께 참고해 주세요!"
+                  }
+                ],
+                "id": "G-20261126-N1127-014",
+                "recordIds": [
+                  "G-20261126-N1127-014"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A67:Q67"
+              },
+              {
+                "kind": "ops",
+                "country": "TW",
+                "procedure": "확인되지 않음",
+                "category": "이벤트 적용 시기",
+                "verdict": "normal-ops",
+                "reason": "1월 방문 시에도 같은 이벤트가가 적용되는지 묻는 질문에 담당자가 12월~2월 이벤트는 다음 주 공개되며 현재 이벤트가를 먼저 참고하라고 안내했다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "一月去的話，也是這個優惠價嗎？",
+                    "ko": "1월에 가면 이 이벤트 가격이 그대로 적용되나요?"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "因為我們預計一月會去韓國",
+                    "ko": "저희가 1월에 한국에 갈 예정이라서요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "12月到明年2月的優惠活動下周就會公布囉~",
+                    "ko": "12월부터 내년 2월까지의 이벤트는 다음 주에 공개될 예정이에요~"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "不過您也可以先參考目前的活動價，基本上不會有太大的變動~",
+                    "ko": "다만 현재 이벤트 가격을 먼저 참고해 보셔도 되며, 기본적으로 크게 달라지지는 않아요~"
+                  }
+                ],
+                "id": "G-20261126-N1127-015",
+                "recordIds": [
+                  "G-20261126-N1127-015"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A68:Q68"
+              },
+              {
+                "kind": "consult",
+                "country": "TW",
+                "procedure": "확인되지 않음",
+                "category": "동반 할인",
+                "verdict": "image",
+                "reason": "두 명이 함께 가면 할인되는지 묻는 질문에 담당자가 친구 동반 할인 혜택을 이미지와 문장으로 안내했다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "兩人同行，能在優惠嗎",
+                    "ko": "두 명이 함께 가면 할인을 받을 수 있나요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "這邊提供好友同行的優惠給您參考喔!",
+                    "ko": "친구와 함께 가시는 동행 할인 혜택을 참고용으로 안내해 드립니다!"
+                  }
+                ],
+                "id": "G-20261126-N1127-016",
+                "recordIds": [
+                  "G-20261126-N1127-016"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A69:Q69"
+              },
+              {
+                "kind": "consult",
+                "country": "TW",
+                "procedure": "피코슈어(모공·기미)",
+                "category": "장비·시술 문의",
+                "verdict": "normal",
+                "reason": "고객이 피코웨이 팁을 물었는데 담당자는 병원 장비가 피코슈어라고 답하고 세 가지 모드를 이미지와 공식 홈페이지 링크로 안내했다. 수가표 10과 가이드 02도 피코슈어·피코포커스·피코줌패스를 병원 색소·모공 시술 모드로 안내해 같다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "請問 PicoWay 超皮秒有搭配 Resolve 1064 nm 全像聚焦探頭嗎？還是只有一般的 Zoom 1064 nm 探頭？\n\n我主要想改善毛孔粗大，其次是顴骨附近的淡斑，請問有適合的療程及價格嗎？",
+                    "ko": "PicoWay 피코 레이저에 Resolve 1064 nm 홀로그램 집속 팁이 함께 있나요? 아니면 일반 Zoom 1064 nm 팁만 있나요?\n\n주로 모공이 넓은 것을 개선하고 싶고, 그다음으로 광대뼈 근처의 옅은 기미가 고민인데, 적합한 시술과 가격이 있나요?"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "我們的是picosure喔~",
+                    "ko": "저희는 피코슈어예요~"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "picosure搭配的是這三種模式，您也可以至我們官網參考喔~\nhttps://tw.beautyblossom.kr/73",
+                    "ko": "피코슈어와 함께 쓰는 것은 이 세 가지 모드예요, 저희 공식 홈페이지에서도 참고하실 수 있어요~\nhttps://tw.beautyblossom.kr/73"
+                  }
+                ],
+                "id": "G-20261126-N1127-017",
+                "recordIds": [
+                  "G-20261126-N1127-017"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A70:Q70"
+              },
+              {
+                "kind": "inflow",
+                "country": "TH",
+                "procedure": "주름 보톡스",
+                "category": "이벤트 문의",
+                "verdict": "image",
+                "reason": "주름 보톡스 이벤트 문의로 유입된 방에 담당자가 프로모션 이미지와 라인 추가 문의 안내로 응대했다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음(주름 보톡스 상품 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "สวัสดีครับ ตอนนี้ทางคลินิกมีโปรโมชั่นอยู่ตามภาพเลยนะครับ\nหากมีข้อสงสัยใดๆเพิ่มเติมสามารถแอดไลน์มาสอบถามได้เลยครับ มีแอดมินคนไทยและล่ามไทยให้บริการอยู่ตลอดนะครับ🥰🙏",
+                    "ko": "안녕하세요, 현재 병원에서 이미지와 같은 프로모션을 진행하고 있습니다.\n추가로 궁금한 점이 있으시면 라인을 추가하셔서 문의해 주세요. 태국인 관리자와 태국어 통역사가 항상 응대해 드립니다🥰🙏",
+                    "image": true
+                  }
+                ],
+                "id": "G-20261126-N1127-018",
+                "recordIds": [
+                  "G-20261126-N1127-018"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A71:Q71"
+              },
+              {
+                "kind": "ops",
+                "country": "JP",
+                "procedure": "확인되지 않음",
+                "category": "예약 시간 변경 확인",
+                "verdict": "normal-ops",
+                "reason": "고객이 4시로 다시 잡은 예약이 방문 알림에는 3시로 표시된다며 4시로 해도 되는지 묻자 담당자는 16시에 기다리겠다고 답했다. 앞서 나간 예약 확정 안내도 16시여서 고객 요청과 담당자 답변이 같다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "4時で予約取り直したはずなのに、3時になってます。3時だと間に合いません。4時でいいですか？",
+                    "ko": "4시로 예약을 다시 잡았을 텐데 3시로 되어 있어요. 3시면 시간에 맞출 수 없어요. 4시로 해도 될까요?"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "よろしくお願いします！",
+                    "ko": "잘 부탁드립니다!"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "もちろん大丈夫でございます😊\n本日は16時にお待ちしております。\nどうぞお気をつけてお越しくださいませ💗",
+                    "ko": "물론 괜찮습니다😊\n오늘은 16시에 기다리고 있겠습니다.\n조심해서 오세요💗"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "よろしくお願いします😀",
+                    "ko": "잘 부탁드립니다😀"
+                  }
+                ],
+                "id": "G-20261126-N1127-019",
+                "recordIds": [
+                  "G-20261126-N1127-019"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A72:Q72"
+              },
+              {
+                "kind": "ops",
+                "country": "US",
+                "procedure": "레이저 제모",
+                "category": "방문 당일 도착 확인",
+                "verdict": "normal-ops",
+                "reason": "고객 문의 없이 병원이 방문 당일 예약 시각에 맞춰 병원으로 오는 중인지 먼저 물었고, 고객이 엘리베이터 앞에서 길을 잃었다고 답하자 곧 보자고 답했다. 사람 직원의 방문 확인 응대로 문제없다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Yes, I am at the elevator. I got lost",
+                    "ko": "네, 지금 엘리베이터 앞이에요. 길을 잃었어요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hello 😊 You have an appointment with us today at 14:00pm. May we kindly ask if you’re on your way to the clinic?",
+                    "ko": "안녕하세요 😊 오늘 14:00pm에 저희 병원 예약이 있으십니다. 병원으로 오시는 중인지 여쭤봐도 될까요?"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "See you later :)",
+                    "ko": "이따 뵙겠습니다 :)"
+                  }
+                ],
+                "id": "G-20261126-N1127-020",
+                "recordIds": [
+                  "G-20261126-N1127-020"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A73:Q73"
+              },
+              {
+                "kind": "ops",
+                "country": "TW",
+                "procedure": "주름 보톡스",
+                "category": "통역 지원",
+                "verdict": "normal-ops",
+                "reason": "현장에 중국어를 하는 사람이 있는지 묻자 병원에 중국어 통역 직원이 있어 걱정하지 않아도 된다고 답했다. 사람 직원의 운영 응대로 문제없다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "現場去有會說中文的人嗎？",
+                    "ko": "현장에 가면 중국어를 하는 분이 있나요?"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-25",
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "我們院內都有中文翻譯人員，這個不用擔心喔✅",
+                    "ko": "저희 병원에는 중국어 통역 직원이 있어서 이 부분은 걱정하지 않으셔도 돼요✅"
+                  }
+                ],
+                "id": "G-20261126-N1127-021",
+                "recordIds": [
+                  "G-20261126-N1127-021"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A74:Q74"
+              },
+              {
+                "kind": "ops",
+                "country": "US",
+                "procedure": "확인되지 않음",
+                "category": "당일 방문 예약",
+                "verdict": "normal-ops",
+                "reason": "오늘 방문이 가능한지, 한 시간 뒤인 2시가 되는지 묻자 2시가 가능하다고 답하고 예약 확정 안내를 보냈다. 확정 안내의 상담료 10,000원, 위치, 네이버·구글 지도 링크가 가이드 08의 영문 예약 확정 양식과 같다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hello. Can I come into the clinic today?",
+                    "ko": "안녕하세요. 오늘 병원에 가도 될까요?"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "In one hour? At 2pm?",
+                    "ko": "한 시간 뒤에요? 오후 2시에요?"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hello! Yes, may I know what time you would like to visit our clinic? 💗",
+                    "ko": "안녕하세요! 네, 몇 시에 병원에 방문하고 싶으신지 여쭤봐도 될까요? 💗"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Yes, of course! 😊🌸 2:00 PM is available. See you shortly! 💗",
+                    "ko": "네, 물론이죠! 😊🌸 오후 2:00 가능합니다. 곧 뵙겠습니다! 💗"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Your reservation has been scheduled for the following date and time:\n\n📅 Day :  26th / Nov / 2026\n⏰ Time : 2pm\n\n📍Location : 66 Yanghwa-ro, Mapo, Seoul, 6F\n\nLink for location\n* Naver Map : https://naver.me/5ap1E0ph\n* Google : https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 Please bring your Alien Registration Card or Passport with you.\n💗 If you only have a consultation on the day of your appointment and do not proceed with any treatment, a consultation fee of ₩10,000 will apply.💗\n\nWe look forward to meeting you soon.🥰\n\nThank you 🙂\n\nBeauty Blossom Global Clinic Team🌸",
+                    "ko": "예약이 아래 날짜와 시간으로 잡혔습니다:\n\n📅 날짜 :  2026년 11월 26일\n⏰ 시간 : 오후 2시\n\n📍위치 : 서울 마포구 양화로 66, 6층\n\n위치 링크\n* 네이버 지도 : https://naver.me/5ap1E0ph\n* 구글 : https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 외국인등록증 또는 여권을 지참해 주세요.\n💗 예약 당일 상담만 받고 시술을 진행하지 않으시는 경우 상담료 ₩10,000이 부과됩니다.💗\n\n곧 뵙기를 기대하겠습니다.🥰\n\n감사합니다 🙂\n\n뷰티블라썸 글로벌 클리닉 팀🌸"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Thank you for your booking request! Your reservation has been successfully arranged 🌸\nIf you have any other questions, please feel free to ask us anytime! 😊",
+                    "ko": "예약 신청 감사합니다! 예약이 정상적으로 잡혔습니다 🌸\n다른 문의가 있으시면 언제든지 편하게 물어봐 주세요! 😊"
+                  }
+                ],
+                "id": "G-20261126-N1127-022",
+                "recordIds": [
+                  "G-20261126-N1127-022"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A75:Q75"
+              },
+              {
+                "kind": "ops",
+                "country": "TH",
+                "procedure": "포텐자 500샷·쥬베룩 스킨",
+                "category": "통역 지원·예약 문의",
+                "verdict": "normal-ops",
+                "reason": "통역이 필요하다는 문의에 태국어·영어 통역이 가능하다고 답하고 방문 희망 일시를 물었다. 고객이 태국어를 고르고 2번 옵션을 보내자 포텐자 500샷과 쥬베룩 스킨이 맞는지 되묻고 태국어 통역사가 상주한다고 안내해 사람 직원의 운영 응대로 문제없다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "I'll need an interpreter",
+                    "ko": "통역사가 필요해요."
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "ไทยค่ะ",
+                    "ko": "태국어요."
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "อันที่ 2 ค่ะ",
+                    "ko": "2번이요."
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "We have both Thai and English interpreters available at our clinic.",
+                    "ko": "저희 병원에는 태국어와 영어 통역사가 모두 있습니다."
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "May I know your preferred date and time to visit our clinic? We'd be happy to check availability for you! 😊🌸",
+                    "ko": "병원 방문을 희망하시는 날짜와 시간을 알려주시겠어요? 예약 가능 여부를 기꺼이 확인해 드리겠습니다! 😊🌸"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "ขออนุญาตยืนยันนะครับ คุณลูกค้าหมายถึง Potenza 500 ช็อต ร่วมกับ Juvelook Skin ใช่ไหมครับ?",
+                    "ko": "확인차 여쭙겠습니다. 고객님께서 말씀하신 것은 Potenza 500샷과 Juvelook Skin을 함께 하는 것이 맞으신가요?"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "ที่คลินิกของเรามีล่ามภาษาไทยประจำอยู่ครับ คุณลูกค้าจึงสื่อสารเป็นภาษาไทยได้เลยครับ ไม่ต้องกังวลนะครับ😊",
+                    "ko": "저희 병원에는 태국어 통역사가 상주하고 있어서 고객님께서는 태국어로 바로 소통하실 수 있습니다. 걱정하지 않으셔도 됩니다😊"
+                  }
+                ],
+                "id": "G-20261126-N1127-023",
+                "recordIds": [
+                  "G-20261126-N1127-023"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A76:Q76"
+              },
+              {
+                "kind": "consult",
+                "country": "TW",
+                "procedure": "사각턱 보톡스",
+                "category": "시술 전 준비",
+                "verdict": "normal",
+                "reason": "가이드 15는 턱/침샘 보톡스 시술 전에 해당 부위를 알콜로 소독한다고 안내하며, 담당자가 소독 때 화장이 닦일 수 있다고 한 설명과 같다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "請問臉頰兩側腮幫肉毒需要卸妝ㄇ",
+                    "ko": "양쪽 볼 아래 턱 부위(腮幫) 보톡스는 메이크업을 지워야 하나요?"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "您好，若只施打咀嚼肌肉毒的話，是可以不用卸妝的喔！\n但施作前會進行局部消毒，若有帶妝的話，可能會被擦拭掉喔～這部分先跟您說明一下喔！",
+                    "ko": "안녕하세요, 저작근 보톡스만 맞으시는 경우에는 메이크업을 지우지 않으셔도 괜찮아요!\n다만 시술 전에 해당 부위를 소독하기 때문에 메이크업을 하셨다면 닦여 나갈 수 있어요~ 이 부분을 먼저 말씀드려요!"
+                  }
+                ],
+                "id": "G-20261126-N1127-024",
+                "recordIds": [
+                  "G-20261126-N1127-024"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A77:Q77"
+              },
+              {
+                "kind": "inflow",
+                "country": "TW",
+                "procedure": "슈링크 유니버스",
+                "category": "이벤트 가격",
+                "verdict": "image",
+                "reason": "상품 유입으로 시작된 방에서 담당자가 슈링크 유니버스 이벤트 혜택 이미지를 보내 응대했다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음(슈링크 유니버스 상품 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "您好，海芙音波的活動優惠給您參考哦",
+                    "ko": "안녕하세요, 하이푸 음파 이벤트 혜택을 참고해 주세요.",
+                    "image": true
+                  }
+                ],
+                "id": "G-20261126-N1127-025",
+                "recordIds": [
+                  "G-20261126-N1127-025"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A78:Q78"
+              },
+              {
+                "kind": "inflow",
+                "country": "US",
+                "procedure": "브라질리언 레이저 제모",
+                "category": "이벤트 문의",
+                "verdict": "normal-ops",
+                "reason": "고객의 직접 질문 없이 상품 유입으로 시작된 방에서 담당자가 인사하고 관심 시술과 고민을 물어 상담을 시작했다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음(브라질리언 레이저 제모 상품 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hello! 😊🌸\nThank you for reaching out to Beauty Blossom!\nHow can I help you today? Please let us know your concerns or the treatment you're interested in, and we'll be happy to assist you. 🤍",
+                    "ko": "안녕하세요! 😊🌸\n뷰티블라썸에 문의해 주셔서 감사합니다!\n오늘 어떤 도움이 필요하신가요? 고민이나 관심 있는 시술을 알려 주시면 기꺼이 도와드리겠습니다. 🤍"
+                  }
+                ],
+                "id": "G-20261126-N1127-026",
+                "recordIds": [
+                  "G-20261126-N1127-026"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A79:Q79"
+              },
+              {
+                "kind": "consult",
+                "country": "US",
+                "procedure": "피코토닝·올리지오·볼뉴머·LDM",
+                "category": "가격·전문의 상담",
+                "verdict": "followup",
+                "reason": "수가표 10·17의 피코슈어토닝 1회 168,300원, 올리지오 XM RF 300·600샷, 볼뉴머 100·300·600샷 금액과 같게 안내했지만, 아쿠아필을 추천받을 수 있는지와 전문의가 상담·시술하는지 묻는 질문에는 답하지 않았다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "I’m visiting Seoul in December 18-25 and would love to explore a few services for me and my husband: Pico toning + Oligio or Volnewmer + LDM, with an aqua peel if recommended. Could you send an itemized quote and confirm that a board-certified dermatologist will consult and perform the treatments? Thank you.",
+                    "ko": "저는 12월 18~25일에 서울을 방문하는데, 저와 남편이 받을 몇 가지 시술을 알아보고 싶어요: 피코토닝 + 올리지오 또는 볼뉴머 + LDM, 추천하신다면 아쿠아필도 함께요. 항목별 견적을 보내 주시고, 피부과 전문의가 상담하고 시술해 주시는지 확인해 주실 수 있을까요? 감사합니다."
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hello, and thank you for contacting Beauty Blossom Clinic! 🌸 Here are our November promotional prices.\n\n- PicoSure Toning (1 session) — KRW 168,300\n- Oligio XM RF — KRW 759,000 for 300 shots or KRW 1,419,000 for 600 shots\n- Volnewmer — KRW 176,000 for 100 shots, KRW 467,500 for 300 shots, or KRW 825,000 for 600 shots\n- LDM (12 minutes) — KRW 99,000\n\nAll prices are per person and include VAT. Please note that prices may differ for December visits. 😊",
+                    "ko": "안녕하세요, 뷰티블라썸 클리닉에 문의해 주셔서 감사합니다! 🌸 11월 프로모션 가격을 안내해 드립니다.\n\n- 피코슈어 토닝(1회) — 168,300원\n- 올리지오 XM RF — 300샷 759,000원 또는 600샷 1,419,000원\n- 볼뉴머 — 100샷 176,000원, 300샷 467,500원 또는 600샷 825,000원\n- LDM(12분) — 99,000원\n\n모든 가격은 1인 기준이며 부가세가 포함되어 있습니다. 12월 방문 시에는 가격이 달라질 수 있는 점 참고해 주세요. 😊"
+                  }
+                ],
+                "id": "G-20261126-N1127-027",
+                "recordIds": [
+                  "G-20261126-N1127-027"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A80:Q80"
+              },
+              {
+                "kind": "consult",
+                "country": "CA",
+                "procedure": "사각턱·침샘 보톡스",
+                "category": "가격·예약",
+                "verdict": "normal",
+                "reason": "수가표 10은 사각턱 보톡스를 국산 43,500원·코어 73,700원·제오민 143,000원·앨러간 197,000원, 침샘(근육B 특수부위)을 77,000원·110,000원·156,000원·220,000원으로 안내하며 담당자의 표와 같다. 고객이 제안한 11월 27일 10시~11시 중 10시로 예약을 잡았다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "D\n고객이 제안한 일정 중\n하나를 선택해주세요\n제안받은 일정이 어렵다면,\n채팅으로 일정을 조율해주세요\n2026년 11월 27일 10:00\n2026년 11월 27일 10:30\n2026년 11월 27일 11:00\n이 일정으로 확정하기",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hello from Beauty Blossom Clinic! 😊\n\nThank you for asking about jawline (masseter) Botox and salivary gland Botox. The prices below are for 50 units per treatment and include VAT.\n\nBrand | Jawline Botox (50 units) | Salivary gland Botox (50 units)\n\nKorean brand | ₩43,500 | ₩77,000\nCoretox | ₩73,700 | ₩110,000\nXeomin | ₩143,000 | ₩156,000\nAllergan | ₩197,000 | ₩220,000\nIf you have any questions, please feel free to message us. Thank you! 🌸",
+                    "ko": "뷰티블라썸 클리닉에서 인사드립니다! 😊\n\n사각턱(저작근) 보톡스와 침샘 보톡스에 대해 문의해 주셔서 감사합니다. 아래 가격은 1회 시술 기준 50유닛이며 부가세가 포함되어 있습니다.\n\n브랜드 | 사각턱 보톡스(50유닛) | 침샘 보톡스(50유닛)\n\n국산 브랜드 | ₩43,500 | ₩77,000\n코어톡스 | ₩73,700 | ₩110,000\n제오민 | ₩143,000 | ₩156,000\n앨러간 | ₩197,000 | ₩220,000\n궁금한 점이 있으시면 언제든지 메시지 주세요. 감사합니다! 🌸"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "We’ll book your appointment for November 27 at 10:00 AM. We look forward to seeing you! 😊",
+                    "ko": "11월 27일 오전 10시로 예약해 드리겠습니다. 뵙기를 기다리겠습니다! 😊"
+                  }
+                ],
+                "id": "G-20261126-N1127-028",
+                "recordIds": [
+                  "G-20261126-N1127-028"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A81:Q81"
+              },
+              {
+                "kind": "consult",
+                "country": "CA",
+                "procedure": "사각턱·침샘 보톡스",
+                "category": "추가 비용",
+                "verdict": "normal",
+                "reason": "가이드 08의 예약 접수 안내는 상담만 받으면 상담비 10,000원이 발생한다고 하며, 담당자의 추가 비용 없음·상담만 받을 때 상담비 10,000원 안내와 같다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Are there any extra fees?",
+                    "ko": "추가 비용이 있나요?"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Thank you",
+                    "ko": "감사합니다"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "No extra charge^^When you have only consultation, consultation fee is charged (10,000KRW)",
+                    "ko": "추가 비용은 없습니다^^ 상담만 받으시는 경우에는 상담비(10,000원)가 부과됩니다."
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "You're welcome :)",
+                    "ko": "천만에요 :)"
+                  }
+                ],
+                "id": "G-20261126-N1127-029",
+                "recordIds": [
+                  "G-20261126-N1127-029"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A82:Q82"
+              },
+              {
+                "kind": "ops",
+                "country": "CA",
+                "procedure": "사각턱·침샘 보톡스",
+                "category": "예약 확정 안내",
+                "verdict": "fix",
+                "severity": "confirmed",
+                "reason": "예약 확정 안내에 넣은 네이버 지도 링크 naver.me/*ap1E0ph는 접속하면 404 오류가 난다. 가이드 08의 예약 확정 양식은 병원 위치로 연결되는 naver.me/5ap1E0ph를 안내하며, 담당자 문구에는 5 자리가 *로 바뀌어 있다. 상담료 10,000원 안내는 양식대로 들어 있다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Your reservation has been scheduled for the following date and time:\n\n📅 Day :  27th / November / 2026\n⏰ Time : 10am\n\n📍Location : 66 Yanghwa-ro, Mapo, Seoul, 6F\n\nLink for lo*ation\n* Naver Map : https://naver.me/*ap1E0ph\n* Google : https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 Please bring your Alien Registration Card or Passport with you.\n\n If you only have a consultation on the day of your appointment and do not proceed with any treatment, a consultation fee of ₩10,000 will apply.\n\nWe look forward to meeting you soon.🥰\n\nThank you 🙂\n\nBeauty Blossom Global Clinic Team🌸",
+                    "ko": "예약이 아래 날짜와 시간으로 잡혔습니다:\n\n📅 날짜 :  2026년 / 11월 / 27일\n⏰ 시간 : 오전 10시\n\n📍위치 : 서울 마포구 양화로 66, 6층\n\n위치 링크\n* 네이버 지도 : https://naver.me/*ap1E0ph\n* 구글 : https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 외국인등록증 또는 여권을 지참해 주세요.\n\n 예약 당일 상담만 받고 시술을 진행하지 않으시는 경우 상담료 ₩10,000이 부과됩니다.\n\n곧 뵙기를 기대하겠습니다.🥰\n\n감사합니다 🙂\n\n뷰티블라썸 글로벌 클리닉 팀🌸"
+                  }
+                ],
+                "id": "G-20261126-N1127-030",
+                "recordIds": [
+                  "G-20261126-N1127-030"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A83:Q83"
+              },
+              {
+                "kind": "ops",
+                "country": "TH",
+                "procedure": "확인되지 않음",
+                "category": "예약 취소",
+                "verdict": "normal-ops",
+                "reason": "고객이 예약 취소를 요청했고 담당자가 요청대로 취소하겠다고 답했으며, 이어서 12월 4일 오후 6시 30분 예약 취소 카드가 나갔다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "ขอยกเลิกวันนัดค่ะ",
+                    "ko": "예약을 취소하고 싶어요."
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "ได้ครับ ทางคลินิกจะยกเลิกนัดให้ตามที่แจ้งมานะครับ หากมีข้อสงสัยเพิ่มเติม สามารถทักมาสอบถามได้เสมอครับ ขอบคุณครับ",
+                    "ko": "네, 알려 주신 대로 클리닉에서 예약을 취소해 드리겠습니다. 추가로 궁금한 점이 있으시면 언제든지 문의해 주세요. 감사합니다."
+                  }
+                ],
+                "id": "G-20261126-N1127-031",
+                "recordIds": [
+                  "G-20261126-N1127-031"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A84:Q84"
+              },
+              {
+                "kind": "consult",
+                "country": "TW",
+                "procedure": "온다 프로·어깨목 보톡스·팔자주름 필러",
+                "category": "가격",
+                "verdict": "image",
+                "reason": "고객이 주요 시술 가격을 묻고 Onda Pro·어깨목 보톡스·팔자주름 필러에 관심이 있다고 하자 담당자가 어떤 시술에 관심이 있는지 먼저 묻고 해당 시술의 가격표를 보냈다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "想了解主要施術／手術的價格",
+                    "ko": "주요 시술/수술 가격을 알고 싶어요"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Onda pro 臉部和 肩頸肉毒200u 或者是法令紋玻尿酸",
+                    "ko": "Onda pro 얼굴과 어깨·목 보톡스 200u 또는 팔자주름 히알루론산 필러"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "您好，不知道您對哪項療程比較有興趣呢？",
+                    "ko": "안녕하세요, 어떤 시술에 관심이 있으신가요?"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "您也可以跟我們說一下最想改善的位置，再幫您初步推薦比較合適的療程喔🤍",
+                    "ko": "가장 개선하고 싶은 부위를 말씀해 주시면 그에 맞는 시술을 먼저 추천해 드릴 수도 있어요🤍"
+                  },
+                  {
+                    "note": "카드 안내(본문 없음)"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "這邊把您有興趣的療程項目價格表先提供給您參考喔~",
+                    "ko": "관심 있으신 시술 항목의 가격표를 먼저 보내 드려요~"
+                  }
+                ],
+                "id": "G-20261126-N1127-032",
+                "recordIds": [
+                  "G-20261126-N1127-032"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A85:Q85"
+              },
+              {
+                "kind": "consult",
+                "country": "TW",
+                "procedure": "바디 지방분해주사",
+                "category": "용량·가격",
+                "verdict": "image",
+                "reason": "팔·복부·허벅지 지방분해주사 용량 문의에 담당자가 가격 이미지를 보내고, 용량은 지방량과 개선 정도에 따라 다르며 팔은 약 50cc, 허벅지·허리·복부는 100cc 이상을 참고하라고 답했다. 가이드 02는 부위별 지방 두께에 따라 용량을 정한다고 안내해 설명이 같고, 수가표 10에도 바디 주사 50cc·100cc 단위 상품이 있다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "想問手臂溶脂針 會建議多少cc 呢",
+                    "ko": "팔 지방분해주사는 몇 cc를 권장하시는지 궁금해요"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "或者是肚子 大腿",
+                    "ko": "아니면 배, 허벅지는요"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "好的 謝謝 我參考一下",
+                    "ko": "네, 감사합니다. 참고해 볼게요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "溶脂針的建議劑量會根據您的脂肪量，以及希望改善的程度而有所差異喔!",
+                    "ko": "지방분해주사의 권장 용량은 지방량과 개선하고 싶은 정도에 따라 달라요!"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "腹部和大腿屬於比較大範圍的，需要的劑量相對上也會比較多喔~",
+                    "ko": "복부와 허벅지는 범위가 비교적 넓어서 필요한 용량도 상대적으로 많아요~"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "如果主要想改善雙手臂脂肪、蝴蝶袖，一般可以先參考 約 50cc 左右喔~",
+                    "ko": "주로 양팔 지방과 처진 팔뚝살(나비팔)을 개선하고 싶으시다면 보통 약 50cc 정도를 먼저 참고하시면 돼요~"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "大腿和腰腹則會建議需要100cc以上喔~",
+                    "ko": "허벅지와 허리·복부는 100cc 이상을 권장해요~"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "實際還是會依您的脂肪厚度、施打範圍跟想改善的程度來調整~",
+                    "ko": "실제로는 지방 두께, 주입 범위, 개선하고 싶은 정도에 따라 조정돼요~"
+                  }
+                ],
+                "id": "G-20261126-N1127-033",
+                "recordIds": [
+                  "G-20261126-N1127-033"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A86:Q86"
+              },
+              {
+                "kind": "ops",
+                "country": "TH",
+                "procedure": "확인되지 않음",
+                "category": "예약 변경",
+                "verdict": "normal-ops",
+                "reason": "고객이 오늘 예약 시간을 오후 1~2시 사이로 바꿔 달라고 하자 담당자가 변경이 가능하다고 답한 뒤 고객이 고른 오후 2시로 변경해 알렸다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "วันนี้ที่นัดไปทำหน้า เพื่อเวลาเป็น 13:00-14:00 พอได้ไหมค่ะ",
+                    "ko": "오늘 얼굴 관리로 예약해 둔 건데, 시간을 13:00~14:00 정도로 해도 될까요?"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "บ่ายสองโมงค่ะ เพื่อเวลาไว้เดี๋ยวไม่ทันค่ะ\nCF บ่าย 2 ค่ะ ขอบคุณมากๆค่ะ",
+                    "ko": "오후 2시요. 시간 여유를 두려고요, 안 그러면 시간에 못 맞출 것 같아서요.\nCF 오후 2시요. 정말 감사합니다."
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "ได้ครับ สามารถเปลี่ยนเวลานัดวันนี้ได้ครับ คุณลูกค้าสะดวกเข้ามากี่โมงครับ ระหว่างบ่ายโมงถึงบ่ายสองโมง? 😊",
+                    "ko": "네, 오늘 예약 시간을 변경하실 수 있습니다. 몇 시에 오시는 게 편하세요? 오후 1시에서 오후 2시 사이로요? 😊"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "ทางคลินิกเปลี่ยนเวลานัดของวันนี้เป็นบ่ายสองโมงให้เรียบร้อยแล้วครับ 😊 ไม่ทราบว่าวันนี้คุณลูกค้าสนใจทำหัตถการอะไรเป็นพิเศษไหมครับ?",
+                    "ko": "병원에서 오늘 예약 시간을 오후 2시로 변경해 드렸습니다 😊 오늘 특별히 관심 있으신 시술이 있으신가요?"
+                  }
+                ],
+                "id": "G-20261126-N1127-034",
+                "recordIds": [
+                  "G-20261126-N1127-034"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A87:Q87"
+              },
+              {
+                "kind": "ops",
+                "country": "AE",
+                "procedure": "확인되지 않음",
+                "category": "예약 확인",
+                "verdict": "normal-ops",
+                "reason": "예약 당일 병원이 내원 중인지 먼저 묻자 고객이 병원으로 이동 중이라고 답했다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Yes I’m on my way 😊",
+                    "ko": "네, 가고 있어요 😊"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hello 😊 You have an appointment with us today at 11:00am. May we kindly ask if you’re on your way to the clinic?",
+                    "ko": "안녕하세요 😊 오늘 오전 11시에 저희 병원 예약이 있으세요. 지금 병원으로 오고 계신지 여쭤봐도 될까요?"
+                  }
+                ],
+                "id": "G-20261126-N1127-035",
+                "recordIds": [
+                  "G-20261126-N1127-035"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A88:Q88"
+              },
+              {
+                "kind": "ops",
+                "country": "AE",
+                "procedure": "페이셜",
+                "category": "예약 문의",
+                "verdict": "normal-ops",
+                "reason": "고객이 같은 날 일행이 페이셜을 받을 수 있는 빈 시간이 있는지 묻자 담당자가 함께 방문하면 된다고 답했다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Do you have any open available times for a facial today for my friend?",
+                    "ko": "오늘 제 친구가 페이셜을 받을 수 있는 빈 시간이 있나요?"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Sure! You can visit together!",
+                    "ko": "물론이죠! 함께 방문하셔도 돼요!"
+                  }
+                ],
+                "id": "G-20261126-N1127-036",
+                "recordIds": [
+                  "G-20261126-N1127-036"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A89:Q89"
+              },
+              {
+                "kind": "inflow",
+                "country": "TW",
+                "procedure": "쥬베룩·리쥬란",
+                "category": "가격",
+                "verdict": "image",
+                "reason": "쥬베룩과 리쥬란 상품 문의로 시작한 뒤 고객 글 없이 담당자가 두 시술의 가격 이미지를 보내고, 먼저 예약한 뒤 현장 상담에서 시술을 정하면 된다고 안내했다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음(쥬베룩·리쥬란 상품 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "喬雅露和麗珠蘭的價格這邊可以先給您參考喔😊",
+                    "ko": "쥬베룩과 리쥬란 가격을 먼저 참고하실 수 있도록 보내 드려요😊",
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "我們都可以先安排預約，現場諮詢時再決定施作療程，都會根據您的需求推薦合適的項目給您~",
+                    "ko": "먼저 예약을 잡아 드릴 수 있고, 현장 상담 때 시술을 결정하셔도 되며, 고객님의 필요에 맞는 항목을 추천해 드릴게요~"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "如果還有任何問題，或是有想再了解的療程，都可以隨時跟我們說～\n謝謝您🤍",
+                    "ko": "추가로 궁금한 점이 있거나 더 알고 싶은 시술이 있으시면 언제든지 말씀해 주세요~\n감사합니다🤍"
+                  }
+                ],
+                "id": "G-20261126-N1127-037",
+                "recordIds": [
+                  "G-20261126-N1127-037"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A90:Q90"
+              },
+              {
+                "kind": "inflow",
+                "country": "TW",
+                "procedure": "확인되지 않음",
+                "category": "예약 안내",
+                "verdict": "normal-ops",
+                "reason": "병원 문의로 시작한 뒤 고객 글 없이 담당자가 예약을 잡아 드릴지 묻고, 먼저 예약한 뒤 현장 상담에서 시술을 정하면 된다고 안내했다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음(확인되지 않음 상품 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "您好，請問需要幫您安排預約嗎？",
+                    "ko": "안녕하세요, 예약을 잡아 드릴까요?"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "我們都可以先安排預約，現場諮詢時再決定施作療程，都會根據您的需求推薦合適的項目給您~",
+                    "ko": "먼저 예약을 잡아 드릴 수 있고, 현장 상담 때 시술을 결정하셔도 되며, 고객님의 필요에 맞는 항목을 추천해 드릴게요~"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "您也可以跟我們說一下最想改善的位置，再幫您初步推薦比較合適的療程喔🤍",
+                    "ko": "가장 개선하고 싶은 부위를 말씀해 주시면 그에 맞는 시술을 먼저 추천해 드릴 수도 있어요🤍"
+                  }
+                ],
+                "id": "G-20261126-N1127-038",
+                "recordIds": [
+                  "G-20261126-N1127-038"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A91:Q91"
+              },
+              {
+                "kind": "inflow",
+                "country": "TW",
+                "procedure": "히알루론산 필러",
+                "category": "가격",
+                "verdict": "image",
+                "reason": "필러 상품 문의로 시작한 뒤 고객 글 없이 담당자가 히알루론산 필러 가격 이미지를 보내고 추가 문의가 있으면 말씀해 달라고 안내했다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음(히알루론산 필러 상품 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "玻尿酸填充的價格這邊可以先給您參考喔😊",
+                    "ko": "히알루론산 필러 가격을 먼저 참고하실 수 있도록 보내 드려요😊",
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "如果還有任何問題，或是有想再了解的療程，都可以隨時跟我們說～\n謝謝您🤍",
+                    "ko": "추가로 궁금한 점이 있거나 더 알고 싶은 시술이 있으시면 언제든지 말씀해 주세요~\n감사합니다🤍"
+                  }
+                ],
+                "id": "G-20261126-N1127-039",
+                "recordIds": [
+                  "G-20261126-N1127-039"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A92:Q92"
+              },
+              {
+                "kind": "ops",
+                "country": "JP",
+                "procedure": "아쿠아필",
+                "category": "예약 당일 방문 확인",
+                "verdict": "normal-ops",
+                "reason": "고객 문의 없이 병원이 예약 당일 아침에 일본어로 예약 시각의 일정 변경 여부와 병원으로 이동 중인지를 먼저 확인했다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-26",
+                "customer": [],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "おはようございます。ビューティーブロッサムクリニックです😊 本日午後12時にご予約を承っておりますが、ご予定に変更はございませんでしょうか？ 現在、当院へ向かわれていらっしゃいますか？🌸",
+                    "ko": "안녕하세요. 뷰티블라썸 클리닉입니다😊 오늘 오후 12시에 예약을 받아 두었는데 일정에 변경은 없으신가요? 지금 저희 병원으로 오고 계신가요?🌸"
+                  }
+                ],
+                "id": "G-20261126-N1127-040",
+                "recordIds": [
+                  "G-20261126-N1127-040"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A93:Q93"
+              }
+            ],
+            "merged": [],
+            "unavailable": {
+              "recordIds": [
+                "G-20261126-N1127-U001",
+                "G-20261126-N1127-U002",
+                "G-20261126-N1127-U003",
+                "G-20261126-N1127-U004",
+                "G-20261126-N1127-U005",
+                "G-20261126-N1127-U006",
+                "G-20261126-N1127-U007",
+                "G-20261126-N1127-U008",
+                "G-20261126-N1127-U009"
+              ],
+              "reasons": [
+                {
+                  "reason": "답변 전 새 채팅 메시지",
+                  "recordIds": [
+                    "G-20261126-N1127-U001",
+                    "G-20261126-N1127-U002",
+                    "G-20261126-N1127-U003",
+                    "G-20261126-N1127-U004",
+                    "G-20261126-N1127-U005",
+                    "G-20261126-N1127-U006",
+                    "G-20261126-N1127-U007",
+                    "G-20261126-N1127-U008",
+                    "G-20261126-N1127-U009"
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "platform": "gangnamunni",
           "date": "2026-11-25",
           "status": "partial",
           "auditState": "source-availability-partial",
@@ -581,7 +3452,7 @@ window.SUPERVISION_DATA = {
           "autoMessages": null,
           "systemMessages": null,
           "deletedMessages": null,
-          "reviewedRooms": 24,
+          "reviewedRooms": 31,
           "verdicts": null,
           "countries": [],
           "cases": [],
@@ -590,7 +3461,7 @@ window.SUPERVISION_DATA = {
           "conversations": [],
           "issues": [],
           "followUps": [],
-          "reviewScope": "11월 25일 마지막 활동 방 40곳 중 32곳을 읽었다. 답변 전 새 채팅 메시지 8곳은 열지 않았다. 11월 25일 상담 카드 34개(상품 유입 4개 포함)를 확인했고 지적은 5건이다. 실행 당일 활동 방 5곳은 열지 않았다.",
+          "reviewScope": "11월 25일 마지막 활동 방 40곳 중 32곳을 읽었다. 답변 전 새 채팅 메시지 8곳은 열지 않았다. 11월 25일 상담 카드 34개(상품 유입 4개 포함)를 확인했고 지적은 5건이다. 실행 당일 활동 방 5곳은 열지 않았다. 11월 26일에 읽을 수 있게 된 11월 25일 문의 11건을 나중에 이 날짜에 추가했다.",
           "availabilityCoverage": {
             "targetDate": "2026-11-25",
             "observedAt": "2026-11-26T00:34:01.771Z",
@@ -600,7 +3471,7 @@ window.SUPERVISION_DATA = {
             "observedCandidateCount": 40,
             "bodyRoomsOpened": 32,
             "actualBodyDateMembership": "confirmed-subset",
-            "reason": "11월 25일 마지막 활동 방 40곳 중 32곳을 읽었다. 답변 전 새 채팅 메시지 8곳은 열지 않았다. 11월 25일 상담 카드 34개(상품 유입 4개 포함)를 확인했고 지적은 5건이다. 실행 당일 활동 방 5곳은 열지 않았다.",
+            "reason": "11월 25일 마지막 활동 방 40곳 중 32곳을 읽었다. 답변 전 새 채팅 메시지 8곳은 열지 않았다. 11월 25일 상담 카드 34개(상품 유입 4개 포함)를 확인했고 지적은 5건이다. 실행 당일 활동 방 5곳은 열지 않았다. 11월 26일에 읽을 수 있게 된 11월 25일 문의 11건을 나중에 이 날짜에 추가했다.",
             "safetyNotes": [
               "실행 당일(11월 26일) 활동 방은 열지 않았다."
             ],
@@ -1743,11 +4614,308 @@ window.SUPERVISION_DATA = {
               "targetDayState": "unknown",
               "targetDate": "2026-11-25",
               "hasOriginal": false
+            },
+            {
+              "id": "G-20261125-N1127-001",
+              "country": "PH",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 4,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-25",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A4:Q4"
+            },
+            {
+              "id": "G-20261125-N1127-002",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-25",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A5:Q5"
+            },
+            {
+              "id": "G-20261125-N1127-003",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-25",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A6:Q6"
+            },
+            {
+              "id": "G-20261125-N1127-004",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-25",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A7:Q7"
+            },
+            {
+              "id": "G-20261125-N1127-005",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 5,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-25",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A8:Q8"
+            },
+            {
+              "id": "G-20261125-N1127-006",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-25",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A9:Q9"
+            },
+            {
+              "id": "G-20261125-N1127-007",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 4,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-25",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A10:Q10"
+            },
+            {
+              "id": "G-20261125-N1127-008",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-25",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A11:Q11"
+            },
+            {
+              "id": "G-20261125-N1127-009",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-25",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A12:Q12"
+            },
+            {
+              "id": "G-20261125-N1127-010",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 6,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-25",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A13:Q13"
+            },
+            {
+              "id": "G-20261125-N1127-011",
+              "country": "TW",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-25",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A14:Q14"
             }
           ],
           "qaReviewFinalization": {
             "schemaVersion": 2,
-            "finalizedAt": "2026-11-26T01:04:10.804Z",
+            "finalizedAt": "2026-11-27T00:59:09.205Z",
             "finalStatus": "completed",
             "sourceCoverage": "partial",
             "exchanges": [
@@ -3078,6 +6246,466 @@ window.SUPERVISION_DATA = {
                   "G-20261125-N1126-034"
                 ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=39242788&range=A85:Q85"
+              },
+              {
+                "kind": "ops",
+                "country": "PH",
+                "procedure": "턱 필러",
+                "category": "예약 일정 조율",
+                "verdict": "normal-ops",
+                "reason": "고객이 일요일인 11월 29일 15시 30분 방문을 원하자 15시까지, 늦어도 15시 30분까지 도착하라고 안내했고 11월 30일은 10시부터 18시까지 가능하다고 답했다. 가이드 07은 주말 진료를 10:00–16:30으로 적고 마취크림 시술의 주말 4시 예약은 시간 조절이 필요하다고 적고 있어 같은 안내다.",
+                "questionDate": "2026-11-25",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-25",
+                    "original": "Thank you for answering everything. I’d like to schedule a visit then.",
+                    "ko": "모두 답변해 주셔서 감사합니다. 그럼 방문 일정을 잡고 싶어요."
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Nov 29 3:30 pm?",
+                    "ko": "11월 29일 오후 3:30 가능할까요?"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Oh wait, how about on Nov 30?",
+                    "ko": "아, 잠깐만요, 11월 30일은 어때요?"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Wait time can I come on Nov 30?",
+                    "ko": "잠깐만요, 11월 30일에 가도 될까요?"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Of course! We’d be happy to help you book an appointment. What date and time would work best for you?",
+                    "ko": "물론이죠! 예약을 기꺼이 도와드리겠습니다. 어느 날짜와 시간이 가장 좋으신가요?"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Would you be able to arrive by 3:00 PM? This would give us enough time for your consultation and for the anesthetic to take effect before your treatment.\n\nIf 3:00 PM is difficult for you, please arrive by 3:30 PM at the latest. If you arrive after 3:30 PM, we may be unable to provide your treatment that day. Thank you for your understanding.",
+                    "ko": "오후 3:00까지 도착하실 수 있을까요? 그러면 상담과 시술 전에 마취가 듣기에 충분한 시간을 확보할 수 있습니다.\n\n오후 3:00가 어려우시면 늦어도 오후 3:30까지는 도착해 주세요. 오후 3:30 이후에 도착하시면 그날 시술을 해 드리지 못할 수 있습니다. 양해해 주셔서 감사합니다."
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "We have availability from 10:00 AM to 6:00 PM on November 30th! 😊🌸\nMay I know what time would work best for you?",
+                    "ko": "11월 30일에는 오전 10:00부터 오후 6:00까지 예약이 가능합니다! 😊🌸\n어느 시간이 가장 좋으신가요?"
+                  }
+                ],
+                "id": "G-20261125-N1127-001",
+                "recordIds": [
+                  "G-20261125-N1127-001"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A4:Q4"
+              },
+              {
+                "kind": "consult",
+                "country": "TW",
+                "procedure": "사각턱 보톡스",
+                "category": "가격",
+                "verdict": "image",
+                "reason": "고객이 저작근 보톡스 가격을 문의했고 담당자가 가격 이미지와 안내 문장으로 응대했다.",
+                "questionDate": "2026-11-25",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-25",
+                    "original": "肉毒咀嚼肌",
+                    "ko": "저작근 보톡스"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "咀嚼肌肉毒的價格這邊可以先給您參考喔😊",
+                    "ko": "저작근 보톡스 가격은 이쪽에서 먼저 참고하실 수 있도록 안내드려요😊"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "如果還有任何問題，或是有想再了解的療程，都可以隨時跟我們說～\n謝謝您🤍",
+                    "ko": "추가로 궁금한 점이 있거나 더 알고 싶은 시술이 있으시면 언제든지 말씀해 주세요~\n감사합니다🤍"
+                  }
+                ],
+                "id": "G-20261125-N1127-002",
+                "recordIds": [
+                  "G-20261125-N1127-002"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A5:Q5"
+              },
+              {
+                "kind": "ops",
+                "country": "TW",
+                "procedure": "확인되지 않음",
+                "category": "통역 안내",
+                "verdict": "normal-ops",
+                "reason": "고객이 방문 시 중국어 통역이 필요하다고 하자 담당자가 병원에 중국어 통역 직원이 있어 걱정하지 않아도 된다고 답했다.",
+                "questionDate": "2026-11-25",
+                "finalReplyDate": "2026-11-25",
+                "customer": [
+                  {
+                    "date": "2026-11-25",
+                    "original": "到院時需要中文翻譯服務",
+                    "ko": "병원에 갈 때 중국어 통역 서비스가 필요해요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-25",
+                    "original": "我們院內都有中文翻譯人員，這個不用擔心喔✅",
+                    "ko": "저희 병원에는 중국어 통역 직원이 있어서 이 부분은 걱정하지 않으셔도 돼요✅"
+                  }
+                ],
+                "id": "G-20261125-N1127-003",
+                "recordIds": [
+                  "G-20261125-N1127-003"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A6:Q6"
+              },
+              {
+                "kind": "ops",
+                "country": "TW",
+                "procedure": "확인되지 않음",
+                "category": "상담·예약 순서",
+                "verdict": "normal-ops",
+                "reason": "고객이 먼저 상담을 받고 예약하는지 묻자 담당자는 먼저 예약을 잡고 현장 상담에서 시술을 정할 수 있다고 답하며, 가장 개선하고 싶은 부위를 알려 주면 시술을 추천하겠다고 안내했다.",
+                "questionDate": "2026-11-25",
+                "finalReplyDate": "2026-11-25",
+                "customer": [
+                  {
+                    "date": "2026-11-25",
+                    "original": "是先諮詢在預約嗎",
+                    "ko": "먼저 상담을 받고 예약하는 건가요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-25",
+                    "original": "您好您有什麼想要了解的嗎~",
+                    "ko": "안녕하세요, 어떤 점이 궁금하신가요~"
+                  },
+                  {
+                    "date": "2026-11-25",
+                    "original": "我們都可以先安排預約，現場諮詢時再決定施作療程，都會根據您的需求推薦合適的項目給您~",
+                    "ko": "먼저 예약을 잡아 드릴 수 있고, 현장 상담 때 시술을 결정하셔도 되며, 고객님의 필요에 맞는 항목을 추천해 드릴게요~"
+                  },
+                  {
+                    "date": "2026-11-25",
+                    "original": "或者您也可以跟我們說一下最想改善的位置，再幫您初步推薦比較合適的療程喔🤍",
+                    "ko": "아니면 가장 개선하고 싶은 부위를 말씀해 주시면, 비교적 잘 맞는 시술을 먼저 대략적으로 추천해 드릴게요🤍"
+                  }
+                ],
+                "id": "G-20261125-N1127-004",
+                "recordIds": [
+                  "G-20261125-N1127-004"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A7:Q7"
+              },
+              {
+                "kind": "consult",
+                "country": "TW",
+                "procedure": "피코초 레이저, 포텐자 펌핑팁+쥬베룩 스킨",
+                "category": "시술 추천·가격",
+                "verdict": "image",
+                "reason": "칙칙함·피부 톤 불균형·여드름 자국·거친 피부결 고민에 담당자는 피코초 레이저와 포텐자 골드 마이크로니들 펌핑팁+쥬베룩 스킨 두 방향을 권하고 각각 가격 이미지를 보냈다. 가이드 02는 피코슈어를 색소 개선과 모공·흉터 완화에 쓰는 레이저로, 가이드 06은 포텐자 펌핑팁을 스킨부스터와 함께 모공·탄력 개선에 쓰고 여드름 흉터 완화에 도움이 된다고 안내해 권한 내용과 같다.",
+                "questionDate": "2026-11-25",
+                "finalReplyDate": "2026-11-25",
+                "customer": [
+                  {
+                    "date": "2026-11-25",
+                    "original": "臉部暗沉 膚色不均 痘印痘疤 粗糙不平滑",
+                    "ko": "얼굴 칙칙함 피부 톤 불균형 여드름 자국 여드름 흉터 거칠고 매끄럽지 않은 피부결"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-25",
+                    "original": "如果主要想改善 臉部暗沉、膚色不均、痘印痘疤，加上膚質粗糙不平滑，可以考慮分兩個方向一起處理喔~",
+                    "ko": "주로 얼굴 칙칙함, 피부 톤 불균형, 여드름 자국·흉터를 개선하고 싶고 피부결도 거칠고 매끄럽지 않다면, 두 가지 방향으로 나눠 함께 관리하는 것을 고려해 보실 수 있어요~"
+                  },
+                  {
+                    "date": "2026-11-25",
+                    "original": "痘印、暗沉、膚色不均\n可以參考 皮秒雷射，會比較針對色素型痘印、膚色不均跟整體提亮。",
+                    "ko": "여드름 자국, 칙칙함, 피부 톤 불균형\n피코 레이저를 참고해 보세요. 색소성 여드름 자국, 피부 톤 불균형과 전체적인 피부 톤 개선에 더 초점이 맞춰져 있어요."
+                  },
+                  {
+                    "date": "2026-11-25",
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-25",
+                    "original": "痘疤、毛孔、粗糙不平滑\n會比較推薦黃金微針 Pumping 探頭＋Juvelook水光導入，會更著重在痘疤、毛孔跟整體細緻度改善~",
+                    "ko": "여드름 흉터, 모공, 거칠고 매끄럽지 않은 피부결\n골드 마이크로니들 Pumping 팁＋Juvelook 물광 도입을 더 권해 드려요. 여드름 흉터, 모공과 전체적인 피부결 개선에 더 초점이 맞춰져 있어요~"
+                  },
+                  {
+                    "date": "2026-11-25",
+                    "imageOnly": true,
+                    "image": true
+                  }
+                ],
+                "id": "G-20261125-N1127-005",
+                "recordIds": [
+                  "G-20261125-N1127-005"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A8:Q8"
+              },
+              {
+                "kind": "consult",
+                "country": "TW",
+                "procedure": "피코초 레이저, 포텐자 골드 마이크로니들",
+                "category": "병행 방안·회차 가격",
+                "verdict": "normal",
+                "reason": "두 방향을 어떻게 함께 진행하는지 묻자 담당자는 피코초 레이저와 골드 마이크로니들을 함께 고려하라고 답했고, 1회·5회의 뜻은 1회 가격과 5회권 가격이며 5회권의 회당 평균 단가가 더 낮다고 설명했다. 수가표 10의 피코슈어도 5회 605,000원이 1회 165,000원의 5배보다 낮아 같은 구조다.",
+                "questionDate": "2026-11-25",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-25",
+                    "original": "哪兩個方向的方案一起處理",
+                    "ko": "어느 두 방향의 플랜을 함께 진행하나요"
+                  },
+                  {
+                    "date": "2026-11-25",
+                    "original": "1次五次是什麼意思",
+                    "ko": "1회 5회는 무슨 뜻인가요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "就是單次和一次購買五堂的價格，五堂的話平均起來會比單次購買的單價低~",
+                    "ko": "단일 1회 가격과 5회를 한 번에 구매하는 가격이에요. 5회권은 평균으로 계산하면 1회 구매 단가보다 낮아요~"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "您可以考慮皮秒雷射和黃金微針，這二個方向一起處理~",
+                    "ko": "피코 레이저와 골드 마이크로니들을 고려해 보실 수 있고, 이 두 방향을 함께 진행하시면 돼요~"
+                  }
+                ],
+                "id": "G-20261125-N1127-006",
+                "recordIds": [
+                  "G-20261125-N1127-006"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A9:Q9"
+              },
+              {
+                "kind": "consult",
+                "country": "TW",
+                "procedure": "올리지오 XM",
+                "category": "추가 비용·상담비",
+                "verdict": "normal",
+                "reason": "추가 비용 질문에 담당자는 강남언니 표시 금액은 세금 포함이고 병원 가격표는 세금 별도라 결제 때 10%가 더해지며, 시술을 더하지 않으면 다른 추가 비용이 없다고 답했다. 상담만 받으면 상담비 10,000원, 당일 시술하면 받지 않는다는 안내는 가이드 11과 같고, 수가표 17은 올리지오 XM의 강남언니 시트에 VAT 후 금액을 적으며 VAT 전 금액에 10%를 더해 VAT 후 금액을 계산한다.",
+                "questionDate": "2026-11-25",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-25",
+                    "original": "有額外加收費用嗎？",
+                    "ko": "추가로 받는 비용이 있나요?"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "您在 UNNI 上看到的價格是已含稅價格喔😊\n另外提供給您的院內價目表則是未稅價格，結帳時會再加上 10% VAT。",
+                    "ko": "UNNI에서 보신 가격은 세금이 이미 포함된 가격이에요😊\n그리고 따로 보내 드린 병원 내 가격표는 세금 별도 가격이라 결제할 때 10% VAT가 추가돼요."
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "除此之外，如果沒有另外追加其他療程或項目，原則上不會再有其他額外費用～",
+                    "ko": "그 외에는 다른 시술이나 항목을 따로 추가하지 않으면 원칙적으로 다른 추가 비용은 없어요~"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "另外，如果當天只有諮詢、最後沒有施作任何療程，會酌收 ₩10,000 諮詢費；只要當天有施作療程，就不會另外收取這筆諮詢費喔🤍",
+                    "ko": "또한 당일 상담만 받고 결국 아무 시술도 받지 않으시면 상담비 ₩10,000이 부과되고, 당일 시술을 받으시면 이 상담비는 따로 받지 않아요🤍"
+                  }
+                ],
+                "id": "G-20261125-N1127-007",
+                "recordIds": [
+                  "G-20261125-N1127-007"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A10:Q10"
+              },
+              {
+                "kind": "inflow",
+                "country": "TW",
+                "procedure": "주름 보톡스",
+                "category": "가격",
+                "verdict": "image",
+                "reason": "주름 보톡스 이벤트 상품 유입에 담당자가 가격 이미지와 안내 문장을 보내고 추가 문의가 있으면 말씀해 달라고 안내했다.",
+                "questionDate": "2026-11-25",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음(주름 보톡스 상품 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "除皺肉毒的價格這邊可以先給您參考喔😊",
+                    "ko": "주름 보톡스 가격은 먼저 이쪽에서 참고하시도록 보내 드려요😊"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "如果還有任何問題，或是有想再了解的療程，都可以隨時跟我們說～\n謝謝您🤍",
+                    "ko": "추가로 궁금한 점이 있거나 더 알고 싶은 시술이 있으시면 언제든지 말씀해 주세요~\n감사합니다🤍"
+                  }
+                ],
+                "id": "G-20261125-N1127-008",
+                "recordIds": [
+                  "G-20261125-N1127-008"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A11:Q11"
+              },
+              {
+                "kind": "ops",
+                "country": "TW",
+                "procedure": "확인되지 않음",
+                "category": "통역·상담 문의",
+                "verdict": "normal-ops",
+                "reason": "고객이 시술 가격·맞는 시술 상담·방문 시 중국어 통역을 묻자 담당자가 개선하고 싶은 부분을 되묻고 병원에 중국어 통역 직원이 있어 걱정하지 않아도 된다고 답했다.",
+                "questionDate": "2026-11-25",
+                "finalReplyDate": "2026-11-25",
+                "customer": [
+                  {
+                    "date": "2026-11-25",
+                    "original": "想了解主要施術／手術的價格",
+                    "ko": "주요 시술/수술 가격을 알고 싶어요"
+                  },
+                  {
+                    "date": "2026-11-25",
+                    "original": "想諮詢適合我的施術／手術",
+                    "ko": "저에게 맞는 시술/수술을 상담받고 싶어요"
+                  },
+                  {
+                    "date": "2026-11-25",
+                    "original": "到院時需要中文翻譯服務",
+                    "ko": "병원에 갈 때 중국어 통역 서비스가 필요해요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-25",
+                    "original": "感謝您的咨詢，請問你想改善的是什麽呢\n院内有中文翻譯人員，這點不用擔心哦",
+                    "ko": "문의해 주셔서 감사합니다. 개선하고 싶으신 부분이 무엇인가요\n병원 내에 중국어 통역 직원이 있으니 이 점은 걱정하지 않으셔도 돼요"
+                  }
+                ],
+                "id": "G-20261125-N1127-009",
+                "recordIds": [
+                  "G-20261125-N1127-009"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A12:Q12"
+              },
+              {
+                "kind": "consult",
+                "country": "TW",
+                "procedure": "이중턱(온다·인모드·지방분해주사·초음파 리프팅)",
+                "category": "시술 추천·가격",
+                "verdict": "image",
+                "reason": "이중턱 고민에 담당자는 지방이 많으면 온다·인모드·지방분해주사를, 처짐이 주원인이면 초음파 리프팅(海芙音波·美國音波)을 권하고 가격 이미지를 보냈다. 가이드 06은 이중턱에 리프팅 레이저·윤곽주사·브이올렛주사를 추천하고 가이드 02는 인모드·온다를 이중턱 지방과 처짐 고민에 쓰는 시술로 안내해 권한 내용과 같다.",
+                "questionDate": "2026-11-25",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-25",
+                    "original": "雙下巴",
+                    "ko": "이중턱"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "如果主要想改善雙下巴，會先看是脂肪比較明顯，還是鬆弛造成的喔~",
+                    "ko": "주로 이중턱을 개선하고 싶으시다면, 먼저 지방이 두드러지는지 아니면 처짐 때문인지를 살펴봐요~"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "局部脂肪比較多，可以考慮ONDA、INMODE 或溶脂針，會比較直接針對雙下巴脂肪跟下顎線做改善",
+                    "ko": "국소 지방이 비교적 많다면 ONDA, INMODE 또는 지방분해주사를 고려해 보실 수 있고, 이중턱 지방과 턱선을 비교적 직접적으로 개선해 줘요"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "脂肪其實不多，主要是皮膚鬆弛、下顎線不明顯，則會比較適合 海芙音波／美國音波~",
+                    "ko": "지방은 사실 많지 않고 주로 피부 처짐이나 턱선이 뚜렷하지 않은 경우에는 슈링크／울쎄라가 더 잘 맞아요~"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "如果是脂肪＋鬆弛都有，也可以搭配施作，整體輪廓改善會更完整一些🤍",
+                    "ko": "지방과 처짐이 모두 있다면 함께 병행해서 받으실 수도 있고, 전체 윤곽 개선이 더 완성도 있게 돼요🤍"
+                  }
+                ],
+                "id": "G-20261125-N1127-010",
+                "recordIds": [
+                  "G-20261125-N1127-010"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A13:Q13"
+              },
+              {
+                "kind": "inflow",
+                "country": "TW",
+                "procedure": "인모드 FX·Forma",
+                "category": "가격",
+                "verdict": "image",
+                "reason": "인모드 FX·Forma 이벤트 상품 유입에 담당자가 가격 이미지와 안내 문장을 보내고 추가 문의가 있으면 말씀해 달라고 안내했다.",
+                "questionDate": "2026-11-25",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "직접 작성한 질문 없음(인모드 FX·Forma 상품 유입)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "inmode的價格這邊可以先給您參考喔😊",
+                    "ko": "inmode 가격은 먼저 이쪽에서 참고하시도록 보내 드려요😊"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "如果還有任何問題，或是有想再了解的療程，都可以隨時跟我們說～\n謝謝您🤍",
+                    "ko": "추가로 궁금한 점이 있거나 더 알고 싶은 시술이 있으시면 언제든지 말씀해 주세요~\n감사합니다🤍"
+                  }
+                ],
+                "id": "G-20261125-N1127-011",
+                "recordIds": [
+                  "G-20261125-N1127-011"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A14:Q14"
               }
             ],
             "merged": [],
@@ -3125,7 +6753,7 @@ window.SUPERVISION_DATA = {
           "autoMessages": null,
           "systemMessages": null,
           "deletedMessages": null,
-          "reviewedRooms": 29,
+          "reviewedRooms": 30,
           "verdicts": null,
           "countries": [],
           "cases": [],
@@ -3134,7 +6762,7 @@ window.SUPERVISION_DATA = {
           "conversations": [],
           "issues": [],
           "followUps": [],
-          "reviewScope": "11월 24일 마지막 활동 방 35곳 중 27곳을 읽었다. 답변 전 새 채팅 메시지 8곳은 열지 않았다. 11월 24일 상담 카드 38개(상품 유입 4개 포함)를 확인했고 지적은 4건이다. 실행 당일 활동 방 9곳은 열지 않았다. 11월 25일에 읽을 수 있게 된 11월 24일 문의 10건을 나중에 이 날짜에 추가했다.",
+          "reviewScope": "11월 24일 마지막 활동 방 35곳 중 27곳을 읽었다. 답변 전 새 채팅 메시지 8곳은 열지 않았다. 11월 24일 상담 카드 38개(상품 유입 4개 포함)를 확인했고 지적은 4건이다. 실행 당일 활동 방 9곳은 열지 않았다. 11월 25일에 읽을 수 있게 된 11월 24일 문의 10건을 나중에 이 날짜에 추가했다. 11월 26일에 읽을 수 있게 된 11월 24일 문의 1건을 나중에 이 날짜에 추가했다.",
           "availabilityCoverage": {
             "targetDate": "2026-11-24",
             "observedAt": "2026-11-25T00:38:55.108Z",
@@ -3144,7 +6772,7 @@ window.SUPERVISION_DATA = {
             "observedCandidateCount": 35,
             "bodyRoomsOpened": 27,
             "actualBodyDateMembership": "confirmed-subset",
-            "reason": "11월 24일 마지막 활동 방 35곳 중 27곳을 읽었다. 답변 전 새 채팅 메시지 8곳은 열지 않았다. 11월 24일 상담 카드 38개(상품 유입 4개 포함)를 확인했고 지적은 4건이다. 실행 당일 활동 방 9곳은 열지 않았다. 11월 25일에 읽을 수 있게 된 11월 24일 문의 10건을 나중에 이 날짜에 추가했다.",
+            "reason": "11월 24일 마지막 활동 방 35곳 중 27곳을 읽었다. 답변 전 새 채팅 메시지 8곳은 열지 않았다. 11월 24일 상담 카드 38개(상품 유입 4개 포함)를 확인했고 지적은 4건이다. 실행 당일 활동 방 9곳은 열지 않았다. 11월 25일에 읽을 수 있게 된 11월 24일 문의 10건을 나중에 이 날짜에 추가했다. 11월 26일에 읽을 수 있게 된 11월 24일 문의 1건을 나중에 이 날짜에 추가했다.",
             "safetyNotes": [
               "실행 당일(11월 25일) 활동 방은 열지 않았다."
             ],
@@ -4665,11 +8293,38 @@ window.SUPERVISION_DATA = {
               "targetDate": "2026-11-24",
               "hasOriginal": true,
               "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=39242788&range=A13:Q13"
+            },
+            {
+              "id": "G-20261124-N1127-001",
+              "country": "PH",
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 7,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 6,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-24",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A2:Q2"
             }
           ],
           "qaReviewFinalization": {
             "schemaVersion": 2,
-            "finalizedAt": "2026-11-26T01:04:10.804Z",
+            "finalizedAt": "2026-11-27T00:59:09.205Z",
             "finalStatus": "completed",
             "sourceCoverage": "partial",
             "exchanges": [
@@ -6741,6 +10396,90 @@ window.SUPERVISION_DATA = {
                   "G-20261124-N1126-010"
                 ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=39242788&range=A13:Q13"
+              },
+              {
+                "kind": "consult",
+                "country": "PH",
+                "procedure": "턱 필러",
+                "category": "시술 설명·가격·회복",
+                "verdict": "followup",
+                "reason": "담당자는 턱 필러 UNNI 옵션 132,000원(VAT 포함)과 국산 필러 아띠에르를 안내했고, 수가표 10의 강남언니 행과 가이드 06의 필러 브랜드와 같다. 다만 고객이 물은 추가 1cc 가격에는 필러 브랜드에 따라 안내하겠다고만 하고 금액은 알리지 않았다. 수가표 17은 국산 필러 1cc(이마·옆볼팔자·턱끝)를 VAT 후 200,000원으로 적고 있다.",
+                "questionDate": "2026-11-24",
+                "finalReplyDate": "2026-11-25",
+                "customer": [
+                  {
+                    "date": "2026-11-24",
+                    "original": "Are there any extra fees?",
+                    "ko": "추가 비용이 있나요?"
+                  },
+                  {
+                    "date": "2026-11-24",
+                    "original": "Tell me more about this procedure",
+                    "ko": "이 시술에 대해 더 자세히 알려주세요"
+                  },
+                  {
+                    "date": "2026-11-24",
+                    "original": "For Chin filler.",
+                    "ko": "턱 필러요."
+                  },
+                  {
+                    "date": "2026-11-24",
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-24",
+                    "original": "Here’s my whatsapp",
+                    "ko": "제 WhatsApp이에요"
+                  },
+                  {
+                    "date": "2026-11-24",
+                    "original": "Yes, please! I'd like the consultation and the treatment in the same visit, since I'm only in Seoul until Dec 3.\nPreferred: Monday, 29, 4:00–5:00 PM (backup: Tuesday, Dec 1, 10:00 AM).\nA few questions:\n\t1.\tIs the consultation free, and will the doctor be part of it, or only a counselor?\n\t2.\tWhat is the total price, including VAT and numbing cream?\n\t3.\tWhich filler brand do you use, and will a doctor do the injection?\n\t4.\tWill there be bruising or swelling? How long does it usually last, and can I cover it with makeup the next day?\n\t5.\tDo you use a cannula? I've read it can mean less bruising.\nThank you!",
+                    "ko": "네, 부탁드려요! 12월 3일까지만 서울에 있어서 상담과 시술을 같은 방문에 하고 싶어요.\n희망: 29일 월요일 오후 4:00–5:00 (대안: 12월 1일 화요일 오전 10:00).\n몇 가지 질문이 있어요:\n\t1.\t상담은 무료인가요? 그리고 의사가 상담에 참여하나요, 아니면 상담사만 하나요?\n\t2.\t부가세와 마취크림을 포함한 총 가격은 얼마인가요?\n\t3.\t어떤 필러 브랜드를 사용하시나요? 그리고 의사가 직접 주사하나요?\n\t4.\t멍이나 붓기가 생기나요? 보통 얼마나 지속되고, 다음 날 화장으로 가릴 수 있나요?\n\t5.\t캐뉼라를 사용하시나요? 멍이 덜 생길 수 있다고 읽었어요.\n감사합니다!"
+                  },
+                  {
+                    "date": "2026-11-24",
+                    "original": "Thank you! Just to clarify, I'm only interested in chin filler, not lip filler. I'd like the UNNI option: Domestic Chin Filler 1cc + chin wrinkle botox (₩132,000).\nCould you please confirm for the chin:\n\t1.\tIs ₩132,000 the total, including VAT and numbing cream?\n\t2.\tWhich filler brand is used for this option, and is it hyaluronic acid?\n\t3.\tIs 1cc usually enough for the chin, or do you think I'd need more? What's the price per extra cc?\n\t4.\tHow long do swelling and bruising usually last for chin filler, and can I wear makeup the next day?\n\t5.\tIf something feels uneven before I fly home on Dec 3, can I come back to be checked?",
+                    "ko": "감사합니다! 확실히 하자면 저는 입술 필러가 아니라 턱 필러만 관심 있어요. UNNI 옵션인 국산 턱 필러 1cc + 턱 주름 보톡스(₩132,000)로 하고 싶어요.\n턱 기준으로 확인 부탁드려요:\n\t1.\t₩132,000이 부가세와 마취크림을 포함한 총액인가요?\n\t2.\t이 옵션에는 어떤 필러 브랜드를 쓰나요? 히알루론산인가요?\n\t3.\t턱에는 보통 1cc면 충분한가요, 아니면 더 필요할 것 같으세요? 추가 1cc당 가격은 얼마인가요?\n\t4.\t턱 필러 후 붓기와 멍은 보통 얼마나 가나요? 다음 날 화장해도 되나요?\n\t5.\t12월 3일에 귀국하기 전에 고르지 않은 느낌이 들면 다시 와서 확인받을 수 있나요?"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-24",
+                    "original": "Chin filler is an injectable treatment that adds volume and definition to the chin. It often uses hyaluronic acid, a substance naturally found in the body. The filler is injected into areas that need more volume to give the chin a more defined shape and profile. 😊",
+                    "ko": "턱 필러는 턱에 볼륨과 윤곽을 더해 주는 주사 시술입니다. 체내에 자연적으로 존재하는 물질인 히알루론산을 사용하는 경우가 많습니다. 필러는 볼륨이 더 필요한 부위에 주입해 턱의 모양과 옆선을 더 또렷하게 만들어 줍니다. 😊"
+                  },
+                  {
+                    "date": "2026-11-24",
+                    "original": "The type and amount of filler we recommend will depend on the area being treated and the chin shape you’d like to achieve. During your consultation, we’ll discuss your concerns, assess your overall facial proportions, and explain which options would suit your goals. 😊",
+                    "ko": "권해 드리는 필러의 종류와 양은 시술 부위와 원하시는 턱 모양에 따라 달라집니다. 상담 시 고민하시는 부분을 이야기 나누고, 전체적인 얼굴 비율을 살펴본 뒤 목표에 맞는 옵션을 설명해 드리겠습니다. 😊"
+                  },
+                  {
+                    "date": "2026-11-24",
+                    "original": "Would you like us to book a consultation for you? :)",
+                    "ko": "상담을 예약해 드릴까요? :)"
+                  },
+                  {
+                    "date": "2026-11-24",
+                    "original": "Thank you! We can arrange your consultation and treatment in the same visit. Just to confirm, were you interested in chin filler, lip filler, or both? You initially mentioned chin filler, and the prices and aftercare below are for lip filler. 😊\nConsultation: There’s no consultation fee if you have treatment the same day. If you have the consultation only, the fee is KRW 10,000. You’ll first meet with a consultant to discuss your goals. If you’d like to speak with the doctor before deciding, just let us know and we’ll arrange that for you.\n\nFull lip filler pricing: The prices are KRW 220,000 for our standard Korean filler, KRW 242,000 for Rejuviel, and KRW 440,000 for an imported filler. All prices include VAT. We apply numbing cream before the injections and can confirm the full cost for your chosen option before treatment.\n\nBrand and injector: A doctor performs the injections. If you have a preferred brand, please let us know. The doctor can also recommend a product based on the shape you’d like to achieve.\n\nRecovery: Swelling and bruising are common after lip filler and generally fade over one to two weeks. You can usually wear makeup the next day. While your lips are settling, we recommend avoiding straws, excessive lip movement, and pressure on the treated area.\n\nCannula or needle: A cannula is an option if you prefer, although bruising can occur with either technique. For lips, we generally recommend a fine needle because it allows the doctor to shape the contours precisely. If you’re concerned about discomfort, please let us know so we can discuss additional numbing cream!",
+                    "ko": "감사합니다! 상담과 시술을 같은 방문에 진행하실 수 있도록 도와드리겠습니다. 확인차 여쭙겠습니다. 턱 필러, 입술 필러, 아니면 둘 다 관심 있으신가요? 처음에는 턱 필러를 말씀하셨는데, 아래 가격과 주의사항은 입술 필러 기준입니다. 😊\n상담: 당일 시술을 받으시면 상담비는 없습니다. 상담만 받으시는 경우 상담비는 10,000원입니다. 먼저 상담사와 원하시는 목표를 이야기 나누시게 됩니다. 결정하기 전에 의사 선생님과 이야기하고 싶으시면 말씀해 주세요, 마련해 드리겠습니다.\n\n입술 필러 전체 가격: 가격은 일반 국산 필러 220,000원, 리쥬비엘 242,000원, 수입 필러 440,000원입니다. 모든 가격은 부가세 포함입니다. 주사 전에 마취크림을 바르며, 시술 전에 선택하신 옵션의 전체 비용을 확인해 드릴 수 있습니다.\n\n브랜드와 시술자: 주사는 의사 선생님이 직접 합니다. 선호하는 브랜드가 있으시면 알려주세요. 원하시는 모양에 맞춰 의사 선생님이 제품을 추천해 드릴 수도 있습니다.\n\n회복: 입술 필러 후에는 붓기와 멍이 흔하며 보통 1~2주에 걸쳐 가라앉습니다. 다음 날 보통 화장을 하셔도 됩니다. 입술이 안정되는 동안에는 빨대 사용, 과도한 입술 움직임, 시술 부위를 누르는 것을 피하시길 권해 드립니다.\n\n캐뉼라 또는 바늘: 원하시면 캐뉼라도 선택할 수 있지만, 어느 방식이든 멍이 생길 수 있습니다. 입술에는 윤곽을 정밀하게 잡을 수 있어 보통 가는 바늘을 권해 드립니다. 불편함이 걱정되시면 말씀해 주세요, 마취크림을 추가로 상의해 드리겠습니다!"
+                  },
+                  {
+                    "date": "2026-11-24",
+                    "original": "And, November 29 falls on a Sunday, and our clinic closes at 4:30 PM. To allow enough time for both the consultation and treatment, please arrive by 3:30 PM at the latest. Your backup time, Tuesday, December 1 at 10:00 AM, is available for both. Or, Would you like us to reserve December 1 at 10:00 AM for you? 😊",
+                    "ko": "그리고 11월 29일은 일요일이며 저희 병원은 오후 4:30에 마감합니다. 상담과 시술 시간을 충분히 확보하려면 늦어도 오후 3:30까지는 도착해 주세요. 대안으로 말씀하신 12월 1일 화요일 오전 10:00는 두 가지 모두 가능합니다. 아니면 12월 1일 오전 10:00로 예약해 드릴까요? 😊"
+                  },
+                  {
+                    "date": "2026-11-25",
+                    "original": "Of course 😊 Just to confirm, you’re interested in the UNNI promotion for Domestic Chin Filler 1cc + Chin Wrinkle Botox at ₩132,000.\n\nThe ₩132,000 UNNI price includes VAT. Numbing cream/injection is also included, so there is no additional charge for numbing.\n\nThe filler is a domestic Korean hyaluronic acid filler. The Korean filler brand used for this option is Atiere\n\nFor many patients, 1cc can be enough for a subtle chin enhancement, but the amount needed depends on your current chin shape and how much projection or length you want. The doctor will assess this before treatment. If you need additional filler, we can confirm the extra cost based on the filler brand used.\n\nSome swelling, tenderness, or bruising can occur after chin filler. Swelling is usually more noticeable during the first few days and gradually settles, although recovery time varies by person. If there is no bleeding or significant irritation, makeup can usually be applied gently the next day.\n\nYes 😊 Since you’ll still be in Korea until Dec 3, if you have any concerns about unevenness or the shape after treatment, you can contact us and come back for a follow-up check before you leave.",
+                    "ko": "물론이죠 😊 확인차 말씀드리면, 국산 턱 필러 1cc + 턱 주름 보톡스를 ₩132,000에 진행하는 UNNI 프로모션을 원하시는 거군요.\n\n₩132,000 UNNI 가격은 부가세를 포함합니다. 마취크림/마취 주사도 포함되어 있어 마취에 대한 추가 비용은 없습니다.\n\n필러는 국산 히알루론산 필러입니다. 이 옵션에 사용하는 국산 필러 브랜드는 Atiere입니다\n\n많은 분들께 1cc로도 은은한 턱 개선에는 충분할 수 있지만, 필요한 양은 현재 턱 모양과 원하시는 돌출감이나 길이에 따라 달라집니다. 의사 선생님이 시술 전에 이를 살펴봅니다. 필러가 추가로 필요하면 사용하는 필러 브랜드에 따라 추가 비용을 안내해 드릴 수 있습니다.\n\n턱 필러 후에는 약간의 붓기, 압통 또는 멍이 생길 수 있습니다. 붓기는 보통 처음 며칠 동안 더 눈에 띄고 점차 가라앉지만 회복 기간은 사람마다 다릅니다. 출혈이나 심한 자극이 없다면 다음 날 보통 가볍게 화장하셔도 됩니다.\n\n네 😊 12월 3일까지 한국에 계시니, 시술 후 고르지 않거나 모양에 대한 걱정이 있으시면 연락 주시고 떠나시기 전에 다시 오셔서 경과 확인을 받으실 수 있습니다."
+                  }
+                ],
+                "id": "G-20261124-N1127-001",
+                "recordIds": [
+                  "G-20261124-N1127-001"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A2:Q2"
               }
             ],
             "merged": [],
@@ -87514,6 +91253,2485 @@ window.SUPERVISION_DATA = {
       "days": [
         {
           "platform": "kakao-clinic",
+          "date": "2026-11-26",
+          "status": "partial",
+          "auditState": "source-availability-partial",
+          "checkedAt": "2026-11-27T00:36:28.536Z",
+          "qaAuditCheckedAt": "2026-11-27T00:36:28.536Z",
+          "cutoffAt": "2026-11-26T23:59:59+09:00",
+          "eligibleRooms": null,
+          "messageCount": null,
+          "customerMessages": null,
+          "staffMessages": null,
+          "autoMessages": null,
+          "systemMessages": null,
+          "deletedMessages": null,
+          "reviewedRooms": 34,
+          "verdicts": null,
+          "countries": [],
+          "cases": [],
+          "casesComplete": false,
+          "reviewEntries": [],
+          "conversations": [],
+          "issues": [],
+          "followUps": [],
+          "reviewScope": "전체 상담 목록의 11월 26일 마지막 활동 방 36곳 중 35곳을 읽었다. 빨간 숫자 배지가 있는 1곳은 읽지 않은 새 채팅 메시지라 열지 않았다. 환자 상담 23건과 자동 링크 안내 16건을 확인했고 지적은 4건이다. 실행 당일 활동 방은 열지 않았다.",
+          "availabilityCoverage": {
+            "targetDate": "2026-11-26",
+            "observedAt": "2026-11-27T00:36:28.536Z",
+            "evidenceScope": "native-safe-body-subset",
+            "providerDenominator": null,
+            "actualBodyReviewComplete": false,
+            "observedCandidateCount": 36,
+            "bodyRoomsOpened": 35,
+            "actualBodyDateMembership": "confirmed-subset",
+            "reason": "전체 상담 목록의 11월 26일 마지막 활동 방 36곳 중 35곳을 읽었다. 빨간 숫자 배지가 있는 1곳은 읽지 않은 새 채팅 메시지라 열지 않았다. 환자 상담 23건과 자동 링크 안내 16건을 확인했고 지적은 4건이다. 실행 당일 활동 방은 열지 않았다.",
+            "safetyNotes": [
+              "실행 당일(11월 27일) 활동 방은 열지 않았다."
+            ],
+            "exclusionNotes": [
+              "이미지 안의 내용은 판정하지 않았다."
+            ]
+          },
+          "qaAuditPrivacy": "restricted-originals",
+          "qaAuditRecords": [
+            {
+              "id": "K-20261126-A1127-001",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A15:Q15"
+            },
+            {
+              "id": "K-20261126-A1127-002",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A16:Q16"
+            },
+            {
+              "id": "K-20261126-A1127-003",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A17:Q17"
+            },
+            {
+              "id": "K-20261126-A1127-004",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A18:Q18"
+            },
+            {
+              "id": "K-20261126-A1127-005",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A19:Q19"
+            },
+            {
+              "id": "K-20261126-A1127-006",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A20:Q20"
+            },
+            {
+              "id": "K-20261126-A1127-007",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A21:Q21"
+            },
+            {
+              "id": "K-20261126-A1127-008",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A22:Q22"
+            },
+            {
+              "id": "K-20261126-A1127-009",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A23:Q23"
+            },
+            {
+              "id": "K-20261126-A1127-010",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A24:Q24"
+            },
+            {
+              "id": "K-20261126-A1127-011",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A25:Q25"
+            },
+            {
+              "id": "K-20261126-A1127-012",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A26:Q26"
+            },
+            {
+              "id": "K-20261126-A1127-013",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A27:Q27"
+            },
+            {
+              "id": "K-20261126-A1127-014",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A28:Q28"
+            },
+            {
+              "id": "K-20261126-N1127-001",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A29:Q29"
+            },
+            {
+              "id": "K-20261126-N1127-002",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A30:Q30"
+            },
+            {
+              "id": "K-20261126-N1127-003",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A31:Q31"
+            },
+            {
+              "id": "K-20261126-N1127-004",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 5,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 4,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A32:Q32"
+            },
+            {
+              "id": "K-20261126-N1127-005",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 6,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A33:Q33"
+            },
+            {
+              "id": "K-20261126-N1127-006",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A34:Q34"
+            },
+            {
+              "id": "K-20261126-N1127-007",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 6,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A35:Q35"
+            },
+            {
+              "id": "K-20261126-N1127-008",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A36:Q36"
+            },
+            {
+              "id": "K-20261126-N1127-009",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A37:Q37"
+            },
+            {
+              "id": "K-20261126-N1127-010",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 5,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A38:Q38"
+            },
+            {
+              "id": "K-20261126-N1127-011",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 4,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 4,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A39:Q39"
+            },
+            {
+              "id": "K-20261126-N1127-012",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 6,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 4,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A40:Q40"
+            },
+            {
+              "id": "K-20261126-N1127-013",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A41:Q41"
+            },
+            {
+              "id": "K-20261126-N1127-014",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A42:Q42"
+            },
+            {
+              "id": "K-20261126-N1127-015",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A43:Q43"
+            },
+            {
+              "id": "K-20261126-N1127-016",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A44:Q44"
+            },
+            {
+              "id": "K-20261126-N1127-017",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A45:Q45"
+            },
+            {
+              "id": "K-20261126-N1127-018",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 10,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 4,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A46:Q46"
+            },
+            {
+              "id": "K-20261126-N1127-019",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A47:Q47"
+            },
+            {
+              "id": "K-20261126-N1127-020",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A48:Q48"
+            },
+            {
+              "id": "K-20261126-N1127-021",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A49:Q49"
+            },
+            {
+              "id": "K-20261126-N1127-022",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A50:Q50"
+            },
+            {
+              "id": "K-20261126-N1127-023",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A51:Q51"
+            },
+            {
+              "id": "K-20261126-N1127-024",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A52:Q52"
+            },
+            {
+              "id": "K-20261126-N1127-025",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A53:Q53"
+            }
+          ],
+          "qaReviewFinalization": {
+            "schemaVersion": 2,
+            "finalizedAt": "2026-11-27T00:59:09.205Z",
+            "finalStatus": "completed",
+            "sourceCoverage": "partial",
+            "exchanges": [
+              {
+                "kind": "auto",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "시술 후 주의사항 자동 링크 안내",
+                "verdict": "auto",
+                "reason": "병원 채널이 시술 후 주의사항 링크를 자동으로 보냈다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-26",
+                "customer": [],
+                "staff": [
+                  {
+                    "note": "시술 후 주의사항 링크를 병원 채널이 자동으로 보냈다(공통 안내문)."
+                  }
+                ],
+                "id": "K-20261126-A1127-001",
+                "recordIds": [
+                  "K-20261126-A1127-001"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A15:Q15"
+              },
+              {
+                "kind": "auto",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "시술 후 주의사항 자동 링크 안내",
+                "verdict": "auto",
+                "reason": "병원 채널이 시술 후 주의사항 링크를 자동으로 보냈다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-26",
+                "customer": [],
+                "staff": [
+                  {
+                    "note": "시술 후 주의사항 링크를 병원 채널이 자동으로 보냈다(공통 안내문)."
+                  }
+                ],
+                "id": "K-20261126-A1127-002",
+                "recordIds": [
+                  "K-20261126-A1127-002"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A16:Q16"
+              },
+              {
+                "kind": "auto",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "시술 후 주의사항 자동 링크 안내",
+                "verdict": "auto",
+                "reason": "병원 채널이 시술 후 주의사항 링크를 자동으로 보냈다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-26",
+                "customer": [],
+                "staff": [
+                  {
+                    "note": "시술 후 주의사항 링크를 병원 채널이 자동으로 보냈다(공통 안내문)."
+                  }
+                ],
+                "id": "K-20261126-A1127-003",
+                "recordIds": [
+                  "K-20261126-A1127-003"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A17:Q17"
+              },
+              {
+                "kind": "auto",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "시술 후 주의사항 자동 링크 안내",
+                "verdict": "auto",
+                "reason": "병원 채널이 시술 후 주의사항 링크를 자동으로 보냈다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-26",
+                "customer": [],
+                "staff": [
+                  {
+                    "note": "시술 후 주의사항 링크를 병원 채널이 자동으로 보냈다(공통 안내문)."
+                  }
+                ],
+                "id": "K-20261126-A1127-004",
+                "recordIds": [
+                  "K-20261126-A1127-004"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A18:Q18"
+              },
+              {
+                "kind": "auto",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "시술 후 주의사항 자동 링크 안내",
+                "verdict": "auto",
+                "reason": "병원 채널이 시술 후 주의사항 링크를 자동으로 보냈다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-26",
+                "customer": [],
+                "staff": [
+                  {
+                    "note": "시술 후 주의사항 링크를 병원 채널이 자동으로 보냈다(공통 안내문)."
+                  }
+                ],
+                "id": "K-20261126-A1127-005",
+                "recordIds": [
+                  "K-20261126-A1127-005"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A19:Q19"
+              },
+              {
+                "kind": "auto",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "시술 후 주의사항 자동 링크 안내",
+                "verdict": "auto",
+                "reason": "병원 채널이 시술 후 주의사항 링크를 자동으로 보냈다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-26",
+                "customer": [],
+                "staff": [
+                  {
+                    "note": "시술 후 주의사항 링크를 병원 채널이 자동으로 보냈다(공통 안내문)."
+                  }
+                ],
+                "id": "K-20261126-A1127-006",
+                "recordIds": [
+                  "K-20261126-A1127-006"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A20:Q20"
+              },
+              {
+                "kind": "auto",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "시술 후 주의사항 자동 링크 안내",
+                "verdict": "auto",
+                "reason": "병원 채널이 시술 후 주의사항 링크를 자동으로 보냈다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-26",
+                "customer": [],
+                "staff": [
+                  {
+                    "note": "시술 후 주의사항 링크를 병원 채널이 자동으로 보냈다(공통 안내문)."
+                  }
+                ],
+                "id": "K-20261126-A1127-007",
+                "recordIds": [
+                  "K-20261126-A1127-007"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A21:Q21"
+              },
+              {
+                "kind": "auto",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "시술 후 주의사항 자동 링크 안내",
+                "verdict": "auto",
+                "reason": "병원 채널이 시술 후 주의사항 링크를 자동으로 보냈다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-26",
+                "customer": [],
+                "staff": [
+                  {
+                    "note": "시술 후 주의사항 링크를 병원 채널이 자동으로 보냈다(공통 안내문)."
+                  }
+                ],
+                "id": "K-20261126-A1127-008",
+                "recordIds": [
+                  "K-20261126-A1127-008"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A22:Q22"
+              },
+              {
+                "kind": "auto",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "시술 후 주의사항 자동 링크 안내",
+                "verdict": "auto",
+                "reason": "병원 채널이 시술 후 주의사항 링크를 자동으로 보냈다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-26",
+                "customer": [],
+                "staff": [
+                  {
+                    "note": "시술 후 주의사항 링크를 병원 채널이 자동으로 보냈다(공통 안내문)."
+                  }
+                ],
+                "id": "K-20261126-A1127-009",
+                "recordIds": [
+                  "K-20261126-A1127-009"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A23:Q23"
+              },
+              {
+                "kind": "auto",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "시술 후 주의사항 자동 링크 안내",
+                "verdict": "auto",
+                "reason": "병원 채널이 시술 후 주의사항 링크를 자동으로 보냈다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-26",
+                "customer": [],
+                "staff": [
+                  {
+                    "note": "시술 후 주의사항 링크를 병원 채널이 자동으로 보냈다(공통 안내문)."
+                  }
+                ],
+                "id": "K-20261126-A1127-010",
+                "recordIds": [
+                  "K-20261126-A1127-010"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A24:Q24"
+              },
+              {
+                "kind": "auto",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "시술 후 주의사항 자동 링크 안내",
+                "verdict": "auto",
+                "reason": "병원 채널이 시술 후 주의사항 링크를 자동으로 보냈다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-26",
+                "customer": [],
+                "staff": [
+                  {
+                    "note": "시술 후 주의사항 링크를 병원 채널이 자동으로 보냈다(공통 안내문)."
+                  }
+                ],
+                "id": "K-20261126-A1127-011",
+                "recordIds": [
+                  "K-20261126-A1127-011"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A25:Q25"
+              },
+              {
+                "kind": "auto",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "시술 후 주의사항 자동 링크 안내",
+                "verdict": "auto",
+                "reason": "병원 채널이 시술 후 주의사항 링크를 자동으로 보냈다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-26",
+                "customer": [],
+                "staff": [
+                  {
+                    "note": "시술 후 주의사항 링크를 병원 채널이 자동으로 보냈다(공통 안내문)."
+                  }
+                ],
+                "id": "K-20261126-A1127-012",
+                "recordIds": [
+                  "K-20261126-A1127-012"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A26:Q26"
+              },
+              {
+                "kind": "auto",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "시술 후 주의사항 자동 링크 안내",
+                "verdict": "auto",
+                "reason": "병원 채널이 시술 후 주의사항 링크를 자동으로 보냈다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-26",
+                "customer": [],
+                "staff": [
+                  {
+                    "note": "시술 후 주의사항 링크를 병원 채널이 자동으로 보냈다(공통 안내문)."
+                  }
+                ],
+                "id": "K-20261126-A1127-013",
+                "recordIds": [
+                  "K-20261126-A1127-013"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A27:Q27"
+              },
+              {
+                "kind": "auto",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "시술 후 주의사항 자동 링크 안내",
+                "verdict": "auto",
+                "reason": "병원 채널이 시술 후 주의사항 링크를 자동으로 보냈다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-26",
+                "customer": [],
+                "staff": [
+                  {
+                    "note": "시술 후 주의사항 링크를 병원 채널이 자동으로 보냈다(공통 안내문)."
+                  }
+                ],
+                "id": "K-20261126-A1127-014",
+                "recordIds": [
+                  "K-20261126-A1127-014"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A28:Q28"
+              },
+              {
+                "kind": "ops",
+                "country": null,
+                "procedure": "토닝·자갈턱 보톡스",
+                "category": "시술 잔여 횟수·시술일 문의",
+                "verdict": "normal-ops",
+                "reason": "고객이 토닝 잔여 횟수와 자갈턱 보톡스 마지막 시술일을 물었고 AI 자동응답이 시술 기록으로 답했다. 개인 시술 기록 안내라 가이드·수가표와 비교할 내용이 없다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "안녕하세요 혹시 토닝 몇회남았는지 알 수 있을까요?",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "감사합니다 혹시 자갈턱보톡스 언제맞았는지도 확인가능한가요?",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "1회 남아계시니다:) 세희님~",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "고객님, 시술 기록을 확인해 보니 마지막으로 자갈턱 보톡스를 받으신 날짜는 2026년 4월 26일입니다 😊",
+                    "lang": "ko"
+                  }
+                ],
+                "id": "K-20261126-N1127-001",
+                "recordIds": [
+                  "K-20261126-N1127-001"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A29:Q29"
+              },
+              {
+                "kind": "consult",
+                "country": null,
+                "procedure": "미간 보톡스",
+                "category": "시술 후 증상(눈꺼풀 무거움)",
+                "verdict": "normal",
+                "reason": "가이드 09의 주름 보톡스 안내문은 눈꺼풀·눈썹 처짐이 드물게 일시적으로 나타날 수 있고 심하거나 악화되면 연락하라고 안내한다. AI 자동응답이 눈꺼풀이 무거울 수 있다고 설명하고 눈 뜨기 힘들어지면 바로 연락하라고 한 것과 같다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "어제 미간보톡스 시술 받은 김다인입니다! 원래 받으면 눈꺼풀쪽이 좀 무거운 느낌이 드나요?🥲",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "안녕하세요, 다인님! 뷰티블라썸의원입니다 🌷\r\n\r\n미간 보톡스 후에는 눈꺼풀 쪽이 살짝 무겁게 느껴질 수 있어요. 보통 2주 정도 지나면서 그 느낌이 덜 신경 쓰이는 경우가 있어, 불편함이 가벼우시면 조금 더 지켜봐 주세요.\r\n\r\n2주 뒤에도 계속 불편하시면 편하게 연락 주세요. 원장님께서 경과를 봐드릴 수 있도록 도와드릴게요 💬 그 전에 눈 뜨기가 힘들어지면 바로 연락 주세요.",
+                    "lang": "ko"
+                  }
+                ],
+                "id": "K-20261126-N1127-002",
+                "recordIds": [
+                  "K-20261126-N1127-002"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A30:Q30"
+              },
+              {
+                "kind": "ops",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "방문 확정",
+                "verdict": "normal-ops",
+                "reason": "고객이 여신티켓에서 방문확정을 눌렀다고 알렸고 AI 자동응답이 감사 인사로 답했다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "방문확정 눌렀습니다~!",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "감사합니다~ 좋은 하루 되세요 :)",
+                    "lang": "ko"
+                  }
+                ],
+                "id": "K-20261126-N1127-003",
+                "recordIds": [
+                  "K-20261126-N1127-003"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A31:Q31"
+              },
+              {
+                "kind": "consult",
+                "country": null,
+                "procedure": "써마지",
+                "category": "시술 후 제품·가격",
+                "verdict": "normal",
+                "reason": "AI 자동응답이 안내한 PP 크림 50ml 63,000원, 아쿠아 세럼 50ml 53,000원은 수가표 17 화장품 시트의 피피크림(50ml) 63,000원, 아쿠아세럼(50ml) 53,000원과 같다. 두 제품을 병원에서 구매할 수 있다는 구매처 안내도 질문에 맞다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "그리고 궁금한게 있는데, 저 써마지 시술받고 발라주신 기초제품이 어떤 걸까요~??",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "썬크림은 안발랐구, 그전에 기초만 발라주셨었는데 수분감이 좋아서 제품이 궁금합니다;)",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "아 네! 아쿠아 세럼과 pp크림이라는게 정확한 제품명인건가요~?",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "제품 구매처나 제조사명을 알려주시면 감사하겠습니다~",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "네, 각각 용량하고 가격이 어떻게 되나요?:)",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "써마지 시술 후에는 마무리로 아쿠아 세럼과 PP 크림을 발라드립니다!",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "추가로 궁금하신 점이 있으시면 언제든지 편하게 문자로 문의해 주세요. 😊",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "아쿠아 세럼과 PP 크림은 저희 병원에서도 판매하고 있어, 내원하시면 직접 구매하실 수 있습니다.😊",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "고객님, 문의하신 두 제품은 모두 50ml 용량이며, 저희 병원에서 구매하실 수 있습니다. 😊\r\n- PP 크림 50ml — 63,000원\r\n- 모이스처 아쿠아 세럼 50ml — 53,000원",
+                    "lang": "ko"
+                  }
+                ],
+                "id": "K-20261126-N1127-004",
+                "recordIds": [
+                  "K-20261126-N1127-004"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A32:Q32"
+              },
+              {
+                "kind": "consult",
+                "country": null,
+                "procedure": "주름 보톡스(눈썹산)",
+                "category": "시술 부위·가격",
+                "verdict": "fix",
+                "severity": "suspected",
+                "reason": "눈썹산이 주름 보톡스 부위라는 답과 1부위 금액 32,900·42,900·77,000·99,000원은 수가표 17 홈페이지장바구니 시트와 수가표 10과 같다. 다만 AI 자동응답이 3부위 금액으로 안내한 코어톡스 88,000원과 제오민 119,000원은 수가표의 VAT 전 금액이고 VAT 후는 96,800원과 130,900원인데, 부가세 기준을 알리지 않아 VAT 후인 국산 74,800원·앨러간 264,000원과 한 목록에 섞였다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "안녕하세요 보톡스 문의 드립니다",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "보톡스 이마 미간은 주름 보톡스인데",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "눈썹산쪽이 심하게 힘이 들어가서요 이건 무슨 보톡스로 예약해야하나요?",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "강남언니로 예약하려고 하는데 ",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "넵 감사합니다!!",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "포인트 사용하고 싶어서요! 강남언니로 예약 후 낼 봬요! ",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "눈썹산 부위도 주름 보톡스 시술에 해당됩니다. 😊\r\n\r\n네, 고객님~ 😊 문의주신 주름 보톡스 가격 안내해 드리겠습니다.\r\n\r\n✨ 주름 보톡스 (1부위 기준)\r\n- 국산: 32,900원\r\n- 코어톡스: 42,900원\r\n- 제오민: 77,000원\r\n- 앨러간: 99,000원\r\n\r\n✨ 주름 보톡스 (3부위 기준)\r\n- 국산: 74,800원\r\n- 코어톡스: 88,000원\r\n- 제오민: 119,000원\r\n- 앨러간: 264,000원",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "강남언니를 통해 결제 후 예약하셔도 되고, 저희가 여기서 바로 예약을 도와드릴 수도 있습니다~ 😊 두 가지 방법 모두 가격은 동일합니다💕",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "네, 편하게 예약 주시고 방문해주시면 감사합니다!\r\n궁금하신 점 있으시면 편하게 문의주세요~",
+                    "lang": "ko"
+                  }
+                ],
+                "id": "K-20261126-N1127-005",
+                "recordIds": [
+                  "K-20261126-N1127-005"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A33:Q33"
+              },
+              {
+                "kind": "ops",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "채널 추가 인사",
+                "verdict": "normal-ops",
+                "reason": "고객이 채널 추가 뒤 이름만 보냈고 질문이 없었다. 시술 후 주의사항 링크는 병원 채널이 자동으로 보냈다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "이수빈입니다",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "note": "시술 후 주의사항 링크를 병원 채널이 자동으로 보냈다(공통 안내문)."
+                  }
+                ],
+                "id": "K-20261126-N1127-006",
+                "recordIds": [
+                  "K-20261126-N1127-006"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A34:Q34"
+              },
+              {
+                "kind": "consult",
+                "country": null,
+                "procedure": "리쥬란 HB, 이마 보톡스",
+                "category": "시술 가격·담당 의사",
+                "verdict": "fix",
+                "severity": "suspected",
+                "reason": "AI 자동응답은 리쥬란 HB 2cc 1회를 163,900원이라고 안내했는데, 수가표 10은 리쥬란 HB 2cc 1회를 327,250원으로 적고 163,900원은 같은 표의 강남언니 행과 이벤트 행에서 리쥬란 HB 1cc 금액이다. 이마 보톡스 1부위 국산·코어톡스·제오민·앨러간 금액은 수가표 10과 같다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "안녕하세요, 리쥬란 레드 박스 2cc 가격과 보톡스 이마 시술 가격을 문의드리고 싶습니다.",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "진료와 시술을 같은 의사 선생님께서 하시는지 확인하고 싶습니다?",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "hellohello？",
+                    "ko": "헬로헬로？"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "🩷이번달 이벤트",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "저희에게 이 브랜드가 있나요?",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "BOTOX",
+                    "ko": "보톡스"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "안녕하세요, 뷰티블라썸의원입니다. 🌸\r\n\r\n문의주신 시술 금액 안내드립니다.\r\n\r\n🩷 리쥬란 HB\r\n▪️ 2cc 1회 : 163,900원\r\n\r\n🩷 이마 보톡스 (1부위 기준)\r\n▪️ 국산 : 32,900원\r\n▪️ 코어톡스 : 42,900원\r\n▪️ 제오민 : 77,000원\r\n▪️ 앨러간 : 99,000원\r\n\r\n위 금액은 모두 부가세 포함 가격입니다.\r\n\r\n본원에서는 상담실장님과 1:1 맞춤 상담을 먼저 진행하고 있으며, 원장님과의 상담을 원하시는 경우 담당 원장님께 연결해 드리고 있습니다. 😊\r\n\r\n다만, 특정 원장님을 지정하여 시술받기를 원하시는 경우 별도의 지정 비용이 발생합니다.별도로 원장님을 지정하지 않으시는 경우 추가 지정 비용 없이 시술 가능하시며 본원 원장님들 모두 시술 경험이 풍부하시고 꼼꼼하게 시술해 주십니다.😊\r\n\r\n추가로 궁금하신 사항이나 예약을 원하시면 언제든 편하게 문의해 주세요. 감사합니다! 🩷",
+                    "lang": "ko"
+                  }
+                ],
+                "id": "K-20261126-N1127-007",
+                "recordIds": [
+                  "K-20261126-N1127-007"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A35:Q35"
+              },
+              {
+                "kind": "ops",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "중국어 상담·위챗 연락",
+                "verdict": "normal-ops",
+                "reason": "고객이 중국어 상담과 위챗 연락을 요청했고 AI 자동응답이 중국어로 병원 위챗 ID를 안내했다. 가이드 11은 예약 변경과 상담을 위챗 또는 LINE으로 도와드린다는 문구를 둔다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "중국어",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": " 중국어",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "중국 위챗이 있으면 소통할 수 있을까요?",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "고객님, 혹시 한국어보다 더 편하게 사용하시는 언어가 있으실까요? 😊\r\n\r\n저희 본원에서는 중국어, 영어, 태국어, 일본어 통역 서비스를 제공하고 있습니다.\r\n\r\n편하신 언어를 말씀해 주시면 해당 언어로 상담 도와드리겠습니다. 🩷",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "您好~ 我们有微信的 ID是 Beautyblossom00",
+                    "ko": "안녕하세요~ 저희 위챗 ID는 Beautyblossom00입니다"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "那之后透过微信跟你联系~",
+                    "ko": "그 이후에는 위챗으로 연락드리겠습니다~"
+                  }
+                ],
+                "id": "K-20261126-N1127-008",
+                "recordIds": [
+                  "K-20261126-N1127-008"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A36:Q36"
+              },
+              {
+                "kind": "consult",
+                "country": null,
+                "procedure": "주름 보톡스(리뷰 이벤트)",
+                "category": "이벤트 적용·예약 가능 시간",
+                "verdict": "followup",
+                "reason": "AI 자동응답은 리뷰이벤트 보톡스를 주름 보톡스 1부위로 쓸 수 있다는 점과 별도의 이용 기한이 없다는 점은 답했지만, 고객이 물은 오늘 6시 이후 예약 가능 여부는 답하지 않았다. 가이드 06은 희망 날짜와 시간을 받으면 예약 가능 여부를 안내한다고 한다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "안녕하세요~ 전에 리뷰이벤트 남겨서 보톡스 1회 받을 수 있다고 해주셨었는데 요거 쓸 수 있으면 예약 가능할까요??",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "오늘 6시 이후도 가능할까요? 사각턱보톡스 요!",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "앗 그렇군용,, 혹시 이거 그럼 기간이 있나요?ㅜㅜ 다음에 가야될 것 같은데,,",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "네 가능합니다~! 언제로 희망하실까요?",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "네 원경님 리뷰이벤트 보톡스는 주름 보톡스 1부위로 시술 가능하십니다 :)\r\n이마미간눈가눈밑콧등콧잔등자갈턱 중에 골라주시면 됩니다!",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "고객님, 별도의 이용 기한은 없습니다. 원하시는 날짜에 편하게 내원하셔서 시술받으시면 됩니다. 😊",
+                    "lang": "ko"
+                  }
+                ],
+                "id": "K-20261126-N1127-009",
+                "recordIds": [
+                  "K-20261126-N1127-009"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A37:Q37"
+              },
+              {
+                "kind": "consult",
+                "country": null,
+                "procedure": "윤곽주사(블라썸핏), 침샘 보톡스",
+                "category": "시술 차이·동시 시술·가격",
+                "verdict": "normal",
+                "reason": "가이드 06은 뷰티핏을 스테로이드 포함, 블라썸핏을 스테로이드 미포함 윤곽주사라고 안내하며 AI 자동응답의 설명과 같다. 코어톡스 침샘 보톡스는 수가표 10의 정가표와 여신티켓 행이 모두 110,000원이라 원내와 여신티켓 가격이 같다는 안내도 맞다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "여신티켓보면 뷰티핏 또는 블라썸핏이 있던데 둘의차이점이 어떤건가요? 둘다 윤곽주사가 맞나요??",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "아그럼 포함되지 않은 블라썸핏이랑 턱밑침샘보톡스 예약부탁드립니다 혹시 둘다 동시에 시술 받을수있는건가요??",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "여신티켓상에는 침샘보톡스와 사각턱보톡스가 함께있고 침샘보톡스만은 없는데 현장에서 침샘보톡스만 결제할수있는건지 가격차이가 있는지 궁금합니다",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "윤곽주사도 턱밑입니다!!",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "여신티켓에서는 침샘이랑보톡스가 같이 있던데 침샘보톡스만 현장에서 가능한거인거죠?!",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "안녕하세요, 은경님! 뷰티블라썸의원입니다 🌸\r\n\r\n여신티켓에서 보신 뷰티핏과 블라썸핏은 둘 다 윤곽주사예요. 뷰티핏은 스테로이드가 포함된 윤곽주사이고, 블라썸핏은 스테로이드가 들어가지 않은 윤곽주사입니다.",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "네 은경님 블라썸핏이랑 턱밑침샘보톡스 당일 동시에 시술 가능하십니다\r\n혹시 블라썸핏 원하시는 부위가 어떻게 되실까요~?\r\n\r\n원내 시술 가격과 여신티켓 가격은 동일합니다!\r\n현장에서 추가수납후 시술가능하십니다 :)",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "네 고객님, 침샘만도 가능합니다!^^",
+                    "lang": "ko"
+                  }
+                ],
+                "id": "K-20261126-N1127-010",
+                "recordIds": [
+                  "K-20261126-N1127-010"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A38:Q38"
+              },
+              {
+                "kind": "ops",
+                "country": null,
+                "procedure": "윤곽주사, 침샘 보톡스",
+                "category": "예약 접수·확정",
+                "verdict": "normal-ops",
+                "reason": "고객이 요청한 토요일 13시 예약을 AI 자동응답이 접수해 예약 확정 안내를 보냈고, 어머니 이름으로 예약해 달라는 요청에 맞춰 생년월일을 물은 뒤 11월 28일 오후 1시 예약을 알렸다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "안녕하세요!!\n이번주 토요일 13시 고은경으로 윤곽주사 및 침샘보톡스 예약하려고 합니다!!",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "우선 턱밑 침샘이랑 턱밑 윤곽주사로 토요일 13시로 예약부틱드립니다!!",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "네네 저는 지다원인데 엄마예약해드린거라 고은경이름으로 부탁드립니다 [연락처 가림] 감사합니다",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "[생년월일 가림] 입니다!!",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "네 바로 예약 도와드리겠습니다!^^",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "안녕하세요, 뷰티블라썸의원입니다🌸\r\n고객님의 예약이 정상적으로 확정되었습니다!\r\n\r\n예약해 주셔서 감사드리며, 예약하신 일정에 맞춰 방문 부탁드립니다. 변경 사항이 있으실 경우 미리 연락 주시면 확인 도와드리겠습니다:)\r\n\r\n그럼 예약일에 뵙겠습니다. 감사합니다!",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "네, 알겠습니다 고은경님으로 예약 도와드리겠습니다. 혹시 어머님의 생년월일을 알려주실 수 있을까요? 😊",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "네, 고객님! 11월 28일 오후 1시로 예약해 드렸습니다. 그날 뵙겠습니다. 감사합니다! 😊",
+                    "lang": "ko"
+                  }
+                ],
+                "id": "K-20261126-N1127-011",
+                "recordIds": [
+                  "K-20261126-N1127-011"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A39:Q39"
+              },
+              {
+                "kind": "ops",
+                "country": null,
+                "procedure": "스킨보톡스 풀페이스",
+                "category": "예약 접수·확정",
+                "verdict": "normal-ops",
+                "reason": "고객이 예약 신청 양식에 예약일을 당일 오전으로 적었고 AI 자동응답이 이를 되물어 내일로 바로잡은 뒤 예약 확정 안내를 보냈다. 예약 접수 양식에는 상담만 받을 때 상담비 만원이 든다는 조건이 가이드 08처럼 들어 있다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "🩷이번달 이벤트",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "🩷이번달 이벤트",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "내일 스킨부스터 풀페이스 예약가능할까요",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "🔔예약 신청",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "-내원 경로(검색/소개/추천인 등): 여신티켓\n-성함/생년월일/연락처: 박보령/[생년월일 가림]/[연락처 가림]\n-예약 날짜 및 시간: 11월26일 오전11시\n-원하시는 시술 및 상담: 스킨보톡스풀페이스",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "아 내일이요 ㅎㅎ",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "🩷빠른 예약을 위해 아래 질문에 답변 부탁드립니다🩷\n\n-내원 경로(검색/소개/추천인 등):\n-성함/생년월일/연락처:\n-예약 날짜 및 시간:\n-원하시는 시술 및 상담:\n\n확인 후 예약 도와드리겠습니다. \n\n상담만 진행 하실경우 상담비 만원 발생 됩니다.\n미리 고지드리는점 양해 부탁드립니다 감사합니다  :D",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "안녕하세요, 고객님~ 😊\r\n예약 날짜가 오늘 11월 26일 오전 11시로 확인되는데요. 오늘 방문 예정이 맞으실까요? 혹시 내일로 예약 변경을 원하시는 걸까요?💕",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "네 예약도와드릴게요~",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "안녕하세요, 뷰티블라썸의원입니다🌸\r\n고객님의 예약이 정상적으로 확정되었습니다!\r\n\r\n예약해 주셔서 감사드리며, 예약하신 일정에 맞춰 방문 부탁드립니다. 변경 사항이 있으실 경우 미리 연락 주시면 확인 도와드리겠습니다:)\r\n\r\n그럼 예약일에 뵙겠습니다. 감사합니다!",
+                    "lang": "ko"
+                  }
+                ],
+                "id": "K-20261126-N1127-012",
+                "recordIds": [
+                  "K-20261126-N1127-012"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A40:Q40"
+              },
+              {
+                "kind": "ops",
+                "country": null,
+                "procedure": "브이 1모드, 소노케어, 포텐자, 쥬베룩 스킨, 비타민 수액",
+                "category": "남은 시술 횟수 문의",
+                "verdict": "normal-ops",
+                "reason": "고객이 이전에 결제한 시술 중 남은 내역을 물었고 AI 자동응답이 시술별 잔여 횟수를 안내했다. 개인 결제 기록 안내라 가이드·수가표와 비교할 내용이 없다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "안녕하세요~!\n혹시 이전에 결제했던 내역중에 뭐뭐 남았는지 혹시 확인 가능할까요??\n\n\n-성함/생년월일/연락처: 윤소정 [생년월일 가림] / [연락처 가림]",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "안녕하세요, 뷰티블라썸의원입니다 🌸\r\n고객님, 남아 있는 시술 횟수 안내드릴게요 😊\r\n\r\n▪️ 브이 1모드(제네) + 소노케어 — 3회\r\n▪️ 포텐자 펌핑 + 쥬베룩 스킨 4cc — 1회\r\n▪️ 비타민 수액 — 1회\r\n\r\n궁금하신 점 있으시면 편하게 문의해 주세요 🩷",
+                    "lang": "ko"
+                  }
+                ],
+                "id": "K-20261126-N1127-013",
+                "recordIds": [
+                  "K-20261126-N1127-013"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A41:Q41"
+              },
+              {
+                "kind": "ops",
+                "country": null,
+                "procedure": "브이 1모드, 소노케어, 포텐자, 쥬베룩 스킨",
+                "category": "예약 접수·확정",
+                "verdict": "normal-ops",
+                "reason": "고객이 내일 오후 6시 시술 예약을 요청했고 AI 자동응답이 예약 확정 안내를 보냈다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "감사합니다 ^^ \n\n내일 오후 6시에 시술 예약 가능할까요?\n\n브이 1모드+소노케어 \n포텐자+쥬베룩 ",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "안녕하세요, 뷰티블라썸의원입니다🌸\r\n고객님의 예약이 정상적으로 확정되었습니다!\r\n\r\n예약해 주셔서 감사드리며, 예약하신 일정에 맞춰 방문 부탁드립니다. 변경 사항이 있으실 경우 미리 연락 주시면 확인 도와드리겠습니다:)\r\n\r\n그럼 예약일에 뵙겠습니다. 감사합니다!",
+                    "lang": "ko"
+                  }
+                ],
+                "id": "K-20261126-N1127-014",
+                "recordIds": [
+                  "K-20261126-N1127-014"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A42:Q42"
+              },
+              {
+                "kind": "consult",
+                "country": null,
+                "procedure": "보톡스 시술 후 경과(눈 무거움)",
+                "category": "시술 후 증상·고주파 치료",
+                "verdict": "normal",
+                "reason": "가이드 05는 보톡스 후 눈이 무거운 불편에 원장이 확인하도록 진료를 안내하라고 한다. AI 자동응답도 고주파 치료가 가능하다고 답하면서 원장 경과진료 뒤 개선 방안을 안내하겠다고 해 같은 방향이다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "안녕하세요! 눈 자체가 계속 너무 무겁고 이마에도 이물감이 들어서 일상생활에 계속 지장을 받고 있습니다 ㅜㅠ 혹시 고주파나 열을 좀 가하면 나아진다고 하던데 해당 고주파치료같은게 가능할까요…",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "넵 ㅠㅜ 감사합니다 ",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "네 미경님 경과지켜보셨는데도 눈이 많이 무거우시다니 불편하셨겠어요\r\n본원에서 고주파 치료 가능하십니다!\r\n원장님 경과진료후 적절한 개선 방안 안내도와드리겠습니다\r\n경과진료는 언제 가능하실까요?!",
+                    "lang": "ko"
+                  }
+                ],
+                "id": "K-20261126-N1127-015",
+                "recordIds": [
+                  "K-20261126-N1127-015"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A43:Q43"
+              },
+              {
+                "kind": "ops",
+                "country": null,
+                "procedure": "보톡스 시술 후 경과 진료",
+                "category": "예약 접수",
+                "verdict": "normal-ops",
+                "reason": "고객이 오늘 방문을 요청해 희망 시각 4시를 알렸고 AI 자동응답이 가능 여부를 안내한 뒤 예약했다고 답했다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "혹시 오늘 방문 가능할까요?",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "4시요!!",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "네 가능하십니다 시간 언제로 해드릴까요~?",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "네 미경님 예약 도와드렸습니다 감사합니다~",
+                    "lang": "ko"
+                  }
+                ],
+                "id": "K-20261126-N1127-016",
+                "recordIds": [
+                  "K-20261126-N1127-016"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A44:Q44"
+              },
+              {
+                "kind": "consult",
+                "country": null,
+                "procedure": "레이저 제모",
+                "category": "예약·시술 간격 문의",
+                "verdict": "normal",
+                "reason": "AI 자동응답이 안내한 권장 시술 간격 28일(4주)은 가이드 02의 레이저 제모 권장 주기(얼굴 4주, 바디 4~6주) 중 4주와 같고, 고객이 요청한 오늘 오후 5시 예약을 이어서 잡았다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "안녕하세요 저 주기 상관없는데 레이져제모 오늘 5시에 예약 가능할까요?",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "넵 감사합니다!",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "고객님, 권장 시술 간격은 28일이지만 오늘도 시술이 가능합니다. 괜찮으시다면 오늘(11월 26일) 오후 5시로 예약해 드릴까요? 😊",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "네, 고객님. 오늘 오후 5시에 뵙겠습니다. 감사합니다! 😊",
+                    "lang": "ko"
+                  }
+                ],
+                "id": "K-20261126-N1127-017",
+                "recordIds": [
+                  "K-20261126-N1127-017"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A45:Q45"
+              },
+              {
+                "kind": "consult",
+                "country": null,
+                "procedure": "필러 용해(히알라제)",
+                "category": "시술 후 멍·색 변화 문의",
+                "verdict": "followup",
+                "reason": "진료 소요시간과 예약에는 답했지만 멍이 번지고 입술 아래가 옅은 보라색인 것이 일시적 반응인지, 혈류 이상은 아닌지 묻는 질문에는 답하지 않았다. 가이드 02는 히알라제 후 가벼운 멍이 대개 3~5일 안에 가라앉고 시간이 지나며 점차 옅어진다고 안내하는데 AI 자동응답은 이 안내를 하지 않았다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "안녕하세요 어제 필러를 녹이고 갔는데 걱정되는 부분이 있어서 연락드렸습니다 ",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "집에오니 표시한 부분보다 퍼져있고 두번째 사진이 당일저녁 세번째 사진이 오늘 아침이에요",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "멍이 좀 옅어지긴했는데 혹시 혈류이상 같은건 아닌지 걱정되어 여쭤봅니다",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "그리고 주사 맞은 부분 입술 아래 부분이 전체적으로 옅은 보라색처럼 자국이 퍼져있습니다 ",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "일시적인 반응인건가요??",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "진료 소요시간은 얼마나 될까요??",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "4시20분쯤 가능할것 같습니다 ",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "4시도 가능합니다",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "네~",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "원장님 뵙고 진행하시는거라 넉넉잡아 15-20분 정도 생각해주시면 될거같습니다 ~",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "편하신 시간때 말씀 주시면 예약 도와드리겠습니다",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "넵,세린님~\r\n 4시로 예약잡아 드렸습니다",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "조심히 내원해주세요! 감사합니다:)",
+                    "lang": "ko"
+                  }
+                ],
+                "id": "K-20261126-N1127-018",
+                "recordIds": [
+                  "K-20261126-N1127-018"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A46:Q46"
+              },
+              {
+                "kind": "ops",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "안내 오발송 정정",
+                "verdict": "normal-ops",
+                "reason": "고객이 병원에서 잘못 보낸 안내를 알리자 AI 자동응답이 전산 오류로 잘못 전송됐다고 사과하며 수정해 다시 안내했다고 답했다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "[연락처 가림] 임수민 입니다\n\n잘못 보내신 듯 합니다",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "수민님, 전산오류로 잘못 전송되어 혼선을 드린점 죄송합니다.\r\n해당부분 수정하여 다시 안내드렸습니다:)",
+                    "lang": "ko"
+                  }
+                ],
+                "id": "K-20261126-N1127-019",
+                "recordIds": [
+                  "K-20261126-N1127-019"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A47:Q47"
+              },
+              {
+                "kind": "ops",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "체험단 영수증 사진 요청",
+                "verdict": "normal-ops",
+                "reason": "고객이 체험단 영수증 사진을 요청하자 AI 자동응답이 가능하다고 답한 뒤 영수증 사진을 보냈고, 고객의 감사 인사로 대화가 마무리됐다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "안녕하세요~ 김진경 [연락처 가림]\n체험단 영수증 리뷰때문에 영수증 하나 사진 찍어 보내주실 수 있을까요?",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "감사합니다!",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "네, 고객님. 가능합니다! 바로 보내드리겠습니다.",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "imageOnly": true,
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "네, 고객님. 감사합니다! 😊",
+                    "lang": "ko"
+                  }
+                ],
+                "id": "K-20261126-N1127-020",
+                "recordIds": [
+                  "K-20261126-N1127-020"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A48:Q48"
+              },
+              {
+                "kind": "auto",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "시술 후 주의사항 자동 링크 안내",
+                "verdict": "auto",
+                "reason": "고객이 이름만 남겼고 병원 채널이 시술 후 주의사항 링크를 자동으로 보냈다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "나현정입니다",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "🌸 Beauty Blossom 시술 후 주의사항 🌸\n\n안전한 회복을 위해 아래 링크에서 주의사항을 꼭 확인해주세요 :)\n\n\n\nhttps://beautyblossom.imweb.me/112",
+                    "lang": "ko"
+                  }
+                ],
+                "id": "K-20261126-N1127-021",
+                "recordIds": [
+                  "K-20261126-N1127-021"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A49:Q49"
+              },
+              {
+                "kind": "auto",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "시술 후 주의사항 자동 링크 안내",
+                "verdict": "auto",
+                "reason": "고객 문의 없이 채널 추가 직후 병원 채널이 환영·운영시간 안내와 시술 후 주의사항 링크를 자동으로 보냈다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-26",
+                "customer": [],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "🌸 Beauty Blossom 시술 후 주의사항 🌸\n\n안전한 회복을 위해 아래 링크에서 주의사항을 꼭 확인해주세요 :)\n\n\n\nhttps://beautyblossom.imweb.me/112",
+                    "lang": "ko"
+                  }
+                ],
+                "id": "K-20261126-N1127-022",
+                "recordIds": [
+                  "K-20261126-N1127-022"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A50:Q50"
+              },
+              {
+                "kind": "ops",
+                "country": null,
+                "procedure": "쥬베룩 볼륨(팔자)",
+                "category": "경과 진료 예약",
+                "verdict": "normal-ops",
+                "reason": "고객이 다음 주 12월 4일(금) 방문 의사를 밝히며 진료만 보는지 묻자 AI 자동응답이 12월 4일 예약을 도와주겠다며 시간을 물었고, 시술 부위는 내원해 원장님이 상태를 본 뒤 안내하겠다고 답했다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "이번주는 시간이 안되어서 다음주 12/4 금요일에 방문 가능 할 것 같습니다 혹시 진료만 보는 걸까요? ",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "네, 고객님! 12월 4일(금)에 예약 도와드리겠습니다:) 시간은 언제가 좋으실까요?\r\n해당부분은 내원하셔서, 원장님께서 시술 부위 상태를 보신 뒤에 정확히 안내드릴 수 있을 거 같습니다:)",
+                    "lang": "ko"
+                  }
+                ],
+                "id": "K-20261126-N1127-023",
+                "recordIds": [
+                  "K-20261126-N1127-023"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A51:Q51"
+              },
+              {
+                "kind": "consult",
+                "country": null,
+                "procedure": "울쎄라피프라임",
+                "category": "가격 문의",
+                "verdict": "normal",
+                "reason": "AI 자동응답이 안내한 울쎄라피프라임 300샷 1,287,000원·600샷 2,475,000원(부가세 포함)은 수가표 17의 울쎄라피프라임 300샷·600샷 부가세 후 금액과 같다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "문의드려도 될까요? ",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": " 울쎄라피프라임 300샷 600샷 가격 문의드립니다\n\n정가기준가격(부가세포함) 문의드려요",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "안녕하세요 뷰티블라썸입니다. \r\n요청하신 울쎄라 부가세 포함 금액 아래와 같이 안내드립니다.\r\n1. 300샷: 1,287,000원\r\n2. 600샷: 2,475,000원",
+                    "lang": "ko"
+                  }
+                ],
+                "id": "K-20261126-N1127-024",
+                "recordIds": [
+                  "K-20261126-N1127-024"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A52:Q52"
+              },
+              {
+                "kind": "ops",
+                "country": null,
+                "procedure": "피코슈어토닝",
+                "category": "예약 신청",
+                "verdict": "normal-ops",
+                "reason": "고객이 12월 2일 19시 피코슈어토닝 예약을 신청하자 AI 자동응답이 요청한 대로 12월 2일 예약을 도와주겠다고 답했다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "예약 부탁드립니다\n\n-내원 경로(검색/소개/추천인 등):\n-성함/생년월일/연락처:명지호 [생년월일 가림]. [연락처 가림]\n-예약 날짜 및 시간: 12월2일 19시\n-원하시는 시술 및 상담: 피코슈어토닝",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "안녕하세요 뷰티블라썸입니다.\r\n요청주신대로 12월 2일로 예약 도와드리겠습니다!^^",
+                    "lang": "ko"
+                  }
+                ],
+                "id": "K-20261126-N1127-025",
+                "recordIds": [
+                  "K-20261126-N1127-025"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A53:Q53"
+              }
+            ],
+            "merged": [],
+            "unavailable": {
+              "recordIds": []
+            }
+          }
+        },
+        {
+          "platform": "kakao-clinic",
           "date": "2026-11-25",
           "status": "partial",
           "auditState": "source-availability-partial",
@@ -87527,7 +93745,7 @@ window.SUPERVISION_DATA = {
           "autoMessages": null,
           "systemMessages": null,
           "deletedMessages": null,
-          "reviewedRooms": 38,
+          "reviewedRooms": 39,
           "verdicts": null,
           "countries": [],
           "cases": [],
@@ -87536,7 +93754,7 @@ window.SUPERVISION_DATA = {
           "conversations": [],
           "issues": [],
           "followUps": [],
-          "reviewScope": "전체 상담 목록의 11월 25일 마지막 활동 방 43곳 중 42곳을 읽었다. 빨간 숫자 배지가 있는 1곳은 읽지 않은 새 채팅 메시지라 열지 않았다. 환자 상담 13건과 자동 링크 안내 25건을 확인했고 지적은 1건이다. 실행 당일 활동 방은 열지 않았다.",
+          "reviewScope": "전체 상담 목록의 11월 25일 마지막 활동 방 43곳 중 42곳을 읽었다. 빨간 숫자 배지가 있는 1곳은 읽지 않은 새 채팅 메시지라 열지 않았다. 환자 상담 13건과 자동 링크 안내 25건을 확인했고 지적은 1건이다. 실행 당일 활동 방은 열지 않았다. 11월 26일에 읽을 수 있게 된 11월 25일 문의 1건을 나중에 이 날짜에 추가했다.",
           "availabilityCoverage": {
             "targetDate": "2026-11-25",
             "observedAt": "2026-11-26T00:30:31.366Z",
@@ -87546,7 +93764,7 @@ window.SUPERVISION_DATA = {
             "observedCandidateCount": 43,
             "bodyRoomsOpened": 42,
             "actualBodyDateMembership": "confirmed-subset",
-            "reason": "전체 상담 목록의 11월 25일 마지막 활동 방 43곳 중 42곳을 읽었다. 빨간 숫자 배지가 있는 1곳은 읽지 않은 새 채팅 메시지라 열지 않았다. 환자 상담 13건과 자동 링크 안내 25건을 확인했고 지적은 1건이다. 실행 당일 활동 방은 열지 않았다.",
+            "reason": "전체 상담 목록의 11월 25일 마지막 활동 방 43곳 중 42곳을 읽었다. 빨간 숫자 배지가 있는 1곳은 읽지 않은 새 채팅 메시지라 열지 않았다. 환자 상담 13건과 자동 링크 안내 25건을 확인했고 지적은 1건이다. 실행 당일 활동 방은 열지 않았다. 11월 26일에 읽을 수 있게 된 11월 25일 문의 1건을 나중에 이 날짜에 추가했다.",
             "safetyNotes": [
               "실행 당일(11월 26일) 활동 방은 열지 않았다."
             ],
@@ -88581,11 +94799,38 @@ window.SUPERVISION_DATA = {
               "targetDate": "2026-11-25",
               "hasOriginal": true,
               "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=39242788&range=A51:Q51"
+            },
+            {
+              "id": "K-20261125-N1127-001",
+              "country": null,
+              "consultationAt": null,
+              "language": "ko",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 5,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 6,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "scopeNote": "상담 카드에서 해당 기록을 확인했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-25",
+              "hasOriginal": true,
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A3:Q3"
             }
           ],
           "qaReviewFinalization": {
             "schemaVersion": 2,
-            "finalizedAt": "2026-11-26T01:04:10.804Z",
+            "finalizedAt": "2026-11-27T00:59:09.205Z",
             "finalStatus": "completed",
             "sourceCoverage": "partial",
             "exchanges": [
@@ -89657,6 +95902,80 @@ window.SUPERVISION_DATA = {
                   "K-20261125-N1126-017"
                 ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=39242788&range=A51:Q51"
+              },
+              {
+                "kind": "consult",
+                "country": null,
+                "procedure": "침샘 보톡스",
+                "category": "가격·예약 문의",
+                "verdict": "normal",
+                "reason": "AI 자동응답이 안내한 침샘 보톡스 50유닛 금액(하이톡스 국산 77,000원, 코어톡스 110,000원, 제오민 156,000원, 앨러간 220,000원, 부가세 포함)은 수가표 17의 침샘 또는 측두근 보톡스 50u 부가세 후 금액과 같고, 예약 시간 문의와 일정 미룸 요청에도 응대했다.",
+                "questionDate": "2026-11-25",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "date": "2026-11-25",
+                    "original": "🔔예약 신청",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-25",
+                    "original": "🩷빠른 예약을 위해 아래 질문에 답변 부탁드립니다🩷\n\n-내원 경로(검색/소개/추천인 등):바비톡\n-성함/생년월일/연락처: 유현아/ [생년월일 가림]/[연락처 가림]\n-예약 날짜 및 시간:11/26\n-원하시는 시술 및 상담:침샘 보톡스\n\n확인 후 예약 도와드리겠습니다. \n\n상담만 진행 하실경우 상담비 만원 발생 됩니다.\n미리 고지드리는점 양해 부탁드립니다 감사합니다  :D",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-25",
+                    "original": "2-3시 가능할까요! 혹시 침샘보톡스 가격도 궁금합니당 ",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-25",
+                    "original": "감사합니다 아니면 예약 내일말구 나중으로 좀 미뤄도 될까요ㅠㅠ 죄송합니다 ㅠㅠㅠ ",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-25",
+                    "original": "감사합니다☺️🩷",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-25",
+                    "original": "🩷빠른 예약을 위해 아래 질문에 답변 부탁드립니다🩷\n\n-내원 경로(검색/소개/추천인 등):\n-성함/생년월일/연락처:\n-예약 날짜 및 시간:\n-원하시는 시술 및 상담:\n\n확인 후 예약 도와드리겠습니다. \n\n상담만 진행 하실경우 상담비 만원 발생 됩니다.\n미리 고지드리는점 양해 부탁드립니다 감사합니다  :D",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-25",
+                    "original": "안녕하세요 뷰티블라썸입니다. 혹시 시간은 언제로 도와드리면 될까요?^^",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-25",
+                    "original": "고객님 가능합니다 ^^\r\n\r\n침샘 보톡스 50유닛 기준 금액은 아래와 같으며, 모두 부가세 포함입니다🩷\r\n- 하이톡스(국산) 77,000원\r\n- 코어톡스 110,000원\r\n- 제오민 156,000원\r\n- 앨러간 220,000원",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-25",
+                    "original": "내일 2시반으로 예약 잡아드려도 괜찮을까요 ?^^",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-25",
+                    "original": "네, 현아님! 괜찮습니다 😊 나중에 편하신 날짜와 시간을 알려주시면 예약 도와드릴게요. 편하게 연락 주세요🩷",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "감사합니다!",
+                    "lang": "ko"
+                  }
+                ],
+                "id": "K-20261125-N1127-001",
+                "recordIds": [
+                  "K-20261125-N1127-001"
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A3:Q3"
               }
             ],
             "merged": [],
@@ -161395,6 +167714,100 @@ window.SUPERVISION_DATA = {
       "days": [
         {
           "platform": "babitalk",
+          "date": "2026-11-26",
+          "status": "partial",
+          "auditState": "source-availability-blocked",
+          "checkedAt": "2026-11-27T00:38:15.447Z",
+          "qaAuditCheckedAt": "2026-11-27T00:38:15.447Z",
+          "cutoffAt": "2026-11-26T23:59:59+09:00",
+          "eligibleRooms": null,
+          "messageCount": null,
+          "customerMessages": null,
+          "staffMessages": null,
+          "autoMessages": null,
+          "systemMessages": null,
+          "deletedMessages": null,
+          "reviewedRooms": 0,
+          "verdicts": null,
+          "countries": [],
+          "cases": [],
+          "casesComplete": false,
+          "reviewEntries": [],
+          "conversations": [],
+          "issues": [],
+          "followUps": [],
+          "reviewScope": "해외 채팅상담 전체 15방과 5개 언어 목록을 끝까지 확인했다. 11월 26일에 활동한 방은 1곳이며 읽지 않은 새 채팅 메시지가 있어 열지 않았다. 읽은 상담은 없어 판정한 상담 카드가 없고, 이 날짜의 전체 상담 수는 미확인이다.",
+          "availabilityCoverage": {
+            "targetDate": "2026-11-26",
+            "observedAt": "2026-11-27T00:38:15.447Z",
+            "evidenceScope": "native-list-only",
+            "providerDenominator": null,
+            "actualBodyReviewComplete": false,
+            "observedCandidateCount": 1,
+            "bodyRoomsOpened": 0,
+            "actualBodyDateMembership": "unknown",
+            "reason": "해외 채팅상담 전체 15방과 5개 언어 목록을 끝까지 확인했다. 11월 26일에 활동한 방은 1곳이며 읽지 않은 새 채팅 메시지가 있어 열지 않았다. 읽은 상담은 없어 판정한 상담 카드가 없고, 이 날짜의 전체 상담 수는 미확인이다.",
+            "safetyNotes": [
+              "실행 당일(11월 27일) 활동 방은 열지 않았다."
+            ],
+            "exclusionNotes": [
+              "해외 채팅상담 목록의 해당 날짜 활동 여부만 확인했다. 읽지 않은 새 채팅 메시지가 있는 방은 열지 않았다."
+            ]
+          },
+          "qaAuditPrivacy": "restricted-originals",
+          "qaAuditRecords": [
+            {
+              "id": "B-20261126-N1127-U001",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "읽지 않은 새 채팅 메시지",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=952577470&range=A104:Q104",
+              "scopeNote": "읽지 않은 새 채팅 메시지",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-26",
+              "hasOriginal": false
+            }
+          ],
+          "qaReviewFinalization": {
+            "schemaVersion": 2,
+            "finalizedAt": "2026-11-27T00:59:09.205Z",
+            "finalStatus": "completed",
+            "sourceCoverage": "partial",
+            "exchanges": [],
+            "merged": [],
+            "unavailable": {
+              "recordIds": [
+                "B-20261126-N1127-U001"
+              ],
+              "reasons": [
+                {
+                  "reason": "읽지 않은 새 채팅 메시지",
+                  "recordIds": [
+                    "B-20261126-N1127-U001"
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "platform": "babitalk",
           "date": "2026-11-25",
           "status": "completed",
           "auditState": "completed-no-activity",
@@ -163889,6 +170302,3104 @@ window.SUPERVISION_DATA = {
       "days": [
         {
           "platform": "whatsapp",
+          "date": "2026-11-26",
+          "status": "partial",
+          "auditState": "source-availability-partial",
+          "checkedAt": "2026-11-27T00:00:44.661Z",
+          "qaAuditCheckedAt": "2026-11-27T00:00:44.661Z",
+          "cutoffAt": "2026-11-26T23:59:59+09:00",
+          "eligibleRooms": null,
+          "messageCount": null,
+          "customerMessages": null,
+          "staffMessages": null,
+          "autoMessages": null,
+          "systemMessages": null,
+          "deletedMessages": null,
+          "reviewedRooms": 0,
+          "verdicts": null,
+          "countries": [],
+          "cases": [],
+          "casesComplete": false,
+          "reviewEntries": [],
+          "conversations": [],
+          "issues": [],
+          "followUps": [],
+          "reviewScope": "와츠앱 11월 26일 활동한 26방 중 25방의 질문과 답변을 확인해 상담 카드 40건을 만들었다. 11월 25일 문의에 답한 2건은 문의한 날짜인 11월 25일 카드에 넣었다. 답변 전 새 채팅 메시지 3건은 판정하지 않았다. 수신기에 남은 메시지만 읽었고 이 날짜의 전체 상담 수는 미확인이다.",
+          "availabilityCoverage": {
+            "targetDate": "2026-11-26",
+            "observedAt": "2026-11-27T00:00:44.661Z",
+            "evidenceScope": "native-safe-body-subset",
+            "providerDenominator": null,
+            "actualBodyReviewComplete": false,
+            "observedCandidateCount": 26,
+            "bodyRoomsOpened": 25,
+            "actualBodyDateMembership": "confirmed-subset",
+            "reason": "수신기가 최근 24시간 안에 받은 메시지만 보관해 3시간마다 저장한 스냅샷(이 날짜와 겹치는 저장 12회, 마지막 저장 2026-11-27 09:00 KST)에 남은 메시지를 읽었다. 저장본이 이어지지 않은 구간은 없었다.",
+            "safetyNotes": [
+              "저장된 대화에서 원문·화자·날짜를 대조한 메시지만 상담 카드에 연결했다.",
+              "방 안에서 입력·전송·읽음 처리 없이 받은 메시지만 읽었다.",
+              "원문과 한국어 번역은 제한 원장 행에 보관하고 공개 카드에는 연락처·생년월일·이메일만 가린 원문을 둔다."
+            ],
+            "exclusionNotes": [
+              "답변 전 새 채팅 메시지는 판정하지 않았다.",
+              "이미지·음성 첨부의 내용은 판정하지 않았다.",
+              "마지막 저장 이후의 문의는 다음 실행에서 확인한다."
+            ]
+          },
+          "qaAuditPrivacy": "restricted-originals",
+          "qaAuditRecords": [
+            {
+              "id": "W-20261126-T001",
+              "country": null,
+              "consultationAt": "2026-11-25T22:07:01+09:00",
+              "language": "영어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": "2026-11-25T22:07:01+09:00",
+                "lastAt": "2026-11-25T22:07:39+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-26T10:11:34+09:00",
+                "lastAt": "2026-11-26T10:11:34+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A2:Q2",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T002",
+              "country": null,
+              "consultationAt": "2026-11-26T17:10:56+09:00",
+              "language": "영어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-26T17:10:56+09:00",
+                "lastAt": "2026-11-26T17:10:56+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-26T17:49:42+09:00",
+                "lastAt": "2026-11-26T17:49:42+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A3:Q3",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T003",
+              "country": null,
+              "consultationAt": "2026-11-26T16:39:42+09:00",
+              "language": "영어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-11-26T16:39:42+09:00",
+                "lastAt": "2026-11-26T16:48:20+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": "2026-11-26T16:47:54+09:00",
+                "lastAt": "2026-11-26T16:52:09+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A4:Q4",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T004",
+              "country": null,
+              "consultationAt": "2026-11-26T10:10:16+09:00",
+              "language": "영어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-26T10:10:16+09:00",
+                "lastAt": "2026-11-26T10:10:16+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A5:Q5",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T005",
+              "country": null,
+              "consultationAt": "2026-11-26T10:18:04+09:00",
+              "language": "영어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": "2026-11-26T10:18:04+09:00",
+                "lastAt": "2026-11-26T10:35:03+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-26T10:21:36+09:00",
+                "lastAt": "2026-11-26T10:21:36+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A6:Q6",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T006",
+              "country": null,
+              "consultationAt": "2026-11-26T16:46:34+09:00",
+              "language": "영어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-11-26T16:46:34+09:00",
+                "lastAt": "2026-11-26T16:47:27+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 4,
+                "firstAt": "2026-11-26T16:49:00+09:00",
+                "lastAt": "2026-11-26T16:52:31+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A7:Q7",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T006-2",
+              "country": null,
+              "consultationAt": "2026-11-26T17:01:44+09:00",
+              "language": "영어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-26T17:01:44+09:00",
+                "lastAt": "2026-11-26T17:01:44+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-11-26T17:02:33+09:00",
+                "lastAt": "2026-11-26T17:03:09+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A8:Q8",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T006-3",
+              "country": null,
+              "consultationAt": "2026-11-26T18:32:36+09:00",
+              "language": "영어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-11-26T18:32:36+09:00",
+                "lastAt": "2026-11-26T18:54:08+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": "2026-11-26T18:36:41+09:00",
+                "lastAt": "2026-11-26T18:54:38+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A9:Q9",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T007",
+              "country": null,
+              "consultationAt": "2026-11-25T23:08:18+09:00",
+              "language": "영어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-25T23:08:18+09:00",
+                "lastAt": "2026-11-25T23:08:18+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-26T10:04:20+09:00",
+                "lastAt": "2026-11-26T10:04:20+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A10:Q10",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T008",
+              "country": null,
+              "consultationAt": "2026-11-26T13:50:43+09:00",
+              "language": "중국어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-26T13:50:43+09:00",
+                "lastAt": "2026-11-26T13:50:43+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-11-26T13:50:01+09:00",
+                "lastAt": "2026-11-26T13:51:38+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A11:Q11",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T009",
+              "country": null,
+              "consultationAt": "2026-11-26T02:04:06+09:00",
+              "language": "영어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 5,
+                "firstAt": "2026-11-26T02:04:06+09:00",
+                "lastAt": "2026-11-26T09:59:34+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 6,
+                "firstAt": "2026-11-26T09:59:26+09:00",
+                "lastAt": "2026-11-26T10:01:38+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A12:Q12",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T009-2",
+              "country": null,
+              "consultationAt": "2026-11-26T11:24:51+09:00",
+              "language": "영어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-26T11:24:51+09:00",
+                "lastAt": "2026-11-26T11:24:51+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-11-26T11:39:57+09:00",
+                "lastAt": "2026-11-26T11:40:10+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A13:Q13",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T009-3",
+              "country": null,
+              "consultationAt": "2026-11-26T12:44:44+09:00",
+              "language": "영어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": "2026-11-26T12:44:44+09:00",
+                "lastAt": "2026-11-26T12:49:05+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": "2026-11-26T12:48:38+09:00",
+                "lastAt": "2026-11-26T13:13:14+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A14:Q14",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T010",
+              "country": null,
+              "consultationAt": "2026-11-26T03:33:54+09:00",
+              "language": "영어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-26T03:33:54+09:00",
+                "lastAt": "2026-11-26T03:33:54+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-11-26T09:57:34+09:00",
+                "lastAt": "2026-11-26T09:57:47+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A15:Q15",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T011",
+              "country": null,
+              "consultationAt": "2026-11-26T06:47:59+09:00",
+              "language": "영어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 8,
+                "firstAt": "2026-11-26T06:47:59+09:00",
+                "lastAt": "2026-11-26T07:07:35+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-26T16:22:00+09:00",
+                "lastAt": "2026-11-26T16:22:00+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A16:Q16",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T012",
+              "country": null,
+              "consultationAt": "2026-11-26T10:23:56+09:00",
+              "language": "중국어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-11-26T10:23:56+09:00",
+                "lastAt": "2026-11-26T10:27:29+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-11-26T10:33:13+09:00",
+                "lastAt": "2026-11-26T12:25:52+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A17:Q17",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T013",
+              "country": null,
+              "consultationAt": "2026-11-26T10:44:25+09:00",
+              "language": "중국어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-26T10:44:25+09:00",
+                "lastAt": "2026-11-26T10:44:25+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A18:Q18",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T014",
+              "country": null,
+              "consultationAt": "2026-11-26T10:58:38+09:00",
+              "language": "영어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-26T10:58:38+09:00",
+                "lastAt": "2026-11-26T10:58:38+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A19:Q19",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T015",
+              "country": null,
+              "consultationAt": "2026-11-26T11:35:55+09:00",
+              "language": "중국어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-26T11:35:55+09:00",
+                "lastAt": "2026-11-26T11:35:55+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-11-26T11:36:53+09:00",
+                "lastAt": "2026-11-26T11:37:43+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A20:Q20",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T015-2",
+              "country": null,
+              "consultationAt": "2026-11-26T11:40:41+09:00",
+              "language": "중국어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-26T11:40:41+09:00",
+                "lastAt": "2026-11-26T11:40:41+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 6,
+                "firstAt": "2026-11-26T11:39:15+09:00",
+                "lastAt": "2026-11-26T11:45:41+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A21:Q21",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T015-3",
+              "country": null,
+              "consultationAt": "2026-11-26T11:45:49+09:00",
+              "language": "중국어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 4,
+                "firstAt": "2026-11-26T11:45:49+09:00",
+                "lastAt": "2026-11-26T11:50:38+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-11-26T11:46:45+09:00",
+                "lastAt": "2026-11-26T11:50:15+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A22:Q22",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T015-4",
+              "country": null,
+              "consultationAt": "2026-11-26T11:55:42+09:00",
+              "language": "중국어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-11-26T11:55:42+09:00",
+                "lastAt": "2026-11-26T11:56:28+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-26T11:56:12+09:00",
+                "lastAt": "2026-11-26T11:56:12+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A23:Q23",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T015-5",
+              "country": null,
+              "consultationAt": "2026-11-26T11:36:31+09:00",
+              "language": "중국어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 6,
+                "firstAt": "2026-11-26T11:36:31+09:00",
+                "lastAt": "2026-11-26T11:57:35+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 10,
+                "firstAt": "2026-11-26T11:51:25+09:00",
+                "lastAt": "2026-11-26T12:00:21+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A24:Q24",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T015-6",
+              "country": null,
+              "consultationAt": "2026-11-26T12:01:21+09:00",
+              "language": "중국어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-11-26T12:01:21+09:00",
+                "lastAt": "2026-11-26T12:01:44+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-26T12:11:32+09:00",
+                "lastAt": "2026-11-26T12:11:32+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A25:Q25",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T016",
+              "country": null,
+              "consultationAt": "2026-11-26T11:51:17+09:00",
+              "language": "영어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-26T11:51:17+09:00",
+                "lastAt": "2026-11-26T11:51:17+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-26T12:09:38+09:00",
+                "lastAt": "2026-11-26T12:09:38+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A26:Q26",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T017",
+              "country": null,
+              "consultationAt": "2026-11-26T11:57:45+09:00",
+              "language": "영어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-26T11:57:45+09:00",
+                "lastAt": "2026-11-26T11:57:45+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A27:Q27",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T017-2",
+              "country": null,
+              "consultationAt": "2026-11-26T11:57:55+09:00",
+              "language": "영어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-26T11:57:55+09:00",
+                "lastAt": "2026-11-26T11:57:55+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A28:Q28",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T018",
+              "country": null,
+              "consultationAt": "2026-11-26T14:36:53+09:00",
+              "language": "영어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-11-26T14:36:53+09:00",
+                "lastAt": "2026-11-26T14:38:17+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 4,
+                "firstAt": "2026-11-26T14:49:01+09:00",
+                "lastAt": "2026-11-26T14:49:46+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A29:Q29",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T019",
+              "country": null,
+              "consultationAt": "2026-11-26T14:41:48+09:00",
+              "language": "영어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-26T14:41:48+09:00",
+                "lastAt": "2026-11-26T14:41:48+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A30:Q30",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T020",
+              "country": null,
+              "consultationAt": "2026-11-26T15:35:40+09:00",
+              "language": "영어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-26T15:35:40+09:00",
+                "lastAt": "2026-11-26T15:35:40+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A31:Q31",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T021",
+              "country": null,
+              "consultationAt": "2026-11-26T15:48:14+09:00",
+              "language": "중국어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": "2026-11-26T15:48:14+09:00",
+                "lastAt": "2026-11-26T15:55:23+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 4,
+                "firstAt": "2026-11-26T15:48:39+09:00",
+                "lastAt": "2026-11-26T15:55:44+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A32:Q32",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T021-2",
+              "country": null,
+              "consultationAt": "2026-11-26T15:56:08+09:00",
+              "language": "중국어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 4,
+                "firstAt": "2026-11-26T15:56:08+09:00",
+                "lastAt": "2026-11-26T15:58:31+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 4,
+                "firstAt": "2026-11-26T15:56:49+09:00",
+                "lastAt": "2026-11-26T16:00:08+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A33:Q33",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T021-3",
+              "country": null,
+              "consultationAt": "2026-11-26T16:03:20+09:00",
+              "language": "중국어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-11-26T16:03:20+09:00",
+                "lastAt": "2026-11-26T16:07:50+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 4,
+                "firstAt": "2026-11-26T16:06:50+09:00",
+                "lastAt": "2026-11-26T16:09:11+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A34:Q34",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T021-4",
+              "country": null,
+              "consultationAt": "2026-11-26T16:08:59+09:00",
+              "language": "중국어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": "2026-11-26T16:08:59+09:00",
+                "lastAt": "2026-11-26T16:14:02+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 4,
+                "firstAt": "2026-11-26T16:09:56+09:00",
+                "lastAt": "2026-11-26T16:17:19+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A35:Q35",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T022",
+              "country": null,
+              "consultationAt": "2026-11-26T15:53:01+09:00",
+              "language": "영어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 5,
+                "firstAt": "2026-11-26T15:53:01+09:00",
+                "lastAt": "2026-11-26T16:05:17+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 4,
+                "firstAt": "2026-11-26T15:55:08+09:00",
+                "lastAt": "2026-11-26T16:12:20+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A36:Q36",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T022-2",
+              "country": null,
+              "consultationAt": "2026-11-26T16:11:18+09:00",
+              "language": "영어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-26T16:11:18+09:00",
+                "lastAt": "2026-11-26T16:11:18+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-26T16:13:04+09:00",
+                "lastAt": "2026-11-26T16:13:04+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A37:Q37",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T023",
+              "country": null,
+              "consultationAt": "2026-11-26T16:37:48+09:00",
+              "language": "영어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-26T16:37:48+09:00",
+                "lastAt": "2026-11-26T16:37:48+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A38:Q38",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T024",
+              "country": null,
+              "consultationAt": "2026-11-26T16:26:33+09:00",
+              "language": "영어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 0,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-26T16:26:33+09:00",
+                "lastAt": "2026-11-26T16:26:33+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A39:Q39",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T025",
+              "country": null,
+              "consultationAt": "2026-11-26T17:01:45+09:00",
+              "language": "중국어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-11-26T17:01:45+09:00",
+                "lastAt": "2026-11-26T17:07:54+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-11-26T17:04:16+09:00",
+                "lastAt": "2026-11-26T17:10:58+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A40:Q40",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T026",
+              "country": null,
+              "consultationAt": "2026-11-26T17:58:32+09:00",
+              "language": "영어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-26T17:58:32+09:00",
+                "lastAt": "2026-11-26T17:58:32+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": "2026-11-26T17:47:22+09:00",
+                "lastAt": "2026-11-26T18:01:32+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A41:Q41",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T026-2",
+              "country": null,
+              "consultationAt": "2026-11-26T18:03:59+09:00",
+              "language": "영어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": "2026-11-26T18:03:59+09:00",
+                "lastAt": "2026-11-26T18:41:10+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": "2026-11-26T18:14:28+09:00",
+                "lastAt": "2026-11-26T18:43:27+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A42:Q42",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "clinical",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T027",
+              "country": null,
+              "consultationAt": "2026-11-26T19:24:22+09:00",
+              "language": "중국어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 2,
+                "firstAt": "2026-11-26T19:24:22+09:00",
+                "lastAt": "2026-11-26T19:24:51+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-26T19:26:39+09:00",
+                "lastAt": "2026-11-26T19:26:39+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A43:Q43",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-26",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-U001",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "답변 전 새 채팅 메시지",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A44:Q44",
+              "scopeNote": "답변 전 새 채팅 메시지",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-26",
+              "hasOriginal": false
+            },
+            {
+              "id": "W-20261126-U002",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "답변 전 새 채팅 메시지",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A45:Q45",
+              "scopeNote": "답변 전 새 채팅 메시지",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-26",
+              "hasOriginal": false
+            },
+            {
+              "id": "W-20261126-U003",
+              "country": null,
+              "consultationAt": null,
+              "language": "unknown",
+              "sourceState": "unread",
+              "question": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "answer": {
+                "state": "unread",
+                "messageCount": null,
+                "firstAt": null,
+                "lastAt": null
+              },
+              "verdict": "unreviewed",
+              "reason": "답변 전 새 채팅 메시지",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A46:Q46",
+              "scopeNote": "답변 전 새 채팅 메시지",
+              "recordKind": "unread-candidate",
+              "targetDayState": "unknown",
+              "targetDate": "2026-11-26",
+              "hasOriginal": false
+            }
+          ],
+          "qaReviewFinalization": {
+            "schemaVersion": 2,
+            "finalizedAt": "2026-11-27T00:18:40.368Z",
+            "finalStatus": "completed",
+            "sourceCoverage": "partial",
+            "exchanges": [
+              {
+                "id": "W-20261126-T002",
+                "recordIds": [
+                  "W-20261126-T002"
+                ],
+                "kind": "consult",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "시술 후 증상 문의(홈케어)",
+                "verdict": "normal",
+                "reason": "의사에게 확인했다며 안내한 보습·자외선 차단과 레티놀·각질 제거 제품 회피는 가이드 09 시술 후 안내문(8017·8020행)의 항목과 같다. 붉은기가 심해지거나 건조함·가려움이 지속되면 다시 연락하라는 안내도 같은 안내문의 연락 기준(8021행)과 같다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: Shella · 방문 구분: 재진 (근거: \"it is difficult to determine whether they are directly related to your treatments\")"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "That happened only recently.",
+                    "ko": "그건 최근에야 생겼어요."
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hello! We've checked with our doctor regarding your concerns. 🤍\n\nAs the redness and dryness appeared recently, it is difficult to determine whether they are directly related to your treatments. Changes in weather and temporary skin sensitivity following the treatments may also be contributing factors.\n\nFor the next few days, we recommend:\n• Keeping your skin well moisturized.\n• Avoiding retinol, vitamin C, niacinamide, and exfoliating products.\n• Using gentle skincare products and applying sunscreen regularly.\n\nIf the redness worsens, dryness persists, or you experience itching or stinging, please contact us again for further assessment.",
+                    "ko": "안녕하세요! 고객님의 우려 사항에 대해 저희 의사 선생님께 확인했습니다. 🤍\n\n붉은기와 건조함이 최근에 나타났기 때문에 시술과 직접 관련이 있는지 판단하기는 어렵습니다. 날씨 변화와 시술 후의 일시적인 피부 민감도도 원인이 될 수 있습니다.\n\n앞으로 며칠 동안은 다음을 권해 드립니다:\n• 피부를 충분히 보습해 주세요.\n• 레티놀, 비타민 C, 나이아신아마이드, 각질 제거 제품은 피해 주세요.\n• 순한 스킨케어 제품을 사용하고 자외선 차단제를 꾸준히 발라 주세요.\n\n붉은기가 심해지거나 건조함이 지속되거나 가려움이나 따끔거림이 생기면 추가 진료를 위해 다시 연락해 주세요."
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A3:Q3"
+              },
+              {
+                "id": "W-20261126-T003",
+                "recordIds": [
+                  "W-20261126-T003"
+                ],
+                "kind": "ops",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "예약 일정 확인",
+                "verdict": "normal-ops",
+                "reason": "고객이 예약 확정 문구에 적힌 12월 9일과 요청한 12월 6일이 다르다고 묻자 직원이 12월 6일이 맞다고 답하고 12월 6일 12pm 예약 확정 양식을 다시 보냈다. 새 확정 양식에는 가이드 08(235행)의 상담료 10,000원 문구와 지도 링크(232행)가 들어 있고 고객이 감사 인사로 마무리했다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: Keerthana N · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hello, just wanted to confirm looking back at this reservation message - I had requested an appointment for Dec 6, is this still on Dec 6? The reply message said Dec 6, but the reservation message says Dec 9 so wanted to clarify. Thank you!",
+                    "ko": "안녕하세요, 이 예약 메시지를 다시 보다가 확인하고 싶어서요 - 저는 12월 6일로 예약을 요청했는데, 여전히 12월 6일이 맞나요? 답장 메시지에는 12월 6일이라고 되어 있는데 예약 메시지에는 12월 9일로 되어 있어서 확인하고 싶었어요. 감사합니다!"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Thank you so much, I appreciate the quick clarification!",
+                    "ko": "정말 감사합니다, 빠르게 확인해 주셔서 감사해요!"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "We've double-checked our reservation system and can confirm that your appointment is scheduled for December 6th.We apologize for the confusion caused by the incorrect date in the reservation message.\nWe look forward to seeing you on December 6th! 💗",
+                    "ko": "예약 시스템을 다시 확인한 결과 고객님의 예약이 12월 6일로 잡혀 있음을 확인해 드립니다.예약 메시지에 잘못된 날짜가 표기되어 혼란을 드린 점 사과드립니다.\n12월 6일에 뵙기를 기대하겠습니다! 💗"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Your reservation has been scheduled for the following date and time:\n\n📅 Day :  6th / DEC / 2026\n⏰ Time : 12pm\n\n📍Location : 66 Yanghwa-ro, Mapo, Seoul, 6F  \n\nLink for location \n* Naver Map : https://naver.me/5ap1E0ph\n* Google : https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 Please bring your Alien Registration Card or Passport with you.\n\n If you only have a consultation on the day of your appointment and do not proceed with any treatment, a consultation fee of ₩10,000 will apply.\n\nWe look forward to meeting you soon.🥰\n\nThank you 🙂\n\nBeauty Blossom Global Clinic Team🌸",
+                    "ko": "다음 날짜와 시간으로 예약이 잡혔습니다:\n\n📅 날짜 :  2026년 12월 6일\n⏰ 시간 : 낮 12시\n\n📍위치 : 서울 마포구 양화로 66, 6층  \n\n위치 링크 \n* 네이버 지도 : https://naver.me/5ap1E0ph\n* 구글 : https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 외국인등록증 또는 여권을 지참해 주세요.\n\n 예약 당일 상담만 받고 시술을 진행하지 않으시면 상담료 ₩10,000이 부과됩니다.\n\n곧 뵙기를 기대하겠습니다.🥰\n\n감사합니다 🙂\n\n뷰티블라썸 글로벌 클리닉 팀🌸"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "You're very welcome! 🌸 See you then!",
+                    "ko": "천만에요! 🌸 그때 뵙겠습니다!"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A4:Q4"
+              },
+              {
+                "id": "W-20261126-T004",
+                "recordIds": [
+                  "W-20261126-T004"
+                ],
+                "kind": "ops",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "예약 도착 확인",
+                "verdict": "normal-ops",
+                "reason": "예약 당일 오전 10시 방문 여부를 묻는 도착 확인 안내다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: Iris 888 · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "note": "직접 작성한 질문 없음 (병원이 먼저 보낸 안내)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hello 😊 You have an appointment with us today at 10:00am. May we kindly ask if you’re on your way to the clinic?",
+                    "ko": "안녕하세요 😊 오늘 오전 10시에 저희 병원 예약이 있으십니다. 병원으로 오시는 중인지 여쭤봐도 될까요?"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A5:Q5"
+              },
+              {
+                "id": "W-20261126-T005",
+                "recordIds": [
+                  "W-20261126-T005"
+                ],
+                "kind": "ops",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "방문 시각 안내",
+                "verdict": "normal-ops",
+                "reason": "고객이 도착 예정 시각을 알리자 직원이 확인 답변을 했고, 고객의 'Yes'와 'On my way'로 대화가 마무리됐다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: Iris 888 · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Gm 🥰 yes will arrive at 10:45 am .. thank you 🙏",
+                    "ko": "좋은 아침이에요 🥰 네, 오전 10:45에 도착할 거예요 .. 감사합니다 🙏"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Yes",
+                    "ko": "네"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "On my way",
+                    "ko": "가는 중이에요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "ok see you soon!😆",
+                    "ko": "네, 곧 뵐게요!😆"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A6:Q6"
+              },
+              {
+                "id": "W-20261126-T006",
+                "recordIds": [
+                  "W-20261126-T006"
+                ],
+                "kind": "consult",
+                "country": null,
+                "procedure": "울쎄라 프라임·세르프·리쥬란·리투오",
+                "category": "가격 및 시술 추천 문의",
+                "verdict": "followup",
+                "reason": "직원이 안내한 울쎄라 프라임 300+세르프 600(2,950,000원), 아이+눈썹 세르프 700(2,550,000원), 리쥬란 힐러 2cc(198,000원), 리투오 1v 항목(650,000원)은 수가표 17의 VAT 전 금액과 같다. 고객이 눈 밑 볼륨을 필러 없이 채우고 싶다고 했고 직원은 쥬베룩을 전통적 필러가 아닌 콜라겐 자극 시술로 안내했는데, 가이드 02는 쥬베룩을 PDLLA와 히알루론산을 결합한 제품(1857·1917행)으로 안내하며 이 성분은 알리지 않았다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: Alex · 방문 구분: 재진 (근거: \"Last time I was seen in the VIP upstairs section\")"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "How much is 300 shot ultherapy for lower face and xerf for full face (maybe 600 shots)?  Also what is recommended for eyes? My upper lid I want more tightening/lifting, but my under eye, I want more volume without fillers.",
+                    "ko": "하관 울쎄라 300샷과 얼굴 전체 세르프(600샷 정도)는 얼마인가요?  그리고 눈에는 무엇이 추천되나요? 윗눈꺼풀은 더 탄력 있게 당겨 올리고 싶고, 눈 밑은 필러 없이 볼륨을 더 채우고 싶어요."
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Also I want to know price for rejuran 2ml and re20 for full face.",
+                    "ko": "그리고 리쥬란 2ml와 얼굴 전체 re20 가격도 알고 싶어요."
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "[image] 첨부 미리보기 미지원",
+                    "lang": "ko",
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "[image] 첨부 미리보기 미지원",
+                    "lang": "ko",
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hello! \nHere are the treatment prices for your reference:\n\nFacial Lifting\n• Ultherapy Prime 300 shots + XERF 600 shots: ₩2,950,000\n\nEye Lifting\n• Eye XERF 700 shots: ₩2,550,000\n\nSkin Boosters\n• Rejuran Healer 2cc: ₩198,000\n• Re2O (Full Face): ₩650,000\n\nFor your upper eyelids, we would recommend considering Eye XERF to improve skin firmness and tightening. For the entire eye area, approximately 700 shots may be recommended, depending on your condition. For your under-eye area, if you would prefer to improve fullness without traditional fillers, collagen-stimulating treatments such as Juvelook may be an option. However, Eye XERF itself focuses on tightening rather than restoring volume.\n\nWe would recommend an in-person consultation to determine the most suitable combination based on your facial structure and desired results.",
+                    "ko": "안녕하세요! \n참고하실 수 있도록 시술 가격을 안내드립니다:\n\n얼굴 리프팅\n• 울쎄라 프라임 300샷 + 세르프(XERF) 600샷: ₩2,950,000\n\n눈 리프팅\n• 아이 세르프(Eye XERF) 700샷: ₩2,550,000\n\n스킨부스터\n• 리쥬란 힐러 2cc: ₩198,000\n• 리투오(Re2O) (얼굴 전체): ₩650,000\n\n윗눈꺼풀은 피부 탄력과 처짐 개선을 위해 아이 세르프를 고려해 보시길 권해 드립니다. 눈 주변 전체는 상태에 따라 약 700샷이 권장될 수 있습니다. 눈 밑은 일반적인 필러 없이 볼륨을 개선하고 싶으시다면 쥬베룩 같은 콜라겐 생성 시술이 선택지가 될 수 있습니다. 다만 아이 세르프 자체는 볼륨을 채우기보다 탄력을 높이는 데 초점을 둔 시술입니다.\n\n얼굴 구조와 원하시는 결과에 따라 가장 적합한 조합을 정하기 위해 직접 내원하여 상담받으실 것을 권해 드립니다."
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Please kindly note that the prices quoted above do not include 10% VAT. 😊🌸",
+                    "ko": "위에 안내드린 가격에는 부가세 10%가 포함되어 있지 않은 점 참고 부탁드립니다. 😊🌸"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A7:Q7"
+              },
+              {
+                "id": "W-20261126-T006-2",
+                "recordIds": [
+                  "W-20261126-T006-2"
+                ],
+                "kind": "consult",
+                "country": null,
+                "procedure": "네페르티티 보톡스",
+                "category": "시술 가능 여부 문의",
+                "verdict": "normal",
+                "reason": "수가표 17 어깨라인 시트에 턱선부터 목선까지 리프팅하는 광경근 네페르티티 리프팅 보톡스 항목이 있어 시술을 한다는 직원의 답과 같다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: Alex · 방문 구분: 재진 (근거: \"Last time I was seen in the VIP upstairs section\")"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Do you do Nefertiti jawline Botox?",
+                    "ko": "네페르티티 턱선 보톡스를 하시나요?"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "[image] 첨부 미리보기 미지원",
+                    "lang": "ko",
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Yes, we do offer Nefertiti jawline Botox! We've shared the treatment details with you above for your reference. Please feel free to let us know if you have any further questions! 💗",
+                    "ko": "네, 네페르티티 턱선 보톡스를 진행하고 있습니다! 참고하실 수 있도록 시술 상세 내용을 위에 공유해 드렸습니다. 추가로 궁금하신 점이 있으시면 언제든지 말씀해 주세요! 💗"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A8:Q8"
+              },
+              {
+                "id": "W-20261126-T006-3",
+                "recordIds": [
+                  "W-20261126-T006-3"
+                ],
+                "kind": "ops",
+                "country": null,
+                "procedure": "울쎄라·써마지·세르프·네페르티티 보톡스",
+                "category": "예약 문의",
+                "verdict": "normal-ops",
+                "reason": "고객이 내일 오후 4~5시 예약을 묻자 직원이 오후 5시 가능 시간을 안내했고, 고객이 수락한 뒤 11월 27일 5pm 예약 확정 양식을 보냈다. 확정 양식에는 가이드 08(235행)의 상담료 10,000원 문구와 지도 링크(232행)가 들어 있다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: Alex · 방문 구분: 재진 (근거: \"Last time I was seen in the VIP upstairs section\")"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Thank you so much! Last time I was seen in the VIP upstairs section, I’d like to come back for ultherapy 300 and I’m debating between thermage and xerf for full face. I want longer lasting better results. \nI also would like to do the Nefertiti Botox lift. \n\nCan I come tomorrow afternoon for an appointment for these treatments? Around 4-5pm?",
+                    "ko": "정말 감사합니다! 지난번에 위층 VIP 구역에서 진료를 받았는데, 울쎄라 300샷을 다시 받으러 오고 싶고 얼굴 전체는 써마지와 세르프 중에서 고민 중이에요. 더 오래 지속되고 더 좋은 결과를 원해요. \n네페르티티 보톡스 리프트도 하고 싶어요. \n\n이 시술들로 내일 오후에 예약하고 방문할 수 있을까요? 오후 4~5시쯤이요?"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Yes please",
+                    "ko": "네, 부탁드립니다"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Yes, we have availability tomorrow at 5:00 PM!\nAs you'll need a consultation to determine whether Thermage or XERF is more suitable for you, please kindly visit our 6th floor first for your consultation.\nWould you like us to go ahead and arrange your appointment? 💗",
+                    "ko": "네, 내일 오후 5시에 가능합니다!\n써마지와 세르프 중 어느 쪽이 더 적합한지 정하려면 상담이 필요하니, 먼저 6층에 방문하셔서 상담을 받아 주세요.\n예약을 진행해 드릴까요? 💗"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Your reservation has been scheduled for the following date and time:\n\n📅 Day :  27th / Nov / 2026\n⏰ Time : 5pm\n\n📍Location : 66 Yanghwa-ro, Mapo, Seoul, 6F  \n\nLink for location \n* Naver Map : https://naver.me/5ap1E0ph\n* Google : https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 Please bring your Alien Registration Card or Passport with you.\n\n If you only have a consultation on the day of your appointment and do not proceed with any treatment, a consultation fee of ₩10,000 will apply.\n\nWe look forward to meeting you soon.🥰\n\nThank you 🙂\n\nBeauty Blossom Global Clinic Team🌸",
+                    "ko": "다음 날짜와 시간으로 예약이 잡혔습니다:\n\n📅 날짜 :  2026년 11월 27일\n⏰ 시간 : 오후 5시\n\n📍위치 : 서울 마포구 양화로 66, 6층  \n\n위치 링크 \n* 네이버 지도 : https://naver.me/5ap1E0ph\n* 구글 : https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 외국인등록증 또는 여권을 지참해 주세요.\n\n 예약 당일 상담만 받고 시술을 진행하지 않으시면 상담료 ₩10,000이 부과됩니다.\n\n곧 뵙기를 기대하겠습니다.🥰\n\n감사합니다 🙂\n\n뷰티블라썸 글로벌 클리닉 팀🌸"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Thank you for your booking request! Your reservation has been successfully arranged 🌸\nIf you have any other questions, please feel free to ask us anytime! 😊",
+                    "ko": "예약 요청해 주셔서 감사합니다! 예약이 정상적으로 완료되었습니다 🌸\n다른 문의가 있으시면 언제든지 편하게 말씀해 주세요! 😊"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A9:Q9"
+              },
+              {
+                "id": "W-20261126-T008",
+                "recordIds": [
+                  "W-20261126-T008"
+                ],
+                "kind": "ops",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "예약 확정 안내",
+                "verdict": "followup",
+                "reason": "가이드 08의 번체 중국어 예약 확정 양식은 상담만 받고 시술하지 않으면 상담료 10,000원이 발생한다고 안내(178행)하는데, 담당자의 광둥어 예약 확정 안내에는 이 문구가 빠졌다. 지도 링크 naver.me/x7nICmp3는 병원 위치로 연결된다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: CW · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "[sticker] 첨부 미리보기 미지원",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hello～😊🌸 已經成功幫您安排好預約！\n\n📅 預約日期： 2026年12月5日（星期六）\n⏰ 預約時間： 下午2:30\n👤 人數：2位\n\n📍 診所地址：\n首爾麻浦區楊花路66號，6樓\n66 Yanghwa-ro, Mapo-gu, Seoul, 6F\n\n📍 地圖連結：\n* Naver Map：https://naver.me/x7nICmp3\n* Google Map：https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 到診時記得帶埋護照～\n\n期待到時見到您！🥰🌸\n\nBeauty Blossom Global Clinic Team 🤍",
+                    "ko": "안녕하세요～😊🌸 예약을 성공적으로 잡아 드렸습니다!\n\n📅 예약 날짜： 2026년 12월 5일（토요일）\n⏰ 예약 시간： 오후 2:30\n👤 인원：2명\n\n📍 병원 주소:\n서울 마포구 양화로 66, 6층\n66 Yanghwa-ro, Mapo-gu, Seoul, 6F\n\n📍 지도 링크:\n* Naver Map: https://naver.me/x7nICmp3\n* Google Map: https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 내원하실 때 여권을 꼭 지참해 주세요～\n\n그때 뵙기를 기대하겠습니다!🥰🌸\n\nBeauty Blossom Global Clinic Team 🤍"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "到時見～",
+                    "ko": "그때 뵙겠습니다～"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A11:Q11"
+              },
+              {
+                "id": "W-20261126-T009",
+                "recordIds": [
+                  "W-20261126-T009"
+                ],
+                "kind": "consult",
+                "country": null,
+                "procedure": "코 필러, 뷰티 오마카세 스킨케어, 보톡스 눈썹 리프트, 턱선 상담",
+                "category": "총비용 문의",
+                "verdict": "image",
+                "reason": "총비용 문의에 담당자가 이미지 4장과 문장으로 답했고, 최종 시술 계획과 총 금액은 내원 상담에서 정해진다고 안내했다. 상담 가능한 11월 27일 11시도 함께 제안했다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: Raine · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hello ! I was looking to book a consultation for Saturday",
+                    "ko": "안녕하세요! 토요일에 상담 예약을 하고 싶습니다"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Raine Juarez \n[생년월일 가림]\nAmerican , English \n11:00 November 27 \n\n• Customized nose filler\n• Beauty Omakase Skincare facial (brightening, hydration and evening out my skin tone)\n• Non-surgical Botox brow lift, if available\n• Consultation for subtle jawline sculpting and facial balancing\n\nI’m also open to discussing under-eye treatments. I’d prefer natural-looking results and would like the doctor’s recommendations before proceeding.\n\nI’ve previously had nose filler, so I’d also like the doctor to assess that beforehand.\n\nCould you please provide an estimated total price? \n\nGoogle",
+                    "ko": "Raine Juarez \n[생년월일 가림]\n미국인, 영어 \n11월 27일 11:00 \n\n• 맞춤 코 필러\n• 뷰티 오마카세 스킨케어 페이셜 (피부 톤을 환하게, 수분 공급, 고르게 정돈)\n• 비수술 보톡스 눈썹 리프트, 가능하다면\n• 은은한 턱선 조각과 얼굴 균형 상담\n\n눈 밑 시술도 상담해 볼 의향이 있습니다. 자연스러운 결과를 선호하며, 시술을 진행하기 전에 의사 선생님의 추천을 듣고 싶습니다.\n\n이전에 코 필러를 받은 적이 있어서, 의사 선생님이 그것도 미리 살펴봐 주셨으면 합니다.\n\n대략적인 총 비용을 알려 주실 수 있을까요? \n\nGoogle"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "I would like to do nose filler for sure",
+                    "ko": "코 필러는 꼭 받고 싶습니다"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "?",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hello",
+                    "ko": "안녕하세요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "[image] 첨부 미리보기 미지원",
+                    "lang": "ko",
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "[image] 첨부 미리보기 미지원",
+                    "lang": "ko",
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "[image] 첨부 미리보기 미지원",
+                    "lang": "ko",
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "[image] 첨부 미리보기 미지원",
+                    "lang": "ko",
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hello! \nThank you for sharing your treatment preferences and concerns with us!\nAs you are interested in personalized treatments and natural-looking results, our doctor will assess your facial features, skin condition, and previous nose filler during your in-person consultation.\nThe final treatment plan and total price will be confirmed during your consultation, based on the recommended treatments, products, and amounts required.",
+                    "ko": "안녕하세요! \n시술 선호 사항과 고민을 저희에게 공유해 주셔서 감사합니다!\n맞춤 시술과 자연스러운 결과에 관심이 있으시므로, 저희 의사 선생님이 내원 상담 때 고객님의 얼굴 특징, 피부 상태, 그리고 이전에 받으신 코 필러를 직접 살펴보실 것입니다.\n최종 시술 계획과 총 금액은 권장 시술, 제품, 필요한 용량을 바탕으로 상담 때 정해집니다."
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "You can take a look at the promotional price list we shared above for your reference. We also have availability on Friday, November 27th, at 11:00 AM.\nWould you like us to go ahead and arrange your appointment? 💗",
+                    "ko": "위에서 공유해 드린 프로모션 가격표를 참고용으로 보실 수 있습니다. 11월 27일 금요일 오전 11시에 예약 가능한 시간도 있습니다.\n예약을 진행해 드릴까요? 💗"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A12:Q12"
+              },
+              {
+                "id": "W-20261126-T009-2",
+                "recordIds": [
+                  "W-20261126-T009-2"
+                ],
+                "kind": "ops",
+                "country": null,
+                "procedure": "lhala peel, 코 필러",
+                "category": "예약 확정",
+                "verdict": "normal-ops",
+                "reason": "예약 확정 양식에 가이드 08 영문 확정 양식과 같은 상담료 10,000원 안내와 지도 링크 두 개가 들어 있고, 일시도 고객이 요청한 11월 27일 11시와 같다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: Raine · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "I’d like a consultation for lhala peel and nose filler for 27th 11am ☺️",
+                    "ko": "27일 오전 11시에 lhala peel과 코 필러 상담을 받고 싶어요 ☺️"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Your reservation has been scheduled for the following date and time:\n\n📅 Day :  27th / Nov / 2026\n⏰ Time : 11am\n\n📍Location : 66 Yanghwa-ro, Mapo, Seoul, 6F  \n\nLink for location \n* Naver Map : https://naver.me/5ap1E0ph\n* Google : https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 Please bring your Alien Registration Card or Passport with you.\n\n If you only have a consultation on the day of your appointment and do not proceed with any treatment, a consultation fee of ₩10,000 will apply.\n\nWe look forward to meeting you soon.🥰\n\nThank you 🙂\n\nBeauty Blossom Global Clinic Team🌸",
+                    "ko": "다음 날짜와 시간으로 예약이 잡혔습니다:\n\n📅 날짜 :  2026년 11월 27일\n⏰ 시간 : 오전 11시\n\n📍위치 : 서울 마포구 양화로 66, 6층  \n\n위치 링크 \n* 네이버 지도 : https://naver.me/5ap1E0ph\n* 구글 : https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 외국인등록증 또는 여권을 지참해 주세요.\n\n 예약 당일 상담만 받고 시술을 진행하지 않으시면 상담료 ₩10,000이 부과됩니다.\n\n곧 뵙기를 기대하겠습니다.🥰\n\n감사합니다 🙂\n\n뷰티블라썸 글로벌 클리닉 팀🌸"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Thank you for your booking request! Your reservation has been successfully arranged 🌸\nIf you have any other questions, please feel free to ask us anytime! 😊",
+                    "ko": "예약 요청해 주셔서 감사합니다! 예약이 정상적으로 완료되었습니다 🌸\n다른 문의가 있으시면 언제든지 편하게 말씀해 주세요! 😊"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A13:Q13"
+              },
+              {
+                "id": "W-20261126-T009-3",
+                "recordIds": [
+                  "W-20261126-T009-3"
+                ],
+                "kind": "consult",
+                "country": null,
+                "procedure": "보톡스 눈썹 리프트",
+                "category": "가격 문의",
+                "verdict": "image",
+                "reason": "눈썹 보톡스 리프트 가능 여부와 가격 문의에 담당자가 시술 가능 여부, 보톡스 단독 효과 정도, 초음파·고주파 병행 가능성을 문장으로 안내하고 이미지를 보냈다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: Raine · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "I was wondering if yall also do eyebrow Botox lifts",
+                    "ko": "혹시 여기서 눈썹 보톡스 리프트도 하시는지 궁금합니다"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "눈썹 리프팅 보톡스",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "About how much is that ?",
+                    "ko": "그건 대략 얼마인가요?"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Yes, we do offer Botox brow lifts at our clinic! Our doctor can assess your eyebrow shape and recommend the appropriate injection points and dosage to achieve a natural-looking lift.",
+                    "ko": "네, 저희 병원에서 보톡스 눈썹 리프트를 시행하고 있습니다! 저희 의사 선생님이 눈썹 모양을 살펴보고 자연스러운 리프팅 효과를 위한 적절한 주입 지점과 용량을 추천해 드립니다."
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "However, Botox alone typically provides a subtle lifting effect of around 1 mm, so the results may not be very noticeable.\nFor more noticeable results, our doctor may recommend combining Botox with ultrasound (HIFU) or radiofrequency (RF) lifting treatments, depending on your individual condition.",
+                    "ko": "다만 보톡스만으로는 보통 1mm 정도의 은은한 리프팅 효과가 있어 결과가 크게 눈에 띄지 않을 수 있습니다.\n더 눈에 띄는 결과를 위해서는 개인 상태에 따라 의사 선생님이 보톡스와 초음파(HIFU) 또는 고주파(RF) 리프팅 시술의 병행을 권할 수 있습니다."
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "[image] 첨부 미리보기 미지원",
+                    "lang": "ko",
+                    "image": true
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A14:Q14"
+              },
+              {
+                "id": "W-20261126-T010",
+                "recordIds": [
+                  "W-20261126-T010"
+                ],
+                "kind": "ops",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "상담 경로 안내",
+                "verdict": "normal-ops",
+                "reason": "고객의 인사에 직원이 무엇을 도울지 묻고 전체 프로모션 가격표 링크와 시술 문의 안내를 보냈다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: Mezan Kabab · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hello",
+                    "ko": "안녕하세요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hello, how may I help you ?",
+                    "ko": "안녕하세요, 무엇을 도와드릴까요?"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Here is the link to our full promotional price list for your reference:\nBeauty Blossom Full Promotion Price List : https://en.beautyblossom.kr/22\nIf you have any difficulty finding a specific treatment, please let us know which treatment you’re interested in or what your main concerns are, and we’ll be happy to help you. 😊🤍",
+                    "ko": "참고하실 수 있도록 전체 프로모션 가격표 링크를 보내드립니다:\nBeauty Blossom 전체 프로모션 가격표 : https://en.beautyblossom.kr/22\n특정 시술을 찾기 어려우시면 관심 있는 시술이나 주요 고민을 알려 주세요. 기꺼이 도와드리겠습니다. 😊🤍"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A15:Q15"
+              },
+              {
+                "id": "W-20261126-T011",
+                "recordIds": [
+                  "W-20261126-T011"
+                ],
+                "kind": "consult",
+                "country": null,
+                "procedure": "턱 필러, 보톡스",
+                "category": "시술 후 경과 문의(턱 모양 불균형)",
+                "verdict": "normal",
+                "reason": "가이드 06은 필러 후 2주가 지나 붓기가 빠진 뒤 몰딩 필요 여부를 확인하고 경과 진료 예약을 돕도록 안내하며, 담당자도 필러 몰딩 조정과 재방문 진료를 안내했다. 가이드 04도 늦게 나타난 멍울은 의료진 평가가 필요하다고 안내한다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: Wendy Zhao · 방문 구분: 재진 (근거: \"We would recommend revisiting our clinic for a follow-up examination\")"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hi Beauty Blossom clinic, \nI carefully reviewed the progress with the chin filler and botox after the procedure 2 weeks ago. I followed the aftercare instructions and was careful to not touch or put any pressure on these areas, including sleeping at night without touching it. Now that all the swelling has gone away, I unfortunately noticed some problems:",
+                    "ko": "안녕하세요 뷰티블라썸 클리닉, \n2주 전 시술받은 턱 필러와 보톡스의 경과를 꼼꼼히 살펴봤습니다. 저는 시술 후 주의사항을 따랐고, 밤에 잘 때 만지지 않는 것을 포함해 이 부위들을 만지거나 누르지 않도록 조심했습니다. 이제 붓기가 모두 빠졌는데, 안타깝게도 몇 가지 문제를 발견했습니다:"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "The chin shaping and filler is imbalanced. You can clearly see that the right side is curving in and missing volume that the left side has. It looks like a dent on my right side of the chin.",
+                    "ko": "턱 모양과 필러가 균형이 맞지 않습니다. 오른쪽이 안으로 휘어 들어가 있고 왼쪽에는 있는 볼륨이 부족한 것이 분명하게 보입니다. 제 턱 오른쪽이 움푹 파인 것처럼 보입니다."
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "[image] 첨부 미리보기 미지원",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "[image] 첨부 미리보기 미지원",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "[image] 첨부 미리보기 미지원",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "This is getting worse as the swelling disappeared so the \"full effect\" is now showing the obvious lumpiness and imbalanced look, which is actually worse than before the filler and botox 😢",
+                    "ko": "붓기가 사라지면서 \"완전한 효과\"가 드러나 눈에 띄는 울퉁불퉁함과 불균형한 모양이 보이기 때문에 점점 나빠지고 있고, 실제로는 필러와 보톡스를 맞기 전보다 더 안 좋습니다 😢"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "What can be done to fix this problem?",
+                    "ko": "이 문제를 바로잡으려면 어떻게 할 수 있나요?"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "[image] 첨부 미리보기 미지원",
+                    "lang": "ko"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hello! Thank you for your patience while we checked with our doctors.\n\nAfter comparing your current photos with those taken immediately after the procedure, our doctors believe that the changes in your chin shape may be related to muscle movement or external pressure following the treatment. As your chin muscle (mentalis muscle) is relatively strong, our doctors believe that an additional Botox touch-up and possible adjustment of the chin filler through molding may help improve the current appearance. We would recommend revisiting our clinic for a follow-up examination so our doctors can assess your condition in person and determine the appropriate corrective treatment.\n\nMay we kindly check if you are available to visit our clinic again?",
+                    "ko": "안녕하세요! 의사 선생님들께 확인하는 동안 기다려 주셔서 감사합니다.\n\n현재 사진과 시술 직후에 찍은 사진을 비교한 결과, 저희 의사 선생님들은 턱 모양의 변화가 시술 후의 근육 움직임이나 외부 압력과 관련이 있을 수 있다고 보고 있습니다. 턱 근육(턱끝근)이 비교적 강한 편이어서, 보톡스를 추가로 보강하고 몰딩을 통해 턱 필러를 조정하면 현재 모습을 개선하는 데 도움이 될 수 있다고 의사 선생님들은 판단합니다. 의사 선생님들이 직접 상태를 살펴보고 적절한 교정 시술을 결정할 수 있도록 병원을 다시 방문해 후속 진료를 받으시기를 권해 드립니다.\n\n병원에 다시 방문하실 수 있는지 여쭤봐도 될까요?"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A16:Q16"
+              },
+              {
+                "id": "W-20261126-T012",
+                "recordIds": [
+                  "W-20261126-T012"
+                ],
+                "kind": "ops",
+                "country": null,
+                "procedure": "울쎄라 프라임",
+                "category": "예약 확정",
+                "verdict": "followup",
+                "reason": "예약 확정 양식에 가이드 08 번체 양식(178행)과 같은 시술 없이 상담만 받을 때의 10,000원 안내와 지도 링크가 있고 시간도 희망한 10~11시 안에 있다. 다만 고객이 4명으로 예약을 요청했는데 확정 양식에는 3명으로 적혔고 인원이 바뀐 이유를 알리지 않았다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: Wu · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "想預約6/12上午 4位🙏🏻",
+                    "ko": "6/12 오전으로 4분 예약하고 싶어요🙏🏻"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hello There🌸\nThis is Beauty Blossom Clinic , the beginning of your own Beauty. \n\nFor a quick consultation and reservation confirmation, please fill out the form below:\n\n1. Full name: Wu Wing Yee Emily\n2. Date of birth: [생년월일 가림]\n3. Nationality & Preferred language: Hong Kong/ Cantonese \n4. Preferred date & time: 6/12/2026 10~11am\n5. Desired treatment: ultherapy prime\n6. How you found us: threads \n(Ex: Instagram, referral, etc)",
+                    "ko": "안녕하세요🌸\n뷰티블라썸 클리닉입니다. 당신만의 아름다움의 시작입니다. \n\n빠른 상담과 예약 확인을 위해 아래 양식을 작성해 주세요:\n\n1. 성함: Wu Wing Yee Emily\n2. 생년월일: [생년월일 가림]\n3. 국적 및 선호 언어: Hong Kong/ Cantonese \n4. 희망 날짜 및 시간: 6/12/2026 10~11am\n5. 희망 시술: ultherapy prime\n6. 알게 된 경로: threads \n(예: 인스타그램, 소개 등)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hello! 可以提供埋同行者姓名同出生日期嗎～？",
+                    "ko": "안녕하세요! 동행하시는 분들의 성함과 생년월일도 알려 주실 수 있을까요～?"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hello～😊🌸 已經成功幫您安排好預約！\n\n📅 預約日期： 2026年12月6日（星期日）\n⏰ 預約時間： 上午11:00\n👤 人數：3位\n\n＊如當日只進行諮詢而不接受任何療程，將收取 ₩10,000 諮詢費；如當日進行療程，則可扣除該費用\n\n📍 診所地址：\n首爾麻浦區楊花路66號，6樓\n66 Yanghwa-ro, Mapo-gu, Seoul, 6F\n\n📍 地圖連結：\n* Naver Map：https://naver.me/x7nICmp3\n* Google Map：https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 到診時記得帶埋護照～\n\n期待到時見到您！🥰🌸\n\nBeauty Blossom Global Clinic Team 🤍",
+                    "ko": "안녕하세요～😊🌸 예약을 성공적으로 잡아 드렸습니다!\n\n📅 예약 날짜: 2026년 12월 6일(일요일)\n⏰ 예약 시간: 오전 11:00\n👤 인원: 3명\n\n＊당일 상담만 받고 시술을 받지 않으시면 상담료 ₩10,000이 부과되며, 당일 시술을 받으시면 이 금액은 차감됩니다\n\n📍 병원 주소:\n서울 마포구 양화로 66, 6층\n66 Yanghwa-ro, Mapo-gu, Seoul, 6F\n\n📍 지도 링크:\n* Naver Map: https://naver.me/x7nICmp3\n* Google Map: https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 내원하실 때 여권을 꼭 지참해 주세요～\n\n그때 뵙기를 기대하겠습니다!🥰🌸\n\nBeauty Blossom Global Clinic Team 🤍"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A17:Q17"
+              },
+              {
+                "id": "W-20261126-T013",
+                "recordIds": [
+                  "W-20261126-T013"
+                ],
+                "kind": "ops",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "예약 확정",
+                "verdict": "normal-ops",
+                "reason": "예약 확정 양식에 가이드 08 확정 양식과 같은 상담료 10,000원 안내, 병원 주소와 지도 링크, 여권 지참 문구가 들어 있다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: 확인되지 않음 · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "note": "직접 작성한 질문 없음 (병원이 먼저 보낸 안내)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hello～😊🌸 已經成功幫您安排好預約！\n\n📅 預約日期： 2026年12月4日（星期五）\n⏰ 預約時間： 上午11:00\n👤 人數：2位\n\n＊如當日只進行諮詢而不接受任何療程，將收取 ₩10,000 諮詢費；如當日進行療程，則可扣除該費用\n\n📍 診所地址：\n首爾麻浦區楊花路66號，6樓\n66 Yanghwa-ro, Mapo-gu, Seoul, 6F\n\n📍 地圖連結：\n* Naver Map：https://naver.me/x7nICmp3\n* Google Map：https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 到診時記得帶埋護照～\n\n期待到時見到您！🥰🌸\n\nBeauty Blossom Global Clinic Team 🤍",
+                    "ko": "안녕하세요～😊🌸 예약을 성공적으로 잡아 드렸습니다!\n\n📅 예약 날짜： 2026년 12월 4일(금요일)\n⏰ 예약 시간: 오전 11:00\n👤 인원：2명\n\n＊당일 상담만 받고 시술을 받지 않으시면 상담료 ₩10,000이 부과되며, 당일 시술을 받으시면 이 금액은 차감됩니다\n\n📍 병원 주소:\n서울 마포구 양화로 66, 6층\n66 Yanghwa-ro, Mapo-gu, Seoul, 6F\n\n📍 지도 링크:\n* Naver Map: https://naver.me/x7nICmp3\n* Google Map: https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 내원하실 때 여권을 꼭 지참해 주세요～\n\n그때 뵙기를 기대하겠습니다!🥰🌸\n\nBeauty Blossom Global Clinic Team 🤍"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A18:Q18"
+              },
+              {
+                "id": "W-20261126-T014",
+                "recordIds": [
+                  "W-20261126-T014"
+                ],
+                "kind": "ops",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "상담 경로 안내",
+                "verdict": "normal-ops",
+                "reason": "고객이 남긴 연락처에 직원이 먼저 전체 프로모션 가격표 링크와 시술 상담 안내를 보냈다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: 확인되지 않음 · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "note": "직접 작성한 질문 없음 (병원이 먼저 보낸 안내)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hello! 🌸 This is Beauty Blossom Clinic. Thank you for your interest in our clinic and for leaving your contact details with us!\n\nHere is the link to our full promotional price list for your reference:\n\nBeauty Blossom Full Promotional Price List:\nhttps://en.beautyblossom.kr/22\n\nIf you have difficulty finding a specific treatment, please feel free to let us know which treatments you're interested in or what your main skin concerns are.\nWe'll be happy to assist you and recommend suitable treatment options based on your needs. \n\nWe look forward to hearing from you!",
+                    "ko": "안녕하세요! 🌸 뷰티블라썸 클리닉입니다. 저희 병원에 관심을 가져 주시고 연락처를 남겨 주셔서 감사합니다!\n\n참고하실 수 있도록 전체 프로모션 가격표 링크를 보내드립니다:\n\nBeauty Blossom 전체 프로모션 가격표:\nhttps://en.beautyblossom.kr/22\n\n특정 시술을 찾기 어려우시면 관심 있는 시술이나 주요 피부 고민을 편하게 알려 주세요.\n고객님의 필요에 맞는 시술을 기꺼이 안내하고 추천해 드리겠습니다. \n\n연락을 기다리겠습니다!"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A19:Q19"
+              },
+              {
+                "id": "W-20261126-T015",
+                "recordIds": [
+                  "W-20261126-T015"
+                ],
+                "kind": "consult",
+                "country": null,
+                "procedure": "덴서티",
+                "category": "가격 문의",
+                "verdict": "image",
+                "reason": "고객의 덴서티 가격 문의에 담당자가 프로모션 가격표 이미지와 안내 문장으로 답했다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: Daisy H · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hello, I like to know more about price of Density for 600 faces and also treatment for eyes. Thanks",
+                    "ko": "안녕하세요, 600 faces 덴서티 가격과 눈 관련 시술에 대해 더 알고 싶어요. 감사합니다"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "[image] 첨부 미리보기 미지원",
+                    "lang": "ko",
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "您好😊🌸 呢個優惠價目表✨",
+                    "ko": "안녕하세요😊🌸 이게 프로모션 가격표예요✨"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A20:Q20"
+              },
+              {
+                "id": "W-20261126-T015-2",
+                "recordIds": [
+                  "W-20261126-T015-2"
+                ],
+                "kind": "consult",
+                "country": null,
+                "procedure": "눈가 리프팅(XERF Eye·Ultherapy Eye·리쥬란 아이)",
+                "category": "시술 추천",
+                "verdict": "normal",
+                "reason": "가이드 02는 세르프를 고주파로 콜라겐을 재생해 탄력을 높이는 시술, 울쎄라를 집속 초음파를 근막층(SMAS) 등 깊은 층에 전달하는 리프팅, 리쥬란을 PN 성분으로 탄력과 잔주름을 개선하는 스킨부스터로 설명하며, 담당자가 눈가 처짐과 탄력에 권한 세 시술의 작용 원리 설명과 같다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: Daisy H · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "改善鬆池和提升緊緻",
+                    "ko": "처짐 개선과 탄력 향상이요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "請問眼周方面，您主要係想改善鬆弛、提升緊緻度，定係想改善眼底細紋、眼袋或者淚溝？\n我哋可以根據您嘅需求，推薦眼周療程俾您參考～🤍",
+                    "ko": "눈가 쪽은 주로 처짐을 개선하고 탄력을 높이고 싶으신가요, 아니면 눈 밑 잔주름, 눈밑 주머니, 눈물골을 개선하고 싶으신가요?\n고객님의 필요에 맞춰 참고하실 눈가 시술을 추천해 드릴 수 있어요~🤍"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "如果主要想改善眼周鬆弛同提升緊緻度，我哋會比較推薦以下兩款療程～😊🌸\n• XERF Eye 眼周射頻：透過射頻能量刺激膠原蛋白增生，改善眼周皮膚鬆弛、細紋及彈性\n• Ultherapy Eye 眼周超聲刀：透過聚焦超聲波能量，針對較深層組織進行提升，改善眼周鬆弛及眉眼下垂問題\n兩款療程嘅作用原理同針對層次有所不同，我哋會根據您嘅眼周狀況建議較適合您嘅療程～🤍",
+                    "ko": "눈가 처짐을 개선하고 탄력을 높이고 싶으시다면 아래 두 가지 시술을 더 추천드려요~😊🌸\n• XERF Eye 눈가 고주파: 고주파 에너지로 콜라겐 생성을 촉진해 눈가 피부 처짐, 잔주름, 탄력을 개선합니다\n• Ultherapy Eye 눈가 울쎄라: 집속 초음파 에너지로 더 깊은 층의 조직을 끌어올려 눈가 처짐과 눈썹·눈 처짐 문제를 개선합니다\n두 시술은 작용 원리와 작용하는 층이 다르며, 고객님의 눈가 상태에 맞는 시술을 안내해 드릴게요~🤍"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "[image] 첨부 미리보기 미지원",
+                    "lang": "ko",
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "[image] 첨부 미리보기 미지원",
+                    "lang": "ko",
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "另外，亦可以考慮 眼部麗珠蘭（Rejuran I），主要幫助修復眼周肌膚、改善乾燥細紋及提升皮膚彈性\n如果想同時改善眼周鬆弛同膚質，可以考慮將眼周提升療程搭配眼部麗珠蘭，從不同層面改善眼周問題，達到更全面嘅護理效果",
+                    "ko": "그 밖에 눈가 리쥬란(Rejuran I)도 고려해 보실 수 있습니다. 주로 눈가 피부 회복, 건조로 인한 잔주름 개선, 피부 탄력 향상에 도움이 됩니다\n눈가 처짐과 피부결을 함께 개선하고 싶으시다면 눈가 리프팅 시술에 눈가 리쥬란을 함께 받는 것도 고려해 보실 수 있으며, 여러 층에서 눈가 문제를 개선해 더 전반적인 관리 효과를 얻으실 수 있습니다"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "[image] 첨부 미리보기 미지원",
+                    "lang": "ko",
+                    "image": true
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A21:Q21"
+              },
+              {
+                "id": "W-20261126-T015-3",
+                "recordIds": [
+                  "W-20261126-T015-3"
+                ],
+                "kind": "consult",
+                "country": null,
+                "procedure": "눈가 시술",
+                "category": "시술 과정 문의",
+                "verdict": "normal",
+                "reason": "가이드 07은 아이세르프·아이울쎄라 등 눈 시술을 렌즈 제거가 필요한 시술로, 가이드 15는 아이써마지 준비에 아이쉴드와 점안액을 둔다고 안내하며, 눈가 시술에 안구 보호편을 쓴다는 담당자의 설명과 같다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: Daisy H · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "請問做眼療程是否需要帶類似隱形眼鏡在眼內保護眼睛？",
+                    "ko": "눈 시술을 받을 때 눈을 보호하기 위해 콘택트렌즈 같은 것을 눈 안에 착용해야 하나요?"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "我想做非入侵性的療程",
+                    "ko": "비침습적인 시술을 받고 싶어요"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "我本身未帶過隱形眼鏡，都想了解清楚過程才決定做眼的療程",
+                    "ko": "저는 콘택트렌즈를 써 본 적이 없어서, 과정을 확실히 알고 난 뒤에 눈 시술을 할지 결정하고 싶어요"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "好的",
+                    "ko": "네"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "如果療程涉及上眼皮位置，係會使用專用嘅眼球保護片，主要係喺療程期間保護眼球。醫生會根據療程種類及施打位置，判斷是否需要使用",
+                    "ko": "시술이 윗눈꺼풀 부위를 포함하는 경우에는 전용 안구 보호편을 사용하며, 주로 시술 중 안구를 보호하기 위한 것입니다. 의사가 시술 종류와 시술 부위에 따라 사용 여부를 판단합니다"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "可以的！到時諮詢期間，我哋可以詳細講解眼周療程嘅過程，以及眼球保護片嘅使用方法。了解清楚之後，再決定是否進行療程",
+                    "ko": "그럼요! 상담하실 때 눈가 시술 과정과 안구 보호편 사용 방법을 자세히 설명해 드릴 수 있어요. 충분히 이해하신 뒤에 시술 여부를 결정하시면 됩니다"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A22:Q22"
+              },
+              {
+                "id": "W-20261126-T015-4",
+                "recordIds": [
+                  "W-20261126-T015-4"
+                ],
+                "kind": "consult",
+                "country": null,
+                "procedure": "덴서티",
+                "category": "마취 문의",
+                "verdict": "followup",
+                "reason": "가이드 01은 덴서티의 마취·팁·샷 수·범위를 진료 후 정한다고 안내하는데 담당자는 마취크림을 바른다고만 답하고 마취가 진료 후 정해진다는 조건은 알리지 않았다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: Daisy H · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "請問Density 皮膚麻醉嗎？",
+                    "ko": "Density는 피부 마취를 하나요?"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Ok",
+                    "ko": "네, 알겠어요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Density 會敷麻醉膏～",
+                    "ko": "Density는 마취크림을 바릅니다~"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A23:Q23"
+              },
+              {
+                "id": "W-20261126-T015-5",
+                "recordIds": [
+                  "W-20261126-T015-5"
+                ],
+                "kind": "ops",
+                "country": null,
+                "procedure": "덴서티·눈가 시술",
+                "category": "예약 확정",
+                "verdict": "normal-ops",
+                "reason": "예약 확정 양식에 가이드 08 번체 양식(178행)과 같은 상담료 10,000원 안내와 병원 주소·지도 링크가 있고, 고객이 요청한 1월 8일 오전 10:30과 확정 일시가 같다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: Daisy H · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "1.  Full name: Daisy\n2.  Date of birth: \n3.  Nationality & Preferred language: Hong Kong, Cantonese \n4.  Preferred date & time: Jan 8, 2027\n5.  Desired treatment: Density\n6.  How you found us: from friend and IG\n(Ex: Instagram, referral, etc)",
+                    "ko": "1.  성함: Daisy\n2.  생년월일: \n3.  국적 및 선호 언어: 홍콩, 광둥어 \n4.  희망 날짜 및 시간: 2027년 1월 8일\n5.  희망 시술: 덴서티\n6.  알게 된 경로: 친구 소개와 인스타그램\n(예: 인스타그램, 소개 등)"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "可以先約時間",
+                    "ko": "먼저 시간을 예약해도 될까요"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "你們有廣東話服務？",
+                    "ko": "광둥어 서비스가 있나요?"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "地址在弘大區？",
+                    "ko": "주소가 홍대 쪽인가요?"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "想約1月8日，10:30am",
+                    "ko": "1월 8일 오전 10:30으로 예약하고 싶어요"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "1.  Full name: Hung Kar Man\n2.  Date of birth: [생년월일 가림]\n3.  Nationality & Preferred language: Hong Kong, Cantonese \n4.  Preferred date & time: Jan 8, 2027, 10:30am\n5.  Desired treatment: Density, 眼周療程\n6.  How you found us: from friend and IG\n(Ex: Instagram, referral, etc)",
+                    "ko": "1.  성함: Hung Kar Man\n2.  생년월일: [생년월일 가림]\n3.  국적 및 선호 언어: 홍콩, 광둥어 \n4.  희망 날짜 및 시간: 2027년 1월 8일, 오전 10:30\n5.  희망 시술: Density, 눈가 시술\n6.  알게 된 경로: 친구 소개와 인스타그램\n(예: 인스타그램, 소개 등)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "有的!",
+                    "ko": "있어요!"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "1月8號，10點到6點都有位置！",
+                    "ko": "1월 8일은 10시부터 6시까지 자리가 있어요!"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "請問想預約邊段時間？",
+                    "ko": "어느 시간대로 예약하고 싶으신가요?"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "係啊！",
+                    "ko": "네, 맞아요!"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "📍 診所地址：\n首爾麻浦區楊花路66號，6樓\n66 Yanghwa-ro, Mapo-gu, Seoul, 6F\n\n📍 地圖連結：\n* Naver Map：https://naver.me/x7nICmp3\n* Google Map：https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8",
+                    "ko": "📍 병원 주소:\n서울 마포구 양화로 66, 6층\n66 Yanghwa-ro, Mapo-gu, Seoul, 6F\n\n📍 지도 링크:\n* Naver Map: https://naver.me/x7nICmp3\n* Google Map: https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "呢到係地址，你可以睇睇先",
+                    "ko": "여기가 주소예요, 먼저 보셔도 좋아요"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "我哋近弘大合井個邊！",
+                    "ko": "저희는 홍대·합정 쪽에서 가까워요!"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "為咗方便我哋幫您確認預約，麻煩您填寫以下資料～🤍\n\n姓名（與護照相同）：\n出生日期：\n國籍及慣用語言：香港，廣東話\n希望預約日期及時間： 1月8日 ;10:30 \n想做嘅療程： Density，眼周療程\n從邊個渠道認識我哋：\n（例如 Instagram、Threads、朋友介紹等）\n\n收到資料後，我哋會盡快幫您確認預約～🫶🏻",
+                    "ko": "예약 확인을 도와드리기 위해 아래 정보를 작성해 주세요~🤍\n\n성함(여권과 동일):\n생년월일:\n국적 및 사용 언어: 홍콩, 광둥어\n희망 예약 날짜 및 시간: 1월 8일 ;10:30 \n희망 시술: Density, 눈가 시술\n알게 된 경로:\n(예: Instagram, Threads, 지인 소개 등)\n\n정보를 받으면 최대한 빨리 예약을 확인해 드리겠습니다~🫶🏻"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hello～😊🌸 已經成功幫您安排好預約！\n\n📅 預約日期： 2027年1月8日（星期五）\n⏰ 預約時間： 上午10:30\n👤 人數：1位\n\n＊如當日只進行諮詢而不接受任何療程，將收取 ₩10,000 諮詢費；如當日進行療程，則可扣除該費用\n\n📍 診所地址：\n首爾麻浦區楊花路66號，6樓\n66 Yanghwa-ro, Mapo-gu, Seoul, 6F\n\n📍 地圖連結：\n* Naver Map：https://naver.me/x7nICmp3\n* Google Map：https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 到診時記得帶埋護照～\n\n期待到時見到您！🥰🌸\n\nBeauty Blossom Global Clinic Team 🤍",
+                    "ko": "안녕하세요～😊🌸 예약을 성공적으로 잡아 드렸습니다!\n\n📅 예약 날짜: 2027년 1월 8일(금요일)\n⏰ 예약 시간: 오전 10:30\n👤 인원: 1명\n\n＊당일 상담만 받고 시술을 받지 않으시면 상담료 ₩10,000이 부과되며, 당일 시술을 받으시면 이 금액은 차감됩니다\n\n📍 병원 주소:\n서울 마포구 양화로 66, 6층\n66 Yanghwa-ro, Mapo-gu, Seoul, 6F\n\n📍 지도 링크:\n* Naver Map: https://naver.me/x7nICmp3\n* Google Map: https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 내원하실 때 여권을 꼭 지참해 주세요～\n\n그때 뵙기를 기대하겠습니다!🥰🌸\n\nBeauty Blossom Global Clinic Team 🤍"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "如果有其他問題都可以隨時問😊🤍」",
+                    "ko": "다른 질문이 있으시면 언제든지 물어보세요😊🤍」"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A24:Q24"
+              },
+              {
+                "id": "W-20261126-T015-6",
+                "recordIds": [
+                  "W-20261126-T015-6"
+                ],
+                "kind": "consult",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "세금 환급 문의",
+                "verdict": "normal",
+                "reason": "공식 법령 자료(조세특례제한법 제107조의3)는 외국인관광객 의료용역 부가세 환급 대상을 2025년 12월 31일까지 공급받은 것으로 정하고 있어, 2026년 1월 1일부터 환급이 되지 않는다는 담당자의 안내와 같다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: Daisy H · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Thank you 🙏🏽",
+                    "ko": "감사합니다 🙏🏽"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "請問依家仲有冇退稅？",
+                    "ko": "지금도 세금 환급이 되나요?"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "韓國政府已經由2026年1月1日起取消外國旅客醫美療程嘅退稅優惠，所以目前醫美療程已經唔可以辦理 Tax Refund（退稅）🙏🏻",
+                    "ko": "한국 정부가 2026년 1월 1일부터 외국인 관광객의 의료 미용 시술에 대한 세금 환급 혜택을 폐지했기 때문에, 현재 의료 미용 시술은 Tax Refund(세금 환급)를 받으실 수 없습니다🙏🏻"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A25:Q25"
+              },
+              {
+                "id": "W-20261126-T016",
+                "recordIds": [
+                  "W-20261126-T016"
+                ],
+                "kind": "consult",
+                "country": null,
+                "procedure": "레이저 제모(겨드랑이·브라질리언·반다리)",
+                "category": "가격 문의",
+                "verdict": "normal",
+                "reason": "담당자가 안내한 겨드랑이 19,900원, 브라질리언 165,000원, 반다리 71,500원(종아리 또는 허벅지 금액)은 수가표 17의 여성 제모 1회 VAT 후 금액과 같다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: Amalie · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hi. What is the price for laser hair removal under arms, Brazil and half legs?",
+                    "ko": "안녕하세요. 겨드랑이, 브라질리언, 반다리 레이저 제모 가격이 얼마인가요?"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hello! Please find the prices for a single session of laser hair removal below. 😊\n1. Under arms: 19,900KRW\n2. Brazilian: 165,000KRW\n3. Half legs: 71,500KRW",
+                    "ko": "안녕하세요! 레이저 제모 1회 가격은 아래와 같습니다. 😊\n1. 겨드랑이: 19,900KRW\n2. 브라질리언: 165,000KRW\n3. 반다리: 71,500KRW"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A26:Q26"
+              },
+              {
+                "id": "W-20261126-T017",
+                "recordIds": [
+                  "W-20261126-T017"
+                ],
+                "kind": "consult",
+                "country": null,
+                "procedure": "레이저 제모",
+                "category": "가격 문의",
+                "verdict": "normal",
+                "reason": "담당자가 안내한 겨드랑이 19,900원, 브라질리언 165,000원, 반다리(종아리) 71,500원은 수가표 17의 여성 제모 1회 VAT 후 금액과 같다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: Michelle · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "note": "직접 작성한 질문 없음 (병원이 먼저 보낸 안내)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hello!  Thank you for reaching out!\nHere are our laser hair removal prices:\n• Underarms: ₩19,900\n• Brazilian: ₩165,000\n• Half legs (lower legs): ₩71,500\nPlease let us know if you'd like to make a reservation or have any further questions!",
+                    "ko": "안녕하세요!  연락해 주셔서 감사합니다!\n저희 레이저 제모 가격은 다음과 같습니다:\n• 겨드랑이: ₩19,900\n• 브라질리언: ₩165,000\n• 반다리(종아리): ₩71,500\n예약을 원하시거나 다른 궁금한 점이 있으시면 말씀해 주세요!"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A27:Q27"
+              },
+              {
+                "id": "W-20261126-T017-2",
+                "recordIds": [
+                  "W-20261126-T017-2"
+                ],
+                "kind": "consult",
+                "country": null,
+                "procedure": "아쿠아필",
+                "category": "시술 후 안내문",
+                "verdict": "normal",
+                "reason": "시술 후 안내문이 가이드 09의 Peeling 시술 후 주의사항(영문)과 여섯 항목, 효과 시기 문구까지 같다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: Michelle · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "note": "직접 작성한 질문 없음 (병원이 먼저 보낸 안내)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "\"Thank you for visiting Beauty Blossom Clinic today! 😊\n\n📅 Visit Date: 2026/11/26\n👤 Name: Michelle Perez\n\nBelow are the treatments you received today:\n\n1. Aquapeel\n\nPlease follow the aftercare instructions for each treatment listed below.\n\n🍃 Peeling – Aftercare Instructions 🍃\n\n• Mild redness, warmth, stinging, itching, or dryness may occur after treatment. These symptoms usually gradually improve within a few hours to 1 day.\n• You may gently wash your face, shower, and apply makeup from the day of treatment. For the time being, avoid alcohol-based products, acidic skincare products, retinol, brightening products, and other irritating skincare products.\n• Mild flaking, small scabs, or acne may occur after treatment. Do not pick, peel, or touch the affected areas unnecessarily. Allow them to improve naturally.\n• For the time being, avoid saunas, steam rooms, strenuous exercise, alcohol, and smoking. 🍷\n• Keep your skin well moisturized and apply sunscreen regularly. Minimize sun exposure and avoid excessive rubbing of the skin. ☀️\n• If redness, swelling, warmth, pain, itching, or other noticeable discomfort persists or continues to worsen, please contact the clinic. 📞\n\n⏳ When Will I See the Results?\n\n• Improvements in skin texture, sebum production, and overall skin condition may gradually become noticeable over several days to several weeks after treatment.\n\nIf you experience any discomfort or have any questions, please feel free to contact us anytime. Thank you! 💗\"",
+                    "ko": "\"오늘 뷰티블라썸 클리닉을 방문해 주셔서 감사합니다! 😊\n\n📅 방문일: 2026/11/26\n👤 이름: Michelle Perez\n\n오늘 받으신 시술은 아래와 같습니다:\n\n1. 아쿠아필\n\n아래에 나열된 각 시술의 시술 후 주의사항을 따라 주세요.\n\n🍃 필링 – 시술 후 주의사항 🍃\n\n• 시술 후 가벼운 붉어짐, 열감, 따끔거림, 가려움 또는 건조함이 나타날 수 있습니다. 이러한 증상은 보통 몇 시간에서 1일 안에 점차 호전됩니다.\n• 시술 당일부터 가볍게 세안과 샤워, 화장을 하셔도 됩니다. 당분간은 알코올 성분 제품, 산성 스킨케어 제품, 레티놀, 미백 제품과 그 밖의 자극적인 스킨케어 제품은 피해 주세요.\n• 시술 후 가벼운 각질, 작은 딱지 또는 여드름이 나타날 수 있습니다. 해당 부위를 불필요하게 뜯거나 벗기거나 만지지 마시고 자연스럽게 호전되도록 두세요.\n• 당분간 사우나, 찜질방, 격렬한 운동, 음주, 흡연은 피해 주세요. 🍷\n• 피부를 충분히 보습하고 자외선 차단제를 꾸준히 바르세요. 햇빛 노출을 줄이고 피부를 지나치게 문지르지 마세요. ☀️\n• 붉어짐, 부기, 열감, 통증, 가려움 또는 그 밖의 뚜렷한 불편감이 계속되거나 점점 심해지면 병원에 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n\n• 피부결, 피지 분비, 전반적인 피부 상태의 개선은 시술 후 며칠에서 몇 주에 걸쳐 서서히 느껴질 수 있습니다.\n\n불편한 점이 있거나 궁금한 점이 있으시면 언제든지 편하게 연락 주세요. 감사합니다! 💗\""
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A28:Q28"
+              },
+              {
+                "id": "W-20261126-T018",
+                "recordIds": [
+                  "W-20261126-T018"
+                ],
+                "kind": "consult",
+                "country": null,
+                "procedure": "바디 온다",
+                "category": "가격 문의",
+                "verdict": "normal",
+                "reason": "직원이 안내한 바디 온다 100·200·300·500·1,000kJ 금액(630,000·1,170,000·1,590,000·2,490,000·4,590,000원, VAT 별도)은 수가표 17 리프팅 시트의 바디 온다 VAT 전 금액과 같다. 필요한 에너지는 상담에서 지방량을 보고 정한다는 설명도 가이드 02(2745행)와 같다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: Kaysey · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hi I like to check the price for onda for abdomen and inner tights",
+                    "ko": "안녕하세요, 복부와 허벅지 안쪽(inner tights) 온다 가격을 확인하고 싶어요"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hi I like to check the price for onda for abdomen and inner tights",
+                    "ko": "안녕하세요, 복부와 허벅지 안쪽(inner tights) 온다 가격을 확인하고 싶어요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hi! Thank you for reaching out to Beauty Blossom Clinic 😊\n\nFor ONDA treatment on the abdomen and inner thighs, the recommended amount of energy (kJ) depends on the amount of fat in each area. We’ll confirm the recommended energy and total cost during your consultation.\n\nIn the meantime, here are our promotional Body ONDA prices for your reference 🌸\n- 100 kJ — ₩630,000\n- 200 kJ — ₩1,170,000\n- 300 kJ — ₩1,590,000\n- 500 kJ — ₩2,490,000\n- 1,000 kJ — ₩4,590,000\nPrices exclude 10% VAT. \nPlease refer to it 🙂",
+                    "ko": "안녕하세요! 뷰티블라썸의원에 문의해 주셔서 감사합니다 😊\n\n복부와 허벅지 안쪽 온다 시술은 부위별 지방량에 따라 권장 에너지(kJ)가 달라집니다. 권장 에너지와 총 비용은 상담 때 안내해 드리겠습니다.\n\n우선 참고하실 수 있도록 프로모션 바디 온다 가격을 안내드립니다 🌸\n- 100 kJ — ₩630,000\n- 200 kJ — ₩1,170,000\n- 300 kJ — ₩1,590,000\n- 500 kJ — ₩2,490,000\n- 1,000 kJ — ₩4,590,000\n가격에는 부가세 10%가 포함되어 있지 않습니다. \n참고해 주세요 🙂"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "[image] 첨부 미리보기 미지원",
+                    "lang": "ko",
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "https://en.beautyblossom.kr/22/?q=YToyOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjtzOjQ6InBhZ2UiO2k6Mjt9&bmode=view&idx=173345793&t=board",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "If you have any questions, please feel free to reach out anytime. We’re happy to help! 😊",
+                    "ko": "궁금하신 점이 있으시면 언제든지 편하게 문의해 주세요. 기꺼이 도와드리겠습니다! 😊"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A29:Q29"
+              },
+              {
+                "id": "W-20261126-T019",
+                "recordIds": [
+                  "W-20261126-T019"
+                ],
+                "kind": "consult",
+                "country": null,
+                "procedure": "주름 보톡스(제오민, 이마)",
+                "category": "시술 후 안내문",
+                "verdict": "normal",
+                "reason": "가이드 09의 주름 보톡스 시술 후 안내문(459~467행)과 직원이 보낸 안내문은 불릿 5개와 효과 시기 항목 2개가 같다. 오늘 받은 시술이 이마 주름 보톡스(제오민)라 해당 섹션이 맞다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: Zachery Adams · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "note": "직접 작성한 질문 없음 (병원이 먼저 보낸 안내)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Thank you for visiting Beauty Blossom Clinic today! 😊\n\n📅 Visit Date: 2026/11/26\n👤 Name:  Zachery Adams\n\nBelow are the treatments you received today:\n\n1. Wrinkle botox(Xeomin)/forehead\n\nPlease follow the aftercare instructions for each treatment listed below.\n\n😊 Wrinkle Botox (Crow’s Feet / Under-Eyes / Forehead / Glabella / Nose / Chin, etc.) – Aftercare Instructions 😊\n\n• Mild redness, swelling, tenderness, or bruising may occur at the injection sites. These symptoms usually gradually improve within a few days to 1–2 weeks.\n• You may gently wash your face and shower 4 hours after the treatment. You may apply makeup as usual from the following day.\n• For 2 weeks after treatment, avoid alcohol, smoking, saunas, steam rooms, strenuous exercise, and at-home beauty devices. 🍷\n• For 2 weeks after treatment, avoid rubbing or applying strong pressure to the treated areas. Please also avoid facial massage and gua sha.\n• In rare cases, temporary heaviness around the eyebrows, asymmetry of the eyebrows or eyes, or drooping of the eyelids or eyebrows may occur. If these symptoms are severe or continue to worsen, please contact the clinic. 📞\n\n⏳ When Will I See the Results?\n• The effects generally become more noticeable and stabilize within approximately 1–2 weeks after treatment.\n• Results generally last for approximately 3 months.\n\nIf you experience any discomfort or have any questions, please feel free to contact us anytime. Thank you! 💗",
+                    "ko": "오늘 뷰티블라썸의원에 방문해 주셔서 감사합니다! 😊\n\n📅 방문일: 2026/11/26\n👤 이름:  Zachery Adams\n\n오늘 받으신 시술은 아래와 같습니다:\n\n1. 주름 보톡스(제오민)/이마\n\n아래에 나열된 각 시술의 시술 후 주의사항을 따라 주세요.\n\n😊 주름 보톡스(눈가 / 눈밑 / 이마 / 미간 / 콧등 / 턱 등) – 시술 후 주의사항 😊\n\n• 주사 부위에 가벼운 붉어짐, 부기, 압통 또는 멍이 생길 수 있으며, 대부분 수일에서 1~2주 이내에 점차 완화됩니다.\n• 시술 4시간 후부터 가볍게 세안 및 샤워가 가능하며, 다음 날부터 평소처럼 화장하셔도 됩니다.\n• 시술 후 2주 동안은 음주, 흡연, 사우나, 찜질방, 격한 운동 및 집에서 사용하는 미용기기를 피해 주세요. 🍷\n• 시술 후 2주 동안은 시술 부위를 강하게 문지르거나 누르지 마시고, 안면 마사지 및 괄사 사용도 피해 주세요.\n• 드물게 일시적으로 눈썹이 눌리는 듯한 무거움, 눈썹이나 눈매의 비대칭, 눈꺼풀 또는 눈썹 처짐이 나타날 수 있습니다. 증상이 심하거나 계속 악화되면 병원으로 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n• 일반적으로 시술 후 약 1~2주 이내에 효과가 더욱 뚜렷해지고 안정됩니다.\n• 효과는 일반적으로 약 3개월 정도 유지됩니다.\n\n불편한 점이 있거나 궁금한 점이 있으시면 언제든지 연락해 주세요. 감사합니다! 💗"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A30:Q30"
+              },
+              {
+                "id": "W-20261126-T020",
+                "recordIds": [
+                  "W-20261126-T020"
+                ],
+                "kind": "consult",
+                "country": null,
+                "procedure": "레이저 제모(윗입술·턱·다리 전체)",
+                "category": "시술 후 안내문",
+                "verdict": "normal",
+                "reason": "가이드 09의 레이저 제모(Apogee Plus) 시술 후 안내문(8715~8724행)과 직원이 보낸 안내문은 불릿 6개와 효과 시기 항목이 같다. 오늘 받은 시술이 제모 하나여서 해당 섹션만 보낸 것이 맞다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: Ly · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "note": "직접 작성한 질문 없음 (병원이 먼저 보낸 안내)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Thank you for visiting Beauty Blossom Clinic today! 😊\n\n📅 Visit Date: 2026/11/26\n👤 Name:  Ly Hoang teo\n\nBelow are the treatments you received today:\n\n1. Hair removal(upper lips, chin, full legs)\n\nPlease follow the aftercare instructions for each treatment listed below.\n\n✨ Laser Hair Removal (Apogee Plus) – Aftercare Instructions ✨\n\n• Mild redness, swelling, or warmth may occur after treatment. These symptoms usually gradually improve within a few hours to 1–2 days.\n• Keep the treated area well moisturized and protected from sun exposure. Avoid excessive rubbing or irritation of the treated area. ☀️\n• For the time being, avoid saunas, steam rooms, hot springs, and strenuous exercise.\n• In rare cases, temporary folliculitis or small bumps may occur. These symptoms usually gradually improve over time.\n• If you have been provided with a topical ointment, apply it to the treated area as instructed. 🧴\n• If redness, swelling, pain, burning, or symptoms of folliculitis persist or continue to worsen, please contact the clinic. 📞\n\n⏳ When Will I See the Results?\n\n• With repeated treatments, the hair may gradually become finer and less dense, and the rate of hair growth may also slow down.\n\nIf you experience any discomfort or have any questions, please feel free to contact us anytime. Thank you! 💗",
+                    "ko": "오늘 뷰티블라썸의원에 방문해 주셔서 감사합니다! 😊\n\n📅 방문일: 2026/11/26\n👤 이름:  Ly Hoang teo\n\n오늘 받으신 시술은 아래와 같습니다:\n\n1. 제모(윗입술, 턱, 다리 전체)\n\n아래에 나열된 각 시술의 시술 후 주의사항을 따라 주세요.\n\n✨ 레이저 제모(Apogee Plus) – 시술 후 안내문 ✨\n\n• 시술 후 가벼운 붉어짐, 부기 또는 열감이 생길 수 있습니다. 이러한 증상은 보통 몇 시간에서 1–2일 이내에 서서히 호전됩니다.\n• 시술 부위를 충분히 보습하고 햇빛으로부터 보호해 주세요. 시술 부위를 지나치게 문지르거나 자극하지 마세요. ☀️\n• 당분간 사우나, 찜질방, 온천, 격한 운동을 피해 주세요.\n• 드물게 일시적으로 모낭염이나 작은 뾰루지가 생길 수 있습니다. 이러한 증상은 보통 시간이 지나면서 서서히 호전됩니다.\n• 바르는 연고를 받으셨다면 안내받은 대로 시술 부위에 발라 주세요. 🧴\n• 붉어짐, 부기, 통증, 따가움이 계속되거나 모낭염 증상이 계속 악화되면 병원에 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n\n• 시술을 반복하면 털이 점차 가늘어지고 숱이 줄어들며 털이 자라는 속도도 느려질 수 있습니다.\n\n불편한 점이 있거나 궁금한 점이 있으시면 언제든지 연락해 주세요. 감사합니다! 💗"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A31:Q31"
+              },
+              {
+                "id": "W-20261126-T021",
+                "recordIds": [
+                  "W-20261126-T021"
+                ],
+                "kind": "consult",
+                "country": null,
+                "procedure": "리쥬란",
+                "category": "상담 절차·가격 문의",
+                "verdict": "normal",
+                "reason": "상담만 하고 시술을 받지 않으면 상담료 ₩10,000이 부과된다는 안내는 가이드 08(178행)의 예약 확정 양식 문구와 같다. 가이드 06(890행)은 리쥬란을 크림마취 후 진행한다고 안내해 마취가 포함된다는 담당자의 답과 어긋나지 않는다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: Liu Sin Hei · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "你好",
+                    "ko": "안녕하세요"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "請問會不會有諮詢環節？\n如果只打麗珠蘭 價錢如何？",
+                    "ko": "상담 과정이 있나요?\n리쥬란만 맞으면 가격이 어떻게 되나요?"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "請問價錢包含麻醉費用嗎？",
+                    "ko": "가격에 마취 비용이 포함되어 있나요?"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "您好😊🌸\n\n呢個係我哋完整嘅優惠價目表✨\n可以先參考以下連結👇\nhttps://hk.beautyblossom.kr/events \n\n如果有感興趣嘅療程，或者唔清楚邊個療程適合自己，都可以隨時問我哋😊🤍",
+                    "ko": "안녕하세요😊🌸\n\n저희의 전체 프로모션 가격표입니다✨\n먼저 아래 링크를 참고해 주세요👇\nhttps://hk.beautyblossom.kr/events \n\n관심 있는 시술이 있거나 어떤 시술이 본인에게 맞는지 잘 모르시겠다면 언제든지 저희에게 문의해 주세요😊🤍"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "會有的！正式進行療程之前，我哋會安排一對一諮詢，了解您嘅皮膚狀況同需求，您亦可以喺諮詢後再決定做咩療程\n如果當日只進行諮詢而唔做任何療程，會收取₩10,000諮詢費；如當日有進行療程，則可扣除該費用\n如果只想打麗珠蘭亦可以～以下係我哋目前嘅麗珠蘭優惠價目表，您可以先參考一下！",
+                    "ko": "있습니다! 본격적인 시술 전에 일대일 상담을 진행해 고객님의 피부 상태와 요구를 파악하며, 상담 후에 어떤 시술을 받을지 결정하셔도 됩니다\n당일 상담만 하고 시술을 받지 않으시면 상담료 ₩10,000이 부과되며, 당일 시술을 받으시면 해당 비용은 차감해 드립니다\n리쥬란만 맞고 싶으셔도 가능합니다~ 아래는 저희의 현재 리쥬란 프로모션 가격표이니 먼저 참고해 주세요!"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "[image] 첨부 미리보기 미지원",
+                    "lang": "ko",
+                    "image": true
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "是的！",
+                    "ko": "네, 맞습니다!"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A32:Q32"
+              },
+              {
+                "id": "W-20261126-T021-2",
+                "recordIds": [
+                  "W-20261126-T021-2"
+                ],
+                "kind": "consult",
+                "country": null,
+                "procedure": "리쥬란",
+                "category": "가격·주입 방식 문의",
+                "verdict": "normal",
+                "reason": "수가표 10(136행)은 스킨부스터 옵션 더마샤인 추가를 55,000원으로 올려 두었고 가이드 06(890행)은 리쥬란에 더마샤인 기계 사용을 상담한다고 안내해, 기계 주입 추가 금액 5만 5천 원이라는 담당자의 답과 같다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: Liu Sin Hei · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "我打算12月3日進行\n12月價目不變嗎？",
+                    "ko": "12월 3일에 받을 예정이에요\n12월에도 가격은 그대로인가요?"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "我可以選擇手打/機打嗎？",
+                    "ko": "수기 주입/기계 주입을 선택할 수 있나요?"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "要加幾多錢？",
+                    "ko": "얼마를 추가해야 하나요?"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "太好 係廣告話口語😂",
+                    "ko": "너무 좋아요 광고에서 쓰는 구어체 말이네요😂"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "如果而加預約可以幫你保留呢個價錢～",
+                    "ko": "지금 예약하시면 이 가격을 유지해 드릴 수 있어요~"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "可以的！但機打需要另加錢～",
+                    "ko": "가능합니다! 다만 기계 주입은 추가 비용이 듭니다~"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "5萬5韓元",
+                    "ko": "5만 5천 원"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "如果12月3號，暫時10點至6點都可以預約～",
+                    "ko": "12월 3일이라면 현재 10시부터 6시까지 모두 예약 가능해요~"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A33:Q33"
+              },
+              {
+                "id": "W-20261126-T021-3",
+                "recordIds": [
+                  "W-20261126-T021-3"
+                ],
+                "kind": "consult",
+                "country": null,
+                "procedure": "스킨보톡스·보톡스",
+                "category": "시술 차이·가격 문의",
+                "verdict": "normal",
+                "reason": "가이드 02는 주름 보톡스를 표정 근육 이완(553행), 스킨보톡스를 진피 얕은 층에 촘촘하게 주입해 잔주름·모공을 개선하는 시술(1520행)로 안내해 담당자가 구분한 주입 층과 개선 목적이 같다. 부위별 금액 4종은 수가표 10(9~12행)의 주름 보톡스 1부위 국산 32,900원·코어 42,900원·제오민 77,000원·앨러간 99,000원과 같다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: Liu Sin Hei · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "[image] 첨부 미리보기 미지원",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "I see I see 咁botox 價錢有嗎？",
+                    "ko": "알겠어요 알겠어요 그럼 botox 가격도 있나요?"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Skin Botox唔一樣的！同一般 Botox 雖然都係使用肉毒桿菌素，但注射層次、方法同功效都唔一樣㗎",
+                    "ko": "Skin Botox는 달라요! 일반 Botox와 둘 다 보툴리눔 독소를 사용하지만, 주사하는 층, 방법과 효과가 서로 달라요"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "一般 Botox：主要注射於肌肉層，放鬆肌肉，改善動態皺紋、咬肌肥大等問題\nSkin Botox：以少量、多點嘅方式注射於較淺層皮膚，主要改善毛孔粗大、油脂分泌及細紋，令皮膚更加細緻平滑",
+                    "ko": "일반 Botox: 주로 근육층에 주사하여 근육을 이완시키고 동적 주름, 저작근(교근) 비대 등의 문제를 개선합니다\nSkin Botox: 소량을 여러 지점에 나누어 비교적 얕은 피부층에 주사하며, 주로 모공 확대, 피지 분비, 잔주름을 개선하여 피부를 더욱 곱고 매끄럽게 만듭니다"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "呢個情況應該係打Botox～",
+                    "ko": "이 경우에는 Botox를 맞아야 할 것 같아요~"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "以下係肉毒每個部位嘅價錢\n• 韓國製：₩32,900\n• 韓國 Coretox：₩42,900\n• 德國 Xeomin：₩77,000\n• 美國 Allergan：₩99,000",
+                    "ko": "아래는 보톡스 부위별 가격입니다\n• 한국산: ₩32,900\n• 한국 Coretox: ₩42,900\n• 독일 Xeomin: ₩77,000\n• 미국 Allergan: ₩99,000"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A34:Q34"
+              },
+              {
+                "id": "W-20261126-T021-4",
+                "recordIds": [
+                  "W-20261126-T021-4"
+                ],
+                "kind": "ops",
+                "country": null,
+                "procedure": "물광주사·골드 마이크로니들·보톡스",
+                "category": "예약 확정",
+                "verdict": "normal-ops",
+                "reason": "예약 확정 양식에 상담료 ₩10,000 문구가 있어 가이드 08(178행)의 양식과 같고, 확정한 날짜·오후 6시·2명도 고객이 요청한 내용과 같다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: Liu Sin Hei · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Btw ! 暫時2位 6:00 😆😆",
+                    "ko": "참고로! 일단 2명 6:00 😆😆"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "姓名（與護照相同）：Liu Sin Hei\n出生日期： [생년월일 가림]\n國籍及慣用語言：香港；廣東話\n希望預約日期及時間： 12月3日 ; 6點\n想做嘅療程：1.水光針/黃金微針+ 肉毒\n2. 水光針 \n從邊個渠道認識我哋： Threads",
+                    "ko": "성함(여권과 동일): Liu Sin Hei\n생년월일: [생년월일 가림]\n국적 및 사용 언어: 홍콩; 광둥어\n희망 예약 날짜 및 시간: 12월 3일 ; 6시\n받고 싶은 시술: 1.물광주사/골드 마이크로니들+ 보톡스\n2. 물광주사 \n저희를 알게 된 경로: Threads"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Lau Kam \n[생년월일 가림]",
+                    "ko": "Lau Kam(라우 캄) \n[생년월일 가림]"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "為咗方便我哋幫您確認預約，麻煩您填寫以下資料～🤍\n\n姓名（與護照相同）：\n出生日期：\n國籍及慣用語言：香港；廣東話\n希望預約日期及時間： 12月3日 ; 6點\n想做嘅療程：\n從邊個渠道認識我哋：（例如 Instagram、Threads、朋友介紹等）\n\n收到資料後，我哋會盡快幫您確認預約～🫶🏻",
+                    "ko": "예약 확인을 도와드리기 위해 아래 정보를 작성해 주세요~🤍\n\n성함(여권과 동일):\n생년월일:\n국적 및 사용 언어: 홍콩; 광둥어\n희망 예약 날짜 및 시간: 12월 3일 ; 6시\n받고 싶은 시술:\n저희를 알게 된 경로: (예: Instagram, Threads, 지인 소개 등)\n\n정보를 받으면 최대한 빨리 예약을 확인해 드리겠습니다~🫶🏻"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "可以提供埋同行姓名同出生日期嗎？",
+                    "ko": "동행하시는 분의 성함과 생년월일도 함께 알려 주실 수 있나요?"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hello～😊🌸 已經成功幫您安排好預約！\n\n📅 預約日期： 2026年12月3日（星期四）\n⏰ 預約時間： 下午6:00\n👤 人數：2位\n\n＊如當日只進行諮詢而不接受任何療程，將收取 ₩10,000 諮詢費；如當日進行療程，則可扣除該費用\n\n📍 診所地址：\n首爾麻浦區楊花路66號，6樓\n66 Yanghwa-ro, Mapo-gu, Seoul, 6F\n\n📍 地圖連結：\n* Naver Map：https://naver.me/x7nICmp3\n* Google Map：https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 到診時記得帶埋護照～\n\n期待到時見到您！🥰🌸\n\nBeauty Blossom Global Clinic Team 🤍",
+                    "ko": "안녕하세요～😊🌸 예약을 성공적으로 잡아 드렸습니다!\n\n📅 예약 날짜: 2026년 12월 3일(목요일)\n⏰ 예약 시간: 오후 6:00\n👤 인원：2명\n\n＊당일 상담만 받고 시술을 받지 않으시면 상담료 ₩10,000이 부과되며, 당일 시술을 받으시면 이 금액은 차감됩니다\n\n📍 병원 주소:\n서울 마포구 양화로 66, 6층\n66 Yanghwa-ro, Mapo-gu, Seoul, 6F\n\n📍 지도 링크:\n* Naver Map: https://naver.me/x7nICmp3\n* Google Map: https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 내원하실 때 여권을 꼭 지참해 주세요～\n\n그때 뵙기를 기대하겠습니다!🥰🌸\n\nBeauty Blossom Global Clinic Team 🤍"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "已經成功幫兩位安排好預約～如果仲有任何問題，都可以隨時問～期待到時見到您！🌸",
+                    "ko": "두 분의 예약을 성공적으로 완료했습니다~ 다른 문의가 있으시면 언제든지 물어보세요~ 그때 뵙기를 기대하겠습니다! 🌸"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A35:Q35"
+              },
+              {
+                "id": "W-20261126-T022",
+                "recordIds": [
+                  "W-20261126-T022"
+                ],
+                "kind": "consult",
+                "country": null,
+                "procedure": "CO2 레이저 점 제거",
+                "category": "가격 및 예약 문의",
+                "verdict": "normal",
+                "reason": "담당자가 안내한 점 제거 최소 금액 11,000원은 수가표 17의 co2 1개 금액(VAT 후)과 같고, 크기에 따라 금액이 달라지며 정확한 금액은 상담에서 안내한다는 설명도 가이드 06(1185행)과 같다. 예약 확정 양식에는 가이드 08(235행)의 상담료 10,000원 문구와 지도 링크가 있고 일시는 고객이 적은 11월 27일 4pm과 같다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: Abel · 방문 구분: 재진 (근거: \"Second time visiting\")"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hi. Can I book an appointment for tomorrow? I want multiple moles removed with co2 laser",
+                    "ko": "안녕하세요. 내일 예약할 수 있을까요? CO2 레이저로 점을 여러 개 제거하고 싶어요"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hi. Can I book an appointment for tomorrow?",
+                    "ko": "안녕하세요. 내일 예약할 수 있을까요?"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "I want mole removal",
+                    "ko": "점 제거를 하고 싶어요"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "4 pm",
+                    "ko": "오후 4시"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Abel Tewelde Segaye \n[생년월일 가림]\nNorway\n11.27 4pm\nMole removal\nSecond time visiting",
+                    "ko": "Abel Tewelde Segaye(아벨 테웰데 세가예) \n[생년월일 가림]\n노르웨이\n11.27 오후 4시\n점 제거\n두 번째 방문"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hello!  May I know what time you would prefer tomorrow?\nOur mole removal treatment ranges from ₩11,000 to ₩55,000 per mole, depending on the size and condition of the mole.\nThe exact price will be confirmed during your in-person consultation.",
+                    "ko": "안녕하세요!  내일 몇 시를 원하시는지 알려주시겠어요?\n저희 점 제거 시술은 점의 크기와 상태에 따라 점 하나당 ₩11,000에서 ₩55,000입니다.\n정확한 가격은 직접 내원하여 상담하실 때 안내해 드립니다."
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "To proceed with your booking, please kindly fill out the reservation form above. 💗",
+                    "ko": "예약을 진행하려면 위의 예약 양식을 작성해 주세요. 💗"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Your reservation has been scheduled for the following date and time:\n\n📅 Day :  27th / Nov / 2026\n⏰ Time : 4pm\n\n📍Location : 66 Yanghwa-ro, Mapo, Seoul, 6F  \n\nLink for location \n* Naver Map : https://naver.me/5ap1E0ph\n* Google : https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 Please bring your Alien Registration Card or Passport with you.\n\n If you only have a consultation on the day of your appointment and do not proceed with any treatment, a consultation fee of ₩10,000 will apply.\n\nWe look forward to meeting you soon.🥰\n\nThank you 🙂\n\nBeauty Blossom Global Clinic Team🌸",
+                    "ko": "다음 날짜와 시간으로 예약이 잡혔습니다:\n\n📅 날짜 :  2026년 11월 27일\n⏰ 시간 : 오후 4시\n\n📍위치 : 서울 마포구 양화로 66, 6층  \n\n위치 링크 \n* 네이버 지도 : https://naver.me/5ap1E0ph\n* 구글 : https://maps.app.goo.gl/WPtmsPPFVFxyXG2J8\n\n💳 외국인등록증 또는 여권을 지참해 주세요.\n\n 예약 당일 상담만 받고 시술을 진행하지 않으시면 상담료 ₩10,000이 부과됩니다.\n\n곧 뵙기를 기대하겠습니다.🥰\n\n감사합니다 🙂\n\n뷰티블라썸 글로벌 클리닉 팀🌸"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Thank you for your booking request! Your reservation has been successfully arranged 🌸\nIf you have any other questions, please feel free to ask us anytime! 😊",
+                    "ko": "예약 요청해 주셔서 감사합니다! 예약이 정상적으로 완료되었습니다 🌸\n다른 문의가 있으시면 언제든지 편하게 말씀해 주세요! 😊"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A36:Q36"
+              },
+              {
+                "id": "W-20261126-T022-2",
+                "recordIds": [
+                  "W-20261126-T022-2"
+                ],
+                "kind": "consult",
+                "country": null,
+                "procedure": "CO2 레이저 점 제거",
+                "category": "재제거 가능 여부 문의",
+                "verdict": "followup",
+                "reason": "가이드 02는 CO2 레이저 동일 부위 재시술이 3달 이후부터 가능하다고 안내하는데(2495행), 고객이 2개월 전에 제거한 점의 재제거를 묻자 담당자는 상담에서 적합 여부를 살펴보겠다고만 답하고 이 기간은 알리지 않았다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: Abel · 방문 구분: 재진 (근거: \"I had a mole removed 2 months ago\")"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "I had a mole removed 2 months ago but it has grown back. Can I take a new removal for that mole?",
+                    "ko": "2개월 전에 점을 제거했는데 다시 자랐어요. 그 점을 새로 제거받을 수 있나요?"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "We will first examine the mole during your consultation to determine whether it is suitable and safe to remove again. We'll then recommend the most appropriate treatment for you.",
+                    "ko": "상담 때 먼저 점을 살펴보고 다시 제거해도 적합하고 안전한지 판단하겠습니다. 그런 다음 가장 적합한 시술을 권해 드리겠습니다."
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A37:Q37"
+              },
+              {
+                "id": "W-20261126-T023",
+                "recordIds": [
+                  "W-20261126-T023"
+                ],
+                "kind": "consult",
+                "country": null,
+                "procedure": "XERF·주름 보톡스",
+                "category": "시술 후 안내문",
+                "verdict": "normal",
+                "reason": "담당자가 보낸 주름 보톡스와 RF 리프팅(XERF) 시술 후 안내문은 가이드 09의 같은 제목 영문 안내문(459~467행, 5597~5606행)과 항목·기간·효과 시기가 같다.",
+                "questionDate": null,
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: Rachel Kim · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "note": "직접 작성한 질문 없음 (병원이 먼저 보낸 안내)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Thank you for visiting Beauty Blossom Clinic today! 😊\n\n📅 Visit Date: 2026/11/26\n👤 Name: Rachel Kim\n\nBelow are the treatments you received today:\n1. Xerf 600shots+led+Sheet Mask\n2. Wrinkle botox(Xeomin)\n\nPlease follow the aftercare instructions for each treatment listed below.\n\n😊 Wrinkle Botox (Crow’s Feet / Under-Eyes / Forehead / Glabella / Nose / Chin, etc.) – Aftercare Instructions 😊\n\n• Mild redness, swelling, tenderness, or bruising may occur at the injection sites. These symptoms usually gradually improve within a few days to 1–2 weeks.\n• You may gently wash your face and shower 4 hours after the treatment. You may apply makeup as usual from the following day.\n• For 2 weeks after treatment, avoid alcohol, smoking, saunas, steam rooms, strenuous exercise, and at-home beauty devices. 🍷\n• For 2 weeks after treatment, avoid rubbing or applying strong pressure to the treated areas. Please also avoid facial massage and gua sha.\n• In rare cases, temporary heaviness around the eyebrows, asymmetry of the eyebrows or eyes, or drooping of the eyelids or eyebrows may occur. If these symptoms are severe or continue to worsen, please contact the clinic. 📞\n\n⏳ When Will I See the Results?\n• The effects generally become more noticeable and stabilize within approximately 1–2 weeks after treatment.\n• Results generally last for approximately 3 months.\n\n🔥 Radiofrequency (RF) Lifting (Thermage FLX / Density / XERF, etc.) – Aftercare Instructions 🔥\n\n• You may gently wash your face, shower, and apply makeup from the day of treatment.\n• Mild redness, swelling, warmth, or a tight sensation may occur after treatment. These symptoms usually gradually improve within a few days.\n• For 1 week after treatment, avoid alcohol, smoking, saunas, steam rooms, and strenuous exercise. 🍷\n• Keep your skin well moisturized and apply sunscreen regularly. For the time being, avoid acidic skincare products, retinol, exfoliation, and strong massage. ☀️\n• If you develop blisters, or if a burning sensation or significant pain persists, please contact the clinic immediately. 📞\n\n⏳ When Will I See the Results?\n\n• The effects of RF lifting develop gradually. Improvements in firmness and facial contour can generally be noticed over several weeks to several months after treatment.\n• Results may continue to become more noticeable over approximately 3–6 months.\n\nIf you experience any discomfort or have any questions, please feel free to contact us anytime. Thank you! 💗\"",
+                    "ko": "오늘 뷰티블라썸의원에 방문해 주셔서 감사합니다! 😊\n\n📅 방문일: 2026/11/26\n👤 성함: Rachel Kim\n\n오늘 받으신 시술은 아래와 같습니다:\n1. Xerf 600샷+LED+시트 마스크\n2. 주름 보톡스(Xeomin)\n\n아래에 나열된 각 시술의 시술 후 주의사항을 따라 주세요.\n\n😊 주름 보톡스(눈가 / 눈밑 / 이마 / 미간 / 콧등 / 턱 등) – 시술 후 주의사항 😊\n\n• 주사 부위에 가벼운 붉어짐, 부기, 압통 또는 멍이 생길 수 있으며, 대부분 수일에서 1~2주 이내에 점차 완화됩니다.\n• 시술 4시간 후부터 가볍게 세안 및 샤워가 가능하며, 다음 날부터 평소처럼 화장하셔도 됩니다.\n• 시술 후 2주 동안은 음주, 흡연, 사우나, 찜질방, 격한 운동 및 집에서 사용하는 미용기기를 피해 주세요. 🍷\n• 시술 후 2주 동안은 시술 부위를 강하게 문지르거나 누르지 마시고, 안면 마사지 및 괄사 사용도 피해 주세요.\n• 드물게 일시적으로 눈썹이 눌리는 듯한 무거움, 눈썹이나 눈매의 비대칭, 눈꺼풀 또는 눈썹 처짐이 나타날 수 있습니다. 증상이 심하거나 계속 악화되면 병원으로 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n• 일반적으로 시술 후 약 1~2주 이내에 효과가 더욱 뚜렷해지고 안정됩니다.\n• 효과는 일반적으로 약 3개월 정도 유지됩니다.\n\n🔥 고주파(RF) 리프팅(써마지 FLX / 덴서티 / 세르프(XERF) 등) – 시술 후 주의사항 🔥\n\n• 시술 당일부터 가볍게 세안, 샤워 및 화장이 가능합니다.\n• 시술 후 가벼운 붉어짐, 부기, 열감 또는 당기는 느낌이 나타날 수 있으며, 대부분 수일 이내에 점차 완화됩니다.\n• 시술 후 1주 동안은 음주, 흡연, 사우나, 찜질방 및 격한 운동을 피해 주세요. 🍷\n• 보습과 자외선 차단에 신경 써 주시고, 당분간 산 성분 제품, 레티놀, 각질 제거 및 강한 마사지는 피해 주세요. ☀️\n• 물집이 생기거나 화끈거림 또는 뚜렷한 통증이 지속되는 경우 즉시 병원으로 연락해 주세요. 📞\n\n⏳ 효과는 언제부터 나타나나요?\n\n• 고주파 리프팅 효과는 서서히 나타나며, 일반적으로 시술 후 수주에서 수개월에 걸쳐 탄력 및 윤곽 변화를 느낄 수 있습니다.\n• 약 3~6개월 동안 효과가 점차 더욱 뚜렷해질 수 있습니다.\n\n불편한 점이 있거나 궁금한 점이 있으시면 언제든지 편하게 연락 주세요. 감사합니다! 💗\""
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A38:Q38"
+              },
+              {
+                "id": "W-20261126-T024",
+                "recordIds": [
+                  "W-20261126-T024"
+                ],
+                "kind": "ops",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "프로모션 가격표 링크 안내",
+                "verdict": "normal-ops",
+                "reason": "연락처를 남긴 고객에게 담당자가 공식 영문 홈페이지의 프로모션 가격표 링크와 관심 시술·피부 고민을 알려 달라는 안내를 보냈다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: 확인되지 않음 · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "note": "직접 작성한 질문 없음 (병원이 먼저 보낸 안내)"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hello! 🌸 This is Beauty Blossom Clinic. Thank you for your interest in our clinic and for leaving your contact details with us!\n\nHere is the link to our full promotional price list for your reference:\n\nBeauty Blossom Full Promotional Price List:\nhttps://en.beautyblossom.kr/22\n\nIf you have difficulty finding a specific treatment, please feel free to let us know which treatments you're interested in or what your main skin concerns are.\nWe'll be happy to assist you and recommend suitable treatment options based on your needs. \n\nWe look forward to hearing from you!",
+                    "ko": "안녕하세요! 🌸 뷰티블라썸 클리닉입니다. 저희 병원에 관심을 가져 주시고 연락처를 남겨 주셔서 감사합니다!\n\n참고하실 수 있도록 전체 프로모션 가격표 링크를 보내드립니다:\n\nBeauty Blossom 전체 프로모션 가격표:\nhttps://en.beautyblossom.kr/22\n\n특정 시술을 찾기 어려우시면 관심 있는 시술이나 주요 피부 고민을 편하게 알려 주세요.\n고객님의 필요에 맞는 시술을 기꺼이 안내하고 추천해 드리겠습니다. \n\n연락을 기다리겠습니다!"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A39:Q39"
+              },
+              {
+                "id": "W-20261126-T025",
+                "recordIds": [
+                  "W-20261126-T025"
+                ],
+                "kind": "ops",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "상담 진행 방식·통역 문의",
+                "verdict": "normal-ops",
+                "reason": "상담 진행 방식과 통역 가능 여부 질문에 담당자가 일대일 상담 후 고객이 충분히 이해한 뒤 시술을 결정하면 된다고 답했다. 가이드 05의 상담 응대 예시도 설명을 충분히 듣고 시술은 생각한 뒤 결정하도록 안내한다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: CC🥤 · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hi 請問你哋係唔係流水線？",
+                    "ko": "안녕하세요, 혹시 그쪽은 流水線(환자를 컨베이어 벨트처럼 빠르게 처리하는 공장식) 병원인가요?"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "請問諮詢嘅係院長定係邊個？會唔會有翻譯陪同",
+                    "ko": "상담은 원장님이 하시나요, 아니면 어느 분이 하시나요? 통역이 동행하나요?"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hello～我哋診所正式進行療程前，我哋會安排一對一諮詢，根據您嘅皮膚狀況、個人需求同預算，提供適合您嘅療程建議。如有需要，亦可以安排醫生一對一面診\n您可以喺充分了解療程內容後，再決定是否進行，唔需要提前決定，亦唔會強制推銷療程～",
+                    "ko": "안녕하세요～ 저희 병원은 시술을 본격적으로 진행하기 전에 일대일 상담을 마련하여, 고객님의 피부 상태, 개인적인 필요와 예산에 맞는 시술을 추천해 드립니다. 필요하시면 의사 선생님과의 일대일 대면 진료도 마련해 드릴 수 있습니다\n시술 내용을 충분히 이해하신 뒤에 진행 여부를 결정하시면 되고, 미리 결정하실 필요도 없으며 시술을 강요하지도 않습니다～"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "一般會先由專業諮詢師為您進行一對一諮詢，了解您嘅皮膚狀況、個人需求及預算，再提供合適嘅療程建議，最後會由醫生確認療程方案😊我哋亦有香港職員，可以諮詢期間提供廣東話翻譯服務，方便您同諮詢師及醫生溝通",
+                    "ko": "보통은 먼저 전문 상담사가 일대일 상담으로 고객님의 피부 상태, 개인적인 필요와 예산을 파악한 뒤 알맞은 시술을 추천해 드리고, 마지막에 의사 선생님이 시술 계획을 확인합니다😊 저희에게는 홍콩 직원도 있어 상담 중 광둥어 통역을 제공해 드릴 수 있어, 상담사 및 의사 선생님과 소통하시기 편합니다"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A40:Q40"
+              },
+              {
+                "id": "W-20261126-T026",
+                "recordIds": [
+                  "W-20261126-T026"
+                ],
+                "kind": "ops",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "프로모션 문의",
+                "verdict": "normal-ops",
+                "reason": "12월 프로모션 문의에 직원이 12월 프로모션은 아직 나오지 않았다고 알리고, 지금 예약하면 12월 방문에 11월 프로모션 가격을 적용해 줄 수 있다고 안내했다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: Jennifer S · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hello, do you have any December promotion? I will be in Korea in December",
+                    "ko": "안녕하세요, 12월 프로모션이 있나요? 저는 12월에 한국에 있을 예정이에요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hello Jennifer! 😊🌸This is Beauty Blossom Clinic. Thank you for reaching out to us! 💗",
+                    "ko": "안녕하세요 Jennifer님! 😊🌸 뷰티블라썸의원입니다. 연락 주셔서 감사합니다! 💗"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Here is the link to our full promotional price list for your reference:\nBeauty Blossom Full Promotion Price List : https://en.beautyblossom.kr/22\nIf you have any difficulty finding a specific treatment, please let us know which treatment you’re interested in or what your main concerns are, and we’ll be happy to help you. 😊🤍",
+                    "ko": "참고하실 수 있도록 전체 프로모션 가격표 링크를 보내드립니다:\nBeauty Blossom 전체 프로모션 가격표 : https://en.beautyblossom.kr/22\n특정 시술을 찾기 어려우시면 관심 있는 시술이나 주요 고민을 알려 주세요. 기꺼이 도와드리겠습니다. 😊🤍"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hello! our December promotions haven't been released yet, but you can take a look at our current November promotions for reference!\nIf you make a reservation now for your visit in December, we can honor the November promotional prices for you.",
+                    "ko": "안녕하세요! 12월 프로모션은 아직 공개되지 않았지만, 현재 진행 중인 11월 프로모션을 참고용으로 살펴보실 수 있습니다!\n지금 12월 방문 예약을 하시면 11월 프로모션 가격을 적용해 드릴 수 있습니다."
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A41:Q41"
+              },
+              {
+                "id": "W-20261126-T026-2",
+                "recordIds": [
+                  "W-20261126-T026-2"
+                ],
+                "kind": "consult",
+                "country": null,
+                "procedure": "큐페이셜·아쿠아필",
+                "category": "시술 추천·가격 문의",
+                "verdict": "followup",
+                "reason": "큐페이셜 1회 178,750원은 수가표 10(299행)과 같지만, 고객이 딥클렌징과 함께 찾은 아쿠아필에 대해서는 답하지 않았다. 수가표 10(291행)에는 아쿠아필이 들어간 기본 관리 1회 57,750원이 있다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: Jennifer S · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "That's great. I am looking specifically for aqua peel and deep cleansing. There's so much things on your promotion, I am having trouble finding it. Can you tell me more about this specific treatment?",
+                    "ko": "좋네요. 저는 특히 아쿠아필과 딥클렌징을 찾고 있어요. 프로모션에 항목이 너무 많아서 찾기가 어렵네요. 이 특정 시술에 대해 더 알려 주시겠어요?"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "How long does the treatment takes and the cost?",
+                    "ko": "시술 시간은 얼마나 걸리고 비용은 얼마인가요?"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Thank you for the information, I will contact you again soon for booking an appointment",
+                    "ko": "정보 감사합니다. 곧 다시 연락해서 예약하겠습니다"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "For deep cleansing, we would recommend our Q-Facial treatment! It focuses on deep pore cleansing, removing excess sebum, dead skin cells, and impurities, while helping to improve skin texture and hydration. It's a great option if your main concerns are clogged pores, blackheads, or dull skin.",
+                    "ko": "딥클렌징에는 저희 Q-Facial 시술을 추천드립니다! 모공 깊은 곳 클렌징에 중점을 두어 과도한 피지, 각질, 불순물을 제거하면서 피부결과 수분 개선에도 도움을 줍니다. 주요 고민이 막힌 모공, 블랙헤드 또는 칙칙한 피부라면 아주 좋은 선택입니다."
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "Here is our Q-Facial treatment price ! \n• Price: ₩178,750 per session\n• Treatment duration: Approximately 45 minutes\nWe currently do not have any special promotions for facial treatments🤍",
+                    "ko": "Q-Facial 시술 가격을 안내해 드립니다! \n• 가격: 1회 ₩178,750\n• 시술 시간: 약 45분\n현재 페이셜 시술에 대한 특별 프로모션은 없습니다🤍"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "You're very welcome! Please feel free to contact us anytime when you're ready to book. We look forward to welcoming you to our clinic!",
+                    "ko": "천만에요! 예약할 준비가 되시면 언제든지 편하게 연락 주세요. 병원에서 뵙기를 기대하겠습니다!"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A42:Q42"
+              },
+              {
+                "id": "W-20261126-T027",
+                "recordIds": [
+                  "W-20261126-T027"
+                ],
+                "kind": "ops",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "외부 업체 구매 제안",
+                "verdict": "normal-ops",
+                "reason": "외부 업체의 구매 담당자 소개 문의에 담당자가 현재 구매 수요가 없다고 응답했다.",
+                "questionDate": "2026-11-26",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: Lucky · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "哈嘍您好",
+                    "ko": "안녕하세요"
+                  },
+                  {
+                    "date": "2026-11-26",
+                    "original": "我們是香港醫美供貨商，童顏針、逆時針這些我們都有在供應，能幫忙推薦下貴司的採購人員嗎，發下報價給你們參考下",
+                    "ko": "저희는 홍콩의 의료미용 제품 공급업체로, 동안 주사(童顏針)와 역시계 주사(逆時針) 같은 제품을 모두 공급하고 있습니다. 귀사의 구매 담당자를 소개해 주실 수 있을까요? 참고하실 수 있도록 견적을 보내 드리겠습니다."
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "您好，感謝您的聯絡！目前我們暫時沒有相關採購需求，如日後有需要會再與您聯絡，謝謝！😊",
+                    "ko": "안녕하세요, 연락 주셔서 감사합니다! 현재로서는 관련 구매 수요가 없으며, 추후 필요하게 되면 다시 연락드리겠습니다. 감사합니다! 😊"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A43:Q43"
+              }
+            ],
+            "merged": [
+              {
+                "recordId": "W-20261126-T001",
+                "intoDate": "2026-11-25",
+                "intoId": "W-20261126-T001"
+              },
+              {
+                "recordId": "W-20261126-T007",
+                "intoDate": "2026-11-25",
+                "intoId": "W-20261126-T007"
+              }
+            ],
+            "unavailable": {
+              "recordIds": [
+                "W-20261126-U001",
+                "W-20261126-U002",
+                "W-20261126-U003"
+              ],
+              "reasons": [
+                {
+                  "reason": "답변 전 새 채팅 메시지",
+                  "recordIds": [
+                    "W-20261126-U001",
+                    "W-20261126-U002",
+                    "W-20261126-U003"
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "platform": "whatsapp",
           "date": "2026-11-25",
           "status": "partial",
           "auditState": "source-availability-partial",
@@ -163911,7 +173422,7 @@ window.SUPERVISION_DATA = {
           "conversations": [],
           "issues": [],
           "followUps": [],
-          "reviewScope": "와츠앱 11월 25일 활동한 21방 중 19방의 질문과 답변을 확인해 상담 카드 22건을 만들었다. 11월 24일 문의에 답한 3건은 문의한 날짜인 11월 24일 카드에 넣었다. 답변 전 새 채팅 메시지 3건은 판정하지 않았다. 수신기에 남은 메시지만 읽었고 이 날짜의 전체 상담 수는 미확인이다.",
+          "reviewScope": "와츠앱 11월 25일 활동한 21방 중 19방의 질문과 답변을 확인해 상담 카드 22건을 만들었다. 11월 24일 문의에 답한 3건은 문의한 날짜인 11월 24일 카드에 넣었다. 11월 26일 답변이 나간 이 날짜 문의 2건을 더해 상담 카드 24건이 되었다. 답변 전 새 채팅 메시지 3건은 판정하지 않았다. 수신기에 남은 메시지만 읽었고 이 날짜의 전체 상담 수는 미확인이다.",
           "availabilityCoverage": {
             "targetDate": "2026-11-25",
             "observedAt": "2026-11-26T00:00:20.881Z",
@@ -163921,7 +173432,7 @@ window.SUPERVISION_DATA = {
             "observedCandidateCount": 21,
             "bodyRoomsOpened": 19,
             "actualBodyDateMembership": "confirmed-subset",
-            "reason": "수신기가 최근 24시간 안에 받은 메시지만 보관해 3시간마다 저장한 스냅샷(이 날짜와 겹치는 저장 13회, 마지막 저장 2026-11-26 09:00 KST)에 남은 메시지를 읽었다. 저장본이 이어지지 않은 구간은 없었다.",
+            "reason": "수신기가 최근 24시간 안에 받은 메시지만 보관해 3시간마다 저장한 스냅샷(이 날짜와 겹치는 저장 13회, 마지막 저장 2026-11-26 09:00 KST)에 남은 메시지를 읽었다. 저장본이 이어지지 않은 구간은 없었다. 11월 26일 이어진 응대는 11월 27일 오전 저장본과 대조했다.",
             "safetyNotes": [
               "저장된 대화에서 원문·화자·날짜를 대조한 메시지만 상담 카드에 연결했다.",
               "방 안에서 입력·전송·읽음 처리 없이 받은 메시지만 읽었다.",
@@ -164690,6 +174201,60 @@ window.SUPERVISION_DATA = {
               "targetDayState": "unknown",
               "targetDate": "2026-11-25",
               "hasOriginal": false
+            },
+            {
+              "id": "W-20261126-T001",
+              "country": null,
+              "consultationAt": "2026-11-25T22:07:01+09:00",
+              "language": "영어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 3,
+                "firstAt": "2026-11-25T22:07:01+09:00",
+                "lastAt": "2026-11-25T22:07:39+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-26T10:11:34+09:00",
+                "lastAt": "2026-11-26T10:11:34+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A2:Q2",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-25",
+              "hasOriginal": true
+            },
+            {
+              "id": "W-20261126-T007",
+              "country": null,
+              "consultationAt": "2026-11-25T23:08:18+09:00",
+              "language": "영어",
+              "sourceState": "observed",
+              "question": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-25T23:08:18+09:00",
+                "lastAt": "2026-11-25T23:08:18+09:00"
+              },
+              "answer": {
+                "state": "withheld-private",
+                "messageCount": 1,
+                "firstAt": "2026-11-26T10:04:20+09:00",
+                "lastAt": "2026-11-26T10:04:20+09:00"
+              },
+              "verdict": "unreviewed",
+              "reason": "상담 카드에서 판정했다.",
+              "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A10:Q10",
+              "scopeNote": "대화 본문 확보. 원문과 한국어 번역은 제한 원장 행에 보관했다.",
+              "recordKind": "operating-only",
+              "targetDayState": "confirmed",
+              "targetDate": "2026-11-25",
+              "hasOriginal": true
             }
           ],
           "qaReviewFinalization": {
@@ -165633,6 +175198,80 @@ window.SUPERVISION_DATA = {
                   }
                 ],
                 "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=954039327&range=A26:Q26"
+              },
+              {
+                "id": "W-20261126-T001",
+                "recordIds": [
+                  "W-20261126-T001"
+                ],
+                "kind": "ops",
+                "country": null,
+                "procedure": "확인되지 않음",
+                "category": "시술 후 증상 문의",
+                "verdict": "normal-ops",
+                "reason": "고객이 사진과 함께 입 옆 붉은기와 건조함이 정상인지 물었고, 직원은 증상이 시술 직후 생겼는지 최근 생겼는지 되물어 상담을 이어갔다.",
+                "questionDate": "2026-11-25",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: Shella · 방문 구분: 재진 (근거: \"Did it appear shortly after your treatments, or did it only develop recently?\")"
+                  },
+                  {
+                    "date": "2026-11-25",
+                    "original": "Hi I have some redness and also a dry patch next to mouth. Here’s a photo. Is this normal?",
+                    "ko": "안녕하세요, 입 옆에 붉은기가 있고 건조한 부위도 있어요. 사진을 보냅니다. 이거 정상인가요?"
+                  },
+                  {
+                    "date": "2026-11-25",
+                    "original": "[image] 첨부 미리보기 미지원",
+                    "lang": "ko"
+                  },
+                  {
+                    "date": "2026-11-25",
+                    "original": "I usually never get redness",
+                    "ko": "저는 평소에 붉어지는 일이 전혀 없어요"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hello! Thank you for sharing the photo with us.  May I kindly ask when you first noticed the redness and dryness around your mouth? Did it appear shortly after your treatments, or did it only develop recently?\nWe'd like to better understand your symptoms before providing further guidance.",
+                    "ko": "안녕하세요! 사진을 공유해 주셔서 감사합니다.  입 주변의 붉은기와 건조함을 처음 알아차리신 시점이 언제인지 여쭤봐도 될까요? 시술을 받으신 직후에 나타났나요, 아니면 최근에서야 생겼나요?\n추가 안내를 드리기 전에 증상을 더 잘 이해하고 싶습니다."
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A2:Q2"
+              },
+              {
+                "id": "W-20261126-T007",
+                "recordIds": [
+                  "W-20261126-T007"
+                ],
+                "kind": "ops",
+                "country": null,
+                "procedure": "XERF·리쥬란 아이",
+                "category": "시술 추천·협업 문의",
+                "verdict": "normal-ops",
+                "reason": "고객이 한 번 방문으로 효과를 볼 시술 추천을 물었고, 직원은 협업 제안을 내부에서 검토 중이라 팀 논의 뒤 시술 추천과 함께 회신하겠다고 안내하며 공식 홈페이지 링크를 보냈다.",
+                "questionDate": "2026-11-25",
+                "finalReplyDate": "2026-11-26",
+                "customer": [
+                  {
+                    "note": "환자명: Sajna · 방문 구분: 확인되지 않음"
+                  },
+                  {
+                    "date": "2026-11-25",
+                    "original": "Id like to know more about XERF, and perhaps rejuran eye treatment. I know many treatments require multiple sessions to see results but for the purpose of the video I would like to make sure I get a treatment where I can show results within one visit. What would you recommend?",
+                    "ko": "XERF와 어쩌면 리쥬란 아이 시술에 대해 더 알고 싶어요. 많은 시술이 효과를 보려면 여러 회차가 필요하다는 건 알지만, 영상 촬영 목적상 한 번 방문으로 효과를 보여 줄 수 있는 시술을 받고 싶어요. 어떤 시술을 추천하시나요?"
+                  }
+                ],
+                "staff": [
+                  {
+                    "date": "2026-11-26",
+                    "original": "Hi Sajna!  Thank you for sharing your treatment preferences! We're still reviewing your collaboration proposal internally and haven't finalized the collaboration or treatment options yet.\nOnce we've discussed everything with our team, we'll get back to you with an update and our treatment recommendations! 😊 In the meantime, if you'd like to learn more about our treatments, feel free to explore our website or Instagram page for more information! https://en.beautyblossom.kr/\nThank you for your patience and understanding! 💗",
+                    "ko": "안녕하세요 Sajna님!  원하시는 시술을 공유해 주셔서 감사합니다! 협업 제안은 아직 내부에서 검토 중이며 협업과 시술 옵션은 아직 확정하지 않았습니다.\n팀과 모든 내용을 논의한 뒤 진행 상황과 시술 추천을 안내해 드리겠습니다! 😊 그동안 저희 시술에 대해 더 알아보고 싶으시면 웹사이트나 Instagram 페이지에서 더 많은 정보를 편하게 살펴보세요! https://en.beautyblossom.kr/\n기다려 주시고 이해해 주셔서 감사합니다! 💗"
+                  }
+                ],
+                "privateRecordUrl": "https://docs.google.com/spreadsheets/d/1633OOS-YLm2s0UdgWvg4bA_n798Bc3aElIy6ssyC4Sc/edit#gid=636278303&range=A10:Q10"
               }
             ],
             "merged": [
@@ -200794,6 +210433,6 @@ window.SUPERVISION_DATA = {
   },
   "reportingCoverage": {
     "startDate": "2026-10-29",
-    "endDate": "2026-11-25"
+    "endDate": "2026-11-26"
   }
 };
